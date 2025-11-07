@@ -12,8 +12,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Output configuration for standalone mode (optimized for Apache/GCP deployment)
-  output: "standalone",
   // Asset prefix and base path - configured for production
   assetPrefix: undefined,
   basePath: "",

@@ -1,6 +1,7 @@
-fix: Add us.budgetbeepro.com to Next.js remote image patterns
+fix: Remove standalone output mode for Vercel compatibility
 
-- Whitelist us.budgetbeepro.com CDN hostname in next.config.mjs
-- Fixes remote image optimization for images from budgetbeepro.com domain
-- Resolves image rendering issues on production deployment
-- Ensures all remote CDN images load correctly via Next.js Image component
+- Removed 'output: "standalone"' from next.config.mjs
+- Standalone mode is incompatible with Vercel's serverless architecture
+- This was preventing Next.js image optimization from working on Vercel
+- Fixes remote image rendering issues on staging deployment
+- Images from all whitelisted CDN domains should now load correctly
