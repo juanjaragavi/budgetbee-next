@@ -4,6 +4,8 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { HeroSection } from "@/components/layout/hero-section";
 import { FiftyFiftySection } from "@/components/layout/fifty-fifty-section";
+import { WorkflowSection } from "@/components/layout/workflow-section";
+import { CallToAction } from "@/components/layout/call-to-action";
 import { FeaturedPostsGrid } from "@/components/ui/featured-posts-grid";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { useState, useMemo } from "react";
@@ -1001,14 +1003,15 @@ export default function Home() {
       <FiftyFiftySection
         title="Master Your Budget Without the Stress"
         description="Budgeting doesn't have to be complicated or restrictive. Learn practical strategies that work with your lifestyle, not against it. From the 50/30/20 rule to zero-based budgeting, we break down different approaches so you can find what clicks for you. Plus, discover the best free tools and apps to automate your financial success."
-        imageSrc="/images/service-slide-2.png"
-        imageAlt="Personal loan comparison"
+        imageSrc="/images/service-slide-3.png"
+        imageAlt="Budgeting strategies and tools"
         ctaText="Learn Budgeting Basics"
-        ctaLink="/personal-loans"
+        ctaLink="/blog"
         imagePosition="left"
         bgColor="light"
       />
 
+      {/* Latest Articles Section */}
       <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto px-4">
           {/* Latest Articles */}
@@ -1056,6 +1059,24 @@ export default function Home() {
             ))}
         </div>
       </section>
+
+      {/* Workflow Section */}
+      <WorkflowSection
+        title="How BudgetBee Helps You Win Financially"
+        description="Three simple steps to better financial decisions: Learn from unbiased guides, Apply practical strategies to your life, and Grow your financial confidence. No complex systems, no expensive courses – just straightforward advice that works."
+        imageSrc="/images/banner.png"
+        imageAlt="BudgetBee workflow illustration"
+      />
+
+      {/* Call to Action Section */}
+      <CallToAction
+        title="Ready to Take Control of Your Finances?"
+        content="Join thousands of Gen-Z and Millennials who are making smarter money moves with BudgetBee. Start exploring our unbiased guides and practical tips – no sign-up required."
+        imageSrc="/images/service-slide-2.png"
+        imageAlt="Start your financial journey with BudgetBee"
+        buttonText="Browse Financial Guides"
+        buttonLink="/blog"
+      />
 
       <Footer />
     </main>

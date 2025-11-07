@@ -3,7 +3,7 @@
   
   # BudgetBee - Next.js Project
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-kardtrust-blue?logo=github)](https://github.com/juanjaragavi/kardtrust)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-kardtrust-blue?logo=github)](https://github.com/juanjaragavi/budgetbee-next-next)
 
 </div>
 
@@ -11,7 +11,7 @@ This is a Next.js 15+ project for BudgetBee, a financial services comparison web
 
 ## Repository
 
-- **GitHub**: [https://github.com/juanjaragavi/kardtrust](https://github.com/juanjaragavi/kardtrust)
+- **GitHub**: [https://github.com/juanjaragavi/budgetbee-next-next](https://github.com/juanjaragavi/budgetbee-next-next)
 - **Website**: [https://budgetbeepro.com](https://budgetbeepro.com)
 
 ## Tech Stack

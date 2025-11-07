@@ -391,34 +391,32 @@ export default function ContactUs() {
 
             <div className="space-y-4 text-left">
               <h2 className="text-2xl font-semibold text-gray-800">
-                Are you wondering how to achieve significant change in your
-                personal finances?
+                Why you should contact us!
               </h2>
 
               <p className="text-gray-700">
-                If you're ready to embark on a transformative journey toward
-                financial stability and prosperity, we're here to accompany you.
-                Contact us through our email at{" "}
-                <span className="font-semibold text-[#2E74B5]">
+                Have questions about personal finance, budgeting, or our
+                financial recommendations? Our team is here to help you make
+                informed financial decisions. Reach out to us for unbiased
+                financial guidance tailored to your needs.
+              </p>
+
+              <ul className="space-y-2 text-gray-700">
+                <li className="font-semibold">
+                  Mail:{" "}
                   <a
                     href="mailto:info@budgetbeepro.com"
+                    className="text-primary hover:underline"
                     rel="noopener noreferrer"
                   >
                     info@budgetbeepro.com
                   </a>
-                </span>{" "}
-                or complete the form to share your questions, ideas, or plans.
-              </p>
-
-              <p className="text-gray-700">
-                We commit to responding promptly and being your allies at every
-                stage of this exciting journey that will transform your
-                financial life.
-              </p>
-
-              <p className="text-gray-700 font-semibold">
-                We look forward to hearing from you soon!
-              </p>
+                </li>
+                <li className="font-semibold">
+                  Address: PANAMA, PANAMA CITY, AV. AQUILINO DE LA GUARDIA,
+                  OCEAN BUSINESS PLAZA BUILDING, FLOOR 12
+                </li>
+              </ul>
             </div>
           </div>
 

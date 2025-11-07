@@ -5,11 +5,11 @@
   "description": "BudgetBee - Your Guide to US Credit Cards & Loans",
   "repository": {
     "type": "git",
-    "url": "https://github.com/juanjaragavi/budgetbee.git"
+    "url": "https://github.com/juanjaragavi/budgetbee-next.git"
   },
   "homepage": "https://budgetbeepro.com",
   "bugs": {
-    "url": "https://github.com/juanjaragavi/budgetbee/issues"
+    "url": "https://github.com/juanjaragavi/budgetbee-next/issues"
   },
   "author": "Juan Jaramillo <juan@topfinanzas.com>",
   "scripts": {
