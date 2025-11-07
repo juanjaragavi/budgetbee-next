@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #dc2626;
+  --primary-light: #ef4444;
+  --primary-dark: #b91c1c;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --accent-lighter: #60a5fa;
+  --accent-dark: #1d4ed8;
+  --cyan: #4ecce6;
+  --background: #f8f9fa;
+  --foreground: #333333;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.progress-bar-container {
+  background-color: #e9ecef;
+  border-radius: 9999px;
+  height: 8px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--primary) 100%);
+  transition: width 0.5s ease;
+}
+
+.option-button {
+  transition: all 0.3s ease;
+}
+
+.option-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.option-button.selected {
+  background-color: var(--primary);
+  color: white;
+}
+
+.option-button .circle {
+  background-color: white;
+  color: var(--primary);
+  transition: all 0.3s ease;
+}
+
+.option-button.selected .circle {
+  background-color: var(--accent);
+  color: white;
+}

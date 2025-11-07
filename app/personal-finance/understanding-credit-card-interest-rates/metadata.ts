@@ -1,0 +1,31 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Understanding Credit Card Interest Rates - A Consumer Guide | BudgetBee",
+  description:
+    "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
+  keywords:
+    "credit card interest rates UK, APR calculation, manage credit card debt, reduce credit card interest, credit card guide",
+  openGraph: {
+    title:
+      "Understanding Credit Card Interest Rates - A Consumer Guide | BudgetBee",
+    description:
+      "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
+    url: "https://budgetbeepro.com/personal-finance/understanding-credit-card-interest-rates",
+    type: "article",
+    // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
+    authors: ["BudgetBee Team"], // Add if available in MDX frontmatter later
+    section: "Personal Finance",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Understanding Credit Card Interest Rates - A Consumer Guide | BudgetBee",
+    description:
+      "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
+    images: [
+      "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp",
+    ],
+  },
+};

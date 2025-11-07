@@ -1,0 +1,406 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 245, 245, 245;
+  --text-primary: 34, 34, 34;
+  /* BudgetBee dark text #222 */
+  --text-secondary: 85, 85, 85;
+  /* BudgetBee default text #555 */
+  --text-muted: 107, 114, 128;
+  /* gray-500 */
+  --font-montserrat: "Montserrat", system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: var(--font-montserrat);
+  @apply bg-body font-primary font-normal leading-relaxed text-text;
+}
+
+@layer base {
+  h1 {
+    @apply text-h1;
+  }
+
+  h2 {
+    @apply text-h2;
+  }
+
+  h3 {
+    @apply text-h3;
+  }
+
+  p {
+    @apply text-body;
+  }
+
+  a {
+    @apply text-link;
+  }
+
+  li {
+    @apply text-list;
+  }
+
+  .text-muted {
+    @apply text-meta;
+  }
+}
+
+@layer components {
+  /* BudgetBee Heading Typography - Matching Astro base.css */
+  .text-h1 {
+    @apply text-[20px] md:text-[40px] font-bold text-text-dark leading-8 md:leading-tight;
+  }
+
+  .text-h2 {
+    @apply text-[18px] md:text-[32px] font-bold text-text-dark leading-7 md:leading-tight;
+  }
+
+  .text-h3 {
+    @apply text-[16px] md:text-[28px] font-semibold text-text-dark leading-6 md:leading-tight;
+  }
+
+  .text-h4 {
+    @apply text-[14px] md:text-[24px] font-semibold text-text-dark leading-6 md:leading-tight;
+  }
+
+  .text-h5 {
+    @apply text-base md:text-[20px] font-medium text-text-dark leading-6 md:leading-tight;
+  }
+
+  .text-h6 {
+    @apply text-sm md:text-[18px] font-medium text-text-dark leading-6 md:leading-tight;
+  }
+
+  /* Paragraph Typography */
+  .text-body {
+    @apply text-base text-text leading-6;
+  }
+
+  /* List Item Typography */
+  .text-list {
+    @apply text-base text-text leading-6;
+  }
+
+  /* Link Typography */
+  .text-link {
+    @apply text-primary hover:text-primary-dark hover:underline;
+  }
+
+  /* Caption/Meta Typography */
+  .text-meta {
+    @apply text-sm text-text leading-5;
+  }
+
+  /* Special Text Elements */
+  .text-cta {
+    @apply text-sm font-medium;
+  }
+
+  /* Button Text */
+  .btn-text {
+    @apply text-sm py-1.5;
+  }
+
+  /* Card Elements */
+  .card-title {
+    @apply font-semibold text-base leading-6 mb-1 text-text-dark;
+  }
+
+  .card-meta {
+    @apply text-sm text-text leading-5;
+  }
+
+  /* Badge Elements */
+  .badge-text {
+    @apply bg-light text-text rounded-full px-3 py-1 leading-5 text-sm font-medium;
+  }
+
+  /* Special Sizes */
+  .text-large {
+    @apply text-2xl font-bold text-text-dark;
+  }
+
+  /* Navigation Elements */
+  .nav-link {
+    @apply text-base text-text hover:text-text-dark transition-colors leading-6;
+  }
+
+  /* Footer Typography - All White Text */
+  .footer-h2 {
+    @apply text-[12px] text-white leading-tight;
+  }
+
+  .footer-h3 {
+    @apply text-[12px] font-semibold text-white leading-tight;
+  }
+
+  .footer-text {
+    @apply text-sm text-white leading-5;
+  }
+
+  .footer-meta {
+    @apply text-sm text-white leading-5;
+  }
+
+  /* Section Spacing - BudgetBee pattern */
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  /* Container Pattern */
+  .container {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+
+  /* Row Pattern */
+  .row {
+    @apply flex flex-wrap -mx-4;
+  }
+
+  /* Column Utilities */
+  .lg\:col-10 {
+    @apply lg:w-10/12;
+  }
+
+  .md\:col-6 {
+    @apply md:w-1/2;
+  }
+
+  .col-12 {
+    @apply w-full;
+  }
+
+  .footer-link {
+    @apply text-white hover:text-primary-light hover:underline;
+  }
+
+  /* Default background for text overlay sections */
+  .bg-text-overlay {
+    @apply bg-white/90 p-3 rounded-md;
+  }
+
+  /* Container for article content with appropriate spacing */
+  .article-container {
+    @apply space-y-4 max-w-3xl mx-auto;
+  }
+
+  /* Special container for the GAM ad iframe */
+  .gam-ad-container {
+    @apply my-6 mx-auto flex justify-center;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-gray-100 text-gray-900 font-medium py-3 px-8 border border-gray-300 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
+  }
+
+  .btn-full {
+    @apply w-full;
+  }
+
+  .banner-section {
+    @apply relative py-16 md:py-24 lg:py-40 bg-cover bg-no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .banner-section-mobile {
+    background-image: url(https://media.topfinanzas.com/images/banner-home-mobile.webp);
+    background-position: center center;
+    /* Reset position */
+  }
+
+  .banner-section-desktop {
+    background-image: url(https://media.topfinanzas.com/images/kardtrust/banner-home.webp);
+    background-position: center center;
+    /* Keep centered for desktop */
+  }
+
+  /* Touch-friendly CTA button styles */
+  /* Prevents double-tap issue on mobile by only applying hover effects on devices with true hover capability */
+  .cta-button-base {
+    @apply font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md;
+  }
+
+  .cta-button-orange {
+    @apply cta-button-base bg-orange-500 text-white;
+  }
+
+  .cta-button-blue {
+    @apply cta-button-base bg-secondary text-white;
+  }
+
+  /* Only apply hover effects (including transforms) on devices with true hover capability */
+  /* This prevents the double-tap issue on mobile touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    .cta-button-orange:hover {
+      @apply bg-orange-600 shadow-lg;
+      transform: translateY(-2px);
+    }
+
+    .cta-button-blue:hover {
+      @apply bg-secondary-dark shadow-lg;
+      transform: translateY(-2px);
+    }
+  }
+
+  /* For touch devices, provide simple active state feedback without transforms */
+  @media (hover: none) and (pointer: coarse) {
+    .cta-button-orange:active {
+      @apply bg-orange-600;
+    }
+
+    .cta-button-blue:active {
+      @apply bg-secondary-dark;
+    }
+  }
+
+  /* Mobile Button Styles - Full Width for Better Usability */
+  /* Matches original BudgetBee mobile design for optimal SEO and UX */
+  @media (max-width: 768px) {
+    /* All button elements */
+    button,
+    a.btn-primary,
+    a.btn-secondary,
+    .btn-primary,
+    .btn-secondary,
+    .cta-button-base,
+    .cta-button-orange,
+    .cta-button-blue,
+    [class*="btn-"],
+    [role="button"] {
+      width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      font-size: 1.125rem !important; /* 18px */
+      padding-top: 0.625rem !important; /* 10px - reduced from 16px */
+      padding-bottom: 0.625rem !important; /* 10px - reduced from 16px */
+      padding-left: 1.5rem !important; /* 24px */
+      padding-right: 1.5rem !important; /* 24px */
+      text-align: center !important;
+    }
+
+    /* Ensure nested button content centers properly */
+    button > *,
+    .btn-primary > *,
+    .btn-secondary > *,
+    .cta-button-base > * {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+/* ⚠️ AdZep Overlay/Ad Blocking CSS Rules COMPLETELY REMOVED ⚠️
+ * 
+ * Previously, this CSS file contained multiple aggressive rules that blocked ALL AdZep elements:
+ * 
+ * REMOVED RULES:
+ * - #adzep-article-overlay, [id*="adzep-overlay"] - Blocked our own overlay utilities
+ * - [id*="interstitial"], [class*="interstitial"] - Blocked interstitial ads
+ * - [id*="rewardful"], [class*="rewardful"] - Blocked offerwall/rewardful ads  
+ * - [id*="overlay"], [class*="overlay"] - Blocked generic overlays
+ * - Various data attributes and specific classes
+ * 
+ * These rules used display:none !important and pointer-events:none !important,
+ * which completely prevented AdZep ads from displaying or being interactive.
+ * 
+ * CRITICAL PRODUCTION BUG CAUSED:
+ * 1. Interstitial ads would load but be completely non-clickable
+ * 2. Close buttons on ads were unresponsive (pointer-events: none)
+ * 3. Users couldn't dismiss ads, completely blocking their journey
+ * 4. Revenue generation was 100% blocked
+ * 5. Issue persisted even after JavaScript component fixes
+ * 
+ * ROOT CAUSE: CSS !important rules override all JavaScript
+ * Even though we disabled AdZepInterstitialBlocker component, these CSS rules
+ * were still active and blocking all ad interactions globally.
+ * 
+ * SOLUTION: ALL blocking CSS rules have been PERMANENTLY REMOVED
+ * AdZep's own ad units include proper close buttons and controls.
+ * They should be allowed to display and function normally.
+ * 
+ * If problematic overlays appear in the future, implement a targeted solution:
+ * 1. Use specific data attributes to identify malicious elements
+ * 2. Whitelist legitimate ad network domains (AdZep)
+ * 3. Don't use broad pattern matching like [id*="interstitial"]
+ * 4. Never use !important on blocking rules
+ * 5. Test thoroughly before deploying
+ */
+
+/* Prevent body from being locked by ad scripts */
+body.ad-loading,
+body.ad-overlay-active,
+body[style*="overflow: hidden"],
+html.ad-loading,
+html.ad-overlay-active,
+html[style*="overflow: hidden"] {
+  overflow: auto !important;
+  position: static !important;
+  height: auto !important;
+  pointer-events: auto !important;
+}
+
+/* Remove lingering backdrop/overlay elements after ads are dismissed
+ * These rules target ONLY orphaned backdrop elements that remain after ad closure
+ * They do NOT block the ad units themselves - only cleanup leftover backdrops
+ */
+
+/* Target AdZep backdrop elements that commonly remain after ad dismissal */
+body
+  > div[style*="position: fixed"][style*="inset: 0"]:not(
+    [id*="uk_topfinanzas"]
+  ):empty,
+body
+  > div[style*="position: fixed"][style*="z-index"][style*="background"]:not(
+    [id*="uk_topfinanzas"]
+  ):empty,
+body > div[class*="backdrop"]:empty,
+body > div[class*="overlay"]:empty:not([id*="uk_topfinanzas"]) {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Remove backdrop-filter blur effects from body when no active ads */
+body:not(:has([id^="uk_topfinanzas_"][style*="display"][style*="block"])),
+body:not(:has([data-adzep-active])) {
+  backdrop-filter: none !important;
+  filter: none !important;
+}
+
+/* Ensure main content containers are not blurred when ads are dismissed */
+main,
+#__next,
+[id*="root"],
+.container {
+  backdrop-filter: none !important;
+  filter: none !important;
+}
