@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
-import { step3Strings, commonStrings } from "@/lib/constants";
+import { commonStrings } from "@/lib/constants";
 import { step3Texts } from "@/lib/strings";
 import ProgressIndicator from "../ProgressIndicator";
 

@@ -12,7 +12,6 @@ interface OptionButtonProps {
 }
 
 export default function OptionButton({
-  id,
   label,
   selected,
   onClick,

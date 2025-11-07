@@ -7,7 +7,6 @@ import { FiftyFiftySection } from "@/components/layout/fifty-fifty-section";
 import { WorkflowSection } from "@/components/layout/workflow-section";
 import { CallToAction } from "@/components/layout/call-to-action";
 import { FeaturedPostsGrid } from "@/components/ui/featured-posts-grid";
-import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import dynamic from "next/dynamic";

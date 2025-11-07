@@ -9,12 +9,10 @@ import logger from "@/lib/browser-logger";
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";
-import Logo from "./ui/logo";
 import {
   BRAND_STATIC_FIELDS,
   BRAND_STATIC_FIELDS_LOWER,
   UTM_PARAM_KEYS,
-  formStrings,
 } from "@/lib/constants";
 import { step1Strings, step2Strings } from "@/lib/strings";
 import { pushGTMConversion } from "@/components/analytics/gtm";
@@ -89,7 +87,6 @@ export default function CreditCardForm() {
   const hasAutoSubmittedRef = useRef(false);
 
   const totalSteps = 3;
-  const progress = Math.round(((step - 1) / (totalSteps - 1)) * 100) || 0;
 
   const updateFormData = useCallback((data: Partial<typeof formData>) => {
     setFormData((prev) => ({ ...prev, ...data }));

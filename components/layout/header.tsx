@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react"; // Removed Search, Loader2
+import { Menu, X } from "lucide-react"; // Removed Search, Loader2
 // Removed Input, SearchResults, useDebouncedCallback
 
 // Import content from lib directory
@@ -69,28 +69,11 @@ export function Header() {
     };
   }, [activeMegaMenu]); // Removed search-related dependencies
 
-  // Function to toggle mega menu
-  const toggleMegaMenu = (menuId: string) => {
-    // Removed search closing logic
-    console.log(`Toggling mega menu: ${menuId}`);
-    setActiveMegaMenu((prevMenu) => (prevMenu === menuId ? null : menuId));
-  };
-
-  // Removed toggleSearch function
-
   // Function to toggle mobile menu
   const toggleMobileMenu = () => {
     console.log("Toggling mobile menu");
     setIsOpen((prev) => !prev);
     // Removed search closing logic
-  };
-
-  const setMenuButtonRef = (el: HTMLButtonElement | null, key: string) => {
-    menuButtonRefs.current[key] = el;
-  };
-
-  const setMegaMenuRef = (el: HTMLDivElement | null, key: string) => {
-    megaMenuRefs.current[key] = el;
   };
 
   // Removed search-related console log
