@@ -181,7 +181,10 @@ export default function Step3({
         transition={{ delay: 0.3 }}
       >
         <div className="space-y-2">
-          <Label htmlFor="email" className="text-sm font-semibold text-gray-900">
+          <Label
+            htmlFor="email"
+            className="text-sm font-medium text-gray-900"
+          >
             Email
           </Label>
           <Input
@@ -191,7 +194,7 @@ export default function Step3({
             onChange={handleEmailChange}
             onBlur={() => validateEmail(email)}
             required
-            className={`h-12 text-base bg-white border-2 text-gray-900 ${
+            className={`h-11 text-base bg-white border text-gray-900 ${
               errors.email
                 ? "border-red-500 focus-visible:ring-red-500"
                 : "border-gray-300 focus-visible:ring-[#F7B500] focus-visible:border-[#F7B500]"
@@ -200,7 +203,10 @@ export default function Step3({
             aria-describedby="email-error"
           />
           {errors.email && (
-            <p id="email-error" className="text-xs text-red-500 mt-1 font-medium">
+            <p
+              id="email-error"
+              className="text-xs text-red-500 mt-1"
+            >
               {errors.email}
             </p>
           )}
@@ -209,7 +215,7 @@ export default function Step3({
         <div className="space-y-2">
           <Label
             htmlFor="firstName"
-            className="text-sm font-semibold text-gray-900"
+            className="text-sm font-medium text-gray-900"
           >
             First Name
           </Label>
@@ -220,7 +226,7 @@ export default function Step3({
             onChange={handleFirstNameChange}
             onBlur={() => validateFirstName(firstName)}
             required
-            className={`h-12 text-base bg-white border-2 text-gray-900 ${
+            className={`h-11 text-base bg-white border text-gray-900 ${
               errors.firstName
                 ? "border-red-500 focus-visible:ring-red-500"
                 : "border-gray-300 focus-visible:ring-[#F7B500] focus-visible:border-[#F7B500]"
@@ -229,7 +235,10 @@ export default function Step3({
             aria-describedby="firstName-error"
           />
           {errors.firstName && (
-            <p id="firstName-error" className="text-xs text-red-500 mt-1 font-medium">
+            <p
+              id="firstName-error"
+              className="text-xs text-red-500 mt-1"
+            >
               {errors.firstName}
             </p>
           )}
@@ -240,19 +249,22 @@ export default function Step3({
             id="receiveMessages"
             checked={receiveMessages}
             onCheckedChange={handleCheckboxChange}
-            className="mt-1 h-5 w-5 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
+            className="mt-0.5 h-5 w-5 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
           />
           <Label
             htmlFor="receiveMessages"
-            className="text-sm text-gray-900 leading-relaxed cursor-pointer font-medium"
+            className="text-sm text-gray-700 leading-normal cursor-pointer"
           >
             I agree to receive personalized credit card recommendations and
             accept the{" "}
-            <a href="/terms" className="text-[#2E74B5] underline font-semibold">
+            <a href="/terms" className="text-[#F7B500] underline">
               Terms of Service
             </a>{" "}
             and{" "}
-            <a href="/privacy-policy" className="text-[#2E74B5] underline font-semibold">
+            <a
+              href="/privacy-policy"
+              className="text-[#F7B500] underline"
+            >
               Privacy Policy
             </a>
           </Label>
@@ -274,10 +286,10 @@ export default function Step3({
           onClick={handleFormSubmit}
           disabled={!receiveMessages || isSubmitting}
           aria-busy={isSubmitting}
-          className={`w-full py-4 text-base font-bold rounded-xl transition-all shadow-md ${
+          className={`w-full py-4 text-base font-semibold rounded-lg transition-all ${
             receiveMessages && !isSubmitting
-              ? "bg-[#F7B500] hover:bg-[#E5A600] text-white hover:shadow-lg transform hover:scale-[1.02]"
-              : "bg-gray-300 text-gray-500 cursor-not-allowed"
+              ? "bg-[#F7B500] hover:bg-[#E5A600] text-white shadow-md hover:shadow-lg"
+              : "bg-gray-200 text-gray-500 cursor-not-allowed"
           }`}
         >
           {isSubmitting ? "Sending..." : "GET MY RECOMMENDATIONS"}
@@ -300,8 +312,8 @@ export default function Step3({
       </motion.div>
 
       <div className="mt-6 pt-4 space-y-3">
-        <p className="text-sm text-gray-900 font-medium">
-          <span className="font-bold text-[#FF8C00]">Important:</span> Please
+        <p className="text-sm text-gray-700 text-left">
+          <span className="font-bold text-[#F7B500]">Important:</span> Please
           ensure your email is correct so we can send you personalized
           recommendations
         </p>
