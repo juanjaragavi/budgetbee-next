@@ -1,7 +1,8 @@
-fix: Remove standalone output mode for Vercel compatibility
+refactor: Migrate logo paths to CDN in logos.ts
 
-- Removed 'output: "standalone"' from next.config.mjs
-- Standalone mode is incompatible with Vercel's serverless architecture
-- This was preventing Next.js image optimization from working on Vercel
-- Fixes remote image rendering issues on staging deployment
-- Images from all whitelisted CDN domains should now load correctly
+- Updated colorLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/logo.png
+- Updated whiteLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/logo.png
+- Updated squareLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/square-logo.png
+- Improved squareLogo alt text for better accessibility and SEO
+- Ensures consistent image loading from whitelisted CDN domains
+- Optimizes performance by leveraging CDN caching and delivery

@@ -6,22 +6,22 @@
 export const logos = {
   /** Color logo for light backgrounds (header) - optimized to ~4KB */
   colorLogo: {
-    url: "/images/logo.png",
+    url: "https://media.topfinanzas.com/images/budgetbee/logo.png",
     alt: "BudgetBee | Your Hive for Unbiased Financial Buzz",
     width: 200,
     height: 38,
   },
   /** White logo for dark backgrounds (footer) - optimized */
   whiteLogo: {
-    url: "/images/logo.png",
+    url: "https://media.topfinanzas.com/images/budgetbee/logo.png",
     alt: "BudgetBee | Your Hive for Unbiased Financial Buzz",
     width: 200,
     height: 38,
   },
   /** Square logo for social media and app icons */
   squareLogo: {
-    url: "/images/square-logo.png",
-    alt: "BudgetBee",
+    url: "https://media.topfinanzas.com/images/budgetbee/square-logo.png",
+    alt: "BudgetBee | Your Hive for Unbiased Financial Buzz",
     width: 120,
     height: 120,
   },
