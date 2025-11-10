@@ -1,51 +1,62 @@
-fix: Refactor checkbox layout to prevent full-width issue on mobile
+fix: Replace Radix Checkbox with native HTML checkbox for mobile compatibility
 
-Complete restructure of checkbox/label layout to fix persistent full-width display issue on mobile devices in Step 3 form.
+Replaced the Radix UI Checkbox component with a native HTML checkbox to resolve persistent width issues on mobile devices.
 
 Problem:
-- Previous flex container approach still resulted in full-width checkbox on mobile
-- Checkbox appeared to take entire container width despite size constraints
-- h-4 w-4 and flex-shrink-0 were not sufficient to constrain mobile display
-- Required alternative layout structure for mobile viewports
+- Radix UI Checkbox component caused layout issues on mobile despite multiple refactoring attempts
+- Custom component complexity made it difficult to constrain width properly on all mobile devices
+- Multiple CSS constraints (h-4 w-4, min-w-[16px], flex-shrink-0) were insufficient
+- User requested simpler, more reliable solution for mobile viewport
 
-Solution Implemented:
-- Restructured HTML: moved checkbox inside Label element as direct child
-- Changed container from separate div with Checkbox + Label to single Label wrapper
-- Checkbox now positioned inline with text using nested flex layout
-- Added min-w-[16px] to explicitly enforce minimum width constraint
-- Wrapped text content in <span> with flex-1 for proper flow
-- Simplified layout removes extra container causing width issues
+Solution:
+- Replaced Radix UI <Checkbox> component with native HTML <input type="checkbox">
+- Changed <Label> component to native <label> element
+- Maintained all styling and layout structure from previous refactor
+- Used native HTML form control for better browser compatibility
 
 Technical Changes:
-Previous structure:
-```
-<div className="flex items-start gap-2.5">
-  <Checkbox />
-  <Label>text</Label>
-</div>
-```
-
-New structure:
-```
-<Label className="flex items-start gap-2">
-  <Checkbox className="min-w-[16px]" />
-  <span className="flex-1">text</span>
+Previous (Radix UI):
+```jsx
+<Label>
+  <Checkbox 
+    checked={receiveMessages}
+    onCheckedChange={handleCheckboxChange}
+    className="..." 
+  />
+  <span>text</span>
 </Label>
 ```
 
-Key Improvements:
-- Checkbox constrained by min-w-[16px] AND natural h-4 w-4 sizing
-- Better semantic HTML with checkbox inside label
-- Simpler DOM structure eliminates mobile layout bugs
-- Gap reduced from 2.5 to 2 (8px) for tighter mobile spacing
-- Text wrapped in span with flex-1 prevents layout collapse
+Current (Native HTML):
+```jsx
+<label>
+  <input 
+    type="checkbox"
+    checked={receiveMessages}
+    onChange={(e) => handleCheckboxChange(e.target.checked)}
+    className="..." 
+  />
+  <span>text</span>
+</label>
+```
 
-Result:
-✅ Checkbox displays at correct 16px × 16px size on mobile
-✅ No full-width expansion or layout issues
-✅ Better mobile UX with proper spacing
-✅ Desktop layout remains unaffected
-✅ More robust layout structure
+Styling Applied:
+- h-4 w-4 min-w-[16px] - explicit size constraints
+- flex-shrink-0 - prevent expansion
+- rounded border-2 border-gray-400 - consistent styling
+- text-[#F7B500] - yellow checkmark color
+- accent-[#F7B500] - modern CSS accent color for yellow theme
+- focus:ring-2 focus:ring-[#F7B500] - accessible focus states
+- cursor-pointer - better UX
+
+Benefits:
+✅ Native browser checkbox with predictable behavior on all devices
+✅ Better mobile compatibility without complex component overhead
+✅ Standard HTML form control recognized by all browsers
+✅ accent-color CSS property ensures yellow theme consistency
+✅ Simplified code - removed Checkbox component dependency
+✅ Maintains exact same visual appearance and functionality
+✅ More reliable width constraints on mobile viewports
 
 Files Modified:
-- components/steps/step3.tsx - Complete checkbox layout refactor
+- components/steps/step3.tsx - Replaced Checkbox with native input, removed unused imports

@@ -3,7 +3,6 @@
 import type React from "react";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { commonStrings } from "@/lib/constants";
@@ -236,15 +235,16 @@ export default function Step3({
         </div>
 
         <div className="pt-2">
-          <Label
+          <label
             htmlFor="receiveMessages"
             className="flex items-start gap-2 text-sm text-gray-700 leading-normal cursor-pointer"
           >
-            <Checkbox
+            <input
+              type="checkbox"
               id="receiveMessages"
               checked={receiveMessages}
-              onCheckedChange={handleCheckboxChange}
-              className="mt-0.5 h-4 w-4 min-w-[16px] flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
+              onChange={(e) => handleCheckboxChange(e.target.checked)}
+              className="mt-0.5 h-4 w-4 min-w-[16px] flex-shrink-0 rounded border-2 border-gray-400 text-[#F7B500] focus:ring-2 focus:ring-[#F7B500] focus:ring-offset-0 cursor-pointer accent-[#F7B500]"
             />
             <span className="flex-1">
               I agree to receive personalized credit card recommendations and
@@ -257,7 +257,7 @@ export default function Step3({
                 Privacy Policy
               </a>
             </span>
-          </Label>
+          </label>
         </div>
       </motion.div>
 
