@@ -1,7 +1,13 @@
-docs: Fix markdown formatting in migration documentation
+fix: Improve text visibility in About Us page and button hover states
 
-- Fixed URL formatting in MIGRATION_QUICK_START.md (wrapped in angle brackets)
-- Removed colons from markdown headers for cleaner formatting
-- Fixed code block language syntax (markdown instead of plain)
-- Improved consistency in heading styles across migration documents
-- Standardized formatting in MIGRATION_REPORT_TOP_LEVEL_PAGES.md
+About Us Page Text Colors:
+- Added text-gray-800 class to all paragraph elements for proper visibility
+- Added text-gray-900 class to subtitle headings in "Our Commitment to You" section
+- Fixed white text issue on white background throughout the page
+
+Button Hover State Fixes:
+- Added hover:text-white to .btn-primary class to maintain white text on hover
+- Added text-white to .cta-button-orange:hover for consistent text color
+- Added text-white to .cta-button-blue:hover for consistent text color
+- Prevents text from becoming invisible or hard to read on hover
+- Ensures all CTA buttons maintain proper contrast on hover state

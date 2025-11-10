@@ -214,7 +214,7 @@ body {
   }
 
   .btn-primary {
-    @apply bg-primary hover:bg-primary-dark text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
+    @apply bg-primary hover:bg-primary-dark text-white hover:text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
   }
 
   .btn-secondary {
@@ -261,12 +261,12 @@ body {
   /* This prevents the double-tap issue on mobile touch devices */
   @media (hover: hover) and (pointer: fine) {
     .cta-button-orange:hover {
-      @apply bg-orange-600 shadow-lg;
+      @apply bg-orange-600 text-white shadow-lg;
       transform: translateY(-2px);
     }
 
     .cta-button-blue:hover {
-      @apply bg-secondary-dark shadow-lg;
+      @apply bg-secondary-dark text-white shadow-lg;
       transform: translateY(-2px);
     }
   }
