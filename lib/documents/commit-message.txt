@@ -1,19 +1,23 @@
-fix: Ensure Read More button text stays white on hover
+style: Update header navigation hover styles to yellow with bold text
 
-Fixed illegible text issue on Read More buttons where text was turning yellow on hover over yellow background.
+Updated navigation menu styling in the header component for improved visual consistency:
 
 Changes:
-- Added hover:text-white to FeaturedPostCard Read More buttons
-- Added hover:text-white to Personal Finance page Read More buttons
-- Maintains white text visibility on hover state
-- Ensures WCAG contrast compliance
+- Desktop navigation: Changed hover color from gray-900 to yellow (#F7B500)
+- Mobile navigation: Applied same yellow hover color to all menu items
+- Added font-bold to all navigation links for better readability
+- Removed underlines (added no-underline class) for cleaner appearance
+- Applied consistent transition-colors for smooth hover effects
 
 Files Modified:
-- components/ui/featured-post-card.tsx - Added hover:text-white to Read More button
-- app/personal-finance/page.tsx - Added hover:text-white to Read More button
+- components/layout/header.tsx - Updated all navigation link styles
 
-This fix applies to Read More buttons on:
-- Blog page (via FeaturedPostCard)
-- Personal Finance page
-- Financial Solutions page (via FeaturedPostCard)
-- Homepage (via FeaturedPostCard)
+Affected Sections:
+- Desktop main navigation items (Home, Blog, About Us, Contact Us, Card Recommender)
+- Mobile navigation section
+- Mobile categories section
+- Mobile blog categories
+- Mobile popular articles
+- All "Show more..." links
+
+The navigation now features bold yellow hover text without underlines, matching the site's primary color scheme.

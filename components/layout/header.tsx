@@ -112,7 +112,7 @@ export function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="text-gray-700 hover:text-gray-900 text-sm font-bold transition-colors"
+                    className="text-gray-700 hover:text-[#F7B500] text-sm font-bold transition-colors no-underline"
                   >
                     {item.text}
                   </Link>
@@ -167,35 +167,35 @@ export function Header() {
                     </div>
                     <Link
                       href="/"
-                      className="block px-2 text-body hover:bg-gray-100"
+                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Home
                     </Link>
                     <Link
                       href="/blog"
-                      className="block px-2 text-body hover:bg-gray-100"
+                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Blog
                     </Link>
                     <Link
                       href="/about-us"
-                      className="block px-2 text-body hover:bg-gray-100"
+                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       About Us
                     </Link>
                     <Link
                       href="/contact-us"
-                      className="block px-2 text-body hover:bg-gray-100"
+                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Contact Us
                     </Link>
                     <Link
                       href="/credit-card-recommender-p1"
-                      className="block px-2 text-body hover:bg-gray-100"
+                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Card Recommender
@@ -216,7 +216,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body hover:bg-gray-100"
+                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -235,7 +235,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body hover:bg-gray-100"
+                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -243,7 +243,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/personal-finance"
-                      className="block px-2 text-sm text-primary hover:bg-gray-100 font-medium"
+                      className="block px-2 text-sm text-primary hover:text-[#F7B500] hover:bg-gray-100 font-bold no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...
@@ -261,7 +261,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body hover:bg-gray-100"
+                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -269,7 +269,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/financial-solutions"
-                      className="block text-sm px-2 text-primary hover:bg-gray-100 font-medium"
+                      className="block text-sm px-2 text-primary hover:text-[#F7B500] hover:bg-gray-100 font-bold no-underline transition-colors"
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...
