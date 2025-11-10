@@ -153,6 +153,20 @@ export default function Step3({
     }
   };
 
+  // Check if form is complete and valid for button activation
+  const isFormValid = () => {
+    // Check if fields are filled
+    const hasEmail = email.trim().length > 0;
+    const hasFirstName = firstName.trim().length > 0;
+    const hasAcceptedTerms = receiveMessages;
+
+    // Check if there are no validation errors
+    const noErrors = !errors.email && !errors.firstName;
+
+    // All conditions must be met
+    return hasEmail && hasFirstName && hasAcceptedTerms && noErrors;
+  };
+
   return (
     <div className="space-y-6">
       <ProgressIndicator step={3} />
@@ -274,10 +288,10 @@ export default function Step3({
         <button
           type="button"
           onClick={handleFormSubmit}
-          disabled={!receiveMessages || isSubmitting}
+          disabled={!isFormValid() || isSubmitting}
           aria-busy={isSubmitting}
           className={`w-full py-4 text-base font-semibold rounded-lg transition-all ${
-            receiveMessages && !isSubmitting
+            isFormValid() && !isSubmitting
               ? "bg-[#F7B500] hover:bg-[#E5A600] text-white shadow-md hover:shadow-lg"
               : "bg-gray-200 text-gray-500 cursor-not-allowed"
           }`}
