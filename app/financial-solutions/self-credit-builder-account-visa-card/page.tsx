@@ -111,7 +111,7 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
 
             <div className="text-left my-8">
               <Link href="/financial-solutions/self-credit-builder-account-visa-card-requirements">
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                   View Requirements
                 </Button>
               </Link>
@@ -305,14 +305,14 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
                 </p>
                 <div className="text-left my-8">
                   <Link href="/financial-solutions/self-credit-builder-account-visa-card-requirements">
-                    <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Review Eligibility and Application Steps
                     </Button>
                   </Link>
                 </div>
                 <div className="text-left my-8">
                   <a href="https://www.self.inc/" rel="noopener noreferrer">
-                    <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Visit Self to Start Your Application
                     </Button>
                   </a>

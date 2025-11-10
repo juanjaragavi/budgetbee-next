@@ -179,7 +179,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               </ul>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.cit.com/cit-bank/platinum-savings/ps2025">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     Visit Official Website
                   </Button>
                 </Link>

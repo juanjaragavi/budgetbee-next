@@ -1,18 +1,28 @@
-refactor: Update Contact Us form to match BudgetBee brand colors
+fix: Add explicit white text color on hover for all primary buttons
 
-Form Color Scheme Updates:
-- Changed form title from blue (#2E74B5) to primary brand yellow
-- Updated all input field borders from blue to primary color
-- Changed input field focus ring from green (#8DC63F) to primary color
-- Updated success checkmark from green to primary brand color
-- Changed submit button from green to primary yellow with proper hover state
+Button Text Color Fix:
+- Added hover:text-white to all primary buttons with yellow background
+- Fixed illegible text issue where yellow text appeared on yellow background
+- Updated Button component, Badge component, and global CSS classes
 
-Link and Interactive Elements:
-- Updated policy/terms links from blue to primary color with hover states
-- Changed checkbox checked state from green to primary brand color
-- Updated "Send Another Message" button to primary brand colors
+Files Modified:
+- components/ui/button.tsx - Added hover:text-white to primary variant
+- components/ui/badge.tsx - Added hover:text-white to all badge variants
+- app/globals.css - Updated CTA button classes with explicit hover text color
+- components/layout/* - Updated header, blog layout, call-to-action, sidebar
+- app/**/*.tsx - Batch updated 50+ button instances across all app pages
 
-Consistency Improvements:
-- All form elements now use consistent brand primary/primary-dark colors
-- Maintains proper contrast and accessibility standards
-- Aligns Contact Us page with overall BudgetBee visual identity
+Affected Components:
+- Primary CTA buttons throughout the site
+- Navigation "Get Started" button
+- Blog share buttons (Facebook, Twitter, WhatsApp)
+- Contact form buttons
+- Credit card recommender buttons
+- Financial solutions page buttons
+- Newsletter subscription buttons
+- All Link components with button styling
+
+Accessibility Improvement:
+- Ensures white text remains visible and legible on hover
+- Maintains WCAG contrast ratio compliance
+- Consistent user experience across all interactive elements

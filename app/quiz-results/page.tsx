@@ -158,7 +158,7 @@ export default function QuizResults() {
                 <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                   <Link
                     href="/blog"
-                    className="inline-block px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-full transition-all"
+                    className="inline-block px-8 py-3 bg-primary hover:bg-primary-dark text-white hover:text-white font-semibold rounded-full transition-all"
                   >
                     Explore More Articles
                   </Link>

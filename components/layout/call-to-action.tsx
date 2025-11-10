@@ -44,7 +44,7 @@ export function CallToAction({
             <p className="text-lg text-gray-600 mb-6">{content}</p>
             <Link
               href={buttonLink}
-              className="inline-block px-8 py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
+              className="inline-block px-8 py-3 bg-primary hover:bg-primary-dark text-white hover:text-white font-semibold rounded-full transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5"
             >
               {buttonText}
             </Link>

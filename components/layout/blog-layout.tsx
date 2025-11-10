@@ -115,7 +115,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
           <div className="flex mb-8">
             <Button
               variant="secondary"
-              className="mr-2 bg-primary hover:bg-primary-dark text-white"
+              className="mr-2 bg-primary hover:bg-primary-dark text-white hover:text-white"
             >
               <svg
                 fill="currentColor"
@@ -128,7 +128,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
             </Button>
             <Button
               variant="secondary"
-              className="mr-2 bg-primary-light hover:bg-primary text-white"
+              className="mr-2 bg-primary-light hover:bg-primary text-white hover:text-white"
             >
               <svg
                 fill="currentColor"
@@ -141,7 +141,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
             </Button>
             <Button
               variant="secondary"
-              className="bg-gray-800 hover:bg-gray-900 text-white"
+              className="bg-gray-800 hover:bg-gray-900 text-white hover:text-white"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +186,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
             <div className="hidden lg:block lg:col-span-1">
               <div className="sticky top-24 space-y-4">
                 <button
-                  className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary-dark transition-colors"
+                  className="w-10 h-10 rounded-full bg-primary text-white hover:text-white flex items-center justify-center hover:bg-primary-dark transition-colors"
                   aria-label="Share on Facebook"
                 >
                   <svg
@@ -198,7 +198,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   </svg>
                 </button>
                 <button
-                  className="w-10 h-10 rounded-full bg-primary-light text-white flex items-center justify-center hover:bg-primary transition-colors"
+                  className="w-10 h-10 rounded-full bg-primary-light text-white hover:text-white flex items-center justify-center hover:bg-primary transition-colors"
                   aria-label="Share on Twitter"
                 >
                   <svg
@@ -210,7 +210,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   </svg>
                 </button>
                 <button
-                  className="w-10 h-10 rounded-full bg-primary-dark text-white flex items-center justify-center hover:bg-primary transition-colors"
+                  className="w-10 h-10 rounded-full bg-primary-dark text-white hover:text-white flex items-center justify-center hover:bg-primary transition-colors"
                   aria-label="Share on WhatsApp"
                 >
                   <svg

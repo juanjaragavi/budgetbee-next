@@ -438,7 +438,7 @@ export default function ContactUs() {
                 </p>
                 <button
                   onClick={() => setSubmitSuccess(false)}
-                  className="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-full transition-colors"
+                  className="bg-primary hover:bg-primary-dark text-white hover:text-white px-6 py-2 rounded-full transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -631,7 +631,7 @@ export default function ContactUs() {
                     isSubmitting
                       ? "bg-gray-400 cursor-not-allowed text-white"
                       : formData.acceptTerms
-                        ? "bg-primary hover:bg-primary-dark text-white"
+                        ? "bg-primary hover:bg-primary-dark text-white hover:text-white"
                         : "bg-gray-300 text-gray-500 cursor-not-allowed"
                   }`}
                 >

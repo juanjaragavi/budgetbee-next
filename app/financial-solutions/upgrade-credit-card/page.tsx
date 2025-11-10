@@ -119,7 +119,7 @@ export default function UpgradeCreditCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/upgrade-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -548,7 +548,7 @@ export default function UpgradeCreditCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/upgrade-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Check Eligibility Requirements
                   </Button>
                 </Link>

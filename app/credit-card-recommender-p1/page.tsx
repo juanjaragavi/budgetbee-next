@@ -78,7 +78,7 @@ function CreditCardRecommenderPageContent() {
             </div>
 
             <Link href="/financial-solutions/sofi-credit-card">
-              <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+              <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                 <div className="flex items-center space-x-1">
                   <span>Accept Recommendation</span>
                   <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
@@ -107,7 +107,7 @@ function CreditCardRecommenderPageContent() {
             </p>
             <div className="mt-6 mb-4">
               <Link href="/financial-solutions/varo-believe-card">
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">

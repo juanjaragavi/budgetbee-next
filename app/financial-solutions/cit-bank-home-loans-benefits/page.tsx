@@ -321,7 +321,7 @@ export default function CitBankHomeLoansBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/cit-bank-home-loans-requirements">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     Learn About Requirements
                   </Button>
                 </Link>

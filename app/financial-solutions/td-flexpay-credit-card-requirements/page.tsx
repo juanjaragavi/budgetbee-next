@@ -302,7 +302,7 @@ export default function TdFlexpayCreditCardRequirementsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="https://www.td.com/us/en/personal-banking/credit-cards/flex-pay">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

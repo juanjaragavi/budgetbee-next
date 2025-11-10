@@ -277,14 +277,14 @@ export default function Page() {
 4. ❌ Update credit card recommender image references
 5. ❌ Test all migrated pages in development mode
 
-    **Medium Priority**
+   **Medium Priority**
 
 6. ❌ Migrate quiz-results page
 7. ❌ Migrate qz page
 8. ❌ Migrate 404 page
 9. ❌ Verify all internal links work correctly
 
-    **Low Priority**
+   **Low Priority**
 
 10. ❌ SEO metadata verification
 11. ❌ Performance optimization review
@@ -317,25 +317,25 @@ Once all pages are migrated, verify:
 
 ```markdown
 /src/pages/
-  ├── index.astro
-  ├── about.astro
-  ├── contact.astro
-  ├── quiz.astro
-  └── ...
+├── index.astro
+├── about.astro
+├── contact.astro
+├── quiz.astro
+└── ...
 ```
 
 ### Next.js Site Structure
 
 ```markdown
 /app/
-  ├── page.tsx (homepage)
-  ├── about-us/
-  │   └── page.tsx
-  ├── contact-us/
-  │   └── page.tsx
-  ├── quiz/
-  │   └── page.tsx
-  └── ...
+├── page.tsx (homepage)
+├── about-us/
+│ └── page.tsx
+├── contact-us/
+│ └── page.tsx
+├── quiz/
+│ └── page.tsx
+└── ...
 ```
 
 ---

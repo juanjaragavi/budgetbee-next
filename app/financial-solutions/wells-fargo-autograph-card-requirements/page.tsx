@@ -190,7 +190,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

@@ -166,7 +166,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
                   href="/financial-solutions/self-credit-builder-account-visa-card"
                   className="inline-flex"
                 >
-                  <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-sm py-2 px-6 rounded-full">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-sm py-2 px-6 rounded-full">
                     Explore Card Benefits
                   </Button>
                 </Link>
@@ -411,7 +411,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                   Apply at Self's Official Website
                 </Button>
               </a>

@@ -255,7 +255,7 @@ export default function DoordashRewardsMastercardRequirementsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="https://creditcards.chase.com/cash-back-credit-cards/doordash">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

@@ -79,7 +79,7 @@ function CreditCardRecommenderPageContent() {
 
             <div className="my-8 text-left sm:text-left">
               <Link href="/financial-solutions/chime-credit-builder-visa-secured-card">
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Chime Credit Builder Card</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
@@ -112,7 +112,7 @@ function CreditCardRecommenderPageContent() {
 
             <div className="mt-6 mb-4">
               <Link href="/financial-solutions/virgin-money-credit-card">
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">

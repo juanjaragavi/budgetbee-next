@@ -121,7 +121,7 @@ export default function MissionLaneVisaCreditCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/mission-lane-visa-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -548,7 +548,7 @@ export default function MissionLaneVisaCreditCardPage() {
                     href="https://www.missionlane.com"
                     rel="noopener noreferrer"
                   >
-                    <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Visit Official Website
                     </Button>
                   </a>

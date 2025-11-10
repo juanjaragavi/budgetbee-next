@@ -122,7 +122,7 @@ export function Header() {
               {/* CTA Button */}
               <Link
                 href="/credit-card-recommender-p1"
-                className="hidden md:inline-flex bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full font-bold text-base transition-colors shadow-sm hover:shadow-md"
+                className="hidden md:inline-flex bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3 rounded-full font-bold text-base transition-colors shadow-sm hover:shadow-md"
               >
                 Get Started
               </Link>

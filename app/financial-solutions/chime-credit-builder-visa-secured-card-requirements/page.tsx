@@ -642,7 +642,7 @@ export default function ChimeCreditBuilderRequirementsPage() {
 
               <div className="text-left my-8">
                 <Link href="https://www.chime.com">
-                  <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Apply Now at Chime.com
                   </Button>
                 </Link>

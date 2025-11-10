@@ -597,7 +597,7 @@ export default function FinancialSolutionsPage() {
         </p>
         <Link
           href="/credit-card-recommender-p1"
-          className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
+          className="bg-primary hover:bg-primary-dark text-white hover:text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
         >
           Go to Recommender
         </Link>

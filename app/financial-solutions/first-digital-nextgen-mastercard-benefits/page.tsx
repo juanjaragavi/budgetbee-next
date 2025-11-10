@@ -188,7 +188,7 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/first-digital-nextgen-mastercard-requirements">
-                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>
