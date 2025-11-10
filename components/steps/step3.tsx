@@ -181,10 +181,7 @@ export default function Step3({
         transition={{ delay: 0.3 }}
       >
         <div className="space-y-2">
-          <Label
-            htmlFor="email"
-            className="text-sm font-medium text-gray-900"
-          >
+          <Label htmlFor="email" className="text-sm font-medium text-gray-900">
             Email
           </Label>
           <Input
@@ -203,10 +200,7 @@ export default function Step3({
             aria-describedby="email-error"
           />
           {errors.email && (
-            <p
-              id="email-error"
-              className="text-xs text-red-500 mt-1"
-            >
+            <p id="email-error" className="text-xs text-red-500 mt-1">
               {errors.email}
             </p>
           )}
@@ -235,21 +229,18 @@ export default function Step3({
             aria-describedby="firstName-error"
           />
           {errors.firstName && (
-            <p
-              id="firstName-error"
-              className="text-xs text-red-500 mt-1"
-            >
+            <p id="firstName-error" className="text-xs text-red-500 mt-1">
               {errors.firstName}
             </p>
           )}
         </div>
 
-        <div className="flex items-start gap-3 pt-2">
+        <div className="flex items-start gap-2.5 pt-2">
           <Checkbox
             id="receiveMessages"
             checked={receiveMessages}
             onCheckedChange={handleCheckboxChange}
-            className="mt-0.5 h-5 w-5 flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
+            className="mt-0.5 h-4 w-4 flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
           />
           <Label
             htmlFor="receiveMessages"
@@ -261,10 +252,7 @@ export default function Step3({
               Terms of Service
             </a>{" "}
             and{" "}
-            <a
-              href="/privacy-policy"
-              className="text-[#F7B500] underline"
-            >
+            <a href="/privacy-policy" className="text-[#F7B500] underline">
               Privacy Policy
             </a>
           </Label>
