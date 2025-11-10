@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     siteName: "BudgetBee",
     images: [
       {
-        url: `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`, // Using the provided image URL
+        url: `https://media.topfinanzas.com/budgetbee/images/og-image.png`, // Using the provided image URL
         width: 900, // Assuming standard OG image width
         height: 600, // Assuming standard OG image height
         alt: "BudgetBee - Financial Guides and Solutions", // Updated Alt Text
@@ -108,9 +108,7 @@ export const metadata: Metadata = {
     // siteId: "[Optional Twitter ID]",
     // creator: "[Optional Twitter Handle]",
     // creatorId: "[Optional Twitter ID]",
-    images: [
-      `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`,
-    ], // Using the provided image URL
+    images: [`https://media.topfinanzas.com/budgetbee/images/og-image.png`], // Using the provided image URL
   },
 
   // Use simplified favicon configuration

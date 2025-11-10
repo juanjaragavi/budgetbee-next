@@ -119,7 +119,7 @@ When creating new blog articles, they must be added to multiple locations across
     className="rounded-md object-cover"
     onError={(e) => {
       e.currentTarget.src =
-        "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+        "https://media.topfinanzas.com/budgetbee/images/og-image.png";
     }}
   />
   <div>

@@ -44,8 +44,7 @@ export function generatePageMetadata({
 }): Metadata {
   const canonicalUrl = generateCanonicalUrl(path);
   const ogImage =
-    image ||
-    "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+    image || "https://media.topfinanzas.com/budgetbee/images/og-image.png";
 
   const metadata: Metadata = {
     title,

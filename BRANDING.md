@@ -757,7 +757,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 ##### OG Image
 
-- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
+- **URL:** `https://media.topfinanzas.com/budgetbee/images/og-image.png`
 - **Width:** 900px
 - **Height:** 600px
 - **Alt:** "BudgetBee - Financial Guides and Solutions"
@@ -769,7 +769,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **twitter:card:** summary_large_image
 - **twitter:title:** "BudgetBee - Your Guide to US Credit Cards & Loans"
 - **twitter:description:** "Compare the best US credit cards, loans, and financial solutions with BudgetBee."
-- **twitter:image:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
+- **twitter:image:** `https://media.topfinanzas.com/budgetbee/images/og-image.png`
 
 ### Schema Markup
 

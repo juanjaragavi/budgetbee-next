@@ -73,7 +73,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         className="rounded-md object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                            "https://media.topfinanzas.com/budgetbee/images/og-image.png";
                         }}
                       />
                       <div>
@@ -97,7 +97,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         className="rounded-md object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                            "https://media.topfinanzas.com/budgetbee/images/og-image.png";
                         }}
                       />
                       <div>
@@ -121,7 +121,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         className="rounded-md object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                            "https://media.topfinanzas.com/budgetbee/images/og-image.png";
                         }}
                       />
                       <div>
@@ -145,7 +145,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                         className="rounded-md object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                            "https://media.topfinanzas.com/budgetbee/images/og-image.png";
                         }}
                       />
                       <div>
