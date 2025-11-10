@@ -1,40 +1,31 @@
-style: Match Step 3 form styling to original Astro design
+fix: Correct checkbox alignment and width in Step 3 form
 
-Updated Step 3 component elements and colors to match the original BudgetBee design:
+Fixed CSS layout issue causing checkbox misalignment and excessive width in the Step 3 quiz form component.
 
-Checkbox and Label Changes:
-- Changed checkbox label text color from text-gray-900 to text-gray-700
-- Reduced label font-weight from font-medium to normal
-- Changed leading from leading-relaxed to leading-normal
-- Adjusted checkbox top margin from mt-1 to mt-0.5 for better alignment
-- Changed Terms of Service and Privacy Policy links from blue (#2E74B5) to yellow (#F7B500)
-- Removed font-semibold from links for cleaner look
+Problem Identified:
+- Checkbox element had excessive width causing misalignment with adjacent text label
+- Poor vertical and horizontal alignment between checkbox and label
+- Text label was not fully legible due to spacing issues
+- Layout inspection via Chrome DevTools revealed flex container issues
 
-Input Field Improvements:
-- Reduced input height from h-12 to h-11 for proper proportions
-- Changed border from border-2 to border for subtler appearance
-- Updated label font-weight from font-semibold to font-medium
-- Removed font-medium from error messages
+CSS Corrections Applied:
+- Changed container from "space-x-3" to "gap-3" for more consistent spacing
+- Added "flex-shrink-0" to checkbox to prevent it from expanding beyond h-5 w-5 dimensions
+- Added "flex-1" to label to allow proper text wrapping and expansion
+- Maintained mt-0.5 on checkbox for optimal vertical alignment with first line of text
+- Preserved all other styling (border-2, colors, etc.)
 
-Button Styling:
-- Changed button rounding from rounded-xl to rounded-lg
-- Updated disabled button color from bg-gray-300 to bg-gray-200
-- Changed font-weight from font-bold to font-semibold
-- Removed transform hover:scale effect for simpler interaction
-- Adjusted shadow behavior for disabled state
+Technical Changes:
+- Container: "flex items-start space-x-3" → "flex items-start gap-3"
+- Checkbox: Added "flex-shrink-0" class to maintain fixed 20px × 20px size
+- Label: Added "flex-1" class for proper text flow and alignment
 
-Important Notice:
-- Changed text color from text-gray-900 to text-gray-700
-- Updated "Important:" label color from orange (#FF8C00) to yellow (#F7B500)
-- Removed font-medium weight for normal text appearance
-- Added explicit text-left alignment to prevent shifting
-
-Visual Result:
-- Form now matches original Astro design exactly
-- Yellow color scheme consistent throughout (links and important notice)
-- Cleaner, less bold typography for better readability
-- No text shifting or alignment issues
-- Proper disabled button state appearance
+Result:
+✅ Checkbox now maintains standard size (h-5 w-5 = 20px × 20px)
+✅ Proper vertical alignment between checkbox and text label
+✅ Text label is fully legible and positioned correctly
+✅ No layout displacement or excessive width issues
+✅ Validated via browser and DevTools inspection
 
 Files Modified:
-- components/steps/step3.tsx - Comprehensive styling updates to match original design
+- components/steps/step3.tsx - Fixed checkbox container flex layout

@@ -244,16 +244,16 @@ export default function Step3({
           )}
         </div>
 
-        <div className="flex items-start space-x-3 pt-2">
+        <div className="flex items-start gap-3 pt-2">
           <Checkbox
             id="receiveMessages"
             checked={receiveMessages}
             onCheckedChange={handleCheckboxChange}
-            className="mt-0.5 h-5 w-5 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
+            className="mt-0.5 h-5 w-5 flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
           />
           <Label
             htmlFor="receiveMessages"
-            className="text-sm text-gray-700 leading-normal cursor-pointer"
+            className="text-sm text-gray-700 leading-normal cursor-pointer flex-1"
           >
             I agree to receive personalized credit card recommendations and
             accept the{" "}
