@@ -17,7 +17,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-3">
               <Image
-                src="/images/favicon.png"
+                src="https://media.topfinanzas.com/images/budgetbee/favicon.png"
                 alt={logos.colorLogo.alt}
                 width={50}
                 height={50}
@@ -149,8 +149,10 @@ export function Footer() {
         {/* Middle Section - Social Media & Copyright */}
         <div className="flex flex-col md:flex-row items-center justify-between py-6 border-t border-gray-300">
           {/* Social Media */}
-          <div className="flex items-center gap-4 mb-4 md:mb-0">
-            <p className="text-sm text-gray-700">Follow us on social media</p>
+          <div className="flex flex-col gap-3 mb-4 md:mb-0">
+            <p className="text-sm text-gray-700 text-center md:text-center">
+              Follow us on social media
+            </p>
             <div className="flex gap-3">
               {/* Facebook */}
               <a

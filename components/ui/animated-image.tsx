@@ -36,7 +36,7 @@ export const AnimatedImage: React.FC<AnimatedImageProps> = ({
     >
       <Image
         src={
-          src || "https://media.topfinanzas.com/images/kardtrust/favicon.webp"
+          src || "https://media.topfinanzas.com/images/budgetbee/favicon.webp"
         }
         alt={alt}
         width={width}

@@ -1,8 +1,18 @@
-refactor: Migrate logo paths to CDN in logos.ts
+refactor: Improve footer social media layout and migrate images to CDN
 
-- Updated colorLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/logo.png
-- Updated whiteLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/logo.png
-- Updated squareLogo URL from local path to CDN: media.topfinanzas.com/images/budgetbee/square-logo.png
-- Improved squareLogo alt text for better accessibility and SEO
-- Ensures consistent image loading from whitelisted CDN domains
-- Optimizes performance by leveraging CDN caching and delivery
+Footer Component Changes:
+- Moved "Follow us on social media" title above social media icons
+- Changed social media container from horizontal to vertical flex layout
+- Improved text alignment with centered positioning
+- Migrated favicon image from local path to CDN (media.topfinanzas.com)
+
+Image Migration:
+- Updated multiple component images to use CDN paths
+- Modified logo.tsx, preloader, sidebar, and other UI components
+- Ensures consistent loading from whitelisted CDN domains
+- Optimizes performance with CDN caching and delivery
+
+Documentation Updates:
+- Updated branding and migration documentation
+- Revised favicon implementation summary
+- Updated brand image generation and implementation guides

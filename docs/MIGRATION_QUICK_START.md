@@ -486,7 +486,7 @@ export default function ComponentName({ prop }: ComponentProps) {
 import Image from "next/image";
 
 <Image
-  src="/images/example.jpg"
+  src="https://media.topfinanzas.com/images/budgetbee/example.jpg"
   alt="Descriptive alt text"
   width={800}
   height={600}

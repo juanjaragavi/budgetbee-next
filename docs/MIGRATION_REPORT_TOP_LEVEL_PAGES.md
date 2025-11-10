@@ -176,7 +176,7 @@ All three media assets have been successfully copied from:
 
 ```astro
 <Image
-  src="/images/banner-art.webp"
+  src="https://media.topfinanzas.com/images/budgetbee/banner-art.webp"
   alt="BudgetBee - Unbiased Financial Guidance"
   width={1200}
   height={600}
@@ -188,7 +188,7 @@ All three media assets have been successfully copied from:
 
 ```tsx
 <Image
-  src="/images/banner-art.webp"
+  src="https://media.topfinanzas.com/images/budgetbee/banner-art.webp"
   alt="BudgetBee - Unbiased Financial Guidance"
   width={1200}
   height={600}

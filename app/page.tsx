@@ -983,7 +983,7 @@ export default function Home() {
         subtitle="Make smarter financial decisions with BudgetBee. We provide clear, unbiased guidance on credit cards, budgeting, and personal finance – no sign-ups, no hidden agendas, just honest advice to help you thrive financially."
         ctaText="Start Your Journey"
         ctaLink="/blog"
-        imageSrc="/images/banner-art.webp"
+        imageSrc="https://media.topfinanzas.com/images/budgetbee/banner-art.webp"
         imageAlt="BudgetBee - Financial guidance and comparison"
       />
 
@@ -991,7 +991,7 @@ export default function Home() {
       <FiftyFiftySection
         title="Find the Perfect Credit Card for Your Lifestyle"
         description="Navigate the overwhelming world of credit cards with confidence. We analyze hundreds of options to recommend cards that actually match your spending habits and financial goals. Whether you're building credit, maximizing rewards, or consolidating debt, we'll help you find the right fit – without the sales pitch."
-        imageSrc="/images/service-slide-1.png"
+        imageSrc="https://media.topfinanzas.com/images/budgetbee/service-slide-1.png"
         imageAlt="Credit card comparison"
         ctaText="Explore Credit Cards"
         ctaLink="/credit-cards"
@@ -1002,7 +1002,7 @@ export default function Home() {
       <FiftyFiftySection
         title="Master Your Budget Without the Stress"
         description="Budgeting doesn't have to be complicated or restrictive. Learn practical strategies that work with your lifestyle, not against it. From the 50/30/20 rule to zero-based budgeting, we break down different approaches so you can find what clicks for you. Plus, discover the best free tools and apps to automate your financial success."
-        imageSrc="/images/service-slide-3.png"
+        imageSrc="https://media.topfinanzas.com/images/budgetbee/service-slide-3.png"
         imageAlt="Budgeting strategies and tools"
         ctaText="Learn Budgeting Basics"
         ctaLink="/blog"
@@ -1063,7 +1063,7 @@ export default function Home() {
       <WorkflowSection
         title="How BudgetBee Helps You Win Financially"
         description="Three simple steps to better financial decisions: Learn from unbiased guides, Apply practical strategies to your life, and Grow your financial confidence. No complex systems, no expensive courses – just straightforward advice that works."
-        imageSrc="/images/banner.png"
+        imageSrc="https://media.topfinanzas.com/images/budgetbee/banner.png"
         imageAlt="BudgetBee workflow illustration"
       />
 
@@ -1071,7 +1071,7 @@ export default function Home() {
       <CallToAction
         title="Ready to Take Control of Your Finances?"
         content="Join thousands of Gen-Z and Millennials who are making smarter money moves with BudgetBee. Start exploring our unbiased guides and practical tips – no sign-up required."
-        imageSrc="/images/service-slide-2.png"
+        imageSrc="https://media.topfinanzas.com/images/budgetbee/service-slide-2.png"
         imageAlt="Start your financial journey with BudgetBee"
         buttonText="Browse Financial Guides"
         buttonLink="/blog"

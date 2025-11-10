@@ -17,8 +17,8 @@ All favicon references have been updated from:
 
 To:
 
-- ✅ NEW: `https://media.topfinanzas.com/images/kardtrust/favicon.png`
-- ✅ NEW: `https://media.topfinanzas.com/images/kardtrust/favicon.webp`
+- ✅ NEW: `https://media.topfinanzas.com/images/budgetbee/favicon.png`
+- ✅ NEW: `https://media.topfinanzas.com/images/budgetbee/favicon.webp`
 
 ---
 
@@ -86,12 +86,12 @@ To:
 
 **Before testing, ensure these files exist on the CDN:**
 
-1. `https://media.topfinanzas.com/images/kardtrust/favicon.png`
+1. `https://media.topfinanzas.com/images/budgetbee/favicon.png`
    - Format: PNG
    - Recommended sizes: 32×32, 48×48, 64×64
    - Transparent background
 
-2. `https://media.topfinanzas.com/images/kardtrust/favicon.webp`
+2. `https://media.topfinanzas.com/images/budgetbee/favicon.webp`
    - Format: WebP
    - Recommended sizes: 192×192, 512×512
    - Transparent background

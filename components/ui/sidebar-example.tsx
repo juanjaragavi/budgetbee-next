@@ -42,7 +42,7 @@ export default function SidebarExample() {
             <SidebarRecentArticles>
               <div className="flex items-center gap-3">
                 <Image
-                  src="/images/article-thumbnail-1.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/article-thumbnail-1.webp"
                   alt="Article about personal finance"
                   width={50}
                   height={50}
@@ -61,7 +61,7 @@ export default function SidebarExample() {
 
               <div className="flex items-center gap-3">
                 <Image
-                  src="/images/article-thumbnail-2.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/article-thumbnail-2.webp"
                   alt="Article about mortgages"
                   width={50}
                   height={50}
@@ -80,7 +80,7 @@ export default function SidebarExample() {
 
               <div className="flex items-center gap-3">
                 <Image
-                  src="/images/article-thumbnail-3.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/article-thumbnail-3.webp"
                   alt="Article about loans"
                   width={50}
                   height={50}

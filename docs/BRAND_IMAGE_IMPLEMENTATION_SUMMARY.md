@@ -232,7 +232,7 @@ export default function HeroSection() {
   return (
     <section className="relative">
       <Image
-        src="/images/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
+        src="https://media.topfinanzas.com/images/budgetbee/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
         alt="Smiling woman confidently holding credit card outdoors with laptop, surrounded by upward red arrows and blue stars representing financial growth and trust"
         width={1920}
         height={1080}
@@ -250,7 +250,7 @@ export default function HeroSection() {
 ```typescript
 // Example: Responsive images with srcSet
 <Image
-  src="/images/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
+  src="https://media.topfinanzas.com/images/budgetbee/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
   srcSet="
     /images/hero/kardtrust-hero-credit-card-woman-outdoor-v1-768w.webp 768w,
     /images/hero/kardtrust-hero-credit-card-woman-outdoor-v1-1280w.webp 1280w,

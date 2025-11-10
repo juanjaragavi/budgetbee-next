@@ -67,7 +67,7 @@ const nextConfig = {
       },
       {
         // Logo image caching
-        source: "/images/kardtrust/kardtrust-logo-dark.png",
+        source: "/images/budgetbee/budgetbee-logo-dark.png",
         headers: [
           {
             key: "Cache-Control",

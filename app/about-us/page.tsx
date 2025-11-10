@@ -17,7 +17,7 @@ export default function AboutUs() {
 
           <div className="mb-12">
             <Image
-              src="/images/banner-art.webp"
+              src="https://media.topfinanzas.com/images/budgetbee/banner-art.webp"
               alt="BudgetBee - Unbiased Financial Guidance"
               width={1200}
               height={600}

@@ -284,7 +284,7 @@ Generated images should be:
 ````typescript
 // Example implementation in Next.js
 <Image
-  src="/images/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
+  src="https://media.topfinanzas.com/images/budgetbee/hero/kardtrust-hero-credit-card-woman-outdoor-v1.webp"
   alt="Smiling woman confidently holding credit card outdoors with laptop, surrounded by upward red arrows and blue stars representing financial growth and trust"
   width={1920}
   height={1080}

@@ -117,7 +117,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
           <Image
             src={
               props.src ||
-              "https://media.topfinanzas.com/images/kardtrust/favicon.webp"
+              "https://media.topfinanzas.com/images/budgetbee/favicon.webp"
             }
             alt={props.alt || ""}
             width={props.width ? Number(props.width) : 800}

@@ -17,7 +17,7 @@ export default function Logo() {
       }}
     >
       <Image
-        src="https://media.topfinanzas.com/images/kardtrust/favicon.webp"
+        src="https://media.topfinanzas.com/images/budgetbee/favicon.webp"
         alt="BudgetBee Logo"
         width={48}
         height={48}
