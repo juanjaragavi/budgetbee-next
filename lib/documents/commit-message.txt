@@ -1,30 +1,51 @@
-fix: Reduce checkbox size for better mobile display in Step 3
+fix: Refactor checkbox layout to prevent full-width issue on mobile
 
-Further refined checkbox sizing to fix excessive width on mobile devices in the Step 3 quiz form.
+Complete restructure of checkbox/label layout to fix persistent full-width display issue on mobile devices in Step 3 form.
 
-Issue:
-- Checkbox at h-5 w-5 (20px × 20px) appeared too large on mobile screens
-- Created visual imbalance with text label on smaller viewports
-- User reported checkbox still too wide after previous fix
+Problem:
+- Previous flex container approach still resulted in full-width checkbox on mobile
+- Checkbox appeared to take entire container width despite size constraints
+- h-4 w-4 and flex-shrink-0 were not sufficient to constrain mobile display
+- Required alternative layout structure for mobile viewports
 
-Changes Applied:
-- Reduced checkbox size from h-5 w-5 to h-4 w-4 (16px × 16px)
-- Updated gap from gap-3 to gap-2.5 for tighter spacing on mobile
-- Maintained flex-shrink-0 to prevent expansion
-- Kept all other styling (colors, border-2, flex-1 on label, etc.)
+Solution Implemented:
+- Restructured HTML: moved checkbox inside Label element as direct child
+- Changed container from separate div with Checkbox + Label to single Label wrapper
+- Checkbox now positioned inline with text using nested flex layout
+- Added min-w-[16px] to explicitly enforce minimum width constraint
+- Wrapped text content in <span> with flex-1 for proper flow
+- Simplified layout removes extra container causing width issues
 
-Technical Details:
-- Checkbox dimensions: 20px × 20px → 16px × 16px
-- Container gap: 12px (gap-3) → 10px (gap-2.5)
-- Better proportions for mobile viewports (360px - 414px width)
-- Standard checkbox size for better mobile UX
+Technical Changes:
+Previous structure:
+```
+<div className="flex items-start gap-2.5">
+  <Checkbox />
+  <Label>text</Label>
+</div>
+```
+
+New structure:
+```
+<Label className="flex items-start gap-2">
+  <Checkbox className="min-w-[16px]" />
+  <span className="flex-1">text</span>
+</Label>
+```
+
+Key Improvements:
+- Checkbox constrained by min-w-[16px] AND natural h-4 w-4 sizing
+- Better semantic HTML with checkbox inside label
+- Simpler DOM structure eliminates mobile layout bugs
+- Gap reduced from 2.5 to 2 (8px) for tighter mobile spacing
+- Text wrapped in span with flex-1 prevents layout collapse
 
 Result:
-✅ Checkbox now properly sized for mobile devices (16px × 16px)
-✅ Better visual balance with text on small screens
-✅ Tighter, more compact layout suitable for mobile
-✅ Maintains proper alignment and legibility
-✅ Validated on mobile viewport in DevTools
+✅ Checkbox displays at correct 16px × 16px size on mobile
+✅ No full-width expansion or layout issues
+✅ Better mobile UX with proper spacing
+✅ Desktop layout remains unaffected
+✅ More robust layout structure
 
 Files Modified:
-- components/steps/step3.tsx - Reduced checkbox size and adjusted spacing
+- components/steps/step3.tsx - Complete checkbox layout refactor

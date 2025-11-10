@@ -235,26 +235,28 @@ export default function Step3({
           )}
         </div>
 
-        <div className="flex items-start gap-2.5 pt-2">
-          <Checkbox
-            id="receiveMessages"
-            checked={receiveMessages}
-            onCheckedChange={handleCheckboxChange}
-            className="mt-0.5 h-4 w-4 flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
-          />
+        <div className="pt-2">
           <Label
             htmlFor="receiveMessages"
-            className="text-sm text-gray-700 leading-normal cursor-pointer flex-1"
+            className="flex items-start gap-2 text-sm text-gray-700 leading-normal cursor-pointer"
           >
-            I agree to receive personalized credit card recommendations and
-            accept the{" "}
-            <a href="/terms" className="text-[#F7B500] underline">
-              Terms of Service
-            </a>{" "}
-            and{" "}
-            <a href="/privacy-policy" className="text-[#F7B500] underline">
-              Privacy Policy
-            </a>
+            <Checkbox
+              id="receiveMessages"
+              checked={receiveMessages}
+              onCheckedChange={handleCheckboxChange}
+              className="mt-0.5 h-4 w-4 min-w-[16px] flex-shrink-0 data-[state=checked]:bg-[#F7B500] data-[state=checked]:border-[#F7B500] border-2 border-gray-400"
+            />
+            <span className="flex-1">
+              I agree to receive personalized credit card recommendations and
+              accept the{" "}
+              <a href="/terms" className="text-[#F7B500] underline">
+                Terms of Service
+              </a>{" "}
+              and{" "}
+              <a href="/privacy-policy" className="text-[#F7B500] underline">
+                Privacy Policy
+              </a>
+            </span>
           </Label>
         </div>
       </motion.div>
