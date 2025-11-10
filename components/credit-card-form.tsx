@@ -381,8 +381,13 @@ export default function CreditCardForm() {
           );
 
           setTimeout(() => {
-            redirectWithUtmParams("https://linkly.link/2ERrA");
+            redirectWithUtmParams("/credit-card-recommender-p1");
           }, 800);
+          return;
+
+          //setTimeout(() => {
+          //  redirectWithUtmParams("https://linkly.link/2ERrA");
+          //}, 800);
           return;
         }
 
