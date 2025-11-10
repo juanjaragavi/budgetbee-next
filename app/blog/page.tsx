@@ -790,24 +790,24 @@ export default function BlogArchivePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <Link
           href="/personal-finance"
-          className="block p-6 bg-white border-2 border-gray-200 rounded-xl hover:border-[#F7B500] hover:shadow-md transition-all"
+          className="block p-6 bg-[#E8F4FD] border-2 border-[#E8F4FD] rounded-xl hover:bg-[#D4E9F9] hover:shadow-md transition-all"
         >
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">
+          <h2 className="text-2xl font-semibold text-[#2E5C8A] mb-2">
             Personal Finance Guides
           </h2>
-          <p className="text-gray-700">
+          <p className="text-[#2E5C8A]">
             Explore tips on budgeting, saving, debt management, credit cards,
             and more.
           </p>
         </Link>
         <Link
           href="/financial-solutions"
-          className="block p-6 bg-white border-2 border-gray-200 rounded-xl hover:border-[#F7B500] hover:shadow-md transition-all"
+          className="block p-6 bg-[#E8F8F0] border-2 border-[#E8F8F0] rounded-xl hover:bg-[#D4F0E4] hover:shadow-md transition-all"
         >
-          <h2 className="text-2xl font-semibold text-gray-900 mb-2">
+          <h2 className="text-2xl font-semibold text-[#1D6E4F] mb-2">
             Financial Solutions
           </h2>
-          <p className="text-gray-700">
+          <p className="text-[#1D6E4F]">
             Discover detailed reviews and comparisons of credit cards and loans
             available in the US.
           </p>

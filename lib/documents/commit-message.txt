@@ -1,28 +1,9 @@
-fix: Add explicit white text color on hover for all primary buttons
+style: Update category highlight box colors to match original design
 
-Button Text Color Fix:
-- Added hover:text-white to all primary buttons with yellow background
-- Fixed illegible text issue where yellow text appeared on yellow background
-- Updated Button component, Badge component, and global CSS classes
+Updated the category highlight boxes on the blog page to match the original Astro site design:
+- Personal Finance Guides: Changed from white/gray to blue background (#E8F4FD) with blue text (#2E5C8A)
+- Financial Solutions: Changed from white/gray to green background (#E8F8F0) with green text (#1D6E4F)
+- Updated hover states to slightly darker shades for better UX
+- Maintained consistent spacing and rounded corners
 
-Files Modified:
-- components/ui/button.tsx - Added hover:text-white to primary variant
-- components/ui/badge.tsx - Added hover:text-white to all badge variants
-- app/globals.css - Updated CTA button classes with explicit hover text color
-- components/layout/* - Updated header, blog layout, call-to-action, sidebar
-- app/**/*.tsx - Batch updated 50+ button instances across all app pages
-
-Affected Components:
-- Primary CTA buttons throughout the site
-- Navigation "Get Started" button
-- Blog share buttons (Facebook, Twitter, WhatsApp)
-- Contact form buttons
-- Credit card recommender buttons
-- Financial solutions page buttons
-- Newsletter subscription buttons
-- All Link components with button styling
-
-Accessibility Improvement:
-- Ensures white text remains visible and legible on hover
-- Maintains WCAG contrast ratio compliance
-- Consistent user experience across all interactive elements
+This change improves visual consistency with the original BudgetBee brand identity and makes category sections more visually distinct.
