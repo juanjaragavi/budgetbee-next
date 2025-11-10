@@ -57,7 +57,7 @@ All three media assets have been successfully copied from:
 **Source**: `/Users/macbookpro/GitHub/budgetbee/src/pages/about.astro`  
 **Destination**: `/Users/macbookpro/GitHub/budgetbee-next/app/about-us/page.tsx`
 
-#### Changes Made:
+#### Changes Made
 
 1. **Title Updated**:
    - From: "BudgetBee: Your guide to the world of personal finance"
@@ -85,7 +85,7 @@ All three media assets have been successfully copied from:
    - Replaced `text-primary` with `text-blue-600`
    - Converted Astro Link to Next.js Link component
 
-#### Verification:
+#### Verification
 
 - ✅ No TypeScript errors
 - ✅ No lint errors
@@ -172,7 +172,7 @@ All three media assets have been successfully copied from:
 
 ### About Page Image References
 
-#### Before (Astro):
+#### Before (Astro)
 
 ```astro
 <Image
@@ -184,7 +184,7 @@ All three media assets have been successfully copied from:
 />
 ```
 
-#### After (Next.js):
+#### After (Next.js)
 
 ```tsx
 <Image
@@ -226,7 +226,7 @@ All three media assets have been successfully copied from:
 
 ### Astro to Next.js Conversion Patterns
 
-#### Component Structure:
+#### Component Structure
 
 ```astro
 // Astro (server-side by default)
@@ -250,17 +250,17 @@ export default function Page() {
 }
 ```
 
-#### CSS Classes:
+#### CSS Classes
 
 - Astro: `class="..."`
 - Next.js: `className="..."`
 
-#### Images:
+#### Images
 
 - Astro: `import { Image } from "astro:assets";`
 - Next.js: `import Image from "next/image";`
 
-#### Links:
+#### Links
 
 - Astro: `<a href="...">`
 - Next.js: `<Link href="...">`
@@ -277,14 +277,14 @@ export default function Page() {
 4. ❌ Update credit card recommender image references
 5. ❌ Test all migrated pages in development mode
 
-### Medium Priority
+    **Medium Priority**
 
 6. ❌ Migrate quiz-results page
 7. ❌ Migrate qz page
 8. ❌ Migrate 404 page
 9. ❌ Verify all internal links work correctly
 
-### Low Priority
+    **Low Priority**
 
 10. ❌ SEO metadata verification
 11. ❌ Performance optimization review
@@ -313,9 +313,9 @@ Once all pages are migrated, verify:
 
 ## 9. File Structure Comparison
 
-### Astro Site Structure:
+### Astro Site Structure
 
-```
+```markdown
 /src/pages/
   ├── index.astro
   ├── about.astro
@@ -324,9 +324,9 @@ Once all pages are migrated, verify:
   └── ...
 ```
 
-### Next.js Site Structure:
+### Next.js Site Structure
 
-```
+```markdown
 /app/
   ├── page.tsx (homepage)
   ├── about-us/

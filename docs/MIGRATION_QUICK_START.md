@@ -575,7 +575,7 @@ import Image from "next/image";
 
 ### Production Site
 
-- Live Site: https://budgetbeepro.com
+- Live Site: <https://budgetbeepro.com>
 - Use for visual comparison and content reference
 
 ---

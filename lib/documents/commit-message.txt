@@ -1,18 +1,7 @@
-refactor: Improve footer social media layout and migrate images to CDN
+docs: Fix markdown formatting in migration documentation
 
-Footer Component Changes:
-- Moved "Follow us on social media" title above social media icons
-- Changed social media container from horizontal to vertical flex layout
-- Improved text alignment with centered positioning
-- Migrated favicon image from local path to CDN (media.topfinanzas.com)
-
-Image Migration:
-- Updated multiple component images to use CDN paths
-- Modified logo.tsx, preloader, sidebar, and other UI components
-- Ensures consistent loading from whitelisted CDN domains
-- Optimizes performance with CDN caching and delivery
-
-Documentation Updates:
-- Updated branding and migration documentation
-- Revised favicon implementation summary
-- Updated brand image generation and implementation guides
+- Fixed URL formatting in MIGRATION_QUICK_START.md (wrapped in angle brackets)
+- Removed colons from markdown headers for cleaner formatting
+- Fixed code block language syntax (markdown instead of plain)
+- Improved consistency in heading styles across migration documents
+- Standardized formatting in MIGRATION_REPORT_TOP_LEVEL_PAGES.md
