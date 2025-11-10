@@ -1,13 +1,18 @@
-fix: Improve text visibility in About Us page and button hover states
+refactor: Update Contact Us form to match BudgetBee brand colors
 
-About Us Page Text Colors:
-- Added text-gray-800 class to all paragraph elements for proper visibility
-- Added text-gray-900 class to subtitle headings in "Our Commitment to You" section
-- Fixed white text issue on white background throughout the page
+Form Color Scheme Updates:
+- Changed form title from blue (#2E74B5) to primary brand yellow
+- Updated all input field borders from blue to primary color
+- Changed input field focus ring from green (#8DC63F) to primary color
+- Updated success checkmark from green to primary brand color
+- Changed submit button from green to primary yellow with proper hover state
 
-Button Hover State Fixes:
-- Added hover:text-white to .btn-primary class to maintain white text on hover
-- Added text-white to .cta-button-orange:hover for consistent text color
-- Added text-white to .cta-button-blue:hover for consistent text color
-- Prevents text from becoming invisible or hard to read on hover
-- Ensures all CTA buttons maintain proper contrast on hover state
+Link and Interactive Elements:
+- Updated policy/terms links from blue to primary color with hover states
+- Changed checkbox checked state from green to primary brand color
+- Updated "Send Another Message" button to primary brand colors
+
+Consistency Improvements:
+- All form elements now use consistent brand primary/primary-dark colors
+- Maintains proper contrast and accessibility standards
+- Aligns Contact Us page with overall BudgetBee visual identity

@@ -428,7 +428,7 @@ export default function ContactUs() {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-left py-12"
               >
-                <div className="text-[#8DC63F] text-6xl mb-4">✓</div>
+                <div className="text-primary text-6xl mb-4">✓</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">
                   Thank You!
                 </h3>
@@ -438,14 +438,14 @@ export default function ContactUs() {
                 </p>
                 <button
                   onClick={() => setSubmitSuccess(false)}
-                  className="bg-[#2E74B5] hover:bg-[#245d91] text-white px-6 py-2 rounded-full transition-colors"
+                  className="bg-primary hover:bg-primary-dark text-white px-6 py-2 rounded-full transition-colors"
                 >
                   Send Another Message
                 </button>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
-                <h2 className="text-2xl font-semibold text-[#2E74B5] mb-6">
+                <h2 className="text-2xl font-semibold text-primary mb-6">
                   Send Us a Message
                 </h2>
 
@@ -464,7 +464,7 @@ export default function ContactUs() {
                     className={`h-10 ${
                       errors.name
                         ? "border-red-500 focus-visible:ring-red-500"
-                        : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
+                        : "border-primary focus-visible:ring-primary"
                     }`}
                     placeholder="Your first name"
                     aria-describedby="name-error"
@@ -491,7 +491,7 @@ export default function ContactUs() {
                     className={`h-10 ${
                       errors.lastName
                         ? "border-red-500 focus-visible:ring-red-500"
-                        : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
+                        : "border-primary focus-visible:ring-primary"
                     }`}
                     placeholder="Your last name"
                     aria-describedby="lastName-error"
@@ -521,7 +521,7 @@ export default function ContactUs() {
                     className={`h-10 ${
                       errors.email
                         ? "border-red-500 focus-visible:ring-red-500"
-                        : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
+                        : "border-primary focus-visible:ring-primary"
                     }`}
                     placeholder="example@email.com"
                     aria-describedby="email-error"
@@ -548,7 +548,7 @@ export default function ContactUs() {
                     className={`h-10 ${
                       errors.phone
                         ? "border-red-500 focus-visible:ring-red-500"
-                        : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
+                        : "border-primary focus-visible:ring-primary"
                     }`}
                     placeholder="11 digits (e.g. 07123456789)"
                     maxLength={11}
@@ -575,7 +575,7 @@ export default function ContactUs() {
                     className={`min-h-[120px] ${
                       errors.message
                         ? "border-red-500 focus-visible:ring-red-500"
-                        : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
+                        : "border-primary focus-visible:ring-primary"
                     }`}
                     placeholder="Describe your query or request"
                     aria-describedby="message-error"
@@ -592,18 +592,21 @@ export default function ContactUs() {
                     id="acceptTerms"
                     checked={formData.acceptTerms}
                     onCheckedChange={handleCheckboxChange}
-                    className="mt-0.5 data-[state=checked]:bg-[#8DC63F] data-[state=checked]:border-[#8DC63F]"
+                    className="mt-0.5 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
                   />
                   <Label htmlFor="acceptTerms" className="text-xs">
                     I accept the{" "}
                     <Link
                       href="/privacy-policy"
-                      className="text-[#2E74B5] underline"
+                      className="text-primary hover:text-primary-dark underline"
                     >
                       data policy
                     </Link>{" "}
                     and{" "}
-                    <Link href="/terms" className="text-[#2E74B5] underline">
+                    <Link
+                      href="/terms"
+                      className="text-primary hover:text-primary-dark underline"
+                    >
                       terms & conditions
                     </Link>
                   </Label>
@@ -628,7 +631,7 @@ export default function ContactUs() {
                     isSubmitting
                       ? "bg-gray-400 cursor-not-allowed text-white"
                       : formData.acceptTerms
-                        ? "bg-[#8DC63F] hover:bg-[#6BA828] text-white"
+                        ? "bg-primary hover:bg-primary-dark text-white"
                         : "bg-gray-300 text-gray-500 cursor-not-allowed"
                   }`}
                 >
