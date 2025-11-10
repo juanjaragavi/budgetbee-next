@@ -118,7 +118,7 @@ export function FeaturedPostCard({
         <div className="mt-4 text-left sm:text-left">
           <Link
             href={postUrl}
-            className="block w-full text-center px-4 py-3 bg-[#F7B500] text-white font-bold rounded-full hover:bg-[#E5A600] transition-colors"
+            className="block w-full text-center px-4 py-3 bg-[#F7B500] text-white font-bold rounded-full hover:bg-[#E5A600] hover:text-white transition-colors"
           >
             Read more →
           </Link>

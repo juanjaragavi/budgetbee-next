@@ -1,9 +1,19 @@
-style: Update category highlight box colors to match original design
+fix: Ensure Read More button text stays white on hover
 
-Updated the category highlight boxes on the blog page to match the original Astro site design:
-- Personal Finance Guides: Changed from white/gray to blue background (#E8F4FD) with blue text (#2E5C8A)
-- Financial Solutions: Changed from white/gray to green background (#E8F8F0) with green text (#1D6E4F)
-- Updated hover states to slightly darker shades for better UX
-- Maintained consistent spacing and rounded corners
+Fixed illegible text issue on Read More buttons where text was turning yellow on hover over yellow background.
 
-This change improves visual consistency with the original BudgetBee brand identity and makes category sections more visually distinct.
+Changes:
+- Added hover:text-white to FeaturedPostCard Read More buttons
+- Added hover:text-white to Personal Finance page Read More buttons
+- Maintains white text visibility on hover state
+- Ensures WCAG contrast compliance
+
+Files Modified:
+- components/ui/featured-post-card.tsx - Added hover:text-white to Read More button
+- app/personal-finance/page.tsx - Added hover:text-white to Read More button
+
+This fix applies to Read More buttons on:
+- Blog page (via FeaturedPostCard)
+- Personal Finance page
+- Financial Solutions page (via FeaturedPostCard)
+- Homepage (via FeaturedPostCard)
