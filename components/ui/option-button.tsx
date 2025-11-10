@@ -22,28 +22,28 @@ export default function OptionButton({
     <motion.button
       type="button"
       onClick={onClick}
-      className={`option-button flex items-center justify-between w-full px-4 py-3 rounded-lg border-2 transition-all ${
+      className={`option-button flex items-center justify-between w-full px-6 py-4 rounded-xl border-2 transition-all shadow-sm ${
         selected
-          ? "border-[#F7B500] bg-[#FFF9E6]"
-          : "border-gray-200 bg-white hover:border-gray-300"
+          ? "border-[#F7B500] bg-[#FFF9E6] shadow-md"
+          : "border-gray-300 bg-white hover:border-[#F7B500] hover:shadow-md"
       } ${className}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay }}
-      whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.99 }}
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
     >
-      <span className="text-left text-gray-900 font-medium text-sm">
+      <span className="text-left text-gray-900 font-semibold text-base">
         {label}
       </span>
       <div
-        className={`w-5 h-5 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+        className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-all ${
           selected
-            ? "border-[#F7B500] bg-[#F7B500]"
-            : "border-gray-300 bg-white"
+            ? "border-[#F7B500] bg-[#F7B500] shadow-sm"
+            : "border-gray-400 bg-white"
         }`}
       >
-        {selected && <div className="w-2 h-2 rounded-full bg-white" />}
+        {selected && <div className="w-3 h-3 rounded-full bg-white" />}
       </div>
     </motion.button>
   );

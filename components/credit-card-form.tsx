@@ -381,7 +381,7 @@ export default function CreditCardForm() {
           );
 
           setTimeout(() => {
-            redirectWithUtmParams("https://linkly.link/2ERav");
+            redirectWithUtmParams("https://linkly.link/2ERrA");
           }, 800);
           return;
         }
