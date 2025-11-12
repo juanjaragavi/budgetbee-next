@@ -1,11 +1,7 @@
-chore: fix markdown formatting and organize documentation
+chore: apply prettier formatting to TOFU blog post instructions
 
-- Fixed Prettier formatting issues in all Markdown files
-- Applied strict Prettier rules for consistent formatting
-- Moved CATEGORY_CLEANUP_SUMMARY.md to lib/documents/ directory
-- Moved HEADER_NAVIGATION_UPDATE_SUMMARY.md to lib/documents/ directory
-- Updated README.md with correct BudgetBee logo and formatting
-- Ensured all instruction files comply with Prettier standards
-- Organized documentation files for better project structure
+- Fixed Prettier formatting in TOFU_BLOG_POST_GENERATION.instructions.md
+- Applied strict Prettier rules for markdown consistency
+- Ensures all instruction files comply with formatting standards
 
-All Markdown files now pass strict Prettier validation.
+Part of ongoing markdown formatting cleanup across the project.

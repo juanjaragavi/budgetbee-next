@@ -1,4 +1,3 @@
-````instructions
 <!-- markdownlint-disable MD013 MD024 MD033 MD036 MD041 -->
 
 # US Blog Article Generator - System Prompt
@@ -362,5 +361,3 @@ export default function {ComponentName}Page() {
 - Avoid sensationalist language; keep promises realistic and highlight potential risks alongside benefits
 
 </EthicalGuidelines>
-
-````
