@@ -12,7 +12,7 @@
 
 ### 1. AdZep Analytics Integration
 
-- [x] Updated AdZep script URL from `uk.kardtrust.js` to `kardtrust.js`
+- [x] Updated AdZep script URL from `uk.budgetbeepro.js` to `budgetbeepro.js`
 - [x] File: `/components/analytics/adzep.tsx`
 - [x] Verified script loading strategy remains optimized
 
@@ -143,19 +143,19 @@ ls -la .next/standalone/
 
 ```bash
 # Copy standalone build to server
-scp -r .next/standalone/* user@server:/opt/app/kardtrust/
-scp -r .next/static user@server:/opt/app/kardtrust/.next/
-scp -r public user@server:/opt/app/kardtrust/
+scp -r .next/standalone/* user@server:/opt/app/budgetbee/
+scp -r .next/static user@server:/opt/app/budgetbee/.next/
+scp -r public user@server:/opt/app/budgetbee/
 
 # Copy .htaccess to public directory
-scp public/.htaccess user@server:/opt/app/kardtrust/public/
+scp public/.htaccess user@server:/opt/app/budgetbee/public/
 ```
 
 ### 5. Start the Application
 
 ```bash
 # On the server
-cd /opt/app/kardtrust
+cd /opt/app/budgetbee
 NODE_ENV=production node server.js
 ```
 
@@ -175,13 +175,13 @@ NODE_ENV=production node server.js
     ProxyPassReverse / http://localhost:3007/
 
     # Enable .htaccess override
-    <Directory /opt/app/kardtrust/public>
+    <Directory /opt/app/budgetbeepro/public>
         AllowOverride All
         Require all granted
     </Directory>
 
-    ErrorLog ${APACHE_LOG_DIR}/kardtrust-error.log
-    CustomLog ${APACHE_LOG_DIR}/kardtrust-access.log combined
+    ErrorLog ${APACHE_LOG_DIR}/budgetbeepro-error.log
+    CustomLog ${APACHE_LOG_DIR}/budgetbeepro-access.log combined
 </VirtualHost>
 
 # Redirect HTTP to HTTPS
@@ -276,8 +276,8 @@ sudo apt-get install htop
 sudo apt-get install apache2-utils
 
 # Monitor Apache logs
-tail -f /var/log/apache2/kardtrust-access.log
-tail -f /var/log/apache2/kardtrust-error.log
+tail -f /var/log/apache2/budgetbeepro-access.log
+tail -f /var/log/apache2/budgetbeepro-error.log
 ```
 
 ### 2. Application Monitoring
@@ -381,7 +381,7 @@ tail -f /var/log/apache2/kardtrust-error.log
 
 If issues arise, rollback by:
 
-1. Keep previous build in `/opt/app/kardtrust.backup/`
+1. Keep previous build in `/opt/app/budgetbeepro.backup/`
 2. Stop current Node process
 3. Restore backup build
 4. Restart Node process

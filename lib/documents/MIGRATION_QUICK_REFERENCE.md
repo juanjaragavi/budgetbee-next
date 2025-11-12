@@ -4,7 +4,7 @@
 
 ### Critical Fixes
 
-1. **Ad Container IDs** - Now consistent everywhere: `us_budgetbeepro_1` and `kardtrust_ad_2`
+1. **Ad Container IDs** - Now consistent everywhere: `us_budgetbeepro_1` and `budgetbeepro_ad_2`
 2. **Date Format** - Standardized to US format: `Month DD, YYYY` (e.g., "October 24, 2025")
 3. **Regulatory Names** - Expanded for clarity: "Consumer Financial Protection Bureau" instead of just "CFPB"
 
@@ -25,14 +25,14 @@
 **Before** (Inconsistent):
 
 ```typescript
-// In code: us_budgetbeepro_1, kardtrust_ad_2
-// In docs: us_kardtrust_3, us_kardtrust_4  ❌
+// In code: us_budgetbeepro_1, budgetbeepro_ad_2
+// In docs: us_budgetbeepro_3, us_budgetbeepro_4  ❌
 ```
 
 **After** (Consistent):
 
 ```typescript
-// Everywhere: us_budgetbeepro_1, kardtrust_ad_2  ✅
+// Everywhere: us_budgetbeepro_1, budgetbeepro_ad_2  ✅
 ```
 
 ### Date Format
@@ -73,7 +73,7 @@ date: "Month DD, YYYY"; // e.g., "October 24, 2025"  ✅
   title: "Article Title | BudgetBee",
   slug: "article-slug",
   description: "Description",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",  // Note: kardtrust/ subfolder
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",  // Note: budgetbeepro/ subfolder
   category: "Personal Finance",
   categoryPath: "/personal-finance",
   date: "October 23, 2025",  // New format
@@ -85,9 +85,9 @@ date: "Month DD, YYYY"; // e.g., "October 24, 2025"  ✅
 ### Generate a Test Blog Post
 
 1. Use the updated `lib/TOFU_BLOG_POST_GENERATION.instructions.md`
-2. Verify ad containers use `us_budgetbeepro_1` and `kardtrust_ad_2`
+2. Verify ad containers use `us_budgetbeepro_1` and `budgetbeepro_ad_2`
 3. Check date format is `Month DD, YYYY`
-4. Confirm image URLs include `/kardtrust/` subfolder
+4. Confirm image URLs include `/budgetbee/` subfolder
 
 ### Integration Checklist
 
@@ -105,7 +105,7 @@ When creating a new blog post, follow these steps from `BLOG_POST_INTEGRATION.in
 If you need to revert the changes:
 
 ```bash
-cd /Users/macbookpro/GitHub/kardtrust
+cd /Users/macbookpro/GitHub/budgetbee
 
 # Restore TOFU instructions
 cp lib/TOFU_BLOG_POST_GENERATION.instructions.md.backup \

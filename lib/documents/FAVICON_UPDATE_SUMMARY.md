@@ -104,8 +104,8 @@ After favicon testing is complete, proceed with header/footer logo updates:
 
 **Logo URLs to update next:**
 
-- Color Logo: `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png`
-- White Logo: `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png`
+- Color Logo: `https://media.topfinanzas.com/images/budgetbee/budgetbee-logo-dark.png`
+- White Logo: `https://media.topfinanzas.com/images/budgetbee/budgetbee-logo-clear.png`
 
 **Files to update:**
 

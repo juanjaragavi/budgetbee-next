@@ -3,7 +3,7 @@
 **Date**: October 24, 2025  
 **Migration Type**: System Instructions and Documentation Updates  
 **Source**: TopFinanzas UK (`uk-topfinanzas-com`)  
-**Target**: BudgetBee (`kardtrust`)
+**Target**: BudgetBee (`budgetbee`)
 
 ## Executive Summary
 
@@ -19,7 +19,7 @@ The BudgetBee project has been successfully updated with the latest improvements
 #### Key Improvements Applied:
 
 - **Enhanced Markdown Structure**: Added proper code fence markers and improved markdown lint directives
-- **Fixed Ad Container ID Inconsistency**: Corrected conflicting references from `us_kardtrust_3/4` to consistent `us_budgetbeepro_1/2`
+- **Fixed Ad Container ID Inconsistency**: Corrected conflicting references from `us_budgetbeepro_3/4` to consistent `us_budgetbeepro_1/2`
 - **Date Format Standardization**: Changed from inconsistent `MM/DD/YYYY` to clear US format `Month DD, YYYY` (e.g., "October 23, 2025")
 - **Expanded Regulatory References**: Changed abbreviated "CFPB, FTC" to full names "Consumer Financial Protection Bureau, Federal Trade Commission" for clarity
 - **Improved Section Structure**: Better organized Task, Resources, Capabilities, Limitations, and Workflow sections
@@ -30,8 +30,8 @@ The BudgetBee project has been successfully updated with the latest improvements
 #### Critical Fixes:
 
 1. **Ad Container Consistency**:
-   - **Before**: Step 7 mentioned `us_kardtrust_3` and `us_kardtrust_4`
-   - **After**: Now correctly references `us_budgetbeepro_1` and `kardtrust_ad_2`
+   - **Before**: Step 7 mentioned `us_budgetbeepro_3` and `us_budgetbeepro_4`
+   - **After**: Now correctly references `us_budgetbeepro_1` and `budgetbeepro_ad_2`
    - **Impact**: Prevents confusion and ensures ads load correctly
 
 2. **Date Format Clarity**:
@@ -54,7 +54,7 @@ The BudgetBee project has been successfully updated with the latest improvements
 - **Added YAML Front Matter**: Included `applyTo: "**/*"` directive for proper instruction scoping
 - **Date Format Consistency**: Standardized all date examples to US format `Month DD, YYYY`
 - **Brand Name Consistency**: Ensured all references use "BudgetBee" (not "Top Finance UK")
-- **Image URL Consistency**: Updated all examples to use `https://media.topfinanzas.com/images/kardtrust/` path
+- **Image URL Consistency**: Updated all examples to use `https://media.topfinanzas.com/images/budgetbee/` path
 - **Improved Section Organization**: Better structured with clearer headings and formatting
 - **Enhanced Quality Control**: Retained valuable additions like Quality Control Checklist and Maintenance Notes
 - **Better Example Formatting**: Improved TypeScript code block formatting throughout
@@ -149,7 +149,7 @@ If issues arise, restore from backups:
 
 ```bash
 # Restore TOFU instructions
-cd /Users/macbookpro/GitHub/kardtrust
+cd /Users/macbookpro/GitHub/budgetbee
 cp lib/TOFU_BLOG_POST_GENERATION.instructions.md.backup lib/TOFU_BLOG_POST_GENERATION.instructions.md
 
 # Restore blog integration instructions
@@ -158,13 +158,13 @@ cp .github/instructions/BLOG_POST_INTEGRATION.instructions.md.backup .github/ins
 
 ## Key Changes Summary Table
 
-| File              | Issue Fixed        | Old Value          | New Value              | Impact                            |
-| ----------------- | ------------------ | ------------------ | ---------------------- | --------------------------------- |
-| TOFU Instructions | Ad Container IDs   | `us_kardtrust_3/4` | `us_budgetbeepro_1/2`     | High - Prevents ad loading errors |
-| TOFU Instructions | Date Format        | `MM/DD/YYYY`       | `Month DD, YYYY`       | Medium - Improves clarity         |
-| TOFU Instructions | Regulatory Names   | `CFPB, FTC`        | Full names             | Low - Better SEO/clarity          |
+| File              | Issue Fixed        | Old Value              | New Value              | Impact                            |
+| ----------------- | ------------------ | ---------------------- | ---------------------- | --------------------------------- |
+| TOFU Instructions | Ad Container IDs   | `us_budgetbeepro_3/4` | `us_budgetbeepro_1/2`  | High - Prevents ad loading errors |
+| TOFU Instructions | Date Format        | `MM/DD/YYYY`           | `Month DD, YYYY`       | Medium - Improves clarity         |
+| TOFU Instructions | Regulatory Names   | `CFPB, FTC`            | Full names             | Low - Better SEO/clarity          |
 | Blog Integration  | Date Format        | Mixed formats      | `Month DD, YYYY`       | Medium - Consistency              |
-| Blog Integration  | Image Paths        | Generic            | `kardtrust/` subfolder | Medium - Correct CDN paths        |
+| Blog Integration  | Image Paths        | Generic            | `budgetbeepro/` subfolder | Medium - Correct CDN paths        |
 | Both              | Markdown Structure | Basic              | Enhanced with fences   | Low - Better rendering            |
 
 ## Conclusion
@@ -207,7 +207,7 @@ The migration maintains backward compatibility while incorporating proven improv
 
 - **Image URL Standardization**: Updated to include BudgetBee subfolder
   - **Before**: Generic CDN paths
-  - **After**: `https://media.topfinanzas.com/images/kardtrust/[product-slug].webp`
+  - **After**: `https://media.topfinanzas.com/images/budgetbee/[product-slug].webp`
   - **Impact**: Correct CDN structure and organization
 
 - **Example Product Updated**: Changed to use placeholder format
@@ -227,7 +227,7 @@ The migration maintains backward compatibility while incorporating proven improv
 
 This file was already correct with:
 
-- Proper ad container IDs (`us_budgetbeepro_1`, `kardtrust_ad_2`)
+- Proper ad container IDs (`us_budgetbeepro_1`, `budgetbeepro_ad_2`)
 - US market adaptations
 - Local CSV path
 - American English and US regulatory references
@@ -256,7 +256,7 @@ lib/documents/prompt-to-generate-credit-card-products-posts.md.backup
 - **Backups Created**: 3 backup files
 - **CSV Path Consistency**: ✅ All files now use local CSV path
 - **Ad Container IDs**: ✅ Consistent across all files
-- **Image URLs**: ✅ Include `/kardtrust/` subfolder
+- **Image URLs**: ✅ Include `/budgetbee/` subfolder
 - **Date Formats**: ✅ US format throughout
 - **Market Adaptations**: ✅ US-specific throughout
 

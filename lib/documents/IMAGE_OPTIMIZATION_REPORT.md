@@ -3,7 +3,7 @@
 ## BudgetBee Next.js Application
 
 **Report Date:** October 20, 2025  
-**Application:** kardtrust  
+**Application:** budgetbee  
 **Framework:** Next.js 15.4.3  
 **Image Source:** GCP Bucket via CDN (media.topfinanzas.com)
 
@@ -44,7 +44,7 @@ The hero banner on the homepage uses CSS `background-image` instead of the Next.
   <style jsx>{`
     @media (min-width: 768px) {
       section {
-        background-image: url("https://media.topfinanzas.com/images/kardtrust/banner-home.webp");
+        background-image: url("https://media.topfinanzas.com/images/budgetbee/banner-home.webp");
       }
     }
   `}</style>
@@ -66,7 +66,7 @@ import Image from "next/image";
 <section className="relative py-16 md:py-24 lg:py-40 overflow-hidden">
   {/* Desktop banner */}
   <Image
-    src="https://media.topfinanzas.com/images/kardtrust/banner-home.webp"
+    src="https://media.topfinanzas.com/images/budgetbee/banner-home.webp"
     alt="BudgetBee Banner"
     fill
     priority
@@ -123,7 +123,7 @@ When too many images are marked as "priority," the browser must decide which to 
 ```tsx
 // Example from app/personal-finance/getting-out-of-debt/page.tsx
 <Image
-  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp"
+  src="https://media.topfinanzas.com/images/budgetbee/Top_Finance_how_to_get_out_of_debt.webp"
   alt="Getting Out of Debt"
   priority={true} // ⚠️ This page is not the homepage
   quality={85}
@@ -447,12 +447,12 @@ export default function HomePage() {
       <link
         rel="preload"
         as="image"
-        href="https://media.topfinanzas.com/images/kardtrust/banner-home.webp"
+        href="https://media.topfinanzas.com/images/budgetbee/banner-home.webp"
         type="image/webp"
         imageSrcSet="
-          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=640 640w,
-          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=1280 1280w,
-          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=1920 1920w
+          https://media.topfinanzas.com/images/budgetbee/banner-home.webp?w=640 640w,
+          https://media.topfinanzas.com/images/budgetbee/banner-home.webp?w=1280 1280w,
+          https://media.topfinanzas.com/images/budgetbee/banner-home.webp?w=1920 1920w
         "
         imageSizes="100vw"
       />

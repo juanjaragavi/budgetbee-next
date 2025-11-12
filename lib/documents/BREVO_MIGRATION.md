@@ -20,8 +20,8 @@ Each contact receives a unique external ID for tracking:
 
 ```javascript
 const timestamp = Math.floor(Date.now() / 1000);
-const extId = `kardtrust-${timestamp}`;
-// Example: kardtrust-1759870873
+const extId = `budgetbee-${timestamp}`;
+// Example: budgetbee-1759870873
 ```
 
 ### 2. Required Attributes
@@ -112,7 +112,7 @@ Contacts are automatically added to:
     "UTM_MEDIUM": "cpc",
     "UTM_CAMPAIGN": "uk-cards-q1"
   },
-  "ext_id": "kardtrust-1704628800",
+  "ext_id": "budgetbee-1704628800",
   "updateEnabled": false,
   "listIds": [9]
 }
@@ -235,7 +235,7 @@ Success log format:
 ```markdown
 [Brevo API] Contact created successfully: {
 email: 'user@example.com',
-ext_id: 'kardtrust-1704628800'
+ext_id: 'budgetbee-1704628800'
 }
 ```
 

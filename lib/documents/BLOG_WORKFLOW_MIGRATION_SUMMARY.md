@@ -6,7 +6,7 @@ This document summarizes the successful migration of the blog post generation wo
 
 **Migration Date**: October 23, 2025  
 **Source Project**: uk-topfinanzas-com (UK market)  
-**Target Project**: kardtrust (US market)
+**Target Project**: budgetbee (US market)
 
 ## Files Created
 
@@ -42,12 +42,12 @@ This document summarizes the successful migration of the blog post generation wo
 
 ### 1. Brand Identity Changes
 
-| UK TopFinanzas                   | BudgetBee                   |
-| -------------------------------- | --------------------------- |
-| Top Finanzas UK                  | BudgetBee                   |
-| uk.topfinanzas.com               | budgetbeepro.com            |
-| Top Finance UK                   | BudgetBee                   |
-| topfinanzas-us-topic-outline.csv | kardtrust-topic-outline.csv |
+| UK TopFinanzas                   | BudgetBee                       |
+| -------------------------------- | ------------------------------- |
+| Top Finanzas UK                  | BudgetBee                       |
+| uk.topfinanzas.com               | budgetbeepro.com                |
+| Top Finance UK                   | BudgetBee                       |
+| topfinanzas-us-topic-outline.csv | budgetbeepro-topic-outline.csv |
 
 ### 2. Localization Changes
 
@@ -76,8 +76,8 @@ This document summarizes the successful migration of the blog post generation wo
 
 | UK Version                     | US Version                   |
 | ------------------------------ | ---------------------------- |
-| uk_topfinanzas_3               | us_budgetbeepro_1               |
-| uk_topfinanzas_4               | kardtrust_ad_2               |
+| uk_topfinanzas_3               | us_budgetbeepro_1            |
+| uk_topfinanzas_4               | budgetbeepro_ad_2            |
 | media.topfinanzas.com          | media.topfinanzas.com        |
 | uk.topfinanzas.com/sitemap.xml | budgetbeepro.com/sitemap.xml |
 
@@ -85,9 +85,9 @@ This document summarizes the successful migration of the blog post generation wo
 
 All references to file paths have been updated to match the BudgetBee project structure:
 
-- CSV location: `lib/documents/kardtrust-topic-outline.csv`
+- CSV location: `lib/documents/topfinanzas-topic-outline.csv`
 - Sitemap: `https://budgetbeepro.com/sitemap.xml`
-- CSV URL: `https://media.topfinanzas.com/documents/kardtrust-topic-outline.csv`
+- CSV URL: `https://media.topfinanzas.com/documents/topfinanzas-topic-outline.csv`
 
 ## Workflow Structure
 
@@ -96,7 +96,7 @@ All references to file paths have been updated to match the BudgetBee project st
 1. **Input**: User provides article parameters (pillar, keyword, title, etc.)
 2. **System Prompt**: AI reads `/lib/TOFU_BLOG_POST_GENERATION.instructions.md`
 3. **Data Sources**:
-   - Primary: `lib/documents/kardtrust-topic-outline.csv`
+   - Primary: `lib/documents/budgetbeepro-topic-outline.csv`
    - Secondary: `https://budgetbeepro.com/sitemap.xml`
    - References: CFPB, FTC, MyMoney.gov
 4. **Output**: One `.tsx` file at `/app/personal-finance/{slug}/page.tsx`
@@ -157,7 +157,7 @@ All references to file paths have been updated to match the BudgetBee project st
 
 ### Immediate Actions
 
-1. ✅ Create CSV topic outline file: `lib/documents/kardtrust-topic-outline.csv`
+1. ✅ Create CSV topic outline file: `lib/documents/topfinanzas-topic-outline.csv`
 2. ✅ Ensure sitemap is accessible: `https://budgetbeepro.com/sitemap.xml`
 3. ✅ Verify CDN is configured: `https://media.topfinanzas.com/`
 4. ✅ Test workflow with a sample article

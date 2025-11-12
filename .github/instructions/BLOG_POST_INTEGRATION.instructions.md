@@ -31,7 +31,7 @@ When creating new blog articles, they must be added to multiple locations across
   title: "Article Title | BudgetBee",
   slug: "article-slug", // Must match directory name
   description: "Article description/excerpt",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",
   category: "Personal Finance" | "Financial Solutions",
   categoryPath: "/personal-finance" | "/financial-solutions",
   date: "Month DD, YYYY", // e.g., "August 27, 2025"
@@ -57,7 +57,7 @@ When creating new blog articles, they must be added to multiple locations across
   title: "Article Title | BudgetBee",
   slug: "article-slug",
   description: "Article description/excerpt",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",
   date: "Month DD, YYYY",
   category: "guide" | "creditCards" | "loans" | "debt", // Category filter
 }
@@ -83,17 +83,18 @@ When creating new blog articles, they must be added to multiple locations across
 **Format**:
 
 ```typescript
+```typescript
 <FeaturedPostCard
   title="Article Title"
   description="Article description"
-  image="https://media.topfinanzas.com/images/kardtrust/article-image.webp"
+  image="https://media.topfinanzas.com/images/budgetbee/article-image.webp"
   slug="article-slug"
   category="Personal Finance"
   categorySlug="/personal-finance"
   date="Month DD, YYYY"
   orientation="horizontal"
   priority={false}
-/>
+```
 ```
 
 ### 4. Blog Sidebar Recent Articles (`components/mdx/blog-layout.tsx`)
@@ -105,12 +106,13 @@ When creating new blog articles, they must be added to multiple locations across
 **Format**:
 
 ```typescript
+```typescript
 {
   /* Article X */
 }
 <div className="flex items-center gap-3">
   <Image
-    src="https://media.topfinanzas.com/images/kardtrust/article-image.webp"
+    src="https://media.topfinanzas.com/images/budgetbee/article-image.webp"
     alt="Article Title"
     width={50}
     height={50}
@@ -122,15 +124,7 @@ When creating new blog articles, they must be added to multiple locations across
         "https://media.topfinanzas.com/budgetbee/images/og-image.png";
     }}
   />
-  <div>
-    <Link
-      href="/personal-finance/article-slug"
-      className="text-sm font-medium hover:underline line-clamp-2"
-    >
-      Article Title
-    </Link>
-  </div>
-</div>;
+```
 ```
 
 **Notes**:
@@ -151,7 +145,7 @@ When creating new blog articles, they must be added to multiple locations across
 {
   title: cleanTitle("Article Title"),
   href: "/personal-finance/article-slug",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",
   category: "Personal Finance",
   categoryHref: "/personal-finance",
 }
@@ -221,7 +215,7 @@ When creating new blog articles, they must be added to multiple locations across
 
 - **Format**: WebP preferred for performance
 - **Size**: Minimum 800x450 pixels (16:9 aspect ratio)
-- **Location**: `https://media.topfinanzas.com/images/kardtrust/` domain
+- **Location**: `https://media.topfinanzas.com/images/budgetbee/` domain
 - **Naming**: Use descriptive, SEO-friendly names
 - **Fallback**: Always include error handling for missing images
 

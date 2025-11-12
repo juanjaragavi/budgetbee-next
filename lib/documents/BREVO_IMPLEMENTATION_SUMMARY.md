@@ -25,10 +25,10 @@ Every user submission generates a unique external ID:
 
 ```javascript
 const timestamp = Math.floor(Date.now() / 1000);
-const extId = `kardtrust-${timestamp}`;
+const extId = `budgetbee-${timestamp}`;
 ```
 
-**Example**: `kardtrust-1759870955`
+**Example**: `budgetbee-1759870955`
 
 ### 3. ✅ Required Static Value: COUNTRIES
 
@@ -94,7 +94,7 @@ All user data is preserved and mapped to Brevo attributes:
 **Verified**:
 
 - ✅ Contact created in Brevo (ID: 47438)
-- ✅ External ID format: `kardtrust-1759870955`
+- ✅ External ID format: `budgetbee-1759870955`
 - ✅ COUNTRIES attribute: "United States"
 - ✅ All test data attributes preserved
 - ✅ Added to List ID 9 (BudgetBee)
@@ -134,7 +134,7 @@ npm run test:brevo-api
 
 3. API route transforms to Brevo format automatically
 4. Contact created in Brevo with:
-   - Dynamic `ext_id`: `kardtrust-{timestamp}`
+   - Dynamic `ext_id`: `budgetbee-{timestamp}`
    - Static `COUNTRIES`: "United States"
    - All user attributes preserved
 
@@ -188,7 +188,7 @@ KIT_API_URL
 ```bash
 [Brevo API] Contact created successfully: {
   email: 'user@example.com',
-  ext_id: 'kardtrust-1704628800'
+  ext_id: 'budgetbee-1704628800'
 }
 ```
 
@@ -244,16 +244,16 @@ If issues occur, rollback steps:
 
 ## Success Metrics
 
-| Metric                 | Status        | Details                         |
-| ---------------------- | ------------- | ------------------------------- |
-| API Integration        | ✅ Complete   | Brevo v3 API fully integrated   |
-| Dynamic ext_id         | ✅ Working    | Format: `kardtrust-{timestamp}` |
-| Static COUNTRIES       | ✅ Working    | Always "United States"          |
-| Data Preservation      | ✅ Complete   | All user data mapped to Brevo   |
-| Frontend Compatibility | ✅ Maintained | No frontend changes needed      |
-| Test Coverage          | ✅ Complete   | 3 test scripts created          |
-| Test Contact Creation  | ✅ Verified   | Contact ID 47438 created        |
-| Documentation          | ✅ Complete   | Full migration guide provided   |
+| Metric                 | Status        | Details                             |
+| ---------------------- | ------------- | ----------------------------------- |
+| API Integration        | ✅ Complete   | Brevo v3 API fully integrated       |
+| Dynamic ext_id         | ✅ Working    | Format: `budgetbee-{timestamp}` |
+| Static COUNTRIES       | ✅ Working    | Always "United States"              |
+| Data Preservation      | ✅ Complete   | All user data mapped to Brevo       |
+| Frontend Compatibility | ✅ Maintained | No frontend changes needed          |
+| Test Coverage          | ✅ Complete   | 3 test scripts created              |
+| Test Contact Creation  | ✅ Verified   | Contact ID 47438 created            |
+| Documentation          | ✅ Complete   | Full migration guide provided       |
 
 ## Next Steps
 

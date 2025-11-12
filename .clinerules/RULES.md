@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This Next.js project (kardtrust) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
+This Next.js project (budgetbee) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
 
 ## System Architecture
 
@@ -269,8 +269,8 @@ import { CustomComponent } from "./custom-component";
 - Whenever the agent is prompted to generate a new blog post or article for this UK site:
   - First, review `lib/documents/blog-post-generation-prompt.md` to follow the latest content generation rules and UK localisation requirements.
   - Also consult `lib/documents/topfinanzas-us-topic-outline.csv` to determine article type (pillar vs cluster), tentative title, content focus, and related cluster/pillar context.
-  - Use the site sitemap at `https://budgetbeepro.com/sitemap.xml` to avoid duplicating already published content and to build correct internal links.
-  - Produce content in US English conventions (en-US) and ensure internal links point to the `budgetbeepro.com` domain.
+  - Use the site sitemap at `https://budgetbee.com/sitemap.xml` to avoid duplicating already published content and to build correct internal links.
+  - Produce content in US English conventions (en-US) and ensure internal links point to the `budgetbee.com` domain.
   - If the funnel stage is TOFU, create the new blog post under `app/personal-finance`, matching the structure and layout used by existing articles in that directory, but write entirely new, original content.
 
 ## Git Workflow

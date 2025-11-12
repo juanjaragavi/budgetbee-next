@@ -16,12 +16,12 @@ All requirements have been successfully implemented and verified with real API c
 
 ### 2. Required Implementations
 
-| Requirement            | Status | Details                                  |
-| ---------------------- | ------ | ---------------------------------------- |
-| Dynamic ext_id         | ✅     | Format: `kardtrust-{timestamp}`          |
-| Static COUNTRIES       | ✅     | Value: "United States" (always included) |
-| Data Preservation      | ✅     | All fields mapped to Brevo attributes    |
-| Frontend Compatibility | ✅     | No changes needed to Step 3 form         |
+| Requirement            | Status | Details                                      |
+| ---------------------- | ------ | -------------------------------------------- |
+| Dynamic ext_id         | ✅     | Format: `budgetbee-{timestamp}`          |
+| Static COUNTRIES       | ✅     | Value: "United States" (always included)     |
+| Data Preservation      | ✅     | All fields mapped to Brevo attributes        |
+| Frontend Compatibility | ✅     | No changes needed to Step 3 form             |
 
 ---
 
@@ -102,7 +102,7 @@ Contact Created in Lists 9 & 5
     "UTM_SOURCE": "google",
     "UTM_MEDIUM": "cpc"
   },
-  "ext_id": "kardtrust-1759870955",
+  "ext_id": "budgetbee-1759870955",
   "updateEnabled": false,
   "listIds": [9, 5]
 }

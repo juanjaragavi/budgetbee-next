@@ -6,7 +6,7 @@ applyTo: "**"
 
 ## Project Overview
 
-This Next.js project (kardtrust) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
+This Next.js project (budgetbee) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
 
 ## System Architecture
 

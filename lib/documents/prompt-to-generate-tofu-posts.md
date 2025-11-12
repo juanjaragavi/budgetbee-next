@@ -79,7 +79,7 @@ Generate a blog article following these rules:
    - Compliance-aware disclaimers
    - SEO metadata (title, description, keywords)
    - Hero image from CSV or CDN
-   - Ad placeholders (`us_budgetbeepro_1`, `kardtrust_ad_2`)
+   - Ad placeholders (`us_budgetbeepro_1`, `budgetbeepro_ad_2`)
    - Internal links using Next.js `<Link>` component
    - CTA button with `className="cta-button-blue"`
    - `AIContentDisclaimer` component at the end

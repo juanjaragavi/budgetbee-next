@@ -241,7 +241,7 @@ const MIGRATED_PRODUCTS = [
     title: "Product Name | BudgetBee",
     slug: "product-slug",
     description: "Product description...",
-    image: "https://media.topfinanzas.com/images/kardtrust/image.webp",
+    image: "https://media.topfinanzas.com/images/budgetbee/image.webp",
     category: "Financial Solutions",
     categoryPath: "/financial-solutions",
     date: "DD Month YYYY",

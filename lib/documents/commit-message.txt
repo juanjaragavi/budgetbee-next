@@ -1,10 +1,18 @@
-feat: migrate ad container IDs from kardtrust to us_budgetbeepro
+refactor: update project branding from kardtrust to budgetbee across documentation
 
-- update all ad container IDs across the entire codebase from 'kardtrust_ad_1' to 'us_budgetbeepro_1'
-- standardize ad unit naming for BudgetBee US market implementation
-- update GAM (Google Ad Manager) network code references
-- modify financial solutions pages (60+ files) with new ad container IDs
-- update personal finance blog articles with new ad placement IDs
-- update all instruction files and documentation for consistency
-- ensure all ad placement divs use the correct 'us_budgetbeepro_1' identifier
-- maintain spacing and CSS classes for ad containers
+- Replace all instances of 'kardtrust' with 'budgetbee' in documentation files
+- Update repository path references from kardtrust to budgetbee
+- Update image URLs from /images/kardtrust/ to /images/budgetbee/
+- Update external ID generation from kardtrust-{timestamp} to budgetbee-{timestamp}
+- Standardize brand naming across all instruction files
+- Update ad container references for consistency
+- Modify CSV file references to match budgetbee naming convention
+- Update domain references in deployment and migration documentation
+
+Files affected:
+- .clinerules/PUSH-AND-COMMIT.md
+- .clinerules/RULES.md
+- .github/instructions/*.md
+- GEMINI.md
+- lib/documents/*.md
+- scripts/INJECT_PRODUCTS_README.md

@@ -42,15 +42,15 @@
 
 ## 🎯 Key Adaptations from UK to US
 
-| Aspect         | UK Version                         | US Version                     |
-| -------------- | ---------------------------------- | ------------------------------ |
-| **Brand**      | Top Finanzas UK                    | BudgetBee                      |
-| **Domain**     | uk.topfinanzas.com                 | budgetbeepro.com               |
-| **Language**   | British English                    | American English               |
-| **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov         |
-| **Currency**   | GBP (£)                            | USD ($)                        |
-| **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | us_budgetbeepro_1, kardtrust_ad_2 |
-| **CSV File**   | topfinanzas-us-topic-outline.csv   | kardtrust-topic-outline.csv    |
+| Aspect         | UK Version                         | US Version                            |
+| -------------- | ---------------------------------- | ------------------------------------- |
+| **Brand**      | Top Finanzas UK                    | BudgetBee                             |
+| **Domain**     | uk.topfinanzas.com                 | budgetbeepro.com                      |
+| **Language**   | British English                    | American English                      |
+| **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov                |
+| **Currency**   | GBP (£)                            | USD ($)                               |
+| **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | us_budgetbeepro_1, budgetbeepro_ad_2 |
+| **CSV File**   | topfinanzas-us-topic-outline.csv   | budgetbeepro-topic-outline.csv       |
 
 ## 📊 Content Specifications
 
@@ -58,7 +58,7 @@
 
 - **Length**: 800-1,000 words
 - **Internal Links**: Minimum 3
-- **Ad Placements**: 2 (us_budgetbeepro_1, kardtrust_ad_2)
+- **Ad Placements**: 2 (us_budgetbeepro_1, budgetbeepro_ad_2)
 - **Components**: Header, CompactFooter, AIContentDisclaimer
 
 ### Product Pages
@@ -72,7 +72,7 @@
 
 ### Primary
 
-- **CSV**: `lib/documents/kardtrust-topic-outline.csv`
+- **CSV**: `lib/documents/topfinanzas-topic-outline.csv`
 - **Official URLs**: Product websites (for product pages)
 
 ### Secondary
@@ -90,7 +90,7 @@
 
 Before generating content, ensure:
 
-- [ ] CSV topic outline exists: `lib/documents/kardtrust-topic-outline.csv`
+- [ ] CSV topic outline exists: `lib/documents/topfinanzas-topic-outline.csv`
 - [ ] Sitemap is accessible: `https://budgetbeepro.com/sitemap.xml`
 - [ ] CDN is configured: `https://media.topfinanzas.com/`
 - [ ] Template articles exist in `/app/personal-finance/` or `/app/financial-solutions/`
@@ -129,7 +129,7 @@ All generated content must:
 ## 🎨 Brand Standards
 
 - **Primary Ad ID**: us_budgetbeepro_1 (after H1)
-- **Secondary Ad ID**: kardtrust_ad_2 (near end of article)
+- **Secondary Ad ID**: budgetbeepro_2 (near end of article)
 - **CTA Button Class**: `cta-button-blue`
 - **Currency Format**: USD ($)
 - **Date Format**: MM/DD/YYYY
@@ -144,7 +144,7 @@ All generated content must:
 
 ### Issue: CSV file not found
 
-**Solution**: Ensure `lib/documents/kardtrust-topic-outline.csv` exists
+**Solution**: Ensure `lib/documents/budgetbeepro-topic-outline.csv` exists
 
 ### Issue: Sitemap not accessible
 

@@ -24,8 +24,8 @@ Generate a financial product page pair (benefits and requirements), following th
 ## Brand and Visual Assets
 
 - **Brand Color:** #[hexcode] (hex color code for primary brand buttons/accents)
-- **Hero Image URL:** <https://media.topfinanzas.com/images/kardtrust/[product-slug].webp>
-- **Requirements Image URL:** <https://media.topfinanzas.com/images/kardtrust/[product-slug]-requirements.webp>
+- **Hero Image URL:** <https://media.topfinanzas.com/images/budgetbee/[product-slug].webp>
+- **Requirements Image URL:** <https://media.topfinanzas.com/images/budgetbee/[product-slug]-requirements.webp>
 
 ## Data Sources
 
@@ -113,7 +113,7 @@ Generate a financial product page pair (benefits and requirements), following th
    - SEO metadata (title, description, keywords)
    - Brand-colored CTAs using provided hex code
    - Hero images from CSV or CDN
-   - Ad placeholders (`us_budgetbeepro_1`, `kardtrust_ad_2`)
+   - Ad placeholders (`us_budgetbeepro_1`, `budgetbeepro_ad_2`)
    - Internal links using Next.js `<Link>` component
    - Cross-links between benefits and requirements pages
    - `AIContentDisclaimer` component at the end of each page

@@ -48,7 +48,7 @@
 
 - **Email**: <test.brevo.1759870955@topnetworks.co>
 - **Name**: Juan Miguel
-- **External ID**: kardtrust-1759870955
+- **External ID**: budgetbee-1759870955
 - **Response Status**: 201 Created
 - **Contact ID**: 47438
 
@@ -72,7 +72,7 @@
     "UTM_MEDIUM": "unique_email_test",
     "UTM_CAMPAIGN": "brevo_migration_verification"
   },
-  "ext_id": "kardtrust-1759870955",
+  "ext_id": "budgetbee-1759870955",
   "updateEnabled": false,
   "listIds": [9, 5]
 }
@@ -81,7 +81,7 @@
 ### Key Validations 2
 
 ✅ Contact created successfully in Brevo  
-✅ External ID format correct: `kardtrust-{timestamp}`  
+✅ External ID format correct: `budgetbee-{timestamp}`  
 ✅ COUNTRIES attribute: "United States" ✓  
 ✅ All attributes preserved and mapped correctly  
 ✅ Added to List IDs: 9 and 5  
@@ -143,8 +143,8 @@
 
 #### 1. Dynamic External ID
 
-- **Format**: `kardtrust-{timestamp}`
-- **Example**: `kardtrust-1759870955`
+- **Format**: `budgetbee-{timestamp}`
+- **Example**: `budgetbee-1759870955`
 - **Status**: ✅ WORKING
 - **Verified in**: Tests 2 & 3
 
@@ -184,7 +184,7 @@ All user data fields are preserved:
 
 - **ID**: 47438
 - **Email**: <test.brevo.1759870955@topnetworks.co>
-- **External ID**: kardtrust-1759870955
+- **External ID**: budgetbee-1759870955
 - **Lists**: 9, 5
 - **Status**: ✅ Verified in Brevo Dashboard
 
@@ -192,7 +192,7 @@ All user data fields are preserved:
 
 - **ID**: 47439
 - **Email**: <test.api.1759871106@topnetworks.co>
-- **External ID**: kardtrust-{timestamp}
+- **External ID**: budgetbee-{timestamp}
 - **Lists**: 9, 5
 - **Status**: ✅ Verified via API Response
 

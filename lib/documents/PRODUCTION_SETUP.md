@@ -180,7 +180,7 @@ If using environment file on server:
 
 ```bash
 # Navigate to app directory
-cd /opt/app/kardtrust
+cd /opt/app/budgetbee
 
 # Create production env file
 cat > .env.production << 'EOF'
