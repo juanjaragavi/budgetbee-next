@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee - BudgetBee",
-    description:
-      "Discover the SoFi Unlimited 2% Credit Card offering unlimited cash back rewards on all purchases, no annual fees, Mastercard World Elite benefits, and exclusive travel perks. Perfect for building wealth with every purchase.",
-    keywords:
-      "SoFi credit card, unlimited 2% cash back, no annual fee, Mastercard World Elite, travel rewards, cell phone protection, cash back rewards, SoFi banking, US credit cards, excellent credit",
-  };
-}
+export const metadata = {
+  title:
+    "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee - BudgetBee",
+  description:
+    "Discover the SoFi Unlimited 2% Credit Card offering unlimited cash back rewards on all purchases, no annual fees, Mastercard World Elite benefits, and exclusive travel perks. Perfect for building wealth with every purchase.",
+  keywords:
+    "SoFi credit card, unlimited 2% cash back, no annual fee, Mastercard World Elite, travel rewards, cell phone protection, cash back rewards, SoFi banking, US credit cards, excellent credit",
+};
 
 export default function SoFiCreditCardPage() {
   return (
@@ -36,12 +34,11 @@ export default function SoFiCreditCardPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The SoFi Unlimited 2% Credit Card delivers straightforward value
-                with unlimited 2% cash back rewards on all eligible purchases,
-                no annual fee, and premium Mastercard World Elite benefits.
-                Designed for members with excellent credit, this card eliminates
-                complexity with no rotating categories, spending caps, or
-                minimum redemption thresholds.
+                The SoFi Unlimited 2% Credit Card offers unlimited 2% cash back
+                on all purchases, no annual fee, 3% on SoFi Travel bookings, and
+                Mastercard World Elite benefits ($5 Lyft credits, travel
+                concierge, ShopRunner). For members with excellent credit
+                seeking straightforward rewards.
               </p>
 
               <hr className="my-8" />
@@ -58,14 +55,11 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Unlimited 2% Cash Back Rewards:
+                        Unlimited 2% Cash Back:
                       </span>{" "}
-                      Earn 2 rewards points for every dollar spent on all
-                      eligible purchases with no limits, caps, or rotating
-                      categories. Your rewards are automatically applied and can
-                      be redeemed at a rate of 1 cent per point toward active
-                      SoFi accounts including Checking & Savings, investing
-                      accounts, loan payments, or SoFi Travel bookings.
+                      2 points per dollar on all purchases, no limits or
+                      rotating categories. Redeems to 1¢ per point toward SoFi
+                      accounts, investments, loans, or travel.
                     </div>
                   </div>
 
@@ -74,14 +68,9 @@ export default function SoFiCreditCardPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        No Annual Fee Whatsoever:
-                      </span>{" "}
-                      Keep more money in your pocket with absolutely no annual
-                      fee. Unlike premium rewards cards that charge $95-$550
-                      annually, the SoFi Unlimited 2% Card lets you build wealth
-                      through cash back without paying for the privilege year
-                      after year.
+                      <span className="font-semibold">No Annual Fee:</span> Free
+                      to use with no annual cost, unlike premium cards charging
+                      $95-$550/year.
                     </div>
                   </div>
 
@@ -90,15 +79,9 @@ export default function SoFiCreditCardPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        3% Cash Back on SoFi Travel:
-                      </span>{" "}
-                      Boost your rewards to 3% when you book trips through the
-                      SoFi Travel Portal powered by Expedia. This elevated
-                      earning rate applies to flights, hotels, car rentals, and
-                      vacation packages, potentially saving you up to 10% or
-                      more on eligible bookings when combined with portal
-                      discounts.
+                      <span className="font-semibold">3% on SoFi Travel:</span>{" "}
+                      Earn 3% when booking flights, hotels, rentals, packages
+                      through SoFi Travel Portal (powered by Expedia).
                     </div>
                   </div>
 
@@ -110,10 +93,9 @@ export default function SoFiCreditCardPage() {
                       <span className="font-semibold">
                         Mastercard World Elite Benefits:
                       </span>{" "}
-                      Access premium perks including 24/7 Travel Concierge
-                      service, $5 monthly Lyft credits, free 2-day shipping with
-                      ShopRunner, a 2-month Instacart free trial, and exclusive
-                      entertainment and dining experiences nationwide.
+                      24/7 travel concierge, $5 Lyft credits/month, ShopRunner
+                      free 2-day shipping, Instacart 2-month trial,
+                      entertainment/dining experiences.
                     </div>
                   </div>
                 </div>
@@ -144,17 +126,8 @@ export default function SoFiCreditCardPage() {
 
               <section className="my-8">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                  Why Choose the SoFi Unlimited 2% Card?
+                  Why Choose SoFi Unlimited 2%?
                 </h2>
-
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  The SoFi Unlimited 2% Credit Card stands out in the crowded
-                  cash back rewards market by offering simplicity without
-                  sacrificing value. While many cards require you to track
-                  quarterly bonus categories or maintain minimum spending
-                  thresholds, SoFi's approach is refreshingly straightforward:
-                  earn unlimited 2% on everything you buy, all the time.
-                </p>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
@@ -163,37 +136,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Exceptional Flat-Rate Rewards:
+                        Exceptional Flat-Rate:
                       </span>{" "}
-                      The 2% unlimited cash back rate places this card among the
-                      top tier of flat-rate rewards cards in the US market. This
-                      means you're earning $20 in rewards for every $1,000 you
-                      spend, regardless of merchant category, time of year, or
-                      spending caps.
-                    </div>
-                  </div>
-
-                  <div
-                    id="kardtrust_ad_2"
-                    className="items-center justify-center flex w-full my-6"
-                  >
-                    {/* Empty responsive, centered div */}
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        No Redemption Hassles:
-                      </span>{" "}
-                      Unlike cards that impose minimum redemption thresholds
-                      (often $25 or more), SoFi allows flexible redemption with
-                      no minimums. Redeem your rewards as statement credits or
-                      distribute them across SoFi products including your
-                      checking account, savings, investment accounts, or toward
-                      loan payments.
+                      2% unlimited cash back ranks among the top flat-rate
+                      cards. Earn $20 per $1,000 spent, no caps or categories.
                     </div>
                   </div>
 
@@ -203,13 +149,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Integrated Financial Ecosystem:
+                        No Redemption Minimums:
                       </span>{" "}
-                      The card works seamlessly with SoFi's broader financial
-                      platform, allowing you to manage banking, investing,
-                      loans, and credit cards all in one place. This integration
-                      enables holistic financial management with your rewards
-                      flowing directly into accounts that help you build wealth.
+                      Redeem anytime with no $25+ thresholds. Apply rewards to
+                      checking, savings, investments, or loan payments.
                     </div>
                   </div>
 
@@ -219,26 +162,30 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Premium Protections Without Premium Fees:
+                        Integrated Ecosystem:
                       </span>{" "}
-                      Mastercard World Elite benefits typically come with cards
-                      charging annual fees. SoFi provides these premium
-                      perks—24/7 concierge, travel benefits, shopping perks—at
-                      no cost, delivering exceptional value for cardholders with
-                      excellent credit.
+                      Manage banking, investing, loans, and credit in one place
+                      with rewards flowing to wealth-building accounts.
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-white font-bold">➔</span>
+                    </div>
+                    <div className="text-sm leading-5 text-left">
+                      <span className="font-semibold">
+                        Premium Benefits, No Fee:
+                      </span>{" "}
+                      Mastercard World Elite perks (concierge, travel, shopping)
+                      at no annual cost.
                     </div>
                   </div>
                 </div>
 
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                  Premium Protection Features
+                  Protection Features
                 </h2>
-
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Beyond cash back rewards, the SoFi Unlimited 2% Card includes
-                  comprehensive protection features that safeguard your finances
-                  and provide peace of mind:
-                </p>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
@@ -247,12 +194,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Zero Fraud Liability Protection:
+                        Zero Fraud Liability:
                       </span>{" "}
-                      Never pay for unauthorized charges on your account. If
-                      your card information is compromised or used fraudulently,
-                      you're protected with $0 liability, ensuring fraudulent
-                      transactions won't cost you anything.
+                      No cost for unauthorized charges; you're fully protected
+                      against fraud.
                     </div>
                   </div>
 
@@ -262,13 +207,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Mastercard ID Theft Protection:
+                        ID Theft Monitoring:
                       </span>{" "}
-                      Receive proactive monitoring and alerts if your personal
-                      information is found on suspicious websites or in data
-                      breaches. This service, provided by Generali Global
-                      Assistance, comes at no additional cost when you register
-                      your card.
+                      Proactive monitoring and alerts via Generali if your info
+                      appears in data breaches (included at no cost).
                     </div>
                   </div>
 
@@ -280,11 +222,8 @@ export default function SoFiCreditCardPage() {
                       <span className="font-semibold">
                         Cell Phone Protection:
                       </span>{" "}
-                      Get up to $1,000 in yearly cell phone protection coverage
-                      ($800 maximum per claim, 2 claims per year) when you pay
-                      your monthly cell phone bill with your SoFi Credit Card.
-                      This covers theft and certain repairs, saving you from
-                      expensive out-of-pocket replacement costs.
+                      $1,000/year coverage ($800/claim, 2 claims/year) for
+                      theft/repairs when you pay your bill with the card.
                     </div>
                   </div>
 
@@ -296,23 +235,14 @@ export default function SoFiCreditCardPage() {
                       <span className="font-semibold">
                         No Foreign Transaction Fees:
                       </span>{" "}
-                      Travel internationally without penalty. The SoFi Unlimited
-                      2% Card charges no foreign transaction fees, meaning you
-                      earn the same 2% cash back on international purchases
-                      without the typical 3% surcharge many cards impose.
+                      Travel internationally and earn 2% with no 3% surcharge.
                     </div>
                   </div>
                 </div>
 
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                  Mastercard World Elite Exclusive Benefits
+                  Mastercard World Elite Benefits
                 </h2>
-
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  As a Mastercard World Elite cardholder, you gain access to a
-                  suite of premium services and experiences that elevate your
-                  lifestyle:
-                </p>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
@@ -321,13 +251,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        24/7 Travel Concierge Service:
+                        24/7 Travel Concierge:
                       </span>{" "}
-                      Call anytime for assistance with travel planning,
-                      restaurant reservations, entertainment bookings, gift
-                      purchases, and more. This personal concierge service
-                      handles time-consuming tasks so you can focus on enjoying
-                      your experiences.
+                      Personal assistance with travel planning, restaurant
+                      reservations, entertainment bookings, gifts.
                     </div>
                   </div>
 
@@ -339,10 +266,8 @@ export default function SoFiCreditCardPage() {
                       <span className="font-semibold">
                         $5 Monthly Lyft Credits:
                       </span>{" "}
-                      Receive $5 in Lyft ride credits every month, totaling $60
-                      annually. These credits automatically apply to your Lyft
-                      account when you link your SoFi Credit Card, offsetting
-                      regular transportation costs.
+                      $60/year in Lyft ride credits automatically applied when
+                      you link your card.
                     </div>
                   </div>
 
@@ -352,12 +277,11 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Free 2-Day Shipping with ShopRunner:
+                        ShopRunner 2-Day Shipping:
                       </span>{" "}
-                      Enjoy complimentary 2-day shipping and free returns from
-                      140+ online stores including Saks Fifth Avenue, Neiman
-                      Marcus, GNC, and more. This perk alone can save hundreds
-                      annually if you shop frequently online.
+                      Free 2-day shipping and returns from 140+ stores (Saks,
+                      Neiman Marcus, GNC, etc.). Saves hundreds annually for
+                      frequent online shoppers.
                     </div>
                   </div>
 
@@ -367,12 +291,10 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        2-Month Instacart Free Trial:
+                        2-Month Instacart+ Trial:
                       </span>{" "}
-                      Get two months of Instacart Express membership free,
-                      providing unlimited free delivery on orders over $35 from
-                      thousands of grocery stores. After the trial, decide if
-                      you want to continue the membership.
+                      Two months free unlimited $0 delivery on orders $35+ from
+                      thousands of grocery stores.
                     </div>
                   </div>
                 </div>
@@ -470,13 +392,7 @@ export default function SoFiCreditCardPage() {
                   Understanding Your Cash Back Rewards
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  SoFi's rewards program is designed for simplicity and
-                  flexibility, ensuring you get maximum value from your
-                  spending:
-                </p>
-
-                <div className="space-y-6 my-8">
+                <div className="space-y-4 my-8">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
@@ -486,10 +402,8 @@ export default function SoFiCreditCardPage() {
                         Automatic Points Earning:
                       </span>{" "}
                       You earn 2 rewards points for every dollar spent on
-                      purchases automatically—whether you swipe, dip, tap, or
-                      pay online. There's no need to activate quarterly
-                      categories or track spending limits. Your rewards
-                      accumulate passively with every transaction.
+                      purchases automatically—no need to activate quarterly
+                      categories or track spending limits.
                     </div>
                   </div>
 
@@ -499,14 +413,11 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Flexible Redemption Options:
+                        Flexible Redemption:
                       </span>{" "}
-                      Redeem rewards points at a rate of 1 cent per point toward
-                      active SoFi accounts including Checking & Savings
-                      accounts, SoFi Money accounts, Active Invest or Automated
-                      Invest accounts, Personal Loans, Student Loan Refinance,
-                      or SoFi Travel purchases. This flexibility lets you deploy
-                      rewards where they're most valuable to you.
+                      Redeem rewards at 1¢ per point toward Checking, Savings,
+                      Active Invest, Personal Loans, Student Loan Refinance, or
+                      SoFi Travel purchases.
                     </div>
                   </div>
 
@@ -515,13 +426,10 @@ export default function SoFiCreditCardPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        No Expiration or Limits:
-                      </span>{" "}
-                      Your rewards don't expire as long as your account remains
-                      open and in good standing. There are no annual earning
-                      caps, no quarterly spending limits, and no restrictions on
-                      when or how you can redeem your accumulated rewards.
+                      <span className="font-semibold">No Expiration:</span> Your
+                      rewards don't expire as long as your account remains open
+                      and in good standing. There are no annual earning caps or
+                      redemption limits.
                     </div>
                   </div>
 
@@ -531,11 +439,8 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Real-Time Tracking:</span>{" "}
-                      Monitor your rewards balance in real-time through the SoFi
-                      mobile app or website. You can see exactly how many points
-                      you've earned, track your progress toward redemption
-                      goals, and manage all aspects of your rewards in one
-                      convenient location.
+                      Monitor your rewards balance through the SoFi mobile app
+                      or website in real-time.
                     </div>
                   </div>
                 </div>
@@ -544,24 +449,18 @@ export default function SoFiCreditCardPage() {
                   Who Should Apply for This Card?
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  The SoFi Unlimited 2% Credit Card is ideally suited for:
-                </p>
-
-                <div className="space-y-6 my-8">
+                <div className="space-y-4 my-8">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Consumers with Excellent Credit:
+                        Excellent Credit Cardholders:
                       </span>{" "}
-                      This card is designed for applicants with excellent credit
-                      histories. SoFi considers factors including no loan
-                      defaults in the past 7 years, more than 5 years of on-time
-                      payments on loans and credit cards, and no payments more
-                      than 30 days late in the past year.
+                      SoFi requires no loan defaults in the past 7 years, 5+
+                      years of on-time payments, and no 30+ day late payments in
+                      the past year.
                     </div>
                   </div>
 
@@ -570,13 +469,10 @@ export default function SoFiCreditCardPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Everyday Spenders Seeking Simplicity:
-                      </span>{" "}
+                      <span className="font-semibold">Simplicity Seekers:</span>{" "}
                       If you prefer a straightforward rewards structure without
-                      tracking rotating categories or activating bonus earning
-                      periods, this card's unlimited flat-rate 2% cash back
-                      eliminates complexity while delivering consistent value.
+                      rotating categories or activation requirements, this card
+                      delivers consistent 2% value.
                     </div>
                   </div>
 
@@ -589,10 +485,8 @@ export default function SoFiCreditCardPage() {
                         SoFi Ecosystem Members:
                       </span>{" "}
                       Current SoFi banking, investing, or loan customers benefit
-                      most from this card's integration with other SoFi
-                      products. You can seamlessly redeem rewards toward your
-                      existing accounts and manage your entire financial life in
-                      one platform.
+                      most from seamless reward redemption and integrated
+                      account management.
                     </div>
                   </div>
 
@@ -602,11 +496,9 @@ export default function SoFiCreditCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Frequent Travelers:</span>{" "}
-                      The combination of no foreign transaction fees, 3% cash
-                      back on SoFi Travel bookings, Mastercard World Elite
-                      travel benefits, and cell phone protection makes this an
-                      excellent choice for regular domestic and international
-                      travelers.
+                      No foreign transaction fees, 3% travel bookings, and
+                      Mastercard World Elite benefits make this ideal for
+                      domestic and international travel.
                     </div>
                   </div>
                 </div>
@@ -615,21 +507,15 @@ export default function SoFiCreditCardPage() {
                   Important Terms and Conditions
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Before applying, understand these key terms:
-                </p>
-
-                <div className="space-y-6 my-8">
+                <div className="space-y-4 my-8">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Credit Approval:</span>{" "}
-                      Accounts are subject to additional credit approval. To
-                      qualify, you must meet SoFi's pre-established underwriting
-                      requirements, including verification of sufficient income
-                      to support your ability to pay. SoFi will not extend
+                      Accounts are subject to additional credit approval and
+                      verification of sufficient income. SoFi will not extend
                       credit if you don't meet their pre-established criteria.
                     </div>
                   </div>
@@ -642,10 +528,9 @@ export default function SoFiCreditCardPage() {
                       <span className="font-semibold">
                         Minimum Credit Line:
                       </span>{" "}
-                      If approved for a SoFi Credit Card, your credit access
-                      line will be at least $500. Your actual credit limit will
-                      be determined based on your creditworthiness, income, and
-                      other factors assessed during the underwriting process.
+                      If approved, your credit line will be at least $500. Your
+                      actual limit depends on creditworthiness, income, and
+                      underwriting factors.
                     </div>
                   </div>
 
@@ -656,9 +541,7 @@ export default function SoFiCreditCardPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Rewards Exclusions:</span>{" "}
                       No rewards points are earned on reversed transactions,
-                      returned purchases, or other similar transactions. This is
-                      standard industry practice to prevent rewards gaming and
-                      ensure legitimate earning.
+                      returned purchases, or similar transactions.
                     </div>
                   </div>
 
@@ -667,13 +550,9 @@ export default function SoFiCreditCardPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Application Processing Time:
-                      </span>{" "}
-                      Please allow up to 30 days from date of submission to
-                      process your application. Most applications receive a
-                      decision much faster, but complex cases may require
-                      additional review time.
+                      <span className="font-semibold">Processing Time:</span>{" "}
+                      Allow up to 30 days from submission to process your
+                      application. Most applications receive a decision faster.
                     </div>
                   </div>
                 </div>
@@ -695,26 +574,24 @@ export default function SoFiCreditCardPage() {
                   Representative APR Example
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">Variable APR:</span> The SoFi
-                  Unlimited 2% Card carries a variable Annual Percentage Rate
-                  (APR) that will be determined based on your creditworthiness
-                  at the time of approval. Variable APRs on credit cards are
-                  tied to an underlying index (typically the Prime Rate) and can
-                  change quarterly.
-                </p>
+                <div className="space-y-4 my-8">
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">Variable APR:</span> The
+                    SoFi Unlimited 2% Card carries a variable Annual Percentage
+                    Rate determined based on your creditworthiness. Variable
+                    APRs are tied to an underlying index (typically the Prime
+                    Rate) and can change quarterly.
+                  </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">Representative Example:</span>{" "}
-                  If you carry a balance of $3,000 for one year at a variable
-                  APR of 18.99% (assuming this rate for illustration purposes),
-                  you would pay approximately $570 in interest charges over that
-                  year. However, since the card offers unlimited 2% cash back,
-                  spending $3,000 would also earn you approximately $60 in
-                  rewards, partially offsetting the interest cost. The best
-                  strategy is to pay your balance in full each month to avoid
-                  interest charges entirely while maximizing your rewards.
-                </p>
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">Example:</span> If you carry
+                    a $3,000 balance for one year at 18.99% APR, you'd pay
+                    approximately $570 in interest. However, with unlimited 2%
+                    cash back, $3,000 spending earns about $60 in rewards. The
+                    best strategy is paying your balance in full monthly to
+                    avoid interest while maximizing rewards.
+                  </p>
+                </div>
               </section>
 
               <div className="text-left my-8">

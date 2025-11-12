@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back Rewards - BudgetBee",
-    description:
-      "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, no annual fee, and Visa Signature benefits. Award-winning flat-rate cash back card.",
-    keywords:
-      "Wells Fargo Active Cash Card, 2% cash back credit card, flat-rate cash back, Wells Fargo Rewards, no annual fee, Visa Signature, 0% intro APR, cash back rewards",
-  };
-}
+export const metadata = {
+  title:
+    "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back Rewards - BudgetBee",
+  description:
+    "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, no annual fee, and Visa Signature benefits. Award-winning flat-rate cash back card.",
+  keywords:
+    "Wells Fargo Active Cash Card, 2% cash back credit card, flat-rate cash back, Wells Fargo Rewards, no annual fee, Visa Signature, 0% intro APR, cash back rewards",
+};
 
 export default function WellsFargoActiveCashCardPage() {
   return (
@@ -238,7 +236,7 @@ export default function WellsFargoActiveCashCardPage() {
               </section>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

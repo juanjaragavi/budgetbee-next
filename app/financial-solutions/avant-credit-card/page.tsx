@@ -5,15 +5,13 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title: "Avant Credit Card: Build Credit with No Hidden Fees - BudgetBee",
-    description:
-      "Discover the Avant Credit Card designed for credit building. No security deposit, no hidden fees, proactive credit line increases, and mobile app management. 29.99%-35.99% APR with $39-$75 annual membership fee. Issued by WebBank.",
-    keywords:
-      "Avant Credit Card, credit building card, no hidden fees, no security deposit, WebBank credit card, fair credit card, credit line increases, mobile app credit management",
-  };
-}
+export const metadata = {
+  title: "Avant Credit Card: Build Credit with No Hidden Fees - BudgetBee",
+  description:
+    "Discover the Avant Credit Card designed for credit building. No security deposit, no hidden fees, proactive credit line increases, and mobile app management. 29.99%-35.99% APR with $39-$75 annual membership fee. Issued by WebBank.",
+  keywords:
+    "Avant Credit Card, credit building card, no hidden fees, no security deposit, WebBank credit card, fair credit card, credit line increases, mobile app credit management",
+};
 
 export default function AvantCreditCardPage() {
   return (
@@ -193,7 +191,7 @@ export default function AvantCreditCardPage() {
                 </p>
 
                 <div
-                  id="kardtrust_ad_2"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

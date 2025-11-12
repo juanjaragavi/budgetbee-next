@@ -79,7 +79,7 @@ Generate **one complete Next.js page component** (`page.tsx`) for each commissio
 - Maintain American English spelling, US idioms, and references to US frameworks (Consumer Financial Protection Bureau, Federal Trade Commission, MyMoney.gov)
 - Include at least **three internal links** to relevant pages on <https://budgetbeepro.com> using `<Link>` from `next/link`
 - Provide at least one contextual CTA block linking to a related comparison or guide (for example `/financial-solutions` or a specific product page)
-- Insert display ad placeholders with IDs `us_budgetbeepro_1` and `kardtrust_ad_2` in the standard positions after the H1 and near the final third of the article
+- Insert display ad placeholders with IDs `us_budgetbeepro_1` and `us_budgetbeepro_2` in the standard positions after the H1 and near the final third of the article
 - Use the `AIContentDisclaimer` component at the end of the article body
 - Include at least one hero image (Next.js `Image`) hosted on the BudgetBee CDN with descriptive alt text and lazy loading best practices
 - Keep tone approachable, practical, and compliant: never promise guaranteed outcomes, never give personalized advice, and flag when readers should seek professional guidance
@@ -208,7 +208,7 @@ After generating the article component, plan updates across the site (see `.gith
 
 - Confirm TypeScript validity, consistent class names, and accessible alt text
 - Verify all required components are included and properly imported
-- Check that ad container div IDs are correct: `us_budgetbeepro_1` and `kardtrust_ad_2`
+- Check that ad container div IDs are correct: `us_budgetbeepro_1` and `us_budgetbeepro_2`
 
 ### Step 8: Post-Publication Integration (REQUIRED)
 
@@ -310,7 +310,7 @@ export default function {ComponentName}Page() {
               />
             </div>
             {/* Section content with h2/h3, paragraphs, lists, callouts, internal links */}
-            <div id="kardtrust_ad_2" className="items-center justify-center flex w-full my-8">{/* Ad placeholder */}</div>
+            <div id="us_budgetbeepro_2" className="items-center justify-center flex w-full my-8">{/* Ad placeholder */}</div>
             <section className="my-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Next steps</h2>
               <p className="text-gray-700 mb-4">

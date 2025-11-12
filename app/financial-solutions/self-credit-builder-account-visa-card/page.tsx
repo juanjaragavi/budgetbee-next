@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Self Credit Builder Account + Visa Card: Build Credit with Savings and Secured Spending - BudgetBee",
-    description:
-      "See how the Self Credit Builder Account and Visa Secured Card pair to report to all three bureaus, offer $35-per-month plans with 15.69% APR, and deliver a $0 intro annual fee with a $100 deposit.",
-    keywords:
-      "Self Credit Builder Account, Self Visa Credit Card, Self secured card, credit builder loan, build credit with savings, secured credit card USA, Self Financial credit card",
-  };
-}
+export const metadata = {
+  title:
+    "Self Credit Builder Account + Visa Card: Build Credit with Savings and Secured Spending - BudgetBee",
+  description:
+    "See how the Self Credit Builder Account and Visa Secured Card pair to report to all three bureaus, offer $35-per-month plans with 15.69% APR, and deliver a $0 intro annual fee with a $100 deposit.",
+  keywords:
+    "Self Credit Builder Account, Self Visa Credit Card, Self secured card, credit builder loan, build credit with savings, secured credit card USA, Self Financial credit card",
+};
 
 export default function SelfCreditBuilderAccountVisaCardPage() {
   return (
@@ -117,7 +115,7 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
             </div>
 
             <div
-              id="kardtrust_ad_2"
+              id="us_budgetbeepro_2"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Reserved for on-page advertising */}

@@ -5,26 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "SIREN Card: Premium Metal Card with Automatic Credit Building | BudgetBee",
-    description:
-      "Discover SIREN Card - the hybrid debit/credit card that builds credit automatically with 0% interest guaranteed. Get paid 2 days early, premium metal card, 55K+ free ATMs, advanced security features, and never pay fees. Exclusive for Starbucks partners.",
-    keywords: [
-      "SIREN Card",
-      "Starbucks credit card",
-      "metal card",
-      "credit building card",
-      "no interest credit card",
-      "no fee card",
-      "early paycheck",
-      "automatic credit optimizer",
-      "WSFS Bank",
-      "cred.ai",
-    ].join(", "),
-  };
-}
+export const metadata = {
+  title:
+    "SIREN Card: Premium Metal Card with Automatic Credit Building | BudgetBee",
+  description:
+    "Discover SIREN Card - the hybrid debit/credit card that builds credit automatically with 0% interest guaranteed. Get paid 2 days early, premium metal card, 55K+ free ATMs, advanced security features, and never pay fees. Exclusive for Starbucks partners.",
+  keywords:
+    "SIREN Card, Starbucks credit card, metal card, credit building card, no interest credit card, no fee card, early paycheck, automatic credit optimizer, WSFS Bank, cred.ai",
+};
 
 export default function SirenCardPage() {
   return (

@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Upgrade OneCard: Pay Now or Pay Later Credit Card with No Annual Fee - BudgetBee",
-    description:
-      "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan. Build credit while managing finances your way.",
-    keywords:
-      "Upgrade OneCard, pay now pay later credit card, no annual fee credit card, flexible credit card, credit building, Upgrade card, installment credit card, US credit cards, Upgrade Visa card",
-  };
-}
+export const metadata = {
+  title:
+    "Upgrade OneCard: Pay Now or Pay Later Credit Card with No Annual Fee - BudgetBee",
+  description:
+    "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan. Build credit while managing finances your way.",
+  keywords:
+    "Upgrade OneCard, pay now pay later credit card, no annual fee credit card, flexible credit card, credit building, Upgrade card, installment credit card, US credit cards, Upgrade Visa card",
+};
 
 export default function UpgradeCreditCardPage() {
   return (
@@ -125,7 +123,7 @@ export default function UpgradeCreditCardPage() {
               </div>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

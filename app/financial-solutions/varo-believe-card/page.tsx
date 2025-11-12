@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit - BudgetBee",
-    description:
-      "Discover the Varo Believe secured credit card offering revolutionary credit building with no security deposit, no annual fees, no interest, and no credit check. Average 40+ point credit score increase in just 3 months.",
-    keywords:
-      "Varo Believe Card, secured credit card, build credit, no security deposit, no annual fee, no interest, credit building, Varo Bank, credit score improvement, US credit cards, no credit check",
-  };
-}
+export const metadata = {
+  title:
+    "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit - BudgetBee",
+  description:
+    "Discover the Varo Believe secured credit card offering revolutionary credit building with no security deposit, no annual fees, no interest, and no credit check. Average 40+ point credit score increase in just 3 months.",
+  keywords:
+    "Varo Believe Card, secured credit card, build credit, no security deposit, no annual fee, no interest, credit building, Varo Bank, credit score improvement, US credit cards, no credit check",
+};
 
 export default function VaroBelieveCardPage() {
   return (
@@ -120,7 +118,7 @@ export default function VaroBelieveCardPage() {
               </div>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

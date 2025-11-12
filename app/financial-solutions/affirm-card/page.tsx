@@ -5,15 +5,13 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title: "Affirm Card: Pay Over Time with Flexible Payment Plans - BudgetBee",
-    description:
-      "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
-    keywords:
-      "Affirm Card, pay over time, flexible payment plans, Visa debit card, no annual fee, buy now pay later, 0% APR, Evolve Bank, Stride Bank, split payments, affirm payment options",
-  };
-}
+export const metadata = {
+  title: "Affirm Card: Pay Over Time with Flexible Payment Plans - BudgetBee",
+  description:
+    "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
+  keywords:
+    "Affirm Card, pay over time, flexible payment plans, Visa debit card, no annual fee, buy now pay later, 0% APR, Evolve Bank, Stride Bank, split payments, affirm payment options",
+};
 
 export default function AffirmCardPage() {
   return (
@@ -183,7 +181,7 @@ export default function AffirmCardPage() {
                 </p>
 
                 <div
-                  id="kardtrust_ad_2"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

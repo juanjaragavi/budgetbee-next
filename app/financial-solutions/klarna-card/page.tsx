@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Klarna Card: Pay Now or Pay Later Everywhere Visa is Accepted - BudgetBee",
-    description:
-      "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
-    keywords:
-      "Klarna Card, pay later card, flexible payment card, Visa debit card, no annual fee, buy now pay later, Klarna balance, cashback card, 0% APR, WebBank card",
-  };
-}
+export const metadata = {
+  title:
+    "Klarna Card: Pay Now or Pay Later Everywhere Visa is Accepted - BudgetBee",
+  description:
+    "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
+  keywords:
+    "Klarna Card, pay later card, flexible payment card, Visa debit card, no annual fee, buy now pay later, Klarna balance, cashback card, 0% APR, WebBank card",
+};
 
 export default function KlarnaCardPage() {
   return (
@@ -190,7 +188,7 @@ export default function KlarnaCardPage() {
                 </p>
 
                 <div
-                  id="kardtrust_ad_2"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

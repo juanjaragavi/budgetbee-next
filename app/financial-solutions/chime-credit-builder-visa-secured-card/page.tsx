@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chime Credit Builder Visa Secured Card: Build Credit with No Fees - BudgetBee",
-    description:
-      "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
-    keywords:
-      "Chime Credit Builder, secured credit card, build credit, no annual fee, no interest, credit building, Chime Card, cash back rewards, credit score improvement, US credit cards",
-  };
-}
+export const metadata = {
+  title:
+    "Chime Credit Builder Visa Secured Card: Build Credit with No Fees - BudgetBee",
+  description:
+    "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
+  keywords:
+    "Chime Credit Builder, secured credit card, build credit, no annual fee, no interest, credit building, Chime Card, cash back rewards, credit score improvement, US credit cards",
+};
 
 export default function ChimeCreditBuilderPage() {
   return (
@@ -116,7 +114,7 @@ export default function ChimeCreditBuilderPage() {
               </div>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

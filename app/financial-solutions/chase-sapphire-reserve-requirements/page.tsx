@@ -194,7 +194,7 @@ export default function ChaseSapphireReserveRequirementsPage() {
                 </div>
 
                 <div
-                  id="kardtrust_ad_2"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

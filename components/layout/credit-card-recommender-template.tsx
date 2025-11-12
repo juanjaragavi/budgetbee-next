@@ -191,7 +191,7 @@ export default function CreditCardRecommenderTemplate({
             </p>
 
             <div
-              id="kardtrust_ad_2"
+              id="us_budgetbeepro_2"
               className="my-6 flex w-full items-center justify-center"
             />
 

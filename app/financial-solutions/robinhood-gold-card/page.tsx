@@ -5,16 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits - BudgetBee",
-    description:
-      "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
-    keywords:
-      "Robinhood Gold Card, 3% cash back credit card, Robinhood credit card, no annual fee, virtual cards, family credit card, Visa Signature benefits, travel rewards, cash back rewards, investment credit card",
-  };
-}
+export const metadata = {
+  title:
+    "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits - BudgetBee",
+  description:
+    "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
+  keywords:
+    "Robinhood Gold Card, 3% cash back credit card, Robinhood credit card, no annual fee, virtual cards, family credit card, Visa Signature benefits, travel rewards, cash back rewards, investment credit card",
+};
 
 export default function RobinhoodGoldCardPage() {
   return (
@@ -36,13 +34,10 @@ export default function RobinhoodGoldCardPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The Robinhood Gold Card redefines premium credit cards by
-                offering an unprecedented 3% cash back on all purchases—no
-                categories, no rotating calendars, no caps. Exclusive to
-                Robinhood Gold members, this stainless steel Visa Signature card
-                combines industry-leading rewards with innovative features like
-                virtual cards, family card sharing, and seamless integration
-                with your Robinhood investment portfolio.
+                Earn 3% cash back on all purchases with no caps. Additional 5%
+                on travel bookings. No annual fee with Robinhood Gold membership
+                ($5/month). Exclusive features: virtual cards, family sharing,
+                Visa Signature benefits.
               </p>
 
               <hr className="my-8" />
@@ -53,15 +48,9 @@ export default function RobinhoodGoldCardPage() {
                     <span className="text-gray-900 font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      Industry-Leading 3% Cash Back:
-                    </span>{" "}
-                    Earn 3% cash back on absolutely everything—gas, groceries,
-                    dining, streaming, bills, and all other everyday purchases.
-                    Unlike traditional rewards cards with rotating categories or
-                    complex tier systems, Robinhood gives you the same generous
-                    3% rate across the board with no spending caps or annual
-                    limits.
+                    <span className="font-semibold">3% Flat Cash Back:</span>{" "}
+                    All purchases, no caps or categories. Gas, groceries,
+                    dining, streaming—everything earns 3%.
                   </div>
                 </div>
 
@@ -70,14 +59,9 @@ export default function RobinhoodGoldCardPage() {
                     <span className="text-gray-900 font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      Boosted 5% Travel Rewards:
-                    </span>{" "}
-                    Get even more when you book travel through the Robinhood
-                    Travel Portal. Earn 5% cash back on flights, hotels, rental
-                    cars, and vacation packages—making the Gold Card one of the
-                    best travel rewards cards available without complicated
-                    point transfers or blackout dates.
+                    <span className="font-semibold">5% Travel Bonus:</span> Book
+                    through Robinhood Travel Portal for flights, hotels,
+                    rentals, vacation packages.
                   </div>
                 </div>
 
@@ -86,14 +70,9 @@ export default function RobinhoodGoldCardPage() {
                     <span className="text-gray-900 font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      No Annual Fee with Gold Membership:
-                    </span>{" "}
-                    The Robinhood Gold Card has no annual fee when you maintain
-                    your Robinhood Gold subscription ($5/month). This membership
-                    also includes 3% APY on uninvested cash, professional
-                    research, Level II market data, and other premium investing
-                    features—making the combined value exceptional.
+                    <span className="font-semibold">No Annual Fee:</span> Free
+                    with Robinhood Gold membership ($5/month, includes 3% APY on
+                    cash, research, market data).
                   </div>
                 </div>
 
@@ -102,14 +81,9 @@ export default function RobinhoodGoldCardPage() {
                     <span className="text-gray-900 font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      Virtual Cards for Smart Spending:
-                    </span>{" "}
-                    Generate unlimited disposable virtual card numbers for safer
-                    online shopping and subscription management. Use different
-                    virtual numbers for each merchant to protect your actual
-                    card details and easily track or cancel specific
-                    subscriptions without affecting other purchases.
+                    <span className="font-semibold">Virtual Cards:</span>{" "}
+                    Generate unlimited disposable card numbers for online
+                    shopping and subscription management.
                   </div>
                 </div>
               </div>
@@ -123,7 +97,7 @@ export default function RobinhoodGoldCardPage() {
               </div>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -148,158 +122,64 @@ export default function RobinhoodGoldCardPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Robinhood Gold Card represents a fundamental shift in how
-                  credit cards reward consumers. By offering a flat 3% cash back
-                  rate on all purchases, Robinhood eliminates the complexity and
-                  mental overhead of traditional rewards programs. You don't
-                  need to track rotating categories, activate quarterly bonuses,
-                  or remember which card to use where. Every purchase earns the
-                  same generous 3% back automatically, with cash deposited
-                  directly into your Robinhood brokerage account where it can be
-                  invested for potential long-term growth.
+                  The Robinhood Gold Card eliminates rewards complexity with a
+                  flat 3% cash back rate on all purchases. No categories, no
+                  activation, no spending caps. Cash deposits directly into your
+                  Robinhood account for potential growth.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  The Power of Unlimited 3% Cash Back
+                  Why 3% Flat Rate Outperforms
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Most credit cards claiming "unlimited rewards" offer only 1.5%
-                  or 2% cash back on everything. Cards with higher rates
-                  typically impose category restrictions, spending caps, or
-                  complex tier systems. The Robinhood Gold Card's flat 3% rate
-                  on all purchases—with no annual spending limit—means you earn
-                  more on every dollar you spend. For someone spending $30,000
-                  annually on their credit card, that's $900 in cash back
-                  compared to just $450 with a typical 1.5% card or $600 with a
-                  2% card. The extra $300-$450 annually adds up significantly
-                  over time, especially when invested in your Robinhood
-                  portfolio.
+                  Most "unlimited" cards offer 1.5-2%. At 3% flat, a
+                  $30,000/year spender earns $900 vs. $450-$600 with
+                  competitors—an extra $300-$450 annually. No spending caps
+                  means the 3% applies to every purchase.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Premium Travel Benefits Without the Premium Price
+                  Travel & Virtual Cards
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The 5% cash back on travel bookings through the Robinhood
-                  Travel Portal rivals cards with $450+ annual fees. Whether
-                  you're booking a business trip or family vacation, that extra
-                  2% back (compared to the standard 3%) can quickly offset the
-                  cost of your Robinhood Gold membership. A $3,000 family
-                  vacation booked through the portal earns $150 back instead of
-                  $90—a $60 difference that covers your entire year of Gold
-                  membership ($60). The travel portal offers competitive rates
-                  on flights, hotels, and rental cars from major providers,
-                  making it easy to maximize your rewards without sacrificing
-                  choice or convenience.
+                  Book through Robinhood Travel Portal for 5% cash back (vs. 3%
+                  elsewhere). A $3,000 vacation earns $150 back—$60 more than
+                  standard rate, covering one year of Gold membership. Virtual
+                  cards provide unlimited disposable numbers for safer online
+                  shopping and easy subscription management. Delete a virtual
+                  card to instantly cancel subscriptions without worrying about
+                  lingering charges.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Revolutionary Virtual Card Technology
+                  Family Sharing & Credit Building
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Virtual cards are one of the Gold Card's most innovative
-                  features, offering enhanced security and control over your
-                  online spending. Generate unique, disposable card numbers for
-                  each merchant or subscription service. If a virtual card
-                  number is compromised in a data breach, only that number is
-                  affected— your physical card and other virtual numbers remain
-                  secure. You can also set spending limits or lock individual
-                  virtual cards without affecting your other payment methods.
-                  This makes managing subscriptions effortless: assign each
-                  service its own virtual card, and simply delete the virtual
-                  card when you want to cancel without worrying about lingering
-                  charges.
+                  Add authorized users of any age (including kids and teens).
+                  Set individual spending limits per person, monitor
+                  transactions in real-time, lock cards instantly if lost. All
+                  family spending consolidates under your account at 3% cash
+                  back. No cost to add users; optional stainless steel cards
+                  available for a fee.
                 </p>
 
-                <div className="my-8 text-left sm:text-left">
-                  <Link href="/personal-finance/credit-card-types-benefits/">
-                    <Image
-                      src="https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-cards-banner-ad.webp"
-                      alt="Learn About Credit Cards"
-                      width={1000}
-                      height={563}
-                      className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
-                      style={{ width: "auto", height: "auto" }}
-                      loading="lazy"
-                      quality={80}
-                    />
-                  </Link>
-                </div>
-
-                {/* Related Articles Section */}
-                <div className="my-8 p-6 bg-gray-50 rounded-xl border border-gray-200 text-left sm:text-left">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
-                    Learn More About Premium Credit Cards:
-                  </h3>
-                  <ul className="space-y-2 list-disc list-inside text-primary-dark">
-                    <li>
-                      <Link
-                        href="/personal-finance/credit-card-types-benefits/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Understanding Credit Card Types and Benefits
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/personal-finance/best-rewards-credit-cards/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Maximizing Credit Card Rewards
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/personal-finance/no-annual-fee-credit-cards/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Best No Annual Fee Credit Cards
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Family Card Sharing: Credit Building for Everyone
+                  Robinhood Ecosystem Integration
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Robinhood Gold Card's family features are uniquely
-                  generous in the credit card industry. Add authorized users of
-                  any age—including children and teens—so everyone in your
-                  family can build their credit history early. You maintain
-                  complete control with the ability to set individual spending
-                  limits, monitor all transactions in real-time, and instantly
-                  lock any card if it's lost or if spending needs to be
-                  temporarily restricted. All family spending consolidates under
-                  your account, and everyone benefits from the same 3% cash back
-                  rate. Authorized users receive plastic cards at no cost, with
-                  optional stainless steel upgrades available for a fee.
+                  Cash back is automatically calculated in points (1 point =
+                  $0.01) and redeemed directly into your Robinhood account.
+                  Invest points in stocks, ETFs, or crypto, or keep as cash
+                  earning 3% APY. Unlike cards with idle rewards, Robinhood
+                  rewards can grow through compound returns.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Seamless Robinhood Ecosystem Integration
-                </h2>
-
-                <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Cash back earned with the Robinhood Gold Card is automatically
-                  calculated in points (1 point = $0.01) and can be redeemed
-                  directly into your Robinhood brokerage account. This seamless
-                  integration means your rewards can immediately start working
-                  for you through investments. Redeem points for stocks, ETFs,
-                  options, or crypto, or keep them as cash earning 3% APY.
-                  Unlike traditional cash back cards where rewards sit idle or
-                  get spent on purchases, Robinhood rewards can grow through the
-                  power of compound returns. You can also redeem points for
-                  travel bookings, gift cards, statement credits, or special
-                  items like metal card upgrades and airport lounge passes.
-                </p>
-
-                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Comprehensive Visa Signature Benefits
+                  Visa Signature Benefits
                 </h2>
 
                 <div className="space-y-6 my-8">
@@ -506,12 +386,7 @@ export default function RobinhoodGoldCardPage() {
                   Who Should Consider the Robinhood Gold Card?
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Robinhood Gold Card is ideal for several types of
-                  consumers:
-                </p>
-
-                <div className="space-y-6 my-8">
+                <div className="space-y-4 my-8">
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#EDECDB] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-gray-900 font-bold">➔</span>
@@ -520,10 +395,9 @@ export default function RobinhoodGoldCardPage() {
                       <span className="font-semibold">
                         Active Robinhood Investors:
                       </span>{" "}
-                      If you already have or plan to get Robinhood Gold ($5/
-                      month), the Gold Card becomes a no-brainer addition with
-                      zero marginal cost and the ability to invest your rewards
-                      directly into your portfolio.
+                      If you have or plan to get Robinhood Gold ($5/month), the
+                      Gold Card becomes a no-brainer addition with the ability
+                      to invest rewards directly into your portfolio.
                     </div>
                   </div>
 
@@ -533,10 +407,9 @@ export default function RobinhoodGoldCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Simplicity Seekers:</span>{" "}
-                      Those tired of juggling multiple credit cards for
-                      different bonus categories will appreciate having one card
-                      that earns top-tier rewards on everything without mental
-                      overhead.
+                      Those tired of juggling multiple cards for different
+                      categories appreciate one card earning top-tier 3% rewards
+                      on everything.
                     </div>
                   </div>
 
@@ -546,9 +419,9 @@ export default function RobinhoodGoldCardPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Frequent Travelers:</span>{" "}
-                      The 5% cash back on travel bookings and comprehensive Visa
-                      Signature travel protections rival premium travel cards
-                      costing hundreds annually in fees.
+                      The 5% travel booking rewards and comprehensive Visa
+                      Signature protections rival premium travel cards costing
+                      hundreds annually in fees.
                     </div>
                   </div>
 
@@ -561,8 +434,8 @@ export default function RobinhoodGoldCardPage() {
                         Security-Conscious Consumers:
                       </span>{" "}
                       Virtual card capabilities provide enhanced online shopping
-                      security and subscription management that traditional
-                      cards can't match.
+                      security and subscription management traditional cards
+                      can't match.
                     </div>
                   </div>
 
@@ -574,8 +447,8 @@ export default function RobinhoodGoldCardPage() {
                       <span className="font-semibold">
                         Families Building Credit:
                       </span>{" "}
-                      Parents who want to help children and teens build credit
-                      early while maintaining control over spending limits and
+                      Parents helping children and teens build credit early
+                      while maintaining control over spending limits and
                       monitoring all activity.
                     </div>
                   </div>
@@ -585,55 +458,43 @@ export default function RobinhoodGoldCardPage() {
                   Important Disclosures and Considerations
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">Representative APR:</span> The
-                  Robinhood Gold Card has a variable APR of 29.99% to 32.99% for
-                  purchases, balance transfers, cash advances, and APR-based Pay
-                  Over Time plans. For example, if you carried a $1,000 balance
-                  with a 31% APR for one year and made only minimum payments,
-                  you could pay approximately $310 in interest charges. To avoid
-                  interest entirely, pay your full statement balance by the due
-                  date each month. You have at least 21 days after each billing
-                  cycle closes to pay without interest on purchases.
-                </p>
+                <div className="space-y-4 my-8">
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">Representative APR:</span>{" "}
+                    The Robinhood Gold Card has a variable APR of 29.99% to
+                    32.99%. If you carried a $1,000 balance at 31% APR for one
+                    year, you could pay approximately $310 in interest. Pay your
+                    full statement balance by the due date each month to avoid
+                    interest entirely.
+                  </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">
-                    Gold Membership Requirement:
-                  </span>{" "}
-                  The Robinhood Gold Card requires an active Robinhood Gold
-                  subscription ($5/month or $50/year) to apply for the card and
-                  maintain it. If you cancel your Gold membership, you may lose
-                  access to your card. The Gold subscription includes other
-                  benefits like 3% APY on uninvested cash, professional research
-                  from Morningstar, and Level II market data.
-                </p>
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">
+                      Gold Membership Required:
+                    </span>{" "}
+                    The card requires an active Robinhood Gold subscription
+                    ($5/month or $50/year). If you cancel Gold membership, you
+                    may lose access to your card. Gold includes 3% APY on cash,
+                    professional research, and Level II market data.
+                  </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">
-                    Rewards Redemption Terms:
-                  </span>{" "}
-                  Cash back is calculated in points (1 point = 1 cent when
-                  redeemed for cash in Robinhood brokerage). Some redemption
-                  options may offer less than 1 cent per point value. You must
-                  have a Robinhood Financial brokerage account to redeem points
-                  for cash. Points may be rescinded if you fail to pay at least
-                  the minimum payment due. Certain transactions don't earn
-                  points, including balance transfers, cash advances, and
-                  business-type purchases.
-                </p>
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">Rewards Terms:</span> Cash
+                    back is calculated in points (1 point = 1 cent redeemed for
+                    cash). You must have a Robinhood brokerage account to redeem
+                    points. Points may be rescinded if you miss minimum
+                    payments. Balance transfers, cash advances, and business
+                    purchases don't earn points.
+                  </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  <span className="font-semibold">Not Financial Advice:</span>{" "}
-                  This information is for educational and informational purposes
-                  only and does not constitute financial advice. Your individual
-                  financial situation, spending patterns, and credit goals
-                  should guide your credit card selection. Consider whether the
-                  combined value of Robinhood Gold membership and the credit
-                  card benefits justify the $5/month subscription cost for your
-                  situation. Consult with a financial advisor to determine if
-                  this card aligns with your financial strategy.
-                </p>
+                  <p className="text-gray-800 text-sm leading-5 font-light text-left">
+                    <span className="font-semibold">Not Financial Advice:</span>{" "}
+                    This information is educational only and doesn't constitute
+                    financial advice. Consider whether the combined value of
+                    Robinhood Gold ($5/month) and card benefits justify the cost
+                    for your situation.
+                  </p>
+                </div>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
                   <p className="text-sm text-gray-700">

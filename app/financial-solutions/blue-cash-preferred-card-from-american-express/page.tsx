@@ -69,13 +69,10 @@ export default function BlueCashPreferredPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The Blue Cash Preferred® Card from American Express is designed
-                for households that want to maximize cash back on everyday
-                purchases. With industry-leading 6% cash back at U.S.
-                supermarkets, 6% on select U.S. streaming subscriptions, and 3%
-                at U.S. gas stations and on transit, this card turns routine
-                expenses into substantial rewards. Plus, earn a $250 statement
-                credit after spending $3,000 in your first 6 months.
+                Earn 6% cash back at U.S. supermarkets, 6% on select streaming
+                services, and 3% at gas stations and transit. Get a $250
+                statement credit after spending $3,000 in 6 months. $0 intro
+                annual fee for year one, then $95.
               </p>
 
               <hr className="my-8" />
@@ -86,14 +83,10 @@ export default function BlueCashPreferredPage() {
                     <span className="text-white font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      6% Cash Back at U.S. Supermarkets:
-                    </span>{" "}
-                    Earn 6% cash back on up to $6,000 per year in purchases at
-                    U.S. supermarkets (then 1%). This means you can earn up to
-                    $360 annually just from grocery shopping, making it one of
-                    the most rewarding cards for families who regularly shop for
-                    groceries.
+                    <span className="font-semibold">6% at Supermarkets:</span>{" "}
+                    Up to $6,000/year (then 1%). Covers major chains: Kroger,
+                    Safeway, Whole Foods, Trader Joe's. Excludes Walmart,
+                    Target, Costco, Sam's Club.
                   </div>
                 </div>
 
@@ -102,14 +95,9 @@ export default function BlueCashPreferredPage() {
                     <span className="text-white font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      6% Cash Back on Select Streaming:
-                    </span>{" "}
-                    Earn 6% cash back on select U.S. streaming subscriptions,
-                    including popular services like Netflix, Hulu, Disney+,
-                    Spotify, Apple Music, and more. With the average American
-                    subscribing to multiple streaming services, this benefit
-                    helps offset entertainment costs.
+                    <span className="font-semibold">6% on Streaming:</span>{" "}
+                    Netflix, Hulu, Disney+, Spotify, Apple Music, and other
+                    eligible services.
                   </div>
                 </div>
 
@@ -118,14 +106,9 @@ export default function BlueCashPreferredPage() {
                     <span className="text-white font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      3% Cash Back at Gas Stations:
-                    </span>{" "}
-                    Earn 3% cash back at U.S. gas stations and on transit
-                    (including taxis/rideshare, parking, tolls, trains, buses,
-                    and more). For commuters and frequent drivers, this category
-                    delivers significant savings on transportation costs
-                    throughout the year.
+                    <span className="font-semibold">3% at Gas & Transit:</span>{" "}
+                    Gas stations, parking, tolls, rideshare, public
+                    transportation.
                   </div>
                 </div>
 
@@ -134,13 +117,9 @@ export default function BlueCashPreferredPage() {
                     <span className="text-white font-bold">➔</span>
                   </div>
                   <div className="text-md leading-5 text-left">
-                    <span className="font-semibold">
-                      $250 Welcome Bonus Offer:
-                    </span>{" "}
-                    Earn a $250 statement credit after you spend $3,000 in
-                    purchases on your new card within your first 6 months of
-                    card membership. This generous welcome bonus can help offset
-                    the annual fee and jumpstart your cash back earnings.
+                    <span className="font-semibold">$250 Welcome Bonus:</span>{" "}
+                    After $3,000 spend in 6 months. $0 intro annual fee year
+                    one, then $95.
                   </div>
                 </div>
               </div>
@@ -154,7 +133,7 @@ export default function BlueCashPreferredPage() {
               </div>
 
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -179,90 +158,38 @@ export default function BlueCashPreferredPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Blue Cash Preferred® Card from American Express has
-                  established itself as one of the most valuable cash back cards
-                  for American households, particularly those with significant
-                  grocery and streaming expenses. Unlike many cash back cards
-                  that offer flat-rate rewards across all categories, the Blue
-                  Cash Preferred takes a strategic approach by providing
-                  elevated earning rates in the spending categories where most
-                  families allocate the largest portions of their budgets. This
-                  targeted rewards structure means that cardholders can earn
-                  substantially more cash back compared to traditional 1.5% or
-                  2% flat-rate cards, making it an exceptional value proposition
-                  for the right spending profile.
+                  The Blue Cash Preferred delivers exceptional value through
+                  category-focused rewards targeting major household expenses.
+                  Unlike flat-rate cards, elevated rates on groceries (6%),
+                  streaming (6%), and transit (3%) provide significantly higher
+                  earnings for most families compared to 1.5-2% alternatives.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Maximizing Supermarket Rewards
+                  Category Breakdown
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The card's standout feature is its 6% cash back at U.S.
-                  supermarkets on up to $6,000 in purchases per year, then 1%
-                  thereafter. To put this in perspective, according to the U.S.
-                  Bureau of Labor Statistics, the average American household
-                  spends approximately $5,259 annually on groceries. This means
-                  that a typical family using the Blue Cash Preferred for all
-                  supermarket purchases would earn approximately $316 in cash
-                  back annually from groceries alone—more than three times the
-                  $95 annual fee. The $6,000 annual cap is strategically set to
-                  accommodate most households' grocery spending while
-                  maintaining the card's profitability for American Express.
-                  It's important to note that "supermarkets" include major
-                  grocery chains like Kroger, Safeway, Whole Foods Market,
-                  Trader Joe's, and regional supermarkets, but exclude
-                  superstores like Walmart and Target, warehouse clubs like
-                  Costco and Sam's Club, and convenience stores. Understanding
-                  these distinctions is crucial for maximizing your rewards
-                  potential.
+                  <strong>Supermarkets (6%):</strong> The average household
+                  spends ~$5,259 annually on groceries. At 6% cash back, a
+                  family spending $3,000/year earns $180. The $6,000 annual cap
+                  accommodates most households. Covers Kroger, Safeway, Whole
+                  Foods, Trader Joe's—but not Walmart, Target, or warehouse
+                  clubs.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Streaming Subscriptions: A Modern Rewards Category
-                </h2>
-
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The 6% cash back on select U.S. streaming subscriptions
-                  represents American Express's recognition of how modern
-                  entertainment consumption has evolved. With Americans now
-                  subscribing to an average of 4-5 streaming services—including
-                  video platforms (Netflix, Disney+, Hulu, HBO Max, Apple TV+),
-                  music services (Spotify, Apple Music, Amazon Music), and other
-                  digital subscriptions—monthly streaming costs can easily reach
-                  $50-$100 per household. The Blue Cash Preferred's 6% cash back
-                  on these subscriptions means that a household spending $75
-                  monthly on streaming services would earn $54 annually in cash
-                  back from this category alone. This benefit applies to a wide
-                  range of eligible subscriptions, including video streaming,
-                  music streaming, audiobook services, podcast platforms, and
-                  gaming subscriptions. The streamlined earning structure makes
-                  it easy to offset the rising costs of digital entertainment
-                  while enjoying your favorite content.
+                  <strong>Streaming (6%):</strong> With average households
+                  subscribing to 4-5 streaming services (~$50-$100/month), the
+                  6% cash back provides real value. Covers Netflix, Disney+,
+                  Hulu, Spotify, Apple Music, and other digital subscriptions.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Transportation and Transit Benefits
-                </h2>
-
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The 3% cash back at U.S. gas stations and on transit provides
-                  valuable rewards for both drivers and those who rely on public
-                  transportation. According to the American Automobile
-                  Association (AAA), the average American driver spends
-                  approximately $2,000-$3,000 annually on gasoline. With the
-                  Blue Cash Preferred, this translates to $60-$90 in annual cash
-                  back from gas purchases alone. The transit category is
-                  particularly valuable for urban dwellers and commuters,
-                  covering taxis, rideshare services (Uber, Lyft), parking fees,
-                  tolls, trains, buses, subways, and ferries. This broad
-                  definition ensures that whether you're driving, taking public
-                  transportation, or using rideshare services, you're earning
-                  enhanced rewards on your daily commute and travel expenses.
-                  For city residents who don't own cars but regularly use
-                  rideshare services or public transit, this category can
-                  deliver substantial value that's often overlooked in
-                  traditional cash back card comparisons.
+                  <strong>Gas & Transit (3%):</strong> Drivers spend
+                  $2,000-$3,000 annually on gas (~$60-$90 cash back). Transit
+                  category covers parking, tolls, rideshare, public
+                  transportation—valuable for both drivers and city residents.
                 </p>
 
                 <div className="my-8 text-left sm:text-left">
@@ -321,36 +248,23 @@ export default function BlueCashPreferredPage() {
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Understanding the Annual Fee Value Proposition
+                  Annual Fee Break-Even Analysis
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Blue Cash Preferred Card carries a $0 introductory annual
-                  fee for the first year, then $95 thereafter. While some
-                  consumers prefer no-annual-fee cards on principle, it's
-                  essential to understand the mathematical value proposition
-                  that justifies this cost for the right cardholders. Let's
-                  break down the break-even analysis: If you spend just $125 per
-                  month ($1,500 annually) at supermarkets, you'll earn $90 in
-                  cash back from the 6% rate, nearly covering the $95 annual
-                  fee. Add even modest spending in the streaming (6%) and
-                  gas/transit (3%) categories, and the card quickly delivers net
-                  positive value. For example, a household spending $250 monthly
-                  at supermarkets ($3,000/year = $180 cash back), $50 monthly on
-                  streaming ($600/year = $36 cash back), and $150 monthly at gas
-                  stations ($1,800/year = $54 cash back) would earn $270
-                  annually in enhanced category rewards alone—$175 more than the
-                  annual fee. This doesn't even account for the $250 welcome
-                  bonus, which provides significant first-year value. The key is
-                  honestly assessing your spending patterns: if you spend at
-                  least $1,500+ annually at supermarkets and regularly use
-                  streaming services, the Blue Cash Preferred will almost
-                  certainly deliver more value than its no-annual-fee
-                  counterpart, the Blue Cash Everyday® Card.
+                  At $95 annual fee (after intro year), the card needs only
+                  $1,583/year in supermarket spending at 6% to break even.
+                  Example: $250/month at supermarkets ($3,000/year = $180) +
+                  $50/month streaming ($600/year = $36) + $150/month gas
+                  ($1,800/year = $54) = $270 in annual rewards, exceeding the
+                  $95 fee by $175. The $250 welcome bonus further improves
+                  first-year value. For households spending less than
+                  $1,500/year at supermarkets, the no-annual-fee Blue Cash
+                  Everyday® Card may be better.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Additional Features and Benefits:
+                  Additional Benefits
                 </h2>
 
                 <div className="space-y-6 my-8">
@@ -359,14 +273,8 @@ export default function BlueCashPreferredPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        1% Cash Back on All Other Purchases:
-                      </span>{" "}
-                      Earn 1% cash back on all other purchases with no caps or
-                      restrictions. This ensures you're always earning rewards
-                      regardless of where you shop, making the Blue Cash
-                      Preferred a viable everyday spending card even for
-                      purchases outside the bonus categories.
+                      <span className="font-semibold">1% Cash Back:</span> All
+                      other purchases earn 1% unlimited.
                     </div>
                   </div>
 
@@ -376,15 +284,10 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Flexible Redemption Options:
+                        Flexible Redemption:
                       </span>{" "}
-                      Redeem your cash back as a statement credit, direct
-                      deposit to eligible bank accounts, or use it toward
-                      eligible purchases. Cash back is automatically credited to
-                      your account and can be redeemed in any amount, with no
-                      minimum thresholds or blackout dates. You can also use
-                      your rewards to shop with points at Amazon or request
-                      checks mailed to your address.
+                      Statement credit, direct deposit, check, gift cards, or
+                      Amazon Shop with Points. No minimums or blackout dates.
                     </div>
                   </div>
 
@@ -394,15 +297,11 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Purchase Protection and Extended Warranty:
+                        Purchase Protection & Extended Warranty:
                       </span>{" "}
-                      American Express provides purchase protection covering
-                      eligible purchases against accidental damage or theft for
-                      up to 90 days from the purchase date (up to $1,000 per
-                      occurrence, $50,000 per calendar year). Additionally,
-                      eligible purchases with a manufacturer's warranty of 5
-                      years or less receive an extended warranty for up to 1
-                      additional year beyond the original warranty.
+                      Up to $1,000 per occurrence ($50,000/year) against
+                      accidental damage/theft for 90 days. Extended warranty up
+                      to 1 additional year.
                     </div>
                   </div>
 
@@ -412,14 +311,10 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Car Rental Loss and Damage Insurance:
+                        Car Rental Insurance:
                       </span>{" "}
-                      When you use your Blue Cash Preferred Card to reserve and
-                      pay for your entire car rental, you may be covered for
-                      damage or theft of a rental vehicle in a covered territory
-                      (terms and conditions apply). This secondary coverage can
-                      save you from purchasing expensive collision damage
-                      waivers at rental counters.
+                      Secondary coverage for rental vehicles when charged to
+                      card.
                     </div>
                   </div>
 
@@ -428,15 +323,9 @@ export default function BlueCashPreferredPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Entertainment and Dining Access:
-                      </span>{" "}
-                      Get access to special ticket presales and exclusive
-                      cardmember events through American Express Experiences.
-                      This includes priority access to concerts, sporting
-                      events, dining experiences, and cultural events before
-                      tickets go on sale to the general public, enhancing your
-                      lifestyle beyond just cash back rewards.
+                      <span className="font-semibold">Amex Experiences:</span>{" "}
+                      Presale access to concerts, sporting events, dining, and
+                      cultural events.
                     </div>
                   </div>
 
@@ -448,24 +337,15 @@ export default function BlueCashPreferredPage() {
                       <span className="font-semibold">
                         Global Assist Hotline:
                       </span>{" "}
-                      When traveling more than 100 miles from home, American
-                      Express Global Assist provides 24/7 assistance with
-                      emergency card services, medical and legal referrals,
-                      emergency transportation assistance, and help with lost
-                      luggage or travel documents. This concierge-style service
-                      adds travel peace of mind at no additional charge.
+                      24/7 travel assistance, medical/legal referrals, emergency
+                      services when traveling 100+ miles from home.
                     </div>
                   </div>
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Security and Fraud Protection
+                  Security & Fraud Protection
                 </h2>
-
-                <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  American Express is renowned for industry-leading security
-                  features and customer protection:
-                </p>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
@@ -473,15 +353,31 @@ export default function BlueCashPreferredPage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Fraud Protection Guarantee:
-                      </span>{" "}
-                      You won't be held responsible for unauthorized charges on
-                      your card. American Express's fraud detection systems
-                      monitor transactions 24/7 for suspicious activity, and if
-                      your card is compromised, you're protected under their $0
-                      fraud liability guarantee. Simply report fraudulent
-                      charges promptly to receive full protection.
+                      <span className="font-semibold">$0 Fraud Liability:</span>{" "}
+                      Not responsible for unauthorized charges. 24/7 fraud
+                      monitoring.
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#180053] flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-white font-bold">➔</span>
+                    </div>
+                    <div className="text-sm leading-5 text-left">
+                      <span className="font-semibold">Real-Time Alerts:</span>{" "}
+                      Instant notifications via app, email, or SMS for every
+                      purchase.
+                    </div>
+                  </div>
+
+                  <div className="flex items-start">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#180053] flex items-center justify-center mr-3 mt-0.5">
+                      <span className="text-white font-bold">➔</span>
+                    </div>
+                    <div className="text-sm leading-5 text-left">
+                      <span className="font-semibold">Card Lock Feature:</span>{" "}
+                      Instantly lock your card via app if lost, then unlock with
+                      one tap when found.
                     </div>
                   </div>
 
@@ -491,56 +387,16 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Real-Time Purchase Alerts:
+                        EMV Chip & Contactless:
                       </span>{" "}
-                      Receive instant notifications via the Amex mobile app,
-                      email, or text message for every purchase made with your
-                      card. These real-time alerts enable you to immediately
-                      identify and report any unauthorized transactions,
-                      enhancing your account security and fraud prevention.
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#180053] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Account Freeze Feature:
-                      </span>{" "}
-                      Temporarily lock your card instantly through the mobile
-                      app or website if you misplace it, without needing to
-                      cancel and replace the card. This feature provides peace
-                      of mind if your card is temporarily lost but might still
-                      be found, and you can unlock it with a single tap.
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#180053] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        EMV Chip and Contactless Technology:
-                      </span>{" "}
-                      Your Blue Cash Preferred Card comes equipped with EMV chip
-                      technology for secure in-person transactions and
-                      contactless payment capability for fast, secure tap-to-pay
-                      purchases. These technologies provide enhanced security
-                      compared to traditional magnetic stripe transactions.
+                      Secure in-person transactions and tap-to-pay capability.
                     </div>
                   </div>
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Who Should Apply for This Card?
+                  Best For
                 </h2>
-
-                <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Blue Cash Preferred® Card is ideally suited for:
-                </p>
 
                 <div className="space-y-4 my-6">
                   <div className="flex items-start">
@@ -549,14 +405,10 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Families with Significant Grocery Spending:
+                        Households with $1,500+ annual supermarket spending:
                       </span>{" "}
-                      If your household spends $1,500 or more annually at U.S.
-                      supermarkets, the 6% cash back rate delivers exceptional
-                      value. Larger families, those who cook frequently at home,
-                      or households that purchase organic or specialty groceries
-                      will see the greatest benefit from the supermarket
-                      category.
+                      Earn at least $90 in rewards, offsetting most of the $95
+                      annual fee.
                     </div>
                   </div>
 
@@ -566,13 +418,9 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Streaming Enthusiasts:
+                        Multiple streaming subscribers:
                       </span>{" "}
-                      If you subscribe to multiple streaming services—whether
-                      for video entertainment, music, audiobooks, or gaming—the
-                      6% cash back on streaming subscriptions provides
-                      meaningful savings on services you're already paying for
-                      monthly.
+                      Offset monthly entertainment costs with 6% cash back.
                     </div>
                   </div>
 
@@ -582,14 +430,9 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Commuters and Frequent Drivers:
+                        Commuters and frequent drivers:
                       </span>{" "}
-                      Regular commuters, rideshare users, or those with long
-                      daily drives will appreciate the 3% cash back at gas
-                      stations and on transit. This category covers gasoline,
-                      tolls, parking, public transportation, and rideshare
-                      services, making it valuable for both car owners and urban
-                      residents.
+                      Earn 3% on gas and transit costs.
                     </div>
                   </div>
 
@@ -599,13 +442,10 @@ export default function BlueCashPreferredPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">
-                        Those Who Value American Express Benefits:
+                        Amex benefit seekers:
                       </span>{" "}
-                      If you appreciate American Express's renowned customer
-                      service, robust purchase protections, and access to
-                      exclusive experiences and presale events, the Blue Cash
-                      Preferred provides these benefits alongside category cash
-                      back rewards.
+                      Value purchase protection, extended warranty, travel
+                      assistance, and event presales.
                     </div>
                   </div>
                 </div>

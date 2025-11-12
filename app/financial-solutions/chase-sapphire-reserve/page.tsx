@@ -5,15 +5,13 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title: "Chase Sapphire Reserve®: Premium Travel Rewards Card - BudgetBee",
-    description:
-      "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
-    keywords:
-      "Chase Sapphire Reserve, premium travel credit card, Chase Ultimate Rewards, travel rewards, airport lounge access, Priority Pass, travel insurance, Chase credit card, premium credit card",
-  };
-}
+export const metadata = {
+  title: "Chase Sapphire Reserve®: Premium Travel Rewards Card - BudgetBee",
+  description:
+    "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
+  keywords:
+    "Chase Sapphire Reserve, premium travel credit card, Chase Ultimate Rewards, travel rewards, airport lounge access, Priority Pass, travel insurance, Chase credit card, premium credit card",
+};
 
 export default function ChaseSapphireReservePage() {
   return (
@@ -39,17 +37,11 @@ export default function ChaseSapphireReservePage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The Chase Sapphire Reserve® stands as one of the most
-                prestigious travel rewards credit cards available in the United
-                States, offering exceptional earning rates, comprehensive travel
-                protections, and luxury perks that justify its premium
-                positioning. With 3X points on travel and dining worldwide, a
-                generous $300 annual travel credit that effectively reduces the
-                annual fee, Priority Pass Select lounge access at 1,300+ airport
-                lounges globally, and an impressive 60,000 bonus points welcome
-                offer after spending $4,000 within the first 3 months, this card
-                delivers extraordinary value for frequent travelers and dining
-                enthusiasts who maximize its premium benefits.
+                The Chase Sapphire Reserve® features 3X points on travel and
+                dining, $300 annual travel credit, Priority Pass lounge access
+                (1,300+ lounges), and comprehensive travel insurance. $550
+                annual fee; 60,000 bonus points after $4,000 spend in 3 months.
+                For frequent travelers who use premium perks.
               </p>
 
               <hr className="my-8" />
@@ -63,14 +55,10 @@ export default function ChaseSapphireReservePage() {
                     <span className="font-semibold">
                       Exceptional Travel & Dining Rewards:
                     </span>{" "}
-                    Earn 3X points per $1 spent on travel purchases (including
-                    flights, hotels, rental cars, cruises, tours, and vacation
-                    rentals) and at restaurants worldwide, including takeout and
-                    eligible delivery services. Earn 10X total points on hotels
-                    and car rentals when you book through Chase Ultimate
-                    Rewards, plus 5X total points on flights booked through the
-                    portal. Every other purchase earns 1X point per $1 spent,
-                    ensuring you always earn valuable rewards on all spending.
+                    3X points on travel (flights, hotels, rentals, cruises) and
+                    restaurants worldwide. 10X total on hotels/car rentals
+                    booked through Chase portal; 5X on flights. 1X on other
+                    purchases.
                   </div>
                 </div>
 
@@ -82,14 +70,9 @@ export default function ChaseSapphireReservePage() {
                     <span className="font-semibold">
                       $300 Annual Travel Credit:
                     </span>{" "}
-                    Receive a $300 annual statement credit automatically applied
-                    to travel purchases made with your card each account
-                    anniversary year. This includes airline tickets, hotels, car
-                    rentals, cruises, tours, tolls, parking, and even rideshare
-                    services like Uber and Lyft. The credit effectively reduces
-                    the $550 annual fee to just $250 when you factor in this
-                    automatic benefit, making the card far more accessible than
-                    its initial annual fee suggests for active travelers.
+                    Annual statement credit for travel (flights, hotels,
+                    rentals, rideshare, tolls, parking). Effectively reduces
+                    $550 annual fee to $250 for active travelers.
                   </div>
                 </div>
 
@@ -101,16 +84,9 @@ export default function ChaseSapphireReservePage() {
                     <span className="font-semibold">
                       Priority Pass Select Lounge Access:
                     </span>{" "}
-                    Enjoy complimentary access to 1,300+ airport lounges
-                    worldwide through your Priority Pass Select membership (a
-                    $469 value). Bring up to two guests for free each visit, or
-                    use your membership card for restaurant credits at
-                    participating airport dining locations. Access comfortable
-                    seating, complimentary food and beverages, Wi-Fi, business
-                    centers, and shower facilities at participating lounges
-                    across every continent. This benefit alone saves hundreds of
-                    dollars annually for frequent travelers who would otherwise
-                    pay $35+ per lounge visit.
+                    Access 1,300+ airport lounges worldwide. Bring 2 guests free
+                    per visit. Includes food, beverages, Wi-Fi, business
+                    centers, showers. Value ~$469/year.
                   </div>
                 </div>
 
@@ -122,16 +98,10 @@ export default function ChaseSapphireReservePage() {
                     <span className="font-semibold">
                       Comprehensive Travel Protections:
                     </span>{" "}
-                    Benefit from extensive travel insurance coverage including
-                    trip cancellation/interruption insurance (up to $10,000 per
-                    person and $20,000 per trip), trip delay reimbursement (up
-                    to $500 per ticket), baggage delay insurance (up to $100 per
-                    day for 5 days), lost luggage reimbursement (up to $3,000
-                    per passenger), emergency medical and dental coverage
-                    abroad, emergency evacuation and transportation, auto rental
-                    collision damage waiver (primary coverage), and travel
-                    accident insurance ($1,000,000). These protections provide
-                    peace of mind on every journey.
+                    Trip cancellation ($10,000/person, $20,000/trip), trip
+                    delay, baggage delay ($100/day up to 5 days), lost luggage
+                    ($3,000), emergency medical/dental, rental car damage
+                    waiver, and travel accident insurance ($1M).
                   </div>
                 </div>
               </div>
@@ -176,24 +146,13 @@ export default function ChaseSapphireReservePage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Chase Ultimate Rewards points earned with the Sapphire
-                  Reserve® deliver maximum flexibility and value. Redeem points
-                  for travel through the Chase Ultimate Rewards portal at 1.5
-                  cents per point—significantly higher than the standard 1 cent
-                  per point redemption value of most cards. A $1,000 flight
-                  would cost just 66,667 points instead of 100,000 points with
-                  standard redemption. Alternatively, transfer points at a 1:1
-                  ratio to 14+ airline and hotel loyalty programs including
-                  United MileagePlus, Southwest Rapid Rewards, Marriott Bonvoy,
-                  World of Hyatt, British Airways Executive Club, Air Canada
-                  Aeroplan, Emirates Skywards, Singapore Airlines KrisFlyer,
-                  Virgin Atlantic Flying Club, IHG Rewards, and JetBlue
-                  TrueBlue. Strategic transfers often yield values of 2-3 cents
-                  per point or higher when redeemed for premium cabin flights or
-                  luxury hotel stays. You can also use points for cash back at 1
-                  cent per point, statement credits against purchases, gift
-                  cards, shopping through the Chase portal, or experiences
-                  through Chase Experiences.
+                  Redeem points for travel at 1.5 cents per point through Chase
+                  portal (vs. 1 cent standard). Transfer 1:1 to 14+
+                  airline/hotel programs (United, Southwest, Marriott, Hyatt,
+                  British Airways, Emirates, Singapore, JetBlue, etc.).
+                  Strategic transfers yield 2-3+ cents per point value. Also:
+                  cash back (1¢/point), statement credits, gift cards, or
+                  experiences.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
@@ -201,27 +160,15 @@ export default function ChaseSapphireReservePage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Beyond earning and redeeming rewards, the Chase Sapphire
-                  Reserve® enhances every aspect of your travel experience. The
-                  Priority Pass Select membership provides access to over 1,300
-                  airport lounges worldwide, transforming stressful airport
-                  waits into relaxing pre-flight experiences with complimentary
-                  food, premium beverages, comfortable seating, high-speed
-                  Wi-Fi, business centers, and often shower facilities. The
-                  card's premium concierge service assists with travel bookings,
-                  restaurant reservations, event tickets, gift purchases, and
-                  hard-to-access experiences—essentially providing a personal
-                  assistant for life's details. DoorDash benefits include
-                  complimentary DashPass membership (minimum $9.99/month value)
-                  providing unlimited $0 delivery fees on eligible orders over
-                  $12 for one year, plus statement credits for qualifying
-                  DoorDash purchases. Lyft benefits include monthly statement
-                  credits and special offers for cardholders who link their
-                  accounts, making local transportation more affordable.
+                  Priority Pass provides 1,300+ lounges globally. Premium
+                  concierge assists with travel bookings, restaurant
+                  reservations, tickets, and gift purchases. DoorDash: free
+                  DashPass (saves $9.99+/month) with $0 delivery on orders over
+                  $12. Lyft: statement credits and cardholder offers.
                 </p>
 
                 <div
-                  id="kardtrust_ad_2"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -234,20 +181,10 @@ export default function ChaseSapphireReservePage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Sapphire Reserve® provides robust purchase protections
-                  that safeguard your investments. Purchase protection covers
-                  eligible purchases against damage or theft for 120 days after
-                  purchase (up to $10,000 per claim and $50,000 per account
-                  annually). Extended warranty protection automatically extends
-                  the manufacturer's warranty by an additional year on
-                  warranties of three years or less, providing peace of mind on
-                  electronics, appliances, and other purchases. Return
-                  protection allows you to return eligible purchases that
-                  merchants won't take back within 90 days of purchase (up to
-                  $500 per item, $1,000 per year). These benefits effectively
-                  function as complimentary insurance policies that save
-                  hundreds of dollars on potential losses, disputes, or repair
-                  costs throughout the year.
+                  Purchase protection: covers damage/theft for 120 days
+                  ($10,000/claim, $50,000/year). Extended warranty: adds 1 year
+                  to manufacturer warranties of 3 years or less. Return
+                  protection: 90 days ($500/item, $1,000/year).
                 </p>
 
                 <div className="my-8 text-left sm:text-left">
@@ -264,39 +201,6 @@ export default function ChaseSapphireReservePage() {
                   </Link>
                 </div>
 
-                {/* Related Articles Section */}
-                <div className="my-8 p-6 bg-gray-50 rounded-xl border border-gray-200 text-left sm:text-left">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
-                    Learn More About Premium Travel Credit Cards:
-                  </h3>
-                  <ul className="space-y-2 list-disc list-inside text-primary-dark text-left">
-                    <li className="text-left">
-                      <Link
-                        href="/personal-finance/travel-credit-cards/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Top Travel Credit Cards Comparison
-                      </Link>
-                    </li>
-                    <li className="text-left">
-                      <Link
-                        href="/personal-finance/best-rewards-credit-cards/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Maximizing Credit Card Rewards Points
-                      </Link>
-                    </li>
-                    <li className="text-left">
-                      <Link
-                        href="/personal-finance/understanding-credit-card-interest-rates/"
-                        className="hover:underline hover:text-primary-dark transition-colors"
-                      >
-                        Understanding Credit Card Interest Rates
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Additional Premium Features:
                 </h2>
@@ -308,13 +212,8 @@ export default function ChaseSapphireReservePage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Metal Card Design:</span>{" "}
-                      Receive a distinctive metal card that weighs approximately
-                      13 grams—heavier than standard plastic cards—communicating
-                      premium status and durability. The card's sapphire blue
-                      color and sleek design make it instantly recognizable as a
-                      prestige credit card, while the substantial weight
-                      provides a tactile reminder of its premium benefits every
-                      time you use it.
+                      Distinctive metal card (13g) communicates premium status
+                      with sapphire blue color.
                     </div>
                   </div>
 
@@ -326,15 +225,8 @@ export default function ChaseSapphireReservePage() {
                       <span className="font-semibold">
                         Visa Infinite Benefits:
                       </span>{" "}
-                      Access exclusive Visa Infinite benefits including access
-                      to the Visa Infinite Luxury Hotel Collection with special
-                      amenities at participating luxury hotels, Visa Infinite
-                      Concierge service available 24/7 for travel assistance and
-                      reservations, Visa Signature Concierge for additional
-                      lifestyle assistance, and special offers on dining,
-                      shopping, entertainment, and travel experiences. These
-                      network benefits complement the card's Chase-provided
-                      perks.
+                      Luxury Hotel Collection, 24/7 concierge, special offers on
+                      dining and entertainment.
                     </div>
                   </div>
 
@@ -346,13 +238,8 @@ export default function ChaseSapphireReservePage() {
                       <span className="font-semibold">
                         No Foreign Transaction Fees:
                       </span>{" "}
-                      Use your card internationally without worrying about
-                      foreign transaction fees that typically cost 3% of each
-                      purchase. Whether booking accommodations in Europe, dining
-                      in Asia, or shopping in South America, you'll save money
-                      on every international transaction compared to cards that
-                      charge these fees. This benefit saves hundreds of dollars
-                      annually for international travelers.
+                      Use internationally without 3% fees. Saves hundreds for
+                      global travelers.
                     </div>
                   </div>
 
@@ -361,16 +248,9 @@ export default function ChaseSapphireReservePage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Authorized User Benefits:
-                      </span>{" "}
-                      Add authorized users to your account for free—no
-                      additional annual fee per authorized user. Each authorized
-                      user receives their own metal card and contributes to
-                      earning rewards on their purchases, while you maintain
-                      full control over the account. Authorized users also enjoy
-                      most of the card's travel and purchase protection
-                      benefits, making this an excellent option for families.
+                      <span className="font-semibold">Authorized Users:</span>{" "}
+                      Add free (no annual fee per user, up to 4 total). Each
+                      receives metal card and full benefits.
                     </div>
                   </div>
 
@@ -379,121 +259,39 @@ export default function ChaseSapphireReservePage() {
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Chase Offers Integration:
-                      </span>{" "}
-                      Access exclusive Chase Offers through your account
-                      dashboard, providing additional statement credits and
-                      bonus points on purchases from select merchants. These
-                      targeted offers frequently provide 10-20% back at popular
-                      retailers, restaurants, and travel brands, stacking with
-                      your base earning rates for even greater rewards. Simply
-                      activate offers and use your card at participating
-                      merchants to automatically receive the benefit.
+                      <span className="font-semibold">Chase Offers:</span>{" "}
+                      Exclusive statement credits and bonus points from select
+                      merchants. 10-20% back at popular brands.
                     </div>
                   </div>
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Annual Fee Considerations and Value Calculation
+                  Annual Fee Value Analysis
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  The $550 annual fee may seem substantial at first glance, but
-                  a closer examination reveals exceptional value for cardholders
-                  who utilize the benefits:
+                  $550 annual fee breaks down as: $300 travel credit reduces it
+                  to $250. Priority Pass ($469 value) covers itself with one
+                  lounge visit. 3X earning on $10,000 annual travel/dining spend
+                  generates 20,000 extra points (~$300 value at 1.5¢). Travel
+                  insurance value covers trip cancellation alone. Net: card pays
+                  for itself when fully utilized.
                 </p>
-
-                <div className="space-y-6 my-8">
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#002855] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Automatic Value Recovery:
-                      </span>{" "}
-                      The $300 annual travel credit automatically reduces your
-                      effective annual fee to $250. If you spend at least $300
-                      annually on travel (including Uber/Lyft rides), you'll
-                      receive this benefit without changing your spending
-                      habits. The Priority Pass Select membership (valued at
-                      $469 annually) becomes free with just one lounge visit,
-                      immediately justifying the remaining $250 fee for
-                      travelers who use airport lounges even occasionally.
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#002855] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Rewards Earning Differential:
-                      </span>{" "}
-                      Compared to a standard 1% cash back card, the 3X earning
-                      rate on travel and dining represents 2 extra points per
-                      dollar. If you spend $10,000 annually on travel and dining
-                      combined, you'll earn 20,000 extra points worth $300 when
-                      redeemed for travel through the Chase portal. This
-                      additional earning alone covers most of the remaining
-                      effective annual fee after the travel credit.
-                    </div>
-                  </div>
-
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#002855] flex items-center justify-center mr-3 mt-0.5">
-                      <span className="text-white font-bold">➔</span>
-                    </div>
-                    <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Insurance Value Protection:
-                      </span>{" "}
-                      The comprehensive travel insurance package would cost
-                      hundreds of dollars to purchase separately for each trip.
-                      Trip cancellation insurance alone saves cardholders from
-                      losing thousands on non-refundable bookings when
-                      unexpected emergencies arise. Rental car primary insurance
-                      saves $20-30 per day by declining the rental counter's
-                      coverage. These protections provide genuine peace of mind
-                      that pays for itself when needed.
-                    </div>
-                  </div>
-                </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Ideal Cardholder Profile
+                  Best For / Not Ideal For
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  The Chase Sapphire Reserve® delivers maximum value for
-                  specific consumer profiles. You'll benefit most if you travel
-                  domestically or internationally at least 3-4 times annually,
-                  regularly dine at restaurants (including takeout and
-                  delivery), value airport lounge access and travel
-                  conveniences, want comprehensive travel insurance without
-                  purchasing separate policies, appreciate luxury travel perks
-                  and concierge services, have good to excellent credit
-                  (typically 720+ credit score), and can comfortably afford the
-                  annual fee while maximizing the benefits. The card
-                  particularly excels for business travelers who expense travel
-                  and dining, families who take annual vacations and value
-                  travel insurance, digital nomads and location-independent
-                  professionals, and affluent consumers seeking prestige cards
-                  with tangible benefits.
-                </p>
-
-                <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  Conversely, this card may not suit you if you travel
-                  infrequently (1-2 times per year or less), rarely dine at
-                  restaurants preferring home-cooked meals, have limited credit
-                  history or fair credit scores, prefer simple cash back without
-                  redemption complexity, or cannot comfortably afford the $550
-                  annual fee. In these cases, consider alternatives like the
-                  Chase Sapphire Preferred® (lower annual fee), Chase Freedom
-                  Unlimited® (no annual fee cash back), or other travel cards
-                  with different fee structures.
+                  <strong>Best for:</strong> Frequent travelers (3-4+
+                  trips/year), regular restaurant diners, business travelers,
+                  families taking annual vacations, excellent credit (720+),
+                  comfortable with $550 annual fee.{" "}
+                  <strong>Not ideal for:</strong> Infrequent travelers (1-2
+                  trips/year), prefer home cooking, fair credit scores, want
+                  simple cash back, cannot afford annual fee. Consider Chase
+                  Sapphire Preferred® or Freedom Unlimited® as alternatives.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">

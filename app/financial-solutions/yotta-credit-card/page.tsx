@@ -5,26 +5,14 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Yotta Credit Card Review: Win Cash Back With Every Purchase | BudgetBee",
-    description:
-      "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
-    keywords: [
-      "Yotta Credit Card",
-      "lucky swipe credit card",
-      "sweepstakes credit card",
-      "gamified credit card",
-      "win cash back",
-      "prize-linked spending",
-      "Yotta card review",
-      "credit card rewards",
-      "Synapse Credit",
-      "Evolve Bank",
-    ].join(", "),
-  };
-}
+export const metadata = {
+  title:
+    "Yotta Credit Card Review: Win Cash Back With Every Purchase | BudgetBee",
+  description:
+    "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
+  keywords:
+    "Yotta Credit Card, lucky swipe credit card, sweepstakes credit card, gamified credit card, win cash back, prize-linked spending, Yotta card review, credit card rewards, Synapse Credit, Evolve Bank",
+};
 
 export default function YottaCreditCardPage() {
   return (

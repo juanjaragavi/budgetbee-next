@@ -287,7 +287,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 *By clicking you will be redirected to an external site.
               </p>
               <div
-                id="kardtrust_ad_2"
+                id="us_budgetbeepro_2"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
