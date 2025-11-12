@@ -42,6 +42,13 @@ export default function SirenCardRequirementsPage() {
               <h1 className="text-3xl md:text-4xl font-bold mb-4">
                 SIREN Card Requirements & Application Process
               </h1>
+              <div
+                id="us_budgetbeepro_1"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
               <p className="text-lg text-primary-accent">
                 Everything you need to know about qualifying for SIREN Card.
                 Exclusively for Starbucks partners—simple eligibility, no FICO

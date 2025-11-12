@@ -19,10 +19,8 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               Beyond Spreadsheets: The Modern Personal Finance Guide to a Budget
               You'll Actually Stick To
             </h1>
-
-            {/* Placeholder <div> for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_kardtrust_3"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -194,9 +192,9 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder <div> for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                {/* Placeholder <div> for the Ad Unit 'us_budgetbeepro_2' - centered and responsive */}
                 <div
-                  id="uk_kardtrust_4"
+                  id="us_budgetbeepro_2"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

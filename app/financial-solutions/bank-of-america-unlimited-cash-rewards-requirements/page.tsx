@@ -31,10 +31,9 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
               Requirements for the Bank of America® Unlimited Cash Rewards
               Credit Card
             </h1>
-
             <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
             </div>

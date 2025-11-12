@@ -142,6 +142,12 @@ export default function CreditCardRecommenderTemplate({
             <h1 className={HERO_TITLE_CLASSES}>
               Discover Your Ideal Credit Card
             </h1>
+
+            <div
+              id="us_budgetbeepro_1"
+              className="my-6 flex w-full items-center justify-center"
+            />
+
             <p className={cn(HERO_PARAGRAPH_CLASSES, "mb-6 text-gray-800")}>
               Finding the right card is simple. Maximize rewards, organize your
               spending, and enjoy exclusive benefits. Explore and choose the
@@ -154,11 +160,6 @@ export default function CreditCardRecommenderTemplate({
                 <PillButton key={`${offer.href}-${offer.label}`} {...offer} />
               ))}
             </div>
-
-            <div
-              id="kardtrust_ad_1"
-              className="my-6 flex w-full items-center justify-center"
-            />
 
             <h2 className={cn(SECTION_HEADING_CLASSES, "mb-6")}>
               Why Choose Our Credit Card Recommender?

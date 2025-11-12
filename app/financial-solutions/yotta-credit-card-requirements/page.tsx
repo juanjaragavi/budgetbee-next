@@ -35,6 +35,13 @@ export default function YottaCreditCardRequirementsPage() {
               <h1 className="text-3xl md:text-4xl font-bold mb-4">
                 Yotta Credit Card Requirements & Application Process
               </h1>
+              <div
+                id="us_budgetbeepro_1"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
               <p className="text-lg text-purple-100">
                 Everything you need to know about qualifying for Yotta's
                 gamified credit card with Lucky Swipe rewards. Available in 42

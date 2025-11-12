@@ -87,7 +87,7 @@ This page showcases the product's features and benefits with the following struc
    - Article section with container and max-width wrapper
    - H1 title (product name with value proposition)
    - Opening paragraph (product overview)
-   - Ad container div (`id="kardtrust_ad_1"`)
+   - Ad container div (`id="us_budgetbeepro_1"`)
    - Horizontal rule separator
    - Key features list (4 bullet points with brand-colored icons)
    - "View Requirements" CTA button (links to requirements page)
@@ -113,7 +113,7 @@ This page details eligibility criteria and application process:
 
 3. **Main Component Structure**
    - H1: "Requirements for the {Product Name}"
-   - Ad container div (`id="kardtrust_ad_1"`)
+   - Ad container div (`id="us_budgetbeepro_1"`)
    - Opening paragraph
    - Hero image
    - Section: "How to Qualify" with bullet points
@@ -137,7 +137,7 @@ This page details eligibility criteria and application process:
 - Add at least 2-3 internal links to existing pages on <https://budgetbeepro.com>
 - Internal links should point to related products, blog articles, or comparison pages
 - Use the brand's hex color code for buttons and accent elements
-- Include two ad container divs with IDs: `kardtrust_ad_1` and `kardtrust_ad_2`
+- Include two ad container divs with IDs: `us_budgetbeepro_1` and `kardtrust_ad_2`
 - Language must be clear, persuasive, and compliance-aware
 - Include all mandatory US regulatory disclosures
 - Include clear CTAs with brand-colored buttons
@@ -301,7 +301,7 @@ Examine these existing pages to understand exact structure, component usage, and
 
 - **Component architecture**: Use correct import paths for UI, layout, and utility components
 - **Brand customization**: Apply brand-specific hex colors for buttons and UI elements
-- **Ad integration**: Include ad container divs with correct IDs (`kardtrust_ad_1`, `kardtrust_ad_2`)
+- **Ad integration**: Include ad container divs with correct IDs (`us_budgetbeepro_1`, `kardtrust_ad_2`)
 - **Image optimization**: Implement Next.js Image or ResponsiveImage components with proper attributes
 - **Internal linking**: Add 2-3 Next.js Link components to relevant existing pages
 - **Cross-page navigation**: Create proper links between benefits and requirements pages
@@ -450,7 +450,7 @@ When you receive a user request with product details including the **Official Pr
 - Check metadata structure and SEO elements
 - Ensure proper Tailwind CSS classes matching templates
 - Validate brand color usage in buttons
-- Confirm ad container div IDs: `kardtrust_ad_1` and `kardtrust_ad_2`
+- Confirm ad container div IDs: `us_budgetbeepro_1` and `kardtrust_ad_2`
 - Verify AIContentDisclaimer, Header, and CompactFooter components included
 - Ensure no WordPress blocks or explanatory text—pure Next.js code only
 
@@ -665,7 +665,7 @@ export default function ProductNameRequirementsPage() {
 - Complete JSX structure with all closing tags
 - Proper Tailwind CSS classes matching existing pages
 - Brand color in hex format for buttons (e.g., `bg-[#00395D]`)
-- Ad container divs with IDs: `kardtrust_ad_1` and `kardtrust_ad_2`
+- Ad container divs with IDs: `us_budgetbeepro_1` and `kardtrust_ad_2`
 - AIContentDisclaimer at the end of article content
 - No WordPress blocks, no explanatory text, just pure Next.js code
 

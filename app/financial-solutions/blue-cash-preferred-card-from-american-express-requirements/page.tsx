@@ -28,10 +28,9 @@ export default function BlueCashPreferredRequirementsPage() {
               Requirements for the Blue Cash Preferred® Card from American
               Express
             </h1>
-
             <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
             </div>

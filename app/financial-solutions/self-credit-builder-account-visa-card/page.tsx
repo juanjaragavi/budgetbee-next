@@ -28,6 +28,12 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
               Self Credit Builder Account + Visa Card: Build Credit with One
               Ecosystem
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <p className="text-lg text-gray-800 font-medium mb-8 leading-6 text-left">
               Self Financial combines an installment-style Credit Builder
@@ -38,13 +44,6 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
               open the Credit Builder Account, and provides transparent pricing
               on both the loan and the card.
             </p>
-
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Reserved for on-page advertising */}
-            </div>
 
             <hr className="my-8" />
 

@@ -27,10 +27,9 @@ export default function TiltCardRequirementsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Requirements for the Tilt Card
             </h1>
-
             <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
             </div>

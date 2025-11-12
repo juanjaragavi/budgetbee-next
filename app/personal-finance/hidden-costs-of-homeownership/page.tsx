@@ -30,10 +30,8 @@ export default function HiddenCostsHomeownershipPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               The Hidden Costs of Homeownership That No One Talks About
             </h1>
-
-            {/* Placeholder for Ad Unit */}
             <div
-              id="kardtrust_ad_1"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

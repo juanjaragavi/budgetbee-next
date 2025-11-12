@@ -243,7 +243,7 @@ export default function ${componentName}() {
 
             <div className="my-8 text-left sm:text-left">
               <div
-                id="kardtrust_ad_1"
+                id="us_budgetbeepro_1"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

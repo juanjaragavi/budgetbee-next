@@ -4,7 +4,7 @@
 
 ### Critical Fixes
 
-1. **Ad Container IDs** - Now consistent everywhere: `kardtrust_ad_1` and `kardtrust_ad_2`
+1. **Ad Container IDs** - Now consistent everywhere: `us_budgetbeepro_1` and `kardtrust_ad_2`
 2. **Date Format** - Standardized to US format: `Month DD, YYYY` (e.g., "October 24, 2025")
 3. **Regulatory Names** - Expanded for clarity: "Consumer Financial Protection Bureau" instead of just "CFPB"
 
@@ -25,14 +25,14 @@
 **Before** (Inconsistent):
 
 ```typescript
-// In code: kardtrust_ad_1, kardtrust_ad_2
+// In code: us_budgetbeepro_1, kardtrust_ad_2
 // In docs: us_kardtrust_3, us_kardtrust_4  ❌
 ```
 
 **After** (Consistent):
 
 ```typescript
-// Everywhere: kardtrust_ad_1, kardtrust_ad_2  ✅
+// Everywhere: us_budgetbeepro_1, kardtrust_ad_2  ✅
 ```
 
 ### Date Format
@@ -85,7 +85,7 @@ date: "Month DD, YYYY"; // e.g., "October 24, 2025"  ✅
 ### Generate a Test Blog Post
 
 1. Use the updated `lib/TOFU_BLOG_POST_GENERATION.instructions.md`
-2. Verify ad containers use `kardtrust_ad_1` and `kardtrust_ad_2`
+2. Verify ad containers use `us_budgetbeepro_1` and `kardtrust_ad_2`
 3. Check date format is `Month DD, YYYY`
 4. Confirm image URLs include `/kardtrust/` subfolder
 

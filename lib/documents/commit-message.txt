@@ -1,4 +1,10 @@
-chore: refresh recommender hero imagery
+feat: migrate ad container IDs from kardtrust to us_budgetbeepro
 
-- switch all credit card recommender pages to the new budgetbee banner asset
-- include formatter-driven trailing comma updates in the shared template
+- update all ad container IDs across the entire codebase from 'kardtrust_ad_1' to 'us_budgetbeepro_1'
+- standardize ad unit naming for BudgetBee US market implementation
+- update GAM (Google Ad Manager) network code references
+- modify financial solutions pages (60+ files) with new ad container IDs
+- update personal finance blog articles with new ad placement IDs
+- update all instruction files and documentation for consistency
+- ensure all ad placement divs use the correct 'us_budgetbeepro_1' identifier
+- maintain spacing and CSS classes for ad containers

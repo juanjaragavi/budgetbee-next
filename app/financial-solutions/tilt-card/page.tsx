@@ -27,6 +27,12 @@ export default function TiltCardPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
               Tilt Card: Revolutionary Credit Building with Cash Back Rewards
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -38,13 +44,6 @@ export default function TiltCardPage() {
                 out of 3 customers increase their limits within the first 6
                 months.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <hr className="my-8" />
 

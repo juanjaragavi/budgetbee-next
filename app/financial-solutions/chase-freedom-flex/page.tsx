@@ -31,6 +31,12 @@ export default function ChaseFreedomFlexPage() {
               Chase Freedom Flex℠: Maximize Your Cash Back Rewards with Rotating
               Categories and No Annual Fee
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -48,13 +54,6 @@ export default function ChaseFreedomFlexPage() {
                 purchases and balance transfers, making it an ideal choice for
                 both rewards maximizers and those seeking financial flexibility.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <hr className="my-8" />
 

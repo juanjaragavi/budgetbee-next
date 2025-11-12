@@ -464,6 +464,12 @@ export default function FinancialSolutionsPage() {
       <h1 className="text-4xl font-bold mb-6 text-left sm:text-left">
         Financial Solutions
       </h1>
+      <div
+        id="us_budgetbeepro_1"
+        className="items-center justify-center flex w-full my-8"
+      >
+        {/* Empty responsive, centered div */}
+      </div>
 
       <p className="text-lg text-gray-700 mb-8 leading-tight text-left sm:text-left">
         Find detailed information about top United States credit cards, the

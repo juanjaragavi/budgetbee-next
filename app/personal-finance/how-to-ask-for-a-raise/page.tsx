@@ -19,9 +19,8 @@ export default function HowToAskForRaisePage() {
               How to Confidently Ask for a Raise (with Scripts and a Preparation
               Guide)
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_kardtrust_3"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

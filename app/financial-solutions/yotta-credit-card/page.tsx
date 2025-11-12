@@ -42,6 +42,13 @@ export default function YottaCreditCardPage() {
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
                   Yotta Credit Card: Every Purchase is a Winning Opportunity
                 </h1>
+                <div
+                  id="us_budgetbeepro_1"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <p className="text-lg md:text-xl text-purple-100 mb-6">
                   Transform ordinary spending into extraordinary wins. With
                   Lucky Swipe technology, every transaction gives you a chance

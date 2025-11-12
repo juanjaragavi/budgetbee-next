@@ -30,6 +30,12 @@ export default function ChaseSapphireReservePage() {
               Chase Sapphire Reserve®: Experience Premium Travel Rewards and
               Unparalleled Luxury Benefits
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -45,13 +51,6 @@ export default function ChaseSapphireReservePage() {
                 delivers extraordinary value for frequent travelers and dining
                 enthusiasts who maximize its premium benefits.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <hr className="my-8" />
 

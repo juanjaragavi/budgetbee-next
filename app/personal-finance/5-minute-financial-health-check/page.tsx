@@ -30,12 +30,11 @@ export default function FinancialHealthCheckPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               The 5-Minute Financial Health Check: Where Does Your Money Go?
             </h1>
-
             <div
-              id="kardtrust_ad_1"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
             >
-              {/* Ad placeholder */}
+              {/* Empty responsive, centered div */}
             </div>
 
             <div className="my-8 text-left sm:text-left">

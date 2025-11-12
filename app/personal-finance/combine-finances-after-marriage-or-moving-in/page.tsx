@@ -1,7 +1,6 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function CombineFinancesAfterMarriagePage() {
@@ -19,38 +18,14 @@ export default function CombineFinancesAfterMarriagePage() {
               Yours, Mine, or Ours? How to Strategically Combine Finances After
               Marriage (or Moving In)
             </h1>
-
-            {/* Ad unit placeholder (centered and responsive) */}
             <div
-              id="uk_kardtrust_3"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
-            />
-
-            <p className="text-left text-lg text-gray-800 mb-6 leading-7">
-              Thinking about merging money with a partner? Whether you’ve just
-              tied the knot or moved in together, combining finances is more
-              than opening a joint account — it’s about building a system that
-              fits your life, values, and goals. This UK‑focused guide walks you
-              through practical options, common pitfalls, and an easy
-              step‑by‑step plan so you can keep your personal finance on track
-              without losing your independence.
-            </p>
-
-            <div className="my-8">
-              <Image
-                src="https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp"
-                alt="Couple combining finances with a simple joint system in the US"
-                width={800}
-                height={450}
-                className="w-full h-auto rounded-xl"
-                style={{ width: "auto", height: "auto" }}
-                priority={false}
-                fetchPriority="high"
-                quality={85}
-                loading="eager"
-              />
+            >
+              {/* Empty responsive, centered div */}
             </div>
 
+            {/* Ad unit placeholder (centered and responsive) */}
             <section className="my-6">
               <h2 className="text-xl font-bold text-gray-800 mb-3">
                 What does “combining finances” actually mean?
@@ -233,7 +208,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             {/* Mid-article ad placeholder */}
             <div
-              id="uk_kardtrust_4"
+              id="us_budgetbeepro_2"
               className="items-center justify-center flex w-full my-8"
             />
 

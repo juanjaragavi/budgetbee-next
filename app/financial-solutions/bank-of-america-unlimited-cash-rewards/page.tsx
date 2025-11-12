@@ -31,6 +31,12 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
               Bank of America® Unlimited Cash Rewards: Simple, Unlimited Cash
               Back on Every Purchase
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -48,13 +54,6 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
                 turning that 1.5% into up to 2.625% cash back on every
                 purchase—all with no annual fee.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <hr className="my-8" />
 

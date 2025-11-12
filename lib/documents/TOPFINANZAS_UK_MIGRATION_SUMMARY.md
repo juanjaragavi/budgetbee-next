@@ -19,7 +19,7 @@ The BudgetBee project has been successfully updated with the latest improvements
 #### Key Improvements Applied:
 
 - **Enhanced Markdown Structure**: Added proper code fence markers and improved markdown lint directives
-- **Fixed Ad Container ID Inconsistency**: Corrected conflicting references from `us_kardtrust_3/4` to consistent `kardtrust_ad_1/2`
+- **Fixed Ad Container ID Inconsistency**: Corrected conflicting references from `us_kardtrust_3/4` to consistent `us_budgetbeepro_1/2`
 - **Date Format Standardization**: Changed from inconsistent `MM/DD/YYYY` to clear US format `Month DD, YYYY` (e.g., "October 23, 2025")
 - **Expanded Regulatory References**: Changed abbreviated "CFPB, FTC" to full names "Consumer Financial Protection Bureau, Federal Trade Commission" for clarity
 - **Improved Section Structure**: Better organized Task, Resources, Capabilities, Limitations, and Workflow sections
@@ -31,7 +31,7 @@ The BudgetBee project has been successfully updated with the latest improvements
 
 1. **Ad Container Consistency**:
    - **Before**: Step 7 mentioned `us_kardtrust_3` and `us_kardtrust_4`
-   - **After**: Now correctly references `kardtrust_ad_1` and `kardtrust_ad_2`
+   - **After**: Now correctly references `us_budgetbeepro_1` and `kardtrust_ad_2`
    - **Impact**: Prevents confusion and ensures ads load correctly
 
 2. **Date Format Clarity**:
@@ -160,7 +160,7 @@ cp .github/instructions/BLOG_POST_INTEGRATION.instructions.md.backup .github/ins
 
 | File              | Issue Fixed        | Old Value          | New Value              | Impact                            |
 | ----------------- | ------------------ | ------------------ | ---------------------- | --------------------------------- |
-| TOFU Instructions | Ad Container IDs   | `us_kardtrust_3/4` | `kardtrust_ad_1/2`     | High - Prevents ad loading errors |
+| TOFU Instructions | Ad Container IDs   | `us_kardtrust_3/4` | `us_budgetbeepro_1/2`     | High - Prevents ad loading errors |
 | TOFU Instructions | Date Format        | `MM/DD/YYYY`       | `Month DD, YYYY`       | Medium - Improves clarity         |
 | TOFU Instructions | Regulatory Names   | `CFPB, FTC`        | Full names             | Low - Better SEO/clarity          |
 | Blog Integration  | Date Format        | Mixed formats      | `Month DD, YYYY`       | Medium - Consistency              |
@@ -227,7 +227,7 @@ The migration maintains backward compatibility while incorporating proven improv
 
 This file was already correct with:
 
-- Proper ad container IDs (`kardtrust_ad_1`, `kardtrust_ad_2`)
+- Proper ad container IDs (`us_budgetbeepro_1`, `kardtrust_ad_2`)
 - US market adaptations
 - Local CSV path
 - American English and US regulatory references

@@ -31,6 +31,12 @@ export default function RobinhoodGoldCardRequirementsPage() {
               Robinhood Gold Card Requirements: Complete Eligibility &
               Application Guide
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -42,13 +48,6 @@ export default function RobinhoodGoldCardRequirementsPage() {
                 need to know about qualifying for and applying for the Robinhood
                 Gold Card.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <hr className="my-8" />
 

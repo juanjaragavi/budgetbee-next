@@ -25,14 +25,14 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
               Amazon Rewards Visa Credit Card Requirements
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
               <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Enjoy cash back on everyday purchases and save with no annual

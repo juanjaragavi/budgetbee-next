@@ -51,7 +51,7 @@ Successfully migrated 32 financial service articles from the BudgetBee (Astro.js
 
 #### Added Elements
 
-- Ad placement divs (`kardtrust_ad_1`, `kardtrust_ad_2`)
+- Ad placement divs (`us_budgetbeepro_1`, `kardtrust_ad_2`)
 - BudgetBee UI components (Header, CompactFooter, AIContentDisclaimer)
 - Proper Next.js metadata generation
 - TypeScript type safety

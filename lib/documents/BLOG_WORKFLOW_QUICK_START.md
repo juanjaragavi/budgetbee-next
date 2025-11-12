@@ -49,7 +49,7 @@
 | **Language**   | British English                    | American English               |
 | **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov         |
 | **Currency**   | GBP (£)                            | USD ($)                        |
-| **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | kardtrust_ad_1, kardtrust_ad_2 |
+| **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | us_budgetbeepro_1, kardtrust_ad_2 |
 | **CSV File**   | topfinanzas-us-topic-outline.csv   | kardtrust-topic-outline.csv    |
 
 ## 📊 Content Specifications
@@ -58,7 +58,7 @@
 
 - **Length**: 800-1,000 words
 - **Internal Links**: Minimum 3
-- **Ad Placements**: 2 (kardtrust_ad_1, kardtrust_ad_2)
+- **Ad Placements**: 2 (us_budgetbeepro_1, kardtrust_ad_2)
 - **Components**: Header, CompactFooter, AIContentDisclaimer
 
 ### Product Pages
@@ -128,7 +128,7 @@ All generated content must:
 
 ## 🎨 Brand Standards
 
-- **Primary Ad ID**: kardtrust_ad_1 (after H1)
+- **Primary Ad ID**: us_budgetbeepro_1 (after H1)
 - **Secondary Ad ID**: kardtrust_ad_2 (near end of article)
 - **CTA Button Class**: `cta-button-blue`
 - **Currency Format**: USD ($)

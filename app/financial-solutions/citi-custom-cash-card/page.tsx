@@ -31,6 +31,12 @@ export default function CitiCustomCashCardPage() {
               Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to
               Your Spending
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
               The Citi Custom Cash® Card represents a revolutionary approach to
@@ -50,13 +56,6 @@ export default function CitiCustomCashCardPage() {
               cardholders who want premium rewards without the complexity of
               traditional rotating category cards.
             </p>
-
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
 
             <div className="my-8 space-y-4">
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

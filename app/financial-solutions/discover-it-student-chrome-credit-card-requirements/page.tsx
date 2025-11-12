@@ -28,14 +28,14 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               Discover it Student Chrome Credit Card Requirements: Your
               Eligibility Guide
             </h1>
+            <div
+              id="us_budgetbeepro_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
               <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 If you’re considering applying for the Discover it Student

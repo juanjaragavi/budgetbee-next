@@ -31,12 +31,11 @@ export default function FinancialUncouplingPage() {
               Financial Uncoupling: A Compassionate Guide to Separating Finances
               During a Breakup
             </h1>
-
             <div
-              id="kardtrust_ad_1"
+              id="us_budgetbeepro_1"
               className="items-center justify-center flex w-full my-8"
             >
-              {/* Ad placeholder */}
+              {/* Empty responsive, centered div */}
             </div>
 
             <div className="my-8 text-left sm:text-left">
