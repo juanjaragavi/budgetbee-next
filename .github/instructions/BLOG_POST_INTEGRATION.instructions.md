@@ -6,17 +6,27 @@ applyTo: "**/*"
 
 ## Overview
 
-When creating new blog articles, they must be added to multiple locations across the site to ensure proper visibility and discoverability. This document outlines all the places where blog posts are displayed and need to be updated.
+When creating new blog articles, they must be added to multiple locations across
+the site to ensure proper visibility and discoverability. This document outlines
+all the places where blog posts are displayed and need to be updated.
 
 ## Blog Listing Synchronization (MANDATORY)
 
-- Every time you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories, you must update each `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Do not complete the CRUD task until every listing array reflects the new metadata, ordering, and links so the static views stay synchronized with the underlying content
+- Every time you create, update, or delete a blog post in the Personal Finance
+  or Financial Solutions categories, you must update each `allPosts` array
+  defined in the listing `page.tsx` files (for example `app/blog/page.tsx`,
+  `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Do not complete the CRUD task until every listing array reflects the new
+  metadata, ordering, and links so the static views stay synchronized with the
+  underlying content
 
 ## Sitemap Synchronization (MANDATORY)
 
-- Immediately update `app/sitemap.xml` whenever you add, rename, or delete a Personal Finance or Financial Solutions article or product page so search engines only index live content
-- Add new URLs with the current `lastmod`, `changefreq`, and `priority` values that reflect the page type and remove stale entries during the same workflow
+- Immediately update `app/sitemap.xml` whenever you add, rename, or delete a
+  Personal Finance or Financial Solutions article or product page so search
+  engines only index live content
+- Add new URLs with the current `lastmod`, `changefreq`, and `priority` values
+  that reflect the page type and remove stale entries during the same workflow
 
 ## Required Locations for Blog Post Integration
 
@@ -72,7 +82,8 @@ When creating new blog articles, they must be added to multiple locations across
 
 #### Financial Solutions Category (`app/financial-solutions/page.tsx`)
 
-**Location**: If this page exists, follow similar pattern for Financial Solutions articles
+**Location**: If this page exists, follow similar pattern for Financial
+Solutions articles
 
 ### 3. Homepage Featured Section (`app/page.tsx`)
 
@@ -184,7 +195,8 @@ When creating new blog articles, they must be added to multiple locations across
 
 ### When Creating a New Blog Post:
 
-1. **Create the article file**: `/app/personal-finance/[slug]/page.tsx` or `/app/financial-solutions/[slug]/page.tsx`
+1. **Create the article file**: `/app/personal-finance/[slug]/page.tsx` or
+   `/app/financial-solutions/[slug]/page.tsx`
 
 2. **Update Blog Listing** (`app/blog/page.tsx`):
    - Add entry to `allPosts` array
@@ -192,8 +204,10 @@ When creating new blog articles, they must be added to multiple locations across
    - Ensure slug matches directory name exactly
 
 3. **Update Category Archive** (Required for proper categorization):
-   - **Personal Finance**: Add to `app/personal-finance/page.tsx` `allPosts` array
-   - **Financial Solutions**: Add to `app/financial-solutions/page.tsx` if exists
+   - **Personal Finance**: Add to `app/personal-finance/page.tsx` `allPosts`
+     array
+   - **Financial Solutions**: Add to `app/financial-solutions/page.tsx` if
+     exists
    - Choose appropriate category filter for filtering functionality
 
 4. **Consider Homepage Feature** (`app/page.tsx`):
@@ -234,7 +248,8 @@ Before publishing, verify:
 
 - [ ] Article file created in correct category directory
 - [ ] Added to blog listing with correct date
-- [ ] Added to appropriate category archive page (Personal Finance/Financial Solutions)
+- [ ] Added to appropriate category archive page (Personal Finance/Financial
+      Solutions)
 - [ ] All URLs and slugs are consistent
 - [ ] Images load correctly with proper fallbacks
 - [ ] Article appears in blog filters correctly
@@ -250,9 +265,11 @@ Before publishing, verify:
 ### Regular Updates Needed:
 
 1. **Monthly**: Review and update featured posts in header navigation
-2. **Bi-weekly**: Update homepage featured article if new high-quality content available
+2. **Bi-weekly**: Update homepage featured article if new high-quality content
+   available
 3. **Weekly**: Ensure blog sidebar shows most recent 4-5 articles
-4. **As needed**: Update category navigation for consistently high-performing articles
+4. **As needed**: Update category navigation for consistently high-performing
+   articles
 
 ### Performance Considerations:
 
@@ -273,4 +290,5 @@ Before publishing, verify:
 4. 🔄 Add to sidebar recent articles
 5. 🔄 Consider for header featured posts
 
-This systematic approach ensures new content is properly integrated across all site sections for maximum visibility and user engagement.
+This systematic approach ensures new content is properly integrated across all
+site sections for maximum visibility and user engagement.

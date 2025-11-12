@@ -2,7 +2,10 @@
 
 ## Project Overview
 
-This Next.js project (budgetbee) is a United States-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the United States market.
+This Next.js project (budgetbee) is a United States-focused financial comparison
+website built with modern web technologies. The project specializes in credit
+cards, personal loans, and financial guidance tailored for the United States
+market.
 
 ## System Architecture
 
@@ -29,27 +32,15 @@ This Next.js project (budgetbee) is a United States-focused financial comparison
 ### Directory Organization
 
 ```markdown
-├── app/ # Next.js App Router pages
-│ ├── (routes)/ # Route groups
-│ ├── api/ # API routes
-│ ├── globals.css # Global styles
-│ └── layout.tsx # Root layout
-├── components/ # React components
-│ ├── analytics/ # Analytics components
-│ ├── forms/ # Form components
-│ ├── layout/ # Layout components
-│ ├── mdx/ # MDX components
-│ ├── providers/ # Context providers
-│ ├── steps/ # Multi-step components
-│ └── ui/ # Shadcn/UI components
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions
-│ ├── contexts/ # React contexts
-│ ├── data/ # Data utilities
-│ ├── navigation/ # Navigation utilities
-│ └── utils/ # Helper functions
-├── public/ # Static assets
-└── content/ # MDX content
+├── app/ # Next.js App Router pages │ ├── (routes)/ # Route groups │ ├── api/ #
+API routes │ ├── globals.css # Global styles │ └── layout.tsx # Root layout ├──
+components/ # React components │ ├── analytics/ # Analytics components │ ├──
+forms/ # Form components │ ├── layout/ # Layout components │ ├── mdx/ # MDX
+components │ ├── providers/ # Context providers │ ├── steps/ # Multi-step
+components │ └── ui/ # Shadcn/UI components ├── hooks/ # Custom React hooks ├──
+lib/ # Utility functions │ ├── contexts/ # React contexts │ ├── data/ # Data
+utilities │ ├── navigation/ # Navigation utilities │ └── utils/ # Helper
+functions ├── public/ # Static assets └── content/ # MDX content
 ```
 
 ## Development Rules
@@ -261,9 +252,14 @@ import { CustomComponent } from "./custom-component";
 
 ### 3. Blog Listing Synchronization (MANDATORY)
 
-- **Scope**: Applies to every create, update, or delete operation performed on blog posts in the Personal Finance or Financial Solutions categories
-- **Requirement**: Immediately propagate the change to every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`) so static listings stay in sync with the source content
-- **Verification**: Do not finish the CRUD task until all impacted arrays reflect the new article order, metadata, and hyperlink paths
+- **Scope**: Applies to every create, update, or delete operation performed on
+  blog posts in the Personal Finance or Financial Solutions categories
+- **Requirement**: Immediately propagate the change to every `allPosts` array
+  defined in the listing `page.tsx` files (for example `app/blog/page.tsx`,
+  `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`) so static
+  listings stay in sync with the source content
+- **Verification**: Do not finish the CRUD task until all impacted arrays
+  reflect the new article order, metadata, and hyperlink paths
 
 ## Git Workflow
 
@@ -333,21 +329,25 @@ import { CustomComponent } from "./custom-component";
 - Target United States user behavior
 - Optimize for United States search engines
 
-This configuration ensures the Next.js project maintains high code quality, performance, and compliance with United States market requirements while providing an excellent user experience for United States financial service seekers.
+This configuration ensures the Next.js project maintains high code quality,
+performance, and compliance with United States market requirements while
+providing an excellent user experience for United States financial service
+seekers.
 
 ## Push and Commit Guidelines
 
 ### Trigger
 
-This procedure is initiated when the user issues the prompt "Push and commit our latest changes." following a successful development cycle.
+This procedure is initiated when the user issues the prompt "Push and commit our
+latest changes." following a successful development cycle.
 
 #### Steps
 
-1. **Initialize Commit Message File**:
-   Clear the contents of the @/lib/documents/commit-message.txt file.
+1. **Initialize Commit Message File**: Clear the contents of the
+   @/lib/documents/commit-message.txt file.
 
-2. **Verify Codebase Status**:
-   Query the current status of the codebase using your `git_status` MCP server with the following request body:
+2. **Verify Codebase Status**: Query the current status of the codebase using
+   your `git_status` MCP server with the following request body:
 
    ```json
    {
@@ -355,11 +355,11 @@ This procedure is initiated when the user issues the prompt "Push and commit our
    }
    ```
 
-3. **Formulate Commit Message**:
-   Populate the @/lib/documents/commit-message.txt file with a message that accurately describes the latest modifications.
+3. **Formulate Commit Message**: Populate the @/lib/documents/commit-message.txt
+   file with a message that accurately describes the latest modifications.
 
-4. **Execute Workflow Script**:
-   Run the `git workflow` automation script using the command:
+4. **Execute Workflow Script**: Run the `git workflow` automation script using
+   the command:
 
    ```bash
    bash ./scripts/git-workflow.sh

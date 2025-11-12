@@ -2,18 +2,22 @@
 
 ## Issue
 
-The overlay was appearing over blog posts, creating an unsolicited blur effect that blocked page content. This was interfering with user experience on article pages.
+The overlay was appearing over blog posts, creating an unsolicited blur effect
+that blocked page content. This was interfering with user experience on article
+pages.
 
 ## Requirement
 
-**Only AdZep's ad units** (activated by `window.AdZepActivateAds()`) should add any visual elements to the page. No custom overlay should appear.
+**Only AdZep's ad units** (activated by `window.AdZepActivateAds()`) should add
+any visual elements to the page. No custom overlay should appear.
 
 ## Solution Implemented
 
 ### 1. Overlay Utility Complete Removal (`lib/ads/overlay.ts`)
 
 - Removed all overlay creation logic
-- All functions (`ensureOverlay`, `showOverlay`, `hideOverlay`, `destroyOverlay`) are now complete no-ops
+- All functions (`ensureOverlay`, `showOverlay`, `hideOverlay`,
+  `destroyOverlay`) are now complete no-ops
 - Functions return immediately without any DOM manipulation
 - No overlay element is ever created or displayed
 
@@ -28,7 +32,8 @@ The overlay was appearing over blog posts, creating an unsolicited blur effect t
 
 ### 3. CSS Force-Hide Rules (`app/globals.css`)
 
-Added comprehensive CSS rules to force-hide any overlay elements that might be created:
+Added comprehensive CSS rules to force-hide any overlay elements that might be
+created:
 
 ```css
 #adzep-article-overlay,
@@ -95,9 +100,12 @@ Added comprehensive CSS rules to force-hide any overlay elements that might be c
 
 ## Result
 
-**No custom overlay elements are created or displayed anywhere in the application.** Only AdZep's own ad units, activated by `window.AdZepActivateAds()`, can add visual elements to the page.
+**No custom overlay elements are created or displayed anywhere in the
+application.** Only AdZep's own ad units, activated by
+`window.AdZepActivateAds()`, can add visual elements to the page.
 
-The blur effect blocking blog content has been completely eliminated while maintaining full AdZep activation functionality.
+The blur effect blocking blog content has been completely eliminated while
+maintaining full AdZep activation functionality.
 
 ## Date
 

@@ -2,7 +2,8 @@
 
 ## BudgetBee - Systematic Rollout Instructions
 
-This guide provides step-by-step instructions for implementing the SEO improvements across all pages.
+This guide provides step-by-step instructions for implementing the SEO
+improvements across all pages.
 
 ---
 
@@ -385,16 +386,19 @@ Recommend: 2-3 developers working in parallel over 3-5 days
 - **SEO Utilities:** `/lib/utils/seo.ts`
 - **Structured Data Components:** `/components/seo/`
 - **Sample Article:** `/app/personal-finance/side-hustle-or-second-job/page.tsx`
-- **Sample Product:** `/app/financial-solutions/blue-cash-preferred-card-from-american-express/page.tsx`
+- **Sample Product:**
+  `/app/financial-solutions/blue-cash-preferred-card-from-american-express/page.tsx`
 - **Full Audit Report:** `/docs/SEO_AUDIT_REPORT.md`
 
 ---
 
 ## 💡 Tips
 
-1. **Use Find & Replace:** VSCode's multi-cursor and find/replace features can speed up repetitive updates
+1. **Use Find & Replace:** VSCode's multi-cursor and find/replace features can
+   speed up repetitive updates
 2. **Copy & Adapt:** Use the sample pages as templates and adapt the metadata
-3. **Validate as You Go:** Test structured data immediately after updating each page
+3. **Validate as You Go:** Test structured data immediately after updating each
+   page
 4. **Commit Often:** Make small, frequent commits for easy rollback if needed
 5. **Track Progress:** Use the checklist spreadsheet to avoid missing pages
 

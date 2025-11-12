@@ -2,7 +2,8 @@
 
 ## Summary
 
-Fixed deprecated dependency warnings in Vercel build by removing old `sendgrid@5.2.3` package.
+Fixed deprecated dependency warnings in Vercel build by removing old
+`sendgrid@5.2.3` package.
 
 ## ✅ What Was Done
 
@@ -66,11 +67,13 @@ After pushing, check the Vercel build logs. You should see:
 
 ### Q: Will this break my SendGrid emails?
 
-**A:** No! The code already uses `@sendgrid/mail` (the modern package). We only removed the unused deprecated package.
+**A:** No! The code already uses `@sendgrid/mail` (the modern package). We only
+removed the unused deprecated package.
 
 ### Q: Why were both packages installed?
 
-**A:** Likely from an old migration or accidental installation. The old package wasn't being used.
+**A:** Likely from an old migration or accidental installation. The old package
+wasn't being used.
 
 ### Q: Do I need to change any code?
 

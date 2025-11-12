@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This Next.js project (budgetbee) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
+This Next.js project (budgetbee) is a US-focused financial comparison website
+built with modern web technologies. The project specializes in credit cards,
+personal loans, and financial guidance tailored for the US market.
 
 ## System Architecture
 
@@ -29,27 +31,15 @@ This Next.js project (budgetbee) is a US-focused financial comparison website bu
 ### Directory Organization
 
 ```markdown
-├── app/ # Next.js App Router pages
-│ ├── (routes)/ # Route groups
-│ ├── api/ # API routes
-│ ├── globals.css # Global styles
-│ └── layout.tsx # Root layout
-├── components/ # React components
-│ ├── analytics/ # Analytics components
-│ ├── forms/ # Form components
-│ ├── layout/ # Layout components
-│ ├── mdx/ # MDX components
-│ ├── providers/ # Context providers
-│ ├── steps/ # Multi-step components
-│ └── ui/ # Shadcn/UI components
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions
-│ ├── contexts/ # React contexts
-│ ├── data/ # Data utilities
-│ ├── navigation/ # Navigation utilities
-│ └── utils/ # Helper functions
-├── public/ # Static assets
-└── content/ # MDX content
+├── app/ # Next.js App Router pages │ ├── (routes)/ # Route groups │ ├── api/ #
+API routes │ ├── globals.css # Global styles │ └── layout.tsx # Root layout ├──
+components/ # React components │ ├── analytics/ # Analytics components │ ├──
+forms/ # Form components │ ├── layout/ # Layout components │ ├── mdx/ # MDX
+components │ ├── providers/ # Context providers │ ├── steps/ # Multi-step
+components │ └── ui/ # Shadcn/UI components ├── hooks/ # Custom React hooks ├──
+lib/ # Utility functions │ ├── contexts/ # React contexts │ ├── data/ # Data
+utilities │ ├── navigation/ # Navigation utilities │ └── utils/ # Helper
+functions ├── public/ # Static assets └── content/ # MDX content
 ```
 
 ## Development Rules
@@ -261,17 +251,30 @@ import { CustomComponent } from "./custom-component";
 
 ### 3. Blog Listing Synchronization (MANDATORY)
 
-- After any create, update, or delete operation on blog posts within the Personal Finance or Financial Solutions categories, update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Ensure titles, slugs, descriptions, categories, images, and ordering remain synchronized across those arrays before closing out the CRUD task
+- After any create, update, or delete operation on blog posts within the
+  Personal Finance or Financial Solutions categories, update every `allPosts`
+  array defined in the listing `page.tsx` files (for example
+  `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- Ensure titles, slugs, descriptions, categories, images, and ordering remain
+  synchronized across those arrays before closing out the CRUD task
 
 ## Agent Authoring Directive
 
-- Whenever the agent is prompted to generate a new blog post or article for this UK site:
-  - First, review `lib/documents/blog-post-generation-prompt.md` to follow the latest content generation rules and UK localisation requirements.
-  - Also consult `lib/documents/topfinanzas-us-topic-outline.csv` to determine article type (pillar vs cluster), tentative title, content focus, and related cluster/pillar context.
-  - Use the site sitemap at `https://budgetbee.com/sitemap.xml` to avoid duplicating already published content and to build correct internal links.
-  - Produce content in US English conventions (en-US) and ensure internal links point to the `budgetbee.com` domain.
-  - If the funnel stage is TOFU, create the new blog post under `app/personal-finance`, matching the structure and layout used by existing articles in that directory, but write entirely new, original content.
+- Whenever the agent is prompted to generate a new blog post or article for this
+  UK site:
+  - First, review `lib/documents/blog-post-generation-prompt.md` to follow the
+    latest content generation rules and UK localisation requirements.
+  - Also consult `lib/documents/topfinanzas-us-topic-outline.csv` to determine
+    article type (pillar vs cluster), tentative title, content focus, and
+    related cluster/pillar context.
+  - Use the site sitemap at `https://budgetbee.com/sitemap.xml` to avoid
+    duplicating already published content and to build correct internal links.
+  - Produce content in US English conventions (en-US) and ensure internal links
+    point to the `budgetbee.com` domain.
+  - If the funnel stage is TOFU, create the new blog post under
+    `app/personal-finance`, matching the structure and layout used by existing
+    articles in that directory, but write entirely new, original content.
 
 ## Git Workflow
 
@@ -341,4 +344,6 @@ import { CustomComponent } from "./custom-component";
 - Target UK user behavior
 - Optimize for UK search engines
 
-This configuration ensures the Next.js project maintains high code quality, performance, and compliance with US market requirements while providing an excellent user experience for UK financial service seekers.
+This configuration ensures the Next.js project maintains high code quality,
+performance, and compliance with US market requirements while providing an
+excellent user experience for UK financial service seekers.

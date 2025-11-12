@@ -18,6 +18,9 @@
     "start": "next start -p 3007",
     "lint": "next lint",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:md": "prettier --write \"**/*.md\" --ignore-path .prettierignore",
+    "format:md:check": "prettier --check \"**/*.md\" --ignore-path .prettierignore",
     "test:brevo": "node scripts/test-brevo-new-contact.js",
     "test:brevo-direct": "node scripts/test-brevo-direct.js",
     "test:brevo-api": "node scripts/test-brevo-integration.js"

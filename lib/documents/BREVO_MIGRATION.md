@@ -2,7 +2,9 @@
 
 ## Overview
 
-This document outlines the migration from Kit.com to Brevo as the marketing automation provider for the BudgetBee project. The migration maintains all essential data collection while adapting to Brevo's API structure.
+This document outlines the migration from Kit.com to Brevo as the marketing
+automation provider for the BudgetBee project. The migration maintains all
+essential data collection while adapting to Brevo's API structure.
 
 ## What Changed
 
@@ -10,7 +12,8 @@ This document outlines the migration from Kit.com to Brevo as the marketing auto
 
 - **Previous**: Kit.com API integration
 - **Current**: Brevo API integration
-- **Compatibility**: Fully backward compatible - accepts the same request format from the frontend
+- **Compatibility**: Fully backward compatible - accepts the same request format
+  from the frontend
 
 ## Key Features
 
@@ -185,7 +188,8 @@ If a contact with the same email already exists:
 }
 ```
 
-**Behavior**: This is expected and handled gracefully. The frontend continues normally.
+**Behavior**: This is expected and handled gracefully. The frontend continues
+normally.
 
 ### Invalid API Key
 
@@ -212,7 +216,9 @@ If a contact with the same email already exists:
 
 ### No Changes Required
 
-The frontend code in `components/credit-card-form.tsx` requires **NO modifications**. The existing Kit.com payload format is automatically transformed to Brevo format by the API route.
+The frontend code in `components/credit-card-form.tsx` requires **NO
+modifications**. The existing Kit.com payload format is automatically
+transformed to Brevo format by the API route.
 
 ### Submission Flow
 
@@ -233,10 +239,8 @@ Monitor contacts at: <https://app.brevo.com/contact/list/9>
 Success log format:
 
 ```markdown
-[Brevo API] Contact created successfully: {
-email: 'user@example.com',
-ext_id: 'budgetbee-1704628800'
-}
+[Brevo API] Contact created successfully: { email: 'user@example.com', ext_id:
+'budgetbee-1704628800' }
 ```
 
 Error log format:

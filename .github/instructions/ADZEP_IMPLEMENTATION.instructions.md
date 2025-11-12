@@ -6,7 +6,9 @@ applyTo: "**"
 
 ## Overview
 
-The AdZep tag has been successfully integrated into this Next.js project with a comprehensive implementation that handles both script loading and function invocation requirements.
+The AdZep tag has been successfully integrated into this Next.js project with a
+comprehensive implementation that handles both script loading and function
+invocation requirements.
 
 ## Components
 
@@ -31,10 +33,17 @@ Additional tracking components for specific use cases:
 
 ### 4. SPA Bridge and Activation Utilities (New)
 
-- `/components/analytics/adzep-spa-bridge.tsx`: SPA-safe coordination that waits for ad containers, triggers activation with retries after navigation, and manages a lightweight overlay for article pages without covering interstitials.
-- `/lib/ads/activate-adzep.ts`: Singleton activation utility with guarded state (activated, activationInProgress, lastActivation, activationAttempts), `pageHasAdUnits`, `waitForContainers`, and `hasRenderedCreative` helpers.
-- `/lib/ads/overlay.ts`: Minimal overlay utilities `ensureOverlay`, `showOverlay`, `hideOverlay` used on article pages while ad units initialize.
-- `/lib/ads/config.ts`: Central configuration for container selectors, timeouts, and retry counts. Update this to add/remove container selectors as needed.
+- `/components/analytics/adzep-spa-bridge.tsx`: SPA-safe coordination that waits
+  for ad containers, triggers activation with retries after navigation, and
+  manages a lightweight overlay for article pages without covering
+  interstitials.
+- `/lib/ads/activate-adzep.ts`: Singleton activation utility with guarded state
+  (activated, activationInProgress, lastActivation, activationAttempts),
+  `pageHasAdUnits`, `waitForContainers`, and `hasRenderedCreative` helpers.
+- `/lib/ads/overlay.ts`: Minimal overlay utilities `ensureOverlay`,
+  `showOverlay`, `hideOverlay` used on article pages while ad units initialize.
+- `/lib/ads/config.ts`: Central configuration for container selectors, timeouts,
+  and retry counts. Update this to add/remove container selectors as needed.
 
 Components for manual AdZep activation:
 
@@ -80,23 +89,31 @@ The AdZep script is loaded with Next.js optimization:
 
 ### Function Invocation
 
-The `window.AdZepActivateAds()` function is called automatically via the SPA bridge and activation utility with stateful guarding:
+The `window.AdZepActivateAds()` function is called automatically via the SPA
+bridge and activation utility with stateful guarding:
 
 1. **On page load**: When the page initially loads
 2. **On navigation**: When users navigate between pages
-3. **After containers mount**: Post-navigation, after known ad containers are present
-4. **With retries**: If no creatives render, the system re-attempts activation a few times with backoff
+3. **After containers mount**: Post-navigation, after known ad containers are
+   present
+4. **With retries**: If no creatives render, the system re-attempts activation a
+   few times with backoff
 5. **On custom events**: When manually triggered via `useAdZep()`
 
-The SPA bridge uses timeouts from `lib/ads/config.ts` and ensures no duplicate or overlapping calls. If a page has no ad units, it exits quickly without showing the overlay unnecessarily.
+The SPA bridge uses timeouts from `lib/ads/config.ts` and ensures no duplicate
+or overlapping calls. If a page has no ad units, it exits quickly without
+showing the overlay unnecessarily.
 
-Interstitial Coordination: The overlay uses `pointer-events: none` and a z-index lower than typical interstitials to avoid covering them. The overlay auto-hides once activation starts verifying or after a short grace period.
+Interstitial Coordination: The overlay uses `pointer-events: none` and a z-index
+lower than typical interstitials to avoid covering them. The overlay auto-hides
+once activation starts verifying or after a short grace period.
 
 ## Usage Examples
 
 ### Basic Usage (Automatic)
 
-The AdZep system works automatically once integrated into the layout. No additional setup is required for basic functionality.
+The AdZep system works automatically once integrated into the layout. No
+additional setup is required for basic functionality.
 
 ### Enhanced Page Tracking
 
@@ -180,7 +197,8 @@ AdZep integrates with the Next.js navigation system properly:
 - Back/forward navigation is handled via `popstate` events
 - Client-side navigation is properly tracked on every route change
 - Initial page load activation is handled separately
-- All navigation types (internal links, browser navigation, direct URL access) trigger ads
+- All navigation types (internal links, browser navigation, direct URL access)
+  trigger ads
 
 ## Performance Considerations
 
@@ -291,7 +309,14 @@ Consider adding configuration for:
 
 ## Blog Listing Synchronization (MANDATORY)
 
-- Even when work focuses on analytics, any create, update, or delete of Personal Finance or Financial Solutions blog posts must be accompanied by updates to every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Confirm that metadata, ordering, and links stay synchronized across those arrays before you consider the CRUD task complete
+- Even when work focuses on analytics, any create, update, or delete of Personal
+  Finance or Financial Solutions blog posts must be accompanied by updates to
+  every `allPosts` array defined in the listing `page.tsx` files (for example
+  `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- Confirm that metadata, ordering, and links stay synchronized across those
+  arrays before you consider the CRUD task complete
 
-This implementation provides a robust, Next.js-optimized solution for AdZep integration that maintains performance while ensuring reliable ad activation across your site.
+This implementation provides a robust, Next.js-optimized solution for AdZep
+integration that maintains performance while ensuring reliable ad activation
+across your site.

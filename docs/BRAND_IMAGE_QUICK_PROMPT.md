@@ -59,14 +59,17 @@ Create a cohesive branded asset conveying trust, financial growth, and American 
 
 ### Step 1: Select Reference
 
-Choose one of your original template images (woman-with-credit-card, woman-with-tablet, etc.)
+Choose one of your original template images (woman-with-credit-card,
+woman-with-tablet, etc.)
 
 ### Step 2: Customize Prompt
 
 Add specific details about the reference:
 
-- **Outdoor scene:** "Natural daylight, greenery background, outdoor café setting"
-- **Office scene:** "Professional indoor setting, window light, business casual attire"
+- **Outdoor scene:** "Natural daylight, greenery background, outdoor café
+  setting"
+- **Office scene:** "Professional indoor setting, window light, business casual
+  attire"
 - **Urban scene:** "Street environment, shopping context, casual lifestyle"
 
 ### Step 3: Verify Output
@@ -85,19 +88,23 @@ Check that generated image has:
 
 **If arrows are too subtle:**
 
-> "Make the main red arrow larger and more prominent, positioned in the upper-right quadrant"
+> "Make the main red arrow larger and more prominent, positioned in the
+> upper-right quadrant"
 
 **If composition is cluttered:**
 
-> "Reduce the number of vector elements to 2 arrows and 3 stars, increase negative space"
+> "Reduce the number of vector elements to 2 arrows and 3 stars, increase
+> negative space"
 
 **If stars lack impact:**
 
-> "Increase the glow effect on blue stars, make them more luminous and eye-catching"
+> "Increase the glow effect on blue stars, make them more luminous and
+> eye-catching"
 
 **If depth is lacking:**
 
-> "Layer arrows and stars with some behind the subject and others in front, create more dimensional depth"
+> "Layer arrows and stars with some behind the subject and others in front,
+> create more dimensional depth"
 
 ---
 

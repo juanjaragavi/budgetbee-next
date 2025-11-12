@@ -6,7 +6,9 @@ applyTo: "**"
 
 ## Project Overview
 
-This Next.js project (budgetbee) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
+This Next.js project (budgetbee) is a US-focused financial comparison website
+built with modern web technologies. The project specializes in credit cards,
+personal loans, and financial guidance tailored for the US market.
 
 ## System Architecture
 
@@ -33,27 +35,15 @@ This Next.js project (budgetbee) is a US-focused financial comparison website bu
 ### Directory Organization
 
 ```markdown
-├── app/ # Next.js App Router pages
-│ ├── (routes)/ # Route groups
-│ ├── api/ # API routes
-│ ├── globals.css # Global styles
-│ └── layout.tsx # Root layout
-├── components/ # React components
-│ ├── analytics/ # Analytics components
-│ ├── forms/ # Form components
-│ ├── layout/ # Layout components
-│ ├── mdx/ # MDX components
-│ ├── providers/ # Context providers
-│ ├── steps/ # Multi-step components
-│ └── ui/ # Shadcn/UI components
-├── hooks/ # Custom React hooks
-├── lib/ # Utility functions
-│ ├── contexts/ # React contexts
-│ ├── data/ # Data utilities
-│ ├── navigation/ # Navigation utilities
-│ └── utils/ # Helper functions
-├── public/ # Static assets
-└── content/ # MDX content
+├── app/ # Next.js App Router pages │ ├── (routes)/ # Route groups │ ├── api/ #
+API routes │ ├── globals.css # Global styles │ └── layout.tsx # Root layout ├──
+components/ # React components │ ├── analytics/ # Analytics components │ ├──
+forms/ # Form components │ ├── layout/ # Layout components │ ├── mdx/ # MDX
+components │ ├── providers/ # Context providers │ ├── steps/ # Multi-step
+components │ └── ui/ # Shadcn/UI components ├── hooks/ # Custom React hooks ├──
+lib/ # Utility functions │ ├── contexts/ # React contexts │ ├── data/ # Data
+utilities │ ├── navigation/ # Navigation utilities │ └── utils/ # Helper
+functions ├── public/ # Static assets └── content/ # MDX content
 ```
 
 ## Development Rules
@@ -258,14 +248,16 @@ import { CustomComponent } from "./custom-component";
 
 ### 2. Blog Post Integration
 
-When creating new blog articles, they must be integrated across multiple locations:
+When creating new blog articles, they must be integrated across multiple
+locations:
 
 - **Blog Listing**: Add to `app/blog/page.tsx` allPosts array
 - **Homepage**: Consider featuring on main page
 - **Sidebar**: Update recent articles in blog layout
 - **Navigation**: Add to header featured posts if standout content
 
-**Reference**: See `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md` for detailed procedures.
+**Reference**: See `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+for detailed procedures.
 
 ### 3. SEO Optimization
 
@@ -276,13 +268,24 @@ When creating new blog articles, they must be integrated across multiple locatio
 
 ### 4. Blog Listing Synchronization (MANDATORY)
 
-- **Requirement**: After any create, update, or delete operation on blog posts within the Personal Finance or Financial Solutions categories, update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- **Verification**: Ensure titles, slugs, descriptions, categories, images, and ordering stay aligned across those arrays before marking the CRUD task complete
+- **Requirement**: After any create, update, or delete operation on blog posts
+  within the Personal Finance or Financial Solutions categories, update every
+  `allPosts` array defined in the listing `page.tsx` files (for example
+  `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- **Verification**: Ensure titles, slugs, descriptions, categories, images, and
+  ordering stay aligned across those arrays before marking the CRUD task
+  complete
 
 ### 5. Sitemap Synchronization (MANDATORY)
 
-- **Requirement**: Whenever a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` within the same change set to keep search engines and internal tooling aligned with live content
-- **Verification**: Add new URLs with accurate `lastmod`, `changefreq`, and `priority` values and remove deprecated URLs immediately so the sitemap mirrors the latest site structure
+- **Requirement**: Whenever a Personal Finance or Financial Solutions article or
+  product page is created, renamed, or removed, update `app/sitemap.xml` within
+  the same change set to keep search engines and internal tooling aligned with
+  live content
+- **Verification**: Add new URLs with accurate `lastmod`, `changefreq`, and
+  `priority` values and remove deprecated URLs immediately so the sitemap
+  mirrors the latest site structure
 
 ## Git Workflow
 
@@ -352,4 +355,6 @@ When creating new blog articles, they must be integrated across multiple locatio
 - Target US user behavior
 - Optimize for US search engines
 
-This configuration ensures the Next.js project maintains high code quality, performance, and compliance with US market requirements while providing an excellent user experience for US financial service seekers.
+This configuration ensures the Next.js project maintains high code quality,
+performance, and compliance with US market requirements while providing an
+excellent user experience for US financial service seekers.

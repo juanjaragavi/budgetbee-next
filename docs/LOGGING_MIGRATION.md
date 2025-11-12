@@ -2,14 +2,17 @@
 
 ## Overview
 
-This document outlines the migration from `console.log` to Pino logger across the BudgetBee Next.js application.
+This document outlines the migration from `console.log` to Pino logger across
+the BudgetBee Next.js application.
 
 ## Why Migrate from Console.log?
 
 ### Security Risks
 
-- **Sensitive Data Exposure**: Console.log can accidentally expose API keys, tokens, passwords, and user data
-- **Production Logs**: Console logs in browser can reveal internal application logic
+- **Sensitive Data Exposure**: Console.log can accidentally expose API keys,
+  tokens, passwords, and user data
+- **Production Logs**: Console logs in browser can reveal internal application
+  logic
 - **No Redaction**: Cannot automatically redact sensitive information
 
 ### ⚡ Performance Issues
@@ -160,7 +163,7 @@ logger.info(
     url: "/api/sheets",
     hasEmail: true,
   },
-  "Request received",
+  "Request received"
 );
 ```
 
@@ -186,7 +189,7 @@ logger.error(
     errorMessage: error.message,
     errorStack: error.stack,
   },
-  "Error occurred",
+  "Error occurred"
 );
 ```
 
@@ -377,7 +380,7 @@ try {
             }
           : error,
     },
-    "Operation failed",
+    "Operation failed"
   );
 
   throw error;
@@ -409,7 +412,8 @@ try {
 ## Next Steps
 
 1. **Complete Migration**: Finish migrating all remaining files
-2. **Log Aggregation**: Set up log aggregation service (e.g., Better Stack, Datadog)
+2. **Log Aggregation**: Set up log aggregation service (e.g., Better Stack,
+   Datadog)
 3. **Monitoring**: Configure alerts for error logs
 4. **Log Rotation**: Set up log file rotation for production
 5. **Documentation**: Update team documentation

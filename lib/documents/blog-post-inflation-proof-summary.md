@@ -2,7 +2,8 @@
 
 ## Post Details
 
-**Title:** Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High
+**Title:** Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices
+Are High
 
 **Slug:** `inflation-proof-your-life`
 
@@ -20,7 +21,9 @@
 
 ### Introduction
 
-Engaging opening that acknowledges UK households feeling the squeeze from rising prices across groceries, energy, petrol, and council tax. Sets the tone that inflation doesn't mean loss of control - just need a fresh strategy.
+Engaging opening that acknowledges UK households feeling the squeeze from rising
+prices across groceries, energy, petrol, and council tax. Sets the tone that
+inflation doesn't mean loss of control - just need a fresh strategy.
 
 ### Main Sections
 
@@ -29,13 +32,19 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
    - Shows real-world impact on household budgets
 
 2. **7 Smart Money Moves:**
-   - **Audit essentials and cut invisible leaks** - Subscription reviews, own-brand products, spending caps
+   - **Audit essentials and cut invisible leaks** - Subscription reviews,
+     own-brand products, spending caps
    - **Lock in fixed rates where possible** - Energy, mortgages, 0% APR cards
-   - **Build (or rebuild) emergency buffer** - £500-£1,000 starter fund, automation tips
-   - **Rethink how you shop for food** - Meal planning, batch cooking, discount supermarkets
-   - **Increase your income (even modestly)** - Asking for raises, side hustles, selling unused items
-   - **Tackle high-cost debt strategically** - Avalanche/snowball methods, consolidation options
-   - **Adjust your goals - but don't abandon them** - Flexible timelines, celebrating small wins
+   - **Build (or rebuild) emergency buffer** - £500-£1,000 starter fund,
+     automation tips
+   - **Rethink how you shop for food** - Meal planning, batch cooking, discount
+     supermarkets
+   - **Increase your income (even modestly)** - Asking for raises, side hustles,
+     selling unused items
+   - **Tackle high-cost debt strategically** - Avalanche/snowball methods,
+     consolidation options
+   - **Adjust your goals - but don't abandon them** - Flexible timelines,
+     celebrating small wins
 
 3. **Practical example**
    - Real UK budget scenario (£2,400 monthly income)
@@ -47,13 +56,18 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
 
 ## Internal Links Included
 
-1. `/personal-finance/creating-a-budget-youll-actually-stick-to` - Budget creation guide
-2. `/personal-finance/money-management-for-beginners` - Foundational money management
-3. `/personal-finance/ditching-impulse-buys-mindful-spending` - Mindful spending strategies
+1. `/personal-finance/creating-a-budget-youll-actually-stick-to` - Budget
+   creation guide
+2. `/personal-finance/money-management-for-beginners` - Foundational money
+   management
+3. `/personal-finance/ditching-impulse-buys-mindful-spending` - Mindful spending
+   strategies
 4. `/personal-finance/how-to-ask-for-a-raise` - Salary negotiation guide
 5. `/personal-finance/side-hustle-or-second-job` - Income boosting strategies
-6. `/personal-finance/top-credit-cards-0-intro-apr` - 0% APR cards (mentioned twice)
-7. `/personal-finance/best-personal-loans` - Personal loan comparison (mentioned twice)
+6. `/personal-finance/top-credit-cards-0-intro-apr` - 0% APR cards (mentioned
+   twice)
+7. `/personal-finance/best-personal-loans` - Personal loan comparison (mentioned
+   twice)
 8. `/personal-finance/getting-out-of-debt` - Comprehensive debt guide
 9. `/personal-finance/setting-financial-goals` - Goal setting during uncertainty
 10. `/personal-finance` - Personal Finance category page
@@ -137,10 +151,12 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
 
 ## SEO Optimization
 
-- **Primary Keyword:** "personal finance" - Used naturally in title, intro, and throughout
+- **Primary Keyword:** "personal finance" - Used naturally in title, intro, and
+  throughout
 - **Secondary Keywords:** inflation, money management, budget, debt, savings
 - **Long-tail:** inflation-proof, smart money moves, high prices
-- **LSI Keywords:** cost of living, rising prices, household budget, emergency fund
+- **LSI Keywords:** cost of living, rising prices, household budget, emergency
+  fund
 
 ## Performance Considerations
 

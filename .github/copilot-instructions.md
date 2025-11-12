@@ -2,16 +2,25 @@
 
 ## Project Architecture
 
-This is a **Next.js 15+ App Router** financial comparison site for the US market, built with TypeScript and Tailwind CSS. The architecture centers around credit card/loan comparison tools with multi-step forms and comprehensive analytics tracking.
+This is a **Next.js 15+ App Router** financial comparison site for the US
+market, built with TypeScript and Tailwind CSS. The architecture centers around
+credit card/loan comparison tools with multi-step forms and comprehensive
+analytics tracking.
 
 ### Key System Components
 
-- **Analytics Layer**: Dual analytics with GTM + AdZep integration at `/components/analytics/`
-- **UI System**: Shadcn/UI + Radix primitives with custom variants in `/components/ui/`
-- **Form Architecture**: Multi-step forms using React Hook Form + Zod in `/components/forms/` and `/components/steps/`
-- **Content System**: MDX support for blog content in `/content/` with custom components
-- **API Integration**: Google Sheets API for data collection at `/app/api/sheets/`
-- **Environment Management**: Multiple env files (`.env`, `.env.production`, `.env.local`) with strict production controls
+- **Analytics Layer**: Dual analytics with GTM + AdZep integration at
+  `/components/analytics/`
+- **UI System**: Shadcn/UI + Radix primitives with custom variants in
+  `/components/ui/`
+- **Form Architecture**: Multi-step forms using React Hook Form + Zod in
+  `/components/forms/` and `/components/steps/`
+- **Content System**: MDX support for blog content in `/content/` with custom
+  components
+- **API Integration**: Google Sheets API for data collection at
+  `/app/api/sheets/`
+- **Environment Management**: Multiple env files (`.env`, `.env.production`,
+  `.env.local`) with strict production controls
 
 ### Project-Specific Patterns
 
@@ -37,7 +46,8 @@ The project has sophisticated analytics with **automatic AdZep activation**:
 - Manual triggers available via `useAdZep()` hook
 - Development testing panel with `AdZepTest` component
 
-**Navigation Tracking**: AdZep integrates with Next.js navigation system properly:
+**Navigation Tracking**: AdZep integrates with Next.js navigation system
+properly:
 
 - Router changes trigger AdZep activation using `usePathname()` hook
 - Back/forward navigation is handled via `popstate` events
@@ -93,7 +103,8 @@ bash ./scripts/git-workflow.sh
 
 - Copy `.env.example` to `.env.production`
 - Production environment files stored in `/opt/app/` with strict permissions
-- Google Sheets API requires `GOOGLE_SERVICE_ACCOUNT_EMAIL` and `GOOGLE_PRIVATE_KEY`
+- Google Sheets API requires `GOOGLE_SERVICE_ACCOUNT_EMAIL` and
+  `GOOGLE_PRIVATE_KEY`
 - AdZep integration requires UK-specific script URL
 - Kit.com API integration for newsletter subscriptions
 - Multiple environment files in use: `.env`, `.env.production`, `.env.local`
@@ -113,7 +124,7 @@ bash ./scripts/git-workflow.sh
 const Component = React.forwardRef<HTMLDivElement, ComponentProps>(
   ({ className, ...props }, ref) => (
     <div className={cn("base-styles", className)} ref={ref} {...props} />
-  ),
+  )
 );
 Component.displayName = "Component";
 ```
@@ -147,7 +158,8 @@ export async function POST(req: Request) {
 ### API Route Patterns
 
 - All API routes use Next.js 15 App Router pattern: `app/api/*/route.ts`
-- Environment variables for external integrations (Google Sheets, Kit.com, SendGrid)
+- Environment variables for external integrations (Google Sheets, Kit.com,
+  SendGrid)
 - Consistent error handling and response formatting
 - CORS configuration in `cors-config.json` for cross-origin requests
 
@@ -187,13 +199,21 @@ export const metadata: Metadata = {
 
 ### Blog Listing Synchronization (MANDATORY)
 
-- After any create, update, or delete operation on blog posts in the Personal Finance or Financial Solutions categories, immediately update every `allPosts` array defined inside the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Confirm that titles, slugs, categories, descriptions, images, and ordering stay synchronized across those arrays before completing the CRUD task
+- After any create, update, or delete operation on blog posts in the Personal
+  Finance or Financial Solutions categories, immediately update every `allPosts`
+  array defined inside the listing `page.tsx` files (for example
+  `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- Confirm that titles, slugs, categories, descriptions, images, and ordering
+  stay synchronized across those arrays before completing the CRUD task
 
 ### Sitemap Synchronization (MANDATORY)
 
-- Any time a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` in the same change so search engines and internal tooling stay aligned with live content
-- Ensure new entries include accurate `lastmod`, `changefreq`, and `priority` values; remove stale URLs immediately during the same workflow
+- Any time a Personal Finance or Financial Solutions article or product page is
+  created, renamed, or removed, update `app/sitemap.xml` in the same change so
+  search engines and internal tooling stay aligned with live content
+- Ensure new entries include accurate `lastmod`, `changefreq`, and `priority`
+  values; remove stale URLs immediately during the same workflow
 
 ## Common Gotchas
 
@@ -210,15 +230,22 @@ export const metadata: Metadata = {
 - Utilities: Descriptive names in `/lib/utils/`
 - Constants: Centralized in `/lib/constants.ts`
 
-This project prioritizes UK financial compliance, performance optimization, and comprehensive analytics tracking. Always consider FCA regulations when working with financial content.
+This project prioritizes UK financial compliance, performance optimization, and
+comprehensive analytics tracking. Always consider FCA regulations when working
+with financial content.
 
 ## Instruction Files System
 
-The project uses a comprehensive instruction system at `.github/instructions/` with specific rules for different scenarios:
+The project uses a comprehensive instruction system at `.github/instructions/`
+with specific rules for different scenarios:
 
-- **`project-rules.instructions.md`**: Core project architecture and development standards
-- **`ADZEP_IMPLEMENTATION.instructions.md`**: Complete AdZep analytics integration guide
+- **`project-rules.instructions.md`**: Core project architecture and development
+  standards
+- **`ADZEP_IMPLEMENTATION.instructions.md`**: Complete AdZep analytics
+  integration guide
 - **`BLOG_POST_INTEGRATION.instructions.md`**: Blog content integration workflow
 - **`PUSH-AND-COMMIT.instructions.md`**: Automated git workflow procedures
 
-**Critical**: Always check and follow the instruction files before making changes. These contain project-specific implementation details and workflows that override general best practices.
+**Critical**: Always check and follow the instruction files before making
+changes. These contain project-specific implementation details and workflows
+that override general best practices.

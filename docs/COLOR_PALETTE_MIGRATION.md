@@ -6,7 +6,9 @@
 
 ## Executive Summary
 
-This document outlines the complete color palette migration for the BudgetBee project, transitioning from the inherited green/blue theme to a new red/blue palette that better represents the BudgetBee brand identity for the US market.
+This document outlines the complete color palette migration for the BudgetBee
+project, transitioning from the inherited green/blue theme to a new red/blue
+palette that better represents the BudgetBee brand identity for the US market.
 
 ---
 
@@ -25,7 +27,8 @@ This document outlines the complete color palette migration for the BudgetBee pr
 
 ### Accent Colors
 
-- **Blue (various Tailwind shades)**: blue-50, blue-500, blue-600, blue-700, blue-800
+- **Blue (various Tailwind shades)**: blue-50, blue-500, blue-600, blue-700,
+  blue-800
 - **Gray (muted)**: `#6B7280` (gray-500)
 - **Dark Navy**: `#222442` (links and primary text)
 - **Light Blue Hover**: `#55B9FF` (footer links)
@@ -294,7 +297,8 @@ secondary: {
 
 - **Trust & Urgency**: Red conveys importance and action in financial contexts
 - **US Market**: Associated with premium financial services
-- **BudgetBee Brand**: "Kard" suggests credit cards (often red in premium segments)
+- **BudgetBee Brand**: "Kard" suggests credit cards (often red in premium
+  segments)
 - **Distinction**: Differentiates from green (UK template)
 
 ### Why Blue for Secondary?

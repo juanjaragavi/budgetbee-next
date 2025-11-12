@@ -19,7 +19,8 @@
 ### Credit Cards - Capital One (4 articles)
 
 - ✅ `/financial-solutions/capital-one-quicksilver-student-credit-card-benefits`
-- ✅ `/financial-solutions/capital-one-quicksilver-student-credit-card-requirements`
+- ✅
+  `/financial-solutions/capital-one-quicksilver-student-credit-card-requirements`
 - ✅ `/financial-solutions/capital-one-savor-rewards-credit-card-benefits`
 - ✅ `/financial-solutions/capital-one-savor-rewards-credit-card-requirements`
 
@@ -58,7 +59,8 @@
 ### Credit Cards - Titanium (2 articles)
 
 - ✅ `/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits`
-- ✅ `/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements`
+- ✅
+  `/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements`
 
 ### Credit Cards - Tomo (2 articles)
 
@@ -73,7 +75,8 @@
 ### Credit Cards - Visa (2 articles)
 
 - ✅ `/financial-solutions/visa-signature-us-current-build-credit-card-benefits`
-- ✅ `/financial-solutions/visa-signature-us-current-build-credit-card-requirements`
+- ✅
+  `/financial-solutions/visa-signature-us-current-build-credit-card-requirements`
 
 ### Credit Cards - Wells Fargo (2 articles)
 
@@ -201,4 +204,6 @@ All scripts are reusable for future migrations.
 
 **Migration Completed Successfully** ✅
 
-All 32 financial service articles from BudgetBee have been successfully migrated to BudgetBee with full content integrity, proper formatting, and successful build verification. The project is ready for content review and deployment.
+All 32 financial service articles from BudgetBee have been successfully migrated
+to BudgetBee with full content integrity, proper formatting, and successful
+build verification. The project is ready for content review and deployment.

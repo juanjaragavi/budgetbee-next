@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-This document defines the precise visual specifications for generating branded stock photography for BudgetBee's US financial services website. All images must combine hyper-realistic photography with branded vector graphic overlays.
+This document defines the precise visual specifications for generating branded
+stock photography for BudgetBee's US financial services website. All images must
+combine hyper-realistic photography with branded vector graphic overlays.
 
 ---
 
@@ -20,7 +22,8 @@ This document defines the precise visual specifications for generating branded s
 ### Color Application Rules
 
 - **Red Arrows:** Always use exact `#D72638` - no gradients, transparency 85-95%
-- **Blue Stars:** Always use exact `#003DA5` - may include subtle glow, transparency 90-100%
+- **Blue Stars:** Always use exact `#003DA5` - may include subtle glow,
+  transparency 90-100%
 - **Never mix:** Don't create purple/blended elements between red and blue
 
 ---
@@ -283,7 +286,8 @@ This document defines the precise visual specifications for generating branded s
 
 **Scenario:** Primary landing page impression  
 **Photography:** Professional woman with laptop and credit card, outdoor café  
-**Arrows:** 1 large diagonal arrow (bottom-left to mid-right), 2 medium accent arrows  
+**Arrows:** 1 large diagonal arrow (bottom-left to mid-right), 2 medium accent
+arrows  
 **Stars:** 5 stars scattered, 2 prominent near subject's head  
 **Mood:** Confident, aspirational, modern
 
@@ -322,12 +326,9 @@ kardtrust-[type]-[context]-[subject]-[setting]-v[#].webp
 ### Storage Structure
 
 ```markdown
-/public/images/
-├── hero/ (Homepage/landing hero images)
-├── blog/ (Blog article headers)
-├── cards/ (Category cards/thumbnails)
-├── originals/ (High-res source files)
-└── deprecated/ (Old template images to replace)
+/public/images/ ├── hero/ (Homepage/landing hero images) ├── blog/ (Blog article
+headers) ├── cards/ (Category cards/thumbnails) ├── originals/ (High-res source
+files) └── deprecated/ (Old template images to replace)
 ```
 
 ### Responsive Variants
@@ -350,7 +351,9 @@ Generate 3 sizes per image:
 
 **Example:**
 
-> "Smiling woman confidently holding credit card outdoors with laptop, surrounded by upward red arrows and blue stars representing financial growth and trust"
+> "Smiling woman confidently holding credit card outdoors with laptop,
+> surrounded by upward red arrows and blue stars representing financial growth
+> and trust"
 
 ### Color Contrast
 
@@ -390,20 +393,20 @@ Generate 3 sizes per image:
 
 ### Common Adjustments
 
-**"Arrows too subtle"**
-→ Increase size of hero arrow to 20% width, add subtle drop shadow
+**"Arrows too subtle"** → Increase size of hero arrow to 20% width, add subtle
+drop shadow
 
-**"Stars lack impact"**
-→ Enhance glow effect, increase opacity to 100%, add white inner highlight
+**"Stars lack impact"** → Enhance glow effect, increase opacity to 100%, add
+white inner highlight
 
-**"Composition cluttered"**
-→ Remove 1-2 elements, increase negative space to 50%
+**"Composition cluttered"** → Remove 1-2 elements, increase negative space to
+50%
 
-**"Photography too cold"**
-→ Add +10% warmth in color grading, boost yellow/orange midtones
+**"Photography too cold"** → Add +10% warmth in color grading, boost
+yellow/orange midtones
 
-**"Vector graphics look pasted on"**
-→ Add subtle shadows, vary opacity (some 85%, others 95%), layer some behind subject
+**"Vector graphics look pasted on"** → Add subtle shadows, vary opacity (some
+85%, others 95%), layer some behind subject
 
 ---
 
@@ -437,4 +440,6 @@ Generate 3 sizes per image:
 
 ---
 
-_This document should be used in conjunction with the master prompt template for consistent, brand-aligned image generation across all BudgetBee digital properties._
+_This document should be used in conjunction with the master prompt template for
+consistent, brand-aligned image generation across all BudgetBee digital
+properties._

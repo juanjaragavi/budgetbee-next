@@ -2,7 +2,8 @@
 
 ## Purpose
 
-This checklist ensures the Next.js implementation matches the original Astro.js production site (https://budgetbeepro.com) exactly.
+This checklist ensures the Next.js implementation matches the original Astro.js
+production site (https://budgetbeepro.com) exactly.
 
 ---
 

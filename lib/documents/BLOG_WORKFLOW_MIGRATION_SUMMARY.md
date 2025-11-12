@@ -2,7 +2,8 @@
 
 ## Overview
 
-This document summarizes the successful migration of the blog post generation workflow from the UK TopFinanzas project to the BudgetBee project (US market).
+This document summarizes the successful migration of the blog post generation
+workflow from the UK TopFinanzas project to the BudgetBee project (US market).
 
 **Migration Date**: October 23, 2025  
 **Source Project**: uk-topfinanzas-com (UK market)  
@@ -20,7 +21,8 @@ This document summarizes the successful migration of the blog post generation wo
 
 #### CREDIT_CARD_PRODUCT_GENERATION.instructions.md
 
-- **Purpose**: System prompt for generating financial product pages (credit cards, loans)
+- **Purpose**: System prompt for generating financial product pages (credit
+  cards, loans)
 - **Location**: `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md`
 - **Size**: ~11KB
 
@@ -34,8 +36,10 @@ This document summarizes the successful migration of the blog post generation wo
 
 #### prompt-to-generate-credit-card-products-posts.md
 
-- **Purpose**: User-facing prompt template for requesting financial product pages
-- **Location**: `/lib/documents/prompt-to-generate-credit-card-products-posts.md`
+- **Purpose**: User-facing prompt template for requesting financial product
+  pages
+- **Location**:
+  `/lib/documents/prompt-to-generate-credit-card-products-posts.md`
 - **Size**: ~7.5KB
 
 ## Key Adaptations Made
@@ -83,11 +87,13 @@ This document summarizes the successful migration of the blog post generation wo
 
 ### 5. File Path Updates
 
-All references to file paths have been updated to match the BudgetBee project structure:
+All references to file paths have been updated to match the BudgetBee project
+structure:
 
 - CSV location: `lib/documents/topfinanzas-topic-outline.csv`
 - Sitemap: `https://budgetbeepro.com/sitemap.xml`
-- CSV URL: `https://media.topfinanzas.com/documents/topfinanzas-topic-outline.csv`
+- CSV URL:
+  `https://media.topfinanzas.com/documents/topfinanzas-topic-outline.csv`
 
 ## Workflow Structure
 
@@ -105,7 +111,8 @@ All references to file paths have been updated to match the BudgetBee project st
 ### For Financial Product Pages
 
 1. **Input**: User provides product details and official URL
-2. **System Prompt**: AI reads `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md`
+2. **System Prompt**: AI reads
+   `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md`
 3. **Data Sources**:
    - Primary: Official product website (via `fetch_webpage`)
    - Secondary: CSV and sitemap
@@ -147,7 +154,8 @@ All references to file paths have been updated to match the BudgetBee project st
 
 ### Generating a Financial Product Page
 
-1. Open the prompt template: `/lib/documents/prompt-to-generate-credit-card-products-posts.md`
+1. Open the prompt template:
+   `/lib/documents/prompt-to-generate-credit-card-products-posts.md`
 2. Update product details (name, provider, URL, brand color)
 3. Submit the prompt to your AI assistant
 4. AI will fetch product data and generate both benefits and requirements pages
@@ -157,14 +165,16 @@ All references to file paths have been updated to match the BudgetBee project st
 
 ### Immediate Actions
 
-1. ✅ Create CSV topic outline file: `lib/documents/topfinanzas-topic-outline.csv`
+1. ✅ Create CSV topic outline file:
+   `lib/documents/topfinanzas-topic-outline.csv`
 2. ✅ Ensure sitemap is accessible: `https://budgetbeepro.com/sitemap.xml`
 3. ✅ Verify CDN is configured: `https://media.topfinanzas.com/`
 4. ✅ Test workflow with a sample article
 
 ### Optional Enhancements
 
-- Create `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` for integration procedures
+- Create `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` for
+  integration procedures
 - Set up automated testing for generated content
 - Create content templates for different article types
 - Establish editorial review process
@@ -181,7 +191,8 @@ All references to file paths have been updated to match the BudgetBee project st
 
 ### Version Control
 
-All instruction files should be version controlled alongside the codebase. Consider:
+All instruction files should be version controlled alongside the codebase.
+Consider:
 
 - Creating a changelog for instruction file updates
 - Tagging releases when significant changes are made
@@ -214,14 +225,18 @@ Before using the workflow in production:
 
 - System Instructions: `/lib/*.instructions.md`
 - Prompt Templates: `/lib/documents/prompt-to-generate-*.md`
-- Integration Guide: `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` (if created)
+- Integration Guide:
+  `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` (if created)
 
 ## Conclusion
 
-The blog post generation workflow has been successfully migrated from UK TopFinanzas to BudgetBee with all necessary adaptations for the US market. The system is now ready to generate:
+The blog post generation workflow has been successfully migrated from UK
+TopFinanzas to BudgetBee with all necessary adaptations for the US market. The
+system is now ready to generate:
 
 1. **TOFU blog articles** - Educational personal finance content
-2. **Financial product pages** - Credit cards, loans, and other financial products
+2. **Financial product pages** - Credit cards, loans, and other financial
+   products
 
 All content will be:
 
@@ -230,4 +245,5 @@ All content will be:
 - SEO-optimized for US search intent
 - Production-ready TypeScript/Next.js code
 
-The workflow maintains the same high-quality standards while being fully adapted for the US market and BudgetBee brand identity.
+The workflow maintains the same high-quality standards while being fully adapted
+for the US market and BudgetBee brand identity.

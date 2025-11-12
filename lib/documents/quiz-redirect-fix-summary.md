@@ -2,15 +2,22 @@
 
 ## Overview
 
-Disabled automatic redirect from quiz pages to credit card recommender pages when cookie validation is turned off, allowing for production testing with UTM parameters.
+Disabled automatic redirect from quiz pages to credit card recommender pages
+when cookie validation is turned off, allowing for production testing with UTM
+parameters.
 
 ## Problem Statement
 
-When users with UTM parameters completed the quiz form, they were automatically redirected to the credit card recommender landing page on subsequent visits, even when cookie validation was disabled. This prevented testing repeat form submissions in production.
+When users with UTM parameters completed the quiz form, they were automatically
+redirected to the credit card recommender landing page on subsequent visits,
+even when cookie validation was disabled. This prevented testing repeat form
+submissions in production.
 
 ## Solution
 
-Added a validation check in both quiz pages (`/app/quiz/page.tsx` and `/app/quiz-2/page.tsx`) to respect the `NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED` environment variable before executing redirects.
+Added a validation check in both quiz pages (`/app/quiz/page.tsx` and
+`/app/quiz-2/page.tsx`) to respect the `NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED`
+environment variable before executing redirects.
 
 ## Technical Changes
 
@@ -60,7 +67,8 @@ useEffect(() => {
 
 ## Environment Configuration
 
-The functionality is controlled by the environment variable in `.env`, `.env.production`, and `.env.local`:
+The functionality is controlled by the environment variable in `.env`,
+`.env.production`, and `.env.local`:
 
 ```env
 NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false
@@ -68,14 +76,15 @@ NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED=false
 
 ## Consistency with Existing Patterns
 
-This implementation mirrors the cookie persistence guard in `credit-card-form.tsx`:
+This implementation mirrors the cookie persistence guard in
+`credit-card-form.tsx`:
 
 ```typescript
 const persistRegistrationCookies = useCallback(() => {
   const cookieConfig = getCookieConfig();
   if (!cookieConfig.VALIDATION_ENABLED) {
     console.log(
-      "[QUIZ] Cookie validation disabled; skipping cookie persistence",
+      "[QUIZ] Cookie validation disabled; skipping cookie persistence"
     );
     return;
   }
@@ -99,14 +108,18 @@ Both guards now consistently respect the validation setting.
 1. User visits `/quiz?utm_source=google&utm_campaign=prod`
 2. User completes quiz form
 3. User revisits `/quiz?utm_source=google&utm_campaign=prod`
-4. **Redirect occurs** - user sent to `/credit-card-recommender-p1?utm_source=google&utm_campaign=prod`
+4. **Redirect occurs** - user sent to
+   `/credit-card-recommender-p1?utm_source=google&utm_campaign=prod`
 
 ## Benefits
 
-1. **Testing Flexibility**: Enables repeat submissions for testing without code changes
-2. **UTM Preservation**: UTM parameters persist through the journey whether redirected or not
+1. **Testing Flexibility**: Enables repeat submissions for testing without code
+   changes
+2. **UTM Preservation**: UTM parameters persist through the journey whether
+   redirected or not
 3. **Consistent Behavior**: Matches cookie persistence guard pattern
-4. **Production Safety**: Normal redirect behavior maintained when validation is enabled
+4. **Production Safety**: Normal redirect behavior maintained when validation is
+   enabled
 5. **No Breaking Changes**: Existing functionality preserved
 
 ## Related Components

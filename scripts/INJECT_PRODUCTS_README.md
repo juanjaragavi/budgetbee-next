@@ -2,11 +2,14 @@
 
 ## Overview
 
-This automated script (`inject-migrated-products.js`) handles the integration of 32 financial products migrated from the BudgetBee Astro.js project into the BudgetBee Next.js application's blog post listings.
+This automated script (`inject-migrated-products.js`) handles the integration of
+32 financial products migrated from the BudgetBee Astro.js project into the
+BudgetBee Next.js application's blog post listings.
 
 ## Purpose
 
-The script programmatically injects product data into `allPosts` arrays across multiple `page.tsx` files, ensuring:
+The script programmatically injects product data into `allPosts` arrays across
+multiple `page.tsx` files, ensuring:
 
 - Consistent data structure across all listings
 - No duplicate entries
@@ -38,8 +41,7 @@ The script includes all 32 migrated financial products:
 14. Robinhood Gold Card
 15. Tilt Card
 16. Upgrade OneCard
-17. SoFi Credit Card
-    ... (and more)
+17. SoFi Credit Card ... (and more)
 
 ### Neobank Cards (3 products)
 
@@ -74,7 +76,8 @@ The script injects products into four key files:
 
 - **Array**: `allPosts`
 - **Structure**: PostData with nested frontmatter
-- **Fields**: slug, frontmatter (title, description, date, featuredImage, categories), category, categoryPath
+- **Fields**: slug, frontmatter (title, description, date, featuredImage,
+  categories), category, categoryPath
 
 ## Usage
 
@@ -157,7 +160,8 @@ Overall Summary:
 
 ### ✅ Smart Formatting
 
-- **Structure Adaptation**: Automatically formats products for each target file's structure
+- **Structure Adaptation**: Automatically formats products for each target
+  file's structure
 - **Date Conversion**: Converts "DD Month YYYY" to ISO format where needed
 - **String Escaping**: Properly escapes quotes in titles and descriptions
 - **Indentation Preservation**: Maintains consistent code formatting

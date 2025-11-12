@@ -2,7 +2,10 @@
 
 ## 📋 Project Overview
 
-This document summarizes the comprehensive brand image generation system created for replacing template stock imagery across the BudgetBee website with brand-consistent, hyper-realistic photography featuring custom vector graphic overlays.
+This document summarizes the comprehensive brand image generation system created
+for replacing template stock imagery across the BudgetBee website with
+brand-consistent, hyper-realistic photography featuring custom vector graphic
+overlays.
 
 ---
 
@@ -47,7 +50,8 @@ This document summarizes the comprehensive brand image generation system created
 
 ### Core Prompt Structure
 
-The master prompt has been designed for multi-modal image generation LLMs (DALL-E 3, Midjourney, Stable Diffusion XL) and includes:
+The master prompt has been designed for multi-modal image generation LLMs
+(DALL-E 3, Midjourney, Stable Diffusion XL) and includes:
 
 1. **Photography Requirements**
    - Hyper-realistic quality standards
@@ -157,22 +161,14 @@ G --> C
 ### Recommended Structure
 
 ```markdown
-/public/images/
-├── hero/
-│ ├── kardtrust-hero-credit-card-woman-outdoor-v1.webp
-│ ├── kardtrust-hero-tablet-woman-office-v1.webp
-│ └── kardtrust-hero-shopping-woman-urban-v1.webp
-├── blog/
-│ ├── kardtrust-blog-financial-planning-man-office-v1.webp
-│ └── kardtrust-blog-savings-woman-home-v1.webp
-├── cards/
-│ └── [thumbnail versions]
-├── originals/
-│ └── [high-res source files before optimization]
-└── deprecated/
-├── woman-with-credit-card.avif (OLD - DO NOT USE)
-├── woman-with-tablet.avif (OLD - DO NOT USE)
-└── woman-shopping.avif (OLD - DO NOT USE)
+/public/images/ ├── hero/ │ ├── kardtrust-hero-credit-card-woman-outdoor-v1.webp
+│ ├── kardtrust-hero-tablet-woman-office-v1.webp │ └──
+kardtrust-hero-shopping-woman-urban-v1.webp ├── blog/ │ ├──
+kardtrust-blog-financial-planning-man-office-v1.webp │ └──
+kardtrust-blog-savings-woman-home-v1.webp ├── cards/ │ └── [thumbnail versions]
+├── originals/ │ └── [high-res source files before optimization] └── deprecated/
+├── woman-with-credit-card.avif (OLD - DO NOT USE) ├── woman-with-tablet.avif
+(OLD - DO NOT USE) └── woman-shopping.avif (OLD - DO NOT USE)
 ```
 
 ### Naming Convention
@@ -346,7 +342,8 @@ export default function HeroSection() {
 
 ### Technical References
 
-- **Next.js Image Optimization:** [Next.js Docs](https://nextjs.org/docs/app/api-reference/components/image)
+- **Next.js Image Optimization:**
+  [Next.js Docs](https://nextjs.org/docs/app/api-reference/components/image)
 - **WebP Conversion:** Use `sharp` or online tools
 - **Alt Text Guidelines:** WCAG 2.1 Level AA standards
 
@@ -423,22 +420,27 @@ export default function HeroSection() {
 ### Common Issues
 
 **Issue:** Generated arrows point sideways or downward  
-**Solution:** Emphasize in prompt: "CRITICAL: All arrows must point upward at 45-90° angles representing financial growth"
+**Solution:** Emphasize in prompt: "CRITICAL: All arrows must point upward at
+45-90° angles representing financial growth"
 
 **Issue:** Stars don't look like brand logo stars  
-**Solution:** Clarify: "Four-pointed star like North Star or compass rose, NOT five-pointed star, NOT generic sparkle"
+**Solution:** Clarify: "Four-pointed star like North Star or compass rose, NOT
+five-pointed star, NOT generic sparkle"
 
 **Issue:** Colors don't match brand  
-**Solution:** Always include exact hex in prompt: "Use EXACT hex #D72638 for red, #003DA5 for blue. Do not approximate."
+**Solution:** Always include exact hex in prompt: "Use EXACT hex #D72638 for
+red, #003DA5 for blue. Do not approximate."
 
 **Issue:** Composition too cluttered  
-**Solution:** Add to prompt: "CRITICAL: Maintain 40-50% negative space. Use maximum 4 arrows and 6 stars. Breathing room is essential."
+**Solution:** Add to prompt: "CRITICAL: Maintain 40-50% negative space. Use
+maximum 4 arrows and 6 stars. Breathing room is essential."
 
 ---
 
 ## ✨ Summary
 
-You now have a complete, production-ready system for generating brand-consistent, hyper-realistic stock imagery for BudgetBee:
+You now have a complete, production-ready system for generating
+brand-consistent, hyper-realistic stock imagery for BudgetBee:
 
 - ✅ **Brand colors extracted** from logo (#D72638, #003DA5)
 - ✅ **Comprehensive prompt template** for multi-modal LLMs
@@ -456,7 +458,8 @@ The system is designed to be:
 - **Accessible** with proper alt text guidelines
 - **Performant** with WebP optimization
 
-Proceed with generating your first batch using the quick prompt reference, and iterate based on the quality checklist!
+Proceed with generating your first batch using the quick prompt reference, and
+iterate based on the quality checklist!
 
 ---
 

@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project uses **Pino** for structured, production-ready logging instead of `console.log`. Pino is the fastest Node.js logging library with automatic sensitive data redaction and full Next.js compatibility.
+This project uses **Pino** for structured, production-ready logging instead of
+`console.log`. Pino is the fastest Node.js logging library with automatic
+sensitive data redaction and full Next.js compatibility.
 
 ## Quick Start
 
@@ -79,9 +81,11 @@ logHelpers.auth("login", userId);
 
 ## Documentation
 
-- **Quick Reference**: [/docs/LOGGER_QUICK_REFERENCE.md](/docs/LOGGER_QUICK_REFERENCE.md)
+- **Quick Reference**:
+  [/docs/LOGGER_QUICK_REFERENCE.md](/docs/LOGGER_QUICK_REFERENCE.md)
 - **Migration Guide**: [/docs/LOGGING_MIGRATION.md](/docs/LOGGING_MIGRATION.md)
-- **Implementation**: [/docs/PINO_IMPLEMENTATION_SUMMARY.md](/docs/PINO_IMPLEMENTATION_SUMMARY.md)
+- **Implementation**:
+  [/docs/PINO_IMPLEMENTATION_SUMMARY.md](/docs/PINO_IMPLEMENTATION_SUMMARY.md)
 - **Logger Source**: [/lib/logger.ts](/lib/logger.ts)
 
 ## Examples

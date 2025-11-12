@@ -341,4 +341,5 @@ Structure:
 
 ---
 
-_Print this checklist and keep it at your workspace for quick reference during image generation sessions._
+_Print this checklist and keep it at your workspace for quick reference during
+image generation sessions._

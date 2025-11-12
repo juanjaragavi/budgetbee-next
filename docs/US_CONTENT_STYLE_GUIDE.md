@@ -2,7 +2,9 @@
 
 ## Quick Reference for Content Creators
 
-This guide ensures all new content maintains proper US market localization. Review before creating or editing any blog posts, product pages, or marketing content.
+This guide ensures all new content maintains proper US market localization.
+Review before creating or editing any blog posts, product pages, or marketing
+content.
 
 ---
 
@@ -347,36 +349,47 @@ Replace: (consumer agencies|tax authorities|property tax|paycheck)
 
 **Before:**
 
-> "If you're earning over £30,000, you'll need to pay council tax of around £150 per month. Make sure to inform HMRC about any side income, as you may need to pay National Insurance contributions."
+> "If you're earning over £30,000, you'll need to pay council tax of around £150
+> per month. Make sure to inform HMRC about any side income, as you may need to
+> pay National Insurance contributions."
 
 **After:**
 
-> "If you're earning over $30,000, you'll need to pay property tax of around $150 per month. Make sure to register any side income with the appropriate tax authorities, as you may need to pay self-employment taxes."
+> "If you're earning over $30,000, you'll need to pay property tax of around
+> $150 per month. Make sure to register any side income with the appropriate tax
+> authorities, as you may need to pay self-employment taxes."
 
 ---
 
 **Before:**
 
-> "To find a reputable lender, check the FCA register at register.fca.org.uk. Look for reviews on Trustpilot or Feefo to ensure they're legitimate."
+> "To find a reputable lender, check the FCA register at register.fca.org.uk.
+> Look for reviews on Trustpilot or Feefo to ensure they're legitimate."
 
 **After:**
 
-> "To find a reputable lender, check if they're properly licensed in your state. Look for reviews on the Better Business Bureau to ensure they're legitimate."
+> "To find a reputable lender, check if they're properly licensed in your state.
+> Look for reviews on the Better Business Bureau to ensure they're legitimate."
 
 ---
 
 **Before:**
 
-> "Organise your favourite credit cards by their cashback rates. Cards offering 1% per pound spent can really add up!"
+> "Organise your favourite credit cards by their cashback rates. Cards offering
+> 1% per pound spent can really add up!"
 
 **After:**
 
-> "Organize your favorite credit cards by their cashback rates. Cards offering 1% per dollar spent can really add up!"
+> "Organize your favorite credit cards by their cashback rates. Cards offering
+> 1% per dollar spent can really add up!"
 
 ---
 
-This style guide ensures all BudgetBee content remains consistent, accurate, and properly localized for the US market. Reference it before creating any new content or making edits to existing material.
+This style guide ensures all BudgetBee content remains consistent, accurate, and
+properly localized for the US market. Reference it before creating any new
+content or making edits to existing material.
 
 **Last Updated**: October 2025  
 **Maintained By**: Content Team  
-**Questions?** Refer to `/docs/UK_TO_US_LOCALIZATION_COMPLETE.md` for full migration details
+**Questions?** Refer to `/docs/UK_TO_US_LOCALIZATION_COMPLETE.md` for full
+migration details

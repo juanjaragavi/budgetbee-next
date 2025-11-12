@@ -6,7 +6,8 @@ applyTo: "**"
 
 ## ✅ Implementation Complete
 
-The AdZep tag has been successfully implemented in your Next.js project with the following features:
+The AdZep tag has been successfully implemented in your Next.js project with the
+following features:
 
 ### 🎯 Core Implementation
 
@@ -96,8 +97,13 @@ In development mode, you'll see:
 
 ## Blog Listing Synchronization (MANDATORY)
 
-- Even though these instructions focus on analytics, any time you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories you must also update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Confirm that metadata, ordering, and links stay synchronized across those arrays before treating the CRUD task as complete
+- Even though these instructions focus on analytics, any time you create,
+  update, or delete a blog post in the Personal Finance or Financial Solutions
+  categories you must also update every `allPosts` array defined in the listing
+  `page.tsx` files (for example `app/blog/page.tsx`,
+  `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Confirm that metadata, ordering, and links stay synchronized across those
+  arrays before treating the CRUD task as complete
 
 ## 🔧 Usage Examples
 

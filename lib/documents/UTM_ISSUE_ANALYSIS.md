@@ -2,7 +2,8 @@
 
 ## Problem Statement
 
-Form submissions **with UTM parameters** fail in production but work without them.
+Form submissions **with UTM parameters** fail in production but work without
+them.
 
 ## Test Results - Local Environment ✅
 
@@ -20,7 +21,9 @@ Both scenarios work perfectly in local development:
 
 ### 1. 🎯 Most Likely: Environment Variable Format Issue
 
-**Theory**: The Google Sheets private key in production has formatting issues that only manifest when processing certain payloads (like those with many fields/UTM params).
+**Theory**: The Google Sheets private key in production has formatting issues
+that only manifest when processing certain payloads (like those with many
+fields/UTM params).
 
 **Why UTM params trigger it**:
 
@@ -38,7 +41,8 @@ Both scenarios work perfectly in local development:
 
 ### 2. 🔐 Google API Quota/Rate Limiting
 
-**Theory**: Production might be hitting API quotas when processing larger payloads.
+**Theory**: Production might be hitting API quotas when processing larger
+payloads.
 
 **Why UTM params trigger it**:
 
@@ -46,8 +50,7 @@ Both scenarios work perfectly in local development:
 - Without UTM: 5 fields total
 - Doubled field count could push over limit
 
-**How to verify**:
-Check Google Cloud Console for API quota errors
+**How to verify**: Check Google Cloud Console for API quota errors
 
 ### 3. 📏 Field Length/Size Limits
 
@@ -60,7 +63,8 @@ Check Google Cloud Console for API quota errors
 
 ### 4. 🔤 Special Character Encoding
 
-**Theory**: UTM parameter values contain characters that aren't properly encoded.
+**Theory**: UTM parameter values contain characters that aren't properly
+encoded.
 
 **Production URL had**:
 
@@ -74,7 +78,8 @@ These look clean, but production might not be properly encoding them.
 
 ### 5. 🐛 Async/Timing Issue
 
-**Theory**: When UTM params are present, the form processes slower, causing a timeout.
+**Theory**: When UTM params are present, the form processes slower, causing a
+timeout.
 
 **Why**:
 
@@ -111,7 +116,7 @@ export async function POST(req: Request) {
       console.log("[Sheets API] Missing email");
       return NextResponse.json(
         { error: "Email is required to upsert quiz registration" },
-        { status: 400 },
+        { status: 400 }
       );
     }
 
@@ -147,7 +152,7 @@ export async function POST(req: Request) {
       error instanceof Error ? error.message : "Unknown error";
     return NextResponse.json(
       { error: "Failed to add data to sheet", details: errorMessage },
-      { status: 500 },
+      { status: 500 }
     );
   }
 }
@@ -179,7 +184,8 @@ While debugging, you could:
 
 1. **Make UTM optional**: Allow form to submit even if UTM fails
 2. **Retry without UTM**: If submission fails, retry without UTM params
-3. **Log to alternative storage**: Send UTM params to a separate API if main submission fails
+3. **Log to alternative storage**: Send UTM params to a separate API if main
+   submission fails
 
 ## Recommended Fix Path
 
@@ -216,12 +222,12 @@ While debugging, you could:
 4. Check production logs
 5. Error message will reveal the exact issue
 
-**Then**:
-Based on the error message, apply the appropriate fix from above.
+**Then**: Based on the error message, apply the appropriate fix from above.
 
 ---
 
-**Key Insight**: The fact that it works without UTM and fails with UTM is a HUGE clue. The issue is definitely related to:
+**Key Insight**: The fact that it works without UTM and fails with UTM is a HUGE
+clue. The issue is definitely related to:
 
 - Payload size
 - Field count

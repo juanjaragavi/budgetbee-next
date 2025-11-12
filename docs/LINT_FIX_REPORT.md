@@ -6,7 +6,8 @@
 
 ## 🎯 Objective
 
-Address all ESLint warnings/errors in the BudgetBee project after the BudgetBee content migration.
+Address all ESLint warnings/errors in the BudgetBee project after the BudgetBee
+content migration.
 
 ---
 
@@ -25,9 +26,12 @@ Warning: 'Image' is defined but never used. @typescript-eslint/no-unused-vars
 **Affected Files**:
 
 - All 32 newly migrated financial solution articles
-- Pattern: `app/financial-solutions/[product-name]-{benefits|requirements}/page.tsx`
+- Pattern:
+  `app/financial-solutions/[product-name]-{benefits|requirements}/page.tsx`
 
-**Root Cause**: The migration script included the `Image` import from `next/image` in the template, but none of the migrated content actually uses the Image component.
+**Root Cause**: The migration script included the `Image` import from
+`next/image` in the template, but none of the migrated content actually uses the
+Image component.
 
 ---
 
@@ -35,7 +39,8 @@ Warning: 'Image' is defined but never used. @typescript-eslint/no-unused-vars
 
 ### Solution
 
-Created and executed a Python script to remove the unused `Image` import from all affected files.
+Created and executed a Python script to remove the unused `Image` import from
+all affected files.
 
 **Script**: `/scripts/remove-unused-image-import.py`
 

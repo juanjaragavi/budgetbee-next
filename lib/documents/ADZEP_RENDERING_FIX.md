@@ -2,13 +2,19 @@
 
 ## Issue Description
 
-**Problem**: Ad units with IDs like `uk_topfinanzas_3`, `uk_topfinanzas_4`, etc. were not rendering properly. Console showed warnings about AdZep not being ready, and ads were not displaying despite containers being present in the DOM.
+**Problem**: Ad units with IDs like `uk_topfinanzas_3`, `uk_topfinanzas_4`, etc.
+were not rendering properly. Console showed warnings about AdZep not being
+ready, and ads were not displaying despite containers being present in the DOM.
 
 **Root Cause Analysis**:
 
-1. **Missing Container Selectors**: The AdZep configuration's `containerSelectors` array didn't include the actual AdZep container ID pattern `[id^='uk_topfinanzas_']`
-2. **Insufficient Timeouts**: Initial timeouts were too short for the AdZep script to fully load and initialize
-3. **Timing Issues**: AdZep activation was attempting before the `window.AdZepActivateAds()` function was available
+1. **Missing Container Selectors**: The AdZep configuration's
+   `containerSelectors` array didn't include the actual AdZep container ID
+   pattern `[id^='uk_topfinanzas_']`
+2. **Insufficient Timeouts**: Initial timeouts were too short for the AdZep
+   script to fully load and initialize
+3. **Timing Issues**: AdZep activation was attempting before the
+   `window.AdZepActivateAds()` function was available
 
 ## Solution Implemented
 
@@ -34,13 +40,15 @@ containerSelectors: [
 ],
 ```
 
-**Impact**: The system can now properly detect AdZep containers and wait for them before attempting activation.
+**Impact**: The system can now properly detect AdZep containers and wait for
+them before attempting activation.
 
 ### 2. Increased Timeouts and Retry Attempts
 
 **File**: `/lib/ads/config.ts`
 
-Adjusted timing configuration to allow more time for AdZep script initialization:
+Adjusted timing configuration to allow more time for AdZep script
+initialization:
 
 ```typescript
 // Before → After
@@ -266,5 +274,6 @@ git checkout dev -- lib/ads/activate-adzep.ts
 ## Related Documentation
 
 - See `/QUIZ_AD_OVERLAY_FIX.md` for quiz page exclusion implementation
-- See `.github/instructions/ADZEP_IMPLEMENTATION.instructions.md` for overall AdZep architecture
+- See `.github/instructions/ADZEP_IMPLEMENTATION.instructions.md` for overall
+  AdZep architecture
 - See `.github/instructions/ADZEP_SUMMARY.instructions.md` for feature summary

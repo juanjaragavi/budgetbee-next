@@ -2,7 +2,8 @@
 
 ## 🎉 Migration Complete
 
-Successfully migrated **32 financial service articles** from BudgetBee to BudgetBee.
+Successfully migrated **32 financial service articles** from BudgetBee to
+BudgetBee.
 
 ## What Was Migrated
 
@@ -141,7 +142,8 @@ Check the full documentation:
 
 - Detailed migration report: `/docs/BUDGETBEE_MIGRATION_SUMMARY.md`
 - Verification checklist: `/docs/MIGRATION_VERIFICATION.md`
-- Project instructions: `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+- Project instructions:
+  `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 
 ---
 

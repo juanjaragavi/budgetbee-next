@@ -26,7 +26,8 @@
 
 5. **Sample Implementations**
    - Personal Finance: `/personal-finance/side-hustle-or-second-job`
-   - Financial Solutions: `/financial-solutions/blue-cash-preferred-card-from-american-express`
+   - Financial Solutions:
+     `/financial-solutions/blue-cash-preferred-card-from-american-express`
 
 6. **Root Layout Updates**
    - Added canonical URL to homepage
@@ -165,7 +166,8 @@ export default function ProductPage() {
 - **Full Audit Report:** `/docs/SEO_AUDIT_REPORT.md`
 - **Implementation Guide:** `/docs/SEO_IMPLEMENTATION_GUIDE.md`
 - **Sample Article:** `/app/personal-finance/side-hustle-or-second-job/page.tsx`
-- **Sample Product:** `/app/financial-solutions/blue-cash-preferred-card-from-american-express/page.tsx`
+- **Sample Product:**
+  `/app/financial-solutions/blue-cash-preferred-card-from-american-express/page.tsx`
 
 ---
 

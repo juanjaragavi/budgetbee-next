@@ -2,18 +2,23 @@
 
 ## Problem
 
-The quiz form on **budgetbeepro.com** is failing to save user data with a **500 Internal Server Error**.
+The quiz form on **budgetbeepro.com** is failing to save user data with a **500
+Internal Server Error**.
 
 ## Root Cause
 
-**Missing environment variables in production.** The Google Sheets API credentials are configured locally but NOT on your production server.
+**Missing environment variables in production.** The Google Sheets API
+credentials are configured locally but NOT on your production server.
 
 ## Evidence
 
 1. ✅ Local testing works perfectly (we created test contact successfully)
-2. ❌ Production shows: `POST https://budgetbeepro.com/api/sheets 500 (Internal Server Error)`
-3. ❌ Console error: `[QUIZ] Error handling submission Error: Failed to add data to sheet`
-4. ✅ Brevo IS working in production (you have 1 contact in List #9 - "Test User")
+2. ❌ Production shows:
+   `POST https://budgetbeepro.com/api/sheets 500 (Internal Server Error)`
+3. ❌ Console error:
+   `[QUIZ] Error handling submission Error: Failed to add data to sheet`
+4. ✅ Brevo IS working in production (you have 1 contact in List #9 - "Test
+   User")
 
 ## Solution
 
@@ -74,7 +79,8 @@ After adding environment variables, test:
 ## Impact
 
 - 🚫 **No user data is being saved** to Google Sheets in production
-- ⚠️ Users see error message: "We couldn't confirm your registration. Please try again in a moment."
+- ⚠️ Users see error message: "We couldn't confirm your registration. Please try
+  again in a moment."
 - ✅ Brevo contacts ARE being created (partial success)
 
 ## Priority

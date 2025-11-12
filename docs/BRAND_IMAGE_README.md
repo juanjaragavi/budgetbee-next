@@ -2,7 +2,8 @@
 
 ## 📖 Documentation Index
 
-This folder contains comprehensive documentation for generating brand-consistent, hyper-realistic stock photography for the BudgetBee website.
+This folder contains comprehensive documentation for generating
+brand-consistent, hyper-realistic stock photography for the BudgetBee website.
 
 ---
 
@@ -11,7 +12,8 @@ This folder contains comprehensive documentation for generating brand-consistent
 **New to this system?** Start here:
 
 1. **Read:** `BRAND_IMAGE_QUICK_PROMPT.md` (5 minutes)
-2. **Try:** Generate your first image using Example 1 from `BRAND_IMAGE_PRACTICAL_EXAMPLES.md` (15 minutes)
+2. **Try:** Generate your first image using Example 1 from
+   `BRAND_IMAGE_PRACTICAL_EXAMPLES.md` (15 minutes)
 3. **Reference:** Use `BRAND_VISUAL_SPECIFICATIONS.md` for quality checks
 
 **Experienced user?** Jump to:
@@ -44,7 +46,8 @@ This folder contains comprehensive documentation for generating brand-consistent
 
 **File:** `BRAND_IMAGE_GENERATION_PROMPT.md`  
 **Purpose:** Comprehensive prompt template with detailed instructions  
-**Read this if:** You need the complete, detailed prompt with full explanations  
+**Read this if:** You need the complete, detailed prompt with full
+explanations  
 **Contains:**
 
 - Master prompt template (full version)
@@ -79,7 +82,8 @@ This folder contains comprehensive documentation for generating brand-consistent
 
 **File:** `BRAND_VISUAL_SPECIFICATIONS.md`  
 **Purpose:** Detailed technical and design specifications  
-**Read this if:** You need precise measurements, standards, and quality criteria  
+**Read this if:** You need precise measurements, standards, and quality
+criteria  
 **Contains:**
 
 - Brand color system (hex, RGB, CMYK, Pantone)
@@ -98,7 +102,8 @@ This folder contains comprehensive documentation for generating brand-consistent
 
 **File:** `BRAND_IMAGE_PRACTICAL_EXAMPLES.md`  
 **Purpose:** Ready-to-use prompts for the three attached reference images  
-**Read this if:** You want to generate images immediately using the reference files  
+**Read this if:** You want to generate images immediately using the reference
+files  
 **Contains:**
 
 - Custom prompt for "woman with credit card" reference
@@ -389,7 +394,8 @@ Focus on:
 
 ### External Resources
 
-- **Next.js Image Optimization:** https://nextjs.org/docs/app/api-reference/components/image
+- **Next.js Image Optimization:**
+  https://nextjs.org/docs/app/api-reference/components/image
 - **WebP Conversion:** https://squoosh.app
 - **WCAG Accessibility:** https://www.w3.org/WAI/WCAG21/quickref/
 - **Color Contrast Checker:** https://webaim.org/resources/contrastchecker/
@@ -401,19 +407,24 @@ Focus on:
 ### Common Questions
 
 **Q: Which document should I start with?**  
-A: Start with `BRAND_IMAGE_QUICK_PROMPT.md` if you want to generate immediately, or `BRAND_IMAGE_IMPLEMENTATION_SUMMARY.md` if you want the full context first.
+A: Start with `BRAND_IMAGE_QUICK_PROMPT.md` if you want to generate immediately,
+or `BRAND_IMAGE_IMPLEMENTATION_SUMMARY.md` if you want the full context first.
 
 **Q: Can I modify the brand colors?**  
-A: No. Brand colors (#D72638 and #003DA5) are fixed and must be used exactly as specified.
+A: No. Brand colors (#D72638 and #003DA5) are fixed and must be used exactly as
+specified.
 
 **Q: How many images should I generate per reference?**  
-A: Generate 2-3 variations of each reference image to provide options for selection.
+A: Generate 2-3 variations of each reference image to provide options for
+selection.
 
 **Q: What if the LLM doesn't follow the prompt exactly?**  
-A: Iterate with specific adjustment requests. See the troubleshooting section in `BRAND_IMAGE_PRACTICAL_EXAMPLES.md`.
+A: Iterate with specific adjustment requests. See the troubleshooting section in
+`BRAND_IMAGE_PRACTICAL_EXAMPLES.md`.
 
 **Q: Do I need to generate responsive variants manually?**  
-A: Yes. After generating the main image, create 3 sizes (1920px, 1280px, 768px) using Sharp or similar tools.
+A: Yes. After generating the main image, create 3 sizes (1920px, 1280px, 768px)
+using Sharp or similar tools.
 
 ---
 
@@ -458,4 +469,5 @@ This documentation system is successful when:
 
 ---
 
-_For updates to this documentation system, please update this README.md file to reflect changes in the document structure or workflow._
+_For updates to this documentation system, please update this README.md file to
+reflect changes in the document structure or workflow._

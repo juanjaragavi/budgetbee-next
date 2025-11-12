@@ -2,7 +2,10 @@
 
 ## Issue Description
 
-**Problem**: An empty overlay was appearing and persisting on credit card product articles (e.g., `/financial-solutions/santander-uk-credit-card`) shortly after page load. The overlay consisted of a small loading indicator positioned at the bottom-right of the page that wouldn't disappear.
+**Problem**: An empty overlay was appearing and persisting on credit card
+product articles (e.g., `/financial-solutions/santander-uk-credit-card`) shortly
+after page load. The overlay consisted of a small loading indicator positioned
+at the bottom-right of the page that wouldn't disappear.
 
 **User Impact**:
 
@@ -14,9 +17,11 @@
 
 ### The Overlay System
 
-The AdZep SPA Bridge uses an overlay system to prevent layout shifts while ad units initialize:
+The AdZep SPA Bridge uses an overlay system to prevent layout shifts while ad
+units initialize:
 
-1. **Overlay Shows**: When navigating to article-like paths (including `/financial-solutions/*`)
+1. **Overlay Shows**: When navigating to article-like paths (including
+   `/financial-solutions/*`)
 2. **Ad Activation**: System attempts to activate AdZep and render ads
 3. **Verification**: Checks if ad creatives have rendered
 4. **Overlay Hides**: Should hide once ads render or after verification retries
@@ -27,9 +32,11 @@ The AdZep SPA Bridge uses an overlay system to prevent layout shifts while ad un
 2. **Verification Dependency**: Overlay only hid if:
    - Ad creatives were detected (`hasRenderedCreative()` returned true)
    - OR verification retries were exhausted (4 retries × 1500ms = 6 seconds)
-3. **Detection Issues**: If `hasRenderedCreative()` failed to detect ads, overlay could persist indefinitely
+3. **Detection Issues**: If `hasRenderedCreative()` failed to detect ads,
+   overlay could persist indefinitely
 4. **Timeout Cleanup**: No cleanup of overlay timeout when manually hiding
-5. **Visibility**: Overlay was too prominent (dark color, high opacity, fast animation)
+5. **Visibility**: Overlay was too prominent (dark color, high opacity, fast
+   animation)
 
 ### Why It Persisted
 
@@ -49,7 +56,8 @@ Result: Overlay stuck on screen
 
 **File**: `/components/analytics/adzep-spa-bridge.tsx`
 
-Added a 3-second absolute timeout that hides the overlay regardless of ad rendering status:
+Added a 3-second absolute timeout that hides the overlay regardless of ad
+rendering status:
 
 ```typescript
 // When showing overlay

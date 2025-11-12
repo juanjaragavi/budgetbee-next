@@ -4,29 +4,40 @@
 
 ### Symptoms
 
-When UTM parameters were present in the URL (e.g., `https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`), interactive elements such as:
+When UTM parameters were present in the URL (e.g.,
+`https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`),
+interactive elements such as:
 
 - Call to Action (CTA) buttons
 - Inline text links
 - Navigation links
 
-Failed to fire their `onClick` action on the first click, requiring a double-click to execute the intended action.
+Failed to fire their `onClick` action on the first click, requiring a
+double-click to execute the intended action.
 
 ### Root Cause
 
-The issue was caused by the `UtmPersister` component's URL replacement mechanism interfering with user click events. Here's the technical breakdown:
+The issue was caused by the `UtmPersister` component's URL replacement mechanism
+interfering with user click events. Here's the technical breakdown:
 
-1. **URL Replacement During Interaction**: When a page loaded or navigated without UTM parameters, the `UtmPersister` would attempt to restore them from `sessionStorage` by calling `router.replace()`.
+1. **URL Replacement During Interaction**: When a page loaded or navigated
+   without UTM parameters, the `UtmPersister` would attempt to restore them from
+   `sessionStorage` by calling `router.replace()`.
 
-2. **Race Condition**: This URL replacement could happen while a user was clicking on a link or button, causing the click event to be lost because the URL changed mid-click.
+2. **Race Condition**: This URL replacement could happen while a user was
+   clicking on a link or button, causing the click event to be lost because the
+   URL changed mid-click.
 
-3. **Timing Issue**: The original implementation used a simple 100ms timeout, which was insufficient to ensure all click events completed before URL modification.
+3. **Timing Issue**: The original implementation used a simple 100ms timeout,
+   which was insufficient to ensure all click events completed before URL
+   modification.
 
 ## Solution Implemented
 
 ### 1. **User Interaction Detection**
 
-Added global event listeners to detect when users are actively interacting with the page:
+Added global event listeners to detect when users are actively interacting with
+the page:
 
 ```typescript
 // Global state to track user interactions
@@ -194,10 +205,12 @@ If issues are detected:
 
 ## Alternative Approaches Considered
 
-1. **Click-time URL modification**: Instead of modifying hrefs, append UTM parameters at click time
+1. **Click-time URL modification**: Instead of modifying hrefs, append UTM
+   parameters at click time
    - ❌ Rejected: Would require intercepting all clicks, more complex
 
-2. **History API instead of router.replace()**: Use native history.replaceState()
+2. **History API instead of router.replace()**: Use native
+   history.replaceState()
    - ❌ Rejected: Next.js router provides better integration
 
 3. **Remove URL persistence entirely**: Only track in sessionStorage

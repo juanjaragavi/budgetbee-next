@@ -85,7 +85,7 @@ try {
             }
           : error,
     },
-    "Operation failed",
+    "Operation failed"
   );
 }
 ```
@@ -113,7 +113,7 @@ logger.error(
     userId,
     attemptCount,
   },
-  "Auth failed",
+  "Auth failed"
 );
 ```
 

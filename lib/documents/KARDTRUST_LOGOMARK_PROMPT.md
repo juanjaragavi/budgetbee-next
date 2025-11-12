@@ -13,21 +13,32 @@
 
 ---
 
-Create a modern, minimalist logomark icon for BudgetBee, a US financial comparison platform for credit cards and loans.
+Create a modern, minimalist logomark icon for BudgetBee, a US financial
+comparison platform for credit cards and loans.
 
-**Visual Style:** Clean geometric design, professional fintech branding, modern corporate identity, scalable vector logo
+**Visual Style:** Clean geometric design, professional fintech branding, modern
+corporate identity, scalable vector logo
 
-**Color Palette:** Primary red #DC2626 (RGB 220,38,38) with optional blue #2563EB (RGB 37,99,235) accents
+**Color Palette:** Primary red #DC2626 (RGB 220,38,38) with optional blue
+#2563EB (RGB 37,99,235) accents
 
-**Design Concept:** Combine these elements - shield shape for trust and security, credit card silhouette (rectangular with rounded corners), checkmark or approval symbol. Create an abstract letter K monogram that incorporates financial protection symbolism.
+**Design Concept:** Combine these elements - shield shape for trust and
+security, credit card silhouette (rectangular with rounded corners), checkmark
+or approval symbol. Create an abstract letter K monogram that incorporates
+financial protection symbolism.
 
-**Style Requirements:** Minimalist, bold geometric shapes, sharp professional edges with intentional curves, flat design or subtle gradient, negative space for dual meaning, must work at 32px size and scale to billboard
+**Style Requirements:** Minimalist, bold geometric shapes, sharp professional
+edges with intentional curves, flat design or subtle gradient, negative space
+for dual meaning, must work at 32px size and scale to billboard
 
-**Mood:** Trustworthy, modern, professional, American, empowering, clean, confident
+**Mood:** Trustworthy, modern, professional, American, empowering, clean,
+confident
 
-**Avoid:** Dollar signs, coins, piggy banks, overly complex details, photorealism, literal credit card images, thin lines
+**Avoid:** Dollar signs, coins, piggy banks, overly complex details,
+photorealism, literal credit card images, thin lines
 
-**Format:** Square icon, transparent background, vector-ready, bold enough for favicon use
+**Format:** Square icon, transparent background, vector-ready, bold enough for
+favicon use
 
 ---
 
@@ -35,15 +46,23 @@ Create a modern, minimalist logomark icon for BudgetBee, a US financial comparis
 
 ### Option 1 - Shield Focus
 
-"Modern minimalist financial logo icon, red shield #DC2626 with credit card silhouette, geometric abstract K lettermark, professional fintech branding, clean vector design, trustworthy and bold, scalable from 32px to large, flat or subtle gradient, transparent background"
+"Modern minimalist financial logo icon, red shield #DC2626 with credit card
+silhouette, geometric abstract K lettermark, professional fintech branding,
+clean vector design, trustworthy and bold, scalable from 32px to large, flat or
+subtle gradient, transparent background"
 
 ### Option 2 - Card Focus
 
-"Abstract credit card icon logo, geometric red #DC2626 and blue #2563EB, modernist financial emblem, rounded rectangle with checkmark, professional minimalist design, trust and security symbolism, vector scalable, American finance brand identity"
+"Abstract credit card icon logo, geometric red #DC2626 and blue #2563EB,
+modernist financial emblem, rounded rectangle with checkmark, professional
+minimalist design, trust and security symbolism, vector scalable, American
+finance brand identity"
 
 ### Option 3 - Monogram Focus
 
-"Letter K monogram logo, integrated shield and card shapes, bold red #DC2626 primary color, geometric professional design, financial trust symbol, minimal clean aesthetic, scalable icon, fintech branding, transparent background"
+"Letter K monogram logo, integrated shield and card shapes, bold red #DC2626
+primary color, geometric professional design, financial trust symbol, minimal
+clean aesthetic, scalable icon, fintech branding, transparent background"
 
 ---
 
@@ -67,7 +86,8 @@ Create a modern, minimalist logomark icon for BudgetBee, a US financial comparis
 - Scalable: 32px minimum to large sizes
 - Works in single color and reversed (white on dark)
 
-**Usage Context:** Website favicon, mobile app icon, social media profiles, part of full logo with "BudgetBee" text
+**Usage Context:** Website favicon, mobile app icon, social media profiles, part
+of full logo with "BudgetBee" text
 
 ---
 
@@ -82,15 +102,19 @@ Create a modern, minimalist logomark icon for BudgetBee, a US financial comparis
 - Lock + Card for security
 - Upward arrow + Shield for growth and protection
 
-**Typography Pairing:** Will be combined with "BudgetBee" in Inter font family and tagline "Your trusted guide to finance in the United States"
+**Typography Pairing:** Will be combined with "BudgetBee" in Inter font family
+and tagline "Your trusted guide to finance in the United States"
 
-**Key Success Criteria:** Instantly recognizable, bold confident shapes, subtle financial symbolism, visual balance, memorable as standalone icon, professional yet approachable
+**Key Success Criteria:** Instantly recognizable, bold confident shapes, subtle
+financial symbolism, visual balance, memorable as standalone icon, professional
+yet approachable
 
 ---
 
 ## Document Information
 
-- **Source:** Comprehensive analysis of BudgetBee codebase (BRANDING.md, README.md, app files, component structure)
+- **Source:** Comprehensive analysis of BudgetBee codebase (BRANDING.md,
+  README.md, app files, component structure)
 - **Brand Identity Extracted From:**
   - `/BRANDING.md` - Complete brand guidelines
   - `/app/layout.tsx` - Site metadata and branding
@@ -98,7 +122,8 @@ Create a modern, minimalist logomark icon for BudgetBee, a US financial comparis
   - `/lib/constants.ts` - Brand constants
   - `/site.webmanifest` - PWA configuration
 - **Color Palette Source:** Tailwind configuration and brand guidelines
-- **Target Platform:** LLM-based image generation services (DALL-E, Midjourney, Stable Diffusion, etc.)
+- **Target Platform:** LLM-based image generation services (DALL-E, Midjourney,
+  Stable Diffusion, etc.)
 - **Next Steps:**
   1. Use this prompt with AI image generation service
   2. Generate multiple logomark variations

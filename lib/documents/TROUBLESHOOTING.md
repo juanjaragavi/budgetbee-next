@@ -2,7 +2,8 @@
 
 ## ✅ What We Know Works
 
-Based on comprehensive testing, **both API endpoints are functioning correctly**:
+Based on comprehensive testing, **both API endpoints are functioning
+correctly**:
 
 - **Google Sheets API** (`/api/sheets`): ✅ Working (Status 201)
 - **Brevo API** (`/api/subscribe`): ✅ Working (Contact ID 47442 created)
@@ -10,7 +11,8 @@ Based on comprehensive testing, **both API endpoints are functioning correctly**
 
 ## 🔍 Possible Issues
 
-Since the APIs work when tested directly but data isn't being sent from the actual form, the issue is likely in one of these areas:
+Since the APIs work when tested directly but data isn't being sent from the
+actual form, the issue is likely in one of these areas:
 
 ### 1. Form Not Being Submitted
 
@@ -66,7 +68,8 @@ grep -n "use client" components/credit-card-form.tsx
 **How to verify:**
 
 - Add this temporary debug code to see what's happening
-- Open `components/credit-card-form.tsx` and add console.log in the handleSubmit function
+- Open `components/credit-card-form.tsx` and add console.log in the handleSubmit
+  function
 
 ### 5. Environment Variables Not Loaded
 
@@ -233,4 +236,5 @@ Based on your findings from the troubleshooting steps above, we can:
 
 ---
 
-**Remember:** The APIs are working perfectly. The issue is somewhere between the user clicking "Submit" and the form actually calling those APIs.
+**Remember:** The APIs are working perfectly. The issue is somewhere between the
+user clicking "Submit" and the form actually calling those APIs.

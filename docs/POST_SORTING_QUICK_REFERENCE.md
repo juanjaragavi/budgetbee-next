@@ -2,7 +2,8 @@
 
 ## What Changed
 
-All post listing pages now display posts sorted by date with the **newest posts appearing first**.
+All post listing pages now display posts sorted by date with the **newest posts
+appearing first**.
 
 ## Affected Pages
 

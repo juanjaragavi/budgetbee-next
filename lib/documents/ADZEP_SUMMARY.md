@@ -2,7 +2,8 @@
 
 ## ✅ Implementation Complete
 
-The AdZep tag has been successfully implemented in your Next.js project with the following features:
+The AdZep tag has been successfully implemented in your Next.js project with the
+following features:
 
 ### 🎯 Core Implementation
 
@@ -95,15 +96,19 @@ In development mode, you'll see:
 
 ### Single Point of Control
 
-The AdZep implementation uses **ONE centralized activation point** to prevent redundant calls:
+The AdZep implementation uses **ONE centralized activation point** to prevent
+redundant calls:
 
-- **✅ AdZepCentralizedHandler** (in header): ONLY component that calls `window.AdZepActivateAds()`
+- **✅ AdZepCentralizedHandler** (in header): ONLY component that calls
+  `window.AdZepActivateAds()`
 - **📊 Tracker components**: Used for analytics/logging ONLY (no activation)
 - **🚫 No multiple activation points**: Eliminates Google ad loading conflicts
 
 ### Why This Matters
 
-Multiple calls to `window.AdZepActivateAds()` cause Google to attempt loading multiple ads into the same `div` element, which is unsupported and can prevent ad display entirely. The centralized approach ensures:
+Multiple calls to `window.AdZepActivateAds()` cause Google to attempt loading
+multiple ads into the same `div` element, which is unsupported and can prevent
+ad display entirely. The centralized approach ensures:
 
 - ✅ Proper ad loading without conflicts
 - ✅ Optimal performance maintained

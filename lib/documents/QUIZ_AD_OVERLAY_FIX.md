@@ -2,11 +2,17 @@
 
 ## Issue Description
 
-**Problem**: Users completing the Quiz form experienced an overlay appearing after entering their name, preventing them from clicking the CTA button. Ad units were being served on Quiz pages despite ads being explicitly disabled.
+**Problem**: Users completing the Quiz form experienced an overlay appearing
+after entering their name, preventing them from clicking the CTA button. Ad
+units were being served on Quiz pages despite ads being explicitly disabled.
 
-**Root Cause**: The AdZep SPA Bridge was attempting to activate ads on ALL pages, including quiz pages where ads should never appear. The `<AdController disableAds={true} />` component only hides ad containers with CSS but doesn't prevent the AdZep activation logic from running.
+**Root Cause**: The AdZep SPA Bridge was attempting to activate ads on ALL
+pages, including quiz pages where ads should never appear. The
+`<AdController disableAds={true} />` component only hides ad containers with CSS
+but doesn't prevent the AdZep activation logic from running.
 
-**Screenshot Evidence**: Users reported overlay blocking the submit button immediately after form completion.
+**Screenshot Evidence**: Users reported overlay blocking the submit button
+immediately after form completion.
 
 ## Solution Implemented
 
@@ -17,7 +23,8 @@
 Added new configuration:
 
 - `excludedPaths` array in `AdZepConfig` interface
-- Helper function `isExcludedPath()` to check if current path should never show ads
+- Helper function `isExcludedPath()` to check if current path should never show
+  ads
 - Configured `/quiz` and `/quiz-2` as excluded paths
 
 ```typescript
@@ -116,16 +123,20 @@ const handleRouteComplete = async () => {
 
 ## Benefits
 
-1. **User Experience**: Quiz forms are now fully functional without ad interference
-2. **Clean Separation**: Excluded paths list centralizes ad-free page configuration
+1. **User Experience**: Quiz forms are now fully functional without ad
+   interference
+2. **Clean Separation**: Excluded paths list centralizes ad-free page
+   configuration
 3. **Performance**: No unnecessary ad activation attempts on quiz pages
 4. **Maintainable**: Easy to add more excluded paths in the future
 5. **Explicit Control**: Clear declaration of where ads should never appear
 
 ## Related Components
 
-- **AdController** (`/components/ads/AdController.tsx`) - Still useful for hiding ad containers with CSS
-- **Quiz Pages** (`/app/quiz/page.tsx`, `/app/quiz-2/page.tsx`) - Already use `disableAds={true}`
+- **AdController** (`/components/ads/AdController.tsx`) - Still useful for
+  hiding ad containers with CSS
+- **Quiz Pages** (`/app/quiz/page.tsx`, `/app/quiz-2/page.tsx`) - Already use
+  `disableAds={true}`
 - **AdZep Config** (`/lib/ads/config.ts`) - Centralized ad configuration
 - **Overlay Utilities** (`/lib/ads/overlay.ts`) - Manages overlay visibility
 

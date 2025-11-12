@@ -2,11 +2,13 @@
 
 ## Issue
 
-Interstitial and Offerwall ad units had unresponsive Close buttons, preventing users from dismissing ads.
+Interstitial and Offerwall ad units had unresponsive Close buttons, preventing
+users from dismissing ads.
 
 ## Root Cause
 
-The `AdZepInterstitialBlocker` component was using overly aggressive selectors that matched **legitimate AdZep ad units** instead of just malicious overlays:
+The `AdZepInterstitialBlocker` component was using overly aggressive selectors
+that matched **legitimate AdZep ad units** instead of just malicious overlays:
 
 ```typescript
 // These patterns matched BOTH malicious AND legitimate elements
@@ -19,11 +21,14 @@ const interstitialPatterns = [
 ];
 ```
 
-The component used `MutationObserver` + `requestAnimationFrame` to continuously scan and **immediately remove** matching elements, including AdZep's own ad units.
+The component used `MutationObserver` + `requestAnimationFrame` to continuously
+scan and **immediately remove** matching elements, including AdZep's own ad
+units.
 
 ## Solution
 
-**Completely disabled** the `AdZepInterstitialBlocker` component while preserving its structure for documentation.
+**Completely disabled** the `AdZepInterstitialBlocker` component while
+preserving its structure for documentation.
 
 ### File Modified
 
@@ -63,7 +68,8 @@ No TypeScript errors, production build successful.
 
 ## Future Considerations
 
-If malicious overlays become an issue again, implement a more targeted solution that:
+If malicious overlays become an issue again, implement a more targeted solution
+that:
 
 1. Uses whitelist approach for legitimate ad networks
 2. Checks element origin/source

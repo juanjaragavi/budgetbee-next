@@ -2,13 +2,14 @@
 
 ## Issue Summary
 
-**Date**: October 28, 2025
-**Severity**: Critical
-**Status**: ✅ RESOLVED
+**Date**: October 28, 2025 **Severity**: Critical **Status**: ✅ RESOLVED
 
 ### Problem Description
 
-Credit card **product pages** (individual card benefit pages) were incorrectly appearing on the Personal Finance category page at `/personal-finance`. These product pages belong in the Financial Solutions category (`/financial-solutions`), not Personal Finance.
+Credit card **product pages** (individual card benefit pages) were incorrectly
+appearing on the Personal Finance category page at `/personal-finance`. These
+product pages belong in the Financial Solutions category
+(`/financial-solutions`), not Personal Finance.
 
 The Personal Finance category should ONLY contain:
 
@@ -20,13 +21,15 @@ The Personal Finance category should ONLY contain:
 
 The Financial Solutions category should contain:
 
-- Individual credit card product pages (e.g., "Amazon Rewards Visa Credit Card Benefits")
+- Individual credit card product pages (e.g., "Amazon Rewards Visa Credit Card
+  Benefits")
 - Specific loan product pages
 - Individual financial product reviews and details
 
 ### Root Cause
 
-The `/app/personal-finance/page.tsx` file contained **40+ product-specific credit card entries** in its `allPosts` array with slugs pointing to pages that:
+The `/app/personal-finance/page.tsx` file contained **40+ product-specific
+credit card entries** in its `allPosts` array with slugs pointing to pages that:
 
 1. Don't exist in the `/app/personal-finance/` directory
 2. Actually exist in the `/app/financial-solutions/` directory
@@ -35,7 +38,8 @@ The `/app/personal-finance/page.tsx` file contained **40+ product-specific credi
 This caused confusion for users who would:
 
 - See product posts listed on the Personal Finance archive page
-- Click on them and get 404 errors (since they don't exist at `/personal-finance/[slug]`)
+- Click on them and get 404 errors (since they don't exist at
+  `/personal-finance/[slug]`)
 - Not find product pages where they belong (in Financial Solutions)
 
 ## Changes Made
@@ -254,6 +258,5 @@ fix: Remove product pages from Personal Finance category listing
 
 ---
 
-**Fixed By**: GitHub Copilot
-**Date**: October 28, 2025
-**Ticket**: Personal Finance Product Categorization Issue
+**Fixed By**: GitHub Copilot **Date**: October 28, 2025 **Ticket**: Personal
+Finance Product Categorization Issue

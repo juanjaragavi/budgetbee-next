@@ -1,8 +1,12 @@
 # Financial Product Page Generation Request
 
-Generate a financial product page pair (benefits and requirements), following these rules:
+Generate a financial product page pair (benefits and requirements), following
+these rules:
 
-**IMPORTANT**: Before proceeding, read and apply all instructions from the System Prompt file located at `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md` in the workspace. Follow all guidelines, structures, and compliance rules defined in that file.
+**IMPORTANT**: Before proceeding, read and apply all instructions from the
+System Prompt file located at
+`/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md` in the workspace. Follow
+all guidelines, structures, and compliance rules defined in that file.
 
 <ProductPageRequest>
 
@@ -15,7 +19,8 @@ Generate a financial product page pair (benefits and requirements), following th
 - **Official Product URL:** [Official URL]
 - **Main Keywords:** Credit Cards, [Product Name]
 - **Page Title:** Discover the Benefits of [Product Name]
-- **Content Focus:** Product features, benefits, eligibility, application process
+- **Content Focus:** Product features, benefits, eligibility, application
+  process
 - **SEO Intent Type:** Commercial/Transactional
 - **Funnel Stage:** MOFU/BOFU (Consideration/Decision)
 - **Market:** United States
@@ -24,12 +29,15 @@ Generate a financial product page pair (benefits and requirements), following th
 ## Brand and Visual Assets
 
 - **Brand Color:** #[hexcode] (hex color code for primary brand buttons/accents)
-- **Hero Image URL:** <https://media.topfinanzas.com/images/budgetbee/[product-slug].webp>
-- **Requirements Image URL:** <https://media.topfinanzas.com/images/budgetbee/[product-slug]-requirements.webp>
+- **Hero Image URL:**
+  <https://media.topfinanzas.com/images/budgetbee/[product-slug].webp>
+- **Requirements Image URL:**
+  <https://media.topfinanzas.com/images/budgetbee/[product-slug]-requirements.webp>
 
 ## Data Sources
 
-**IMPORTANT**: Extract all product information from the official product URL first, then supplement with CSV data.
+**IMPORTANT**: Extract all product information from the official product URL
+first, then supplement with CSV data.
 
 ### Primary Data Source
 
@@ -54,7 +62,8 @@ Generate a financial product page pair (benefits and requirements), following th
 
 - **Location**: `lib/documents/topfinanzas-us-topic-outline.csv`
 - **Access method**: Use `fetch_txt` tool
-- **Purpose**: Supplement official data, provide SEO metadata, brand colors, image URLs
+- **Purpose**: Supplement official data, provide SEO metadata, brand colors,
+  image URLs
 - **Extract**:
   - Product category and provider
   - Keywords and page titles
@@ -69,16 +78,21 @@ Generate a financial product page pair (benefits and requirements), following th
 
 - **Location**: <https://budgetbeepro.com/sitemap.xml>
 - **Access method**: Use `fetch_txt` tool
-- **Purpose**: Identify existing articles and pages for internal linking opportunities
-- **Usage**: Add 2-3 relevant internal links per page using Next.js Link component
+- **Purpose**: Identify existing articles and pages for internal linking
+  opportunities
+- **Usage**: Add 2-3 relevant internal links per page using Next.js Link
+  component
 
 </ProductPageRequest>
 
 <Instructions>
 
-1. **Read System Prompt**: First, locate and read the complete system prompt at `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md` to understand all requirements, structures, and compliance rules.
+1. **Read System Prompt**: First, locate and read the complete system prompt at
+   `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md` to understand all
+   requirements, structures, and compliance rules.
 
-2. **Browse the Official Product URL**: Navigate to [Official URL] using `fetch_webpage` and extract all relevant information:
+2. **Browse the Official Product URL**: Navigate to [Official URL] using
+   `fetch_webpage` and extract all relevant information:
    - Product features and benefits (minimum 4 key features)
    - APR rates and interest rate information
    - Annual fees, application fees, and other charges
@@ -88,15 +102,19 @@ Generate a financial product page pair (benefits and requirements), following th
    - Any special terms, conditions, or promotional offers
    - Required representative APR examples and risk warnings
 
-3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at `lib/documents/topfinanzas-us-topic-outline.csv`. Cross-reference the extracted information with the corresponding product row to ensure:
+3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at
+   `lib/documents/topfinanzas-us-topic-outline.csv`. Cross-reference the
+   extracted information with the corresponding product row to ensure:
    - Brand color hex code is available
    - Hero and requirements image URLs are provided
    - SEO metadata (keywords, page title) is complete
    - Content focus and suggested angles are noted
 
-4. **Retrieve US Sitemap**: Use `fetch_txt` to access <https://budgetbeepro.com/sitemap.xml> and identify:
+4. **Retrieve US Sitemap**: Use `fetch_txt` to access
+   <https://budgetbeepro.com/sitemap.xml> and identify:
    - Related credit card product pages
-   - Relevant Personal Finance articles (e.g., credit card guides, rewards strategies)
+   - Relevant Personal Finance articles (e.g., credit card guides, rewards
+     strategies)
    - Financial Solutions category pages
    - Plan 2-3 internal links per page
 
@@ -106,7 +124,8 @@ Generate a financial product page pair (benefits and requirements), following th
    - Ensure all critical information is accurate and compliant
    - Flag any contradictions or missing information
 
-6. **Generate Content**: Create TWO complete Next.js page components (.tsx files) with:
+6. **Generate Content**: Create TWO complete Next.js page components (.tsx
+   files) with:
    - Production-ready TypeScript code
    - American English throughout
    - Compliance-aware representative APR examples and risk warnings
@@ -120,7 +139,8 @@ Generate a financial product page pair (benefits and requirements), following th
 
 7. **Directory Placement**: Create files at:
    - `/app/financial-solutions/[product-slug]/page.tsx` (benefits page)
-   - `/app/financial-solutions/[product-slug]-requirements/page.tsx` (requirements page)
+   - `/app/financial-solutions/[product-slug]-requirements/page.tsx`
+     (requirements page)
 
 8. **Content Length**: Follow guidelines based on product type:
    - Credit Card Benefits Page: 800-1,200 words
@@ -141,7 +161,8 @@ TWO complete Next.js page components:
 2. **Requirements Page**
    - **File**: `/app/financial-solutions/[product-slug]-requirements/page.tsx`
    - **Focus**: Eligibility, application process, costs, documentation
-   - **Sections**: Qualification criteria, required docs, costs/fees, application steps, FAQs
+   - **Sections**: Qualification criteria, required docs, costs/fees,
+     application steps, FAQs
    - **Links**: Benefits page, related products, personal finance guides
 
 Both files must:
@@ -169,9 +190,13 @@ Review these existing pages for structure and styling patterns:
 
 Additional US financial product URLs for pattern reference:
 
-- Chase Sapphire Preferred: <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred>
-- American Express Blue Cash Preferred: <https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/>
-- Capital One Venture Rewards: <https://www.capitalone.com/credit-cards/venture/>
-- Discover it Cash Back: <https://www.discover.com/credit-cards/cash-back/it-card.html>
+- Chase Sapphire Preferred:
+  <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred>
+- American Express Blue Cash Preferred:
+  <https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/>
+- Capital One Venture Rewards:
+  <https://www.capitalone.com/credit-cards/venture/>
+- Discover it Cash Back:
+  <https://www.discover.com/credit-cards/cash-back/it-card.html>
 
 </ExampleURLsForReference>

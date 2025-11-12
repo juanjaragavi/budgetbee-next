@@ -29,7 +29,8 @@
 1. **Open**: `/lib/documents/prompt-to-generate-tofu-posts.md`
 2. **Edit**: Replace `{title}` with your article title
 3. **Submit**: Send the prompt to your AI assistant
-4. **Result**: Receive a complete `.tsx` file for `/app/personal-finance/{slug}/page.tsx`
+4. **Result**: Receive a complete `.tsx` file for
+   `/app/personal-finance/{slug}/page.tsx`
 
 ### Generate a Financial Product Page
 
@@ -93,7 +94,8 @@ Before generating content, ensure:
 - [ ] CSV topic outline exists: `lib/documents/topfinanzas-topic-outline.csv`
 - [ ] Sitemap is accessible: `https://budgetbeepro.com/sitemap.xml`
 - [ ] CDN is configured: `https://media.topfinanzas.com/`
-- [ ] Template articles exist in `/app/personal-finance/` or `/app/financial-solutions/`
+- [ ] Template articles exist in `/app/personal-finance/` or
+      `/app/financial-solutions/`
 
 ## 📝 Post-Generation Tasks
 
@@ -110,7 +112,8 @@ After receiving generated content:
 ### For Product Pages
 
 - [ ] Save benefits page to `/app/financial-solutions/{slug}/page.tsx`
-- [ ] Save requirements page to `/app/financial-solutions/{slug}-requirements/page.tsx`
+- [ ] Save requirements page to
+      `/app/financial-solutions/{slug}-requirements/page.tsx`
 - [ ] Update product listings
 - [ ] Update navigation menus
 - [ ] Verify cross-links between pages work

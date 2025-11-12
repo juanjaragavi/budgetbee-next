@@ -2,7 +2,10 @@
 
 ## Issue Description
 
-**Problem**: Empty overlays were appearing on blog listing/archive pages (like `/blog`, `/personal-finance`, `/financial-solutions`) shortly after page load. These overlays would persist for up to 3 seconds before disappearing, creating a poor user experience.
+**Problem**: Empty overlays were appearing on blog listing/archive pages (like
+`/blog`, `/personal-finance`, `/financial-solutions`) shortly after page load.
+These overlays would persist for up to 3 seconds before disappearing, creating a
+poor user experience.
 
 **User Impact**:
 
@@ -10,13 +13,15 @@
 - 3-second delay before overlay disappeared
 - No actual ads to load on these pages
 - Negative perception of site performance
-- Only Offerwall and Interstitial ad units should be full-screen, not empty overlays
+- Only Offerwall and Interstitial ad units should be full-screen, not empty
+  overlays
 
 ## Root Cause Analysis
 
 ### The Article Path Detection Logic
 
-The AdZep system uses `isArticlePath()` to determine which pages should show the overlay during ad initialization:
+The AdZep system uses `isArticlePath()` to determine which pages should show the
+overlay during ad initialization:
 
 **Original Logic** (before fix):
 
@@ -24,7 +29,7 @@ The AdZep system uses `isArticlePath()` to determine which pages should show the
 export function isArticlePath(pathname: string | null | undefined): boolean {
   if (!pathname) return false;
   return adZepConfig.articlePathPrefixes.some(
-    (p) => pathname === p || pathname.startsWith(p + "/"),
+    (p) => pathname === p || pathname.startsWith(p + "/")
   );
 }
 ```
@@ -43,12 +48,14 @@ The original logic treated both listing pages and article pages the same:
 - ✅ `/blog` → detected as article path (incorrect - no ads here)
 - ✅ `/blog/best-personal-loans` → detected as article path (correct - has ads)
 - ✅ `/personal-finance` → detected as article path (incorrect - no ads here)
-- ✅ `/personal-finance/cashback-credit-cards` → detected as article path (correct - has ads)
+- ✅ `/personal-finance/cashback-credit-cards` → detected as article path
+  (correct - has ads)
 
 **Why This Was Wrong**:
 
 1. **Listing pages don't have ad containers** - They're just lists of articles
-2. **Only individual articles have ad containers** - Like `uk_topfinanzas_3`, `uk_topfinanzas_4`
+2. **Only individual articles have ad containers** - Like `uk_topfinanzas_3`,
+   `uk_topfinanzas_4`
 3. **Overlay shows on ALL article paths** - Including listing pages without ads
 4. **3-second timeout was the only exit** - No ad containers meant no early hide
 
@@ -78,7 +85,7 @@ export function isArticlePath(pathname: string | null | undefined): boolean {
 
   // Check if path matches article prefixes
   const matchesPrefix = adZepConfig.articlePathPrefixes.some(
-    (p) => pathname === p || pathname.startsWith(p + "/"),
+    (p) => pathname === p || pathname.startsWith(p + "/")
   );
 
   if (!matchesPrefix) return false;
@@ -86,7 +93,7 @@ export function isArticlePath(pathname: string | null | undefined): boolean {
   // Exclude listing/archive pages (exact matches of prefixes)
   // These are category pages without ad containers
   const isListingPage = adZepConfig.articlePathPrefixes.some(
-    (p) => pathname === p,
+    (p) => pathname === p
   );
 
   // Only consider it an article path if it's NOT a listing page
@@ -105,9 +112,11 @@ export function isArticlePath(pathname: string | null | undefined): boolean {
 **Results**:
 
 - ❌ `/blog` → matches prefix BUT is listing page → returns `false`
-- ✅ `/blog/best-personal-loans` → matches prefix AND NOT listing → returns `true`
+- ✅ `/blog/best-personal-loans` → matches prefix AND NOT listing → returns
+  `true`
 - ❌ `/personal-finance` → matches prefix BUT is listing page → returns `false`
-- ✅ `/personal-finance/cashback-credit-cards` → matches prefix AND NOT listing → returns `true`
+- ✅ `/personal-finance/cashback-credit-cards` → matches prefix AND NOT listing
+  → returns `true`
 
 ### The Flow (After Fix)
 
@@ -200,13 +209,16 @@ Result: Brief, purposeful overlay during ad initialization
 ### Individual Articles (Should Show Overlay Briefly)
 
 - [ ] Navigate to `/blog/best-personal-loans` → Overlay appears < 1 second
-- [ ] Navigate to `/personal-finance/cashback-credit-cards` → Overlay appears then hides when ads load
-- [ ] Navigate to `/financial-solutions/santander-uk-credit-card` → Brief overlay during ad init
+- [ ] Navigate to `/personal-finance/cashback-credit-cards` → Overlay appears
+      then hides when ads load
+- [ ] Navigate to `/financial-solutions/santander-uk-credit-card` → Brief
+      overlay during ad init
 - [ ] Verify ads actually render on article pages
 
 ### Navigation Between Pages
 
-- [ ] Navigate from `/blog` to `/blog/best-personal-loans` → Overlay only on article
+- [ ] Navigate from `/blog` to `/blog/best-personal-loans` → Overlay only on
+      article
 - [ ] Navigate from article to `/blog` → No overlay on listing
 - [ ] Navigate between articles → Overlay on each (brief)
 - [ ] Back button from article to listing → No overlay on listing
@@ -347,7 +359,7 @@ Or manually restore:
 export function isArticlePath(pathname: string | null | undefined): boolean {
   if (!pathname) return false;
   return adZepConfig.articlePathPrefixes.some(
-    (p) => pathname === p || pathname.startsWith(p + "/"),
+    (p) => pathname === p || pathname.startsWith(p + "/")
   );
 }
 ```
@@ -356,7 +368,8 @@ export function isArticlePath(pathname: string | null | undefined): boolean {
 
 1. **Quiz Overlay Fix** - Excluded `/quiz` and `/quiz-2` from ad system entirely
 2. **AdZep Rendering Fix** - Added container selectors and increased timeouts
-3. **Overlay Persistence Fix** - Added 3-second maximum timeout with fade transitions
+3. **Overlay Persistence Fix** - Added 3-second maximum timeout with fade
+   transitions
 4. **This Fix** - Prevents overlay on listing/archive pages without ads
 
 ## Notes
@@ -370,11 +383,12 @@ export function isArticlePath(pathname: string | null | undefined): boolean {
 
 ## Success Criteria
 
-✅ **Listing pages load instantly** without any overlay
-✅ **Article pages still show brief overlay** during ad init
-✅ **Ads continue to render** properly on article pages
-✅ **No wasted processing** on pages without ads
-✅ **User experience improved** on all page types
-✅ **Only Offerwall/Interstitials are full-screen** - no empty overlays
+✅ **Listing pages load instantly** without any overlay ✅ **Article pages still
+show brief overlay** during ad init ✅ **Ads continue to render** properly on
+article pages ✅ **No wasted processing** on pages without ads ✅ **User
+experience improved** on all page types ✅ **Only Offerwall/Interstitials are
+full-screen** - no empty overlays
 
-This fix ensures the overlay system only activates where ads actually exist, providing a cleaner, faster experience for users browsing listing/archive pages while maintaining proper ad initialization on individual articles.
+This fix ensures the overlay system only activates where ads actually exist,
+providing a cleaner, faster experience for users browsing listing/archive pages
+while maintaining proper ad initialization on individual articles.

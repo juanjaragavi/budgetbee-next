@@ -2,7 +2,9 @@
 
 ## Summary
 
-Changed the Quiz CTA button redirect from internal path `/credit-card-recommender-p1` to external link router `https://linkly.link/2ERav` with full UTM parameter preservation.
+Changed the Quiz CTA button redirect from internal path
+`/credit-card-recommender-p1` to external link router
+`https://linkly.link/2ERav` with full UTM parameter preservation.
 
 ## Date
 
@@ -43,7 +45,8 @@ New utility module with two main functions:
 
 **Changes:**
 
-1. Added import: `import { redirectWithUtmParams } from "@/lib/utils/url-builder";`
+1. Added import:
+   `import { redirectWithUtmParams } from "@/lib/utils/url-builder";`
 2. Updated duplicate submission redirect (line ~354):
    - **Before:** `router.push("/credit-card-recommender-p1");`
    - **After:** `redirectWithUtmParams("https://linkly.link/2ERav");`
@@ -55,7 +58,8 @@ New utility module with two main functions:
 
 **Changes:**
 
-1. Added import: `import { redirectWithUtmParams } from "@/lib/utils/url-builder";`
+1. Added import:
+   `import { redirectWithUtmParams } from "@/lib/utils/url-builder";`
 2. Updated duplicate submission redirect (line ~354):
    - **Before:** `router.push("/credit-card-recommender-p1");`
    - **After:** `redirectWithUtmParams("https://linkly.link/2ERav");`
@@ -67,9 +71,12 @@ New utility module with two main functions:
 
 ### How UTM Preservation Works
 
-1. **UTM Capture**: UTM parameters are captured on page load via `UTMTracker` component (already implemented)
-2. **Storage**: Parameters stored in `sessionStorage` using keys from `UTM_PARAM_KEYS` constant
-3. **Retrieval**: `buildUrlWithUtmParams()` reads all UTM values from sessionStorage
+1. **UTM Capture**: UTM parameters are captured on page load via `UTMTracker`
+   component (already implemented)
+2. **Storage**: Parameters stored in `sessionStorage` using keys from
+   `UTM_PARAM_KEYS` constant
+3. **Retrieval**: `buildUrlWithUtmParams()` reads all UTM values from
+   sessionStorage
 4. **URL Building**: Creates URLSearchParams and appends to destination URL
 5. **Redirect**: Uses `window.location.href` for external navigation
 
@@ -99,9 +106,12 @@ https://linkly.link/2ERav?utm_source=google&utm_campaign=credit_cards&utm_medium
 
 ## Benefits
 
-1. **Full Attribution**: All campaign tracking parameters preserved through redirect
-2. **Link Router Flexibility**: Linkly can update destination without code changes
-3. **Analytics Continuity**: UTM parameters available at destination for tracking
+1. **Full Attribution**: All campaign tracking parameters preserved through
+   redirect
+2. **Link Router Flexibility**: Linkly can update destination without code
+   changes
+3. **Analytics Continuity**: UTM parameters available at destination for
+   tracking
 4. **Clean Implementation**: Reusable utility for future external redirects
 5. **Backward Compatible**: Gracefully handles missing UTM parameters
 
@@ -127,7 +137,8 @@ git checkout dev -- components/credit-card-form-to-product.tsx
 git checkout dev -- lib/utils/url-builder.ts
 ```
 
-Or simply replace `redirectWithUtmParams("https://linkly.link/2ERav")` back to `router.push("/credit-card-recommender-p1")` in both form files.
+Or simply replace `redirectWithUtmParams("https://linkly.link/2ERav")` back to
+`router.push("/credit-card-recommender-p1")` in both form files.
 
 ## Notes
 

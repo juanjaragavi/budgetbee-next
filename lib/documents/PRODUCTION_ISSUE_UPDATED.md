@@ -14,7 +14,8 @@ Since it was working and suddenly stopped, one of these happened:
 
 ### 1. 🔥 Most Likely: Environment Variables Not Loading in Production
 
-**Problem**: The `.env.production` file exists but Next.js isn't loading it properly.
+**Problem**: The `.env.production` file exists but Next.js isn't loading it
+properly.
 
 **Why**: Next.js requires environment variables to be:
 
@@ -31,11 +32,13 @@ Since it was working and suddenly stopped, one of these happened:
 
 ### 2. 🔐 Service Account Permissions Changed
 
-**Problem**: Someone may have removed the service account's access to the Google Sheet
+**Problem**: Someone may have removed the service account's access to the Google
+Sheet
 
 **Check**:
 
-1. Open the Google Sheet: <https://docs.google.com/spreadsheets/d/11Su3cEkJbVPcCqix2oc1Md-3XbKagySuobf9FfakdIs/edit>
+1. Open the Google Sheet:
+   <https://docs.google.com/spreadsheets/d/11Su3cEkJbVPcCqix2oc1Md-3XbKagySuobf9FfakdIs/edit>
 2. Click "Share" button
 3. Verify this email has Editor access:
 
@@ -154,17 +157,16 @@ Access your production logs:
 vercel logs
 ```
 
-**Netlify**:
-Check Functions logs in dashboard
+**Netlify**: Check Functions logs in dashboard
 
-**Other platforms**:
-Check application logs in your hosting dashboard
+**Other platforms**: Check application logs in your hosting dashboard
 
 ## Immediate Action Plan
 
 ### Step 1: Verify Environment Variables in Hosting Platform
 
-Most hosting platforms require environment variables to be set in their dashboard, NOT just in `.env.production` file.
+Most hosting platforms require environment variables to be set in their
+dashboard, NOT just in `.env.production` file.
 
 **Where to check**:
 
@@ -206,7 +208,8 @@ If variables are missing from hosting platform:
 
 ### Step 4: Check Google Sheet Permissions
 
-1. Open sheet: <https://docs.google.com/spreadsheets/d/11Su3cEkJbVPcCqix2oc1Md-3XbKagySuobf9FfakdIs/edit>
+1. Open sheet:
+   <https://docs.google.com/spreadsheets/d/11Su3cEkJbVPcCqix2oc1Md-3XbKagySuobf9FfakdIs/edit>
 2. Click "Share"
 3. Confirm this email has Editor access:
    `sheets-service-account@absolute-brook-452020-d5.iam.gserviceaccount.com`
@@ -253,4 +256,5 @@ The fix steps differ significantly between platforms!
 
 ---
 
-**Next Action**: Check if environment variables are configured in your hosting platform's dashboard, not just in the `.env.production` file.
+**Next Action**: Check if environment variables are configured in your hosting
+platform's dashboard, not just in the `.env.production` file.

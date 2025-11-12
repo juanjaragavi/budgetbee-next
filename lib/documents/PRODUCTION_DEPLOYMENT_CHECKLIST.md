@@ -2,9 +2,8 @@
 
 ## Migration from Vercel Staging to GCP Production Server
 
-**Date:** October 29, 2025
-**Environment:** GCP Compute Engine (Ubuntu/Apache 2.0)
-**Production URL:** <https://budgetbeepro.com>
+**Date:** October 29, 2025 **Environment:** GCP Compute Engine (Ubuntu/Apache
+2.0) **Production URL:** <https://budgetbeepro.com>
 
 ---
 
@@ -18,7 +17,8 @@
 
 ### 2. Blog Post Metadata URLs
 
-- [x] Replaced all `uk.budgetbeepro.com` with `budgetbeepro.com` in 13 metadata files
+- [x] Replaced all `uk.budgetbeepro.com` with `budgetbeepro.com` in 13 metadata
+      files
 - [x] Directory: `/app/personal-finance/*/metadata.ts`
 - [x] All Open Graph URLs now point to production domain
 - [x] Verified no remaining staging URLs
@@ -421,13 +421,13 @@ If issues arise, rollback by:
 ## 📚 Additional Documentation
 
 - Project Instructions: `/.github/copilot-instructions.md`
-- AdZep Implementation: `/.github/instructions/ADZEP_IMPLEMENTATION.instructions.md`
-- Blog Integration: `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+- AdZep Implementation:
+  `/.github/instructions/ADZEP_IMPLEMENTATION.instructions.md`
+- Blog Integration:
+  `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 - Git Workflow: `/.github/instructions/PUSH-AND-COMMIT.instructions.md`
 
 ---
 
-**Deployment Status:** ✅ Ready for Production
-**Prepared by:** AI Assistant
-**Date:** October 29, 2025
-**Version:** 1.0
+**Deployment Status:** ✅ Ready for Production **Prepared by:** AI Assistant
+**Date:** October 29, 2025 **Version:** 1.0

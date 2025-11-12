@@ -40,7 +40,8 @@
 
 #### 5. Documentation ✅
 
-- **Created** `docs/ASTRO_TO_NEXTJS_MIGRATION_PLAN.md` - Comprehensive migration plan
+- **Created** `docs/ASTRO_TO_NEXTJS_MIGRATION_PLAN.md` - Comprehensive migration
+  plan
 - **Created** this Quick Start Guide
 
 ---
@@ -74,7 +75,8 @@ cp -r /Users/macbookpro/GitHub/budgetbee/public/images/* /Users/macbookpro/GitHu
 
 **Time Estimate**: 3-4 hours
 
-**Source**: `/Users/macbookpro/GitHub/budgetbee/src/layouts/partials/Header.astro`  
+**Source**:
+`/Users/macbookpro/GitHub/budgetbee/src/layouts/partials/Header.astro`  
 **Target**: `components/layout/header.tsx`
 
 **Key Features to Implement**:
@@ -183,7 +185,8 @@ export default function RootLayout({ children }) {
 
 **Time Estimate**: 2-3 hours
 
-**Source**: `/Users/macbookpro/GitHub/budgetbee/src/layouts/partials/Footer.astro`  
+**Source**:
+`/Users/macbookpro/GitHub/budgetbee/src/layouts/partials/Footer.astro`  
 **Target**: `components/layout/footer.tsx`
 
 **Key Features**:

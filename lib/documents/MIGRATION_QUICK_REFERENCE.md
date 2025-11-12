@@ -4,9 +4,12 @@
 
 ### Critical Fixes
 
-1. **Ad Container IDs** - Now consistent everywhere: `us_budgetbeepro_1` and `budgetbeepro_ad_2`
-2. **Date Format** - Standardized to US format: `Month DD, YYYY` (e.g., "October 24, 2025")
-3. **Regulatory Names** - Expanded for clarity: "Consumer Financial Protection Bureau" instead of just "CFPB"
+1. **Ad Container IDs** - Now consistent everywhere: `us_budgetbeepro_1` and
+   `budgetbeepro_ad_2`
+2. **Date Format** - Standardized to US format: `Month DD, YYYY` (e.g., "October
+   24, 2025")
+3. **Regulatory Names** - Expanded for clarity: "Consumer Financial Protection
+   Bureau" instead of just "CFPB"
 
 ### Files Updated
 
@@ -91,7 +94,8 @@ date: "Month DD, YYYY"; // e.g., "October 24, 2025"  ✅
 
 ### Integration Checklist
 
-When creating a new blog post, follow these steps from `BLOG_POST_INTEGRATION.instructions.md`:
+When creating a new blog post, follow these steps from
+`BLOG_POST_INTEGRATION.instructions.md`:
 
 1. ✅ Create article file in `/app/personal-finance/[slug]/page.tsx`
 2. ✅ Update `app/blog/page.tsx` - add to `allPosts` array
@@ -139,7 +143,8 @@ cp .github/instructions/BLOG_POST_INTEGRATION.instructions.md.backup \
 ## Need Help?
 
 - **Full Details**: See `lib/documents/TOPFINANZAS_UK_MIGRATION_SUMMARY.md`
-- **Integration Guide**: See `.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+- **Integration Guide**: See
+  `.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 - **Generation Guide**: See `lib/TOFU_BLOG_POST_GENERATION.instructions.md`
 
 ---

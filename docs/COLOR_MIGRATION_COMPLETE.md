@@ -8,7 +8,9 @@
 
 ## Executive Summary
 
-Successfully migrated the BudgetBee codebase from the inherited green/blue color palette (BudgetBee template) to a new red/blue palette specifically designed for the BudgetBee brand and US market.
+Successfully migrated the BudgetBee codebase from the inherited green/blue color
+palette (BudgetBee template) to a new red/blue palette specifically designed for
+the BudgetBee brand and US market.
 
 ---
 
@@ -107,7 +109,8 @@ Applied across all `.tsx` and `.ts` files in `/app` and `/components`:
 
 #### Special Cases
 
-- **Analytics Validation Panel**: Updated to use new secondary blue colors for consistency while preserving green for success states (UX standard)
+- **Analytics Validation Panel**: Updated to use new secondary blue colors for
+  consistency while preserving green for success states (UX standard)
 
 ---
 
@@ -116,29 +119,25 @@ Applied across all `.tsx` and `.ts` files in `/app` and `/components`:
 ### Primary Colors (Red Spectrum)
 
 ```markdown
-DEFAULT: #DC2626 (red-600) → Main brand color, CTAs, primary actions
-Light: #EF4444 (red-500) → Lighter backgrounds, highlights
-Dark: #B91C1C (red-700) → Hover states, pressed states
-Accent: #F87171 (red-400) → Softer accents, badges
+DEFAULT: #DC2626 (red-600) → Main brand color, CTAs, primary actions Light:
+#EF4444 (red-500) → Lighter backgrounds, highlights Dark: #B91C1C (red-700) →
+Hover states, pressed states Accent: #F87171 (red-400) → Softer accents, badges
 ```
 
 ### Secondary Colors (Blue Spectrum)
 
 ```markdown
-DEFAULT: #2563EB (blue-600) → Secondary CTAs, links, highlights
-Light: #3B82F6 (blue-500) → Lighter variants
-Dark: #1D4ED8 (blue-700) → Hover states
-Navy: #1E3A8A (blue-900) → Headers, text, navigation
+DEFAULT: #2563EB (blue-600) → Secondary CTAs, links, highlights Light: #3B82F6
+(blue-500) → Lighter variants Dark: #1D4ED8 (blue-700) → Hover states Navy:
+#1E3A8A (blue-900) → Headers, text, navigation
 ```
 
 ### Supporting Colors
 
 ```markdown
-Red-50: #FEF2F2 → Light red backgrounds
-Blue-50: #EFF6FF → Light blue backgrounds
-Blue-300: #93C5FD → Hover states (footer links)
-Orange-500: #F97316 → Accent for CTA buttons (preserved)
-Gray-500: #6B7280 → Muted text (preserved)
+Red-50: #FEF2F2 → Light red backgrounds Blue-50: #EFF6FF → Light blue
+backgrounds Blue-300: #93C5FD → Hover states (footer links) Orange-500: #F97316
+→ Accent for CTA buttons (preserved) Gray-500: #6B7280 → Muted text (preserved)
 ```
 
 ---
@@ -281,7 +280,8 @@ If issues arise, revert changes by:
 1. Restore `tailwind.config.js` from git history
 2. Restore `app/globals.css` from git history
 3. Restore `app/critical.css` from git history
-4. Run: `git checkout HEAD~1 -- site.webmanifest public/site.webmanifest app/site.webmanifest`
+4. Run:
+   `git checkout HEAD~1 -- site.webmanifest public/site.webmanifest app/site.webmanifest`
 5. Run global find/replace to revert component changes:
    - `bg-primary` → `bg-green-400`
    - `text-primary` → `text-green-500`
@@ -296,7 +296,8 @@ If issues arise, revert changes by:
 2. ✅ **Visual QA**: Check all major pages and components
 3. ✅ **Test interactivity**: CTAs, forms, navigation
 4. ✅ **Test responsive**: Mobile, tablet, desktop
-5. ⏭️ **Typography update**: Proceed with font/typography changes (next iteration)
+5. ⏭️ **Typography update**: Proceed with font/typography changes (next
+   iteration)
 6. ⏭️ **Production build**: `npm run build`
 7. ⏭️ **Deploy**: After successful testing
 

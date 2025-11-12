@@ -2,7 +2,9 @@
 
 ## Overview
 
-The AdZep tag has been successfully integrated into this Next.js project with a comprehensive implementation that handles both script loading and function invocation requirements.
+The AdZep tag has been successfully integrated into this Next.js project with a
+comprehensive implementation that handles both script loading and function
+invocation requirements.
 
 ## Components
 
@@ -12,7 +14,8 @@ The core AdZep implementation includes:
 
 - **AdZep**: Main component that loads the AdZep script
 - **useAdZep**: Hook for manual AdZep activation
-- **AdZepCentralizedHandler**: Single centralized handler for ad activation (integrated in Header) - **ONLY ACTIVATION POINT**
+- **AdZepCentralizedHandler**: Single centralized handler for ad activation
+  (integrated in Header) - **ONLY ACTIVATION POINT**
 - **AdZepLinkHandler**: Simplified link tracking (no ad activation)
 - **AdZepNavigationHandler**: Simplified navigation tracking (no ad activation)
 
@@ -20,9 +23,12 @@ The core AdZep implementation includes:
 
 Additional tracking components for specific use cases:
 
-- **AdZepLinkTracker**: Enhanced link interaction tracking (NO ACTIVATION - tracking only)
-- **AdZepFormTracker**: Form submission and interaction tracking (NO ACTIVATION - tracking only)
-- **AdZepPageTracker**: Page visibility change tracking (NO ACTIVATION - tracking only)
+- **AdZepLinkTracker**: Enhanced link interaction tracking (NO ACTIVATION -
+  tracking only)
+- **AdZepFormTracker**: Form submission and interaction tracking (NO
+  ACTIVATION - tracking only)
+- **AdZepPageTracker**: Page visibility change tracking (NO ACTIVATION -
+  tracking only)
 
 ### 3. Manual Triggers (`/components/analytics/adzep-trigger.tsx`)
 
@@ -80,28 +86,37 @@ The `window.AdZepActivateAds()` function is called automatically:
 
 ### Single Point of Activation
 
-The AdZep implementation uses a **centralized activation strategy** to prevent redundant calls:
+The AdZep implementation uses a **centralized activation strategy** to prevent
+redundant calls:
 
 - **Only `AdZepCentralizedHandler`** calls `window.AdZepActivateAds()`
 - **All other components** are for tracking/logging purposes only
 - **Debouncing mechanism** prevents rapid successive calls within 500ms
-- **Comprehensive coverage** handles all navigation types (initial load, routing, browser navigation)
+- **Comprehensive coverage** handles all navigation types (initial load,
+  routing, browser navigation)
 
 ### Why This Approach?
 
-1. **Prevents Google Ad Loading Issues**: Multiple calls to `window.AdZepActivateAds()` cause Google to attempt loading multiple ads into the same `div` element, which is unsupported and can prevent ad display entirely.
+1. **Prevents Google Ad Loading Issues**: Multiple calls to
+   `window.AdZepActivateAds()` cause Google to attempt loading multiple ads into
+   the same `div` element, which is unsupported and can prevent ad display
+   entirely.
 
-2. **Eliminates Redundancy**: No duplicate calls or fallback mechanisms that could interfere with proper ad loading.
+2. **Eliminates Redundancy**: No duplicate calls or fallback mechanisms that
+   could interfere with proper ad loading.
 
-3. **Maintains Performance**: Single, efficient activation point with proper timing and error handling.
+3. **Maintains Performance**: Single, efficient activation point with proper
+   timing and error handling.
 
-4. **Ensures Reliability**: Consistent activation across all navigation scenarios without conflicts.
+4. **Ensures Reliability**: Consistent activation across all navigation
+   scenarios without conflicts.
 
 ## Usage Examples
 
 ### Basic Usage (Automatic)
 
-The AdZep system works automatically once integrated into the layout. No additional setup is required for basic functionality.
+The AdZep system works automatically once integrated into the layout. No
+additional setup is required for basic functionality.
 
 ### Enhanced Page Tracking
 
@@ -185,7 +200,8 @@ AdZep integrates with the Next.js navigation system properly:
 - Back/forward navigation is handled via `popstate` events
 - Client-side navigation is properly tracked on every route change
 - Initial page load activation is handled separately
-- All navigation types (internal links, browser navigation, direct URL access) trigger ads
+- All navigation types (internal links, browser navigation, direct URL access)
+  trigger ads
 
 ## Performance Considerations
 
@@ -294,6 +310,12 @@ Consider adding configuration for:
 - Environment-specific behavior
 - Custom activation triggers
 
-This implementation provides a robust, Next.js-optimized solution for AdZep integration that maintains performance while ensuring reliable ad activation across your site.
+This implementation provides a robust, Next.js-optimized solution for AdZep
+integration that maintains performance while ensuring reliable ad activation
+across your site.
 
-**Most importantly, the functionality and performance of the AdZep implementation remain unmodified and continue to work optimally**, with the key improvement being the elimination of redundant activation calls that could interfere with proper ad display. The centralized approach ensures sustained functionality and peak performance across all navigation scenarios.
+**Most importantly, the functionality and performance of the AdZep
+implementation remain unmodified and continue to work optimally**, with the key
+improvement being the elimination of redundant activation calls that could
+interfere with proper ad display. The centralized approach ensures sustained
+functionality and peak performance across all navigation scenarios.

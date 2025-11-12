@@ -2,7 +2,8 @@
 
 ## 🎯 Ready-to-Use Prompts for Attached Reference Images
 
-This document provides exact, copy-paste prompts for regenerating each of the attached reference images with BudgetBee branding.
+This document provides exact, copy-paste prompts for regenerating each of the
+attached reference images with BudgetBee branding.
 
 ---
 
@@ -382,23 +383,30 @@ Once you've mastered the three examples above, consider generating:
 
 ### Issue: "Stars look like five-pointed stars, not four-pointed"
 
-**Fix:** Add to prompt: "CRITICAL: Four-pointed stars ONLY, like compass points or plus signs with diagonal extensions. NOT five-pointed stars. NOT generic sparkles."
+**Fix:** Add to prompt: "CRITICAL: Four-pointed stars ONLY, like compass points
+or plus signs with diagonal extensions. NOT five-pointed stars. NOT generic
+sparkles."
 
 ### Issue: "Arrows are sideways or downward"
 
-**Fix:** Add: "CRITICAL: ALL arrows must point upward at angles between 45° and 90° from horizontal. Upward direction is non-negotiable."
+**Fix:** Add: "CRITICAL: ALL arrows must point upward at angles between 45° and
+90° from horizontal. Upward direction is non-negotiable."
 
 ### Issue: "Colors don't match brand exactly"
 
-**Fix:** Add: "Use EXACT hex values without approximation: #D72638 for red (not #CC0000 or similar), #003DA5 for blue (not #0055FF or similar)."
+**Fix:** Add: "Use EXACT hex values without approximation: #D72638 for red (not
+#CC0000 or similar), #003DA5 for blue (not #0055FF or similar)."
 
 ### Issue: "Composition feels cluttered"
 
-**Fix:** Add: "CRITICAL: Maintain 40-50% negative space. Use MAXIMUM 4 arrows and 6 stars total. Less is more. Breathing room is essential."
+**Fix:** Add: "CRITICAL: Maintain 40-50% negative space. Use MAXIMUM 4 arrows
+and 6 stars total. Less is more. Breathing room is essential."
 
 ### Issue: "Vector elements look pasted on, not integrated"
 
-**Fix:** Add: "Elements must have depth layering with some behind subject, some in front. Add subtle drop shadows (2-4px, 20% opacity) to arrows. Vary element opacity between 85-95%."
+**Fix:** Add: "Elements must have depth layering with some behind subject, some
+in front. Add subtle drop shadows (2-4px, 20% opacity) to arrows. Vary element
+opacity between 85-95%."
 
 ---
 
@@ -428,7 +436,10 @@ For each generated image:
 
 **Ready to Generate!** 🚀
 
-Use these examples as templates for all BudgetBee branded image generation. Customize the prompts for specific contexts, but always maintain the core brand elements: exact colors, upward arrows, four-pointed stars, and proper breathing room.
+Use these examples as templates for all BudgetBee branded image generation.
+Customize the prompts for specific contexts, but always maintain the core brand
+elements: exact colors, upward arrows, four-pointed stars, and proper breathing
+room.
 
 For questions or additional examples, refer to:
 

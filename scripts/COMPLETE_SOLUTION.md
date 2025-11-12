@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-I've developed an **automated injection script** that programmatically adds migrated financial products into the `allPosts` arrays across your Next.js application's blog listing pages.
+I've developed an **automated injection script** that programmatically adds
+migrated financial products into the `allPosts` arrays across your Next.js
+application's blog listing pages.
 
 ## ✅ What's Been Delivered
 
@@ -81,7 +83,8 @@ Which files need the Financial Solutions products injected?
 
 **Recommendation:**
 
-- ✅ `/app/personal-finance/page.tsx` - Definitely needs them (currently missing)
+- ✅ `/app/personal-finance/page.tsx` - Definitely needs them (currently
+  missing)
 - ✅ `/app/financial-solutions/page.tsx` - Verify current state
 - ⚠️ `/app/page.tsx` - Only if updating featured/recent products
 - ❌ `/app/blog/page.tsx` - Already has them
@@ -90,7 +93,8 @@ Which files need the Financial Solutions products injected?
 
 ### Option A: Inject Into Personal Finance Page Only
 
-If we just need to add the 20-21 Financial Solutions products to the Personal Finance listing:
+If we just need to add the 20-21 Financial Solutions products to the Personal
+Finance listing:
 
 ```bash
 # Run the script (will skip blog/page.tsx as duplicates exist)

@@ -9,9 +9,12 @@
 
 ## Objectives
 
-1. **Complete Framework Migration**: Transform Astro.js application to Next.js 15+ with App Router
-2. **Visual Parity**: Maintain pixel-perfect visual consistency with current production site
-3. **AdZep Integration**: Implement comprehensive ad system with proper activation
+1. **Complete Framework Migration**: Transform Astro.js application to Next.js
+   15+ with App Router
+2. **Visual Parity**: Maintain pixel-perfect visual consistency with current
+   production site
+3. **AdZep Integration**: Implement comprehensive ad system with proper
+   activation
 4. **Performance**: Match or exceed current site performance metrics
 5. **SEO Preservation**: Maintain all current SEO optimizations and structures
 
@@ -39,7 +42,8 @@
 }
 ```
 
-**Action Required**: Update `tailwind.config.js` to replace BudgetBee red/blue theme with BudgetBee yellow/green theme.
+**Action Required**: Update `tailwind.config.js` to replace BudgetBee red/blue
+theme with BudgetBee yellow/green theme.
 
 **New Tailwind Configuration**:
 
@@ -76,7 +80,8 @@ colors: {
 - **Base Size**: 16px
 - **Scale**: 1.2
 
-**Action Required**: Replace Poppins font with Montserrat and update typography scales.
+**Action Required**: Replace Poppins font with Montserrat and update typography
+scales.
 
 **Font Implementation**:
 
@@ -244,12 +249,14 @@ export default function AdZone({ id, className = '', style }: AdZoneProps) {
 - Cooldown period between activations
 - State management
 
-**Reference**: Use existing implementation from budgetbee-next `components/analytics/adzep.tsx` but adapt with BudgetBee-specific logic.
+**Reference**: Use existing implementation from budgetbee-next
+`components/analytics/adzep.tsx` but adapt with BudgetBee-specific logic.
 
 #### AdZep Utilities
 
 **Source**: `src/lib/adZepUtils.ts`  
-**Target**: `lib/ads/activate-adzep.ts` (already exists, needs BudgetBee customization)
+**Target**: `lib/ads/activate-adzep.ts` (already exists, needs BudgetBee
+customization)
 
 **Key Functions**:
 
@@ -911,7 +918,8 @@ export default function robots() {
 
 1. **AdZep Integration Failure**
    - **Risk**: Ads don't load or activate correctly
-   - **Mitigation**: Extensive testing with reference implementations; fallback mechanisms
+   - **Mitigation**: Extensive testing with reference implementations; fallback
+     mechanisms
    - **Contingency**: Keep Astro version running until ads confirmed working
 
 2. **Visual Inconsistencies**
@@ -926,7 +934,8 @@ export default function robots() {
 
 4. **SEO Impact**
    - **Risk**: Loss of search rankings during migration
-   - **Mitigation**: Maintain URL structure; proper redirects; metadata preservation
+   - **Mitigation**: Maintain URL structure; proper redirects; metadata
+     preservation
    - **Contingency**: Quick rollback plan if rankings drop significantly
 
 ### Medium-Risk Items

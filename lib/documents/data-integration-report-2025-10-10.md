@@ -44,21 +44,33 @@
 ## 3. Validation Plan
 
 1. **Client capture**
-   - Load `/quiz` and `/contact-us` with crafted query strings, e.g. `?utm_source=google&utm_medium=cpc&utm_campaign=promo&utm_content=hero&utm_term=credit+card`.
-   - In DevTools console inspect `sessionStorage` and confirm hidden fields populate by logging `window.sessionStorage.getItem("utm_source")`.
+   - Load `/quiz` and `/contact-us` with crafted query strings, e.g.
+     `?utm_source=google&utm_medium=cpc&utm_campaign=promo&utm_content=hero&utm_term=credit+card`.
+   - In DevTools console inspect `sessionStorage` and confirm hidden fields
+     populate by logging `window.sessionStorage.getItem("utm_source")`.
 2. **Sheets API (local smoke)**
    - With Google credentials configured, run `npm run dev` and submit the quiz.
-   - Inspect the terminal logs for `[Sheets API] Request received` to ensure `hasPais`, `hasMarca`, and alias flags are `true`.
-   - Verify the new columns appear in the Google Sheet (`Pais`, `Marca`, `Source`, `Medium`, `Campaign`, `Term`, `Content`, `UTM ...`).
+   - Inspect the terminal logs for `[Sheets API] Request received` to ensure
+     `hasPais`, `hasMarca`, and alias flags are `true`.
+   - Verify the new columns appear in the Google Sheet (`Pais`, `Marca`,
+     `Source`, `Medium`, `Campaign`, `Term`, `Content`, `UTM ...`).
 3. **Brevo & ConvertKit**
-   - For staging keys, execute `node scripts/test-brevo-integration.js` and confirm `attributes` include the new keys.
-   - Review the Brevo contact record (`Attributes` tab) to ensure `PAIS`, `MARCA`, `SOURCE`, `UTM_*` are populated.
-   - Check ConvertKit subscriber fields for `pais/marca` and the UTM aliases; add custom fields in the dashboard if absent.
+   - For staging keys, execute `node scripts/test-brevo-integration.js` and
+     confirm `attributes` include the new keys.
+   - Review the Brevo contact record (`Attributes` tab) to ensure `PAIS`,
+     `MARCA`, `SOURCE`, `UTM_*` are populated.
+   - Check ConvertKit subscriber fields for `pais/marca` and the UTM aliases;
+     add custom fields in the dashboard if absent.
 
-> **Note:** External integrations require live API credentials that are not available in this workspace. The steps above should be executed in staging with the appropriate `.env` values.
+> **Note:** External integrations require live API credentials that are not
+> available in this workspace. The steps above should be executed in staging
+> with the appropriate `.env` values.
 
 ## 4. Follow-up Recommendations
 
-- Backfill the new `Pais`, `Marca`, and alias columns in existing Google Sheet rows via Apps Script or Sheets API to maintain historical consistency.
-- In ConvertKit and Brevo, ensure the newly referenced custom fields (`SOURCE`, `MEDIUM`, etc.) are created and exposed in analytics dashboards.
-- Consider automated integration tests for `/api/sheets` and `/api/subscribe` using mocked HTTP clients to prevent regressions.
+- Backfill the new `Pais`, `Marca`, and alias columns in existing Google Sheet
+  rows via Apps Script or Sheets API to maintain historical consistency.
+- In ConvertKit and Brevo, ensure the newly referenced custom fields (`SOURCE`,
+  `MEDIUM`, etc.) are created and exposed in analytics dashboards.
+- Consider automated integration tests for `/api/sheets` and `/api/subscribe`
+  using mocked HTTP clients to prevent regressions.

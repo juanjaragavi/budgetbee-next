@@ -23,5 +23,15 @@
   },
   "files.associations": {
     "*.txt": "bg3txt"
-  }
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on",
+    "editor.rulers": [80]
+  },
+  "prettier.configPath": ".prettierrc.json",
+  "prettier.requireConfig": true
 }

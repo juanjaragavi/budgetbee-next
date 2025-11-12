@@ -4,7 +4,8 @@
 
 **Purpose:** Primary homepage hero banner  
 **Current Usage:** HeroSection component on homepage  
-**Context:** First impression of BudgetBee brand - financial partnership and guidance
+**Context:** First impression of BudgetBee brand - financial partnership and
+guidance
 
 ---
 
@@ -12,18 +13,23 @@
 
 **Two-Stage Approach Recommended:**
 
-Most image generation LLMs struggle to create both photorealistic imagery AND clean vector graphics in a single generation. For best results:
+Most image generation LLMs struggle to create both photorealistic imagery AND
+clean vector graphics in a single generation. For best results:
 
-1. **Stage 1 (Use prompt below):** Generate the clean photography with proper composition
-2. **Stage 2 (Post-production):** Add vector graphics (arrows/stars) in Photoshop, Figma, or Canva
+1. **Stage 1 (Use prompt below):** Generate the clean photography with proper
+   composition
+2. **Stage 2 (Post-production):** Add vector graphics (arrows/stars) in
+   Photoshop, Figma, or Canva
 
-If your LLM supports strong graphic overlay generation, you can try the full prompt. Otherwise, use **"Photography Only Prompt"** below.
+If your LLM supports strong graphic overlay generation, you can try the full
+prompt. Otherwise, use **"Photography Only Prompt"** below.
 
 ---
 
 ## 📸 Complete Generation Prompt (Photography + Graphics Attempt)
 
-**⚠️ This may only generate photography without graphics. See alternative prompts below.**
+**⚠️ This may only generate photography without graphics. See alternative
+prompts below.**
 
 ```text
 Generate a hyper-realistic, professional stock photograph for a US financial services website hero banner with BudgetBee brand elements.
@@ -257,7 +263,8 @@ KEY:
 
 ### Visual Metaphors in This Image
 
-- **Partnership (Two People):** "Your Trusted Partner" - not alone in financial journey
+- **Partnership (Two People):** "Your Trusted Partner" - not alone in financial
+  journey
 - **Collaboration (Together at laptop):** Teamwork and shared decision-making
 - **Upward Arrows:** Financial growth, positive trajectory, progress
 - **Four-Pointed Stars:** Trust, excellence, guidance, reliability
@@ -300,7 +307,8 @@ KEY:
 
 ## � RECOMMENDED: Photography Only Prompt
 
-**Use this if vector graphics aren't generating. Add graphics later in Photoshop/Figma.**
+**Use this if vector graphics aren't generating. Add graphics later in
+Photoshop/Figma.**
 
 ```text
 Generate a hyper-realistic, professional stock photograph for a US financial services website hero banner.
@@ -340,7 +348,8 @@ CRITICAL REQUIREMENTS:
 OUTPUT: Professional hero banner, web-optimized, ready for text overlay on left side.
 ```
 
-**After Generation:** Add red arrows (#D72638) and blue stars (#003DA5) using design software in the left negative space area.
+**After Generation:** Add red arrows (#D72638) and blue stars (#003DA5) using
+design software in the left negative space area.
 
 ---
 
@@ -533,4 +542,6 @@ This hero banner is successful when:
 
 ---
 
-_This prompt is specifically optimized for the BudgetBee homepage hero banner. For other hero images, adapt the subject positioning, negative space requirements, and composition while maintaining brand element consistency._
+_This prompt is specifically optimized for the BudgetBee homepage hero banner.
+For other hero images, adapt the subject positioning, negative space
+requirements, and composition while maintaining brand element consistency._

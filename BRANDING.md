@@ -37,11 +37,16 @@
 
 ### Brand Positioning
 
-BudgetBee is a trusted financial comparison platform specializing in credit cards, personal loans, and financial guidance for the United States market. We empower consumers to make informed financial decisions through expert advice, comprehensive comparisons, and user-friendly tools.
+BudgetBee is a trusted financial comparison platform specializing in credit
+cards, personal loans, and financial guidance for the United States market. We
+empower consumers to make informed financial decisions through expert advice,
+comprehensive comparisons, and user-friendly tools.
 
 ### Mission Statement
 
-To provide Americans with the most comprehensive, accurate, and user-friendly financial comparison tools and educational resources, helping them find the perfect credit cards and loans tailored to their unique needs.
+To provide Americans with the most comprehensive, accurate, and user-friendly
+financial comparison tools and educational resources, helping them find the
+perfect credit cards and loans tailored to their unique needs.
 
 ### Target Audience
 
@@ -77,7 +82,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 1. **Expert Guidance:** Professional financial advice tailored for US consumers
 2. **Comprehensive Comparison:** Side-by-side analysis of credit cards and loans
-3. **Personalized Recommendations:** Smart tools that match products to individual needs
+3. **Personalized Recommendations:** Smart tools that match products to
+   individual needs
 4. **Educational Resources:** Clear, actionable financial literacy content
 5. **Always Up-to-Date:** Current information on rates, terms, and offers
 
@@ -160,7 +166,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 ### Accessibility Standards
 
-- All color combinations meet WCAG 2.1 Level AA standards (4.5:1 contrast ratio minimum)
+- All color combinations meet WCAG 2.1 Level AA standards (4.5:1 contrast ratio
+  minimum)
 - Primary red on white: 5.6:1 contrast ratio
 - Gray-900 on white: 16.5:1 contrast ratio
 - All interactive elements have clear focus states
@@ -176,7 +183,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **Usage:** All text content
 - **Weight Range:** 400 (Regular), 500 (Medium), 600 (Semi-Bold), 700 (Bold)
 - **Format:** Google Fonts, self-hosted
-- **Fallback Stack:** `var(--font-inter), system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif`
+- **Fallback Stack:**
+  `var(--font-inter), system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif`
 - **CSS Variable:** `--font-inter`
 - **Character Set:** Latin (includes US English)
 - **Loading Strategy:** `display: swap` for performance
@@ -346,7 +354,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Color Logo (Light Backgrounds)
 
-- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png?w=200&q=75`
+- **URL:**
+  `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png?w=200&q=75`
 - **Alt Text:** "BudgetBee"
 - **Dimensions:** 160px × 42px (optimal display size)
 - **Format:** PNG (optimized)
@@ -357,7 +366,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### White Logo (Dark Backgrounds)
 
-- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png?w=200&q=75`
+- **URL:**
+  `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png?w=200&q=75`
 - **Alt Text:** "BudgetBee"
 - **Dimensions:** 160px × 42px (optimal display size)
 - **Format:** PNG (optimized)
@@ -375,7 +385,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Clear Space
 
-- Maintain minimum clear space equal to the height of the "K" in BudgetBee on all sides
+- Maintain minimum clear space equal to the height of the "K" in BudgetBee on
+  all sides
 
 #### Don'ts
 
@@ -468,7 +479,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 1. **Trust:** "Your trusted guide to finance in the United States"
 2. **Expertise:** "Expert guides and tools tailored for the US market"
-3. **Comparison:** "Compare the best US credit cards, loans, and financial solutions"
+3. **Comparison:** "Compare the best US credit cards, loans, and financial
+   solutions"
 4. **Personalization:** "Find the perfect credit card tailored to your needs"
 5. **Education:** "Make informed financial decisions"
 
@@ -484,9 +496,19 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Legal/Compliance Language
 
-- **Disclaimer Template:** "BudgetBee strives to maintain accurate and up-to-date information. This information may differ from what you see when visiting the website of a financial institution, service provider or specific product. All financial products, commercial products and services are presented without warranty. When evaluating offers, please review the Terms and Conditions of the financial institution. Pre-qualified offers are not binding."
+- **Disclaimer Template:** "BudgetBee strives to maintain accurate and
+  up-to-date information. This information may differ from what you see when
+  visiting the website of a financial institution, service provider or specific
+  product. All financial products, commercial products and services are
+  presented without warranty. When evaluating offers, please review the Terms
+  and Conditions of the financial institution. Pre-qualified offers are not
+  binding."
 
-- **Data Policy:** "By signing up, I agree to receive text messages at the phone number and email provided and I agree that I can unsubscribe from the SMS and Email list at any time. SMS message rates may apply. I also confirm that I am over 18 years old and accept the terms set out in the Terms of Use and Privacy Policy."
+- **Data Policy:** "By signing up, I agree to receive text messages at the phone
+  number and email provided and I agree that I can unsubscribe from the SMS and
+  Email list at any time. SMS message rates may apply. I also confirm that I am
+  over 18 years old and accept the terms set out in the Terms of Use and Privacy
+  Policy."
 
 ---
 
@@ -668,13 +690,17 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Hero Banner
 
-- **Background Image (Desktop):** `https://media.topfinanzas.com/images/kardtrust/banner-home.webp`
-- **Background Image (Mobile):** `https://media.topfinanzas.com/images/banner-home-mobile.webp`
+- **Background Image (Desktop):**
+  `https://media.topfinanzas.com/images/kardtrust/banner-home.webp`
+- **Background Image (Mobile):**
+  `https://media.topfinanzas.com/images/banner-home-mobile.webp`
 - **Background Position:** Center center
 - **Background Size:** Cover
 - **Padding:** 64px (py-16) mobile, 160px (py-40) desktop
-- **Text Overlay:** White background with 90% opacity, 12px padding, rounded corners
-- **Class:** `.banner-section`, `.banner-section-desktop`, `.banner-section-mobile`
+- **Text Overlay:** White background with 90% opacity, 12px padding, rounded
+  corners
+- **Class:** `.banner-section`, `.banner-section-desktop`,
+  `.banner-section-mobile`
 
 ### Navigation Styles
 
@@ -739,8 +765,10 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **Site Name:** BudgetBee
 - **Title Template:** "[Page Title] - BudgetBee"
 - **Default Title:** "BudgetBee - Your Guide to US Credit Cards & Loans"
-- **Description:** "Compare the best US credit cards, loans, and financial solutions with BudgetBee. Expert guides and tools tailored for the US market."
-- **Keywords:** "credit cards US, personal loans US, compare credit cards, compare loans, financial advice US, BudgetBee"
+- **Description:** "Compare the best US credit cards, loans, and financial
+  solutions with BudgetBee. Expert guides and tools tailored for the US market."
+- **Keywords:** "credit cards US, personal loans US, compare credit cards,
+  compare loans, financial advice US, BudgetBee"
 - **Language:** en-US (American English)
 - **Base URL:** <https://budgetbeepro.com>
 
@@ -749,7 +777,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 ##### Default OG Tags
 
 - **og:title:** "BudgetBee - Your Guide to US Credit Cards & Loans"
-- **og:description:** "Compare the best US credit cards, loans, and financial solutions with BudgetBee."
+- **og:description:** "Compare the best US credit cards, loans, and financial
+  solutions with BudgetBee."
 - **og:url:** <https://budgetbeepro.com>
 - **og:site_name:** BudgetBee
 - **og:locale:** en_US
@@ -768,8 +797,10 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 - **twitter:card:** summary_large_image
 - **twitter:title:** "BudgetBee - Your Guide to US Credit Cards & Loans"
-- **twitter:description:** "Compare the best US credit cards, loans, and financial solutions with BudgetBee."
-- **twitter:image:** `https://media.topfinanzas.com/budgetbee/images/og-image.png`
+- **twitter:description:** "Compare the best US credit cards, loans, and
+  financial solutions with BudgetBee."
+- **twitter:image:**
+  `https://media.topfinanzas.com/budgetbee/images/og-image.png`
 
 ### Schema Markup
 
@@ -951,7 +982,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 #### Page Hierarchy
 
 1. **Homepage:** Overview, featured content, primary CTAs
-2. **Category Pages:** Financial Solutions, Credit Cards, Personal Loans, Personal Finance
+2. **Category Pages:** Financial Solutions, Credit Cards, Personal Loans,
+   Personal Finance
 3. **Product Comparison Tools:** Card Recommender
 4. **Blog:** Educational articles, guides, news
 5. **Utility Pages:** About Us, Contact Us, Privacy Policy, Terms, Cookie Policy
@@ -1057,18 +1089,26 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 #### Important Notices
 
 - **Prefix:** "Important:"
-- **Email Verification:** "please check that your email is correct so we can send you the information you need"
+- **Email Verification:** "please check that your email is correct so we can
+  send you the information you need"
 
 #### Footer Content
 
 ##### Legal Disclaimer
 
-"BudgetBee strives to maintain accurate and up-to-date information. This information may differ from what you see when visiting the website of a financial institution, service provider or specific product. All financial products, commercial products and services are presented without warranty. When evaluating offers, please review the Terms and Conditions of the financial institution. Pre-qualified offers are not binding."
+"BudgetBee strives to maintain accurate and up-to-date information. This
+information may differ from what you see when visiting the website of a
+financial institution, service provider or specific product. All financial
+products, commercial products and services are presented without warranty. When
+evaluating offers, please review the Terms and Conditions of the financial
+institution. Pre-qualified offers are not binding."
 
 ##### Copyright
 
 - **Short:** "Copyright Top Networks Inc. 2025"
-- **Full:** "ALL RIGHTS RESERVED, ©TOP NETWORKS INC 2025. REPRODUCTION IN WHOLE OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM THE COPYRIGHT HOLDER IS PROHIBITED."
+- **Full:** "ALL RIGHTS RESERVED, ©TOP NETWORKS INC 2025. REPRODUCTION IN WHOLE
+  OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM
+  THE COPYRIGHT HOLDER IS PROHIBITED."
 
 ---
 
@@ -1115,9 +1155,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **Format:**
 
   ```markdown
-  Street Address
-  City, State ZIP
-  United States
+  Street Address City, State ZIP United States
   ```
 
 - **State Format:** Two-letter abbreviations (e.g., NY, CA, TX)
@@ -1161,7 +1199,8 @@ export const BRAND_STATIC_FIELDS = {
 } as const;
 ```
 
-**Note:** These constants appear to be legacy from the UK template and should be updated for US market alignment in future iterations.
+**Note:** These constants appear to be legacy from the UK template and should be
+updated for US market alignment in future iterations.
 
 ---
 
@@ -1275,7 +1314,8 @@ export const BRAND_STATIC_FIELDS = {
 
 ### Parsing Instructions for Autonomous Agents
 
-This branding guide is structured for optimal parsing by Large Language Models and autonomous agents. Key features:
+This branding guide is structured for optimal parsing by Large Language Models
+and autonomous agents. Key features:
 
 1. **Hierarchical Structure:** Clear H2/H3/H4 heading hierarchy
 2. **Semantic Sections:** Logically grouped information
@@ -1283,7 +1323,8 @@ This branding guide is structured for optimal parsing by Large Language Models a
 4. **Code Blocks:** Configuration and code examples in proper format
 5. **Consistent Formatting:** Tables, lists, and references follow patterns
 6. **Cross-References:** Links to specific files and locations
-7. **Explicit Values:** No ambiguous descriptions; exact hex codes, pixel values, class names
+7. **Explicit Values:** No ambiguous descriptions; exact hex codes, pixel
+   values, class names
 8. **Implementation Context:** File paths and variable names for direct usage
 
 ### Update Procedures
@@ -1306,7 +1347,8 @@ For agents extracting specific values:
 - **Components:** Section "Component Styling" → CSS classes and properties
 - **Files:** Section "Implementation References" → Exact file paths
 - **Metadata:** Section "SEO & Metadata" → Meta tags and descriptions
-- **Brand Voice:** Section "Brand Voice & Messaging" → Tone, terminology, key messages
+- **Brand Voice:** Section "Brand Voice & Messaging" → Tone, terminology, key
+  messages
 
 ---
 

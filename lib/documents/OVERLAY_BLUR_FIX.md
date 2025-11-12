@@ -8,7 +8,8 @@ October 20, 2025
 
 ### Symptom
 
-Blog posts and article pages in the 'Personal Finance' and 'Financial Solutions' categories were displaying an unsolicited overlay blur that:
+Blog posts and article pages in the 'Personal Finance' and 'Financial Solutions'
+categories were displaying an unsolicited overlay blur that:
 
 - Rendered all page content inaccessible
 - Blocked user interaction completely
@@ -23,13 +24,18 @@ Blog posts and article pages in the 'Personal Finance' and 'Financial Solutions'
 
 ## Root Cause Analysis
 
-The overlay was part of the AdZep SPA bridge integration system, designed to show a loading indicator while ad units initialized. The system consisted of:
+The overlay was part of the AdZep SPA bridge integration system, designed to
+show a loading indicator while ad units initialized. The system consisted of:
 
-1. **Overlay Utilities** (`/lib/ads/overlay.ts`): Created and managed a full-screen overlay element
-2. **SPA Bridge** (`/components/analytics/adzep-spa-bridge.tsx`): Called overlay functions during navigation
-3. **Config** (`/lib/ads/config.ts`): Defined which paths should trigger the overlay
+1. **Overlay Utilities** (`/lib/ads/overlay.ts`): Created and managed a
+   full-screen overlay element
+2. **SPA Bridge** (`/components/analytics/adzep-spa-bridge.tsx`): Called overlay
+   functions during navigation
+3. **Config** (`/lib/ads/config.ts`): Defined which paths should trigger the
+   overlay
 
-The overlay was intended to be a minimal, unobtrusive loading indicator, but it was causing a blur effect that blocked all page content.
+The overlay was intended to be a minimal, unobtrusive loading indicator, but it
+was causing a blur effect that blocked all page content.
 
 ## Solution Implemented
 
@@ -44,7 +50,8 @@ Converted all overlay functions to no-ops:
 - `ensureOverlay()`: Returns a dummy element that's never displayed
 - `buildOverlay()`: Creates a hidden dummy element
 
-All functions still exist to prevent breaking imports, but they perform no visual actions.
+All functions still exist to prevent breaking imports, but they perform no
+visual actions.
 
 ### 2. Removed Overlay Imports and Calls
 
@@ -193,7 +200,8 @@ npm run dev
 If the overlay blur still appears after this fix:
 
 1. Check browser cache - clear it completely
-2. Check for other overlay-related CSS (search for `position: fixed` and `z-index` in global styles)
+2. Check for other overlay-related CSS (search for `position: fixed` and
+   `z-index` in global styles)
 3. Check browser extensions that might add overlays
 4. Verify the changes were deployed correctly
 
@@ -201,11 +209,14 @@ If the overlay blur still appears after this fix:
 
 ### Browser Cache
 
-Users may need to hard refresh (Cmd+Shift+R on Mac, Ctrl+Shift+R on Windows) to see the changes immediately.
+Users may need to hard refresh (Cmd+Shift+R on Mac, Ctrl+Shift+R on Windows) to
+see the changes immediately.
 
 ### Ad Loading
 
-Ad units will now load silently in the background without any visual indicator. This is the desired behavior - ads should appear when ready without blocking content.
+Ad units will now load silently in the background without any visual indicator.
+This is the desired behavior - ads should appear when ready without blocking
+content.
 
 ### Performance
 
@@ -252,8 +263,9 @@ git revert <commit-hash>
 
 ## Conclusion
 
-The overlay blur has been completely neutralized while preserving all AdZep ad loading functionality. Users can now access blog content immediately without any visual interference, and ad revenue is unaffected.
+The overlay blur has been completely neutralized while preserving all AdZep ad
+loading functionality. Users can now access blog content immediately without any
+visual interference, and ad revenue is unaffected.
 
-**Status**: ✅ **RESOLVED**
-**Impact**: 🟢 **NO BREAKING CHANGES**
-**AdZep**: ✅ **FULLY FUNCTIONAL**
+**Status**: ✅ **RESOLVED** **Impact**: 🟢 **NO BREAKING CHANGES** **AdZep**: ✅
+**FULLY FUNCTIONAL**

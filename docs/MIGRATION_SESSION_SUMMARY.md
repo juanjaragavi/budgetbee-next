@@ -6,7 +6,8 @@ November 6, 2025
 
 ## Session Overview
 
-Initial foundation phase of migrating BudgetBee from Astro.js to Next.js 15+ with App Router, using the BudgetBee Next.js implementation as a template.
+Initial foundation phase of migrating BudgetBee from Astro.js to Next.js 15+
+with App Router, using the BudgetBee Next.js implementation as a template.
 
 ---
 
@@ -18,16 +19,20 @@ Initial foundation phase of migrating BudgetBee from Astro.js to Next.js 15+ wit
 
 **Actions**:
 
-- Analyzed original BudgetBee Astro.js repository structure at `/Users/macbookpro/GitHub/budgetbee/`
+- Analyzed original BudgetBee Astro.js repository structure at
+  `/Users/macbookpro/GitHub/budgetbee/`
 - Reviewed current budgetbee-next repository (cloned from kardtrust)
 - Identified key differences and migration requirements
 - Documented all Astro components, pages, and configuration files
 
 **Key Findings**:
 
-- **Color Palette**: Yellow/Gold (#E7B739) and Green (#7ED321) - different from BudgetBee's red/blue
-- **Typography**: Montserrat font (weights: 300, 400, 600, 700) - different from BudgetBee's Inter
-- **AdZep Integration**: Sophisticated implementation with activation state management
+- **Color Palette**: Yellow/Gold (#E7B739) and Green (#7ED321) - different from
+  BudgetBee's red/blue
+- **Typography**: Montserrat font (weights: 300, 400, 600, 700) - different from
+  BudgetBee's Inter
+- **AdZep Integration**: Sophisticated implementation with activation state
+  management
 - **Page Structure**: Similar to BudgetBee but with BudgetBee-specific branding
 - **Quiz Pages**: Special case - NO ads should load on quiz pages
 
@@ -579,7 +584,8 @@ New Next.js:
 
 ### What Went Well
 
-1. **Systematic Approach**: Analyzing both repos thoroughly before changes prevented rework
+1. **Systematic Approach**: Analyzing both repos thoroughly before changes
+   prevented rework
 2. **Documentation First**: Creating comprehensive docs provides clear roadmap
 3. **Foundation First**: Colors/typography as starting point ensures consistency
 4. **Configuration Pattern**: Centralized config makes future changes easier
@@ -588,7 +594,8 @@ New Next.js:
 
 1. **Large Scope**: Full migration is substantial - phased approach essential
 2. **AdZep Complexity**: Ad system integration requires careful planning
-3. **Visual Parity**: Exact matching of production site will require attention to detail
+3. **Visual Parity**: Exact matching of production site will require attention
+   to detail
 
 ### Recommendations
 

@@ -2,16 +2,21 @@
 
 ## Overview
 
-This document describes the implementation of date-based sorting across all post listing pages in the BudgetBee application. The solution ensures that the latest posts always appear first on every page that displays content listings.
+This document describes the implementation of date-based sorting across all post
+listing pages in the BudgetBee application. The solution ensures that the latest
+posts always appear first on every page that displays content listings.
 
 ## Problem Statement
 
-The user reported that latest posts were not showing on certain pages, and when they did appear, they weren't sorted chronologically (newest first). This was causing confusion for users and poor content discoverability.
+The user reported that latest posts were not showing on certain pages, and when
+they did appear, they weren't sorted chronologically (newest first). This was
+causing confusion for users and poor content discoverability.
 
 ### Affected Pages
 
 - `/app/blog/page.tsx` - Had sorting but with inline logic
-- `/app/financial-solutions/page.tsx` - **No sorting** (posts shown in array order)
+- `/app/financial-solutions/page.tsx` - **No sorting** (posts shown in array
+  order)
 - `/app/personal-finance/page.tsx` - **No sorting** (posts shown in array order)
 - `/app/credit-cards/page.tsx` - **No sorting** (posts shown in array order)
 - `/app/personal-loans/page.tsx` - **No sorting** (posts shown in array order)
@@ -255,7 +260,8 @@ If posts aren't sorting correctly:
 ## Related Documentation
 
 - Project Rules: `.github/instructions/project-rules.instructions.md`
-- Blog Post Integration: `.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
+- Blog Post Integration:
+  `.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 - Next.js App Router: Official Next.js documentation
 
 ## Contact

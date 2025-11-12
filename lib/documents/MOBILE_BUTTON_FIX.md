@@ -2,23 +2,28 @@
 
 ## Issue Summary
 
-**Problem**: CTA buttons on mobile viewports required two taps to trigger navigation:
+**Problem**: CTA buttons on mobile viewports required two taps to trigger
+navigation:
 
 - First tap: Activated hover state (visual changes)
 - Second tap: Triggered the actual click/navigation
 
-**Impact**: Critical UX issue affecting conversion rates and user experience on all mobile blog articles in Personal Finance and Financial Solutions categories.
+**Impact**: Critical UX issue affecting conversion rates and user experience on
+all mobile blog articles in Personal Finance and Financial Solutions categories.
 
 ## Root Cause
 
-The issue was caused by CSS hover pseudo-classes combined with transform properties:
+The issue was caused by CSS hover pseudo-classes combined with transform
+properties:
 
 ```css
 /* Problematic pattern */
 className="bg-orange-500 hover:bg-orange-600 ... transform hover:-translate-y-0.5 hover:shadow-lg"
 ```
 
-On mobile/touch devices, browsers interpret the first tap as activating the `:hover` state, and only the second tap triggers the click event. This is standard browser behavior when hover states with transforms are present.
+On mobile/touch devices, browsers interpret the first tap as activating the
+`:hover` state, and only the second tap triggers the click event. This is
+standard browser behavior when hover states with transforms are present.
 
 ## Solution
 
@@ -26,7 +31,8 @@ Implemented a touch-device-aware CSS approach using CSS media queries:
 
 ### 1. Added Touch-Friendly CSS Utilities (`app/globals.css`)
 
-Created CSS utility classes that only apply hover transforms on devices with true hover capability:
+Created CSS utility classes that only apply hover transforms on devices with
+true hover capability:
 
 ```css
 .cta-button-orange {
@@ -51,7 +57,8 @@ Created CSS utility classes that only apply hover transforms on devices with tru
 
 ### 2. Updated All Affected Files
 
-Used an automated script (`scripts/fix-mobile-button-tap.js`) to replace inline hover classes with the new utility classes across 18 files:
+Used an automated script (`scripts/fix-mobile-button-tap.js`) to replace inline
+hover classes with the new utility classes across 18 files:
 
 **Before:**
 
@@ -75,7 +82,8 @@ Used an automated script (`scripts/fix-mobile-button-tap.js`) to replace inline 
 
 ### CSS Changes
 
-- `app/globals.css` - Added `.cta-button-orange` and `.cta-button-blue` utility classes
+- `app/globals.css` - Added `.cta-button-orange` and `.cta-button-blue` utility
+  classes
 
 ### Personal Finance Articles (18 files)
 
@@ -124,11 +132,14 @@ Used an automated script (`scripts/fix-mobile-button-tap.js`) to replace inline 
 
 ### CSS Media Query Explanation
 
-**`@media (hover: hover)`**: Targets devices that support true hover (like mice). This excludes touch devices where "hover" is emulated.
+**`@media (hover: hover)`**: Targets devices that support true hover (like
+mice). This excludes touch devices where "hover" is emulated.
 
-**`@media (pointer: fine)`**: Targets devices with fine-grained pointing devices (mice, trackpads). This excludes touch devices.
+**`@media (pointer: fine)`**: Targets devices with fine-grained pointing devices
+(mice, trackpads). This excludes touch devices.
 
-**`@media (hover: none) and (pointer: coarse)`**: Targets touch devices exclusively.
+**`@media (hover: none) and (pointer: coarse)`**: Targets touch devices
+exclusively.
 
 By combining these, we ensure:
 
@@ -175,7 +186,8 @@ By combining these, we ensure:
 
 - **Bundle size**: +0.3KB (minimal - utility classes only)
 - **Runtime performance**: No impact - pure CSS
-- **Browser compatibility**: Excellent - all modern browsers support hover media queries
+- **Browser compatibility**: Excellent - all modern browsers support hover media
+  queries
 
 ## References
 

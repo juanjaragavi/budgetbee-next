@@ -15,7 +15,8 @@ npm warn deprecated sendgrid@5.2.3: Please see v6.X+ at https://www.npmjs.com/or
 
 ## Root Cause
 
-The project had **both** the old `sendgrid@5.2.3` package AND the modern `@sendgrid/mail` package installed. The old `sendgrid` package is:
+The project had **both** the old `sendgrid@5.2.3` package AND the modern
+`@sendgrid/mail` package installed. The old `sendgrid` package is:
 
 - Deprecated since 2018
 - Brings outdated sub-dependencies (`mailparser@0.6.2`, `mimelib@0.3.1`)
@@ -25,7 +26,8 @@ The project had **both** the old `sendgrid@5.2.3` package AND the modern `@sendg
 
 ### 1. Removed Deprecated Package
 
-Removed `sendgrid@5.2.3` from `package.json` since we're already using the modern alternative.
+Removed `sendgrid@5.2.3` from `package.json` since we're already using the
+modern alternative.
 
 **Before:**
 
@@ -64,7 +66,8 @@ npm install
 
 ## Why This Happened
 
-The `sendgrid` package was likely added accidentally or from an old migration. The correct package to use with SendGrid is `@sendgrid/mail`, which:
+The `sendgrid` package was likely added accidentally or from an old migration.
+The correct package to use with SendGrid is `@sendgrid/mail`, which:
 
 - Is actively maintained
 - Has modern features and security updates
@@ -73,7 +76,8 @@ The `sendgrid` package was likely added accidentally or from an old migration. T
 
 ## Migration Check
 
-Since we're not using the old `sendgrid` package in the code (verified via grep search), removing it is **100% safe** and won't break anything.
+Since we're not using the old `sendgrid` package in the code (verified via grep
+search), removing it is **100% safe** and won't break anything.
 
 ### Code Uses Modern Package
 
@@ -150,7 +154,9 @@ The build output shows experimental features enabled:
   ✓ parallelServerBuildTraces
 ```
 
-These are **not warnings** - they're informational messages about features you've enabled in `next.config.mjs`. They're safe to keep if they're improving your build performance.
+These are **not warnings** - they're informational messages about features
+you've enabled in `next.config.mjs`. They're safe to keep if they're improving
+your build performance.
 
 ### About Telemetry
 
@@ -176,4 +182,5 @@ npx next telemetry disable
 
 - [SendGrid Node.js Documentation](https://docs.sendgrid.com/for-developers/sending-email/v3-nodejs-code-example)
 - [@sendgrid/mail npm package](https://www.npmjs.com/package/@sendgrid/mail)
-- [Deprecated sendgrid package](https://www.npmjs.com/package/sendgrid) (shows deprecation notice)
+- [Deprecated sendgrid package](https://www.npmjs.com/package/sendgrid) (shows
+  deprecation notice)

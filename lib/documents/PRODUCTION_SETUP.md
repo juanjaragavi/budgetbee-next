@@ -2,7 +2,8 @@
 
 ## Problem Identified
 
-The Google Sheets API is returning **500 Internal Server Error** in production because environment variables are not configured on the production server.
+The Google Sheets API is returning **500 Internal Server Error** in production
+because environment variables are not configured on the production server.
 
 ## Error Details
 
@@ -130,7 +131,8 @@ After setting up environment variables:
 
 If you see "Invalid private key" error:
 
-- Make sure the private key includes the full `-----BEGIN PRIVATE KEY-----` and `-----END PRIVATE KEY-----` markers
+- Make sure the private key includes the full `-----BEGIN PRIVATE KEY-----` and
+  `-----END PRIVATE KEY-----` markers
 - Ensure newline characters are properly escaped as `\n`
 - Wrap the entire key in double quotes
 

@@ -2,7 +2,9 @@
 
 ## Problem
 
-After analyzing the console output, we discovered that the blur overlay blocking blog content was **not our custom overlay** - it was **AdZep's interstitial ad format** (`uk_topfinanzas_com_mob_interstitial`).
+After analyzing the console output, we discovered that the blur overlay blocking
+blog content was **not our custom overlay** - it was **AdZep's interstitial ad
+format** (`uk_topfinanzas_com_mob_interstitial`).
 
 The console showed:
 
@@ -11,7 +13,9 @@ Interstitial adUnit: 'uk_topfinanzas_com_mob_interstitial'
 ⚠️ Rewardful não ficou pronto no tempo limite
 ```
 
-This interstitial ad was being automatically created by AdZep and covering the entire page with a semi-transparent blur, preventing users from accessing article content.
+This interstitial ad was being automatically created by AdZep and covering the
+entire page with a semi-transparent blur, preventing users from accessing
+article content.
 
 ## Root Cause
 
@@ -66,7 +70,8 @@ Created a React component that actively monitors and removes interstitials:
 #### Key Features
 
 1. **Path-Based Activation**
-   - Only runs on article pages: `/blog/`, `/personal-finance/`, `/financial-solutions/`
+   - Only runs on article pages: `/blog/`, `/personal-finance/`,
+     `/financial-solutions/`
    - Doesn't interfere with interstitials on other pages (homepage, quiz, etc.)
 
 2. **MutationObserver Monitoring**
@@ -187,7 +192,8 @@ The blocker runs client-side and activates automatically on article pages.
 
 - Homepage can still show interstitials
 - Quiz pages can show interstitials
-- Only blocked on `/blog/`, `/personal-finance/`, `/financial-solutions/` sub-pages
+- Only blocked on `/blog/`, `/personal-finance/`, `/financial-solutions/`
+  sub-pages
 
 ## Performance Impact
 
@@ -221,10 +227,13 @@ This helps with debugging and verification.
 ## Why This Approach Works
 
 1. **CSS provides instant blocking** - Elements are hidden immediately
-2. **JavaScript ensures persistent blocking** - Removes elements even if CSS is overridden
-3. **MutationObserver catches dynamic injection** - Detects elements added after page load
+2. **JavaScript ensures persistent blocking** - Removes elements even if CSS is
+   overridden
+3. **MutationObserver catches dynamic injection** - Detects elements added after
+   page load
 4. **Periodic cleanup catches everything else** - Safety net for edge cases
-5. **Path-based targeting preserves monetization** - Only blocks on content pages
+5. **Path-based targeting preserves monetization** - Only blocks on content
+   pages
 
 ## Comparison to Previous Approaches
 
@@ -237,9 +246,12 @@ This helps with debugging and verification.
 
 ## Result
 
-**Blog and article pages now load without any blocking overlay**, while preserving AdZep's ability to show interstitials on other page types where they may be appropriate.
+**Blog and article pages now load without any blocking overlay**, while
+preserving AdZep's ability to show interstitials on other page types where they
+may be appropriate.
 
-Users can immediately access and read blog content without manual page refreshes or overlay dismissals.
+Users can immediately access and read blog content without manual page refreshes
+or overlay dismissals.
 
 ## Date
 
@@ -247,5 +259,4 @@ December 2024
 
 ## Status
 
-✅ Implemented and tested
-🟢 No breaking changes to existing ad functionality
+✅ Implemented and tested 🟢 No breaking changes to existing ad functionality

@@ -1,10 +1,14 @@
 # WARP.md
 
-This file provides guidance to WARP (warp.dev) when working with code in this repository.
+This file provides guidance to WARP (warp.dev) when working with code in this
+repository.
 
 ## Project Overview
 
-BudgetBee is a Next.js 15+ financial services comparison website for the United States market, built with TypeScript and Tailwind CSS. The site specializes in credit card and personal loan comparison tools with sophisticated multi-step forms and comprehensive analytics tracking.
+BudgetBee is a Next.js 15+ financial services comparison website for the United
+States market, built with TypeScript and Tailwind CSS. The site specializes in
+credit card and personal loan comparison tools with sophisticated multi-step
+forms and comprehensive analytics tracking.
 
 ## Common Development Commands
 
@@ -62,25 +66,17 @@ bash ./scripts/cookie-validation-control.sh {config|disable|enable|test|deploy}
 ### Directory Structure
 
 ```markdown
-/app # Next.js App Router pages and API routes
-/api # API endpoints (sheets, subscribe, search, etc.)
-/blog # Blog pages and categories
-/credit-card-recommender-p[1-3] # Multi-step form pages
-/components
-/analytics # AdZep and GTM tracking components
-/forms # Form components with validation
-/steps # Multi-step form step components (step1, step2, step3)
-/ui # Shadcn/UI components
-/layout # Page layouts (blog-layout, etc.)
-/mdx # MDX rendering components
-/lib
-/documents # commit-message.txt for git workflow
-/ads # Local advertisement management
-/utils # Utility functions (cn, getTextClass, etc.)
-/constants.ts # App-wide constants and strings
-/content # MDX content files
-/scripts # Deployment and workflow automation scripts
-/public # Static assets (images, fonts, manifests)
+/app # Next.js App Router pages and API routes /api # API endpoints (sheets,
+subscribe, search, etc.) /blog # Blog pages and categories
+/credit-card-recommender-p[1-3] # Multi-step form pages /components /analytics #
+AdZep and GTM tracking components /forms # Form components with validation
+/steps # Multi-step form step components (step1, step2, step3) /ui # Shadcn/UI
+components /layout # Page layouts (blog-layout, etc.) /mdx # MDX rendering
+components /lib /documents # commit-message.txt for git workflow /ads # Local
+advertisement management /utils # Utility functions (cn, getTextClass, etc.)
+/constants.ts # App-wide constants and strings /content # MDX content files
+/scripts # Deployment and workflow automation scripts /public # Static assets
+(images, fonts, manifests)
 ```
 
 ### Key System Components
@@ -125,7 +121,8 @@ NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED  # true/false
 NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION    # days (default: 1)
 ```
 
-**Production Note**: Environment files on server stored at `/opt/app/` with restricted permissions.
+**Production Note**: Environment files on server stored at `/opt/app/` with
+restricted permissions.
 
 ## US Market Specific Requirements
 
@@ -147,8 +144,12 @@ NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION    # days (default: 1)
 
 ### Blog Listing Synchronization (MANDATORY)
 
-- Whenever you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories, you must also update every `allPosts` array in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Verify that titles, descriptions, slugs, and ordering stay aligned across those arrays before completing the CRUD task
+- Whenever you create, update, or delete a blog post in the Personal Finance or
+  Financial Solutions categories, you must also update every `allPosts` array in
+  the listing `page.tsx` files (for example `app/blog/page.tsx`,
+  `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Verify that titles, descriptions, slugs, and ordering stay aligned across
+  those arrays before completing the CRUD task
 
 ## Development Patterns
 
@@ -170,7 +171,7 @@ export default function ComponentName({ className, ...props }: ComponentProps) {
 const Component = React.forwardRef<HTMLDivElement, ComponentProps>(
   ({ className, ...props }, ref) => (
     <div className={cn("base-styles", className)} ref={ref} {...props} />
-  ),
+  )
 );
 Component.displayName = "Component";
 ```
@@ -224,7 +225,8 @@ const { activateAds } = useAdZep();
 ## Common Issues & Solutions
 
 1. **Port 3007 in use**: Kill existing process or use different port
-2. **Git merge conflicts**: Script automatically resolves by keeping current changes
+2. **Git merge conflicts**: Script automatically resolves by keeping current
+   changes
 3. **AdZep not loading**: Check script order in layout.tsx (GTM must load first)
 4. **Form submission failing**: Verify Google Sheets API credentials
 5. **Cookie validation issues**: Use cookie-validation-control.sh to debug
@@ -240,6 +242,7 @@ const { activateAds } = useAdZep();
 
 ## Additional Resources
 
-- **Copilot Instructions**: `.github/copilot-instructions.md` contains detailed architecture docs
+- **Copilot Instructions**: `.github/copilot-instructions.md` contains detailed
+  architecture docs
 - **Component Docs**: `components/README.md` and `components/ads/README.md`
 - **Main README**: Project overview and basic setup instructions

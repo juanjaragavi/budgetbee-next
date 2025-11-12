@@ -6,7 +6,9 @@
 
 ## Overview
 
-This document tracks the migration of top-level pages from the original BudgetBee Astro.js website (`/Users/macbookpro/GitHub/budgetbee/`) to the new Next.js codebase (`/Users/macbookpro/GitHub/budgetbee-next/`).
+This document tracks the migration of top-level pages from the original
+BudgetBee Astro.js website (`/Users/macbookpro/GitHub/budgetbee/`) to the new
+Next.js codebase (`/Users/macbookpro/GitHub/budgetbee-next/`).
 
 ---
 
@@ -14,7 +16,8 @@ This document tracks the migration of top-level pages from the original BudgetBe
 
 ### Images Found in Top-Level Pages
 
-The following media assets were identified in the original Astro site's top-level pages:
+The following media assets were identified in the original Astro site's
+top-level pages:
 
 | Asset                     | Type              | Used In                       | Status    |
 | ------------------------- | ----------------- | ----------------------------- | --------- |
@@ -64,13 +67,15 @@ All three media assets have been successfully copied from:
    - To: "BudgetBee: Your Hive for Unbiased Financial Buzz"
 
 2. **Banner Image Updated**:
-   - From: External image `https://media.topfinanzas.com/images/kardtrust/about-us-kardtrust.webp`
+   - From: External image
+     `https://media.topfinanzas.com/images/kardtrust/about-us-kardtrust.webp`
    - To: Local image `/images/banner-art.webp`
 
 3. **Content Migrated**:
    - ✅ Main introduction section (Gen-Z/Millennial focus)
    - ✅ "Our Commitment to You" section with 3 key points
-   - ✅ "What We Cover" grid (Credit Cards, Budgeting, Financial Wellness, Money Mindset)
+   - ✅ "What We Cover" grid (Credit Cards, Budgeting, Financial Wellness, Money
+     Mindset)
    - ✅ "Built by Millennials, for the Next Generation" section
    - ✅ "Our Promise" section
    - ✅ "Ready to Get Started" CTA
@@ -316,26 +321,15 @@ Once all pages are migrated, verify:
 ### Astro Site Structure
 
 ```markdown
-/src/pages/
-├── index.astro
-├── about.astro
-├── contact.astro
-├── quiz.astro
-└── ...
+/src/pages/ ├── index.astro ├── about.astro ├── contact.astro ├── quiz.astro └──
+...
 ```
 
 ### Next.js Site Structure
 
 ```markdown
-/app/
-├── page.tsx (homepage)
-├── about-us/
-│ └── page.tsx
-├── contact-us/
-│ └── page.tsx
-├── quiz/
-│ └── page.tsx
-└── ...
+/app/ ├── page.tsx (homepage) ├── about-us/ │ └── page.tsx ├── contact-us/ │ └──
+page.tsx ├── quiz/ │ └── page.tsx └── ...
 ```
 
 ---
@@ -345,12 +339,14 @@ Once all pages are migrated, verify:
 ### Styling Differences
 
 - **Astro**: Used `bg-light` and `text-primary` Tailwind classes (likely custom)
-- **Next.js**: Replaced with `bg-gray-50` and `text-blue-600` (standard Tailwind)
+- **Next.js**: Replaced with `bg-gray-50` and `text-blue-600` (standard
+  Tailwind)
 - **Future Action**: Verify brand colors match design system
 
 ### Content Focus Shift
 
-The original about page had more generic financial management language. The migrated version emphasizes:
+The original about page had more generic financial management language. The
+migrated version emphasizes:
 
 - Gen-Z/Millennial target audience
 - Unbiased, commission-free guidance
@@ -387,7 +383,8 @@ None at this time.
 
 ## 13. Questions/Decisions Needed
 
-1. Should we keep the external CDN images for other pages or migrate all to local assets?
+1. Should we keep the external CDN images for other pages or migrate all to
+   local assets?
 2. Do we need to maintain backward compatibility with old Astro routes?
 3. Should we set up redirects from old URLs to new ones?
 4. What is the deployment strategy for gradual rollout?

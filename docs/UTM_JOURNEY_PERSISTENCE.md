@@ -2,17 +2,24 @@
 
 ## Overview
 
-This implementation ensures that UTM parameters are maintained and propagated throughout the **entire user session**, regardless of which links users click on the site. This is crucial for accurate campaign attribution and tracking user journeys from initial landing to conversion.
+This implementation ensures that UTM parameters are maintained and propagated
+throughout the **entire user session**, regardless of which links users click on
+the site. This is crucial for accurate campaign attribution and tracking user
+journeys from initial landing to conversion.
 
 ## Problem Statement
 
 ### Before Enhancement
 
-UTM parameters were being stored in sessionStorage and added to URLs via `router.replace()`, but this only happened AFTER navigation completed. This meant:
+UTM parameters were being stored in sessionStorage and added to URLs via
+`router.replace()`, but this only happened AFTER navigation completed. This
+meant:
 
 - ❌ **Link hrefs didn't contain UTM parameters** when users clicked them
-- ❌ **Navigation would briefly show URLs without UTM params** before router.replace() kicked in
-- ❌ **External analytics tracking** (like Google Analytics) might miss the UTM context on the initial page load after navigation
+- ❌ **Navigation would briefly show URLs without UTM params** before
+  router.replace() kicked in
+- ❌ **External analytics tracking** (like Google Analytics) might miss the UTM
+  context on the initial page load after navigation
 - ❌ **Server-side tracking** would not see UTM parameters in the request
 
 ### Specific Use Case - Quiz Journey
@@ -38,7 +45,8 @@ They need to maintain these parameters through:
 #### **Layer 1: UtmPersister** (Existing - Enhanced)
 
 - Stores UTM parameters in `sessionStorage` when detected in URL
-- Adds UTM parameters to URL via `router.replace()` when navigating to pages without them
+- Adds UTM parameters to URL via `router.replace()` when navigating to pages
+  without them
 - Provides backup persistence mechanism
 - Handles intelligent timing to avoid interfering with click events
 
@@ -122,7 +130,8 @@ import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 
    - ✅ `UtmLinkInjector` intercepts click (capture phase)
    - ✅ Retrieves params from sessionStorage
-   - ✅ Modifies href to: `/quiz-2?utm_source=adwords&utm_medium=cpc&utm_campaign=test`
+   - ✅ Modifies href to:
+     `/quiz-2?utm_source=adwords&utm_medium=cpc&utm_campaign=test`
    - ✅ Navigation proceeds with UTM params
 
 3. **Page Loads with UTM Parameters**
@@ -143,7 +152,7 @@ import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 ```typescript
 // If link already has UTM params, don't override
 const hasUtmParams = UTM_PARAM_KEYS.some((param) =>
-  url.searchParams.has(param),
+  url.searchParams.has(param)
 );
 if (hasUtmParams) return href;
 ```
@@ -245,7 +254,7 @@ document.addEventListener(
       console.log("Link clicked:", link.href);
     }
   },
-  true,
+  true
 );
 ```
 
@@ -275,7 +284,7 @@ document.addEventListener(
       } catch {
         return false;
       }
-    },
+    }
   );
 
   console.log(`📊 Found ${internalLinks.length} internal links\n`);
@@ -385,7 +394,7 @@ document.addEventListener(
 
 ```typescript
 const hasUtmParams = UTM_PARAM_KEYS.some((param) =>
-  url.searchParams.has(param),
+  url.searchParams.has(param)
 );
 if (hasUtmParams) return href;
 ```
@@ -443,14 +452,18 @@ if (hasUtmParams) return href;
 
 ## Summary
 
-This implementation provides **comprehensive UTM parameter persistence** throughout the user journey by:
+This implementation provides **comprehensive UTM parameter persistence**
+throughout the user journey by:
 
 - ✅ Storing UTM params in sessionStorage (UtmPersister)
 - ✅ Adding UTM params to URLs after navigation (UtmPersister)
-- ✅ **NEW: Injecting UTM params into link hrefs before navigation (UtmLinkInjector)**
+- ✅ **NEW: Injecting UTM params into link hrefs before navigation
+  (UtmLinkInjector)**
 - ✅ Working with all internal links (Next.js Link and regular anchor tags)
 - ✅ Respecting external links and special protocols
 - ✅ Optimized for performance with minimal overhead
 - ✅ Comprehensive error handling and edge case management
 
-The result is **seamless UTM tracking** from campaign landing through the entire user journey to conversion, providing accurate attribution data for marketing optimization.
+The result is **seamless UTM tracking** from campaign landing through the entire
+user journey to conversion, providing accurate attribution data for marketing
+optimization.

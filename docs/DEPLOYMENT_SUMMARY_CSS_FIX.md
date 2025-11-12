@@ -13,7 +13,8 @@
 
 ### User-Reported Issue
 
-**Production URL**: `https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`
+**Production URL**:
+`https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`
 
 **Symptoms**:
 
@@ -48,12 +49,12 @@
 - ✅ Removed DOM manipulation
 - ❌ **BUT**: Problem persisted in production
 
-**Why?**
-**CSS `!important` rules override ALL JavaScript**
+**Why?** **CSS `!important` rules override ALL JavaScript**
 
 ### The Real Culprit: app/globals.css
 
-Discovered aggressive CSS rules that were **globally blocking** all ad interactions:
+Discovered aggressive CSS rules that were **globally blocking** all ad
+interactions:
 
 ```css
 /* THE BLOCKING CSS (NOW REMOVED) */
@@ -85,7 +86,8 @@ Discovered aggressive CSS rules that were **globally blocking** all ad interacti
 ### Why This Was Catastrophic
 
 1. **Overly Broad Selectors**:
-   - `[id*="interstitial"]` matched **EVERY** element with "interstitial" in its ID
+   - `[id*="interstitial"]` matched **EVERY** element with "interstitial" in its
+     ID
    - This included **legitimate AdZep ad units** meant to generate revenue
    - No distinction between malicious overlays and revenue ads
 
@@ -110,7 +112,8 @@ Discovered aggressive CSS rules that were **globally blocking** all ad interacti
 
 ### Complete Removal of Blocking CSS
 
-**Commit**: `e89ec98` - "CRITICAL FIX: Remove CSS rules blocking AdZep ad interactions"
+**Commit**: `e89ec98` - "CRITICAL FIX: Remove CSS rules blocking AdZep ad
+interactions"
 
 **What We Did**:
 

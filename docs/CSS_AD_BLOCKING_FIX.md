@@ -2,7 +2,8 @@
 
 ## 🚨 Critical Production Bug
 
-**Issue**: Interstitial and Offerwall ad units were **completely non-functional** on production. Ads would appear but were:
+**Issue**: Interstitial and Offerwall ad units were **completely
+non-functional** on production. Ads would appear but were:
 
 - Not clickable
 - Not dismissible
@@ -13,7 +14,9 @@
 
 ### The Real Culprit: globals.css
 
-While we successfully disabled the `AdZepInterstitialBlocker` JavaScript component in a previous fix, **the problem persisted in production** because of aggressive CSS rules in `app/globals.css`:
+While we successfully disabled the `AdZepInterstitialBlocker` JavaScript
+component in a previous fix, **the problem persisted in production** because of
+aggressive CSS rules in `app/globals.css`:
 
 ```css
 /* THE BLOCKING CSS RULES (NOW REMOVED) */
@@ -98,7 +101,8 @@ User Flow:
 
 ### Complete Removal of Blocking CSS Rules
 
-**All aggressive ad-blocking CSS rules have been permanently removed from `app/globals.css`**:
+**All aggressive ad-blocking CSS rules have been permanently removed from
+`app/globals.css`**:
 
 1. ❌ Removed: `[id*="interstitial"]` patterns
 2. ❌ Removed: `[class*="rewardful"]` patterns
@@ -124,7 +128,8 @@ body[style*="overflow: hidden"] {
 }
 ```
 
-These rules **enable** interaction rather than block it, ensuring users can always scroll and interact with the page.
+These rules **enable** interaction rather than block it, ensuring users can
+always scroll and interact with the page.
 
 ## 📊 Impact Assessment
 
@@ -172,7 +177,8 @@ These rules **enable** interaction rather than block it, ensuring users can alwa
 
 ### Production Testing Required
 
-1. **Navigate to**: `https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`
+1. **Navigate to**:
+   `https://budgetbeepro.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886&utm_content=banner&utm_term=open`
 2. **Fill form**: Name: Juan, Email: <juanamillo@gmail.com>
 3. **Submit form**
 4. **Verify**: Interstitial ad appears and is clickable
@@ -218,7 +224,8 @@ These rules **enable** interaction rather than block it, ensuring users can alwa
 - ✅ CSS `!important` can no longer override anything
 - ✅ Complete fix that addresses root cause
 
-**Key Lesson**: **CSS `!important` rules override JavaScript**. You must fix both layers to fully resolve the issue.
+**Key Lesson**: **CSS `!important` rules override JavaScript**. You must fix
+both layers to fully resolve the issue.
 
 ## 📝 Files Modified
 
@@ -284,16 +291,20 @@ These rules **enable** interaction rather than block it, ensuring users can alwa
 
 ## ✨ Summary
 
-**Problem**: CSS rules in `globals.css` were blocking ALL AdZep ad units with `pointer-events: none !important`, making ads completely non-clickable even after JavaScript component was disabled.
+**Problem**: CSS rules in `globals.css` were blocking ALL AdZep ad units with
+`pointer-events: none !important`, making ads completely non-clickable even
+after JavaScript component was disabled.
 
 **Root Cause**:
 
-- Overly aggressive CSS pattern matching: `[id*="interstitial"]`, `[class*="rewardful"]`
+- Overly aggressive CSS pattern matching: `[id*="interstitial"]`,
+  `[class*="rewardful"]`
 - Use of `!important` which overrides all JavaScript
 - Global application with no exceptions for legitimate ads
 - Affected production quiz page where users got stuck
 
-**Solution**: Completely removed all ad-blocking CSS rules from `globals.css`. AdZep ads now display and function normally with their native controls.
+**Solution**: Completely removed all ad-blocking CSS rules from `globals.css`.
+AdZep ads now display and function normally with their native controls.
 
 **Impact**:
 
@@ -302,7 +313,8 @@ These rules **enable** interaction rather than block it, ensuring users can alwa
 - ✅ Conversion funnel functional
 - ✅ AdWords campaigns effective again
 
-**Lesson**: CSS `!important` rules are more powerful than JavaScript. Always check both layers when debugging interaction issues.
+**Lesson**: CSS `!important` rules are more powerful than JavaScript. Always
+check both layers when debugging interaction issues.
 
 ---
 

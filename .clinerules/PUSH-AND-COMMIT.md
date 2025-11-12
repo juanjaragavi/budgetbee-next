@@ -2,15 +2,16 @@
 
 ## Trigger
 
-This procedure is initiated when the user issues the prompt "Push and commit our latest changes." following a successful development cycle.
+This procedure is initiated when the user issues the prompt "Push and commit our
+latest changes." following a successful development cycle.
 
 ### Steps
 
-1. **Initialize Commit Message File**:
-   Clear the contents of the @/lib/documents/commit-message.txt file.
+1. **Initialize Commit Message File**: Clear the contents of the
+   @/lib/documents/commit-message.txt file.
 
-2. **Verify Codebase Status**:
-   Query the current status of the codebase using your `git_status` MCP server with the following request body:
+2. **Verify Codebase Status**: Query the current status of the codebase using
+   your `git_status` MCP server with the following request body:
 
    ```json
    {
@@ -18,11 +19,11 @@ This procedure is initiated when the user issues the prompt "Push and commit our
    }
    ```
 
-3. **Formulate Commit Message**:
-   Populate the @/lib/documents/commit-message.txt file with a message that accurately describes the latest modifications.
+3. **Formulate Commit Message**: Populate the @/lib/documents/commit-message.txt
+   file with a message that accurately describes the latest modifications.
 
-4. **Execute Workflow Script**:
-   Run the `git workflow` automation script using the command:
+4. **Execute Workflow Script**: Run the `git workflow` automation script using
+   the command:
 
    ```bash
    bash ./scripts/git-workflow.sh
@@ -30,5 +31,9 @@ This procedure is initiated when the user issues the prompt "Push and commit our
 
 ## Blog Listing Synchronization (MANDATORY)
 
-- Before finalizing any commit that touches Personal Finance or Financial Solutions blog posts, update every `allPosts` array in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Do not proceed with the push workflow until the static listings mirror the new metadata, ordering, and links
+- Before finalizing any commit that touches Personal Finance or Financial
+  Solutions blog posts, update every `allPosts` array in the listing `page.tsx`
+  files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- Do not proceed with the push workflow until the static listings mirror the new
+  metadata, ordering, and links

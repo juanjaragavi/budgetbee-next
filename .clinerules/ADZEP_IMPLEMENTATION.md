@@ -2,7 +2,9 @@
 
 ## Overview
 
-The AdZep tag has been successfully integrated into this Next.js project with a comprehensive implementation that handles both script loading and function invocation requirements.
+The AdZep tag has been successfully integrated into this Next.js project with a
+comprehensive implementation that handles both script loading and function
+invocation requirements.
 
 ## Components
 
@@ -79,7 +81,8 @@ The `window.AdZepActivateAds()` function is called automatically:
 
 ### Basic Usage (Automatic)
 
-The AdZep system works automatically once integrated into the layout. No additional setup is required for basic functionality.
+The AdZep system works automatically once integrated into the layout. No
+additional setup is required for basic functionality.
 
 ### Enhanced Page Tracking
 
@@ -163,7 +166,8 @@ AdZep integrates with the Next.js navigation system properly:
 - Back/forward navigation is handled via `popstate` events
 - Client-side navigation is properly tracked on every route change
 - Initial page load activation is handled separately
-- All navigation types (internal links, browser navigation, direct URL access) trigger ads
+- All navigation types (internal links, browser navigation, direct URL access)
+  trigger ads
 
 ## Performance Considerations
 
@@ -274,7 +278,14 @@ Consider adding configuration for:
 
 ## Blog Listing Synchronization (MANDATORY)
 
-- Even when focusing on analytics, any create, update, or delete of Personal Finance or Financial Solutions blog posts must be mirrored in every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
-- Confirm that metadata, ordering, and links are synchronized across those arrays before completing the CRUD task
+- Even when focusing on analytics, any create, update, or delete of Personal
+  Finance or Financial Solutions blog posts must be mirrored in every `allPosts`
+  array defined in the listing `page.tsx` files (for example
+  `app/blog/page.tsx`, `app/personal-finance/page.tsx`,
+  `app/financial-solutions/page.tsx`)
+- Confirm that metadata, ordering, and links are synchronized across those
+  arrays before completing the CRUD task
 
-This implementation provides a robust, Next.js-optimized solution for AdZep integration that maintains performance while ensuring reliable ad activation across your site.
+This implementation provides a robust, Next.js-optimized solution for AdZep
+integration that maintains performance while ensuring reliable ad activation
+across your site.
