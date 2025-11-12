@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png" alt="BudgetBee Logo" width="300">
+  <img src="https://media.topfinanzas.com/images/budgetbee/logo.png" alt="BudgetBee Logo" width="200">
   
-  # BudgetBee - Next.js Project
+# BudgetBee - Next.js Project
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-kardtrust-blue?logo=github)](https://github.com/juanjaragavi/budgetbee-next-next)
 
