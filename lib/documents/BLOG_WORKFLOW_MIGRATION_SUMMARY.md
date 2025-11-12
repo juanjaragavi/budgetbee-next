@@ -42,11 +42,11 @@ This document summarizes the successful migration of the blog post generation wo
 
 ### 1. Brand Identity Changes
 
-| UK TopFinanzas                   | BudgetBee                       |
-| -------------------------------- | ------------------------------- |
-| Top Finanzas UK                  | BudgetBee                       |
-| uk.topfinanzas.com               | budgetbeepro.com                |
-| Top Finance UK                   | BudgetBee                       |
+| UK TopFinanzas                   | BudgetBee                      |
+| -------------------------------- | ------------------------------ |
+| Top Finanzas UK                  | BudgetBee                      |
+| uk.topfinanzas.com               | budgetbeepro.com               |
+| Top Finance UK                   | BudgetBee                      |
 | topfinanzas-us-topic-outline.csv | budgetbeepro-topic-outline.csv |
 
 ### 2. Localization Changes

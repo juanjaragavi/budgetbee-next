@@ -236,7 +236,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <Link href="/financial-solutions/chime-credit-builder-visa-secured-card/">
                 <Image
-                  src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-cards-banner-ad.webp"
                   alt="Compare More Credit-Building Cards"
                   width={1000}
                   height={563}

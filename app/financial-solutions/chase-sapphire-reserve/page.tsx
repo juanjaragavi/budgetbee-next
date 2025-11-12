@@ -253,7 +253,7 @@ export default function ChaseSapphireReservePage() {
                 <div className="my-8 text-left sm:text-left">
                   <Link href="/personal-finance/travel-credit-cards/">
                     <Image
-                      src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
+                      src="https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-cards-banner-ad.webp"
                       alt="Best Travel Credit Cards Guide"
                       width={1000}
                       height={563}

@@ -161,7 +161,7 @@ export default function CreditCardRecommenderTemplate({
               ))}
             </div>
 
-            <h2 className={cn(SECTION_HEADING_CLASSES, "mb-6")}>
+            <h2 className={cn(SECTION_HEADING_CLASSES, "my-6")}>
               Why Choose Our Credit Card Recommender?
             </h2>
 

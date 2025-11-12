@@ -42,13 +42,13 @@
 
 ## 🎯 Key Adaptations from UK to US
 
-| Aspect         | UK Version                         | US Version                            |
-| -------------- | ---------------------------------- | ------------------------------------- |
-| **Brand**      | Top Finanzas UK                    | BudgetBee                             |
-| **Domain**     | uk.topfinanzas.com                 | budgetbeepro.com                      |
-| **Language**   | British English                    | American English                      |
-| **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov                |
-| **Currency**   | GBP (£)                            | USD ($)                               |
+| Aspect         | UK Version                         | US Version                           |
+| -------------- | ---------------------------------- | ------------------------------------ |
+| **Brand**      | Top Finanzas UK                    | BudgetBee                            |
+| **Domain**     | uk.topfinanzas.com                 | budgetbeepro.com                     |
+| **Language**   | British English                    | American English                     |
+| **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov               |
+| **Currency**   | GBP (£)                            | USD ($)                              |
 | **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | us_budgetbeepro_1, budgetbeepro_ad_2 |
 | **CSV File**   | topfinanzas-us-topic-outline.csv   | budgetbeepro-topic-outline.csv       |
 

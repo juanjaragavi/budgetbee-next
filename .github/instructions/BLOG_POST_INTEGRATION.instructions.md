@@ -82,7 +82,7 @@ When creating new blog articles, they must be added to multiple locations across
 
 **Format**:
 
-```typescript
+````typescript
 ```typescript
 <FeaturedPostCard
   title="Article Title"
@@ -94,8 +94,9 @@ When creating new blog articles, they must be added to multiple locations across
   date="Month DD, YYYY"
   orientation="horizontal"
   priority={false}
-```
-```
+````
+
+````
 
 ### 4. Blog Sidebar Recent Articles (`components/mdx/blog-layout.tsx`)
 
@@ -124,8 +125,9 @@ When creating new blog articles, they must be added to multiple locations across
         "https://media.topfinanzas.com/budgetbee/images/og-image.png";
     }}
   />
-```
-```
+````
+
+````
 
 **Notes**:
 
@@ -149,7 +151,7 @@ When creating new blog articles, they must be added to multiple locations across
   category: "Personal Finance",
   categoryHref: "/personal-finance",
 }
-```
+````
 
 **Notes**:
 

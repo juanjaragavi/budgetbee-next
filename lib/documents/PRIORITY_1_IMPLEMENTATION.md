@@ -27,7 +27,7 @@
       "url('https://media.topfinanzas.com/images/banner-home-mobile.webp')",
   }}
 >
-    <style jsx>{`
+  <style jsx>{`
     @media (min-width: 768px) {
       section {
         background-image: url("https://media.topfinanzas.com/images/budgetbee/banner-home.webp");
@@ -53,7 +53,6 @@
     className="object-cover object-center hidden md:block"
     style={{ objectFit: "cover" }}
   />
-```
 ```
 
 **After:**

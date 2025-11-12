@@ -16,12 +16,12 @@ All requirements have been successfully implemented and verified with real API c
 
 ### 2. Required Implementations
 
-| Requirement            | Status | Details                                      |
-| ---------------------- | ------ | -------------------------------------------- |
+| Requirement            | Status | Details                                  |
+| ---------------------- | ------ | ---------------------------------------- |
 | Dynamic ext_id         | ✅     | Format: `budgetbee-{timestamp}`          |
-| Static COUNTRIES       | ✅     | Value: "United States" (always included)     |
-| Data Preservation      | ✅     | All fields mapped to Brevo attributes        |
-| Frontend Compatibility | ✅     | No changes needed to Step 3 form             |
+| Static COUNTRIES       | ✅     | Value: "United States" (always included) |
+| Data Preservation      | ✅     | All fields mapped to Brevo attributes    |
+| Frontend Compatibility | ✅     | No changes needed to Step 3 form         |
 
 ---
 
