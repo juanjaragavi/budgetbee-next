@@ -813,7 +813,7 @@ export default function RobinhoodGoldCardRequirementsPage() {
                   rel="noopener noreferrer sponsored"
                   className="inline-block"
                 >
-                  <Button className="bg-[#EDECDB] hover:bg-[#d8d7c2] text-gray-900 font-medium text-md py-3 px-12 rounded-full">
+                  <Button className="bg-[#0f9d58] hover:bg-[#0d8a4d] text-white font-medium text-md py-3 px-12 rounded-full">
                     Apply for Robinhood Gold Card →
                   </Button>
                 </a>

@@ -116,7 +116,7 @@ export const CreditCardApplicationForm = () => {
               <div
                 className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${
                   step < currentStep
-                    ? "bg-primary text-white border-primary"
+                    ? "bg-primary text-gray-900 border-primary"
                     : step === currentStep
                       ? "border-secondary"
                       : "border-gray-300"

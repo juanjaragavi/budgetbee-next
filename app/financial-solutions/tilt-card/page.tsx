@@ -116,7 +116,7 @@ export default function TiltCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/tilt-card-requirements">
-                  <Button className="bg-[#e4e24e] hover:bg-yellow-400 text-gray-900 font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#d4c500] hover:bg-[#bfa800] text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -723,7 +723,7 @@ export default function TiltCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/tilt-card-requirements">
-                  <Button className="bg-[#e4e24e] hover:bg-yellow-400 text-gray-900 font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#d4c500] hover:bg-[#bfa800] text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Check Eligibility Requirements
                   </Button>
                 </Link>

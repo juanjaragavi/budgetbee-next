@@ -117,7 +117,7 @@ export default function RobinhoodGoldCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/robinhood-gold-card-requirements">
-                  <Button className="bg-[#EDECDB] hover:bg-[#d8d7c2] text-gray-900 font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#0f9d58] hover:bg-[#0d8a4d] text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -654,7 +654,7 @@ export default function RobinhoodGoldCardPage() {
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/robinhood-gold-card-requirements">
-                  <Button className="bg-[#EDECDB] hover:bg-[#d8d7c2] text-gray-900 font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#0f9d58] hover:bg-[#0d8a4d] text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Check Eligibility Requirements
                   </Button>
                 </Link>

@@ -53,7 +53,7 @@ This document summarizes the comprehensive blog styling refactor completed to ma
   - Added `border-2 border-gray-200`
   - Hover state: `hover:border-[#F7B500]`
 - **Filter buttons**:
-  - Active state: `bg-[#F7B500] text-gray-900 hover:bg-[#E5A600]`
+  - Active state: `bg-[#F7B500] text-white hover:bg-[#E5A600]`
   - Inactive state: `bg-white border-2 border-gray-200 text-gray-700 hover:border-[#F7B500]`
 - **Pagination text**: Changed to `text-gray-900`
 
@@ -67,10 +67,10 @@ This document summarizes the comprehensive blog styling refactor completed to ma
 - **Description**: Changed from `text-gray-600` to `text-gray-700`
 - **Read More button**: Complete redesign:
   - Changed from text link to button style
-  - Added `inline-block px-4 py-2 bg-[#F7B500] text-gray-900 font-medium rounded-lg`
+  - Added `inline-block px-4 py-2 bg-[#F7B500] text-white font-medium rounded-lg`
   - Hover: `hover:bg-[#E5A600]`
 - **Category badges**:
-  - Personal Finance: `bg-[#F7B500] text-gray-900 hover:bg-[#E5A600]`
+  - Personal Finance: `bg-[#F7B500] text-white hover:bg-[#E5A600]`
   - Financial Solutions: `bg-[#2E74B5] text-white hover:bg-[#1E5A9A]`
 
 ### 4. Personal Finance Category Page (`/app/personal-finance/page.tsx`)
@@ -122,13 +122,13 @@ className =
 
 ```tsx
 className =
-  "inline-block px-4 py-2 bg-[#F7B500] text-gray-900 font-medium rounded-lg hover:bg-[#E5A600] transition-colors";
+  "inline-block px-4 py-2 bg-[#F7B500] text-white font-medium rounded-lg hover:bg-[#E5A600] transition-colors";
 ```
 
 ### Filter Button Active Pattern
 
 ```tsx
-className = "bg-[#F7B500] text-gray-900 hover:bg-[#E5A600]";
+className = "bg-[#F7B500] text-white hover:bg-[#E5A600]";
 ```
 
 ### Filter Button Inactive Pattern
@@ -162,7 +162,7 @@ className = "text-gray-900 hover:text-[#F7B500] transition-colors";
 ### Interactive Elements
 
 - **Links**: `text-[#2E74B5] hover:text-[#F7B500]`
-- **Buttons**: Yellow background with dark text
+- **Buttons**: Yellow background with white text
 - **Hover states**: Transition to darker yellow (`#E5A600`)
 
 ## Responsive Design

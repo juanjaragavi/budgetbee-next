@@ -32,11 +32,11 @@ export default function SirenCardPage() {
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-r from-primary to-primary-dark text-white py-16 md:py-24">
+        <section className="relative bg-gradient-to-r from-primary to-primary-dark text-gray-900 py-16 md:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <div className="inline-block bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
+                <div className="inline-block bg-primary text-gray-900 text-xs font-semibold px-3 py-1 rounded-full mb-4">
                   PREMIUM METAL CARD • ZERO FEES GUARANTEED
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -304,7 +304,7 @@ export default function SirenCardPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-primary">
-                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
+                  <div className="w-12 h-12 bg-primary text-gray-900 rounded-full flex items-center justify-center text-xl font-bold mb-4">
                     2
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">

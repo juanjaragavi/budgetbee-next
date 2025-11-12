@@ -310,7 +310,7 @@ export default function YottaCreditCardPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-primary">
-                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
+                  <div className="w-12 h-12 bg-primary text-gray-900 rounded-full flex items-center justify-center text-xl font-bold mb-4">
                     3
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">

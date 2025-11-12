@@ -20,7 +20,7 @@ export function Header() {
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
   const megaMenuRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const menuButtonRefs = useRef<{ [key: string]: HTMLButtonElement | null }>(
-    {}
+    {},
   );
 
   // Removed Search State and Refs
@@ -212,7 +212,7 @@ export function Header() {
                     {headerNavigation.categoryDropdown.items
                       .filter(
                         (item) =>
-                          !["About Us", "Card Recommender"].includes(item.text)
+                          !["About Us", "Card Recommender"].includes(item.text),
                       )
                       .map((item) => (
                         <Link

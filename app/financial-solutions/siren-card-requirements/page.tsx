@@ -36,7 +36,7 @@ export default function SirenCardRequirementsPage() {
         >
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-4xl mx-auto">
-              <div className="inline-block bg-primary text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">
+              <div className="inline-block bg-primary text-gray-900 text-xs font-semibold px-3 py-1 rounded-full mb-4">
                 ELIGIBILITY & REQUIREMENTS
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-4">
@@ -226,7 +226,7 @@ export default function SirenCardRequirementsPage() {
 
                   <div className="bg-white p-6 rounded-xl border-2 border-primary shadow-sm">
                     <div className="flex items-start">
-                      <div className="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-primary text-gray-900 rounded-full flex items-center justify-center font-bold text-lg mr-4">
                         2
                       </div>
                       <div>

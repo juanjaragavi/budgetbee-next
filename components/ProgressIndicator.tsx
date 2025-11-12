@@ -15,7 +15,7 @@ export default function ProgressIndicator({ step }: { step: number }) {
           <div
             className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm transition-colors ${
               step >= s.number
-                ? "bg-[#F7B500] text-white"
+                ? "bg-[#F7B500] text-gray-900"
                 : "bg-gray-300 text-gray-500"
             }`}
           >

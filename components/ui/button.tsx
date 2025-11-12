@@ -42,11 +42,11 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     ref,
   ) => {
     const buttonStyles = cn(
-      "inline-flex items-center justify-center px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base font-medium transition-colors duration-200 rounded-full whitespace-nowrap w-full md:w-auto",
+      "inline-flex items-center justify-center px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base font-medium transition-colors duration-200 rounded-full whitespace-nowrap w-full md:w-auto flex-nowrap",
       {
         "bg-primary hover:bg-primary-dark text-white hover:text-white":
           variant === "primary",
-        "bg-white hover:bg-gray-100 text-gray-900 border border-gray-300":
+        "bg-gray-900 hover:bg-gray-800 text-white border border-gray-900":
           variant === "secondary",
         "!w-full": fullWidth,
       },
@@ -54,10 +54,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     );
 
     const content = (
-      <>
-        <span>{children}</span>
-        {showArrow && <ArrowRight className="ml-2 -mr-1 w-5 h-5" />}
-      </>
+      <span className="inline-flex items-center justify-center gap-2">
+        {children}
+        {showArrow && <ArrowRight aria-hidden className="h-5 w-5" />}
+      </span>
     );
 
     if ("href" in props && props.href !== undefined) {

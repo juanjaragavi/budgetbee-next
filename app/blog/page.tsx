@@ -780,12 +780,6 @@ export default function BlogArchivePage() {
 
   const content = (
     <div className="bg-white">
-      <h1 className="text-4xl font-bold mb-6 text-gray-900">BudgetBee Blog</h1>
-      <p className="text-lg text-gray-900 mb-8 leading-tight">
-        Your source for insights on personal finance and financial solutions in
-        the US.
-      </p>
-
       {/* Category Highlights */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <Link
@@ -828,7 +822,7 @@ export default function BlogArchivePage() {
             onClick={() => setActiveCategory(key === "all" ? null : key)}
             className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
               (key === "all" && !activeCategory) || activeCategory === key
-                ? "bg-[#F7B500] text-gray-900 hover:bg-[#E5A600]"
+                ? "bg-[#F7B500] text-white hover:bg-[#E5A600]"
                 : "bg-white border-2 border-gray-200 text-gray-700 hover:border-[#F7B500]"
             }`}
             data-category={key}

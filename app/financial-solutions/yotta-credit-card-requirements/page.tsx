@@ -342,7 +342,7 @@ export default function YottaCreditCardRequirementsPage() {
 
                   <div className="bg-white p-6 rounded-xl border-2 border-primary shadow-sm">
                     <div className="flex items-start">
-                      <div className="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-primary text-gray-900 rounded-full flex items-center justify-center font-bold text-lg mr-4">
                         3
                       </div>
                       <div>

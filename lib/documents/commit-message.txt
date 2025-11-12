@@ -1,5 +1,5 @@
-feat: polish dev toolbar and mobile navigation styling
+feat: refactor recommender pages and CTA styling
 
-- add a dismiss control to the AdZep development test panel so it can be hidden without disabling dev mode
-- reuse a shared class for mobile header links and tweak logo sizing for better visual balance
-- enlarge and restyle the back-to-top fab to match the updated yellow action button treatment
+- extract a shared credit card recommender template and wire existing pages to it
+- align button, badge, and filter colors with the brand contrast guidelines
+- refresh blog styling documentation to reflect the revised yellow-on-dark usage

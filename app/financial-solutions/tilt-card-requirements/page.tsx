@@ -758,7 +758,7 @@ export default function TiltCardRequirementsPage() {
                   href="https://apply.tilt.com/credit-card"
                   rel="noopener noreferrer"
                 >
-                  <Button className="bg-[#e4e24e] hover:bg-yellow-400 text-gray-900 font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#d4c500] hover:bg-[#bfa800] text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Apply Now at Official Website
                   </Button>
                 </a>
