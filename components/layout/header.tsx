@@ -20,7 +20,7 @@ export function Header() {
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
   const megaMenuRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
   const menuButtonRefs = useRef<{ [key: string]: HTMLButtonElement | null }>(
-    {},
+    {}
   );
 
   // Removed Search State and Refs
@@ -78,6 +78,9 @@ export function Header() {
 
   // Removed search-related console log
 
+  const mobileMenuLinkClass =
+    "block px-2 text-sm leading-tight text-gray-900 font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors";
+
   return (
     <>
       {/* AdZep Centralized Handler - Single point of activation */}
@@ -94,8 +97,7 @@ export function Header() {
                   alt={logos.colorLogo.alt}
                   width={logos.colorLogo.width}
                   height={logos.colorLogo.height}
-                  className="h-12 w-auto"
-                  style={{ width: "auto", height: "auto" }}
+                  className="h-[2.2rem] md:h-12 w-auto"
                   priority={true}
                   loading="eager"
                   sizes="180px"
@@ -167,35 +169,35 @@ export function Header() {
                     </div>
                     <Link
                       href="/"
-                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Home
                     </Link>
                     <Link
                       href="/blog"
-                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Blog
                     </Link>
                     <Link
                       href="/about-us"
-                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       About Us
                     </Link>
                     <Link
                       href="/contact-us"
-                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Contact Us
                     </Link>
                     <Link
                       href="/credit-card-recommender-p1"
-                      className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Card Recommender
@@ -210,13 +212,13 @@ export function Header() {
                     {headerNavigation.categoryDropdown.items
                       .filter(
                         (item) =>
-                          !["About Us", "Card Recommender"].includes(item.text),
+                          !["About Us", "Card Recommender"].includes(item.text)
                       )
                       .map((item) => (
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                          className={mobileMenuLinkClass}
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -235,7 +237,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                          className={mobileMenuLinkClass}
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -243,7 +245,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/personal-finance"
-                      className="block px-2 text-sm text-primary hover:text-[#F7B500] hover:bg-gray-100 font-bold no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...
@@ -261,7 +263,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
-                          className="block px-2 text-body font-bold hover:text-[#F7B500] hover:bg-gray-100 no-underline transition-colors"
+                          className={mobileMenuLinkClass}
                           onClick={() => setIsOpen(false)}
                         >
                           {item.text}
@@ -269,7 +271,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/financial-solutions"
-                      className="block text-sm px-2 text-primary hover:text-[#F7B500] hover:bg-gray-100 font-bold no-underline transition-colors"
+                      className={mobileMenuLinkClass}
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...

@@ -39,16 +39,17 @@ export function BackToTop() {
     <>
       {isVisible && (
         <Button
-          variant="primary" // Use primary blue color
+          variant="primary"
           className={cn(
-            "bg-[#8DC63F] fixed bottom-4 right-4 z-50 h-10 w-10 p-0 rounded-full shadow-lg", // Fixed position, size, padding removed, rounded, shadow
+            "fixed bottom-4 right-4 z-50 h-14 w-14 bg-[#F7B500] hover:bg-[#d69b00] text-gray-900 hover:text-gray-900 rounded-full border-0 shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#d69b00]",
+            "!h-14 !w-14 md:!h-14 md:!w-14 !px-0 !py-0",
             "transition-opacity duration-300",
-            isVisible ? "opacity-100" : "opacity-0", // Fade in/out
+            isVisible ? "opacity-100" : "opacity-0"
           )}
           onClick={scrollToTop}
           aria-label="Scroll back to top"
         >
-          <ChevronUp className="h-5 w-5" />
+          <ChevronUp className="h-6 w-6" />
         </Button>
       )}
     </>

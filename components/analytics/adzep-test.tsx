@@ -14,6 +14,7 @@ export default function AdZepTest() {
   const [isScriptLoaded, setIsScriptLoaded] = useState(false);
   const [lastActivation, setLastActivation] = useState<string>("");
   const [activationCount, setActivationCount] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
     // Only show in development
@@ -23,7 +24,7 @@ export default function AdZepTest() {
     const checkScript = () => {
       setIsScriptLoaded(
         typeof window !== "undefined" &&
-          typeof window.AdZepActivateAds === "function",
+          typeof window.AdZepActivateAds === "function"
       );
     };
 
@@ -35,6 +36,10 @@ export default function AdZepTest() {
 
   // Only render in development mode
   if (process.env.NODE_ENV !== "development") {
+    return null;
+  }
+
+  if (!isVisible) {
     return null;
   }
 
@@ -52,6 +57,10 @@ export default function AdZepTest() {
     }
   };
 
+  const handleDismiss = () => {
+    setIsVisible(false);
+  };
+
   return (
     <div
       style={{
@@ -66,8 +75,10 @@ export default function AdZepTest() {
         zIndex: 9999,
         maxWidth: "250px",
         fontFamily: "monospace",
+        paddingTop: "20px",
       }}
     >
+      {renderDismissButton(handleDismiss)}
       <div style={{ fontWeight: "bold", marginBottom: "5px" }}>
         AdZep Test Panel
       </div>
@@ -121,5 +132,29 @@ export default function AdZepTest() {
         Click any link to test auto-activation
       </div>
     </div>
+  );
+}
+
+function renderDismissButton(onClick: () => void) {
+  return (
+    <button
+      onClick={onClick}
+      type="button"
+      aria-label="Hide AdZep test panel"
+      style={{
+        position: "absolute",
+        top: "2px",
+        right: "2px",
+        background: "transparent",
+        border: "none",
+        color: "#fff",
+        cursor: "pointer",
+        fontSize: "12px",
+        lineHeight: 1,
+        padding: 0,
+      }}
+    >
+      X
+    </button>
   );
 }
