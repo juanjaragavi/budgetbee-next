@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "What is Financial Health? How to Measure & Improve It - BudgetBee",
+  description:
+    "Understand what financial health means and how to assess your personal financial wellness. Learn key metrics and strategies to improve your financial situation.",
+  keywords:
+    "financial health, personal finance, credit score, emergency fund, debt management, financial literacy, financial wellness, money management",
+};
 
 export default function WhatIsFinancialHealthPage() {
   return (

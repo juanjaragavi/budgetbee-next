@@ -1,16 +1,16 @@
-refactor: modernize all 20 main product pages to Next.js 13+ static metadata pattern
+refactor: update all blog posts to Next.js 13+ static metadata pattern
 
-Major Updates:
-- Updated metadata exports from function-based to static export pattern across all main product pages
-- Replaced 'export function generateMetadata()' with 'export const metadata = {...}' for improved Next.js 13+ App Router compatibility
-- Condensed verbose content in SoFi Credit Card (596→497 lines, -16.6%) and Robinhood Gold Card (554→492 lines, -11.2%)
-- All changes pass Prettier formatting and ESLint linting with zero errors/warnings
+Major Updates - Metadata Modernization (23 blog posts):
+- Converted 4 blog posts from function-based generateMetadata() to static export const metadata pattern
+- Added missing export const metadata to 19 blog posts
+- All blog posts now follow Next.js 13+ App Router best practices
 
-Products Modernized (20 total):
-- Main products: SoFi Credit Card, Robinhood Gold Card, Chase Sapphire Reserve, Citi Custom Cash Card, Step Visa Card, Varo Believe Card, Bank of America Unlimited Cash Rewards, Upgrade Credit Card, Tilt Card, Chase Freedom Flex, Avant Credit Card, Chime Credit Builder Visa Secured Card, SIREN Card, Yotta Credit Card, Affirm Card, Klarna Card, Wells Fargo Active Cash Card, Mission Lane Visa Credit Card, Self Credit Builder Account Visa Card, Blue Cash Preferred (American Express)
+Blog Posts Updated with Metadata:
+- Updated patterns: travel-credit-cards, financial-uncoupling-breakup-guide, hidden-costs-of-homeownership, 5-minute-financial-health-check
+- Added new metadata: getting-out-of-debt, personal-loans-debt-strategy, tips-for-choosing-an-online-loan, inflation-proof-your-life, best-personal-loans, credit-card-types-benefits, no-annual-fee-credit-cards, ditching-impulse-buys-mindful-spending, setting-financial-goals, best-rewards-credit-cards, understanding-credit-card-interest-rates, what-is-lifestyle-creep, what-is-financial-health, money-management-for-beginners, creating-a-budget-youll-actually-stick-to, cashback-credit-cards, how-to-ask-for-a-raise, combine-finances-after-marriage-or-moving-in
 
-Performance Impact:
-- Improved metadata initialization in Next.js (static export vs. dynamic function)
-- Better build-time optimization
-- Cleaner, more maintainable code structure
-- Ready for future Next.js enhancements
+Code Quality:
+- All 23 blog files pass Prettier formatting (zero changes needed)
+- All files pass ESLint linting with zero errors/warnings
+- Consistent metadata structure across all pages
+- Production-ready code

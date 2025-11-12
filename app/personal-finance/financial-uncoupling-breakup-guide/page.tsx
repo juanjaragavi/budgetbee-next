@@ -5,16 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-export function generateMetadata(): Metadata {
-  return {
-    title:
-      "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup - BudgetBee",
-    description:
-      "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
-    keywords:
-      "financial uncoupling, breakup finances, separating finances, joint account closure, relationship money management, divorce finances, splitting shared debt, financial independence after breakup",
-  };
-}
+export const metadata: Metadata = {
+  title:
+    "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup - BudgetBee",
+  description:
+    "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
+  keywords:
+    "financial uncoupling, breakup finances, separating finances, joint account closure, relationship money management, divorce finances, splitting shared debt, financial independence after breakup",
+};
 
 export default function FinancialUncouplingPage() {
   return (

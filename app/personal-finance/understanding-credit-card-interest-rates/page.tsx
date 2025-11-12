@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image"; // Keep Image import
 import Link from "next/link"; // Keep Link import
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Understanding Credit Card Interest Rates: APR Explained - BudgetBee",
+  description:
+    "Learn how credit card APR and interest rates work. Understand how interest is calculated and strategies to minimize interest charges on your credit cards.",
+  keywords:
+    "credit card interest rates, APR, annual percentage rate, credit card charges, how APR works, interest calculation, minimize interest, credit card debt",
+};
 
 export default function UnderstandingCreditCardInterestRatesPage() {
   return (

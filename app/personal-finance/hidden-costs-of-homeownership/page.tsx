@@ -5,16 +5,14 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
 
-export function generateMetadata(): Metadata {
-  return {
-    title:
-      "The Hidden Costs of Homeownership That No One Talks About - BudgetBee",
-    description:
-      "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
-    keywords:
-      "personal finance, homeownership costs, hidden home expenses, home maintenance budget, property expenses, homeowner financial planning, unexpected home costs, money management",
-  };
-}
+export const metadata: Metadata = {
+  title:
+    "The Hidden Costs of Homeownership That No One Talks About - BudgetBee",
+  description:
+    "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
+  keywords:
+    "personal finance, homeownership costs, hidden home expenses, home maintenance budget, property expenses, homeowner financial planning, unexpected home costs, money management",
+};
 
 export default function HiddenCostsHomeownershipPage() {
   return (

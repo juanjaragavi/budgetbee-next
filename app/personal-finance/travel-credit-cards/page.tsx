@@ -3,15 +3,13 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
-export function generateMetadata() {
-  return {
-    title: "Best Travel Credit Cards US: Top Options for 2025 - BudgetBee",
-    description:
-      "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
-    keywords:
-      "travel credit cards US, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
-  };
-}
+export const metadata = {
+  title: "Best Travel Credit Cards US: Top Options for 2025 - BudgetBee",
+  description:
+    "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
+  keywords:
+    "travel credit cards US, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
+};
 
 export default function TravelCreditCardsPage() {
   return (

@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Getting Out of Debt: Practical Guide & Strategies - BudgetBee",
+  description:
+    "Learn effective strategies to get out of debt, build an emergency fund, and take control of your finances. Practical guide with step-by-step methods including snowball and avalanche approaches.",
+  keywords:
+    "getting out of debt, debt repayment, debt management strategies, debt consolidation, credit card debt, personal loans, debt free, financial freedom",
+};
 
 export default function GettingOutOfDebtPage() {
   return (

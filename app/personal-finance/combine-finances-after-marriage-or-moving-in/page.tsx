@@ -2,7 +2,15 @@ import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Link from "next/link";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Combining Finances After Marriage or Moving In - BudgetBee",
+  description:
+    "Learn how to combine finances with a partner after marriage or moving in. Strategies for joint accounts, budgeting together, and financial teamwork.",
+  keywords:
+    "combining finances, joint accounts, marriage finances, couples budgeting, financial planning couples, shared accounts, merging finances, money management together",
+};
 export default function CombineFinancesAfterMarriagePage() {
   return (
     <main className="bg-white min-h-screen flex flex-col">

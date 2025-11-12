@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Personal Loans 2025: Top Lenders & Reviews - BudgetBee",
+  description:
+    "Find the best personal loans from top US lenders. Compare rates, terms, APR, and fees to get the right loan for your needs. Expert reviews and application tips.",
+  keywords:
+    "personal loans, best personal loans, personal loan rates, loan comparison, APR, unsecured loans, loan reviews, best lenders, how to get a personal loan",
+};
 
 export default function BestPersonalLoansPage() {
   return (

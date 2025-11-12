@@ -3,6 +3,16 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image"; // Keep Image import in case it's needed later, though MDX didn't have one
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Personal Loans for Debt Strategy: Best Options & Comparison - BudgetBee",
+  description:
+    "Learn how to use personal loans strategically for debt consolidation and payoff. Compare rates, terms, and find the best loan option to manage your debt effectively.",
+  keywords:
+    "personal loans, debt consolidation, debt strategy, unsecured loans, debt payoff, loan comparison, interest rates, debt management",
+};
 
 export default function PersonalLoansDebtStrategyPage() {
   return (

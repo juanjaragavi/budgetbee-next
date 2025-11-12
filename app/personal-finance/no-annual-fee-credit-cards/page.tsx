@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer"; // Corrected
 import { Header } from "@/components/layout/header"; // Corrected path and component
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best No Annual Fee Credit Cards 2025 - BudgetBee",
+  description:
+    "Discover the best no annual fee credit cards with rewards, cashback, and benefits. Compare cards from top issuers and find the perfect card without paying an annual fee.",
+  keywords:
+    "no annual fee credit cards, free credit cards, credit card rewards no fee, best free credit cards, cashback credit cards, travel rewards no fee",
+};
 
 export default function NoAnnualFeeCreditCards() {
   return (

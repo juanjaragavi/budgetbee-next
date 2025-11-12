@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ditching Impulse Buys: Guide to Mindful Spending - BudgetBee",
+  description:
+    "Learn mindful spending techniques to stop impulse buying and take control of your finances. Practical strategies to reduce spending and save more money.",
+  keywords:
+    "impulse buying, mindful spending, reduce spending, save money, spending habits, budget tips, financial discipline, consumer spending",
+};
 
 export default function DitchingImpulseBuysMindfulSpendingPage() {
   return (

@@ -5,16 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-export function generateMetadata(): Metadata {
-  return {
-    title:
-      "The 5-Minute Financial Health Check: Where Does Your Money Go? - BudgetBee",
-    description:
-      "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
-    keywords:
-      "personal finance, money management, financial health check, track expenses, spending habits, budget tracking, where does my money go, financial wellness",
-  };
-}
+export const metadata: Metadata = {
+  title:
+    "The 5-Minute Financial Health Check: Where Does Your Money Go? - BudgetBee",
+  description:
+    "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
+  keywords:
+    "personal finance, money management, financial health check, track expenses, spending habits, budget tracking, where does my money go, financial wellness",
+};
 
 export default function FinancialHealthCheckPage() {
   return (

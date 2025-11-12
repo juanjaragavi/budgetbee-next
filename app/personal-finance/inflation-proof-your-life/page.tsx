@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Inflation-Proof Your Life: 7 Smart Money Moves - BudgetBee",
+  description:
+    "Learn 7 practical money moves to protect your purchasing power against inflation. Strategies for budgeting, saving, investing, and managing expenses during high inflation periods.",
+  keywords:
+    "inflation, protecting against inflation, rising prices, cost of living, inflation strategies, personal finance, budgeting, investment, money management",
+};
 
 export default function InflationProofYourLifePage() {
   return (

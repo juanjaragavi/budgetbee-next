@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "How to Ask for a Raise: Negotiation Strategy Guide - BudgetBee",
+  description:
+    "Learn how to ask for a raise with confidence. Proven strategies and talking points for salary negotiation and earning what you deserve.",
+  keywords:
+    "how to ask for a raise, salary negotiation, negotiate salary, wage negotiation, career advancement, income increase, employee negotiation",
+};
 
 export default function HowToAskForRaisePage() {
   return (

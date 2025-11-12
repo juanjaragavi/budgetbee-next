@@ -3,6 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image"; // Assuming you need Image for the future
 import Link from "next/link"; // Assuming you need Link for the future
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Types of Credit Cards & Benefits Explained - BudgetBee",
+  description:
+    "Learn about different credit card types including rewards, cashback, travel, and 0% APR cards. Understand benefits, fees, and how to choose the right card for your needs.",
+  keywords:
+    "credit card types, rewards cards, cashback cards, travel credit cards, 0% APR cards, credit card benefits, credit card comparison, best credit cards",
+};
 // Import Ad
 
 export default function CreditCardTypesBenefitsPage() {

@@ -3,6 +3,16 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Setting Financial Goals: How to Plan Your Financial Future - BudgetBee",
+  description:
+    "Learn how to set realistic financial goals and create an action plan to achieve them. Strategies for saving, investing, and building wealth.",
+  keywords:
+    "financial goals, goal setting, financial planning, save money, wealth building, personal finance, investment goals, retirement planning",
+};
 
 export default function SettingFinancialGoalsPage() {
   return (
