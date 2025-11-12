@@ -20,7 +20,7 @@ const PAGE_CONFIG: CreditCardRecommenderTemplateProps = {
   },
   heroImage: {
     href: "/financial-solutions/chime-credit-builder-visa-secured-card",
-    src: "https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp",
+    src: "https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-card-user-banner-ad.webp",
     alt: "Chime Credit Builder Card",
     priority: true,
   },

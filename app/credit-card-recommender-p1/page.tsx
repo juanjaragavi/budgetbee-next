@@ -20,7 +20,7 @@ const PAGE_CONFIG: CreditCardRecommenderTemplateProps = {
   },
   heroImage: {
     href: "/financial-solutions/sofi-credit-card",
-    src: "https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp",
+    src: "https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-card-user-banner-ad.webp",
     alt: "SoFi Credit Card",
     priority: true,
   },

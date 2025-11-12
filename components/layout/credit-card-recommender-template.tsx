@@ -102,7 +102,7 @@ function PillButton({ href, label, accent, className }: PillButtonConfig) {
         background,
         hover,
         text,
-        className
+        className,
       )}
     >
       <span className="truncate">{label}</span>
@@ -110,7 +110,7 @@ function PillButton({ href, label, accent, className }: PillButtonConfig) {
         className={cn(
           "flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-sm",
           arrowBackground,
-          arrowText
+          arrowText,
         )}
       >
         ➔
@@ -170,7 +170,7 @@ export default function CreditCardRecommenderTemplate({
                   <span
                     className={cn(
                       "flex h-6 w-6 flex-shrink-0 items-center justify-center",
-                      "rounded-full bg-primary text-sm font-bold text-gray-900"
+                      "rounded-full bg-primary text-sm font-bold text-gray-900",
                     )}
                   >
                     ✓
@@ -226,13 +226,13 @@ export default function CreditCardRecommenderTemplate({
                       aria-controls={`faq-${item.id}`}
                       className={cn(
                         "flex w-full items-center justify-between p-4 text-left",
-                        !isLast && "border-b"
+                        !isLast && "border-b",
                       )}
                     >
                       <span
                         className={cn(
                           FAQ_QUESTION_CLASSES,
-                          isOpen ? "text-gray-900" : "text-primary"
+                          isOpen ? "text-gray-900" : "text-primary",
                         )}
                       >
                         {item.question}
@@ -242,7 +242,7 @@ export default function CreditCardRecommenderTemplate({
                         className={cn(
                           "text-xl transition-transform",
                           isOpen && "rotate-180",
-                          isOpen ? "text-gray-900" : "text-primary"
+                          isOpen ? "text-gray-900" : "text-primary",
                         )}
                       >
                         ▼

@@ -1,5 +1,4 @@
-feat: refactor recommender pages and CTA styling
+chore: refresh recommender hero imagery
 
-- extract a shared credit card recommender template and wire existing pages to it
-- align button, badge, and filter colors with the brand contrast guidelines
-- refresh blog styling documentation to reflect the revised yellow-on-dark usage
+- switch all credit card recommender pages to the new budgetbee banner asset
+- include formatter-driven trailing comma updates in the shared template

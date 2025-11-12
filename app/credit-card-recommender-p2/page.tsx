@@ -55,7 +55,7 @@ const PAGE_CONFIG: CreditCardRecommenderTemplateProps = {
   },
   heroImage: {
     href: "/financial-solutions/varo-believe-card",
-    src: "https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp",
+    src: "https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-card-user-banner-ad.webp",
     alt: "Varo Believe Card",
     priority: true,
   },
