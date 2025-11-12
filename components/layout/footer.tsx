@@ -62,14 +62,6 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/credit-cards"
-                  className="text-sm text-gray-700 hover:text-primary hover:underline transition-colors"
-                >
-                  Credit Card Reviews
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/blog"
                   className="text-sm text-gray-700 hover:text-primary hover:underline transition-colors"
                 >

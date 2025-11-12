@@ -45,10 +45,9 @@ Each page must be:
    - Add the product to `/app/financial-solutions/page.tsx` in the appropriate content array:
      - For credit cards: add to `creditCardsContent` array with appropriate `type` ("traditional", "neobank", or "fintech")
      - For personal loans: add to `allLoansContent` array with appropriate `type` ("personal", "sme_fintech", "neobank", "marketplace", or "guide")
-   - **For credit cards ONLY**: Also add to `/app/credit-cards/page.tsx` in the `creditCardsContent` array
    - **DO NOT** add products to `/app/personal-finance/page.tsx` - that page is ONLY for educational guides and articles, NOT individual product pages
    - Update all required arrays immediately after generating the page components
-   - Credit card products require 4 file updates; loan products require 3 file updates
+   - All products require 3 file updates (Homepage, Blog, Financial Solutions)
 
 **Key Tools**:
 
@@ -483,20 +482,12 @@ After generating both page components, you MUST immediately update the following
      - Place at the top of the array (most recent first)
    - Use `replace_string_in_file` tool to update
 
-4. **Credit Cards Category Page** (`/app/credit-cards/page.tsx`) - **ONLY FOR CREDIT CARD PRODUCTS**:
-   - Add new entry to the `creditCardsContent` array at the TOP
-   - Include: title, slug, description, image, date, type
-   - `type` must be one of: "traditional", "neobank", "fintech", "travel", or "rewards"
-   - Use `replace_string_in_file` tool to update
-   - **SKIP THIS STEP** for personal loans and other non-credit-card products
-
 **IMPORTANT**:
 
 - **DO NOT** add product pages to `/app/personal-finance/page.tsx`
 - The Personal Finance page is ONLY for educational guides and comparison articles, NOT individual product pages
-- Product pages must be added to ALL THREE pages (Homepage, Blog, Financial Solutions) PLUS the Credit Cards page for credit card products
+- Product pages must be added to ALL THREE pages (Homepage, Blog, Financial Solutions)
 - Failing to add to these pages will hide the product from listings and featured posts
-- Credit card products require FOUR updates total (Homepage, Blog, Financial Solutions, and Credit Cards pages)
 
 **Example Entry Format for Blog Page**:
 

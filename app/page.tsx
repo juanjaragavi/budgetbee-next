@@ -993,8 +993,8 @@ export default function Home() {
         description="Navigate the overwhelming world of credit cards with confidence. We analyze hundreds of options to recommend cards that actually match your spending habits and financial goals. Whether you're building credit, maximizing rewards, or consolidating debt, we'll help you find the right fit – without the sales pitch."
         imageSrc="https://media.topfinanzas.com/images/budgetbee/service-slide-1.png"
         imageAlt="Credit card comparison"
-        ctaText="Explore Credit Cards"
-        ctaLink="/credit-cards"
+        ctaText="Explore Financial Solutions"
+        ctaLink="/financial-solutions"
         imagePosition="right"
         bgColor="white"
       />

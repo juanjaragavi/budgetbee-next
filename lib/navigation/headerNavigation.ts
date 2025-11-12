@@ -78,14 +78,6 @@ export const headerNavigation = {
         href: "/financial-solutions",
       },
       {
-        text: "Credit Cards", // Specific MOFU sub-category
-        href: "/credit-cards", // Link to new dedicated page
-      },
-      {
-        text: "Personal Loans", // Specific MOFU sub-category
-        href: "/personal-loans", // Link to new dedicated page
-      },
-      {
         text: "Personal Finance", // TOFU category
         href: "/personal-finance",
       },
@@ -132,24 +124,24 @@ export const headerNavigation = {
         title: "Credit Cards",
         items: [
           {
-            text: cleanTitle("Barclaycard Avios Plus"),
-            href: "/financial-solutions/barclaycard-avios-plus",
+            text: cleanTitle("Chase Sapphire Reserve®"),
+            href: "/financial-solutions/chase-sapphire-reserve",
           },
           {
-            text: cleanTitle("Curve Credit Card"),
-            href: "/financial-solutions/curve-credit-card",
+            text: cleanTitle("Chase Freedom Flex℠"),
+            href: "/financial-solutions/chase-freedom-flex",
           },
           {
-            text: cleanTitle("Halifax World Elite Mastercard"),
-            href: "/financial-solutions/halifax-world-elite-mastercard",
+            text: cleanTitle("Citi Custom Cash® Card"),
+            href: "/financial-solutions/citi-custom-cash-card",
           },
           {
-            text: cleanTitle("Lloyds Bank Credit Card"),
-            href: "/financial-solutions/lloyds-bank-credit-card",
+            text: cleanTitle("Wells Fargo Active Cash® Card"),
+            href: "/financial-solutions/wells-fargo-active-cash-card",
           },
           {
-            text: cleanTitle("Monzo Credit Card"),
-            href: "/financial-solutions/monzo-credit-card",
+            text: cleanTitle("SoFi Credit Card"),
+            href: "/financial-solutions/sofi-credit-card",
           },
           {
             text: "Show more...",
@@ -163,24 +155,24 @@ export const headerNavigation = {
         title: "Loans",
         items: [
           {
-            text: cleanTitle("Barclays Personal Loan"),
-            href: "/financial-solutions/barclays-personal-loan",
+            text: cleanTitle("CIT Bank Home Loans"),
+            href: "/financial-solutions/cit-bank-home-loans-benefits",
           },
           {
-            text: cleanTitle("Capify Business Finance"),
-            href: "/financial-solutions/capify-personal-loan",
+            text: cleanTitle("Robinhood Gold Card"),
+            href: "/financial-solutions/robinhood-gold-card",
           },
           {
-            text: cleanTitle("Fleximize Business Loans"),
-            href: "/financial-solutions/fleximize-personal-loan",
+            text: cleanTitle("Chime Credit Builder Visa"),
+            href: "/financial-solutions/chime-credit-builder-visa-secured-card",
           },
           {
-            text: cleanTitle("Funding Circle Business Loan"),
-            href: "/financial-solutions/funding-circle-personal-loan",
+            text: cleanTitle("Step Visa Card"),
+            href: "/financial-solutions/step-visa-card",
           },
           {
-            text: cleanTitle("Funding Options Marketplace"),
-            href: "/financial-solutions/funding-options-personal-loan",
+            text: cleanTitle("Varo Believe Card"),
+            href: "/financial-solutions/varo-believe-card",
           },
           {
             text: "Show more...",
@@ -211,19 +203,19 @@ export const headerNavigation = {
           categoryHref: "/personal-finance",
         },
         {
-          title: cleanTitle("Barclaycard Avios Plus"),
-          href: "/financial-solutions/barclaycard-avios-plus",
+          title: cleanTitle("Chase Sapphire Reserve®"),
+          href: "/financial-solutions/chase-sapphire-reserve",
           image:
-            "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+            "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
           category: "Credit Cards",
           categoryHref: "/financial-solutions",
         },
         {
-          title: cleanTitle("HSBC Personal Loan"),
-          href: "/financial-solutions/hsbc-personal-loan",
+          title: cleanTitle("SoFi Credit Card"),
+          href: "/financial-solutions/sofi-credit-card",
           image:
-            "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-          category: "Loans",
+            "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
+          category: "Credit Cards",
           categoryHref: "/financial-solutions",
         },
       ],

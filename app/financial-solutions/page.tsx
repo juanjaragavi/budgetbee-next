@@ -460,23 +460,7 @@ export default function FinancialSolutionsPage() {
 
   // Custom content for this category page
   const content = (
-    <div>
-      <h1 className="text-4xl font-bold mb-6 text-left sm:text-left">
-        Financial Solutions
-      </h1>
-      <div
-        id="us_budgetbeepro_1"
-        className="items-center justify-center flex w-full my-8"
-      >
-        {/* Empty responsive, centered div */}
-      </div>
-
-      <p className="text-lg text-gray-700 mb-8 leading-tight text-left sm:text-left">
-        Find detailed information about top United States credit cards, the
-        requirements for applying, and comprehensive guides to help you choose
-        the best option based on your financial needs.
-      </p>
-
+    <div data-category="financial-solutions" className="bg-white">
       {/* Main category selector */}
       <div className="flex mb-8 border-b border-gray-200">
         {Object.entries(categories).map(([key, value]) => (
