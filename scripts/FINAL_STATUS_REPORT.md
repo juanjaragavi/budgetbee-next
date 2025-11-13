@@ -206,7 +206,7 @@ This now matches:
 
 ## File Structure Created
 
-```
+```bash
 /scripts/
 ├── extract-products.js              # Main extraction script
 ├── filter-main-products.js          # Filtering script

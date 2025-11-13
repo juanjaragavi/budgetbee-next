@@ -138,7 +138,7 @@ All migration scripts saved to `/Users/macbookpro/GitHub/kardtrust/scripts/`:
 3. ✅ `final-cleanup-migration.sh` - Perl-based cleanup
 4. ✅ `final-cleanup.py` - Python header unwrapping
 5. ✅ `fix-blockquotes.py` - Blockquote removal
-6. ✅ `fix-jsx-comments.py` - JSX syntax fixes
+6. ✅ `fix_jsx_comments.py` - JSX syntax fixes
 
 All scripts are reusable for future migrations.
 

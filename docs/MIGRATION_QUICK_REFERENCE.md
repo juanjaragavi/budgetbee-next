@@ -125,7 +125,7 @@ npm run start
 - `/scripts/fix-migrated-formatting.sh` - Format fixes
 - `/scripts/final-cleanup.py` - Python cleanup
 - `/scripts/fix-blockquotes.py` - Blockquote removal
-- `/scripts/fix-jsx-comments.py` - JSX syntax fixes
+- `/scripts/fix_jsx_comments.py` - JSX syntax fixes
 
 ## Statistics
 

@@ -1,12 +1,6 @@
-Refactor: Replace kardtrust references with budgetbee across codebase
+Refactor: Rename fix-jsx-comments.py to fix_jsx_comments.py for Python naming convention
 
-- Updated PM2 process name from kardtrust to budgetbee
-- Changed all ext_id prefixes in API routes (contact, subscribe, Brevo integrations)
-- Updated analytics configurations (GTM site_section, GAM site targeting)
-- Modified social media URLs (Instagram) in footer, layout, and contact page
-- Updated search engine configuration name in search API
-- Fixed directory paths in migration scripts
-- Updated documentation references in README, BRANDING, and WARP files
-- Preserved all media CDN URLs (https://media.topfinanzas.com/images/kardtrust/*) as intended
-
-Files modified: 22 files across scripts, API routes, components, pages, and documentation
+- Renamed scripts/fix-jsx-comments.py to scripts/fix_jsx_comments.py following Python naming standards
+- Updated all documentation references to reflect the new filename
+- Files updated: BUDGETBEE_MIGRATION_SUMMARY.md, MIGRATION_QUICK_REFERENCE.md, MIGRATION_VERIFICATION.md, FINAL_STATUS_REPORT.md
+- No functional changes, purely organizational improvement

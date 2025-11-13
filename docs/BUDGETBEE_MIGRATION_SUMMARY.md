@@ -98,7 +98,7 @@ Multiple cleanup scripts were created to ensure quality:
    - Removed markdown blockquote symbols (>)
    - Fixed paragraph indentation
 
-6. **`fix-jsx-comments.py`**: JSX syntax fixes
+6. **`fix_jsx_comments.py`**: JSX syntax fixes
    - Corrected JSX comment placement
    - Fixed div closing tag syntax
 

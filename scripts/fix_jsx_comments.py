@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """
 Fix JSX comment syntax in migrated files
 """
@@ -50,23 +51,20 @@ fixed = 0
 
 for file_base in FILES:
     target_file = Path(TARGET_DIR) / file_base / "page.tsx"
-    
     if not target_file.exists():
         continue
-    
     # Read the file
     with open(target_file, 'r', encoding='utf-8') as f:
         content = f.read()
-    
     original_content = content
-    
+
     # Fix incorrect comment syntax: className="..." {/* comment */} -> className="..."> {/* comment */}
     content = re.sub(
         r'className="items-center justify-center flex w-full my-8"\s+\{/\*',
         'className="items-center justify-center flex w-full my-8"\n              >\n                {/*',
         content
     )
-    
+
     # Write back if changed
     if content != original_content:
         with open(target_file, 'w', encoding='utf-8') as f:
@@ -78,6 +76,6 @@ for file_base in FILES:
 
 print()
 print("=" * 48)
-print(f"JSX Comment Fix Complete!")
+print('''JSX Comment Fix Complete!''')
 print(f"Files fixed: {fixed}")
 print("=" * 48)
