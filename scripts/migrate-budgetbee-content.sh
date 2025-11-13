@@ -4,7 +4,7 @@
 # This script migrates 32 financial solution articles from BudgetBee (Astro.js) to BudgetBee (Next.js)
 
 SOURCE_DIR="/Users/macbookpro/GitHub/budgetbee/src/content/financial-solutions"
-TARGET_DIR="/Users/macbookpro/GitHub/kardtrust/app/financial-solutions"
+TARGET_DIR="/Users/macbookpro/GitHub/budgetbee/app/financial-solutions"
 
 # Array of files to migrate
 declare -a FILES=(

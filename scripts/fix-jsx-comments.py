@@ -6,7 +6,7 @@ Fix JSX comment syntax in migrated files
 import re
 from pathlib import Path
 
-TARGET_DIR = "/Users/macbookpro/GitHub/kardtrust/app/financial-solutions"
+TARGET_DIR = "/Users/macbookpro/GitHub/budgetbee/app/financial-solutions"
 
 FILES = [
     "cit-bank-home-loans-requirements",

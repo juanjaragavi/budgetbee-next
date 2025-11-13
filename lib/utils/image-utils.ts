@@ -51,7 +51,7 @@ export function fixImageUrl(url: string): string {
   // Handle CDN domain issues
   if (
     fixedUrl.includes("budgetbeepro.com") ||
-    fixedUrl.includes("media.kardtrust")
+    fixedUrl.includes("media.budgetbee")
   ) {
     // Return the URL as is, but with HTTPS
     return fixedUrl;

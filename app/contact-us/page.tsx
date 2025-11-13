@@ -648,7 +648,7 @@ export default function ContactUs() {
           </h3>
           <div className="flex justify-center">
             <Link
-              href="https://www.instagram.com/kardtrust/"
+              href="https://www.instagram.com/budgetbee/"
               rel="noopener noreferrer"
               className="text-3xl text-[#E1306C] hover:opacity-80 transition-opacity"
               aria-label="Instagram"

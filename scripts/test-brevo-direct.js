@@ -35,7 +35,7 @@ const testData = {
     UTM_MEDIUM: "direct_api_test",
     UTM_CAMPAIGN: "brevo_migration",
   },
-  ext_id: `kardtrust-${Math.floor(Date.now() / 1000)}`,
+  ext_id: `budgetbee-${Math.floor(Date.now() / 1000)}`,
   updateEnabled: false,
   listIds: [9],
 };

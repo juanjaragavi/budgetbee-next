@@ -37,7 +37,7 @@ const testData = {
     UTM_MEDIUM: "unique_email_test",
     UTM_CAMPAIGN: "brevo_migration_verification",
   },
-  ext_id: `kardtrust-${timestamp}`,
+  ext_id: `budgetbee-${timestamp}`,
   updateEnabled: false,
   listIds: [9],
 };
@@ -81,7 +81,10 @@ async function testBrevoWithUniqueEmail() {
       console.log("📋 List ID: 9 (BudgetBee)");
       console.log("\n🎉 All required fields have been verified:");
       console.log(`   ✓ COUNTRIES: ${testData.attributes.COUNTRIES}`);
-      console.log(`   ✓ ext_id format: kardtrust-{timestamp}`);
+      console.log(`   console.log(`   ✓ Response contains contact data`);
+      console.log(`   ✓ Contact ID: ${contact.id}`);
+      console.log(`   ✓ ext_id format: budgetbee-{timestamp}`);
+      console.log(`);
       console.log(`   ✓ Timestamp: ${timestamp}`);
       console.log(
         "\n🔍 Verify in Brevo Dashboard: https://app.brevo.com/contact/list/9",

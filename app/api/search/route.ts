@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import logger from "@/lib/logger";
 
 const SERVING_CONFIG =
-  "projects/absolute-brook-452020-d5/locations/global/collections/default_collection/engines/kardtrust-search-engi_1744641181584/servingConfigs/default_search";
+  "projects/absolute-brook-452020-d5/locations/global/collections/default_collection/engines/budgetbee-search-engi_1744641181584/servingConfigs/default_search";
 const BASE_ENDPOINT = "https://discoveryengine.googleapis.com/v1"; // Base endpoint
 
 interface VertexSearchSnippet {

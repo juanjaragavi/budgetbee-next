@@ -18,8 +18,10 @@ sudo rm -rf .next
 echo "[3/5] Building the application..."
 sudo npm run build
 
-echo "[4/5] Restarting PM2 process 'budgetbee'..."
-sudo -u juanjaramillo pm2 restart kardtrust
+echo "Restarting PM2 process..."
+sudo -u juanjaramillo pm2 restart budgetbee
+
+echo
 
 echo "[5/5] Saving current PM2 process list..."
 sudo -u juanjaramillo pm2 save

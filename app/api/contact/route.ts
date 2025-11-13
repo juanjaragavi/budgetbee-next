@@ -94,7 +94,7 @@ export async function POST(request: Request) {
     }
 
     const timestamp = Math.floor(Date.now() / 1000);
-    const extId = `kardtrust-contact-${timestamp}`;
+    const extId = `budgetbee-contact-${timestamp}`;
 
     const attributes: Record<string, string> = {
       FIRSTNAME: name,

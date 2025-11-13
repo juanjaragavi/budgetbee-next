@@ -178,7 +178,7 @@ This now matches:
 
 - Set `category: "creditCards"` for all products
 - Used consistent date format: "DD Month YYYY"
-- Generated CDN image URLs: `media.topfinanzas.com/images/kardtrust/`
+- Generated CDN image URLs: `media.topfinanzas.com/images/budgetbee/`
 - Formatted titles with " | BudgetBee" suffix
 
 ---

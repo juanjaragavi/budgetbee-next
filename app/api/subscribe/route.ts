@@ -252,7 +252,7 @@ export async function POST(request: Request) {
   }
 
   const timestamp = Math.floor(Date.now() / 1000);
-  const extId = `kardtrust-${timestamp}`;
+  const extId = `budgetbee-${timestamp}`;
   const lastName = kitFields.last_name ?? "";
 
   const brevoAttributes = buildBrevoAttributes(

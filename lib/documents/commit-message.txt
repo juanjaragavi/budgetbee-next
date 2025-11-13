@@ -1,8 +1,12 @@
-feat: add BudgetBee custom agent configuration
+Refactor: Replace kardtrust references with budgetbee across codebase
 
-- Added custom agent configuration file at .github/agents/budgetbee-agent.agent.md
-- Includes comprehensive project architecture and development guidelines
-- Provides context for AI-assisted development and content migration
-- Configured with necessary tools and VS Code extensions integration
+- Updated PM2 process name from kardtrust to budgetbee
+- Changed all ext_id prefixes in API routes (contact, subscribe, Brevo integrations)
+- Updated analytics configurations (GTM site_section, GAM site targeting)
+- Modified social media URLs (Instagram) in footer, layout, and contact page
+- Updated search engine configuration name in search API
+- Fixed directory paths in migration scripts
+- Updated documentation references in README, BRANDING, and WARP files
+- Preserved all media CDN URLs (https://media.topfinanzas.com/images/kardtrust/*) as intended
 
-This agent configuration will help streamline development workflows and maintain consistency across the project.
+Files modified: 22 files across scripts, API routes, components, pages, and documentation

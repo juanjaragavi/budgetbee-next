@@ -199,7 +199,7 @@ const { activateAds } = useAdZep();
 ### Critical Performance Settings
 
 - Port 3007 for both development and production
-- PM2 process manager for production (`kardtrust` process name)
+- PM2 process manager for production (`budgetbee` process name)
 - Webpack build workers and parallel compilation enabled
 - CSS optimization and package import optimization
 
@@ -236,7 +236,7 @@ const { activateAds } = useAdZep();
 3. Verify environment variables in `.env.production`
 4. On server: `sudo bash ./scripts/deploy_update.sh`
 5. PM2 will automatically restart the application
-6. Monitor logs: `pm2 logs kardtrust`
+6. Monitor logs: `pm2 logs budgetbee`
 
 ## Additional Resources
 

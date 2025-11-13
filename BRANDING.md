@@ -795,7 +795,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
     "contactType": "customer support",
     "email": "info@topfinanzas.com"
   },
-  "sameAs": ["https://www.instagram.com/kardtrust/"]
+  "sameAs": ["https://www.instagram.com/budgetbee/"]
 }
 ```
 
@@ -1320,7 +1320,7 @@ For agents extracting specific values:
 
 ### Social Media
 
-- **Instagram:** <https://www.instagram.com/kardtrust/>
+- **Instagram:** <https://www.instagram.com/budgetbee/>
 
 ### Support
 

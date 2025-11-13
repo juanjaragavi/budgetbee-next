@@ -174,7 +174,7 @@ export default function RootLayout({
                   contactType: "customer support",
                   email: "info@budgetbeepro.com",
                 },
-                sameAs: ["https://www.instagram.com/kardtrust/"],
+                sameAs: ["https://www.instagram.com/budgetbee/"],
               },
               null,
               2,

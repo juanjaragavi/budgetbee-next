@@ -19,7 +19,7 @@ export default function GoogleTagManager({ id = GTM_ID }: { id?: string }) {
       if (typeof window !== "undefined" && window.dataLayer) {
         window.dataLayer.push({
           event: "gtm_loaded",
-          site_section: "uk_kardtrust",
+          site_section: "us_budgetbee",
           page_type: "general",
         });
         logger.debug(
