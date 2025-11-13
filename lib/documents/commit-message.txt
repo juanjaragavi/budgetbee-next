@@ -1,8 +1,8 @@
-chore: apply prettier formatting to all product pages and scripts
+feat: add BudgetBee custom agent configuration
 
-- Applied Prettier formatting to 30+ financial product pages (benefits & requirements)
-- Formatted instruction files for consistency
-- Formatted migration and cleanup scripts
-- Ensures all TypeScript, TSX, Python, and Shell files meet strict formatting standards
+- Added custom agent configuration file at .github/agents/budgetbee-agent.agent.md
+- Includes comprehensive project architecture and development guidelines
+- Provides context for AI-assisted development and content migration
+- Configured with necessary tools and VS Code extensions integration
 
-This completes the comprehensive Prettier formatting cleanup across the entire codebase.
+This agent configuration will help streamline development workflows and maintain consistency across the project.
