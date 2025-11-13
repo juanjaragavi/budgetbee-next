@@ -1,16 +1,31 @@
-fix: Update CDN image path for latest article and PM2 process name
+feat: Add new Personal Finance article "Stop Living Paycheck to Paycheck"
 
-Image Path Corrections:
-- Fixed hero image URL in app/blog/page.tsx (kardtrust → budgetbee)
-- Fixed hero image URL in app/personal-finance/page.tsx (kardtrust → budgetbee)
-- Ensures consistent CDN subdomain usage across all new content
+Content Updates:
+- Created comprehensive article on breaking the paycheck-to-paycheck cycle
+- Added article to /app/personal-finance/stop-living-paycheck-to-paycheck/page.tsx
+- Integrated article into blog listing (app/blog/page.tsx)
+- Integrated article into Personal Finance category page (app/personal-finance/page.tsx)
+- Published date: November 13, 2025
 
-Deployment Script Fix:
-- Updated PM2 process name in scripts/deploy_update.sh
-- Changed "budgetbee" to "budgetbee-next" to match actual process name
-- Prevents deployment restart failures
+Documentation Updates:
+- Updated TOFU_BLOG_POST_GENERATION.instructions.md with correct CDN domain
+- Updated CREDIT_CARD_PRODUCT_GENERATION.instructions.md with correct CDN domain
+- feat: Add favicon.png to public assets
+
+Asset Addition:
+- Added favicon.png to public directory
+- Ensures proper favicon display across all browsers
+- Improves brand consistency and user experience
 
 Technical Details:
-- All new articles now use correct budgetbee subdomain for images
-- Maintains consistency with updated generation instruction files
-- Deploy script now correctly restarts the active PM2 process
+- Placed in /public for Next.js automatic static asset serving
+- Standard PNG format for broad browser compatibility
+- Fixed Python script naming (fix-jsx-comments.py → fix_jsx_comments.py)
+
+Article Details:
+- Topic: Cash flow management and financial stability strategies
+- Target: TOFU funnel stage (awareness/education)
+- Word count: ~900 words
+- SEO optimized for "paycheck to paycheck" and related keywords
+- Includes three internal links to related Personal Finance content
+- Features hero image, two ad placements, and AI content disclaimer
