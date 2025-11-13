@@ -63,7 +63,7 @@ for file_base in FILES:
     
     # Fix blockquote symbols at the start of paragraphs
     # Pattern: > Some text in a paragraph becomes: Some text in a paragraph
-    content = re.sub(r'<p className="text-gray-700 mb-8">\s*>\s*', '<p className="text-gray-700 mb-8">\n  ', content)
+    content = re.sub(r'<p className="text-gray-700 mb-8 text-left">\s*>\s*', '<p className="text-gray-700 mb-8 text-left">\n  ', content)
     
     # Also handle inline blockquotes
     content = re.sub(r'(\n\s*)>\s+', r'\1', content)

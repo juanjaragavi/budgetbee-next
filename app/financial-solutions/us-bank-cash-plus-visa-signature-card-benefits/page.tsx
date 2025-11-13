@@ -35,13 +35,13 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Looking for a credit card that truly fits your lifestyle and
                 offers exceptional benefits? The US Bank Cash+ Visa Signature
                 Card might be your ideal choice.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Cashback:</strong> Earn up to 5% cashback in two
                   categories of your choice each quarter.
@@ -60,18 +60,18 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The US Bank Cash+ Visa Signature Card is a highly customizable
                 cashback credit card designed for individuals who want
                 flexibility and control over their spending categories.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Up to 5% Cashback in Selected Categories: Customize Your
                 Benefits
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the most attractive features of the US Bank Cash+ Visa
                 Signature Card is the ability to choose up to two categories
                 where you can earn an impressive 5% cashback (on up to $2,000 in
@@ -85,11 +85,11 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 spending habits, leading to significant savings over time.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 2% Cashback on Groceries and Gas: Extra Savings on Essentials
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In addition to the 5% in selected categories, the US Bank Cash+
                 Visa Signature Card rewards you with 2% cashback on everyday
                 essentials like groceries and gas purchases. These are areas
@@ -102,11 +102,11 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 expenses into additional income over time.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Save More Every Year
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Another major advantage of the US Bank Cash+ Visa Signature Card
                 is that it does not charge an annual fee. In a market where many
                 rewarding credit cards impose this cost, the absence of an
@@ -117,11 +117,11 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 of mind and enhancing the overall value of the card.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Purchase Protection Program: Security First
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 An essential feature that provides peace of mind is the Purchase
                 Protection Program included with the US Bank Cash+ Visa
                 Signature Card. This program offers coverage for your eligible
@@ -136,11 +136,11 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 experience much safer and more reliable.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Final Thoughts: Your Smart Choice for Customizable Rewards
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In summary, the US Bank Cash+ Visa Signature Card is an
                 excellent option for those looking to maximize their rewards
                 while maintaining effective control over their spending. With up
@@ -154,11 +154,11 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 Signature Card is an option you should definitely consider.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/citi-double-cash-credit-card-benefits"

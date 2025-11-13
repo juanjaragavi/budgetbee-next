@@ -35,11 +35,11 @@ export default function CitBankHomeLoansRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Find out what it takes to apply for a CIT Bank Home Loan and
                 start your journey to homeownership.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Buying a home is a monumental step. With CIT Bank, understanding
                 the loan requirements is the first stride toward homeownership.
               </p>
@@ -57,7 +57,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Requirements
               </h2>
               <strong>Credit Score:</strong> A minimum credit score of 620 is
@@ -67,86 +67,86 @@ export default function CitBankHomeLoansRequirementsPage() {
               <strong>Down Payment:</strong> A minimum down payment of 3% to
               20%, depending on the loan type.
               <strong>Debt-to-Income Ratio:</strong> Should not exceed 43%.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why Choose CIT Bank for Home Loans?
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 CIT Bank offers competitive rates and flexible terms tailored to
                 meet diverse borrower needs. Whether you're a first-time buyer
                 or looking to refinance, their options simplify the journey.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Understanding the Credit Score Requirement
               </h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Minimum Threshold and Tips for Improvement
               </h3>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To qualify, your credit score should ideally meet or exceed 620.
                 If you're short of this benchmark:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>Check your credit report for errors</li>
                 <li>Pay off outstanding debts</li>
                 <li>Avoid opening new lines of credit before applying</li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Verifying Your Income
               </h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Documents You'll Need
               </h3>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 1. <strong>Recent pay stubs</strong> (last two months) 2.{" "}
                 <strong>Tax returns</strong> (past two years) 3.{" "}
                 <strong>Bank statements</strong> to showcase financial health
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 These documents ensure your ability to make monthly payments.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Down Payment Expectations
               </h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 How Much Should You Save?
               </h3>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The down payment varies based on loan type. While conventional
                 loans may require up to 20%, CIT Bank provides options for as
                 low as 3% for eligible borrowers.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Debt-to-Income Ratio Explained
               </h2>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">
                 Striking the Right Balance
               </h3>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Your debt-to-income ratio is critical for loan approval. Keep
                 your monthly debt obligations below 43% of your gross income.
                 Lower ratios often secure better interest rates.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 1. Submit your application through CIT Bank's online portal 2.
                 Provide the required documentation 3. Wait for loan officer
                 feedback and follow up on additional requirements if requested
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Best Option
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 CIT Bank Home Loans simplify the home-buying journey with clear
                 requirements and exceptional customer support. Prepare your
                 documents, improve your credit score, and take the first step
                 toward owning your dream home.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Related Financial Resources
               </h2>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/personal-finance/money-management-complete-beginners-guide"

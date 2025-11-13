@@ -33,25 +33,25 @@ export default function WellsFargoAutographCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Your gateway to rewards starts here - understand the
                 requirements and apply with confidence.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card offers versatile rewards for
                 everyday spending, making it a top choice for anyone seeking a
                 balance of benefits and practicality. Understanding the
                 qualifications and application process is the first step toward
                 enjoying its perks.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Requirements
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To qualify for the Wells Fargo Autograph Card, applicants must
                 meet specific eligibility criteria:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Good credit score:</strong> Typically 670 or higher
                   for approval consideration.
@@ -68,10 +68,10 @@ export default function WellsFargoAutographCardRequirementsPage() {
                   <strong>Minimum age:</strong> Must be 18 years old or older.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why These Requirements Matter
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
@@ -111,7 +111,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               Your SSN and address are used for credit checks and confirming
               your identity, a vital part of preventing fraud and ensuring
               compliance with banking regulations.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Step-by-Step Application Process
               </h2>
               <strong>Step 1: Gather Necessary Information</strong>
@@ -129,7 +129,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               further review is required, Wells Fargo typically responds within
               7–10 business days. You can check your application status online
               or by calling the provided reference number.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Improving Approval Odds
               </h2>
               <strong>Check Your Credit Report</strong>
@@ -150,10 +150,10 @@ export default function WellsFargoAutographCardRequirementsPage() {
               savings, or other products may positively influence your
               application. Existing customers often receive preferential
               consideration.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Benefits of Prequalification
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Prequalifying for the Wells Fargo Autograph Card allows you to
                 gauge your approval odds without impacting your credit score.
                 This soft credit check provides an estimate of your likelihood
@@ -161,26 +161,26 @@ export default function WellsFargoAutographCardRequirementsPage() {
                 feature if you're uncertain about eligibility or want to compare
                 offers.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What to Expect After Approval
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Once approved, you'll receive your Wells Fargo Autograph Card
                 within 7-10 business days. Upon activation, you can immediately
                 start earning 3x points on restaurants, travel, gas stations,
                 streaming services, and phone plans, plus 1x point on all other
                 purchases.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Don't forget about the $300 welcome bonus opportunity - you'll
                 need to spend $1,500 within the first three months to earn this
                 substantial reward. Plan your spending accordingly to maximize
                 this benefit.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Best Financial Decision
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card combines flexibility and rewards,
                 making it a strong contender for everyday use. By ensuring you
                 meet the requirements and applying strategically, you'll be set

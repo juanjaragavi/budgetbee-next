@@ -34,12 +34,12 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Enjoy a credit card that combines accessibility, rewards, and
                 credit-building tools—without any hidden fees or surprises.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No annual fees</strong> or extra charges.
                 </li>
@@ -54,18 +54,18 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build card offers accessibility,
                 rewards, and credit tools for those building or improving
                 credit, with benefits minus traditional card costs. Explore how
                 it can enhance your finances.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Fees or Hidden Charges: Save Money from Day One
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features of the Visa Signature U.S. Current
                 Build is the absence of annual fees. This feature is extremely
                 important, as many credit cards, especially those that offer
@@ -75,7 +75,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 frequently use the card's benefits.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With the Visa Signature U.S. Current Build, you can forget about
                 these additional costs. There are no maintenance fees, allowing
                 you to save money from the start. Moreover, this card does not
@@ -85,11 +85,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 card responsibly without worrying about unexpected payments.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Earn Rewards on Every Purchase: Maximize Your Daily Transactions
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build card offers a versatile
                 rewards system that earns points on every purchase—groceries,
                 dining, or online shopping. These points can be redeemed for
@@ -99,7 +99,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 points, turning routine expenses into financial benefits.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This rewards program is designed to be straightforward and
                 accessible, allowing cardholders to earn points without
                 complicated category restrictions or rotating categories.
@@ -108,11 +108,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 balance.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Advanced Fraud Protection: Security in Every Transaction
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build prioritizes security with
                 advanced fraud protection, monitoring your transactions in
                 real-time to detect suspicious activity. Immediate notifications
@@ -120,7 +120,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 resolved efficiently to ensure you're covered.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This global protection system provides peace of mind for
                 frequent travelers and online shoppers, using cutting-edge
                 technology to safeguard your card wherever you are. The card's
@@ -129,11 +129,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 security.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Credit-Building Tools: Strengthen Your Financial Future
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond rewards and security, the Visa Signature U.S. Current
                 Build offers valuable credit-building resources. These tools
                 help you understand and improve your credit score through
@@ -142,7 +142,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 rebuild your credit history when used responsibly.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The card provides insights into your spending patterns and
                 credit utilization, helping you make informed decisions about
                 your financial health. These features make it an excellent
@@ -150,11 +150,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 or rebuild after financial challenges.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Travel and Purchase Protection: Additional Peace of Mind
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 As a Visa Signature card, this product includes enhanced travel
                 and purchase protection benefits. These may include travel
                 accident insurance, lost luggage reimbursement, and extended
@@ -162,7 +162,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 significant value beyond the basic card features.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The purchase protection can help with damaged or stolen items
                 bought with the card, while travel benefits provide coverage
                 during trips. These protections enhance the overall value
@@ -170,11 +170,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 lifestyle needs.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Is Visa Signature U.S. Current Build Your Best Option?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In conclusion, the Visa Signature U.S. Current Build offers no
                 annual fees, a strong rewards program, and robust fraud
                 protections. It's ideal for building or improving credit while
@@ -186,11 +186,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 consideration.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/tomo-credit-card-benefits"

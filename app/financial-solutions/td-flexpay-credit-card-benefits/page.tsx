@@ -36,12 +36,12 @@ export default function TdFlexpayCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Experience financial freedom with the TD FlexPay Credit Card, a
                 card that fits your budget and rewards every everyday purchase.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>0% Intro APR on balance transfers</strong> for the
                   first 12 months.
@@ -59,7 +59,7 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card is designed to provide financial
                 flexibility, allowing cardholders to manage their expenses with
                 ease and confidence.
@@ -80,11 +80,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Flexible Payment Plans: Tailored to Your Budget
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card offers truly flexible payment
                 options, allowing cardholders to adjust their plans based on
                 their individual budget and financial needs. Whether you prefer
@@ -95,11 +95,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 income cycles.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Enjoy Benefits Without Extra Costs
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 A significant advantage of the TD FlexPay Credit Card is the
                 absence of an annual fee. Unlike many other credit cards that
                 charge yearly fees, this card allows you to enjoy all its
@@ -109,11 +109,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 spending. Every dollar you save on fees is a dollar you keep.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Rewards on Everyday Purchases: Earn While You Spend
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With the TD FlexPay Credit Card, you earn cashback on virtually
                 every purchase you make, from groceries and dining out to gas
                 and online shopping. Unlike some cards with limited or rotating
@@ -123,12 +123,12 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 cashback rates, further maximizing your earning potential.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Introductory 0% APR for Balance Transfers: Consolidate Debt
                 Smartly
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card offers a valuable introductory 0% APR
                 on balance transfers for the first 12 months. This feature is
                 perfect for consolidating existing high-interest debt from other
@@ -139,16 +139,16 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 standard APR will apply after the 12-month promotional period.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Additional Benefits: Security and Convenience
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond its core features, the TD FlexPay Credit Card also offers
                 enhanced security and convenience:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Fraud Protection:</strong> Rest assured knowing your
                   account is protected against unauthorized charges with robust
@@ -173,11 +173,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Who is TD FlexPay Best For?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card is ideal for individuals who
                 prioritize financial flexibility and value. Whether you are
                 looking to manage existing debt more effectively, earn
@@ -186,11 +186,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 well-rounded solution tailored to diverse financial needs.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why Choose TD FlexPay?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With its flexible payment options, no annual fee, generous
                 cashback rewards, and a valuable introductory APR for balance
                 transfers, the TD FlexPay Credit Card stands out as a smart
@@ -199,11 +199,11 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 the most of its comprehensive benefits.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/citi-simplicity-card-benefits"

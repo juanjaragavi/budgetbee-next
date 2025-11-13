@@ -40,7 +40,7 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 plus no annual fee!
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>3% cashback on purchases</strong> at Amazon.com and
                   Whole Foods Market.
@@ -57,7 +57,7 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Amazon Rewards Visa Credit Card is ideal for frequent Amazon
                 and Whole Foods shoppers, offering cashback on purchases and
                 extra rewards in everyday categories like dining and gas.
@@ -66,12 +66,12 @@ export default function AmazonRewardsVisaBenefitsPage() {
 
               <hr className="my-8" />
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 3% Cashback on Amazon and Whole Foods Purchases: Maximize Your
                 Favorite Purchases
               </h2>
 
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-left">
                 The Amazon Rewards Visa Credit Card offers 3% cashback on
                 purchases at Amazon.com and Whole Foods Market, making it a
                 great choice for frequent shoppers. For example, spending $500 a
@@ -81,7 +81,7 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 Friday, where higher spending can lead to even greater rewards.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 At Whole Foods Market, known for its organic and premium
                 products, the same 3% cashback applies, offering savings for
                 health-conscious shoppers. This feature makes the card an
@@ -89,12 +89,12 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 purchases.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 2% Cashback at Restaurants, Gas Stations, and Drugstores:
                 Benefits for Your Daily Life
               </h2>
 
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-left">
                 The Amazon Rewards Visa Credit Card offers 2% cashback on
                 everyday purchases at restaurants, gas stations, and drugstores,
                 adding value to your daily spending. For example, spending $200
@@ -102,18 +102,18 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 shopping at pharmacies also helps you accumulate rewards.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This 2% cashback feature makes the card a versatile choice,
                 benefiting not just Amazon shoppers but anyone looking to save
                 on essential purchases. Over a year, these rewards can add up to
                 meaningful savings for your budget.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 1% Cashback on All Other Purchases: Save Everywhere
               </h2>
 
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-left">
                 The Amazon Rewards Visa Credit Card offers 1% cashback on all
                 purchases outside specific categories, ensuring every
                 transaction earns rewards. Whether you're shopping for clothes,
@@ -121,35 +121,35 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 savings effortlessly.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For example, spending $1,000 a month earns $10 in cashback—$120
                 annually—which can be applied to your balance or future Amazon
                 purchases. This universal cashback makes the card a flexible
                 choice for any lifestyle.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fees: Maximize Your Rewards Without Paying More
               </h2>
 
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-left">
                 The Amazon Rewards Visa Credit Card stands out with no annual
                 fees, ensuring all rewards you earn translate to net savings.
                 Unlike many cards with fees that reduce reward value, this card
                 lets you fully benefit from its cashback program.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Without an annual fee, you can use the card freely—whether for
                 occasional or daily purchases—knowing every reward adds value
                 without extra costs.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Maximize Your Rewards with Flexibility and Savings
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Amazon Rewards Visa Credit Card offers 3% cashback at Amazon
                 and Whole Foods, 2% at restaurants, gas stations, and
                 drugstores, and 1% on all other purchases—all with no annual
@@ -182,11 +182,11 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"

@@ -62,12 +62,12 @@ for file_base in FILES:
     original_content = content
     
     # Pattern 1: Remove paragraph wrapping around h3 tags
-    # Matches: <p className="text-gray-700 mb-8">\n  <h3...>...</h3>\n</p>
-    pattern1 = r'<p className="text-gray-700 mb-8">\s*(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)\s*</p>'
+    # Matches: <p className="text-gray-700 mb-8 text-left">\n  <h3...>...</h3>\n</p>
+    pattern1 = r'<p className="text-gray-700 mb-8 text-left">\s*(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)\s*</p>'
     content = re.sub(pattern1, r'\1', content, flags=re.DOTALL)
     
     # Pattern 2: Also handle single line cases
-    pattern2 = r'<p className="text-gray-700 mb-8">(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)</p>'
+    pattern2 = r'<p className="text-gray-700 mb-8 text-left">(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)</p>'
     content = re.sub(pattern2, r'\1', content)
     
     # Write back if changed

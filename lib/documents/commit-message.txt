@@ -1,7 +1,8 @@
-chore: apply prettier formatting to TOFU blog post instructions
+chore: apply prettier formatting to all product pages and scripts
 
-- Fixed Prettier formatting in TOFU_BLOG_POST_GENERATION.instructions.md
-- Applied strict Prettier rules for markdown consistency
-- Ensures all instruction files comply with formatting standards
+- Applied Prettier formatting to 30+ financial product pages (benefits & requirements)
+- Formatted instruction files for consistency
+- Formatted migration and cleanup scripts
+- Ensures all TypeScript, TSX, Python, and Shell files meet strict formatting standards
 
-Part of ongoing markdown formatting cleanup across the project.
+This completes the comprehensive Prettier formatting cleanup across the entire codebase.

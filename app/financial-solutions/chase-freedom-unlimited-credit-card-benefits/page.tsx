@@ -37,12 +37,12 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Turn every dollar you spend into unlimited rewards and
                 effortless savings with the Chase Freedom Unlimited Credit Card.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Unlimited Cashback:</strong> Earn rewards on every
                   purchase, with no exceptions.
@@ -61,7 +61,7 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Chase Freedom Unlimited Credit Card is more than just a
                 payment tool; it’s a powerful instrument designed for
                 individuals seeking to enhance their financial rewards
@@ -87,11 +87,11 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Unlimited Cash Back on Every Purchase: Maximize Your Earnings
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features of the Chase Freedom Unlimited is
                 its ability to offer unlimited cashback on every single purchase
                 you make. Whether you’re buying your morning coffee or making a
@@ -105,12 +105,12 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 smart choice for everyday spending.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 0% Introductory APR on Purchases and Balance Transfers:
                 Financial Breathing Room
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Another significant advantage of the Chase Freedom Unlimited is
                 its 0% introductory APR period for both new purchases and
                 balance transfers. This feature is particularly beneficial for
@@ -124,11 +124,11 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 down the principal amount more efficiently.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Pure Value, No Hidden Costs
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Chase Freedom Unlimited stands out because it has no annual
                 fee. This means you can enjoy all its advantages and benefits
                 without worrying about additional recurring costs. For
@@ -139,11 +139,11 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 overall financial experience and maximizing your net rewards.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Flexible Redemption Options: Your Rewards, Your Way
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Cardholders of the Chase Freedom Unlimited can enjoy versatile
                 redemption options for their accumulated cashback. You have the
                 flexibility to choose how you want to receive your rewards: as a
@@ -155,11 +155,11 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 choice is yours.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Best Credit Card: A Strategic Financial Ally
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Chase Freedom Unlimited Credit Card offers an excellent
                 option for those looking to maximize their purchase rewards with
                 simplicity and efficiency. Understanding the eligibility
@@ -172,11 +172,11 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                 ease.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/citi-double-cash-credit-card-benefits"

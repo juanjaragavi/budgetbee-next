@@ -37,13 +37,13 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Maximize your cash back effortlessly—turn every purchase and
                 payment into valuable rewards with the Citi Double Cash Credit
                 Card.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Up to 2% Cashback:</strong> Earn 1% when you buy, and
                   another 1% when you pay.
@@ -62,7 +62,7 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card is ideal for those seeking
                 simplicity and maximum cash-back rewards. Unlike cards with
                 rotating categories, it offers a straightforward 1% back on
@@ -87,11 +87,11 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How the Cash Back Works: Simple and Rewarding
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features of the Citi Double Cash Card is its
                 unique and transparent cash-back structure. You don’t have to
                 worry about quarterly sign-ups, rotating categories, or making
@@ -99,7 +99,7 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 down:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>1% When You Buy:</strong> On every dollar you spend,
                   you earn 1% cash back right away. This applies to all
@@ -118,7 +118,7 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This system is perfect for those who use their credit card for a
                 wide variety of purchases and prefer to avoid the complexities
                 of other rewards programs. The Citi Double Cash Card ensures
@@ -126,12 +126,12 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 savings.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Introductory APR on Balance Transfers: A Smart Way to Manage
                 Debt
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In addition to its impressive cash-back potential, the Citi
                 Double Cash Credit Card offers a 0% introductory APR for 18
                 months on balance transfers. This can be a significant advantage
@@ -143,18 +143,18 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 within the initial window.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Keep in mind that a balance transfer fee (either 3% or $5,
                 whichever is greater) applies. While the introductory APR can
                 lead to substantial savings, always ensure the transfer fee
                 doesn’t outweigh the benefits for your specific situation.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Maximize Your Net Rewards
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Another significant perk of the Citi Double Cash Card is that it
                 has no annual fee. Many rewards cards, especially those with
                 generous cash-back programs, come with an annual fee that can
@@ -164,18 +164,18 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 to maximize their savings.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Flexible Redemption Options: Your Rewards, Your Choice
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Citi offers flexible ways to redeem your rewards, giving you the
                 freedom to choose what works best for your financial needs. Once
                 you’ve accumulated at least $25 in cash back, you can redeem it
                 in the following ways:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Statement Credit:</strong> Apply your cash back
                   directly to your card balance, reducing your outstanding
@@ -192,17 +192,17 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Additional Benefits: Enhanced Protection and Access
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card also comes with additional
                 benefits that enhance your financial protection and provide
                 peace of mind. These include:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Citi Entertainment:</strong> Get special access to
                   purchase tickets for concerts, sporting events, dining
@@ -221,11 +221,11 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Best Option: Simple, Rewarding, and Secure
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card is a solid choice for
                 straightforward cash-back rewards. With its unique 1% back when
                 you buy and 1% when you pay structure, no annual fee, versatile
@@ -237,11 +237,11 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 seasoned cardholders looking to maximize rewards effortlessly.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"

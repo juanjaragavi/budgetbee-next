@@ -35,12 +35,12 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Take control of your finances with ease and flexibility—designed
                 to fit your goals
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Instant approval:</strong> Get a quick response.
                 </li>
@@ -58,7 +58,7 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard offers an innovative
                 financial solution that combines convenience and security.
                 Designed for those seeking greater flexibility and control over
@@ -68,11 +68,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 this card and how it can enhance your financial well-being.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 1. Instant approval
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features of the First Digital NextGen
                 Mastercard is its instant approval. Forget about long waits and
                 complicated paperwork. Upon applying, you'll receive an
@@ -81,11 +81,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 funds or are new to credit.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 2. No credit checks
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Worried about your credit history? With the First Digital
                 NextGen Mastercard, you don't have to. No credit checks are
                 required, which means whether you have no credit history or are
@@ -94,11 +94,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 giving you a second chance to manage your credit effectively.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 3. Low fees and competitive costs
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Credit cards often come with hidden costs and high fees, but the
                 First Digital NextGen Mastercard stands out for its low fees.
                 This card offers competitive costs, allowing you to enjoy the
@@ -107,11 +107,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 credit effectively.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 4. Digital-first approach and intuitive management
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In an increasingly digital world, the First Digital NextGen
                 Mastercard aligns perfectly with your modern lifestyle. With its
                 digital-first approach, you can manage your account online
@@ -122,11 +122,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 easier.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Credit building opportunities
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 By using the First Digital NextGen Mastercard responsibly,
                 you'll not only gain access to financing but also have the
                 chance to improve your credit score over time. This is
@@ -135,11 +135,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 your journey to better financial health.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your best option
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In conclusion, the First Digital NextGen Mastercard is more than
                 just a credit card; it's a powerful tool that offers
                 convenience, flexibility, and the opportunity to rebuild your
@@ -149,11 +149,11 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 towards better financial management?
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/tomo-credit-card-benefits"

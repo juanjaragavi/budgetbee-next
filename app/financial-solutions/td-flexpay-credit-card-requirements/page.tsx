@@ -36,7 +36,7 @@ export default function TdFlexpayCreditCardRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For individuals looking for a credit card that offers payment
                 flexibility, the TD FlexPay Credit Card is a solid option. This
                 card provides an adaptable way to manage finances, making it
@@ -60,16 +60,16 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for the TD FlexPay Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To ensure a smooth application experience, review the following
                 key requirements for the TD FlexPay Credit Card:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Score:</strong> A good credit score (typically
                   above 650) generally increases your chances of approval. TD
@@ -96,11 +96,11 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Step-by-Step Guide to Applying for the TD FlexPay Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
@@ -127,12 +127,12 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 .
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Applying for the TD FlexPay Credit Card is a streamlined process
                 designed for your convenience:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit the Official TD Bank Website:</strong>{" "}
                   Begin by navigating to the official TD Bank website. Locate
@@ -168,16 +168,16 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Features and Benefits of the TD FlexPay Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card offers several compelling features
                 and benefits designed to enhance your financial management:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Flexible Payment Options:</strong> The flexibility
                   offered by TD FlexPay is one of its primary draws. Whether
@@ -204,16 +204,16 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Understanding Interest Rates and Fees
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To make an informed decision about the TD FlexPay Credit Card,
                 here’s a look at some typical fees and interest rates:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Annual Percentage Rate (APR):</strong> The card offers
                   a competitive APR, which is determined based on the
@@ -235,16 +235,16 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Who Should Apply for the TD FlexPay Credit Card?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The TD FlexPay Credit Card is well-suited for individuals with
                 specific financial preferences and behaviors:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>
                     1. Best for Those Seeking Payment Flexibility:
@@ -267,16 +267,16 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Managing Your TD FlexPay Credit Card Wisely
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To maximize the benefits and avoid potential fees, follow these
                 best practices:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Monitor Your Spending Regularly:</strong> Utilize TD
                   Bank’s account alerts and online tools to stay on top of your

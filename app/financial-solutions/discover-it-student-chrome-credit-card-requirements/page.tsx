@@ -37,7 +37,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If you’re considering applying for the Discover it Student
                 Chrome Credit Card, understanding the specific criteria is
                 essential to ensure a smooth approval process. Knowing these
@@ -58,14 +58,14 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Requirements for the Discover it Student Chrome Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To apply for the Discover it Student Chrome Credit Card, you
                 generally need to meet the following criteria:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Age Requirement:</strong> Applicants must be at least
                   18 years old to apply for this credit card. This is a standard
@@ -97,7 +97,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               freelance work, or internships. - Financial support, such as
               allowances from family or scholarships. Even if your income is
               modest, having a reliable source of funds is crucial.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit History:</strong> While this card is suitable
                   for individuals with limited or no credit history, having some
@@ -107,11 +107,11 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   financial habits in other areas is essential.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Discover it Student Chrome Credit Card:
                 Step-by-Step
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
@@ -137,12 +137,12 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process for the Discover it Student Chrome
                 Credit Card is straightforward and can be completed entirely
                 online. Here’s a step-by-step guide:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit Discover’s Official Website:</strong>{" "}
                   Head to Discover’s official website and navigate to the
@@ -162,7 +162,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               for identity verification and to comply with federal regulations.
               - <strong>Student Status:</strong> Indicate your current
               enrollment in a college or university.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Provide Financial Information:</strong> You’ll
                   need to disclose your income sources. Discover understands
@@ -172,7 +172,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               </ul>
               - Earnings from part-time or freelance work. - Allowances or
               scholarships as forms of financial support.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Review and Submit Your Application:</strong>{" "}
                   Double-check all your details to ensure accuracy. Any errors
@@ -182,10 +182,10 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   additional verification.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What Happens After You Apply?
               </h2>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Immediate Decision:</strong> In many cases, applicants
                   receive an instant decision on their application. However, if
@@ -201,14 +201,14 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   address is correct to avoid any delays.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Benefits After Approval: Tools for Financial Success
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Once you’re a cardholder, Discover provides valuable tools to
                 help you manage and build your credit responsibly:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Monitoring and Financial Education:</strong>{" "}
                   Gain access to Discover’s free credit score monitoring tool,
@@ -237,7 +237,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   24/7 customer service to assist with any questions or issues.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 These features make the Discover it Student Chrome Credit Card a
                 comprehensive financial tool for students, combining practical
                 benefits, educational resources, and security features to

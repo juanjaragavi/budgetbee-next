@@ -37,7 +37,7 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card is highly valued for its
                 straightforward cash-back rewards, offering earnings on every
                 purchase with no annual fee. It's a popular choice for those who
@@ -59,16 +59,16 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Requirements for the Citi Double Cash Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To apply for the Citi Double Cash Credit Card, ensure you meet
                 the following general criteria:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Score:</strong> A good credit score of at least
                   670 is generally recommended to improve your chances of
@@ -93,12 +93,12 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Citi Double Cash Credit Card: A Simple
                 Process
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/citi-simplicity-card-benefits"
@@ -124,12 +124,12 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 .
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Applying for the Citi Double Cash Credit Card is a
                 straightforward process designed for your convenience.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit Citi’s Official Website:</strong>{" "}
                   Navigate to Citi’s official website and locate the dedicated
@@ -161,16 +161,16 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Benefits of the Citi Double Cash Credit Card: Why It Stands Out
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card offers several compelling
                 benefits that make it a top choice for many consumers.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>1. Straightforward Cash-Back Rewards:</strong> This
                   card offers a unique and simple cash-back structure: earn 1%
@@ -199,16 +199,16 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Making the Most of Your Citi Double Cash Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To maximize your earnings and benefits with the Citi Double Cash
                 Credit Card:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Use for Everyday Expenses:</strong> Consistently use
                   your card for daily purchases like groceries, gas, and dining
@@ -222,11 +222,11 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Best Option: Simple, Rewarding, and Secure
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Double Cash Credit Card is a solid choice for
                 straightforward cash-back rewards. With no annual fee, versatile
                 redemption options, and a rewarding structure that encourages

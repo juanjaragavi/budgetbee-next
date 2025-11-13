@@ -52,7 +52,7 @@ for FILE_BASE in "${FILES[@]}"; do
     fi
     
     # Use perl for multi-line pattern matching
-    perl -i -pe 's|<p className="text-gray-700 mb-8">\s*(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)\s*</p>|\1|gs' "$TARGET_FILE"
+    perl -i -pe 's|<p className="text-gray-700 mb-8 text-left">\s*(<h3 className="text-xl font-semibold text-gray-800 mb-3">.*?</h3>)\s*</p>|\1|gs' "$TARGET_FILE"
     
     echo "✓ Processed: $FILE_BASE"
     ((FIXED++))

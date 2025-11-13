@@ -37,12 +37,12 @@ export default function CitBankHomeLoansBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Build your dream home with confidence through CIT Bank Home
                 Loans—where competitive rates meet personalized service.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Wide Range of Loan Options:</strong> Access
                   fixed-rate, adjustable-rate, and jumbo loans to fit any need.
@@ -61,7 +61,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 CIT Bank Home Loans represent more than just a financial
                 product—they're your pathway to homeownership. With a commitment
                 to customer satisfaction and transparent lending practices, CIT
@@ -86,11 +86,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why CIT Bank Stands Out in Home Financing
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In today's competitive mortgage market, choosing the right
                 lender can make all the difference. CIT Bank distinguishes
                 itself through a customer-first approach that prioritizes your
@@ -105,7 +105,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Flexible Loan Choices for Every Homebuyer
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Whether you're purchasing a cozy starter home, upgrading to
                 accommodate a growing family, or investing in a luxury property,
                 CIT Bank offers a comprehensive range of loan options. From
@@ -122,7 +122,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Transparent Terms and Competitive Rates
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the most frustrating aspects of home financing is hidden
                 fees and confusing terms. CIT Bank eliminates this concern with
                 clear, upfront communication about all loan terms and
@@ -134,11 +134,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 in the long run.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Simplified Process, Powerful Results
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The mortgage application process has traditionally been
                 paper-heavy and time-consuming. CIT Bank modernizes this
                 experience through innovative digital solutions that respect
@@ -149,7 +149,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Online Convenience at Your Fingertips
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 CIT Bank's user-friendly online portal puts you in control of
                 your home loan journey. From the initial application to document
                 submission and status tracking, everything is accessible 24/7
@@ -165,7 +165,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Quick Pre-Approval for Competitive Advantage
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 In today's fast-paced real estate market, having a pre-approval
                 letter can make the difference between securing your dream home
                 and losing it to another buyer. CIT Bank's efficient
@@ -178,11 +178,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 and streamlining your search.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Expert Guidance Every Step of the Way
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Buying a home is one of the biggest financial decisions you'll
                 ever make, and CIT Bank recognizes the importance of having
                 knowledgeable support throughout the journey.
@@ -192,7 +192,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Personalized Assistance from Mortgage Specialists
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 When you choose CIT Bank, you're not just getting a loan—you're
                 gaining access to experienced mortgage specialists dedicated to
                 your success. These professionals take time to understand your
@@ -208,7 +208,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Refinancing Made Easy
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Homeownership doesn't end at closing. As market conditions
                 change and your financial situation evolves, refinancing your
                 existing mortgage can provide significant benefits. Whether
@@ -221,11 +221,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 terms with minimal hassle.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Helping You Secure a Bright Future
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 A home is more than just a place to live—it's an investment in
                 your future and a foundation for building wealth. CIT Bank Home
                 Loans are structured to support your long-term financial
@@ -236,7 +236,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Long-Term Benefits of a CIT Bank Home Loan
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Choosing CIT Bank means partnering with a lender that
                 prioritizes your financial well-being beyond the closing date.
                 Their competitive rates translate to lower total interest
@@ -249,7 +249,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 opportunities.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With fixed-rate options, you gain the peace of mind that comes
                 with consistent monthly payments, making long-term budgeting
                 easier. For those who choose adjustable-rate mortgages, CIT Bank
@@ -259,11 +259,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 and confidence in your homeownership journey.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Dream Home Awaits
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The path to homeownership doesn't have to be complicated or
                 stressful. With CIT Bank Home Loans, you gain access to
                 competitive rates, flexible loan options, cutting-edge digital
@@ -274,7 +274,7 @@ export default function CitBankHomeLoansBenefitsPage() {
                 to succeed.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Don't let uncertainty or complexity hold you back from achieving
                 your homeownership goals. Explore your options with CIT Bank
                 today and discover how the right mortgage partner can transform
@@ -282,11 +282,11 @@ export default function CitBankHomeLoansBenefitsPage() {
                 Bank is ready to help you unlock the door.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"

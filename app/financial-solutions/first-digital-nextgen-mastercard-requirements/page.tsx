@@ -34,11 +34,11 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Experience instant approval and digital convenience with no
                 credit check required.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard revolutionizes the way you
                 think about credit cards. Designed for today's digital
                 lifestyle, this card offers instant approval, no credit check
@@ -60,15 +60,15 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for First Digital NextGen Mastercard
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard is designed to be
                 accessible to a wide range of applicants, with minimal
                 requirements:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Age requirement:</strong> Applicants must be at least
                   18 years old to qualify for this card.
@@ -98,10 +98,10 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                   bank account for funding and payment purposes.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the First Digital NextGen Mastercard
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
@@ -126,11 +126,11 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process is streamlined and entirely digital,
                 designed for quick approval:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit the official application portal</strong>
                 </li>
@@ -138,7 +138,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               Begin your application by accessing the official First Digital
               NextGen Mastercard application website through their secure
               portal.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Complete the digital application</strong>
                 </li>
@@ -146,21 +146,21 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               Fill out the online application form with your basic personal
               information, including name, address, date of birth, and social
               security number.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Provide income information</strong>
                 </li>
               </ul>
               Enter your employment status and income information. The process
               is simplified and doesn't require extensive documentation.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Submit identification</strong>
                 </li>
               </ul>
               Upload a photo of your government-issued ID for verification
               purposes. The digital process makes this quick and secure.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 5: Receive instant decision</strong>
                 </li>
@@ -168,7 +168,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               Most applications receive an instant approval decision. In some
               cases, additional verification may be required, which typically
               takes 1-2 business days.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 6: Access your digital card immediately</strong>
                 </li>
@@ -176,63 +176,63 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               Upon approval, you'll immediately receive access to your digital
               card information, allowing you to start making purchases right
               away.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the First Digital NextGen Mastercard
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard offers numerous advantages
                 that make it stand out in the credit card market:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Instant approval process</strong>
                 </li>
               </ul>
               Get approved within minutes of submitting your application, with
               no waiting periods for credit checks or extensive underwriting.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No credit check required</strong>
                 </li>
               </ul>
               The card is accessible to individuals with no credit history,
               limited credit, or those recovering from past credit challenges.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Digital-first design</strong>
                 </li>
               </ul>
               Manage your entire account through the mobile app, including
               payments, transaction monitoring, and account settings.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Low fees structure</strong>
                 </li>
               </ul>
               Transparent pricing with minimal fees and no hidden charges,
               making it an affordable option for credit access.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit building opportunities</strong>
                 </li>
               </ul>
               Responsible use of the card can help establish or rebuild your
               credit history over time.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Secure digital transactions</strong>
                 </li>
               </ul>
               Advanced security features protect your account and personal
               information during digital transactions.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Digital Management Features
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard comes with comprehensive
                 digital tools:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Mobile app control:</strong> Complete account
                   management through an intuitive mobile application
@@ -254,14 +254,14 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                   functionality for convenient transactions
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Important Considerations
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Before applying for the First Digital NextGen Mastercard,
                 consider these factors:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Interest rates:</strong> While the card offers
                   accessibility, interest rates may be higher than traditional
@@ -282,13 +282,13 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                   approach requires comfort with mobile and online banking
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Is the First Digital NextGen Mastercard Right for You?
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card is ideal for individuals who:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   Need quick access to credit without traditional approval
                   barriers
@@ -300,7 +300,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                 <li>Prefer transparent, low-fee financial products</li>
                 <li>Value instant approval and immediate access to funds</li>
               </ul>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The First Digital NextGen Mastercard represents a modern
                 approach to credit access, combining convenience with
                 responsibility to help you achieve your financial goals.

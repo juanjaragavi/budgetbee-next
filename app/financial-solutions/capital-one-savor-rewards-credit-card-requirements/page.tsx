@@ -34,11 +34,11 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Apply for unlimited 3% cash back on dining and entertainment
                 with no annual fee.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For those who love dining out and entertainment, the Capital One
                 Savor Rewards Credit Card is an excellent choice. It offers
                 unlimited 3% cash back on dining and entertainment purchases,
@@ -60,15 +60,15 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for Capital One Savor Rewards Credit
                 Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Savor Rewards Credit Card requires applicants to
                 meet certain financial and personal criteria, including:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit score:</strong> Applicants typically need a
                   good to excellent credit score (generally 660 or higher) to
@@ -101,10 +101,10 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                   have sufficient income.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Capital One Savor Rewards Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/doordash-rewards-mastercard-benefits"
@@ -131,18 +131,18 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process is straightforward and can be completed
                 online. Here's your step-by-step guide:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit Capital One's website</strong>
                 </li>
               </ul>
               Navigate to Capital One's official website and locate the Savor
               Rewards Credit Card application page.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Complete the application form</strong>
                 </li>
@@ -150,14 +150,14 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Fill out the application with your personal information, including
               your name, address, Social Security number, and employment
               details.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Provide income information</strong>
                 </li>
               </ul>
               Enter your annual household income and employment information. Be
               accurate, as Capital One may verify this information.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Review and submit</strong>
                 </li>
@@ -165,7 +165,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Double-check all information for accuracy before submitting your
               application. Incomplete or incorrect information can delay the
               process.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 5: Await decision</strong>
                 </li>
@@ -173,7 +173,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Capital One typically provides an instant decision for many
               applicants. If additional review is needed, you may receive a
               decision within 7-10 business days.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 6: Receive and activate your card</strong>
                 </li>
@@ -181,15 +181,15 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Upon approval, your Capital One Savor card will arrive within 7-10
               business days. Follow the activation instructions to start earning
               rewards immediately.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the Capital One Savor Rewards Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Savor Rewards Credit Card offers compelling
                 benefits that make it attractive for dining and entertainment
                 enthusiasts:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>
                     Unlimited 3% cash back on dining and entertainment
@@ -199,45 +199,45 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Earn 3% cash back on all restaurant purchases and entertainment
               expenses, including movie theaters, concerts, and sporting events.
               There are no spending caps or quarterly limits.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>1% cash back on all other purchases</strong>
                 </li>
               </ul>
               Every purchase earns rewards, ensuring that all your spending
               contributes to your cash back accumulation.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No annual fee</strong>
                 </li>
               </ul>
               Keep more of your rewards with no annual fee, making this card
               cost-effective for any spending level.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Exclusive experiences</strong>
                 </li>
               </ul>
               Access to special dining events, concerts, and entertainment
               experiences available only to Capital One cardholders.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No foreign transaction fees</strong>
                 </li>
               </ul>
               Ideal for international travel, allowing you to earn rewards on
               overseas dining and entertainment without additional fees.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>CreditWise access</strong>
                 </li>
               </ul>
               Free credit monitoring and score tracking to help you stay on top
               of your credit health.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Important Considerations Before Applying
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Before applying for the Capital One Savor Rewards Credit Card,
                 consider your spending patterns. This card is most beneficial
                 for individuals who frequently dine out or spend on
@@ -245,16 +245,16 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 like groceries or gas, you might find better value with
                 different rewards cards.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also, consider your credit score and financial situation.
                 Capital One typically requires good to excellent credit, so
                 ensure your credit profile meets their standards before
                 applying.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Is the Capital One Savor Rewards Credit Card Right for You?
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card is perfect for foodies, entertainment enthusiasts, and
                 anyone who wants to earn substantial rewards on dining and
                 entertainment expenses. With its straightforward rewards
@@ -262,7 +262,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 Savor Rewards Credit Card can help you turn your lifestyle
                 spending into valuable cash back rewards.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If you frequently dine out, attend concerts, go to movies, or
                 enjoy other entertainment activities, and you meet the
                 eligibility requirements, this card could be an excellent

@@ -36,7 +36,7 @@ export default function DoordashRewardsMastercardRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The DoorDash Rewards Mastercard is designed for frequent
                 DoorDash users and those who love dining out, offering cashback
                 and rewards on food deliveries and other purchases. This card
@@ -59,17 +59,17 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for the DoorDash Rewards Mastercard
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To qualify for the DoorDash Rewards Mastercard, applicants
                 typically need to meet certain criteria. Understanding these
                 requirements can help you prepare your application.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Score:</strong> Generally, a good credit score
                   (typically 680 or higher) will significantly improve your
@@ -98,12 +98,12 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Applying for the DoorDash Rewards Mastercard: A Step-by-Step
                 Guide
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
@@ -129,12 +129,12 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 .
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process for the DoorDash Rewards Mastercard is
                 designed to be straightforward.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit the Official Website or App:</strong>{" "}
                   Begin by navigating to the official DoorDash website or the
@@ -172,16 +172,16 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the DoorDash Rewards Mastercard
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The DoorDash Rewards Mastercard offers a range of benefits
                 designed to enhance your dining and delivery experience.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Cashback Rewards:</strong> Cardholders can earn
                   substantial cashback on DoorDash orders and across various
@@ -208,16 +208,16 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Make the Most of the DoorDash Rewards Mastercard
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To maximize your benefits and savings with the DoorDash Rewards
                 Mastercard:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Use for All Eligible DoorDash Orders:</strong> Always
                   use your card for DoorDash purchases and DashPass orders to
@@ -237,12 +237,12 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Final Thoughts: Is the DoorDash Rewards Mastercard Right for
                 You?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The DoorDash Rewards Mastercard offers exceptional rewards and
                 perks for loyal DoorDash customers and frequent diners. With no
                 annual fee, generous cashback on purchases, and exclusive access

@@ -35,11 +35,11 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Build credit and earn unlimited cash back with student-friendly
                 approval criteria.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For students seeking to build credit while earning competitive
                 rewards, the Capital One Quicksilver Student Credit Card is an
                 excellent choice. It offers unlimited 1.5% cash back,
@@ -61,16 +61,16 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for Capital One Quicksilver Student
                 Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card has
                 student-friendly requirements designed for those with limited
                 credit history:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Student status:</strong> Ideal for current college
                   students or recent graduates (within 12 months).
@@ -103,10 +103,10 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                   credit issues.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Capital One Quicksilver Student Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
@@ -131,18 +131,18 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process for this student card is straightforward
                 and can be completed online:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit Capital One's website</strong>
                 </li>
               </ul>
               Navigate to Capital One's official website and find the
               Quicksilver Student Credit Card application page.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Enter your personal information</strong>
                 </li>
@@ -150,7 +150,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Fill out the application form with your personal details,
               including your name, address, Social Security Number, and date of
               birth.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>
                     Step 3: Provide student and income information
@@ -160,14 +160,14 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Include details about your school enrollment status, expected
               graduation date, and income sources. Students can include
               financial aid, part-time work income, and allowances.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Review terms and conditions</strong>
                 </li>
               </ul>
               Carefully read the card's terms, including the rewards structure,
               interest rates, and fees before proceeding.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 5: Submit your application</strong>
                 </li>
@@ -176,7 +176,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               information for accuracy, submit your application. You may receive
               an instant decision, though some applications may take 1-3
               business days for review.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 6: Wait for your card</strong>
                 </li>
@@ -184,14 +184,14 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Upon approval, your Capital One Quicksilver Student card will be
               mailed to you within 7-10 business days. Once received, activate
               your card and start building credit while earning rewards.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the Capital One Quicksilver Student Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card offers
                 exceptional value for students:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>1.5% Unlimited Cash Back</strong>
                 </li>
@@ -199,21 +199,21 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Earn 1.5% cash back on every purchase with no restrictions or
               rotating categories. This straightforward rewards structure makes
               it easy to earn on all spending.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Annual Fee</strong>
                 </li>
               </ul>
               The card comes with no annual fee, making it budget-friendly for
               students and ensuring all rewards translate directly to savings.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Foreign Transaction Fees</strong>
                 </li>
               </ul>
               Perfect for students studying abroad or traveling internationally,
               with no additional fees on foreign purchases.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit-Building Tools</strong>
                 </li>
@@ -221,17 +221,17 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Access Capital One's excellent mobile app with credit monitoring,
               spending tracking, and budgeting tools designed to help students
               build strong financial habits.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Fraud Protection</strong>
                 </li>
               </ul>
               Comprehensive fraud monitoring and $0 fraud liability to protect
               students from unauthorized transactions.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Students Using the Capital One Quicksilver Card
               </h2>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Pay in full monthly:</strong> Always pay your full
                   balance on time to avoid interest charges and build positive
@@ -252,10 +252,10 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                   credit-building progress.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Considerations Before Applying
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Before applying, consider your spending habits and financial
                 goals. This card is particularly beneficial for students who
                 want to earn rewards on all purchases while building credit. The
@@ -263,11 +263,11 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 cards, and the lack of an annual fee makes it accessible for
                 students on tight budgets.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Is the Capital One Quicksilver Student Credit Card Right for
                 You?
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card is perfect for students who want to build credit while
                 earning unlimited cash back rewards. With no annual fee, no
                 foreign transaction fees, and excellent credit-building tools,

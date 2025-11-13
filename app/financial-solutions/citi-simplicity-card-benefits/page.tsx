@@ -35,12 +35,12 @@ export default function CitiSimplicityCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Simplify your finances with no late fees, no penalty rates, and
                 exceptional ease of use.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No late fees, ever</strong> - Focus on payments
                   without penalty stress.
@@ -59,7 +59,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card is designed for those who want
                 straightforward credit management without the worry of fees and
                 penalties. Perfect for consolidating debt or making large
@@ -81,11 +81,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Late Fees, Ever: Freedom from Financial Penalties
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card's standout feature is its commitment to
                 never charging late fees, regardless of how many times you might
                 miss a payment deadline. This unique benefit provides
@@ -93,7 +93,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 their finances without the stress of potential penalty charges.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Unlike traditional credit cards that can impose late fees
                 ranging from $25 to $40 or more, the Citi Simplicity Card
                 eliminates this concern entirely. This means you can focus on
@@ -104,17 +104,17 @@ export default function CitiSimplicityCardBenefitsPage() {
                 payments, this feature provides valuable financial flexibility.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This benefit is particularly valuable for students, freelancers,
                 or anyone with variable income who might occasionally struggle
                 with payment timing but wants to maintain good credit standing.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Penalty APR: Your Rate Stays Consistent
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond eliminating late fees, the Citi Simplicity Card also
                 promises no penalty APR increases. This means your interest rate
                 will never be raised as punishment for late payments or other
@@ -122,7 +122,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 cards.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Traditional credit cards often implement penalty APRs that can
                 jump to 29.99% or higher when cardholders miss payments, making
                 debt recovery much more difficult. The Citi Simplicity Card's
@@ -131,7 +131,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 strategy.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This consistency in rates makes it easier to plan your finances
                 and creates a more forgiving environment for those working to
                 improve their credit management skills. You can focus on paying
@@ -139,11 +139,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 could derail your progress.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 0% Intro APR for 21 Months: Time to Breathe and Plan
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card offers an exceptionally generous 0%
                 introductory APR period of 21 months on both purchases and
                 balance transfers. This extended promotional period provides
@@ -151,7 +151,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 existing debt without accruing interest charges.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For balance transfers, this means you can move high-interest
                 debt from other cards and have nearly two years to pay it down
                 without additional interest accumulation. This can result in
@@ -160,7 +160,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 the promotional period.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For new purchases, the 21-month 0% APR period allows you to make
                 large necessary purchases—like appliances, furniture, or
                 emergency expenses—and spread payments over time without
@@ -169,11 +169,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 that might otherwise strain your budget.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Maximum Value, Minimal Cost
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card comes with no annual fee, ensuring that
                 all the benefits you receive don't come at the cost of yearly
                 charges. This makes the card accessible to a broader range of
@@ -181,7 +181,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 and promotional rates translates directly to your bottom line.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Without an annual fee, you can keep the card open indefinitely
                 to maintain your credit history and available credit, even if
                 your usage patterns change over time. This long-term flexibility
@@ -189,11 +189,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 goals.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Perfect for Debt Consolidation and Large Purchases
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The combination of no fees, no penalty rates, and an extended 0%
                 APR period makes the Citi Simplicity Card an excellent choice
                 for debt consolidation. You can transfer balances from multiple
@@ -201,7 +201,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 without worrying about additional fees or rate increases.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For large purchases, the card provides a practical way to spread
                 costs over time without the burden of immediate interest
                 charges. This makes it ideal for planned expenses like wedding
@@ -209,11 +209,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 financing flexibility.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Simplicity in Credit Management
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card lives up to its name by removing the
                 common complications and frustrations associated with credit
                 card ownership. By eliminating late fees and penalty rates while
@@ -221,7 +221,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 forgiving and manageable credit experience.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This approach makes it particularly suitable for those who are
                 new to credit, rebuilding their credit, or simply want a
                 straightforward card without complex rewards structures or
@@ -230,11 +230,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 most for everyday credit management.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/td-flexpay-credit-card-benefits"

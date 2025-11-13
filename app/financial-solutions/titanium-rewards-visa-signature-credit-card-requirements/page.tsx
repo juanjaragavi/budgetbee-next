@@ -35,11 +35,11 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The requirements for superior rewards and premium Visa Signature
                 benefits.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Titanium Rewards Visa Signature Card by Andrews Federal
                 Credit Union offers exceptional rewards on everyday spending
                 categories. Before applying, it's crucial to understand the
@@ -60,16 +60,16 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for Titanium Rewards Visa Signature
                 Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Titanium Rewards Visa Signature Credit Card requires
                 applicants to meet specific financial and personal criteria,
                 including:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit score:</strong> Applicants typically need a
                   minimum credit score of 700 to qualify for this premium Visa
@@ -104,10 +104,10 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                   strengthen your application.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Titanium Rewards Visa Signature Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
@@ -132,11 +132,11 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process requires careful preparation and can be
                 completed online or in-person:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Establish Credit Union Membership</strong>
                 </li>
@@ -145,7 +145,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Andrews Federal Credit Union. This may require meeting eligibility
               criteria such as military service, government employment, or
               family member sponsorship.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Gather Required Documentation</strong>
                 </li>
@@ -153,7 +153,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Prepare necessary documents including recent pay stubs, tax
               returns, bank statements, and valid identification. Having these
               ready expedites the application process.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Complete the Online Application</strong>
                 </li>
@@ -161,7 +161,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Visit the Andrews Federal Credit Union website and navigate to the
               credit card section. Fill out the comprehensive application form
               with accurate personal and financial information.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Income Verification</strong>
                 </li>
@@ -169,7 +169,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Be prepared to provide detailed income documentation. The credit
               union may request additional verification depending on your
               employment status and income level.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 5: Review and Submit</strong>
                 </li>
@@ -177,7 +177,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Carefully review all information for accuracy before submitting.
               Incomplete or inaccurate applications can result in delays or
               denial.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 6: Await Decision</strong>
                 </li>
@@ -185,7 +185,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Application decisions are typically provided within 7-10 business
               days. Some applicants may receive instant pre-approval, while
               others may require additional review.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 7: Card Activation</strong>
                 </li>
@@ -193,14 +193,14 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Upon approval, your Titanium Rewards Visa Signature card will be
               mailed within 7-10 business days. Follow the activation
               instructions to begin earning rewards.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the Titanium Rewards Visa Signature Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Understanding the premium benefits helps justify the application
                 requirements:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Exceptional Earning Rates</strong>
                 </li>
@@ -208,7 +208,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Earn 5x points on gas purchases and 3x points on groceries, with
               1x points on all other purchases. No rotating categories or
               spending caps simplify earning.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Premium Visa Signature Benefits</strong>
                 </li>
@@ -216,34 +216,34 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Access 24/7 concierge services, exclusive travel perks, purchase
               protections, and special offers at luxury establishments
               worldwide.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Annual Fee</strong>
                 </li>
               </ul>
               Enjoy all premium benefits and earning rates without paying an
               annual fee, maximizing the value of your rewards.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Travel-Friendly Features</strong>
                 </li>
               </ul>
               No foreign transaction fees make this card ideal for international
               travel, while maintaining full earning potential abroad.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Flexible Redemption Options</strong>
                 </li>
               </ul>
               Redeem points for travel, gift cards, statement credits, or
               merchandise through the rewards portal.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Approval Success
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Maximize your chances of approval with these strategies:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Check Your Credit Score:</strong> Ensure your credit
                   score meets the minimum requirements before applying. Consider
@@ -269,25 +269,25 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                   negatively impact your score.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Understanding Andrews Federal Credit Union
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Founded in 1948, Andrews Federal Credit Union serves military
                 personnel, government employees, and their families. As a
                 member-owned financial institution, the credit union focuses on
                 providing competitive rates and excellent member service.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The credit union's commitment to member satisfaction extends to
                 their credit card offerings, including comprehensive customer
                 support and competitive rewards programs designed to benefit
                 members' financial goals.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Start Your Application Today
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Titanium Rewards Visa Signature Credit Card offers
                 exceptional value for qualified applicants who meet the credit
                 union's membership and financial requirements. With 5x points on
@@ -295,7 +295,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 Signature benefits, this card provides outstanding value for
                 everyday spending.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Take the first step by exploring Andrews Federal Credit Union
                 membership options and preparing your application materials. The
                 combination of superior rewards and premium benefits makes this

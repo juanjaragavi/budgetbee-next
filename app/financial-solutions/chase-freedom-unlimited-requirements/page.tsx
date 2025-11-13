@@ -35,7 +35,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If you’re considering applying for the Chase Freedom Unlimited
                 Credit Card, understanding the specific criteria is essential to
                 ensure a smooth approval process. Knowing these requirements
@@ -56,14 +56,14 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Requirements for the Chase Freedom Unlimited Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To apply for the Chase Freedom Unlimited Credit Card, you
                 generally need to meet the following criteria:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Score:</strong> A good to excellent credit
                   score (typically 670 or higher) is generally recommended to
@@ -92,11 +92,11 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                   returns if requested.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Chase Freedom Unlimited Credit Card:
                 Step-by-Step
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/doordash-rewards-mastercard-benefits"
@@ -123,12 +123,12 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process for the Chase Freedom Unlimited Credit
                 Card is straightforward and can be completed entirely online.
                 Here’s a step-by-step guide:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit Chase’s Official Website:</strong> Begin
                   by navigating to Chase’s official website. Locate the
@@ -145,7 +145,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               address, phone number, and date of birth. -{" "}
               <strong>Social Security Number (SSN):</strong> This is required
               for identity verification and to comply with federal regulations.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Provide Financial Information:</strong> You’ll
                   need to disclose your income sources. This information is
@@ -167,14 +167,14 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                   additional verification or processing time.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Benefits After Approval: Tools for Financial Success
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Once you’re a cardholder, Chase provides valuable tools to help
                 you manage and build your credit responsibly:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Unlimited Cashback Rewards:</strong> Enjoy unlimited
                   cashback on every purchase you make. This straightforward
@@ -215,7 +215,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                   health, supporting your journey toward financial independence.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 These features make the Chase Freedom Unlimited Credit Card a
                 comprehensive financial tool, combining practical benefits,
                 educational resources, and strong security to support your

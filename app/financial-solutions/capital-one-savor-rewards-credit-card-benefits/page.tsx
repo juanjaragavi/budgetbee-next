@@ -35,11 +35,11 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Reward yourself for the moments that matter most.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>
                     Unlimited 3% cash back on dining and entertainment:
@@ -60,7 +60,7 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Savor Rewards Credit Card is perfect for those
                 who love dining out and entertainment, offering straightforward
                 cash back with no rotating categories or enrollment
@@ -83,11 +83,11 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Perfect for Foodies and Fun Lovers
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If dining out and entertainment are part of your lifestyle, the
                 3% unlimited cash back ensures your spending is rewarding. From
                 movie nights to concerts, every outing brings you closer to your
@@ -97,7 +97,7 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 everyday purchases.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Whether you're trying a new restaurant, catching the latest
                 blockbuster, or attending a live concert, this card turns your
                 entertainment expenses into valuable rewards. For frequent
@@ -105,11 +105,11 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 can add up to significant savings throughout the year.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Cash Back Without Complexity
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Savor Rewards card offers straightforward cash back with no
                 rotating categories or enrollment requirements. Enjoy rewards
                 for your everyday purchases hassle-free. Unlike other cards that
@@ -117,7 +117,7 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 for bonuses, the Capital One Savor keeps things simple.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This simplicity means you can focus on enjoying your experiences
                 rather than worrying about maximizing complex reward structures.
                 Every qualifying purchase automatically earns the appropriate
@@ -125,18 +125,18 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 cards available.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Exclusive Event Access
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Experience VIP treatment with special access to dining, music,
                 and sports events, turning ordinary nights into extraordinary
                 memories. Capital One Savor cardholders gain access to exclusive
                 experiences that money can't typically buy.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 From private dining events at renowned restaurants to early
                 access tickets for concerts and sporting events, these perks add
                 value beyond the cash back rewards. These exclusive
@@ -145,11 +145,11 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 options.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Foreign Transaction Fees
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Whether dining abroad or shopping online from international
                 retailers, you won't face extra fees. This feature makes the
                 Capital One Savor an excellent travel companion, allowing you to
@@ -157,14 +157,14 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 worrying about additional charges.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For travelers who love experiencing local cuisine and
                 entertainment abroad, this benefit ensures that every
                 international purchase earns rewards without the typical 2-3%
                 foreign transaction fees that many cards charge.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Maximize Rewards
               </h2>
 
@@ -172,7 +172,7 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 Use it for Everyday Purchases
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 While the card shines in dining and entertainment, earning 1%
                 cash back on all purchases means you're rewarded for everything
                 from groceries to gas. This universal cash back rate ensures
@@ -184,43 +184,43 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 Pair it with Another Capital One Card
               </h3>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Combine your Savor Rewards card with another Capital One product
                 to optimize rewards across all spending categories. Capital One
                 allows you to pool rewards across multiple cards, giving you
                 flexibility in how you redeem your earnings.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Consider pairing the Savor with a card that offers higher rates
                 on categories like groceries or gas to create a comprehensive
                 rewards strategy that maximizes your earning potential across
                 all your spending.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Your Perfect Dining and Entertainment Companion
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Savor Rewards Credit Card is a game-changer for
                 those who love dining and entertainment. Its cash-back
                 structure, no annual fee, and exclusive perks make it a
                 must-have for anyone with a taste for the finer things in life.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With unlimited 3% cash back on dining and entertainment, 1% on
                 all other purchases, and valuable perks like exclusive event
                 access and no foreign transaction fees, this card delivers
                 exceptional value for lifestyle-focused spenders.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/wells-fargo-autograph-card-benefits"

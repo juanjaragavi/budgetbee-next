@@ -35,7 +35,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The US Bank Cash+ Visa Signature Card is a highly customizable
                 cashback credit card designed for individuals who want
                 flexibility and control over their spending categories. With the
@@ -46,17 +46,17 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                 everything you need to know about the application process,
                 eligibility criteria, and tips for a successful submission.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for the US Bank Cash+ Visa Signature
                 Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Before beginning your application, it’s important to ensure you
                 meet the eligibility criteria. These requirements are essential
                 for improving your chances of approval and avoiding unnecessary
                 delays.
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Age Requirement:</strong> You must be at least 18
                   years old to apply for the US Bank Cash+ Visa Signature Card.
@@ -87,15 +87,15 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                   terms.
                 </li>
               </ul>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If you meet these criteria, you are ready to proceed with the
                 application.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Step-by-Step Application Process for the US Bank Cash+ Visa
                 Signature Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/first-digital-nextgen-mastercard-benefits"
@@ -121,11 +121,11 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Applying for the US Bank Cash+ Visa Signature Card is simple and
                 straightforward. Follow these steps to ensure a smooth process:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Visit the US Bank Website:</strong> Go to the
                   official US Bank website and navigate to the credit card
@@ -141,7 +141,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               Number. - Contact details (phone number and email address). -
               Ensure all information is accurate and matches official documents
               to avoid delays.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>
                     Step 3: Provide Employment and Financial Details:
@@ -153,7 +153,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               retired). - Source of income and annual or monthly income. - This
               information helps US Bank evaluate your ability to manage credit
               responsibly.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Provide Housing Information:</strong> US Bank
                   also considers your housing situation. You’ll need to indicate
@@ -168,10 +168,10 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                   confirmed, submit your application.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What Happens After You Apply?
               </h2>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Instant Decision or Further Review:</strong> In many
                   cases, applicants receive an instant decision. If additional
@@ -186,14 +186,14 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                   phone before using it.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Features of the US Bank Cash+ Visa Signature Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card offers several unique benefits, making it one of the
                 most flexible cashback cards available:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Customizable Cashback Categories:</strong> Earn 5%
                   cashback on up to two categories of your choice each quarter
@@ -226,10 +226,10 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                   added peace of mind.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for a Successful Application
               </h2>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Check Your Credit Score:</strong> Use a free credit
                   monitoring tool to ensure your score meets the recommended
@@ -246,20 +246,20 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                   likelihood of approval without affecting your credit score.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What to Do if Your Application is Denied
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 If your application is denied, US Bank will send you a letter
                 explaining the reasons. Common reasons include insufficient
                 credit history or a high debt-to-income ratio. Address these
                 issues by improving your credit score or applying for a secured
                 credit card to build credit before reapplying.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Final Thoughts
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The US Bank Cash+ Visa Signature Card stands out for its
                 customizable cashback categories, flexible rewards, and valuable
                 perks. By understanding the application requirements and

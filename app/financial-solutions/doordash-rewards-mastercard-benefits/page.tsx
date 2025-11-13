@@ -36,13 +36,13 @@ export default function DoordashRewardsMastercardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For food lovers and frequent diners, the DoorDash Rewards
                 Mastercard is your ultimate companion for every order and
                 outing.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Earn 4% cashback</strong> on all DoorDash orders.
                 </li>
@@ -59,17 +59,17 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The DoorDash Rewards Mastercard is designed to reward food
                 enthusiasts, offering impressive cashback and exclusive benefits
                 whether you're ordering in or dining out.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 4% Cashback on DoorDash Orders: Your Key to Significant Savings
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With the DoorDash Rewards Mastercard, you earn an exceptional 4%
                 cashback on all your DoorDash orders. This is one of the highest
                 cashback rates available for food delivery services, making it
@@ -80,11 +80,11 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 valuable rewards.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Enjoy Perks Without Extra Costs
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features of the DoorDash Rewards Mastercard
                 is its zero annual fee. This means you can enjoy all the
                 impressive benefits and cashback opportunities without worrying
@@ -95,11 +95,11 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 value remains clear.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Additional Cashback on Dining: Rewards Beyond Delivery
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond DoorDash orders, this Mastercard offers a generous 3%
                 cashback on all restaurant purchases. Whether you're enjoying a
                 casual meal at a local cafe, grabbing a quick bite, or indulging
@@ -109,11 +109,11 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 covered from deliveries to dine-in meals.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Exclusive DoorDash Promotions and Offers: Unlock More Value
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 As a cardholder, you gain access to special discounts, free
                 delivery on selected orders, and seasonal promotions available
                 exclusively to DoorDash Rewards Mastercard holders. These offers
@@ -123,24 +123,24 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 every order more rewarding.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Maximize Your Food Experience with the DoorDash Rewards
                 Mastercard
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The DoorDash Rewards Mastercard is an essential tool for anyone
                 who loves food delivery and dining out. With:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>4% cashback on DoorDash orders</li>
                 <li>No annual fee</li>
                 <li>3% cashback on restaurant dining</li>
                 <li>Exclusive DoorDash promotions</li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card offers exceptional value for food enthusiasts. To
                 fully benefit from its features, ensure you meet the eligibility
                 requirements before applying. If you’re looking to save money on
@@ -149,11 +149,11 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 financial tool for you.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"

@@ -312,7 +312,7 @@ export default function {ComponentName}Page() {
             <div id="us_budgetbeepro_2" className="items-center justify-center flex w-full my-8">{/* Ad placeholder */}</div>
             <section className="my-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">Next steps</h2>
-              <p className="text-gray-700 mb-4">
+              <p className="text-gray-700 mb-4 text-left">
                 {Actionable guidance with internal links}
               </p>
             </section>

@@ -34,10 +34,10 @@ export default function CitiSimplicityCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Zero fees, zero hassle—here's how to qualify.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card is an excellent choice for those
                 seeking convenience and cost-saving benefits. With its standout
                 feature of no late fees or penalty rates, this card is ideal for
@@ -58,15 +58,15 @@ export default function CitiSimplicityCardRequirementsPage() {
                   loading="eager"
                 />
               </div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for Citi Simplicity Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card requires applicants to meet specific
                 financial and personal criteria to ensure responsible credit
                 management:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit score:</strong> Applicants need a minimum
                   credit score of 670 or higher, considered good credit. This
@@ -94,10 +94,10 @@ export default function CitiSimplicityCardRequirementsPage() {
                   manage the card effectively.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why These Requirements Matter
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
@@ -135,14 +135,14 @@ export default function CitiSimplicityCardRequirementsPage() {
               repayment capacity. Keeping your debt-to-income ratio below 36%
               significantly increases your approval odds and may result in
               better terms.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Application Process for Citi Simplicity Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity application process is designed to be quick
                 and user-friendly when you're properly prepared:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Gather Your Documentation</strong>
                 </li>
@@ -151,7 +151,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               proof of income (recent pay stubs or tax returns), and valid
               identification documents ready. Citi may request additional
               information if your application requires further review.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Apply Online</strong>
                 </li>
@@ -160,7 +160,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               application form. Provide accurate personal information, including
               your name, address, employment details, income information, and
               contact information.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Wait for Approval Decision</strong>
                 </li>
@@ -169,7 +169,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               applicants receiving instant decisions. If additional review is
               needed, you'll receive a response within 7-10 business days via
               email or mail.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Receive and Activate Your Card</strong>
                 </li>
@@ -177,7 +177,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               Upon approval, your Citi Simplicity Card will be mailed to you
               within 7-10 business days. Follow the activation instructions
               included with your card to begin using it immediately.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Successful Application
               </h2>
               <strong>Check Your Credit Report</strong>
@@ -194,14 +194,14 @@ export default function CitiSimplicityCardRequirementsPage() {
               Only apply when you genuinely need the card, as multiple
               applications in a short period can temporarily lower your credit
               score.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What to Expect After Approval
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Once approved for the Citi Simplicity Card, you'll gain access
                 to:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>21-month 0% intro APR</strong> on purchases and
                   balance transfers
@@ -223,14 +223,14 @@ export default function CitiSimplicityCardRequirementsPage() {
                   credit health
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Considerations Before Applying
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card is particularly beneficial for those
                 who:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   Want to consolidate high-interest debt through balance
                   transfers
@@ -246,22 +246,22 @@ export default function CitiSimplicityCardRequirementsPage() {
                   Want protection from late fees and penalty rate increases
                 </li>
               </ul>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 However, this card may not be ideal if you're primarily seeking
                 rewards or cashback on purchases, as it focuses on simplicity
                 rather than earning potential.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Is the Citi Simplicity Card Right for You?
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity Card offers exceptional value for
                 individuals seeking straightforward credit management without
                 the worry of fees and penalties. If you meet the eligibility
                 requirements and value simplicity over rewards, this card can
                 provide peace of mind and financial flexibility.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The card's unique combination of no late fees, no penalty APR,
                 and an extended 0% intro period makes it an excellent choice for
                 debt consolidation, large purchases, or anyone who wants a more

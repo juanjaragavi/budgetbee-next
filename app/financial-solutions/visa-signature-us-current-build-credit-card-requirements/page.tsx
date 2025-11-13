@@ -34,26 +34,26 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Build or improve your credit with a card designed for
                 accessibility and growth.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build Credit Card is designed
                 for individuals looking to establish or improve their credit
                 history while enjoying modern card benefits. This comprehensive
                 guide covers the eligibility requirements, application process,
                 and key features that make this card a valuable financial tool.
               </p>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Eligibility Requirements for Visa Signature U.S. Current Build
                 Credit Card
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build Credit Card has specific
                 criteria that applicants must meet to qualify:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Score:</strong> While this card is designed for
                   credit building, applicants typically need a credit score of
@@ -62,21 +62,21 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                   first-time cardholders or those rebuilding credit.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>U.S. Residency:</strong> Applicants must be U.S.
                   residents with a valid U.S. address. International applicants
                   are not eligible for this domestic credit product.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Minimum Age:</strong> You must be at least 18 years
                   old to apply independently. Those under 21 may need to
                   demonstrate independent income or have a cosigner.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Income Verification:</strong> Proof of steady income
                   through pay stubs, bank statements, or tax returns. The
@@ -84,14 +84,14 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                   payment ability rather than high earnings.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Valid Identification:</strong> A government-issued
                   photo ID such as a driver's license, state ID, or passport is
                   required for identity verification.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Recent Bankruptcy:</strong> Applicants should not
                   have declared bankruptcy in the past two years, though
@@ -99,10 +99,10 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                   circumstances.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Application Process: Step-by-Step Guide
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
@@ -129,11 +129,11 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 </Link>
                 .
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application for the Visa Signature U.S. Current Build Credit
                 Card is straightforward and can be completed online:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 1: Pre-qualification Check</strong>
                 </li>
@@ -141,7 +141,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Begin by checking if you pre-qualify without affecting your credit
               score. This soft credit check helps determine your likelihood of
               approval before submitting a formal application.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 2: Complete the Online Application</strong>
                 </li>
@@ -149,7 +149,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Fill out the comprehensive application form including personal
               information, employment details, and financial information. Ensure
               all information is accurate to avoid delays.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 3: Income Documentation</strong>
                 </li>
@@ -157,14 +157,14 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Provide required income verification documents. This may include
               recent pay stubs, bank statements, or tax returns depending on
               your employment situation.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 4: Identity Verification</strong>
                 </li>
               </ul>
               Submit clear copies of your government-issued ID and any
               additional documentation requested for identity verification.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 5: Review and Submit</strong>
                 </li>
@@ -172,7 +172,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Carefully review all information before submitting your
               application. Double-check contact information and financial
               details for accuracy.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 6: Application Decision</strong>
                 </li>
@@ -180,7 +180,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Most applicants receive an instant decision, though some
               applications may require additional review and take 1-3 business
               days for a final decision.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Step 7: Card Activation</strong>
                 </li>
@@ -188,21 +188,21 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Upon approval, your card will arrive within 7-10 business days.
               Activate it immediately and set up online account access to begin
               using your new credit building tool.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits and Features
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build Credit Card offers several
                 valuable features:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Annual Fee</strong>
                 </li>
               </ul>
               Enjoy all card benefits without paying an annual fee, making it
               cost-effective for credit building and everyday use.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Credit Building Tools</strong>
                 </li>
@@ -210,7 +210,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Access to credit monitoring, educational resources, and tools to
               help improve your credit score over time through responsible
               usage.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Rewards Program</strong>
                 </li>
@@ -218,7 +218,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Earn points on every purchase that can be redeemed for statement
               credits, merchandise, or other rewards, adding value to your
               spending.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Fraud Protection</strong>
                 </li>
@@ -226,7 +226,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Advanced security features including real-time transaction
               monitoring, zero liability protection, and immediate alerts for
               suspicious activity.
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Visa Signature Benefits</strong>
                 </li>
@@ -234,49 +234,49 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Access to enhanced travel and purchase protections, including
               travel accident insurance and extended warranty coverage on
               eligible purchases.
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Approval and Responsible Use
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To maximize your chances of approval and success with the card:
               </p>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Check Your Credit Report:</strong> Review your credit
                   report for errors before applying and address any
                   discrepancies.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Maintain Low Utilization:</strong> Keep credit
                   utilization below 30% of your available limit, ideally under
                   10% for optimal credit building.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Make Timely Payments:</strong> Always pay at least the
                   minimum amount due on time to build positive payment history.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Start Small:</strong> Begin with small purchases you
                   can easily pay off to establish a positive usage pattern.
                 </li>
               </ul>
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Monitor Your Progress:</strong> Use the card's credit
                   building tools to track your improvement and adjust your
                   strategy as needed.
                 </li>
               </ul>
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Building Credit for Your Future
               </h2>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Visa Signature U.S. Current Build Credit Card serves as more
                 than just a payment method—it's a stepping stone to better
                 financial health. With responsible use, cardholders can see
@@ -284,7 +284,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 better financial products and lower interest rates on future
                 loans.
               </p>
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This card represents an opportunity to establish or rebuild
                 credit while enjoying modern conveniences and protections.
                 Consider your financial goals and ensure you can use the card

@@ -37,12 +37,12 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Build credit while earning unlimited cash back rewards, perfect
                 for students!
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>1.5% unlimited cash back</strong> on every purchase
                   with no restrictions.
@@ -60,7 +60,7 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card is designed
                 specifically for students who want to build credit while earning
                 rewards. With competitive features and no annual fee, it's an
@@ -83,11 +83,11 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 1.5% Unlimited Cash Back: Earn on Every Purchase
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card offers an
                 impressive 1.5% cash back on every purchase with no restrictions
                 or rotating categories. This straightforward rewards structure
@@ -95,7 +95,7 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 textbooks and dining to gas and entertainment.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For example, spending $500 a month earns $7.50 in cash back -
                 that's $90 annually that can be used for statement credits or
                 direct deposits. Unlike many student cards that offer limited or
@@ -103,29 +103,29 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 your cash back earnings.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Foreign Transaction Fees: Perfect for Study Abroad
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the standout features for students is the absence of
                 foreign transaction fees. Whether you're studying abroad for a
                 semester or traveling internationally, you won't pay extra fees
                 on purchases made outside the United States.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 This feature can save students significant money when traveling
                 or studying internationally, where foreign transaction fees
                 typically range from 2.7% to 3% per transaction. For a $1,000
                 study abroad expense, you could save $30 in fees alone.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Credit-Building Tools: Establish Strong Financial Habits
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One mobile app provides excellent tools to help
                 students build credit responsibly. Features include credit score
                 monitoring, spending tracking, and budgeting tools that help
@@ -133,7 +133,7 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 credit profile.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Students can set up account alerts, monitor their credit
                 utilization, and access educational resources about credit
                 management. These tools are invaluable for young adults learning
@@ -141,29 +141,29 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 foundation.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Budget-Friendly for Students
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 As a student card, the Capital One Quicksilver Student Credit
                 Card comes with no annual fee, making it an affordable option
                 for college students on tight budgets. This means all rewards
                 earned translate directly to savings without any ongoing costs.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Without an annual fee, students can focus on building credit and
                 earning rewards without worrying about additional expenses. This
                 feature makes the card accessible to students with limited
                 income or financial resources.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Student-Specific Features and Protections
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The card includes special considerations for students, such as
                 more flexible approval criteria for those with limited credit
                 history. Capital One understands that students are just
@@ -171,18 +171,18 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 backgrounds.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Additionally, the card offers responsible credit practices
                 education and tools specifically designed to help students learn
                 good financial habits from the start of their credit-building
                 journey.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Maximize Your Student Benefits
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card offers unlimited
                 1.5% cash back, no foreign transaction fees, and valuable
                 credit-building tools - all with no annual fee. It's an ideal
@@ -191,11 +191,11 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
                 ensure you qualify for this excellent student credit card.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/discover-it-student-chrome-credit-card-benefits"

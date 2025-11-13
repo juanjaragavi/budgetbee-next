@@ -130,8 +130,8 @@ processedBody = processedBody.replace(
 
 // Convert markdown to JSX-friendly format
 // Convert headers
-processedBody = processedBody.replace(/^### (.+)$/gm, '<h2 className="text-2xl font-bold text-gray-800 mb-4">$1</h2>');
-processedBody = processedBody.replace(/^## (.+)$/gm, '<h2 className="text-2xl font-bold text-gray-800 mb-4">$1</h2>');
+processedBody = processedBody.replace(/^### (.+)$/gm, '<h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">$1</h2>');
+processedBody = processedBody.replace(/^## (.+)$/gm, '<h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">$1</h2>');
 
 // Convert bullet lists - need to handle multi-line
 const lines = processedBody.split('\n');
@@ -155,7 +155,7 @@ for (let i = 0; i < lines.length; i++) {
     } else {
         if (inList) {
             // End of list, flush buffer
-            processedLines.push('<ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">');
+            processedLines.push('<ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">');
             listBuffer.forEach(item => {
                 processedLines.push(`  <li>${item}</li>`);
             });
@@ -169,7 +169,7 @@ for (let i = 0; i < lines.length; i++) {
 
 // Handle case where file ends with list
 if (inList) {
-    processedLines.push('<ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">');
+    processedLines.push('<ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">');
     listBuffer.forEach(item => {
         processedLines.push(`  <li>${item}</li>`);
     });
@@ -208,7 +208,7 @@ const jsxParagraphs = paragraphs.map(p => {
     }
     
     // Otherwise wrap as paragraph
-    return `<p className="text-gray-700 mb-8">\n  ${trimmed}\n</p>`;
+    return `<p className="text-gray-700 mb-8 text-left">\n  ${trimmed}\n</p>`;
 });
 
 const jsxBody = jsxParagraphs.join('\n\n');

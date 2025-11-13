@@ -34,12 +34,12 @@ export default function WellsFargoAutographCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Versatile rewards for every purchase with no annual fee and
                 valuable benefits.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Earn 3x points</strong> on restaurants, travel, gas
                   stations, streaming services, and phone plans.
@@ -56,7 +56,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card offers a balanced rewards
                 structure that makes it easy to earn on everyday purchases. With
                 bonus categories covering dining, travel, gas, streaming, and
@@ -64,11 +64,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 modern spending habits.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 3x Points on Popular Categories: Maximize Your Daily Spending
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card shines with its 3x points earning
                 structure across five popular spending categories. Whether
                 you're dining out, booking travel, filling up at gas stations,
@@ -76,7 +76,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 dollar earns triple points.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 For example, spending $200 monthly on dining and $100 on gas
                 earns 900 points each month—that's 10,800 points annually from
                 just these two categories. This broad category coverage ensures
@@ -85,7 +85,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 activation requirements.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The card's approach to bonus categories reflects modern spending
                 patterns, recognizing that consumers frequently spend on digital
                 services and everyday essentials. This makes it particularly
@@ -93,18 +93,18 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 prioritize streaming and mobile services.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 $300 Welcome Bonus: Strong Start to Your Rewards Journey
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 New cardholders can earn a substantial $300 welcome bonus after
                 spending $1,500 within the first three months of account
                 opening. This requirement is reasonable and achievable for most
                 households through normal spending patterns.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The welcome bonus provides immediate value and can be redeemed
                 for cash back, statement credits, or travel. This upfront reward
                 effectively covers several months' worth of spending benefits,
@@ -113,11 +113,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 motivation to use the card regularly.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 1x Points on Everything Else: No Spending Goes Unrewarded
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond the bonus categories, the Wells Fargo Autograph Card
                 earns 1x point on all other purchases, ensuring every
                 transaction contributes to your rewards balance. This universal
@@ -125,7 +125,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 sacrificing rewards potential.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Whether you're shopping for groceries, buying clothes, paying
                 utilities, or making unexpected purchases, you'll always earn
                 points. This comprehensive earning structure eliminates the need
@@ -133,11 +133,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 different purchase types.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fee: Keep More of Your Rewards
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card comes with no annual fee, ever.
                 This means 100% of your earned rewards translate to actual value
                 without any offset from annual costs. Unlike premium cards that
@@ -145,7 +145,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 represents pure benefit.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The absence of an annual fee makes the card suitable for any
                 spending level. Whether you're a light spender who values
                 simplicity or a heavy spender maximizing rewards, you won't face
@@ -154,11 +154,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 your spending patterns change over time.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Flexible Redemption Options: Your Rewards, Your Way
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Points earned with the Wells Fargo Autograph Card can be
                 redeemed in multiple ways to suit your preferences. Options
                 include cash back, statement credits, travel bookings, gift
@@ -166,18 +166,18 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 can adapt to changing needs and preferences.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The redemption process is straightforward through Wells Fargo's
                 online portal or mobile app. Whether you prefer immediate cash
                 back to offset purchases or want to save points for larger
                 redemptions, the card accommodates different reward strategies.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Additional Card Benefits: Enhanced Value Beyond Rewards
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Beyond earning rewards, the Wells Fargo Autograph Card includes
                 valuable additional benefits. Cardholders enjoy cell phone
                 protection when paying their monthly bill with the card,
@@ -185,7 +185,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 claim.
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The card also includes zero liability protection for
                 unauthorized transactions, ensuring peace of mind for everyday
                 use. These additional benefits add practical value beyond the
@@ -193,11 +193,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 for daily spending.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Perfect for Everyday Spending
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Wells Fargo Autograph Card combines strong bonus categories,
                 a generous welcome offer, and no annual fee to create an
                 attractive package for everyday spending. Its broad 3x
@@ -208,11 +208,11 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 benefits.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"

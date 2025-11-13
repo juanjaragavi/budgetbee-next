@@ -36,14 +36,14 @@ export default function TomoCreditCardBenefitsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card is an excellent choice for anyone looking
                 to establish or improve their credit without the typical
                 hurdles. It's designed to be accessible and rewarding, helping
                 you build a strong financial foundation.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Credit Check:</strong> Apply without needing a
                   credit history.
@@ -62,7 +62,7 @@ export default function TomoCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 With features focused on fostering financial health, the Tomo
                 Credit Card stands out for its accessibility and unique
                 benefits, making it a smart choice for your credit journey.
@@ -83,12 +83,12 @@ export default function TomoCreditCardBenefitsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Credit Score Required: Your Path to Credit Building Starts
                 Here
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card breaks down traditional barriers by not
                 requiring an existing credit history. Instead, it evaluates your
                 financial stability based on your income and spending habits.
@@ -99,11 +99,11 @@ export default function TomoCreditCardBenefitsPage() {
                 their financial responsibility.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Flexible Cashback Rewards (1% to 20%): Earn While You Spend
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 One of the most appealing features of the Tomo Credit Card is
                 its flexible cashback program, offering 1% to 20% back,
                 especially with select partners. This is a rare and valuable
@@ -115,11 +115,11 @@ export default function TomoCreditCardBenefitsPage() {
                 your credit.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 No Annual Fees or Interest Charges: Keep More of Your Money
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Tomo is committed to helping you achieve financial health
                 without hidden costs. The card charges no annual fees and,
                 uniquely, no interest charges. This is achieved through a weekly
@@ -130,11 +130,11 @@ export default function TomoCreditCardBenefitsPage() {
                 debt.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Credit Limit Based on Income: Grow Responsibly
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Your Tomo Credit Card limit is determined by your income and
                 financial activity, rather than your credit history. This
                 personalized approach ensures your limit aligns with your
@@ -145,16 +145,16 @@ export default function TomoCreditCardBenefitsPage() {
                 financial empowerment.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips to Maximize Your Tomo Credit Card Benefits
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To get the most out of your Tomo Credit Card, consider these
                 practical tips:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Set Reminders for Weekly Payments:</strong> Tomo's
                   payment structure requires regular, timely payments. Set up
@@ -183,11 +183,11 @@ export default function TomoCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Final Thoughts on the Tomo Credit Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card is a powerful tool for anyone looking to
                 build or improve their credit responsibly. By focusing on your
                 U.S. bank account activity rather than traditional credit
@@ -197,11 +197,11 @@ export default function TomoCreditCardBenefitsPage() {
                 health and lay a solid foundation for your credit future.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Explore Other Financial Solutions
               </h2>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
                     href="/financial-solutions/first-digital-nextgen-mastercard-benefits"

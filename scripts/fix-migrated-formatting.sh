@@ -63,7 +63,7 @@ for FILE_BASE in "${FILES[@]}"; do
     # 3. Remove extra blank lines in JSX
     
     sed -E \
-        -e 's|<p className="text-gray-700 mb-8">[ ]*#### (.+)</p>|<h3 className="text-xl font-semibold text-gray-800 mb-3">\1</h3>|g' \
+        -e 's|<p className="text-gray-700 mb-8 text-left">[ ]*#### (.+)</p>|<h3 className="text-xl font-semibold text-gray-800 mb-3">\1</h3>|g' \
         -e 's|#### (.+)$|<h3 className="text-xl font-semibold text-gray-800 mb-3">\1</h3>|g' \
         "$TARGET_FILE" > "$TEMP_FILE"
     

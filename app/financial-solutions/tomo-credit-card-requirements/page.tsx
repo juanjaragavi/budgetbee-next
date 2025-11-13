@@ -36,7 +36,7 @@ export default function TomoCreditCardRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card is designed to help individuals build or
                 improve their credit without requiring a prior credit history.
                 This makes it an ideal choice for newcomers to the credit
@@ -59,16 +59,16 @@ export default function TomoCreditCardRequirementsPage() {
                 />
               </div>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Requirements for the Tomo Card
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Applying for the Tomo Credit Card is straightforward, with clear
                 requirements designed to make credit accessible.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>No Credit History Required:</strong> One of the most
                   significant advantages of the Tomo card is that it doesn’t
@@ -106,11 +106,11 @@ export default function TomoCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Application Process: Simple and Fast
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
@@ -136,12 +136,12 @@ export default function TomoCreditCardRequirementsPage() {
                 .
               </p>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The application process for the Tomo Credit Card is designed for
                 simplicity and speed.
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Access the Official Website:</strong> Start by
                   visiting the official Tomo website. You'll complete a brief
@@ -170,11 +170,11 @@ export default function TomoCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Why Choose the Tomo Card?
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card is an excellent choice for empowering
                 individuals to build credit. It reports to major credit bureaus,
                 which is essential for establishing a strong credit history.
@@ -184,16 +184,16 @@ export default function TomoCreditCardRequirementsPage() {
                 starting your credit journey.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Using the Tomo Card Responsibly
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 To maximize the benefits and build a strong credit profile with
                 your Tomo Card:
               </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
+              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Make Timely Payments:</strong> Always pay your balance
                   on time. This is the most critical factor for building a
@@ -214,11 +214,11 @@ export default function TomoCreditCardRequirementsPage() {
                 </li>
               </ul>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How Tomo Compares to Other Credit-Building Cards
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 Unlike secured credit cards, which require a security deposit,
                 the Tomo card offers an unsecured line of credit, providing more
                 convenience and flexibility. Many traditional cards for those
@@ -228,11 +228,11 @@ export default function TomoCreditCardRequirementsPage() {
                 competitive and accessible option for new credit users.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Takeaways
               </h2>
 
-              <p className="text-gray-700 mb-8">
+              <p className="text-gray-700 mb-8 text-left">
                 The Tomo Credit Card is a practical and accessible solution for
                 anyone looking to build or rebuild their credit. By evaluating
                 your U.S. bank account activity instead of relying on a credit
