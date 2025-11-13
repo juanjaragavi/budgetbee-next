@@ -496,7 +496,7 @@ After generating both page components, you MUST immediately update the following
   title: "Product Name: Value Proposition | BudgetBee",
   slug: "product-slug",
   description: "Brief product description focusing on key benefits",
-  image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/product-image.webp",
   category: "Financial Solutions",
   categoryPath: "/financial-solutions",
   date: "Month DD, YYYY", // e.g., "October 24, 2025"
@@ -512,7 +512,7 @@ After generating both page components, you MUST immediately update the following
     title: "Product Name: Value Proposition",
     description: "Brief product description focusing on key benefits",
     date: "YYYY-MM-DDTHH:mm:ssZ", // ISO format, e.g., "2025-10-24T00:00:00Z"
-    featuredImage: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+    featuredImage: "https://media.topfinanzas.com/images/budgetbee/product-image.webp",
     categories: [
       { name: "Financial Solutions", slug: "financial-solutions" },
     ],
@@ -529,7 +529,7 @@ After generating both page components, you MUST immediately update the following
   title: "Product Name",
   slug: "product-slug",
   description: "Brief product description focusing on key benefits and APR",
-  image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/product-image.webp",
   date: "DD Month YYYY", // e.g., "24 October 2025"
   type: "fintech", // or "traditional" or "neobank"
 }
@@ -542,7 +542,7 @@ After generating both page components, you MUST immediately update the following
   title: "Product Name",
   slug: "product-slug",
   description: "Brief product description focusing on key benefits and APR",
-  image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/product-image.webp",
   date: "DD Month YYYY", // e.g., "24 October 2025"
   type: "fintech", // or "traditional", "neobank", "travel", "rewards"
 }
@@ -555,7 +555,7 @@ After generating both page components, you MUST immediately update the following
   title: "Product Name",
   slug: "product-slug",
   description: "Brief product description focusing on key benefits",
-  image: "https://media.topfinanzas.com/images/kardtrust/loans/product-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/loans/product-image.webp",
   date: "DD Month YYYY", // e.g., "24 October 2025"
   type: "personal", // or "sme_fintech", "neobank", "marketplace", "guide"
 }

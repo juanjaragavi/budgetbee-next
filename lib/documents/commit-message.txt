@@ -1,14 +1,22 @@
-Fix: Resolve syntax error in test-brevo-new-contact.js
+feat: Add new Personal Finance article "Stop Living Paycheck to Paycheck"
 
-- Fixed malformed console.log statements in scripts/test-brevo-new-contact.js (lines 84-87)
-- Removed nested template literals causing Prettier syntax error
-- Restored proper console output formatting for Brevo contact verification
-- All format checks now pass with exit code 0
+Content Updates:
+- Created comprehensive article on breaking the paycheck-to-paycheck cycle
+- Added article to /app/personal-finance/stop-living-paycheck-to-paycheck/page.tsx
+- Integrated article into blog listing (app/blog/page.tsx)
+- Integrated article into Personal Finance category page (app/personal-finance/page.tsx)
+- Published date: November 13, 2025
 
-Technical details:
-- Error type: SyntaxError - Unexpected character in template literal
-- Root cause: Corrupted nested backticks in console.log statements
-- Fix applied: Cleaned up template literal syntax while preserving output
-- Verification: npm run format completes successfully
+Documentation Updates:
+- Updated TOFU_BLOG_POST_GENERATION.instructions.md with correct CDN domain
+- Updated CREDIT_CARD_PRODUCT_GENERATION.instructions.md with correct CDN domain
+- Changed all image references from kardtrust to budgetbee subdomain
+- Fixed Python script naming (fix-jsx-comments.py → fix_jsx_comments.py)
 
-No functional changes - purely syntax correction for code quality compliance.
+Article Details:
+- Topic: Cash flow management and financial stability strategies
+- Target: TOFU funnel stage (awareness/education)
+- Word count: ~900 words
+- SEO optimized for "paycheck to paycheck" and related keywords
+- Includes three internal links to related Personal Finance content
+- Features hero image, two ad placements, and AI content disclaimer

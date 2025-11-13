@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today | BudgetBee",
+        slug: "stop-living-paycheck-to-paycheck",
+        description:
+          "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/stop-living-paycheck-to-paycheck.webp",
+        date: "November 13, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "The 5-Minute Financial Health Check: Where Does Your Money Go? | BudgetBee",
         slug: "5-minute-financial-health-check",
         description:

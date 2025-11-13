@@ -234,7 +234,7 @@ After generating the blog article component, you MUST immediately update the fol
   title: "Article Title | BudgetBee",
   slug: "article-slug",
   description: "Compelling article description focusing on value to reader",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",
   category: "Personal Finance",
   categoryPath: "/personal-finance",
   date: "Month DD, YYYY", // Current date in US format (e.g., "October 23, 2025")
@@ -248,7 +248,7 @@ After generating the blog article component, you MUST immediately update the fol
   title: "Article Title | BudgetBee",
   slug: "article-slug",
   description: "Brief article description",
-  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  image: "https://media.topfinanzas.com/images/budgetbee/article-image.webp",
   date: "Month DD, YYYY",
   category: "guide", // Options: "guide", "creditCards", "loans", "debt"
 }
@@ -299,7 +299,7 @@ export default function {ComponentName}Page() {
             </p>
             <div className="my-8">
               <Image
-                src="https://media.topfinanzas.com/images/kardtrust/{hero-image}.webp"
+                src="https://media.topfinanzas.com/images/budgetbee/{hero-image}.webp"
                 alt="{Descriptive alt text for US audience}"
                 width={800}
                 height={450}
