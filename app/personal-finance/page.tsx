@@ -306,7 +306,7 @@ export default function PersonalFinanceArchivePage() {
         category: "creditCards",
       },
     ],
-    []
+    [],
   );
 
   // Sort all posts by date (newest first)
