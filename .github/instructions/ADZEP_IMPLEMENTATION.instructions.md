@@ -176,10 +176,12 @@ AdZep is loaded alongside GTM:
 
 AdZep integrates with the Next.js navigation system properly:
 
-- Router changes trigger AdZep activation using `usePathname()` hook
-- Back/forward navigation is handled via `popstate` events
-- Client-side navigation is properly tracked on every route change
-- Initial page load activation is handled separately
+- `AdZepSPABridge` component handles all navigation-based activation
+- Uses `usePathname()` hook to detect route changes
+- Waits for ad containers before activation using `waitForContainers()`
+- Implements retry logic with creative verification via `hasRenderedCreative()`
+- Excludes certain paths (quiz, registration) from ad activation via `isExcludedPath()`
+- Initial page load uses longer timeout for better ad loading
 - All navigation types (internal links, browser navigation, direct URL access) trigger ads
 
 ## Performance Considerations

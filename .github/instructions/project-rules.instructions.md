@@ -281,8 +281,10 @@ When creating new blog articles, they must be integrated across multiple locatio
 
 ### 5. Sitemap Synchronization (MANDATORY)
 
-- **Requirement**: Whenever a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` within the same change set to keep search engines and internal tooling aligned with live content
-- **Verification**: Add new URLs with accurate `lastmod`, `changefreq`, and `priority` values and remove deprecated URLs immediately so the sitemap mirrors the latest site structure
+- **Requirement**: The dynamic sitemap (`app/sitemap.ts`) automatically discovers pages through filesystem scanning
+- **Implementation**: The sitemap scans `/app/personal-finance/` and `/app/financial-solutions/` directories to generate URLs
+- **Verification**: Ensure all new article/product pages have a `page.tsx` file in their directory for automatic inclusion
+- **Note**: No manual sitemap updates needed - the system auto-discovers new pages when you create directories with `page.tsx` files
 
 ## Git Workflow
 

@@ -16,12 +16,14 @@ The AdZep tag has been successfully implemented in your Next.js project with the
 - Integrated into `app/layout.tsx` for global availability
 - Includes error handling and performance monitoring
 
-**Automatic Function Invocation** (`/components/analytics/adzep.tsx`)
+**Automatic Function Invocation** (via SPA Bridge and activation utilities)
 
 - `window.AdZepActivateAds()` called on initial page load
-- `window.AdZepActivateAds()` called on internal navigation (Next.js routing)
-- `window.AdZepActivateAds()` called on browser navigation (back/forward)
-- `window.AdZepActivateAds()` called on link clicks
+- `window.AdZepActivateAds()` called on navigation (using `AdZepSPABridge`)
+- Waits for ad containers before activation using `waitForContainers()`
+- Implements retry logic with creative verification via `hasRenderedCreative()`
+- Excludes certain paths (quiz, registration) from ad activation
+- Uses advanced ad management utilities in `/lib/ads/` (activate-adzep.ts, config.ts, overlay.ts)
 
 ### 🚀 Advanced Features
 
@@ -48,9 +50,15 @@ The AdZep tag has been successfully implemented in your Next.js project with the
 ### New Files Created
 
 - `/components/analytics/adzep.tsx` - Main AdZep component
+- `/components/analytics/adzep-spa-bridge.tsx` - SPA navigation bridge
 - `/components/analytics/adzep-trackers.tsx` - Enhanced tracking
 - `/components/analytics/adzep-trigger.tsx` - Manual triggers
 - `/components/analytics/adzep-test.tsx` - Development testing
+- `/components/analytics/adzep-interstitial-blocker.tsx` - Interstitial management
+- `/components/analytics/adzep-accessibility-fix.tsx` - Accessibility fixes
+- `/lib/ads/activate-adzep.ts` - Activation utility
+- `/lib/ads/config.ts` - Configuration management
+- `/lib/ads/overlay.ts` - Overlay utilities
 - `/ADZEP_IMPLEMENTATION.md` - Comprehensive documentation
 
 ### Files Modified

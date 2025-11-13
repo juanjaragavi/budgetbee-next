@@ -38,16 +38,20 @@ export default function ComponentName({ prop }: ComponentProps) {
 The project has sophisticated analytics with **automatic AdZep activation**:
 
 - Script loads in `app/layout.tsx` with `AdZep` component
-- Auto-activates on navigation via `AdZepNavigationHandler`
+- Auto-activates on navigation via `AdZepSPABridge` component
+- Advanced ad management utilities in `/lib/ads/` (activate-adzep.ts, config.ts, overlay.ts)
+- Accessibility and interstitial blocking with `AdZepAccessibilityFix` and `AdZepInterstitialBlocker`
 - Manual triggers available via `useAdZep()` hook
 - Development testing panel with `AdZepTest` component
 
 **Navigation Tracking**: AdZep integrates with Next.js navigation system properly:
 
-- Router changes trigger AdZep activation using `usePathname()` hook
-- Back/forward navigation is handled via `popstate` events
-- Client-side navigation is properly tracked on every route change
-- Initial page load activation is handled separately
+- `AdZepSPABridge` component handles all navigation-based activation
+- Uses `usePathname()` hook to detect route changes
+- Waits for ad containers before activation using `waitForContainers()`
+- Implements retry logic with creative verification via `hasRenderedCreative()`
+- Excludes certain paths (quiz, registration) from ad activation via `isExcludedPath()`
+- Initial page load uses longer timeout for better ad loading
 
 #### 3. Multi-Step Form Pattern
 
@@ -99,7 +103,7 @@ bash ./scripts/git-workflow.sh
 - Copy `.env.example` to `.env.production`
 - Production environment files stored in `/opt/app/` with strict permissions
 - Google Sheets API requires `GOOGLE_SERVICE_ACCOUNT_EMAIL` and `GOOGLE_PRIVATE_KEY`
-- AdZep integration requires UK-specific script URL
+- AdZep integration for ad management
 - Kit.com API integration for newsletter subscriptions
 - Multiple environment files in use: `.env`, `.env.production`, `.env.local`
 
@@ -129,7 +133,7 @@ Component.displayName = "Component";
 - Use `cn()` utility for class merging
 - Custom text sizing with `getTextClass()` utility
 - Consistent spacing and color tokens
-- Local font loading (Poppins) to avoid external requests
+- Google Fonts Montserrat as brand font (clean, modern geometric sans-serif)
 
 ## API Architecture
 
@@ -168,8 +172,9 @@ export async function POST(req: Request) {
 ### Performance Monitoring
 
 - Uses `window.performance.mark()` for custom metrics
-- Local font loading (Poppins) to avoid external requests
+- Google Fonts Montserrat with optimized loading strategy
 - Image optimization with Next.js `Image` component
+- Critical CSS inlining for above-the-fold content
 
 ## Content & SEO
 
@@ -177,16 +182,16 @@ export async function POST(req: Request) {
 
 - Blog posts in `/content/` with frontmatter
 - Custom MDX components for financial content
-- UK regulatory compliance in financial product descriptions
+- US regulatory compliance (CFPB) in financial product descriptions
 
 ### SEO Pattern
 
 ```typescript
 // In page.tsx files
 export const metadata: Metadata = {
-  title: "UK-specific title",
-  description: "FCA-compliant description",
-  // UK-specific metadata
+  title: "US-specific title",
+  description: "CFPB-compliant description",
+  // US-specific metadata
 };
 ```
 
@@ -197,16 +202,19 @@ export const metadata: Metadata = {
 
 ### Sitemap Synchronization (MANDATORY)
 
-- Any time a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` in the same change so search engines and internal tooling stay aligned with live content
-- Ensure new entries include accurate `lastmod`, `changefreq`, and `priority` values; remove stale URLs immediately during the same workflow
+- Any time a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, the dynamic sitemap (`app/sitemap.ts`) will automatically discover it
+- The sitemap uses filesystem scanning to dynamically generate URLs from page directories
+- Verify that page directories contain a `page.tsx` file for proper sitemap inclusion
+- No manual sitemap updates needed - the system auto-discovers new pages
 
 ## Common Gotchas
 
 1. **Port Configuration**: Development runs on port 3007, not 3000
 2. **Analytics Order**: GTM loads before AdZep in layout
 3. **Form Navigation**: Always call `window.scrollTo(0, 0)` on step changes
-4. **UK Compliance**: Include regulatory disclaimers for financial products
+4. **US Compliance**: Include CFPB regulatory disclaimers for financial products
 5. **Git Workflow**: NEVER bypass the automated script for commits
+6. **AdZep Exclusions**: Quiz and registration paths exclude ads via `isExcludedPath()`
 
 ## File Naming Conventions
 
@@ -215,7 +223,7 @@ export const metadata: Metadata = {
 - Utilities: Descriptive names in `/lib/utils/`
 - Constants: Centralized in `/lib/constants.ts`
 
-This project prioritizes UK financial compliance, performance optimization, and comprehensive analytics tracking. Always consider FCA regulations when working with financial content.
+This project prioritizes US financial compliance, performance optimization, and comprehensive analytics tracking. Always consider CFPB and state-level regulations when working with financial content.
 
 ## Instruction Files System
 

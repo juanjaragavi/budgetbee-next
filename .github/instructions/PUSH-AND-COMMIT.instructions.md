@@ -39,5 +39,7 @@ This procedure is initiated when the user issues the prompt "Push and commit our
 
 ## Sitemap Synchronization (MANDATORY)
 
-- Before executing the workflow script for any change that adds, renames, or removes a Personal Finance or Financial Solutions article or product page, confirm that `app/sitemap.xml` has been updated to include the new URLs and purge any stale entries
-- Do not run the push workflow until the sitemap changes are part of the pending commit set
+- The dynamic sitemap (`app/sitemap.ts`) automatically discovers pages through filesystem scanning during build
+- Before executing the workflow script for any change that adds, renames, or removes a Personal Finance or Financial Solutions article or product page, verify that the page directory contains a `page.tsx` file
+- The sitemap will auto-discover new pages during the next build - no manual sitemap updates needed
+- Ensure removed pages have their directories deleted so they are no longer included in the sitemap

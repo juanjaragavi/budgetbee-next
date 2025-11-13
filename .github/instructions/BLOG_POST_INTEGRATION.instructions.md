@@ -15,8 +15,10 @@ When creating new blog articles, they must be added to multiple locations across
 
 ## Sitemap Synchronization (MANDATORY)
 
-- Immediately update `app/sitemap.xml` whenever you add, rename, or delete a Personal Finance or Financial Solutions article or product page so search engines only index live content
-- Add new URLs with the current `lastmod`, `changefreq`, and `priority` values that reflect the page type and remove stale entries during the same workflow
+- The dynamic sitemap (`app/sitemap.ts`) automatically discovers pages through filesystem scanning
+- When you create a new article/product page with a `page.tsx` file in its directory, the sitemap will auto-discover it
+- Verify that page directories contain a `page.tsx` file for proper sitemap inclusion
+- No manual sitemap updates needed - the system auto-discovers new pages during build
 
 ## Required Locations for Blog Post Integration
 
@@ -208,10 +210,11 @@ When creating new blog articles, they must be added to multiple locations across
    - **Featured Posts**: Add if it's a standout article
    - **Category Navigation**: Add if it becomes a top performer
 
-7. **Update Sitemap** (`app/sitemap.xml`):
+7. **Verify Sitemap Auto-Discovery**:
 
-- Add the new article URL with accurate `lastmod`, `changefreq`, and `priority`
-- Remove any outdated or migrated URLs related to the update
+- Ensure the article directory contains a `page.tsx` file
+- The dynamic sitemap (`app/sitemap.ts`) will automatically discover it during build
+- No manual sitemap updates required
 
 ### Image Requirements
 
@@ -240,7 +243,8 @@ Before publishing, verify:
 - [ ] Article appears in blog filters correctly
 - [ ] Article appears in category filters correctly
 - [ ] Sidebar recent articles updated
-- [ ] `app/sitemap.xml` updated with new URL and stale entries removed
+- [ ] Article directory contains `page.tsx` file for sitemap auto-discovery
+- [ ] Verify dynamic sitemap will discover the new page
 - [ ] Consider homepage feature update
 - [ ] Test all internal links work
 - [ ] Verify responsive design on mobile

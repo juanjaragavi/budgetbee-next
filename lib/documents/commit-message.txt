@@ -1,6 +1,21 @@
-Refactor: Rename fix-jsx-comments.py to fix_jsx_comments.py for Python naming convention
+Docs: Synchronize .github LLM agent instructions with current codebase implementation
 
-- Renamed scripts/fix-jsx-comments.py to scripts/fix_jsx_comments.py following Python naming standards
-- Updated all documentation references to reflect the new filename
-- Files updated: BUDGETBEE_MIGRATION_SUMMARY.md, MIGRATION_QUICK_REFERENCE.md, MIGRATION_VERIFICATION.md, FINAL_STATUS_REPORT.md
-- No functional changes, purely organizational improvement
+Major updates to ensure documentation accuracy:
+
+- Fixed UK/FCA references → US/CFPB compliance (correct market focus)
+- Updated font documentation: Poppins → Montserrat (actual implementation)
+- Corrected sitemap: sitemap.xml → sitemap.ts with automatic filesystem scanning
+- Updated AdZep architecture: AdZepNavigationHandler → AdZepSPABridge with lib/ads utilities
+- Added missing components: AdZepInterstitialBlocker, AdZepAccessibilityFix, overlay management
+- Synchronized path exclusions and activation flow documentation
+
+Files updated:
+- .github/copilot-instructions.md
+- .github/agents/budgetbee-agent.agent.md
+- .github/instructions/project-rules.instructions.md
+- .github/instructions/ADZEP_IMPLEMENTATION.instructions.md
+- .github/instructions/ADZEP_SUMMARY.instructions.md
+- .github/instructions/BLOG_POST_INTEGRATION.instructions.md
+- .github/instructions/PUSH-AND-COMMIT.instructions.md
+
+All LLM agent instructions now accurately reflect the current BudgetBee Next.js project state.
