@@ -18,8 +18,9 @@ sudo rm -rf .next
 echo "[3/5] Building the application..."
 sudo npm run build
 
-echo "Restarting PM2 process..."
-sudo pm2 restart budgetbee-next
+echo "[4/5] Restarting PM2 process..."
+# Try to reload the process (zero-downtime restart), or start it if it doesn't exist
+sudo pm2 reload budgetbee-next --update-env || sudo pm2 start npm --name budgetbee-next -- start
 
 echo
 
