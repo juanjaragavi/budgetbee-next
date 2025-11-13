@@ -48,7 +48,7 @@ export default function BlogArchivePage() {
       description:
         "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/stop-living-paycheck-to-paycheck.webp",
+        "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "November 13, 2025",
@@ -749,25 +749,25 @@ export default function BlogArchivePage() {
 
     if (activeCategory === "personalFinance") {
       filteredPosts = allPostsSorted.filter(
-        (post) => post.category === "Personal Finance",
+        (post) => post.category === "Personal Finance"
       );
     } else if (activeCategory === "financialSolutions") {
       filteredPosts = allPostsSorted.filter(
-        (post) => post.category === "Financial Solutions",
+        (post) => post.category === "Financial Solutions"
       );
     } else if (activeCategory === "creditCards") {
       filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("credit card") ||
           post.slug.toLowerCase().includes("credit-card") ||
-          post.description.toLowerCase().includes("credit card"),
+          post.description.toLowerCase().includes("credit card")
       );
     } else if (activeCategory === "loans") {
       filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("loan") ||
           post.slug.toLowerCase().includes("loan") ||
-          post.description.toLowerCase().includes("loan"),
+          post.description.toLowerCase().includes("loan")
       );
     }
 

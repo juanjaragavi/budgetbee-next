@@ -19,7 +19,7 @@ echo "[3/5] Building the application..."
 sudo npm run build
 
 echo "Restarting PM2 process..."
-sudo -u juanjaramillo pm2 restart budgetbee
+sudo -u juanjaramillo pm2 restart budgetbee-next
 
 echo
 

@@ -44,7 +44,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/stop-living-paycheck-to-paycheck.webp",
+          "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
         date: "November 13, 2025",
         category: "guide",
       },
@@ -306,7 +306,7 @@ export default function PersonalFinanceArchivePage() {
         category: "creditCards",
       },
     ],
-    [],
+    []
   );
 
   // Sort all posts by date (newest first)
