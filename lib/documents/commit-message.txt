@@ -1,12 +1,14 @@
-fix: Simplify PM2 user permissions in deployment script
+fix: Correct favicon size in manifest files to match actual dimensions
 
-Deployment Script Update:
-- Removed `-u juanjaramillo` user specification from PM2 commands
-- Changed `sudo -u juanjaramillo pm2 restart` to `sudo pm2 restart`
-- Changed `sudo -u juanjaramillo pm2 save` to `sudo pm2 save`
-- Simplifies deployment process by running PM2 commands directly with sudo
+Manifest File Corrections:
+- Fixed favicon.png size declaration from 192x192 to 128x128 in all manifest files
+- Updated app/site.webmanifest with correct favicon dimensions
+- Updated public/site.webmanifest with correct favicon dimensions
+- Updated root site.webmanifest to use favicon.png instead of webp images
+- Resolves "Resource size is not correct" manifest error
 
 Technical Details:
-- Fixes potential permission issues during automated deployments
-- PM2 will run as the sudo user's default process owner
-- Maintains functionality while reducing command complexity
+- Actual favicon.png dimensions: 128x128 pixels (verified with sips)
+- Previous manifest declared: 192x192 (incorrect)
+- All three manifest files now synchronized with correct icon specifications
+- Fixes browser console error about incorrect resource size in Manifest
