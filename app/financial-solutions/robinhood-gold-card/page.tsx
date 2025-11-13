@@ -497,7 +497,7 @@ export default function RobinhoodGoldCardPage() {
                 </div>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> The
                     Robinhood Gold Card is issued by Coastal Community Bank and
                     offered by Robinhood Credit, Inc. Robinhood Credit, Inc. is

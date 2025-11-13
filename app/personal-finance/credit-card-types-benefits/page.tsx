@@ -97,7 +97,7 @@ export default function CreditCardTypesBenefitsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Types of Credit Cards
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-5 font-light">
@@ -235,10 +235,10 @@ export default function CreditCardTypesBenefitsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Discover Specific Credit Card Solutions
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Ready to explore some specific credit card options available
                   in the US? Here are a few examples catering to different
                   needs:
@@ -282,7 +282,7 @@ export default function CreditCardTypesBenefitsPage() {
                     foreign transaction fees.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   For a comprehensive look at various credit cards and other
                   financial products, visit our{" "}
                   <Link

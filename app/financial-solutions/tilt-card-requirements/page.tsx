@@ -356,7 +356,7 @@ export default function TiltCardRequirementsPage() {
                 </div>
 
                 <div className="bg-primary-accent p-4 rounded-lg border-l-4 border-primary400 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">
                       Tilt Subscription Fee:
                     </span>{" "}
@@ -740,7 +740,7 @@ export default function TiltCardRequirementsPage() {
                 </div>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> Credit
                     cards should be used responsibly. Only charge what you can
                     afford to pay off each month. Missing payments or carrying

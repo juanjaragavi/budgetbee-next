@@ -57,7 +57,7 @@ export default function BestRewardsCreditCardsPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 Choosing the right credit card can significantly enhance your
                 financial experience, especially when it comes with rewards
                 tailored to your lifestyle. Whether you’re a frequent online
@@ -71,10 +71,10 @@ export default function BestRewardsCreditCardsPage() {
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Types of Rewards Credit Cards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Rewards cards come in many forms, typically offering:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -96,10 +96,10 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Matching Rewards to Your Lifestyle
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The best rewards card for you depends heavily on your spending
                   habits:
                 </p>
@@ -139,10 +139,10 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Key Features of Rewards Cards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Beyond the rewards themselves, consider these aspects:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -180,10 +180,10 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Specific Rewards Credit Cards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Interested in specific rewards credit cards? Here are some top
                   choices in the US:
                 </p>
@@ -234,7 +234,7 @@ export default function BestRewardsCreditCardsPage() {
                     Earn bonus cash back on dining and entertainment.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   For a wider selection of credit cards and other financial
                   products, check out our{" "}
                   <Link
@@ -248,7 +248,7 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Maximizing Your Rewards
                 </h2>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -284,10 +284,10 @@ export default function BestRewardsCreditCardsPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Find the Perfect Card to Maximize Your Rewards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Transform your spending into valuable rewards by choosing a
                   credit card that aligns with your lifestyle. Whether you’re a
                   frequent traveler, a dining enthusiast, a student building

@@ -115,11 +115,11 @@ export default function TipsForChoosingAnOnlineLoanPage() {
               </div>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   The Growing Importance of Online Loans in the US
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   In recent years, online loans have become an integral part of
                   the US financial landscape, offering quick access to funds
                   without the lengthy processes traditionally associated with
@@ -129,7 +129,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   flexibility.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   However, with numerous lenders and products available,
                   selecting the right online loan requires careful
                   consideration. The following tips will help you navigate this
@@ -137,11 +137,11 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   needs while protecting your financial wellbeing.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   1. Compare APRs, Not Just Interest Rates
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   When evaluating online loans, looking beyond the advertised
                   interest rate is crucial. The Annual Percentage Rate (APR)
                   provides a more comprehensive view of your borrowing costs,
@@ -150,7 +150,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   of your loan expressed as a yearly percentage.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   For example, a loan with a 7% interest rate might seem more
                   attractive than one with 8%, but if the first includes an
                   arrangement fee of $250 while the second has no additional
@@ -160,17 +160,17 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   on your credit profile.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Using loan comparison tools can help you assess different
                   offers based on their APRs rather than headline rates, giving
                   you a clearer picture of your total repayment obligations.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   2. Verify Lender Legitimacy
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The digital nature of online lending makes it particularly
                   important to verify that you're dealing with a legitimate
                   financial institution. All legitimate US lenders must be
@@ -180,7 +180,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   to consumer protection resources if disputes arise.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To verify a lender's legitimacy:
                 </p>
 
@@ -206,17 +206,17 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </li>
                 </ul>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Taking these precautions can help you avoid loan scams and
                   ensure you're borrowing from a reputable institution that
                   adheres to industry regulations.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   3. Read the Fine Print
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The terms and conditions of online loans often contain crucial
                   information that could significantly impact your borrowing
                   experience. While it may be tempting to skip this lengthy
@@ -224,7 +224,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   unexpected costs and restrictions.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Pay particular attention to:
                 </p>
 
@@ -253,18 +253,18 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </li>
                 </ul>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If anything in the terms is unclear, don't hesitate to contact
                   the lender for clarification before proceeding with your
                   application. A transparent lender will be happy to explain
                   their terms clearly.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   4. Check Flexibility Options
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Life is unpredictable, and financial circumstances can change
                   unexpectedly. The best online loans offer flexibility that
                   accommodates these changes, giving you options when you need
@@ -296,18 +296,18 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </li>
                 </ul>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   These flexibility features can provide valuable breathing room
                   if your circumstances change and may ultimately make the
                   difference between a manageable loan and one that creates
                   financial stress.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   5. Use Comparison Tools
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   With so many online loan options available, manually comparing
                   each one would be incredibly time-consuming. Fortunately, loan
                   comparison websites can streamline this process, helping you
@@ -335,7 +335,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </li>
                 </ul>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Many comparison sites also offer eligibility checkers that
                   perform 'soft searches' on your credit file, which don't
                   affect your credit score. These tools can indicate your
@@ -344,7 +344,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   temporarily lower your score.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Popular US loan comparison sites include MoneySuperMarket,
                   Compare the Market, and Experian. When using these platforms,
                   remember that they may not include every available lender, so
@@ -374,11 +374,11 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   , known for their online loan offerings.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Making Your Final Decision
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   After researching and comparing your options using the tips
                   above, you'll likely have narrowed your choices to a few
                   potential lenders. Before making your final decision:
@@ -406,7 +406,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </li>
                 </ul>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Remember that the best loan isn't necessarily the one with the
                   lowest interest rate—it's the one that best meets your
                   specific financial needs while offering fair terms and
@@ -421,11 +421,11 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Navigating Online Loans with Confidence
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Online loans can provide valuable financial solutions when you
                   need them, but choosing the right one requires careful
                   consideration. By comparing APRs, verifying lender legitimacy,
@@ -434,7 +434,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   marketplace with confidence.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Remember that responsible borrowing involves not just finding
                   the best loan, but also ensuring the amount and terms are
                   appropriate for your financial situation. Taking the time to

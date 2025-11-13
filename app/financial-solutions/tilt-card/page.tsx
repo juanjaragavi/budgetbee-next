@@ -706,7 +706,7 @@ export default function TiltCardPage() {
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> Missing
                     payments can have serious consequences including late fees,
                     increased APR, negative credit reporting, and potential

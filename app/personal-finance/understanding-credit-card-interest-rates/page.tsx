@@ -56,7 +56,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 Understanding credit card interest rates is essential for any
                 consumer. This knowledge helps make informed decisions when
                 choosing a card and managing debt, ultimately minimizing
@@ -66,10 +66,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   What Are Credit Card Interest Rates?
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The interest rate on a credit card represents the cost charged
                   by financial institutions for borrowed money when you don’t
                   pay the total balance at the end of each billing cycle.
@@ -87,10 +87,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   How Are They Calculated?
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Interest applies to the card’s outstanding balance. Typically,
                   interest is calculated daily based on the APR, which is
                   divided by 365 days. For example, with an APR of 18% and a
@@ -101,10 +101,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Factors Affecting Interest Rates
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Several factors influence the interest rate a bank or card
                   issuer offers:
                 </p>
@@ -133,10 +133,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Cards with Different Rate Structures
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Different credit cards come with varying interest rates and
                   fee structures. Exploring specific options can help illustrate
                   these differences:
@@ -172,7 +172,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                     benefits offered.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Comparing these and other options on our{" "}
                   <Link
                     href="/financial-solutions"
@@ -186,10 +186,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Why Interest Rates Matter in Your Finances
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The interest rate on a credit card significantly impacts your
                   monthly expenses and the total cost if balances aren’t paid in
                   full.
@@ -197,7 +197,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Minimum Payment Impact
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The minimum monthly payment typically includes a portion of
                   the principal and accrued interest. Higher interest rates mean
                   more of the minimum payment goes to cover interest rather than
@@ -206,7 +206,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Total Cost Influence
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The higher the interest rate, the more expensive the total
                   cost for goods or services if the balance isn’t fully paid
                   each month. This effect accumulates through compounding
@@ -215,10 +215,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Tips for Reducing Interest Impact
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To avoid interest from building up and increasing your debt:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -260,10 +260,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   How to Compare Credit Cards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Comparing credit cards ensures you find the best option for
                   your financial situation and spending habits:
                 </p>
@@ -295,10 +295,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Tips for Managing Your Card’s Interest Rate
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Effectively managing your card’s interest rate can reduce
                   costs in the long term:
                 </p>
@@ -327,10 +327,10 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Take Control of Your Financial Future
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Understanding and managing your credit card’s interest rate is
                   key to maintaining healthy finances. Use these strategies to
                   reduce debt costs and stay informed about your credit card’s

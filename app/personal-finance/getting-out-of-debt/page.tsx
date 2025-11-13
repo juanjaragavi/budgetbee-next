@@ -56,7 +56,7 @@ export default function GettingOutOfDebtPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 Do you feel overwhelmed by debt and don’t know where to start to
                 free yourself from it? You’re not alone. Many people face the
                 same situation, but the good news is that it’s possible to get
@@ -66,10 +66,10 @@ export default function GettingOutOfDebtPage() {
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Accept and Analyze Your Financial Situation
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The first step to getting out of debt is recognizing and
                   accepting that you have a situation that needs attention. It
                   can be overwhelming, but facing it is essential.
@@ -77,7 +77,7 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Make a Detailed List of Your Debts
                 </h2>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -109,11 +109,11 @@ export default function GettingOutOfDebtPage() {
                     , minimum monthly payment, and payment due date.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   This will give you a clear picture of how much you owe, to
                   whom, and at what cost (interest rate).
                 </p>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   You might find it helpful to organize this information in a
                   simple table:
                 </p>
@@ -217,10 +217,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Adjust Your Budget to Free Up Funds
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Once you’ve identified all your debts, it’s time to take
                   control of your finances and review your monthly budget.
                   Adjusting your budget is essential to find extra money that
@@ -230,7 +230,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Calculate Your Income and Expenses
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   First, you need to be clear about where your money is coming
                   from and where it’s going.
                 </p>
@@ -261,7 +261,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Identify Areas to Save
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Once you have your income and expenses in order, look for
                   opportunities to cut back and free up funds for debt payments.
                 </p>
@@ -282,7 +282,7 @@ export default function GettingOutOfDebtPage() {
                     consider cheaper transportation options.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Maximizing rewards on essential spending with tools like{" "}
                   <Link
                     href="/personal-finance/cashback-credit-cards"
@@ -296,7 +296,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Automate Your Savings (for Debt Repayment)
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If you identify potential monthly savings, direct that money
                   immediately toward paying off your debts or building an
                   emergency fund.
@@ -313,7 +313,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Review and Adjust Regularly
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Your financial situation isn’t static. Review your budget
                   monthly or quarterly. As you pay off debts or if your income
                   changes, adjust your budget and debt repayment plan
@@ -322,10 +322,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Choose a Debt Repayment Strategy
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   There are different methods to pay off debt. Choosing one that
                   suits your financial situation and personality can make a big
                   difference. Here are two popular strategies:
@@ -333,7 +333,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Snowball Method
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   This method focuses on building momentum and motivation by
                   eliminating smaller debts quickly.
                 </p>
@@ -370,7 +370,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Avalanche Method
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   This method is mathematically the most efficient, saving you
                   the most money on interest over time.
                 </p>
@@ -406,7 +406,7 @@ export default function GettingOutOfDebtPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mt-4 mb-2">
                   Which Method to Choose?
                 </h3>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The best method depends on you. If you need quick wins to stay
                   motivated, the <strong>snowball method</strong> might be
                   better. If saving the maximum amount of money is your priority
@@ -416,10 +416,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Consider Debt Consolidation
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Another strategy to consider is debt consolidation. This
                   involves combining multiple debts into a single, new loan or
                   credit product, ideally with a lower overall interest rate or
@@ -489,7 +489,7 @@ export default function GettingOutOfDebtPage() {
                     equity) put assets at risk.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   <strong>Important:</strong> Debt consolidation is a tool, not
                   a magic solution. It works best if you have a plan to manage
                   your spending and avoid accumulating new debt. Compare offers
@@ -499,10 +499,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Debt Management Solutions
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If you are considering consolidating your debts, here are some
                   financial products that might help:
                 </p>
@@ -543,7 +543,7 @@ export default function GettingOutOfDebtPage() {
                     may offer 0% introductory APR periods.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Always compare offers and ensure the terms suit your debt
                   repayment strategy. For a wider view of available products,
                   visit our main{" "}
@@ -558,10 +558,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Seek Additional Income
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Increasing your income, even temporarily, can significantly
                   accelerate your debt repayment. Consider:
                 </p>
@@ -584,7 +584,7 @@ export default function GettingOutOfDebtPage() {
                     (if applicable and permitted).
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   <strong>Additional Tip:</strong> Create a plan to ensure any
                   extra income goes directly toward debt repayment rather than
                   being absorbed into general spending.
@@ -592,10 +592,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Consider Professional Guidance
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If your debt feels unmanageable or you're struggling to make
                   progress, seeking professional help is a sensible step.
                 </p>
@@ -624,10 +624,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Negotiate with Your Creditors
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Don’t be afraid to talk to your creditors if you're struggling
                   to make payments. They often prefer to work with you to find a
                   solution rather than resorting to debt collection agencies.
@@ -681,10 +681,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Build an Emergency Fund
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   While it seems counterintuitive when focusing on debt, having
                   a small emergency fund is crucial. It prevents you from
                   falling further into debt when unexpected costs arise (e.g.,
@@ -715,10 +715,10 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Stay Motivated and Focused
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Getting out of debt is a marathon, not a sprint. Maintaining
                   motivation is key.
                 </p>
@@ -760,10 +760,10 @@ export default function GettingOutOfDebtPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Build a Debt-Free Future
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Embarking on the path to financial freedom is a powerful
                   decision. Every step you take – negotiating with creditors,
                   meticulously adjusting your budget, building that crucial
@@ -772,7 +772,7 @@ export default function GettingOutOfDebtPage() {
                   milestones, and maintain your motivation even when the journey
                   feels long.
                 </p>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Take control of your finances today and actively shape a more
                   secure and prosperous future! For more tools and product
                   information, visit our{" "}

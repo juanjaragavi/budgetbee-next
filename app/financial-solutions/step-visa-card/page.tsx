@@ -447,7 +447,7 @@ export default function StepVisaCardPage() {
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> The Step
                     Visa Card is issued by Evolve Bank & Trust pursuant to a
                     license from Visa U.S.A., Inc. Building credit requires

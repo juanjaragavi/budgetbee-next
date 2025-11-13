@@ -47,7 +47,7 @@ export default function TopCreditCards0IntroAprPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 High-interest charges can quickly derail your financial plans.
                 Luckily, 0% intro APR credit cards allow you to temporarily
                 avoid interest, giving you breathing room to make large
@@ -56,17 +56,17 @@ export default function TopCreditCards0IntroAprPage() {
                 of your finances—all while keeping interest payments at bay
                 during the promotional period.
               </p>
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 Before diving into the types of cards offering these deals,
                 let’s break down what a 0% intro APR actually means and how it
                 can help you.
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   What Is a 0% Intro APR and How Can It Help You?
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The Annual Percentage Rate (APR) refers to the interest you’ll
                   be charged on any balance you carry on your credit card after
                   each billing cycle. With a 0% intro APR, credit card issuers
@@ -76,7 +76,7 @@ export default function TopCreditCards0IntroAprPage() {
                   paying interest, which helps you save money and manage
                   payments more efficiently.
                 </p>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   This feature is particularly useful for:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -92,7 +92,7 @@ export default function TopCreditCards0IntroAprPage() {
                     potentially help you pay off the debt faster.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   However, once the promotional period ends, the card’s regular,
                   standard APR kicks in, which is often considerably higher.
                   It’s crucial to pay off your balance before the intro period
@@ -108,10 +108,10 @@ export default function TopCreditCards0IntroAprPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Tips for Using a 0% Intro APR Card Wisely
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To make the most of a 0% intro APR card, it’s important to use
                   the offer strategically. Here are some quick tips to help you
                   maximize your savings and avoid common pitfalls:
@@ -158,17 +158,17 @@ export default function TopCreditCards0IntroAprPage() {
                     you can't pay off the full balance in time.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   By following these tips, you can maximize your financial
                   flexibility and minimize unnecessary interest payments.
                 </p>
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Types of Cards Offering 0% Intro APR
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Many different types of credit cards offer 0% introductory APR
                   periods. Here are some common examples:
                 </p>
@@ -205,10 +205,10 @@ export default function TopCreditCards0IntroAprPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore 0% Intro APR Card Options
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Looking for specific credit cards that might offer 0%
                   introductory APR periods? While offers change, here are some
                   providers whose cards often feature such deals:
@@ -254,7 +254,7 @@ export default function TopCreditCards0IntroAprPage() {
                     periods.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   It's essential to check the current offers directly with the
                   providers. For a broader overview of available credit cards,
                   visit our{" "}
@@ -277,17 +277,17 @@ export default function TopCreditCards0IntroAprPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Your Financial Goals Are Within Reach
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   A 0% intro APR credit card can provide the breathing room you
                   need to stay ahead of interest charges, especially if you’re
                   managing a large purchase or consolidating debt. Many cards
                   combine this feature with valuable rewards or other perks like
                   fraud protection and credit score access.
                 </p>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   By understanding how to use these offers wisely—paying off
                   balances before the intro period ends and avoiding unnecessary
                   fees—you can take full control of your financial situation.

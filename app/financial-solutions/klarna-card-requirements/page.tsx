@@ -282,7 +282,7 @@ export default function KlarnaCardRequirementsPage() {
                       <p className="text-sm font-semibold text-gray-800 mb-1">
                         Standard (Free):
                       </p>
-                      <p className="text-sm text-gray-700">
+                      <p className="text-sm text-gray-700 text-left">
                         Virtual card only, 0.01% APY on balance, pay in 4 with
                         service fees
                       </p>
@@ -291,7 +291,7 @@ export default function KlarnaCardRequirementsPage() {
                       <p className="text-sm font-semibold text-gray-800 mb-1">
                         Member ($3.49/month, first month free):
                       </p>
-                      <p className="text-sm text-gray-700">
+                      <p className="text-sm text-gray-700 text-left">
                         Physical + virtual card, 2.65% APY, 0.5% cashback, 2
                         fee-free Pay in 4/month
                       </p>
@@ -300,7 +300,7 @@ export default function KlarnaCardRequirementsPage() {
                       <p className="text-sm font-semibold text-gray-800 mb-1">
                         Plus ($7.99/month, first month free):
                       </p>
-                      <p className="text-sm text-gray-700">
+                      <p className="text-sm text-gray-700 text-left">
                         Physical + virtual card, 3.02% APY, 1% cashback,
                         unlimited fee-free Pay in 4, $8 discount every 3 months,
                         up to $80/month in exclusive brand deals

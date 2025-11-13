@@ -59,11 +59,11 @@ export default function BestPersonalLoansPage() {
               </div>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Understanding Personal Loans in the US
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Personal loans provide a versatile financial solution for
                   various needs, from consolidating debt to funding home
                   improvements or covering unexpected expenses. In the US, these
@@ -72,7 +72,7 @@ export default function BestPersonalLoansPage() {
                   and your financial profile.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Unlike secured loans, personal loans don't require collateral,
                   making them accessible to a wider range of borrowers. However,
                   this means interest rates may be higher than secured options
@@ -81,15 +81,15 @@ export default function BestPersonalLoansPage() {
                   the lender's criteria.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Top Personal Loan Providers in the US
                 </h2>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Nationwide Building Society
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Nationwide offers competitive rates starting from 3.5% APR
                   representative on loans between $7,500 and $25,000. Their
                   personal loans feature flexible repayment terms from 1 to 7
@@ -99,18 +99,18 @@ export default function BestPersonalLoansPage() {
                   for those already banking with this building society.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Their application process is straightforward, with same-day
                   approval available for many customers. Nationwide's
                   transparent terms and member-owned structure have earned them
                   high satisfaction ratings among US borrowers.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Santander
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Santander's personal loans start from 3.7% APR representative
                   for amounts between $7,500 and $20,000. They offer loan terms
                   from 1 to 5 years, providing flexibility for different
@@ -119,7 +119,7 @@ export default function BestPersonalLoansPage() {
                   within minutes without affecting your credit score.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Santander account holders can benefit from streamlined
                   applications and potential rate discounts. Their personal
                   loans include payment holidays (subject to conditions) and the
@@ -127,11 +127,11 @@ export default function BestPersonalLoansPage() {
                   their offering.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Barclays
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Barclays provides personal loans with rates from 3.9% APR
                   representative for existing customers borrowing between $7,500
                   and $15,000. Their loan amounts range from $1,000 to $50,000,
@@ -141,18 +141,18 @@ export default function BestPersonalLoansPage() {
                   approval.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Their loan calculator tool helps borrowers understand the
                   total cost of borrowing before applying. Barclays also offers
                   a Price Promise, potentially matching lower rates offered by
                   other lenders (subject to terms and conditions).
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Admiral
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Better known for insurance, Admiral has established a
                   competitive personal loan offering with rates from 3.8% APR
                   representative for loans between $7,500 and $25,000. Their
@@ -162,7 +162,7 @@ export default function BestPersonalLoansPage() {
                   improves.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Admiral's straightforward application process can be completed
                   entirely online, with decisions often provided within minutes.
                   They also offer a 14-day cooling-off period, allowing
@@ -170,11 +170,11 @@ export default function BestPersonalLoansPage() {
                   shortly after taking out the loan.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   M&S Bank
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   M&S Bank personal loans start from 3.6% APR representative for
                   existing customers borrowing between $7,500 and $15,000. Their
                   loans range from $1,000 to $25,000 with terms from 1 to 7
@@ -182,7 +182,7 @@ export default function BestPersonalLoansPage() {
                   criteria) and the flexibility to choose your payment date.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Their application process can be completed online, by phone,
                   or in-store, providing options for different preferences. M&S
                   Bank's customer service has received high ratings, making them
@@ -190,11 +190,11 @@ export default function BestPersonalLoansPage() {
                   loan process.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   How to Choose the Right Personal Loan
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Selecting the best personal loan involves more than just
                   finding the lowest interest rate. Consider these factors to
                   make an informed decision:
@@ -235,10 +235,10 @@ export default function BestPersonalLoansPage() {
                   </li>
                 </ul>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Specific Loan Options
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Ready to explore specific loan products? Here are some popular
                   options available in the US:
                 </p>
@@ -291,7 +291,7 @@ export default function BestPersonalLoansPage() {
                     See potential benefits for existing banking customers.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   For a broader overview of various financial products,
                   including different types of loans and credit cards, visit our{" "}
                   <a
@@ -303,11 +303,11 @@ export default function BestPersonalLoansPage() {
                   .
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Improving Your Chances of Approval
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To increase your likelihood of being approved for a personal
                   loan at competitive rates:
                 </p>
@@ -338,11 +338,11 @@ export default function BestPersonalLoansPage() {
                   </li>
                 </ul>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Making the Most of Your Personal Loan
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Once approved, follow these best practices to manage your
                   personal loan effectively:
                 </p>
@@ -377,11 +377,11 @@ export default function BestPersonalLoansPage() {
 
                 <hr className="my-8" />
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Finding Your Ideal Financial Solution
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The US personal loan market offers diverse options to suit
                   different financial needs and circumstances. By researching
                   thoroughly, comparing offers from multiple lenders, and
@@ -398,7 +398,7 @@ export default function BestPersonalLoansPage() {
                   .
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Remember that responsible borrowing involves taking on debt
                   only when necessary and in amounts you can comfortably repay.
                   A well-chosen personal loan can be a valuable financial tool

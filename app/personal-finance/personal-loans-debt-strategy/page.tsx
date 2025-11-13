@@ -57,7 +57,7 @@ export default function PersonalLoansDebtStrategyPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 In a world filled with credit options, personal loans can be a
                 powerful financial tool. Whether you’re looking for ways to
                 manage your debts efficiently or finance significant expenses,
@@ -67,10 +67,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   What Are Personal Loans?
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   A personal loan is a sum of money you can borrow from a
                   financial institution (like a bank, building society, or
                   online lender), usually without needing to put up any
@@ -81,7 +81,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   purposes: from consolidating debt to financing an emergency, a
                   home renovation, education, or any other significant expense.
                 </p>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Whether it’s for managing debts efficiently or covering other
                   expenses, choosing the right loan is key to maintaining good
                   financial health.
@@ -94,10 +94,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Advantages of Personal Loans
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Personal loans are known for their flexibility. Some of the
                   standout benefits include:
                 </p>
@@ -119,7 +119,7 @@ export default function PersonalLoansDebtStrategyPage() {
                     assets like your home or car as security.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   While personal loans provide financial flexibility, managing
                   everyday expenses efficiently is also important. Using tools
                   like{" "}
@@ -135,10 +135,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Personal Loans for Debt Management
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   One of the most effective uses of personal loans is debt
                   consolidation. This involves taking out a single personal loan
                   to pay off multiple existing debts (like credit cards, store
@@ -159,7 +159,7 @@ export default function PersonalLoansDebtStrategyPage() {
                     when your debt will be cleared.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Some lenders specialise in{" "}
                   <Link
                     href="/personal-finance/getting-out-of-debt"
@@ -172,10 +172,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Personal Loan Options for Debt Consolidation
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If you're considering using a personal loan to consolidate
                   debt, here are some providers to explore:
                 </p>
@@ -227,7 +227,7 @@ export default function PersonalLoansDebtStrategyPage() {
                     See if their loan products fit your consolidation needs.
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   For a broader comparison of personal loans and other financial
                   tools, visit our{" "}
                   <Link
@@ -241,10 +241,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   How to Choose the Right Personal Loan
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Not all personal loans are the same, so it’s essential to
                   compare offers carefully before choosing one. Consider these
                   factors:
@@ -280,10 +280,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Personal Loans Beyond Debt Management
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Personal loans are not only useful for debt consolidation.
                   They can also be an excellent tool for financing significant
                   expenses or investments, such as:
@@ -302,7 +302,7 @@ export default function PersonalLoansDebtStrategyPage() {
                     better rates)
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   However, it’s important to borrow responsibly and ensure that
                   you are in a financial position to repay the loan without
                   difficulty.
@@ -310,10 +310,10 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Important Considerations Before Applying
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Before applying for a personal loan, carefully assess your
                   financial situation:
                 </p>
@@ -340,7 +340,7 @@ export default function PersonalLoansDebtStrategyPage() {
                     exploring 0% purchase credit cards for smaller expenses?
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   If you’re looking to improve your financial profile alongside
                   managing debt, tools like{" "}
                   <Link
@@ -363,10 +363,10 @@ export default function PersonalLoansDebtStrategyPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   A Step Toward Better Financial Management
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Personal loans can be an excellent tool if used properly. From
                   debt consolidation to financing major projects, a well-chosen
                   personal loan can help improve your long-term financial

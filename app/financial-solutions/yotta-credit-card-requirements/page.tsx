@@ -202,7 +202,7 @@ export default function YottaCreditCardRequirementsPage() {
                     </ul>
                   </div>
                   <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-lg">
-                    <p className="text-sm text-gray-700">
+                    <p className="text-sm text-gray-700 text-left">
                       <strong>Not Available In:</strong> Alabama, Indiana,
                       Kentucky, Mississippi, Nevada, Vermont, Washington,
                       Wisconsin, Wyoming
@@ -516,7 +516,7 @@ export default function YottaCreditCardRequirementsPage() {
                   </table>
                 </div>
                 <div className="mt-4 p-4 bg-primary-accent border-l-4 border-primary rounded-r-lg">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <strong>Important:</strong> Final APR, fees, and credit
                     limit are determined during the application process based on
                     your credit profile. Yotta will provide a detailed Terms &

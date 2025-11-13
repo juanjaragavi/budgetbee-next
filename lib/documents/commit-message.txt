@@ -1,12 +1,19 @@
-style: Apply Prettier formatting to blog and category pages
+style: Apply text-left alignment to disclaimer and informational text blocks
 
-Code Formatting Updates:
-- Added trailing commas to filter functions in app/blog/page.tsx
-- Added trailing comma to allPosts array dependency in app/personal-finance/page.tsx
-- Maintains consistent code style across the codebase
-- Changes made by automated Prettier formatter
+UI Consistency Updates:
+- Add text-left class to all disclaimer paragraphs across Financial Solutions pages
+- Add text-left class to informational text in card requirement and product pages
+- Add text-left class to notice boxes and important messages
+- Add text-left class to headings, subheadings, and body paragraphs in Personal Finance articles
+- Ensure consistent left alignment across all content sections for better readability
+- Update quiz results disclaimer text alignment
+
+Files Updated:
+- Financial Solutions: Chime, Klarna, Robinhood, SoFi, Step, Tilt, Upgrade, Varo, Yotta card pages
+- Personal Finance: Best loans, rewards cards, cashback, credit card types, debt management, side hustles, paycheck-to-paycheck, travel cards, APR, interest rates, online loan tips articles
+- Quiz results page disclaimer section
 
 Technical Details:
-- No functional changes, purely stylistic
-- Ensures code passes npm run format checks
-- Improves code consistency and maintainability
+- No functional changes, purely stylistic alignment improvements
+- Improves visual consistency and readability across all informational content
+- Ensures proper text alignment for better user experience

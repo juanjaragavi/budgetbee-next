@@ -173,7 +173,7 @@ export default function QuizResults() {
 
               {/* Disclaimer */}
               <div className="mt-8 p-4 bg-yellow-50 border border-yellow-200 rounded-lg">
-                <p className="text-sm text-gray-700">
+                <p className="text-sm text-gray-700 text-left">
                   <strong>Disclaimer:</strong> The recommendations provided are
                   based on your quiz responses and general financial principles.
                   Always review the terms and conditions of any financial

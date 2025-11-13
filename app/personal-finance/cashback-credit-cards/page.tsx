@@ -58,7 +58,7 @@ export default function CashbackCreditCardsPage() {
                 />
               </div>
 
-              <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+              <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                 Cashback credit cards are an excellent way to make the most of
                 your everyday spending by turning purchases into valuable
                 rewards. Whether you’re looking for simple flat-rate cashback,
@@ -72,10 +72,10 @@ export default function CashbackCreditCardsPage() {
               </p>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Types of Cashback Credit Cards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Cashback cards generally fall into a few categories:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -110,10 +110,10 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Key Features to Compare
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   When choosing a cashback card, consider these features:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -154,10 +154,10 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Explore Specific Cashback Credit Card Offers
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Looking for specific cashback credit cards? Here are a few
                   options that offer compelling rewards:
                 </p>
@@ -191,7 +191,7 @@ export default function CashbackCreditCardsPage() {
                     when you pay).
                   </li>
                 </ul>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To discover a broader range of credit cards, including various
                   cashback and rewards options, visit our{" "}
                   <Link
@@ -205,7 +205,7 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Choosing the Right Cashback Card
                 </h2>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
@@ -241,10 +241,10 @@ export default function CashbackCreditCardsPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Unlock the Power of Cashback Rewards
                 </h2>
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Choosing the right cashback credit card is a smart way to make
                   your everyday spending work for you. Whether you want
                   unlimited cashback, enhanced rewards in specific categories,

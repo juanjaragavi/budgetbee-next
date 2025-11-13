@@ -742,7 +742,7 @@ export default function SoFiCreditCardRequirementsPage() {
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> This
                     information is for educational purposes only and does not
                     constitute financial advice. Credit card terms, rates, and

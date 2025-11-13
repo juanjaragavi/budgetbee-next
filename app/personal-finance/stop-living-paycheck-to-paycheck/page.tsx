@@ -99,11 +99,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
               </div>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Shift #1: Track Every Dollar Before It Disappears
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The first step to breaking the paycheck-to-paycheck cycle
                   isn't earning more—it's knowing exactly where your money goes
                   right now. Most people drastically underestimate their
@@ -113,7 +113,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   at month's end.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Start by conducting a 30-day spending audit. Write down every
                   single expense, no matter how small. You can use a simple
                   notebook, a spreadsheet, or one of many{" "}
@@ -130,10 +130,10 @@ export default function StopLivingPaycheckToPaycheckPage() {
                 </p>
 
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-4 my-6">
-                  <p className="text-sm text-gray-800 font-semibold mb-2">
+                  <p className="text-sm text-gray-800 font-semibold mb-2 text-left">
                     Quick Action Step:
                   </p>
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     Review your bank and credit card statements from the past
                     month. Highlight three recurring charges you forgot you were
                     paying for. Even canceling one $15 monthly subscription adds
@@ -143,11 +143,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Shift #2: Build Your Buffer Before You Build Your Savings
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Traditional personal finance advice tells you to save six
                   months of expenses for emergencies. While that's a worthy
                   long-term goal, it's not where you start when you're living
@@ -155,11 +155,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   buffer that breaks the immediate stress cycle.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   The $500 Buffer Strategy
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Your first milestone should be saving just $500. This amount
                   won't cover a major crisis, but it will handle most unexpected
                   expenses that typically derail your budget: a car repair, a
@@ -169,7 +169,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   need for high-interest borrowing.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   To build this buffer quickly, consider the 50-30-20 approach
                   modified for tight cash flow situations. Allocate 50% to
                   essential needs, 30% to debt payments and variable expenses,
@@ -214,11 +214,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
               </div>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Shift #3: Time Your Bills to Match Your Income Flow
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   One of the most overlooked aspects of cash flow management is
                   bill timing. Many people struggle not because they don't earn
                   enough, but because their bills cluster around dates that
@@ -227,11 +227,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   playing catch-up.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Strategic Bill Scheduling
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Most service providers—utilities, credit card companies,
                   insurance agencies—will adjust your due date if you ask. The
                   Federal Trade Commission encourages consumers to request
@@ -241,7 +241,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   when.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Create a "bill map" that shows when money comes in and when it
                   needs to go out. If you're paid biweekly, split your bills
                   into two groups and schedule them to align with each paycheck.
@@ -259,10 +259,10 @@ export default function StopLivingPaycheckToPaycheckPage() {
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 my-6">
-                  <p className="text-sm text-gray-800 font-semibold mb-2">
+                  <p className="text-sm text-gray-800 font-semibold mb-2 text-left">
                     Pro Tip:
                   </p>
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     If you have irregular income from freelancing or
                     commission-based work, use the "baseline budget" approach.
                     Calculate your average monthly income from the past six
@@ -274,11 +274,11 @@ export default function StopLivingPaycheckToPaycheckPage() {
               </section>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Breaking the Cycle: Your 90-Day Action Plan
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Implementing these three shifts doesn't happen overnight, but
                   you can see meaningful progress in just three months. Here's
                   how to structure your transition away from
@@ -290,7 +290,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                     <h4 className="text-md font-semibold text-gray-800 mb-2">
                       Month 1: Awareness and Adjustment
                     </h4>
-                    <p className="text-sm text-gray-700">
+                    <p className="text-sm text-gray-700 text-left">
                       Complete your spending audit, identify three areas to cut
                       back, and contact creditors to adjust bill due dates.
                       Start your buffer fund with whatever amount feels
@@ -302,7 +302,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                     <h4 className="text-md font-semibold text-gray-800 mb-2">
                       Month 2: Momentum Building
                     </h4>
-                    <p className="text-sm text-gray-700">
+                    <p className="text-sm text-gray-700 text-left">
                       Continue contributing to your buffer fund consistently.
                       Celebrate reaching $200-250 saved. Fine-tune your bill
                       timing based on your actual experience. Look for one
@@ -314,7 +314,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                     <h4 className="text-md font-semibold text-gray-800 mb-2">
                       Month 3: Solidifying Habits
                     </h4>
-                    <p className="text-sm text-gray-700">
+                    <p className="text-sm text-gray-700 text-left">
                       You should be approaching or surpassing the $500 buffer
                       milestone. The anxiety of waiting for payday should be
                       noticeably reduced. Start planning your next financial
@@ -324,7 +324,7 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   </div>
                 </div>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Remember, breaking the paycheck-to-paycheck cycle isn't about
                   deprivation—it's about conscious cash flow management. Every
                   dollar you redirect from unnoticed spending to intentional

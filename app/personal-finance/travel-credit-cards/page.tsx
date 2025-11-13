@@ -43,7 +43,7 @@ export default function TravelCreditCardsPage() {
               </p>
 
               <div className="my-8 bg-primary-accent p-6 rounded-xl">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Top Travel Credit Cards at a Glance
                 </h2>
                 <ul className="space-y-3">
@@ -427,7 +427,7 @@ export default function TravelCreditCardsPage() {
               </ul>
 
               <div className="p-6 bg-primary-accent rounded-xl mb-8">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Related Resources
                 </h2>
                 <ul className="space-y-2">

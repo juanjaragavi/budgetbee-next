@@ -558,7 +558,7 @@ export default function SoFiCreditCardPage() {
                 </div>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> The SoFi
                     Unlimited 2% Card is recommended for customers with
                     excellent credit. Factors considered include loan default

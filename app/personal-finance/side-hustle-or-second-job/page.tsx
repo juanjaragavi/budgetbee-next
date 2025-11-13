@@ -96,11 +96,11 @@ export default function SideHustleOrSecondJobPage() {
               </div>
 
               <section className="my-6">
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Understanding the Key Differences
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The terms "side hustle" and "second job" are often used
                   interchangeably, but they represent distinctly different
                   approaches to earning extra income. A traditional second job
@@ -111,7 +111,7 @@ export default function SideHustleOrSecondJobPage() {
                   career.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   A side hustle, on the other hand, usually involves
                   self-employment or freelance work where you have more control
                   over your schedule and earning potential. This could include
@@ -122,15 +122,15 @@ export default function SideHustleOrSecondJobPage() {
                   workers seeking financial independence.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Evaluating Your Personal Circumstances
                 </h2>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Consider Your Current Financial Situation
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Before choosing between a side hustle or second job, assess
                   your immediate financial needs. If you require steady,
                   predictable income to cover essential expenses or reduce debt,
@@ -139,7 +139,7 @@ export default function SideHustleOrSecondJobPage() {
                   help with budgeting and meeting fixed monthly commitments.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   However, if you're looking to build long-term wealth or have
                   more flexibility in your earnings timeline, a side hustle
                   might offer greater potential. While income may be less
@@ -149,11 +149,11 @@ export default function SideHustleOrSecondJobPage() {
                   provide both immediate income and future growth opportunities.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Time and Energy Management
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Your available time and energy levels play crucial roles in
                   this decision. Second jobs often require specific time
                   commitments that might conflict with your primary employment
@@ -163,7 +163,7 @@ export default function SideHustleOrSecondJobPage() {
                   contract and company policies.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Side hustles typically offer more flexibility, allowing you to
                   work during evenings, weekends, or whenever suits your
                   schedule. This flexibility makes them particularly attractive
@@ -172,15 +172,15 @@ export default function SideHustleOrSecondJobPage() {
                   maintain consistency and build momentum.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Practical Considerations for US Workers
                 </h2>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Tax Implications and Record Keeping
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Understanding the tax implications is essential for both
                   options. With a second job, your employer handles payroll tax
                   deductions, but you should ensure proper withholding across
@@ -189,7 +189,7 @@ export default function SideHustleOrSecondJobPage() {
                   take-home pay.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Side hustles require more comprehensive record keeping as
                   you'll be self-employed. You'll need to register as a business
                   if your income exceeds certain thresholds, file quarterly
@@ -199,11 +199,11 @@ export default function SideHustleOrSecondJobPage() {
                   expenses, or home office deductions.
                 </p>
 
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Building Skills and Long-term Value
                 </h3>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Consider which option aligns better with your career goals and
                   skill development. A second job in a related field might
                   provide networking opportunities and transferable skills that
@@ -212,7 +212,7 @@ export default function SideHustleOrSecondJobPage() {
                   valuable experience and industry connections.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Side hustles often allow for more creative expression and
                   entrepreneurial skill development. Building your own business,
                   even on a small scale, teaches valuable lessons about customer
@@ -222,11 +222,11 @@ export default function SideHustleOrSecondJobPage() {
                   future.
                 </p>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Making Your Decision Work Financially
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Regardless of which path you choose, success depends on
                   integrating your additional income into a solid financial
                   plan. Set clear goals for your extra earnings, whether that's
@@ -236,7 +236,7 @@ export default function SideHustleOrSecondJobPage() {
                   your financial wellbeing.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Consider consulting resources on effective{" "}
                   <a
                     href="/personal-finance/getting-out-of-debt"
@@ -264,11 +264,11 @@ export default function SideHustleOrSecondJobPage() {
                   {/* Empty responsive, centered div */}
                 </div>
 
-                <h2 className="text-xl font-bold text-gray-800 mb-4">
+                <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Taking the Next Step
                 </h2>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   The choice between a side hustle and second job isn't
                   permanent, and many successful individuals have tried both
                   approaches at different stages of their financial journey.
@@ -278,7 +278,7 @@ export default function SideHustleOrSecondJobPage() {
                   how it fits into your lifestyle and meets your expectations.
                 </p>
 
-                <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+                <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   Remember that boosting your income is just one part of
                   effective personal finance management. Whether you choose a
                   traditional second job or an entrepreneurial side hustle,

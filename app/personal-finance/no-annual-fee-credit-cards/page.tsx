@@ -66,7 +66,7 @@ export default function NoAnnualFeeCreditCards() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Benefits of No Annual Fee Cards
           </h2>
-          <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+          <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
             The primary advantage is cost savings – you avoid paying a yearly
             charge just for holding the card. However, many no-fee cards still
             offer compelling benefits:
@@ -107,7 +107,7 @@ export default function NoAnnualFeeCreditCards() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Types of No Annual Fee Cards
           </h2>
-          <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+          <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
             No-annual-fee cards come in various forms, catering to different
             needs:
           </p>
@@ -149,7 +149,7 @@ export default function NoAnnualFeeCreditCards() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Explore Specific No Annual Fee Cards
           </h2>
-          <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+          <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
             Ready to look at some specific credit cards that typically come
             without an annual fee? Here are some examples:
           </p>
@@ -217,7 +217,7 @@ export default function NoAnnualFeeCreditCards() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Choosing the Right Card for You
           </h2>
-          <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+          <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
             Consider your spending habits and financial goals:
           </p>
           <ul className="list-disc list-inside space-y-2 text-sm leading-5 font-light text-gray-800">
@@ -259,7 +259,7 @@ export default function NoAnnualFeeCreditCards() {
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Maximize Rewards Without Extra Costs
           </h2>
-          <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
+          <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
             No-annual-fee credit cards prove you don’t need to pay a yearly
             charge to enjoy valuable benefits. By understanding the different
             types available and matching them to your spending patterns and

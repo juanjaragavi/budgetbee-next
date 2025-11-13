@@ -513,7 +513,7 @@ export default function ChimeCreditBuilderPage() {
                 </p>
 
                 <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
-                  <p className="text-sm text-gray-700">
+                  <p className="text-sm text-gray-700 text-left">
                     <span className="font-semibold">Important:</span> While the
                     Chime Credit Builder Card helps build credit through on-time
                     payments reported to credit bureaus, results vary by
