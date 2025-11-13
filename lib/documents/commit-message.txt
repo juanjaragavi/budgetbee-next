@@ -1,31 +1,12 @@
-feat: Add new Personal Finance article "Stop Living Paycheck to Paycheck"
+fix: Simplify PM2 user permissions in deployment script
 
-Content Updates:
-- Created comprehensive article on breaking the paycheck-to-paycheck cycle
-- Added article to /app/personal-finance/stop-living-paycheck-to-paycheck/page.tsx
-- Integrated article into blog listing (app/blog/page.tsx)
-- Integrated article into Personal Finance category page (app/personal-finance/page.tsx)
-- Published date: November 13, 2025
-
-Documentation Updates:
-- Updated TOFU_BLOG_POST_GENERATION.instructions.md with correct CDN domain
-- Updated CREDIT_CARD_PRODUCT_GENERATION.instructions.md with correct CDN domain
-- feat: Add favicon.png to public assets
-
-Asset Addition:
-- Added favicon.png to public directory
-- Ensures proper favicon display across all browsers
-- Improves brand consistency and user experience
+Deployment Script Update:
+- Removed `-u juanjaramillo` user specification from PM2 commands
+- Changed `sudo -u juanjaramillo pm2 restart` to `sudo pm2 restart`
+- Changed `sudo -u juanjaramillo pm2 save` to `sudo pm2 save`
+- Simplifies deployment process by running PM2 commands directly with sudo
 
 Technical Details:
-- Placed in /public for Next.js automatic static asset serving
-- Standard PNG format for broad browser compatibility
-- Fixed Python script naming (fix-jsx-comments.py → fix_jsx_comments.py)
-
-Article Details:
-- Topic: Cash flow management and financial stability strategies
-- Target: TOFU funnel stage (awareness/education)
-- Word count: ~900 words
-- SEO optimized for "paycheck to paycheck" and related keywords
-- Includes three internal links to related Personal Finance content
-- Features hero image, two ad placements, and AI content disclaimer
+- Fixes potential permission issues during automated deployments
+- PM2 will run as the sudo user's default process owner
+- Maintains functionality while reducing command complexity
