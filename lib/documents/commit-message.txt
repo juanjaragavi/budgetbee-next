@@ -1,14 +1,12 @@
-fix: Correct favicon size in manifest files to match actual dimensions
+style: Apply Prettier formatting to blog and category pages
 
-Manifest File Corrections:
-- Fixed favicon.png size declaration from 192x192 to 128x128 in all manifest files
-- Updated app/site.webmanifest with correct favicon dimensions
-- Updated public/site.webmanifest with correct favicon dimensions
-- Updated root site.webmanifest to use favicon.png instead of webp images
-- Resolves "Resource size is not correct" manifest error
+Code Formatting Updates:
+- Added trailing commas to filter functions in app/blog/page.tsx
+- Added trailing comma to allPosts array dependency in app/personal-finance/page.tsx
+- Maintains consistent code style across the codebase
+- Changes made by automated Prettier formatter
 
 Technical Details:
-- Actual favicon.png dimensions: 128x128 pixels (verified with sips)
-- Previous manifest declared: 192x192 (incorrect)
-- All three manifest files now synchronized with correct icon specifications
-- Fixes browser console error about incorrect resource size in Manifest
+- No functional changes, purely stylistic
+- Ensures code passes npm run format checks
+- Improves code consistency and maintainability
