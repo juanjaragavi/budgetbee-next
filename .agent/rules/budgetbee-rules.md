@@ -1,0 +1,234 @@
+---
+trigger: always_on
+---
+
+# Project Architecture
+
+This is a **Next.js 15+ App Router** financial comparison site for the US market, built with TypeScript and Tailwind CSS. The architecture centers around credit card/loan comparison tools with multi-step forms and comprehensive analytics tracking.
+
+## Key System Components
+
+- **Analytics Layer**: Dual analytics with GTM + AdZep integration at `/components/analytics/`
+- **UI System**: Shadcn/UI + Radix primitives with custom variants in `/components/ui/`
+- **Form Architecture**: Multi-step forms using React Hook Form + Zod in `/components/forms/` and `/components/steps/`
+- **Content System**: MDX support for blog content in `/content/` with custom components
+- **API Integration**: Google Sheets API for data collection at `/app/api/sheets/`
+- **Environment Management**: Multiple env files (`.env`, `.env.production`, `.env.local`) with strict production controls
+
+### Project-Specific Patterns
+
+#### 1. Component Organization
+
+```tsx
+// Always use this import pattern with @/ alias
+import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+
+// Function component declarations (not arrow functions)
+export default function ComponentName({ prop }: ComponentProps) {
+  return <div className={cn("base-classes", className)} />;
+}
+```
+
+#### 2. Analytics Integration
+
+The project has sophisticated analytics with **automatic AdZep activation**:
+
+- Script loads in `app/layout.tsx` with `AdZep` component
+- Auto-activates on navigation via `AdZepSPABridge` component
+- Advanced ad management utilities in `/lib/ads/` (activate-adzep.ts, config.ts, overlay.ts)
+- Accessibility and interstitial blocking with `AdZepAccessibilityFix` and `AdZepInterstitialBlocker`
+- Manual triggers available via `useAdZep()` hook
+- Development testing panel with `AdZepTest` component
+
+**Navigation Tracking**: AdZep integrates with Next.js navigation system properly:
+
+- `AdZepSPABridge` component handles all navigation-based activation
+- Uses `usePathname()` hook to detect route changes
+- Waits for ad containers before activation using `waitForContainers()`
+- Implements retry logic with creative verification via `hasRenderedCreative()`
+- Excludes certain paths (quiz, registration) from ad activation
+- Initial page load uses longer timeout for better ad loading
+
+#### 3. Multi-Step Form Pattern
+
+```tsx
+// Located in /components/steps/step{1,2,3}.tsx
+export default function Step1({ formData, updateFormData }: StepProps) {
+  return (
+    <div className="space-y-4">
+      <ProgressIndicator step={1} />
+      <OptionButton /> {/* Custom UI component */}
+    </div>
+  );
+}
+```
+
+#### 4. US Market Specifics
+
+- **Currency**: Always USD ($) formatting
+- **Compliance**: CFPB and state regulatory requirements in financial content
+- **Localization**: US English (en-US), MM/DD/YYYY dates
+- **Business Context**: Credit cards, personal loans, financial guidance
+
+## Development Workflows
+
+### Build & Dev Commands
+
+```bash
+npm run dev      # Development server on port 3007 with Turbo
+npm run build    # Production build
+npm run start    # Production server on port 3007
+```
+
+### Git Workflow (Critical)
+
+Use the **automated git workflow script** instead of manual commands:
+
+```bash
+# ALWAYS use this for commits/deployments
+bash ./scripts/git-workflow.sh
+```
+
+- Auto-commits across dev/main/backup branches
+- Reads commit message from `/lib/documents/commit-message.txt`
+- Handles merge conflicts automatically
+- Never commit directly without this script
+
+### Environment Setup
+
+- Copy `.env.example` to `.env.production`
+- Production environment files stored in `/opt/app/` with strict permissions
+- Google Sheets API requires `GOOGLE_SERVICE_ACCOUNT_EMAIL` and `GOOGLE_PRIVATE_KEY`
+- AdZep integration for ad management
+- Kit.com API integration for newsletter subscriptions
+- Multiple environment files in use: `.env`, `.env.production`, `.env.local`
+
+## Code Quality Standards
+
+### TypeScript Rules
+
+- **Strict mode enabled** - no `any` types without justification
+- Use proper React component typing with interfaces
+- Path aliases: `@/` for root imports
+
+### UI Component Patterns
+
+```tsx
+// Shadcn/UI forwarded ref pattern
+const Component = React.forwardRef<HTMLDivElement, ComponentProps>(
+  ({ className, ...props }, ref) => (
+    <div className={cn("base-styles", className)} ref={ref} {...props} />
+  ),
+);
+Component.displayName = "Component";
+```
+
+### Styling Conventions
+
+- **Mobile-first** Tailwind approach
+- Use `cn()` utility for class merging
+- Custom text sizing with `getTextClass()` utility
+- Consistent spacing and color tokens
+- Google Fonts Montserrat as brand font (clean, modern geometric sans-serif)
+
+## API Architecture
+
+### Google Sheets Integration
+
+```typescript
+// Pattern in /app/api/sheets/route.ts
+export async function POST(req: Request) {
+  const auth = new google.auth.GoogleAuth({
+    credentials: {
+      client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+      private_key: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+    },
+    scopes: ["https://www.googleapis.com/auth/spreadsheets"],
+  });
+  // Sheet handling logic...
+}
+```
+
+### API Route Patterns
+
+- All API routes use Next.js 15 App Router pattern: `app/api/*/route.ts`
+- Environment variables for external integrations (Google Sheets, Kit.com, SendGrid)
+- Consistent error handling and response formatting
+- CORS configuration in `cors-config.json` for cross-origin requests
+
+## Analytics & Performance
+
+### AdZep Integration (Critical)
+
+- **Never manually call** `window.AdZepActivateAds()` - handled automatically
+- Use `useAdZep()` hook for programmatic activation only when needed
+- Development mode includes comprehensive logging and test panel
+- Script loads with `strategy="afterInteractive"` for performance
+
+### Performance Monitoring
+
+- Uses `window.performance.mark()` for custom metrics
+- Google Fonts Montserrat with optimized loading strategy
+- Image optimization with Next.js `Image` component
+- Critical CSS inlining for above-the-fold content
+
+## Content & SEO
+
+### MDX Content Structure
+
+- Blog posts in `/content/` with frontmatter
+- Custom MDX components for financial content
+- US regulatory compliance (CFPB) in financial product descriptions
+
+### SEO Pattern
+
+```typescript
+// In page.tsx files
+export const metadata: Metadata = {
+  title: "US-specific title",
+  description: "CFPB-compliant description",
+  // US-specific metadata
+};
+```
+
+### Blog Listing Synchronization (MANDATORY)
+
+- After any create, update, or delete operation on blog posts in the Personal Finance or Financial Solutions categories, immediately update every `allPosts` array defined inside the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Confirm that titles, slugs, categories, descriptions, images, and ordering stay synchronized across those arrays before completing the CRUD task
+
+### Sitemap Synchronization (MANDATORY)
+
+- Any time a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, the dynamic sitemap (`app/sitemap.ts`) will automatically discover it
+- The sitemap uses filesystem scanning to dynamically generate URLs from page directories
+- Verify that page directories contain a `page.tsx` file for proper sitemap inclusion
+- No manual sitemap updates needed - the system auto-discovers new pages
+
+## Common Gotchas
+
+1. **Port Configuration**: Development runs on port 3007, not 3000
+2. **Analytics Order**: GTM loads before AdZep in layout
+3. **Form Navigation**: Always call `window.scrollTo(0, 0)` on step changes
+4. **US Compliance**: Include CFPB regulatory disclaimers for financial products
+5. **Git Workflow**: NEVER bypass the automated script for commits
+6. **AdZep Exclusions**: Quiz and registration paths exclude ads via `isExcludedPath()`
+
+## File Naming Conventions
+
+- Components: `kebab-case.tsx` (e.g., `credit-card-form.tsx`)
+- API routes: `route.ts` in app router structure
+- Utilities: Descriptive names in `/lib/utils/`
+- Constants: Centralized in `/lib/constants.ts`
+
+This project prioritizes US financial compliance, performance optimization, and comprehensive analytics tracking. Always consider CFPB and state-level regulations when working with financial content.
+
+## Instruction Files System
+
+The project uses a comprehensive instruction system at `.github/instructions/` with specific rules for different scenarios:
+
+- **`project-rules.instructions.md`**: Core project architecture and development standards
+- **`ADZEP_IMPLEMENTATION.instructions.md`**: Complete AdZep analytics integration guide
+- **`BLOG_POST_INTEGRATION.instructions.md`**: Blog content integration workflow
+- **`PUSH-AND-COMMIT.instructions.md`**: Automated git workflow procedures
+
+**Critical**: Always check and follow the instruction files before making changes. These contain project-specific implementation details and workflows that override general best practices.
