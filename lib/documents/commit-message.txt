@@ -1,1 +1,9 @@
-Update ConvertKit integration status check
+Add new Personal Finance article: Psychology of Spending
+
+- Create new article page at /personal-finance/psychology-of-spending/
+- Article covers impulse buying psychology, mindful spending strategies, and building healthy financial habits
+- Add article to blog listing page (app/blog/page.tsx) with proper metadata
+- Add article to Personal Finance category archive (app/personal-finance/page.tsx)
+- Includes internal links to related content (financial health check, debt guide, financial goals)
+- Full SEO optimization with ArticleSchema and BreadcrumbSchema
+- Sitemap will auto-discover the new page

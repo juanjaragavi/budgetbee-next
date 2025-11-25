@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving | BudgetBee",
+        slug: "psychology-of-spending",
+        description:
+          "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
+        image:
+          "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+        date: "November 25, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today | BudgetBee",
         slug: "stop-living-paycheck-to-paycheck",
         description:
