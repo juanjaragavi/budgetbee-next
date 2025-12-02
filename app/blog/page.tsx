@@ -40,6 +40,18 @@ export default function BlogArchivePage() {
 
   // Combine posts from both categories
   const allPosts: PostItem[] = [
+    {
+      title:
+        "Stop Guessing: How to Track Your Spending for 30 Days and Finally Know Where Your Money Goes | BudgetBee",
+      slug: "stop-guessing-how-to-track-your-spending-for-30-days",
+      description:
+        "Learn how to track your spending for 30 days to uncover financial leaks, build a realistic budget, and take control of your money. A step-by-step guide for beginners.",
+      image:
+        "https://media.topfinanzas.com/images/budgetbee/track-spending-30-days.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "December 2, 2025",
+    },
     // Personal Finance Posts
     {
       title:
