@@ -1,5 +1,6 @@
-feat(content): add 'Stop Guessing' personal finance guide
+chore(deps): upgrade Next.js from 15.4.3 to 15.4.8
 
-- Create new TOFU article: Stop Guessing: How to Track Your Spending for 30 Days
-- Update blog archive with new post entry
-- Update personal finance category with new post entry
+- Updated next package to ^15.4.8 in package.json
+- Updated all @next/* SWC platform packages to 15.4.8
+- Updated @next/env to 15.4.8
+- Regenerated package-lock.json with new dependency versions
