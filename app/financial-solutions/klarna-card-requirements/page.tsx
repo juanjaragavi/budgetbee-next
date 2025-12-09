@@ -27,7 +27,7 @@ export default function KlarnaCardRequirementsPage() {
               Klarna Card Requirements: Eligibility & How to Apply
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -365,13 +365,13 @@ export default function KlarnaCardRequirementsPage() {
               </div>
 
               <div
-                id="us_budgetbeepro_2"
+                id="square04"
+                data-topads
+                data-topads-size="square"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
+              </div>67
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Klarna Card

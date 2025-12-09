@@ -72,18 +72,6 @@ export const siteConfig = {
     },
   },
 
-  // AdZep Configuration
-  adZep: {
-    scriptUrl: "https://autozep.adzep.io/paid/budgetbeepro.js",
-    adUnits: {
-      unit1: "us_budgetbeepro_1",
-      unit2: "us_budgetbeepro_2",
-      unit3: "us_budgetbeepro_3",
-      unit4: "us_budgetbeepro_4",
-    },
-    excludePaths: ["/quiz", "/qz", "/quiz-results"],
-  },
-
   // Social Media (from social.json if exists)
   social: {
     // Add social media links here
@@ -95,16 +83,3 @@ export const siteConfig = {
 } as const;
 
 export type SiteConfig = typeof siteConfig;
-
-// Helper functions
-export function shouldLoadAds(pathname: string): boolean {
-  return !siteConfig.adZep.excludePaths.some((path) =>
-    pathname.startsWith(path),
-  );
-}
-
-export function getAdUnitId(
-  unit: keyof typeof siteConfig.adZep.adUnits,
-): string {
-  return siteConfig.adZep.adUnits[unit];
-}

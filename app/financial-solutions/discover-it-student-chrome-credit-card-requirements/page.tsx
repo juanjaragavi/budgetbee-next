@@ -29,7 +29,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               Eligibility Guide
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -182,6 +182,14 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                   additional verification.
                 </li>
               </ul>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What Happens After You Apply?
               </h2>
@@ -253,12 +261,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

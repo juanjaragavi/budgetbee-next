@@ -26,7 +26,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Capital One Savor Rewards Credit Card Requirements
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -184,6 +184,14 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Key Benefits of the Capital One Savor Rewards Credit Card
               </h2>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <p className="text-gray-700 mb-8 text-left">
                 The Capital One Savor Rewards Credit Card offers compelling
                 benefits that make it attractive for dining and entertainment
@@ -278,12 +286,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

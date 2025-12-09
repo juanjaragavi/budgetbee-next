@@ -27,7 +27,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               CIT Bank Home Loans Requirements: What You Need to Qualify
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -75,6 +75,14 @@ export default function CitBankHomeLoansRequirementsPage() {
                 meet diverse borrower needs. Whether you're a first-time buyer
                 or looking to refinance, their options simplify the journey.
               </p>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Understanding the Credit Score Requirement
               </h2>
@@ -184,12 +192,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                   </Button>
                 </Link>
               </div>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

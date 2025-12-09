@@ -28,7 +28,7 @@ export default function TiltCardRequirementsPage() {
               Requirements for the Tilt Card
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -164,7 +164,9 @@ export default function TiltCardRequirementsPage() {
               </section>
 
               <div
-                id="us_budgetbeepro_2"
+                id="square04"
+                data-topads
+                data-topads-size="square"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

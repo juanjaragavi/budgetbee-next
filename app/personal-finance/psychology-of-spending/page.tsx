@@ -68,7 +68,7 @@ export default function PsychologyOfSpendingPage() {
               Mindful Saving
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Ad placeholder */}
@@ -239,14 +239,6 @@ export default function PsychologyOfSpendingPage() {
                   debt, or saving for a vacation—you&apos;re less likely to
                   spend it on fleeting impulses.
                 </p>
-
-                {/* Ad placeholder */}
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Ad placeholder */}
-                </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Building a Lasting Mindful Money Mindset

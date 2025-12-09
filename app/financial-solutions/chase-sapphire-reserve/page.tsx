@@ -29,7 +29,7 @@ export default function ChaseSapphireReservePage() {
               Unparalleled Luxury Benefits
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square02" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -167,14 +167,7 @@ export default function ChaseSapphireReservePage() {
                   $12. Lyft: statement credits and cardholder offers.
                 </p>
 
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
-
-                <hr className="my-8" />
+                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Financial Protection and Purchase Benefits

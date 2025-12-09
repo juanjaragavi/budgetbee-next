@@ -30,7 +30,7 @@ export default function StopGuessingTrackSpendingPage() {
               Know Where Your Money Goes
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             ></div>
             <p className="text-lg text-gray-700 mb-6 leading-7">
@@ -170,11 +170,6 @@ export default function StopGuessingTrackSpendingPage() {
                 "Groceries."
               </p>
             </section>
-
-            <div
-              id="us_budgetbeepro_2"
-              className="items-center justify-center flex w-full my-8"
-            ></div>
 
             <section className="my-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">

@@ -31,7 +31,7 @@ export default function ChaseSapphireReserveRequirementsPage() {
               Requirements for the Chase Sapphire Reserve®
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -194,11 +194,13 @@ export default function ChaseSapphireReserveRequirementsPage() {
                 </div>
 
                 <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-6"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
 
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                   Required Documentation:

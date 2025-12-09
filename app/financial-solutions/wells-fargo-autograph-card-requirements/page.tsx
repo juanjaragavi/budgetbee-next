@@ -25,7 +25,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               Wells Fargo Autograph Card Requirements
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -132,6 +132,14 @@ export default function WellsFargoAutographCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Tips for Improving Approval Odds
               </h2>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <strong>Check Your Credit Report</strong>
               Review your credit report for errors before applying and dispute
               any inaccuracies. A clean credit report improves your chances of
@@ -198,12 +206,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

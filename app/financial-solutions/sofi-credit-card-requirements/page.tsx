@@ -28,7 +28,7 @@ export default function SoFiCreditCardRequirementsPage() {
               Requirements for the SoFi Unlimited 2% Credit Card
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -56,6 +56,15 @@ export default function SoFiCreditCardRequirementsPage() {
                   quality={85}
                   loading="eager"
                 />
+              </div>
+
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
               </div>
 
               <section className="my-6">
@@ -113,12 +122,7 @@ export default function SoFiCreditCardRequirementsPage() {
                     </div>
                   </div>
 
-                  <div
-                    id="us_budgetbeepro_2"
-                    className="items-center justify-center flex w-full my-6"
-                  >
-                    {/* Empty responsive, centered div */}
-                  </div>
+                  
 
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">

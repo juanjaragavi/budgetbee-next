@@ -26,7 +26,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               Amazon Rewards Visa Credit Card Requirements
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -98,6 +98,14 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 How to Apply for the Amazon Rewards Visa Credit Card
               </h2>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <p className="text-gray-700 mb-8 text-left">
                 Also consider{" "}
                 <Link
@@ -240,12 +248,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

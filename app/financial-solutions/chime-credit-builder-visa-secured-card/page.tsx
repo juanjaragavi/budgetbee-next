@@ -26,7 +26,7 @@ export default function ChimeCreditBuilderPage() {
               Chime Credit Builder Visa Secured Card: Build Credit the Smart Way
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square02" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -113,14 +113,7 @@ export default function ChimeCreditBuilderPage() {
                 </Link>
               </div>
 
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
+              
 
               <div className="my-8 text-left sm:text-left">
                 <Image

@@ -28,7 +28,7 @@ export default function AvantCreditCardRequirementsPage() {
               Avant Credit Card Requirements: Eligibility & How to Apply
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -213,6 +213,15 @@ export default function AvantCreditCardRequirementsPage() {
                 Cost Breakdown & Card Terms
               </h2>
 
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
               <div className="space-y-6 mb-8">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                   <h3 className="font-semibold text-gray-800 mb-3 text-left">
@@ -370,14 +379,7 @@ export default function AvantCreditCardRequirementsPage() {
                 </div>
               </div>
 
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
+              
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Avant Credit Card

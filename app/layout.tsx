@@ -10,14 +10,11 @@ import GoogleTagManager, {
 } from "@/components/analytics/gtm";
 import GoogleAds from "@/components/analytics/google-ads";
 import GoogleAdManager from "@/components/analytics/gam";
+import TopAds from "@/components/analytics/topads";
 import UtmPersister from "@/components/analytics/utm-persister";
 import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 import UtmMonitor from "@/components/analytics/utm-monitor";
-import AdZep from "@/components/analytics/adzep";
-import AdZepTest from "@/components/analytics/adzep-test";
-import AdZepSPABridge from "@/components/analytics/adzep-spa-bridge";
-import AdZepInterstitialBlocker from "@/components/analytics/adzep-interstitial-blocker";
-import AdZepAccessibilityFix from "@/components/analytics/adzep-accessibility-fix";
+import TopAdsSPAHandler from "@/components/analytics/topads-spa-handler";
 import AnalyticsValidationPanel from "@/components/analytics/validation-panel";
 import ResourceHints from "@/components/resource-hints";
 import NavigationProvider from "@/components/providers/navigation-provider";
@@ -186,7 +183,7 @@ export default function RootLayout({
           <GoogleTagManager />
           <GoogleAds />
           <GoogleAdManager />
-          <AdZep />
+          <TopAds />
         </ClientOnly>
 
         <ResourceHints />
@@ -232,11 +229,8 @@ export default function RootLayout({
           <Suspense fallback={null}>
             <UtmPersister />
             <UtmLinkInjector />
-            <AdZepSPABridge />
-            <AdZepInterstitialBlocker />
-            <AdZepAccessibilityFix />
+            <TopAdsSPAHandler />
             {process.env.NODE_ENV === "development" && <UtmMonitor />}
-            {process.env.NODE_ENV === "development" && <AdZepTest />}
             {process.env.NODE_ENV === "development" && (
               <AnalyticsValidationPanel />
             )}

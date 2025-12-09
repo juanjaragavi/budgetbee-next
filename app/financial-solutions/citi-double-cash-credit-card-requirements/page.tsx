@@ -28,7 +28,7 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
               Cashback
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -161,6 +161,15 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 </li>
               </ul>
 
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Benefits of the Citi Double Cash Credit Card: Why It Stands Out
               </h2>
@@ -246,14 +255,7 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 *By clicking you will be redirected to an external site.
               </p>
 
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
+              
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export default function NoAnnualFeeCreditCards() {
           Top Credit Cards With No Annual Fees
         </h1>
         <div
-          id="us_budgetbeepro_1"
+          id="square01" data-topads data-topads-size="square"
           className="items-center justify-center flex w-full my-8"
         >
           {/* Empty responsive, centered div */}
@@ -248,13 +248,7 @@ export default function NoAnnualFeeCreditCards() {
         </section>
 
         <section className="my-8">
-          {/* Placeholder `<div>` for the Ad Unit 'us_budgetbeepro_2' - centered and responsive */}
-          <div
-            id="us_budgetbeepro_2"
-            className="items-center justify-center flex w-full my-8"
-          >
-            {/* Empty responsive, centered div */}
-          </div>
+          
 
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Maximize Rewards Without Extra Costs

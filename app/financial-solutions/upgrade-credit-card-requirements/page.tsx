@@ -28,7 +28,7 @@ export default function UpgradeCreditCardRequirementsPage() {
               Requirements for the Upgrade OneCard
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -111,12 +111,7 @@ export default function UpgradeCreditCardRequirementsPage() {
                     </div>
                   </div>
 
-                  <div
-                    id="us_budgetbeepro_2"
-                    className="items-center justify-center flex w-full my-6"
-                  >
-                    {/* Empty responsive, centered div */}
-                  </div>
+                  
 
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-primary flex items-center justify-center mr-3 mt-0.5">
@@ -169,6 +164,15 @@ export default function UpgradeCreditCardRequirementsPage() {
                     </div>
                   </div>
                 </div>
+
+                <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
 
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                   Required Documentation for Application:

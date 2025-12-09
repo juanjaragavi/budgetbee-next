@@ -31,7 +31,7 @@ export default function YottaCreditCardPage() {
                   Yotta Credit Card: Every Purchase is a Winning Opportunity
                 </h1>
                 <div
-                  id="us_budgetbeepro_1"
+                  id="square02" data-topads data-topads-size="square"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

@@ -27,7 +27,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               Guide
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -171,6 +171,14 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What Happens After You Apply?
               </h2>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Instant Decision or Further Review:</strong> In many
@@ -278,12 +286,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

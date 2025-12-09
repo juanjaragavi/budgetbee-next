@@ -27,7 +27,9 @@ export default function AffirmCardRequirementsPage() {
               Affirm Card Requirements: Eligibility & How to Apply
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -50,6 +52,15 @@ export default function AffirmCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Basic Eligibility Requirements
               </h2>
+
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
@@ -322,15 +333,6 @@ export default function AffirmCardRequirementsPage() {
                   </p>
                 </div>
               </div>
-
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Affirm Card

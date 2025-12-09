@@ -25,7 +25,7 @@ export default function AffirmCardPage() {
               Affirm Card: Flexible Payment Plans Without Hidden Fees
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square02" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -180,14 +180,7 @@ export default function AffirmCardPage() {
                   about which payment structure works best for your budget.
                 </p>
 
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
-
-                <hr className="my-8" />
+                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   The Buy Now, Pay Later Advantage

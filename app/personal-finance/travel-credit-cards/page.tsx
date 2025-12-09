@@ -27,7 +27,7 @@ export default function TravelCreditCardsPage() {
               Spending
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -469,13 +469,8 @@ export default function TravelCreditCardsPage() {
                 </ul>
               </div>
 
-              {/* Placeholder `<div>` for the Ad Unit 'us_budgetbeepro_2' - centered and responsive */}
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
+              
 
               <h2 className="text-2xl font-bold text-gray-800 my-5">
                 Final Thoughts

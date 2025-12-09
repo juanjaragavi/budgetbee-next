@@ -30,7 +30,7 @@ export default function SettingFinancialGoalsPage() {
               Finance Planning
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -240,13 +240,7 @@ export default function SettingFinancialGoalsPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'us_budgetbeepro_2' - centered and responsive */}
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
+                
 
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   Ready to map your next step?

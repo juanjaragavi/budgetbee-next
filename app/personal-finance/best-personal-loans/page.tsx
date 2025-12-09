@@ -28,7 +28,7 @@ export default function BestPersonalLoansPage() {
               Best Personal Loans in the US: Your Complete Guide
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -367,15 +367,8 @@ export default function BestPersonalLoansPage() {
                   </li>
                 </ul>
 
-                {/* Placeholder `<div>` for the Ad Unit 'us_budgetbeepro_2' - centered and responsive */}
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
-
-                <hr className="my-8" />
+                
+                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Finding Your Ideal Financial Solution

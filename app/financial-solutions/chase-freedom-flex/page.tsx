@@ -30,7 +30,7 @@ export default function ChaseFreedomFlexPage() {
               Categories and No Annual Fee
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square02" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -217,12 +217,7 @@ export default function ChaseFreedomFlexPage() {
                 </p>
               </section>
 
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
 
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

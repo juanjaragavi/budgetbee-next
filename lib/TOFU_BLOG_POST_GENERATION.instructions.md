@@ -293,7 +293,7 @@ export default function {ComponentName}Page() {
             <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 text-left">
               {H1 Title}
             </h1>
-            <div id="us_budgetbeepro_1" className="items-center justify-center flex w-full my-8">{/* Ad placeholder */}</div>
+            <div id="square02" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8">{/* Ad placeholder */}</div>
             <p className="text-lg text-gray-700 mb-6 leading-7">
               {Narrative introduction referencing US context}
             </p>

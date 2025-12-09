@@ -86,7 +86,7 @@ This page showcases the product's features and benefits with the following struc
    - Article section with container and max-width wrapper
    - H1 title (product name with value proposition)
    - Opening paragraph (product overview)
-   - Ad container div (`id="us_budgetbeepro_1"`)
+   - Ad container div (`id="square02" data-topads data-topads-size="square"`)
    - Horizontal rule separator
    - Key features list (4 bullet points with brand-colored icons)
    - "View Requirements" CTA button (links to requirements page)
@@ -112,7 +112,7 @@ This page details eligibility criteria and application process:
 
 3. **Main Component Structure**
    - H1: "Requirements for the {Product Name}"
-   - Ad container div (`id="us_budgetbeepro_1"`)
+   - Ad container div (`id="square02" data-topads data-topads-size="square"`)
    - Opening paragraph
    - Hero image
    - Section: "How to Qualify" with bullet points

@@ -28,7 +28,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
               Requirements for the Self Credit Builder Account + Visa Card
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -111,13 +111,6 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
                     one payment can delay eligibility and trigger delinquent
                     reporting, so set up reminders or automatic drafts.
                   </div>
-                </div>
-
-                <div
-                  id="us_budgetbeepro_2"
-                  className="items-center justify-center flex w-full my-6"
-                >
-                  {/* Reserved for on-page advertising */}
                 </div>
 
                 <div className="flex items-start">
@@ -204,6 +197,15 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
                 </li>
               </ul>
             </section>
+
+            <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
 
             <section className="my-8">
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

@@ -144,7 +144,7 @@ export default function CreditCardRecommenderTemplate({
             </h1>
 
             <div
-              id="us_budgetbeepro_1"
+              id="square01" data-topads data-topads-size="square"
               className="my-6 flex w-full items-center justify-center"
             />
 
@@ -189,11 +189,6 @@ export default function CreditCardRecommenderTemplate({
               we give you clear, easy-to-understand options so you can make
               informed decisions.
             </p>
-
-            <div
-              id="us_budgetbeepro_2"
-              className="my-6 flex w-full items-center justify-center"
-            />
 
             <p className={cn(BODY_TEXT_CLASSES, "mb-6 text-gray-800")}>
               With our guide, you&apos;ll transform your credit card into a tool

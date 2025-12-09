@@ -26,7 +26,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               Citi Simplicity Card Requirements
             </h1>
             <div
-              id="us_budgetbeepro_1"
+              id="square03" data-topads data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -138,6 +138,14 @@ export default function CitiSimplicityCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 Application Process for Citi Simplicity Card
               </h2>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
               <p className="text-gray-700 mb-8 text-left">
                 The Citi Simplicity application process is designed to be quick
                 and user-friendly when you're properly prepared:
@@ -278,12 +286,7 @@ export default function CitiSimplicityCardRequirementsPage() {
                 *By clicking you will be redirected to learn more about card
                 features.
               </p>
-              <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              
               <hr className="my-8" />
             </div>
           </div>

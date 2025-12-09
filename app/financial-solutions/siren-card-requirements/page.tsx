@@ -43,7 +43,7 @@ export default function SirenCardRequirementsPage() {
                 SIREN Card Requirements & Application Process
               </h1>
               <div
-                id="us_budgetbeepro_1"
+                id="square03" data-topads data-topads-size="square"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -334,6 +334,15 @@ export default function SirenCardRequirementsPage() {
                   </div>
                 </div>
               </section>
+
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
 
               {/* The cred.ai Guaranty Explained */}
               <section className="mb-12">
