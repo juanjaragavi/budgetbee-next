@@ -75,6 +75,11 @@ export const metadata: Metadata = {
   // Canonical URL
   alternates: {
     canonical: baseUrl,
+    languages: {
+      "en-US": baseUrl,
+      en: baseUrl,
+      "x-default": baseUrl,
+    },
   },
 
   // Added Open Graph Metadata
