@@ -1,2 +1,1 @@
-Integrate TopAds BUDBEE_US config and SPA handler
-chore: add hreflang alternates to root metadata
+chore: bump next to 15.4.10
