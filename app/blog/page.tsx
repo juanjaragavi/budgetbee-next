@@ -41,6 +41,17 @@ export default function BlogArchivePage() {
   // Combine posts from both categories
   const allPosts: PostItem[] = [
     {
+      title: "The Emotional Side of Debt: How to Stay Motivated | BudgetBee",
+      slug: "emotional-side-of-debt",
+      description:
+        "Debt isn't just about numbers—it's emotional. Learn how to overcome shame, stay motivated, and maintain a positive mindset on your debt payoff journey.",
+      image:
+        "https://media.topfinanzas.com/images/budgetbee/emotional-side-of-debt.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "December 20, 2025",
+    },
+    {
       title:
         "Stop Guessing: How to Track Your Spending for 30 Days and Finally Know Where Your Money Goes | BudgetBee",
       slug: "stop-guessing-how-to-track-your-spending-for-30-days",

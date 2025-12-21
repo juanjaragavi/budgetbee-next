@@ -38,6 +38,16 @@ export default function PersonalFinanceArchivePage() {
   const allPosts = useMemo<PostItem[]>(
     () => [
       {
+        title: "The Emotional Side of Debt: How to Stay Motivated | BudgetBee",
+        slug: "emotional-side-of-debt",
+        description:
+          "Debt isn't just about numbers—it's emotional. Learn how to overcome shame, stay motivated, and maintain a positive mindset on your debt payoff journey.",
+        image:
+          "https://media.topfinanzas.com/images/budgetbee/emotional-side-of-debt.webp",
+        date: "December 20, 2025",
+        category: "debt",
+      },
+      {
         title:
           "Stop Guessing: How to Track Your Spending for 30 Days and Finally Know Where Your Money Goes | BudgetBee",
         slug: "stop-guessing-how-to-track-your-spending-for-30-days",
