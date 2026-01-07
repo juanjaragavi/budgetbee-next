@@ -1,5 +1,1 @@
-feat(content): add 'The Emotional Side of Debt' article
-
-- Create new TOFU article at /app/personal-finance/emotional-side-of-debt/page.tsx
-- Update blog archive at /app/blog/page.tsx
-- Update personal finance category archive at /app/personal-finance/page.tsx
+feat: add ads.txt file for ad inventory verification
