@@ -61,6 +61,30 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
+                    {/* AI Budgeting Article - NEW */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/budgetbee/ai-and-your-wallet-automate-budget-2026.webp"
+                        alt="AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/budgetbee/images/og-image.png";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/ai-and-your-wallet-automate-budget-2026"
+                          className="text-sm font-medium text-gray-900 hover:text-[#F7B500] hover:underline line-clamp-2"
+                        >
+                          AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026
+                        </Link>
+                      </div>
+                    </div>
                     {/* Inflation-Proof Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image

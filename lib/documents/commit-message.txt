@@ -1,1 +1,7 @@
-feat: add ads.txt file for ad inventory verification
+feat(content): add AI and Your Wallet TOFU article
+
+- Create new TOFU article: AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026
+- Update blog listing page
+- Update Personal Finance category archive
+- Update Sidebar with recent article link
+- Update topic outline CSV

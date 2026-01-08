@@ -38,6 +38,17 @@ export default function PersonalFinanceArchivePage() {
   const allPosts = useMemo<PostItem[]>(
     () => [
       {
+        title:
+          "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026 | BudgetBee",
+        slug: "ai-and-your-wallet-automate-budget-2026",
+        description:
+          "Discover how AI can revolutionize your personal finance routine. Learn to automate budgeting, track spending smartly, and save more with artificial intelligence tools in 2026.",
+        image:
+          "https://media.topfinanzas.com/images/budgetbee/ai-and-your-wallet-automate-budget-2026.webp",
+        date: "January 8, 2026",
+        category: "guide",
+      },
+      {
         title: "The Emotional Side of Debt: How to Stay Motivated | BudgetBee",
         slug: "emotional-side-of-debt",
         description:
