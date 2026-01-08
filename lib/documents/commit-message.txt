@@ -1,7 +1,4 @@
-feat(content): add AI and Your Wallet TOFU article
+fix(build): remove invalid onError on Server Component Image
 
-- Create new TOFU article: AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026
-- Update blog listing page
-- Update Personal Finance category archive
-- Update Sidebar with recent article link
-- Update topic outline CSV
+- Fix Next.js build error by removing event handler from Image component in Server Component
+- Ensure proper serialization of Server Component props

@@ -74,9 +74,6 @@ export default function AiAndYourWalletPage() {
                   priority={true}
                   quality={85}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 800px, 800px"
-                  onError={(e) => {
-                    // Fallback handled by Next.js Image usually, but ensuring source validity is key
-                  }}
                 />
               </div>
 
