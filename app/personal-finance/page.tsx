@@ -76,7 +76,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
         image:
-          "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+          "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
         date: "November 25, 2025",
         category: "guide",
       },

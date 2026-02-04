@@ -1,8 +1,5 @@
-refactor: Update personal finance blog metadata and branding documentation
+fix: Update personal finance category page and psychology of spending article
 
-- Renamed BRANDING.md to BUDGETBEE_BRANDING.md for better clarity
-- Updated metadata.ts files across multiple personal finance articles for improved SEO
-- Synchronized blog listing pages (blog/page.tsx, personal-finance/page.tsx) with latest content
-- Enhanced metadata for credit card and loan-related articles
-- Updated homepage with latest featured content
-- Improved article metadata consistency across personal finance category
+- Fixed personal-finance/page.tsx allPosts array synchronization
+- Updated psychology-of-spending/page.tsx content
+- Ensured blog listing consistency across category pages

@@ -17,7 +17,7 @@ export const metadata: Metadata = generateArticleMetadata({
   keywords:
     "psychology of spending, impulse buying, mindful spending, financial behavior, personal finance, money mindset, emotional spending, spending triggers, financial well-being",
   image:
-    "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+    "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
   publishedDate: "2025-11-25T00:00:00Z",
   modifiedDate: "2025-11-25T00:00:00Z",
 });
@@ -28,7 +28,7 @@ export default function PsychologyOfSpendingPage() {
       <ArticleSchema
         title="The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving"
         description="Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being."
-        image="https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
+        image="https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
         datePublished="2025-11-25T00:00:00Z"
         dateModified="2025-11-25T00:00:00Z"
         url="https://budgetbeepro.com/personal-finance/psychology-of-spending"
@@ -87,7 +87,7 @@ export default function PsychologyOfSpendingPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
                   alt="Understanding the psychology behind spending decisions and impulse buying"
                   width={800}
                   height={450}
