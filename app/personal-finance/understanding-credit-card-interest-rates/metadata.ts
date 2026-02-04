@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
     images: [
-      "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp",
+      "https://media.topfinanzas.com/images/budgetbee/download-5-2.webp",
     ],
   },
 };

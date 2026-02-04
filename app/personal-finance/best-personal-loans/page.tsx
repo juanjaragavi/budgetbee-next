@@ -45,7 +45,7 @@ export default function BestPersonalLoansPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/best-personal-loans.webp"
                   alt="Personal Loans Guide"
                   width={800}
                   height={450}

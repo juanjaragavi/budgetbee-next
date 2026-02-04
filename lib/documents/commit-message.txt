@@ -1,4 +1,8 @@
-fix(build): remove invalid onError on Server Component Image
+refactor: Update personal finance blog metadata and branding documentation
 
-- Fix Next.js build error by removing event handler from Image component in Server Component
-- Ensure proper serialization of Server Component props
+- Renamed BRANDING.md to BUDGETBEE_BRANDING.md for better clarity
+- Updated metadata.ts files across multiple personal finance articles for improved SEO
+- Synchronized blog listing pages (blog/page.tsx, personal-finance/page.tsx) with latest content
+- Enhanced metadata for credit card and loan-related articles
+- Updated homepage with latest featured content
+- Improved article metadata consistency across personal finance category

@@ -51,7 +51,7 @@ export default function FinancialUncouplingPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/financial-uncoupling-breakup-guide.webp"
                   alt="Couple reviewing financial documents together during a relationship transition"
                   width={800}
                   height={450}

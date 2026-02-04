@@ -49,7 +49,7 @@ export default function HowToAskForRaisePage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/how-to-ask-for-a-raise.webp"
                   alt="Professional having a confident conversation with manager about salary increase"
                   width={800}
                   height={450}

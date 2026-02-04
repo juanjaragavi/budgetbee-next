@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
     images: [
-      "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp",
+      "https://media.topfinanzas.com/images/budgetbee/download-8-1.webp",
     ], // Add if featuredImage is available
   },
 };

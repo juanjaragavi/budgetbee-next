@@ -16,7 +16,7 @@ export const metadata: Metadata = generateArticleMetadata({
   keywords:
     "side hustle, second job, extra income, personal finance, financial goals, work from home, freelance work, part-time job",
   image:
-    "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+    "https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp",
   publishedDate: "2025-01-15T00:00:00Z",
   modifiedDate: "2025-10-29T00:00:00Z",
 });
@@ -27,7 +27,7 @@ export default function SideHustleOrSecondJobPage() {
       <ArticleSchema
         title="Side Hustle or Second Job? How to Choose the Right Income Booster"
         description="With rising living costs across the US, many people are seeking ways to boost their income. Compare side hustles vs second jobs and make the right choice for your financial goals."
-        image="https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp"
+        image="https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp"
         datePublished="2025-01-15T00:00:00Z"
         dateModified="2025-10-29T00:00:00Z"
         url="https://budgetbeepro.com/personal-finance/side-hustle-or-second-job"
@@ -82,7 +82,7 @@ export default function SideHustleOrSecondJobPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp"
                   alt="Side Hustle vs Second Job Guide"
                   width={800}
                   height={450}

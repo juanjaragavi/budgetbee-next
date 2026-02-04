@@ -56,7 +56,7 @@ export default function HiddenCostsHomeownershipPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/hidden-costs-homeownership.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/hidden-costs-homeownership.webp"
                   alt="Understanding the hidden costs and unexpected expenses of homeownership in the United States"
                   width={800}
                   height={450}

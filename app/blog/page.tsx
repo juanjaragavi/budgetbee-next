@@ -83,7 +83,7 @@ export default function BlogArchivePage() {
       description:
         "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
       image:
-        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+        "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "November 25, 2025",
@@ -107,7 +107,7 @@ export default function BlogArchivePage() {
       description:
         "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/5-minute-financial-health-check.webp",
+        "https://media.topfinanzas.com/images/budgetbee/5-minute-financial-health-check.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "November 5, 2025",
@@ -119,7 +119,7 @@ export default function BlogArchivePage() {
       description:
         "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/hidden-costs-homeownership.webp",
+        "https://media.topfinanzas.com/images/budgetbee/hidden-costs-homeownership.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "October 28, 2025",
@@ -534,7 +534,7 @@ export default function BlogArchivePage() {
       description:
         "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp",
+        "https://media.topfinanzas.com/images/budgetbee/financial-uncoupling-breakup-guide.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "23 October 2025",
@@ -546,7 +546,7 @@ export default function BlogArchivePage() {
       description:
         "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp",
+        "https://media.topfinanzas.com/images/budgetbee/inflation-proof-your-life-7-smart-money-moves.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "15 October 2025",
@@ -556,7 +556,7 @@ export default function BlogArchivePage() {
       slug: "best-personal-loans",
       description: "Comprehensive guide to the US's top personal loans...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
+        "https://media.topfinanzas.com/images/budgetbee/best-personal-loans.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
@@ -566,7 +566,7 @@ export default function BlogArchivePage() {
       slug: "best-rewards-credit-cards",
       description: "Discover the best rewards credit cards...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp", // Placeholder
+        "https://media.topfinanzas.com/images/budgetbee/Top_Finance_uk_credit_cards.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -576,7 +576,7 @@ export default function BlogArchivePage() {
         "Best Cashback Credit Cards for Maximizing Your Rewards | BudgetBee",
       slug: "cashback-credit-cards",
       description: "Discover the top cashback credit cards!...",
-      image: "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/budgetbee/download-8-1.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -587,7 +587,7 @@ export default function BlogArchivePage() {
       slug: "credit-card-types-benefits",
       description: "Discover everything you need to know about credit cards...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp", // Placeholder
+        "https://media.topfinanzas.com/images/budgetbee/Top_Finanzas_Top_tarjeta_de_credito-1.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -597,7 +597,7 @@ export default function BlogArchivePage() {
       slug: "getting-out-of-debt",
       description: "Feeling overwhelmed by debt? Get practical strategies...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
+        "https://media.topfinanzas.com/images/budgetbee/Top_Finance_how_to_get_out_of_debt.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -607,7 +607,7 @@ export default function BlogArchivePage() {
       slug: "no-annual-fee-credit-cards",
       description: "Find the best no annual fee credit cards...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp", // Placeholder
+        "https://media.topfinanzas.com/images/budgetbee/Top_Finance_credit_cards_without_annual_fee.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -618,7 +618,7 @@ export default function BlogArchivePage() {
       description:
         "Discover how personal loans can help you consolidate debt...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp", // Placeholder
+        "https://media.topfinanzas.com/images/budgetbee/Top-Finances_personal_loans.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -629,7 +629,7 @@ export default function BlogArchivePage() {
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/budgetbee/choosing-online-loan-uk.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
@@ -639,7 +639,7 @@ export default function BlogArchivePage() {
       slug: "top-credit-cards-0-intro-apr",
       description:
         "Compare the best credit cards offering 0% introductory APR...",
-      image: "https://media.topfinanzas.com/images/kardtrust/APR.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/budgetbee/APR.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -649,7 +649,7 @@ export default function BlogArchivePage() {
         "Understanding Credit Card Interest Rates - A Consumer Guide | BudgetBee",
       slug: "understanding-credit-card-interest-rates",
       description: "Learn how credit card interest rates work...",
-      image: "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/budgetbee/download-5-2.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -661,7 +661,7 @@ export default function BlogArchivePage() {
       description:
         "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+        "https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "27 August 2025",
@@ -673,7 +673,7 @@ export default function BlogArchivePage() {
       description:
         "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
+        "https://media.topfinanzas.com/images/budgetbee/modern-budget-guide.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "4 September 2025",
@@ -685,7 +685,7 @@ export default function BlogArchivePage() {
       description:
         "Learn exactly what to say when asking for a pay rise. This UK-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
+        "https://media.topfinanzas.com/images/budgetbee/how-to-ask-for-a-raise.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 October 2025",
@@ -697,7 +697,7 @@ export default function BlogArchivePage() {
       description:
         "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp",
+        "https://media.topfinanzas.com/images/budgetbee/lifestyle-creep-personal-finance.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "9 October 2025",
@@ -709,7 +709,7 @@ export default function BlogArchivePage() {
       description:
         "Thinking about merging money with a partner? Whether you've just tied the knot or moved in together, combining finances is more than opening a joint account. This US-focused guide walks you through practical options, common pitfalls, and an easy step-by-step plan.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp",
+        "https://media.topfinanzas.com/images/budgetbee/combine-finances-after-marriage-or-moving-in.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "20 October 2025",
@@ -720,7 +720,7 @@ export default function BlogArchivePage() {
       description:
         "Learn practical strategies to stop impulse buying and develop mindful spending habits. US-focused guide with real examples, budgeting tips, and proven techniques for better personal finance control.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp",
+        "https://media.topfinanzas.com/images/budgetbee/ditching-impulse-buys-mindful-spending-guide.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "26 September 2025",
@@ -731,7 +731,7 @@ export default function BlogArchivePage() {
       description:
         "A simple US-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
+        "https://media.topfinanzas.com/images/budgetbee/what-is-financial-health.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "13 August 2025",
@@ -742,7 +742,7 @@ export default function BlogArchivePage() {
       description:
         "New to personal finance? Learn simple US-based steps to budget, save, manage debt, and build steady money habits that stick.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
+        "https://media.topfinanzas.com/images/budgetbee/money-management-for-beginners.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "13 August 2025",
@@ -754,7 +754,7 @@ export default function BlogArchivePage() {
       description:
         "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple US-focused personal finance guide for beginners.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
+        "https://media.topfinanzas.com/images/budgetbee/setting-financial-goals.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "15 August 2025",
@@ -765,7 +765,7 @@ export default function BlogArchivePage() {
       description:
         "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
+        "https://media.topfinanzas.com/images/budgetbee/travel-cards-explained.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "7 April 2025",

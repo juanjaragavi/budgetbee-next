@@ -43,7 +43,7 @@ export default function GettingOutOfDebtPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp" // Keep existing image or update if needed
+                  src="https://media.topfinanzas.com/images/budgetbee/Top_Finance_how_to_get_out_of_debt.webp" // Keep existing image or update if needed
                   alt="Getting Out of Debt Guide"
                   width={800}
                   height={450}

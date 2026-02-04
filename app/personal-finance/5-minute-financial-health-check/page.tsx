@@ -48,7 +48,7 @@ export default function FinancialHealthCheckPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/5-minute-financial-health-check.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/5-minute-financial-health-check.webp"
                   alt="Person reviewing expenses and tracking where money goes with personal finance tools"
                   width={800}
                   height={450}

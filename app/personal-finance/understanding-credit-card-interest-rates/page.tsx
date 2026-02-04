@@ -43,7 +43,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/download-5-2.webp"
+                  src="https://media.topfinanzas.com/images/budgetbee/download-5-2.webp"
                   alt="Understanding Credit Card Interest Rates"
                   width={800}
                   height={450}
