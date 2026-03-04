@@ -28,7 +28,9 @@ export default function VaroBelieveCardRequirementsPage() {
               Requirements for the Varo Believe Card
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -64,13 +66,13 @@ export default function VaroBelieveCardRequirementsPage() {
                 </h2>
 
                 <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+                  id="square04"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
@@ -120,8 +122,6 @@ export default function VaroBelieveCardRequirementsPage() {
                       qualify for the Believe Card.
                     </div>
                   </div>
-
-                  
 
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#8c58d0] flex items-center justify-center mr-3 mt-0.5">

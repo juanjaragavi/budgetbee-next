@@ -29,7 +29,9 @@ export default function CashbackCreditCardsPage() {
               Best Cashback Credit Cards for Maximizing Your Rewards
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -233,8 +235,6 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Unlock the Power of Cashback Rewards
                 </h2>

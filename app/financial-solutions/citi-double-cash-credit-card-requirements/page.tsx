@@ -28,7 +28,9 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
               Cashback
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -254,8 +256,6 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-
-              
             </div>
           </div>
         </div>

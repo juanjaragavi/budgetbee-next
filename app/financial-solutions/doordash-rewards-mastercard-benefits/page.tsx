@@ -27,7 +27,9 @@ export default function DoordashRewardsMastercardBenefitsPage() {
               DoorDash Rewards Mastercard Benefits: Maximize Your Food Savings
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -192,11 +194,9 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 </Link>
               </div>
 
-              
-
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp"
+                  src="https://media.topfinanzas.com/images/download-4.webp"
                   alt="DoorDash Rewards Mastercard"
                   width={900}
                   height={507}

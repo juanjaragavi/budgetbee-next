@@ -25,7 +25,9 @@ export default function AvantCreditCardPage() {
               Avant Credit Card: Your Path to Healthy Credit Starts Here
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -189,8 +191,6 @@ export default function AvantCreditCardPage() {
                   credit score and qualifying for better credit products in the
                   future.
                 </p>
-
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Transparent Terms and Pricing

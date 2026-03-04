@@ -68,7 +68,9 @@ export default function PsychologyOfSpendingPage() {
               Mindful Saving
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Ad placeholder */}

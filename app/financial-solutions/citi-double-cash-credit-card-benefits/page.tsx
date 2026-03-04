@@ -28,7 +28,9 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
               Purchase
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -74,7 +76,7 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp"
+                  src="https://media.topfinanzas.com/images/download-2.webp"
                   alt="Citi Double Cash Credit Card"
                   width={900}
                   height={507}
@@ -279,8 +281,6 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>

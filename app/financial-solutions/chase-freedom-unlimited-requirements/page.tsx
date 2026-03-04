@@ -27,7 +27,9 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               Chase Freedom Unlimited Requirements: Your Eligibility Guide
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -44,7 +46,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-10.webp"
+                  src="https://media.topfinanzas.com/images/download-10.webp"
                   alt="Chase Freedom Unlimited Credit Card Requirements"
                   width={900}
                   height={507}
@@ -239,7 +241,6 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              
               <hr className="my-8" />
             </div>
           </div>

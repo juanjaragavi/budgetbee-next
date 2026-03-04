@@ -27,7 +27,9 @@ export default function KlarnaCardRequirementsPage() {
               Klarna Card Requirements: Eligibility & How to Apply
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -44,13 +46,10 @@ export default function KlarnaCardRequirementsPage() {
                 options work wherever Visa is accepted, giving you flexible
                 payment control from day one.
               </p>
-
               <hr className="my-8" />
-
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Basic Eligibility Requirements
               </h2>
-
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 size-5 rounded-full bg-[#E27EAC] flex items-center justify-center mr-3 mt-0.5">
@@ -177,7 +176,6 @@ export default function KlarnaCardRequirementsPage() {
                   </div>
                 </div>
               </div>
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/klarna-card">
                   <Button className="bg-[#E27EAC] hover:bg-[#d16a9a] text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -185,7 +183,6 @@ export default function KlarnaCardRequirementsPage() {
                   </Button>
                 </Link>
               </div>
-
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/kardtrust/klarna-card-requirements.webp"
@@ -200,11 +197,9 @@ export default function KlarnaCardRequirementsPage() {
                   loading="eager"
                 />
               </div>
-
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Cost Breakdown & Membership Plans
               </h2>
-
               <div className="space-y-6 mb-8">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                   <h3 className="font-semibold text-gray-800 mb-3 text-left">
@@ -363,7 +358,6 @@ export default function KlarnaCardRequirementsPage() {
                   </p>
                 </div>
               </div>
-
               <div
                 id="square04"
                 data-topads
@@ -371,12 +365,11 @@ export default function KlarnaCardRequirementsPage() {
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
-              </div>67
-
+              </div>
+              67
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Klarna Card
               </h2>
-
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 size-8 rounded-full bg-[#E27EAC] flex items-center justify-center mr-4 mt-0.5">
@@ -518,7 +511,6 @@ export default function KlarnaCardRequirementsPage() {
                   </div>
                 </div>
               </div>
-
               <div className="my-8 text-left sm:text-left">
                 <Link href="/personal-finance/credit-card-types-benefits/">
                   <Image
@@ -532,7 +524,6 @@ export default function KlarnaCardRequirementsPage() {
                   />
                 </Link>
               </div>
-
               {/* Related Articles Section */}
               <div className="my-8 p-6 bg-gray-50 rounded-xl border border-gray-200 text-left sm:text-left">
                 <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
@@ -565,11 +556,9 @@ export default function KlarnaCardRequirementsPage() {
                   </li>
                 </ul>
               </div>
-
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Frequently Asked Questions
               </h2>
-
               <div className="space-y-6 mb-8">
                 <div className="bg-white p-6 rounded-xl border border-gray-200">
                   <h3 className="font-semibold text-gray-800 mb-2 text-left">
@@ -667,7 +656,6 @@ export default function KlarnaCardRequirementsPage() {
                   </p>
                 </div>
               </div>
-
               <div className="bg-yellow-50 border-l-4 border-yellow-400 p-6 my-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0">
@@ -725,7 +713,6 @@ export default function KlarnaCardRequirementsPage() {
                   </div>
                 </div>
               </div>
-
               <div className="text-left my-8">
                 <Link
                   href="https://www.klarna.com/us/klarna-card"
@@ -736,7 +723,6 @@ export default function KlarnaCardRequirementsPage() {
                   </Button>
                 </Link>
               </div>
-
               {/* AI Content Disclaimer */}
               <AIContentDisclaimer />
             </div>

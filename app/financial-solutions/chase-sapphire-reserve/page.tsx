@@ -29,7 +29,9 @@ export default function ChaseSapphireReservePage() {
               Unparalleled Luxury Benefits
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -166,8 +168,6 @@ export default function ChaseSapphireReservePage() {
                   DashPass (saves $9.99+/month) with $0 delivery on orders over
                   $12. Lyft: statement credits and cardholder offers.
                 </p>
-
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Financial Protection and Purchase Benefits

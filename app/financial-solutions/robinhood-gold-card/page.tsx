@@ -26,7 +26,9 @@ export default function RobinhoodGoldCardPage() {
               Robinhood Gold Card: Revolutionary 3% Cash Back on Every Purchase
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -95,8 +97,6 @@ export default function RobinhoodGoldCardPage() {
                   </Button>
                 </Link>
               </div>
-
-              
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -274,9 +274,7 @@ export default function RobinhoodGoldCardPage() {
                       <span className="text-gray-900 font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
-                      <span className="font-semibold">
-                        Roadside Dispatch®:
-                      </span>{" "}
+                      <span className="font-semibold">Roadside Dispatch®:</span>{" "}
                       Connect to emergency roadside assistance services
                       including towing, jump starts, flat tire changes, lockout
                       service, and fuel delivery. While you pay for services

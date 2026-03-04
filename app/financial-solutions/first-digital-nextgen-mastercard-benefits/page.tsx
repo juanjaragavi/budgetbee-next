@@ -26,7 +26,9 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
               Benefits of the First Digital NextGen Mastercard
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -193,11 +195,9 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 </Link>
               </div>
 
-              
-
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp"
+                  src="https://media.topfinanzas.com/images/download-15.webp"
                   alt="First Digital NextGen Mastercard"
                   width={900}
                   height={507}

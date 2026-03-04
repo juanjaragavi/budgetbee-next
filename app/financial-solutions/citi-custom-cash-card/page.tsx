@@ -26,11 +26,13 @@ export default function CitiCustomCashCardPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to
-              Your Spending
+              Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to Your
+              Spending
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

@@ -28,7 +28,9 @@ export default function BestPersonalLoansPage() {
               Best Personal Loans in the US: Your Complete Guide
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -366,9 +368,6 @@ export default function BestPersonalLoansPage() {
                     your needs, not because of pressure from the lender
                   </li>
                 </ul>
-
-                
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Finding Your Ideal Financial Solution

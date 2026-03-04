@@ -26,7 +26,9 @@ export default function TiltCardPage() {
               Tilt Card: Revolutionary Credit Building with Cash Back Rewards
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -118,8 +120,6 @@ export default function TiltCardPage() {
                   </Button>
                 </Link>
               </div>
-
-              
 
               <div className="my-8 text-left sm:text-left">
                 <Image

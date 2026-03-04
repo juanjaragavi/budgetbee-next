@@ -28,7 +28,9 @@ export default function AmazonRewardsVisaBenefitsPage() {
               Unlock the Benefits of the Amazon Rewards Visa Credit Card
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -157,8 +159,6 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 advantage of its benefits. It's a versatile option for
                 maximizing rewards and saving on everyday expenses.
               </p>
-
-              
 
               <div className="my-8 text-left sm:text-left">
                 <Image

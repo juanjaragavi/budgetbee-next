@@ -65,7 +65,9 @@ export default function SideHustleOrSecondJobPage() {
               Side Hustle or Second Job? How to Choose the Right Income Booster
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -255,8 +257,6 @@ export default function SideHustleOrSecondJobPage() {
                   </a>{" "}
                   can complement your income-boosting efforts.
                 </p>
-
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Taking the Next Step

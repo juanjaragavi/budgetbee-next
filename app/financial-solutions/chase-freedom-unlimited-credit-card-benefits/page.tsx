@@ -28,7 +28,9 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
               More
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -74,7 +76,7 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp"
+                  src="https://media.topfinanzas.com/images/download-11.webp"
                   alt="Chase Freedom Unlimited Credit Card"
                   width={900}
                   height={507}
@@ -213,8 +215,6 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>

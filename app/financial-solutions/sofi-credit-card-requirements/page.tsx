@@ -28,7 +28,9 @@ export default function SoFiCreditCardRequirementsPage() {
               Requirements for the SoFi Unlimited 2% Credit Card
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -121,8 +123,6 @@ export default function SoFiCreditCardRequirementsPage() {
                       predict future payment behavior.
                     </div>
                   </div>
-
-                  
 
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#329192] flex items-center justify-center mr-3 mt-0.5">
@@ -714,11 +714,10 @@ export default function SoFiCreditCardRequirementsPage() {
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
                   <span className="font-semibold">Issuer Information:</span> The
                   SoFi Credit Card is issued by SoFi Bank, N.A., Member FDIC,
-                  pursuant to license by Mastercard® International
-                  Incorporated. The card can be used everywhere Mastercard is
-                  accepted. Mastercard is a registered trademark, and the
-                  circles design is a trademark of Mastercard International
-                  Incorporated.
+                  pursuant to license by Mastercard® International Incorporated.
+                  The card can be used everywhere Mastercard is accepted.
+                  Mastercard is a registered trademark, and the circles design
+                  is a trademark of Mastercard International Incorporated.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">

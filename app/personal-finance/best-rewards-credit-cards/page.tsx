@@ -28,7 +28,9 @@ export default function BestRewardsCreditCardsPage() {
               Top Rewards Credit Cards to Maximize Your Spending
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -276,8 +278,6 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Find the Perfect Card to Maximize Your Rewards
                 </h2>

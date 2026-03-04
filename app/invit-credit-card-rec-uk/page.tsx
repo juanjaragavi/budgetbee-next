@@ -37,7 +37,9 @@ export default function InvitCreditCardRecUKPage() {
             </p>
 
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -259,7 +261,9 @@ export default function InvitCreditCardRecUKPage() {
             </div>
 
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}

@@ -182,8 +182,8 @@ export default function EmotionalSideOfDebtPage() {
                     saves the most money mathematically, the "Snowball" method
                     (paying smallest balance first) often works better for
                     motivation. Knocking out a small debt quickly gives you a
-                    psychological win and proves to yourself that you <em>can</em>{" "}
-                    do this.
+                    psychological win and proves to yourself that you{" "}
+                    <em>can</em> do this.
                   </p>
                 </div>
 
@@ -259,10 +259,10 @@ export default function EmotionalSideOfDebtPage() {
                   The most important thing to remember is that your debt is a
                   financial state, not a character trait. It describes where
                   your money is right now, not who you are as a person. By
-                  addressing the emotional side of your journey, you aren't
-                  just paying off bills—you're building a healthier, more
-                  empowered relationship with money that will serve you for the
-                  rest of your life.
+                  addressing the emotional side of your journey, you aren't just
+                  paying off bills—you're building a healthier, more empowered
+                  relationship with money that will serve you for the rest of
+                  your life.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 mt-6">
                   <Link

@@ -25,7 +25,9 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
               Visa Signature U.S. Current Build Credit Card Benefits
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -228,8 +230,6 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>

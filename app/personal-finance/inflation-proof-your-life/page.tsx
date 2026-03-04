@@ -29,7 +29,9 @@ export default function InflationProofYourLifePage() {
               Are High
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -362,8 +364,6 @@ export default function InflationProofYourLifePage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   Practical example: protecting a £2,400 monthly budget
                 </h2>

@@ -1,5 +1,7 @@
-fix: Update personal finance category page and psychology of spending article
+refactor: migrate image URLs to media.topfinanzas.com and apply code formatting
 
-- Fixed personal-finance/page.tsx allPosts array synchronization
-- Updated psychology-of-spending/page.tsx content
-- Ensured blog listing consistency across category pages
+- Migrate image URLs from us.topfinanzas.com/wp-content to media.topfinanzas.com/images across 70+ financial solutions and blog pages
+- Update blog listing, personal finance, and financial solutions category pages with new image CDN paths
+- Apply Prettier formatting fixes across UI components (button, badge, sheet), blog layout, and credit card recommender template
+- Fix trailing newline in site-config.ts
+- Update UK to US credit card migration documentation

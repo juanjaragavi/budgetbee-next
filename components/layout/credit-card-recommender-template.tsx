@@ -144,7 +144,9 @@ export default function CreditCardRecommenderTemplate({
             </h1>
 
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="my-6 flex w-full items-center justify-center"
             />
 

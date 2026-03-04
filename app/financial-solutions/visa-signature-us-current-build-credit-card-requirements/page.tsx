@@ -26,7 +26,9 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Visa Signature U.S. Current Build Credit Card Requirements
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -308,7 +310,6 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              
               <hr className="my-8" />
             </div>
           </div>

@@ -27,7 +27,9 @@ export default function MissionLaneVisaCreditCardPage() {
               Headed
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -123,8 +125,6 @@ export default function MissionLaneVisaCreditCardPage() {
                   </Button>
                 </Link>
               </div>
-
-              
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -429,10 +429,10 @@ export default function MissionLaneVisaCreditCardPage() {
                   delinquencies, Mission Lane's willingness to work with
                   imperfect credit histories makes them a strong choice. If
                   you're establishing credit for the first time (credit
-                  newcomers, recent immigrants, young adults), the Secured
-                  Visa® provides a pathway to build credit from scratch. If you
-                  want to earn rewards while building credit, the Silver Line's
-                  1.5% cash back is rare in the credit-building category. If you
+                  newcomers, recent immigrants, young adults), the Secured Visa®
+                  provides a pathway to build credit from scratch. If you want
+                  to earn rewards while building credit, the Silver Line's 1.5%
+                  cash back is rare in the credit-building category. If you
                   prefer unsecured credit cards and cannot afford a large
                   security deposit, the Green Line and Silver Line eliminate the
                   typical $200-$300 barrier. However, Mission Lane may not be

@@ -27,7 +27,9 @@ export default function TravelCreditCardsPage() {
               Spending
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -468,9 +470,6 @@ export default function TravelCreditCardsPage() {
                   </li>
                 </ul>
               </div>
-
-              
-              
 
               <h2 className="text-2xl font-bold text-gray-800 my-5">
                 Final Thoughts

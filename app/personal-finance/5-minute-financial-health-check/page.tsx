@@ -29,7 +29,9 @@ export default function FinancialHealthCheckPage() {
               The 5-Minute Financial Health Check: Where Does Your Money Go?
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -264,8 +266,6 @@ export default function FinancialHealthCheckPage() {
                   against it.
                 </p>
               </section>
-
-              
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">

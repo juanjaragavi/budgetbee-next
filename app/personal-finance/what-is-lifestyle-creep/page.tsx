@@ -30,7 +30,9 @@ export default function WhatIsLifestyleCreepPage() {
               Wallet?
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

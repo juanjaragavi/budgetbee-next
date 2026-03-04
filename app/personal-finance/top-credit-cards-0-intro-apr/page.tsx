@@ -19,7 +19,9 @@ export default function TopCreditCards0IntroAprPage() {
               Top Credit Cards with 0% Intro APR to Help You Save
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -269,8 +271,6 @@ export default function TopCreditCards0IntroAprPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Your Financial Goals Are Within Reach
                 </h2>

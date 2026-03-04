@@ -81,7 +81,8 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                           href="/personal-finance/ai-and-your-wallet-automate-budget-2026"
                           className="text-sm font-medium text-gray-900 hover:text-[#F7B500] hover:underline line-clamp-2"
                         >
-                          AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026
+                          AI and Your Wallet: How to Use Artificial Intelligence
+                          to Automate Your Budget in 2026
                         </Link>
                       </div>
                     </div>

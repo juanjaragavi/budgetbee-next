@@ -27,7 +27,9 @@ export default function DoordashRewardsMastercardRequirementsPage() {
               DoorDash Rewards Mastercard Requirements: How to Qualify
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -46,7 +48,7 @@ export default function DoordashRewardsMastercardRequirementsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-3.webp"
+                  src="https://media.topfinanzas.com/images/download-3.webp"
                   alt="DoorDash Rewards Mastercard Requirements"
                   width={900}
                   height={507}
@@ -272,8 +274,6 @@ export default function DoordashRewardsMastercardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-
-              
             </div>
           </div>
         </div>

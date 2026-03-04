@@ -26,7 +26,9 @@ export default function KlarnaCardPage() {
               Klarna Card: The Ultimate Flexible Payment Solution
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -186,8 +188,6 @@ export default function KlarnaCardPage() {
                   upfront, including any service fees, so you'll know exactly
                   what you'll pay before completing your purchase.
                 </p>
-
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Klarna Balance: Your Built-In Money Account

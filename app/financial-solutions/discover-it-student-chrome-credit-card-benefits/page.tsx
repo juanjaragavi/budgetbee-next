@@ -28,7 +28,9 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
               Students
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -213,8 +215,6 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>

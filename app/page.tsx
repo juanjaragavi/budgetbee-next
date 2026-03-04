@@ -137,8 +137,7 @@ const allPosts: PostData[] = [
       description:
         "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase—1% when you buy and 1% when you pay—with no annual fee.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-2.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -235,8 +234,7 @@ const allPosts: PostData[] = [
       description:
         "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-11.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -251,8 +249,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-4.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -267,8 +264,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and full digital management.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-15.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -299,8 +295,7 @@ const allPosts: PostData[] = [
       description:
         "Maximize everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5X points on gas and groceries and enjoy premium benefits with no annual fee.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-1-2.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],

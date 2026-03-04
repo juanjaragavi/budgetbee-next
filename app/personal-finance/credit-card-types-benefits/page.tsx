@@ -29,7 +29,9 @@ export default function CreditCardTypesBenefitsPage() {
               Credit Cards - Types, Benefits, and Keys to Financial Health
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -477,8 +479,6 @@ export default function CreditCardTypesBenefitsPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   Your Path to Financial Freedom: Take Control with Knowledge
                 </h2>

@@ -32,7 +32,9 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
               Credit Card
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -66,8 +68,7 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
 
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                  How to Qualify for the Bank of America® Unlimited Cash
-                  Rewards
+                  How to Qualify for the Bank of America® Unlimited Cash Rewards
                 </h2>
 
                 <div className="space-y-6 my-8">
@@ -79,12 +80,12 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
                       <span className="font-semibold">
                         Good to Excellent Credit Score:
                       </span>{" "}
-                      The Bank of America® Unlimited Cash Rewards card
-                      typically requires a credit score of 690 or higher for
-                      approval, though many approved applicants have scores in
-                      the 720+ range. Bank of America evaluates your FICO®
-                      Score and comprehensive credit report from major credit
-                      bureaus (Experian, Equifax, TransUnion) to assess
+                      The Bank of America® Unlimited Cash Rewards card typically
+                      requires a credit score of 690 or higher for approval,
+                      though many approved applicants have scores in the 720+
+                      range. Bank of America evaluates your FICO® Score and
+                      comprehensive credit report from major credit bureaus
+                      (Experian, Equifax, TransUnion) to assess
                       creditworthiness. A strong credit history demonstrates
                       responsible credit management including consistent on-time
                       payments, low credit utilization (ideally under 30% of
@@ -208,8 +209,6 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
                   </div>
                 </div>
 
-                
-
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                   Required Documentation:
                 </h2>
@@ -308,13 +307,13 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
                 </h2>
 
                 <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+                  id="square04"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
                   The Bank of America® Unlimited Cash Rewards card carries the
@@ -534,8 +533,8 @@ export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  Follow these steps to apply for the Bank of America®
-                  Unlimited Cash Rewards card:
+                  Follow these steps to apply for the Bank of America® Unlimited
+                  Cash Rewards card:
                 </p>
 
                 <div className="space-y-6 my-8">

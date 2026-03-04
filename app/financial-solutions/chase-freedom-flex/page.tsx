@@ -30,7 +30,9 @@ export default function ChaseFreedomFlexPage() {
               Categories and No Annual Fee
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -208,16 +210,14 @@ export default function ChaseFreedomFlexPage() {
                   stays open, you can redeem any amount (no minimum redemption
                   threshold), and redemption options include statement credits,
                   direct deposits, checks, and gift cards. For cardholders who
-                  also hold a Chase Sapphire Preferred® or Reserve®, the
-                  points become even more valuable—you can combine your Freedom
-                  Flex points with Ultimate Rewards points and transfer them to
+                  also hold a Chase Sapphire Preferred® or Reserve®, the points
+                  become even more valuable—you can combine your Freedom Flex
+                  points with Ultimate Rewards points and transfer them to
                   airline and hotel partners at a 1:1 ratio, potentially
                   unlocking values of 1.5 to 2+ cents per point when booking
                   premium travel experiences.
                 </p>
               </section>
-
-              
 
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

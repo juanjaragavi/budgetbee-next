@@ -28,7 +28,9 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
               Requirements for the Self Credit Builder Account + Visa Card
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -199,13 +201,13 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
             </section>
 
             <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              id="square04"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <section className="my-8">
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

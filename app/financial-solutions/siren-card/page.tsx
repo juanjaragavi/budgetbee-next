@@ -31,7 +31,9 @@ export default function SirenCardPage() {
                   SIREN Card: A Debit Card with Superpowers
                 </h1>
                 <div
-                  id="square02" data-topads data-topads-size="square"
+                  id="square02"
+                  data-topads
+                  data-topads-size="square"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

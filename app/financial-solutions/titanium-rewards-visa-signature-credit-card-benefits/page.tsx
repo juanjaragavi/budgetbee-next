@@ -28,7 +28,9 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
               Card
             </h1>
             <div
-              id="square02" data-topads data-topads-size="square"
+              id="square02"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -79,7 +81,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp"
+                  src="https://media.topfinanzas.com/images/download-1-2.webp"
                   alt="Titanium Rewards Visa Signature Credit Card"
                   width={900}
                   height={507}
@@ -326,8 +328,6 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              
             </div>
           </div>
         </div>

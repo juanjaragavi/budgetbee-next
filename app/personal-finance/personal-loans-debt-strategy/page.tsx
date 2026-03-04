@@ -29,7 +29,9 @@ export default function PersonalLoansDebtStrategyPage() {
               Personal Loans - A Strategy for Managing Debt
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -355,8 +357,6 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   A Step Toward Better Financial Management
                 </h2>

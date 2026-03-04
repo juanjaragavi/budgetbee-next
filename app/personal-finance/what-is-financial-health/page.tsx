@@ -28,7 +28,9 @@ export default function WhatIsFinancialHealthPage() {
               What Is Financial Health? A Quick Guide to Checking Your Vitals
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -208,8 +210,6 @@ export default function WhatIsFinancialHealthPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   First steps to improve your financial health
                 </h2>

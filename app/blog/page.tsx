@@ -189,8 +189,7 @@ export default function BlogArchivePage() {
       slug: "citi-double-cash-credit-card-benefits",
       description:
         "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase—1% when you buy and 1% when you pay—with no annual fee.",
-      image:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp",
+      image: "https://media.topfinanzas.com/images/download-2.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -257,8 +256,7 @@ export default function BlogArchivePage() {
       slug: "chase-freedom-unlimited-credit-card-benefits",
       description:
         "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
-      image:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp",
+      image: "https://media.topfinanzas.com/images/download-11.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -268,8 +266,7 @@ export default function BlogArchivePage() {
       slug: "doordash-rewards-mastercard-benefits",
       description:
         "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
-      image:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp",
+      image: "https://media.topfinanzas.com/images/download-4.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -279,8 +276,7 @@ export default function BlogArchivePage() {
       slug: "first-digital-nextgen-mastercard-benefits",
       description:
         "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and full digital management.",
-      image:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp",
+      image: "https://media.topfinanzas.com/images/download-15.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -302,8 +298,7 @@ export default function BlogArchivePage() {
       slug: "titanium-rewards-visa-signature-credit-card-benefits",
       description:
         "Maximize everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5X points on gas and groceries and enjoy premium benefits with no annual fee.",
-      image:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp",
+      image: "https://media.topfinanzas.com/images/download-1-2.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -354,8 +349,7 @@ export default function BlogArchivePage() {
       date: "27 October 2025",
     },
     {
-      title:
-        "Chase Sapphire Reserve®: Premium Travel Rewards Card | BudgetBee",
+      title: "Chase Sapphire Reserve®: Premium Travel Rewards Card | BudgetBee",
       slug: "chase-sapphire-reserve",
       description:
         "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",

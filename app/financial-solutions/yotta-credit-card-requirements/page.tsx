@@ -36,7 +36,9 @@ export default function YottaCreditCardRequirementsPage() {
                 Yotta Credit Card Requirements & Application Process
               </h1>
               <div
-                id="square03" data-topads data-topads-size="square"
+                id="square03"
+                data-topads
+                data-topads-size="square"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -145,13 +147,13 @@ export default function YottaCreditCardRequirementsPage() {
                   State Availability
                 </h2>
                 <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+                  id="square04"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
                 <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-6">
                   <p className="text-gray-700 mb-4 leading-relaxed">
                     Yotta Credit Card and lending services are currently

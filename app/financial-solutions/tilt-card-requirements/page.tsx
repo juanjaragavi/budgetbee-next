@@ -28,7 +28,9 @@ export default function TiltCardRequirementsPage() {
               Requirements for the Tilt Card
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

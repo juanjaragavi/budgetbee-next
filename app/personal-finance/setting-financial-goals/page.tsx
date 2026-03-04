@@ -30,7 +30,9 @@ export default function SettingFinancialGoalsPage() {
               Finance Planning
             </h1>
             <div
-              id="square01" data-topads data-topads-size="square"
+              id="square01"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -240,8 +242,6 @@ export default function SettingFinancialGoalsPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   Ready to map your next step?
                 </h2>

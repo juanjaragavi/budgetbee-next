@@ -27,7 +27,9 @@ export default function CitBankHomeLoansRequirementsPage() {
               CIT Bank Home Loans Requirements: What You Need to Qualify
             </h1>
             <div
-              id="square03" data-topads data-topads-size="square"
+              id="square03"
+              data-topads
+              data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -192,7 +194,6 @@ export default function CitBankHomeLoansRequirementsPage() {
                   </Button>
                 </Link>
               </div>
-              
               <hr className="my-8" />
             </div>
           </div>
