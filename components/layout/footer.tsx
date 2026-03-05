@@ -149,8 +149,7 @@ export function Footer() {
               {/* Facebook */}
               <a
                 href="https://facebook.com/budgetbee"
-                target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="w-10 h-10 rounded-full bg-primary hover:bg-primary/80 flex items-center justify-center transition-colors"
                 aria-label="Facebook"
               >
@@ -166,8 +165,7 @@ export function Footer() {
               {/* Twitter */}
               <a
                 href="https://twitter.com/budgetbee"
-                target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="w-10 h-10 rounded-full bg-primary hover:bg-primary/80 flex items-center justify-center transition-colors"
                 aria-label="Twitter"
               >
@@ -183,8 +181,7 @@ export function Footer() {
               {/* LinkedIn */}
               <a
                 href="https://linkedin.com/company/budgetbee"
-                target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="w-10 h-10 rounded-full bg-primary hover:bg-primary/80 flex items-center justify-center transition-colors"
                 aria-label="LinkedIn"
               >
@@ -200,8 +197,7 @@ export function Footer() {
               {/* Instagram */}
               <a
                 href={footerNavigation.socialMedia.links[0].url}
-                target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
                 className="w-10 h-10 rounded-full bg-primary hover:bg-primary/80 flex items-center justify-center transition-colors"
                 aria-label="Instagram"
               >

@@ -121,7 +121,7 @@ export default function GamingChatEntry({
 
   return (
     <section className="w-full min-h-screen flex flex-col bg-white">
-      <AdController disableAds={true} />
+      <AdController />
 
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">
@@ -222,6 +222,16 @@ export default function GamingChatEntry({
 
           <div ref={chatEndRef} />
         </div>
+      </div>
+
+      {/* Ad Slot 1 — Below chat content */}
+      <div className="w-full max-w-2xl mx-auto px-4">
+        <div
+          id="square01"
+          data-topads
+          data-topads-size="square"
+          className="items-center justify-center flex w-full my-8"
+        />
       </div>
 
       {/* Footer */}

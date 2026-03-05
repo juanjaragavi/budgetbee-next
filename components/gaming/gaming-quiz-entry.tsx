@@ -76,7 +76,7 @@ export default function GamingQuizEntry({
 
   return (
     <section className="w-full min-h-screen flex flex-col bg-gray-50">
-      <AdController disableAds={true} />
+      <AdController />
 
       <div className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-lg">
@@ -200,6 +200,16 @@ export default function GamingQuizEntry({
             </div>
           )}
         </div>
+      </div>
+
+      {/* Ad Slot 1 — Below main content */}
+      <div className="w-full max-w-lg mx-auto px-4">
+        <div
+          id="square01"
+          data-topads
+          data-topads-size="square"
+          className="items-center justify-center flex w-full my-8"
+        />
       </div>
 
       {/* Footer */}

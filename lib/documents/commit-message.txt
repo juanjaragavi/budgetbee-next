@@ -1,8 +1,7 @@
-fix: add gaming images to version control and update to official press kit assets
+refactor: enable ads on gaming pages, remove target=_blank, add ad slots
 
-- Update .gitignore with negation patterns to allow tracking of public/images/gaming/ assets
-- Replace generic placeholder images with official press kit images from IGDB for Roblox, Minecraft, and Fortnite
-- Update gaming-config.ts image references to point to new official assets
-- Add 34 webp images across gaming/roblox, gaming/minecraft, gaming/fortnite, and gaming/apps directories
-
-Co-Authored-By: Oz <oz-agent@warp.dev>
+- Enable ads on gaming chat and quiz entry pages (remove disableAds prop)
+- Add square ad slot below main content on gaming-chat-entry and gaming-quiz-entry
+- Remove target="_blank" from gaming method card CTA links (same-tab navigation)
+- Remove target="_blank" from footer social media links, keep rel="noopener"
+- Add gaming user journeys URL reference document

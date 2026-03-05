@@ -82,8 +82,6 @@ export default function GamingMethodCard({
         {/* Primary CTA */}
         <Link
           href={cta.href}
-          target="_blank"
-          rel="noopener noreferrer"
           className="block w-full py-3 px-4 rounded-xl text-white font-semibold text-center transition-all duration-200 hover:opacity-90 shadow-md"
           style={{ backgroundColor: themeColor }}
         >
@@ -97,8 +95,6 @@ export default function GamingMethodCard({
               <Link
                 key={link.label}
                 href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="text-sm font-medium hover:underline"
                 style={{ color: themeColor }}
               >
