@@ -2,7 +2,6 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import AdController from "@/components/ads/AdController";
 
 export interface ChatQuestion {
   id: string;
@@ -121,7 +120,6 @@ export default function GamingChatEntry({
 
   return (
     <section className="w-full min-h-screen flex flex-col bg-white">
-      <AdController />
 
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">

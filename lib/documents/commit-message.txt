@@ -1,6 +1,8 @@
-feat: enable full ad monetization on gaming quiz and chat pages
+refactor: remove AdZep ad provider, migrate fully to TopAds
 
-- Remove all gaming paths from TopAds pageSetting.exclude and offerwall.exclude
-- Gaming quizzes and chats now receive interstitial and offerwall ad units
-- Add inline ad slots after every 2nd bot message in gaming-chat-entry
-- Add inline ad slot between quiz completion and CTA in gaming-quiz-entry
+- Delete all AdZep component files (adzep.tsx, adzep-spa-bridge, adzep-trackers, adzep-trigger, adzep-test, adzep-interstitial-blocker, adzep-accessibility-fix)
+- Delete AdZep utility files (lib/ads/activate-adzep.ts, config.ts, overlay.ts)
+- Remove AdZepActivateAds from Window type declaration
+- Remove dead AdController import from gaming-quiz-entry and gaming-chat-entry
+- Clean up stale AdZep CSS rules and uk_topfinanzas selectors from globals.css that could block TopAds interstitials and offerwalls on BudgetBee US
+- All gaming pages now served exclusively by TopAds with proper data-topads containers

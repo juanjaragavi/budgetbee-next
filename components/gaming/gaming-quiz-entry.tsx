@@ -2,7 +2,6 @@
 
 import { useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import AdController from "@/components/ads/AdController";
 import FakeLoadingState from "@/components/gaming/fake-loading-state";
 
 export interface QuizQuestion {
@@ -76,7 +75,6 @@ export default function GamingQuizEntry({
 
   return (
     <section className="w-full min-h-screen flex flex-col bg-gray-50">
-      <AdController />
 
       <div className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-lg">

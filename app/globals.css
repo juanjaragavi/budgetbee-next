@@ -319,43 +319,6 @@ body {
   }
 }
 
-/* ⚠️ AdZep Overlay/Ad Blocking CSS Rules COMPLETELY REMOVED ⚠️
- * 
- * Previously, this CSS file contained multiple aggressive rules that blocked ALL AdZep elements:
- * 
- * REMOVED RULES:
- * - #adzep-article-overlay, [id*="adzep-overlay"] - Blocked our own overlay utilities
- * - [id*="interstitial"], [class*="interstitial"] - Blocked interstitial ads
- * - [id*="rewardful"], [class*="rewardful"] - Blocked offerwall/rewardful ads  
- * - [id*="overlay"], [class*="overlay"] - Blocked generic overlays
- * - Various data attributes and specific classes
- * 
- * These rules used display:none !important and pointer-events:none !important,
- * which completely prevented AdZep ads from displaying or being interactive.
- * 
- * CRITICAL PRODUCTION BUG CAUSED:
- * 1. Interstitial ads would load but be completely non-clickable
- * 2. Close buttons on ads were unresponsive (pointer-events: none)
- * 3. Users couldn't dismiss ads, completely blocking their journey
- * 4. Revenue generation was 100% blocked
- * 5. Issue persisted even after JavaScript component fixes
- * 
- * ROOT CAUSE: CSS !important rules override all JavaScript
- * Even though we disabled AdZepInterstitialBlocker component, these CSS rules
- * were still active and blocking all ad interactions globally.
- * 
- * SOLUTION: ALL blocking CSS rules have been PERMANENTLY REMOVED
- * AdZep's own ad units include proper close buttons and controls.
- * They should be allowed to display and function normally.
- * 
- * If problematic overlays appear in the future, implement a targeted solution:
- * 1. Use specific data attributes to identify malicious elements
- * 2. Whitelist legitimate ad network domains (AdZep)
- * 3. Don't use broad pattern matching like [id*="interstitial"]
- * 4. Never use !important on blocking rules
- * 5. Test thoroughly before deploying
- */
-
 /* Prevent body from being locked by ad scripts */
 body.ad-loading,
 body.ad-overlay-active,
@@ -370,37 +333,11 @@ html[style*="overflow: hidden"] {
 }
 
 /* Remove lingering backdrop/overlay elements after ads are dismissed
- * These rules target ONLY orphaned backdrop elements that remain after ad closure
- * They do NOT block the ad units themselves - only cleanup leftover backdrops
+ * These rules target ONLY orphaned backdrop elements that remain after ad closure.
+ * They do NOT block the ad units themselves — only cleanup leftover backdrops.
  */
-
-/* Target AdZep backdrop elements that commonly remain after ad dismissal */
-body
-  > div[style*="position: fixed"][style*="inset: 0"]:not(
-    [id*="uk_topfinanzas"]
-  ):empty,
-body
-  > div[style*="position: fixed"][style*="z-index"][style*="background"]:not(
-    [id*="uk_topfinanzas"]
-  ):empty,
 body > div[class*="backdrop"]:empty,
-body > div[class*="overlay"]:empty:not([id*="uk_topfinanzas"]) {
+body > div[class*="overlay"]:empty {
   display: none !important;
   pointer-events: none !important;
-}
-
-/* Remove backdrop-filter blur effects from body when no active ads */
-body:not(:has([id^="uk_topfinanzas_"][style*="display"][style*="block"])),
-body:not(:has([data-adzep-active])) {
-  backdrop-filter: none !important;
-  filter: none !important;
-}
-
-/* Ensure main content containers are not blurred when ads are dismissed */
-main,
-#__next,
-[id*="root"],
-.container {
-  backdrop-filter: none !important;
-  filter: none !important;
 }
