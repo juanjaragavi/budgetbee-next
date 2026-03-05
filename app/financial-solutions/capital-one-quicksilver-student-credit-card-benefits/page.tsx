@@ -72,7 +72,7 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone1-1024x536.webp"
+                  src="https://media.topfinanzas.com/images/Capitalone1-1024x536.webp"
                   alt="Capital One Quicksilver Student Credit Card"
                   width={900}
                   height={507}

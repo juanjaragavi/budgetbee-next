@@ -48,7 +48,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-11-1.webp"
+                  src="https://media.topfinanzas.com/images/download-11-1.webp"
                   alt="Citi Simplicity Card Requirements"
                   width={900}
                   height={507}

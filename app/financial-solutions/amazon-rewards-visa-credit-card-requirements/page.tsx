@@ -50,7 +50,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Amazon2.webp"
+                  src="https://media.topfinanzas.com/images/Amazon2.webp"
                   alt="Amazon Rewards Visa Credit Card Requirements"
                   width={900}
                   height={507}

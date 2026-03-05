@@ -48,7 +48,7 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-1.webp"
+                  src="https://media.topfinanzas.com/images/download-1.webp"
                   alt="Citi Double Cash Credit Card Requirements"
                   width={900}
                   height={507}

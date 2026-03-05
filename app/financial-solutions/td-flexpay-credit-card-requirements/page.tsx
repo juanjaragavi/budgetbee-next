@@ -49,7 +49,7 @@ export default function TdFlexpayCreditCardRequirementsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay2.webp"
+                  src="https://media.topfinanzas.com/images/Flexpay2.webp"
                   alt="TD FlexPay Credit Card Requirements"
                   width={900}
                   height={507}

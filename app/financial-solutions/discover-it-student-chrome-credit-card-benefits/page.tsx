@@ -73,7 +73,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp"
+                  src="https://media.topfinanzas.com/images/Discoverst1.webp"
                   alt="Discover it Student Chrome Credit Card"
                   width={900}
                   height={507}

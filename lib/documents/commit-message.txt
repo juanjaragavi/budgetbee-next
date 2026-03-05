@@ -1,7 +1,6 @@
-refactor: migrate image URLs to media.topfinanzas.com and apply code formatting
+refactor: migrate remaining image URLs to media.topfinanzas.com CDN
 
-- Migrate image URLs from us.topfinanzas.com/wp-content to media.topfinanzas.com/images across 70+ financial solutions and blog pages
-- Update blog listing, personal finance, and financial solutions category pages with new image CDN paths
-- Apply Prettier formatting fixes across UI components (button, badge, sheet), blog layout, and credit card recommender template
-- Fix trailing newline in site-config.ts
-- Update UK to US credit card migration documentation
+- Migrate image URLs from us.topfinanzas.com/wp-content/uploads to media.topfinanzas.com/images across 20 financial solutions and listing pages
+- Update blog listing (app/blog/page.tsx), financial solutions listing (app/financial-solutions/page.tsx), and homepage (app/page.tsx) with new CDN paths
+- Update individual product benefit and requirement pages with consistent image URLs
+- Sync all allPosts arrays across listing pages with updated image references

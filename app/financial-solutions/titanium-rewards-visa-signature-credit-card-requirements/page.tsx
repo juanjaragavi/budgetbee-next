@@ -50,7 +50,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/AndrewsB2.jpg"
+                  src="https://media.topfinanzas.com/images/AndrewsB2.jpg"
                   alt="Titanium Rewards Visa Signature Credit Card Requirements"
                   width={900}
                   height={507}

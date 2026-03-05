@@ -69,7 +69,7 @@ export default function TdFlexpayCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp"
+                  src="https://media.topfinanzas.com/images/Flexpay1.webp"
                   alt="TD FlexPay Credit Card"
                   width={900}
                   height={507}

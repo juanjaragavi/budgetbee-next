@@ -70,7 +70,7 @@ export default function CitiSimplicityCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp"
+                  src="https://media.topfinanzas.com/images/download-12-1-1024x536.webp"
                   alt="Citi Simplicity Card"
                   width={900}
                   height={507}

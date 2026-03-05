@@ -50,7 +50,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-13-1024x536.webp"
+                  src="https://media.topfinanzas.com/images/download-13-1024x536.webp"
                   alt="First Digital NextGen Mastercard Requirements"
                   width={900}
                   height={507}

@@ -51,7 +51,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp"
+                  src="https://media.topfinanzas.com/images/Capitalone2.webp"
                   alt="Capital One Quicksilver Student Credit Card Requirements"
                   width={900}
                   height={507}

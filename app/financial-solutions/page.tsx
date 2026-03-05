@@ -70,8 +70,7 @@ export default function FinancialSolutionsPage() {
         slug: "cit-bank-home-loans-benefits",
         description:
           "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/12/CitiBL1-820x429.png",
+        image: "https://media.topfinanzas.com/images/CitiBL1-820x429.png",
         date: "28 October 2025",
         type: "guide",
       },
@@ -87,8 +86,7 @@ export default function FinancialSolutionsPage() {
         slug: "amazon-rewards-visa-credit-card-benefits",
         description:
           "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp",
+        image: "https://media.topfinanzas.com/images/Amazon1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -107,8 +105,7 @@ export default function FinancialSolutionsPage() {
         slug: "capital-one-quicksilver-student-credit-card-benefits",
         description:
           "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp",
+        image: "https://media.topfinanzas.com/images/Capitalone2.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -117,8 +114,7 @@ export default function FinancialSolutionsPage() {
         slug: "capital-one-savor-rewards-credit-card-benefits",
         description:
           "Explore the Capital One Savor Rewards Credit Card benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp",
+        image: "https://media.topfinanzas.com/images/download-14-1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -147,7 +143,7 @@ export default function FinancialSolutionsPage() {
         description:
           "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
         image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp",
+          "https://media.topfinanzas.com/images/download-12-1-1024x536.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -156,8 +152,7 @@ export default function FinancialSolutionsPage() {
         slug: "discover-it-student-chrome-credit-card-benefits",
         description:
           "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback at restaurants and gas stations, no annual fee, and double rewards in your first year.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp",
+        image: "https://media.topfinanzas.com/images/Discoverst1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -176,8 +171,7 @@ export default function FinancialSolutionsPage() {
         slug: "wells-fargo-autograph-card-benefits",
         description:
           "Explore the Wells Fargo Autograph Card benefits to earn 3X points on top everyday categories, access premium travel protections, and enjoy no annual fee.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-16-1024x536.webp",
+        image: "https://media.topfinanzas.com/images/download-16-1024x536.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -223,8 +217,7 @@ export default function FinancialSolutionsPage() {
         slug: "td-flexpay-credit-card-benefits",
         description:
           "See how the TD FlexPay Credit Card delivers flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp",
+        image: "https://media.topfinanzas.com/images/Flexpay1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -242,8 +235,7 @@ export default function FinancialSolutionsPage() {
         slug: "us-bank-cash-plus-visa-signature-card-benefits",
         description:
           "Customize your rewards with the U.S. Bank Cash+ Visa Signature Card: earn up to 5% cashback in your chosen categories, 2% on everyday essentials, and pay no annual fee.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Usbanck1.webp",
+        image: "https://media.topfinanzas.com/images/Usbanck1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -351,8 +343,7 @@ export default function FinancialSolutionsPage() {
         slug: "visa-signature-us-current-build-credit-card-benefits",
         description:
           "Discover the benefits of the Current Build Visa Signature Credit Card. Build credit with no annual fees, flexible rewards, and no hidden charges from this modern neobank.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Curren1.webp",
+        image: "https://media.topfinanzas.com/images/Curren1.webp",
         date: "28 October 2025",
         type: "neobank",
       },
@@ -380,8 +371,7 @@ export default function FinancialSolutionsPage() {
         slug: "tomo-credit-card-benefits",
         description:
           "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees to jumpstart your credit journey.",
-        image:
-          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
+        image: "https://media.topfinanzas.com/images/Tomo1.webp",
         date: "28 October 2025",
         type: "fintech",
       },

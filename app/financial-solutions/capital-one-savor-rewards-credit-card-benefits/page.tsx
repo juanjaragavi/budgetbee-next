@@ -72,7 +72,7 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp"
+                  src="https://media.topfinanzas.com/images/download-14-1.webp"
                   alt="Capital One Savor Rewards Credit Card"
                   width={900}
                   height={507}

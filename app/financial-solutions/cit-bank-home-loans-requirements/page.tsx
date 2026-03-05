@@ -47,7 +47,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               </p>
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/CitiBL1-820x429.png"
+                  src="https://media.topfinanzas.com/images/CitiBL1-820x429.png"
                   alt="CIT Bank Home Loans Requirements"
                   width={900}
                   height={507}

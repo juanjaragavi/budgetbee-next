@@ -56,8 +56,7 @@ const allPosts: PostData[] = [
       description:
         "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Amazon1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -89,8 +88,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Capitalone2.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -105,8 +103,7 @@ const allPosts: PostData[] = [
       description:
         "Explore the Capital One Savor Rewards Credit Card benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/download-14-1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -153,7 +150,7 @@ const allPosts: PostData[] = [
         "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
       date: "2025-10-28T00:00:00Z",
       featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp",
+        "https://media.topfinanzas.com/images/download-12-1-1024x536.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -168,8 +165,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback at restaurants and gas stations, no annual fee, and double rewards in your first year.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Discoverst1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -202,7 +198,7 @@ const allPosts: PostData[] = [
         "Explore the Wells Fargo Autograph Card benefits to earn 3X points on top everyday categories, access premium travel protections, and enjoy no annual fee.",
       date: "2025-10-28T00:00:00Z",
       featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-16-1024x536.webp",
+        "https://media.topfinanzas.com/images/download-16-1024x536.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -279,8 +275,7 @@ const allPosts: PostData[] = [
       description:
         "See how the TD FlexPay Credit Card delivers flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Flexpay1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -310,8 +305,7 @@ const allPosts: PostData[] = [
       description:
         "Customize your rewards with the U.S. Bank Cash+ Visa Signature Card: earn up to 5% cashback in your chosen categories, 2% on everyday essentials, and pay no annual fee.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Usbanck1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Usbanck1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -326,8 +320,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the benefits of the Current Build Visa Signature Credit Card. Build credit with no annual fees, flexible rewards, and no hidden charges from this modern neobank.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Curren1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Curren1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -342,8 +335,7 @@ const allPosts: PostData[] = [
       description:
         "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees to jumpstart your credit journey.",
       date: "2025-10-28T00:00:00Z",
-      featuredImage:
-        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
+      featuredImage: "https://media.topfinanzas.com/images/Tomo1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
