@@ -1,6 +1,8 @@
-feat: add images to gaming pages and migrate config to WebP format
+fix: add gaming images to version control and update to official press kit assets
 
-- Add hero and section images to all 40 gaming promise and reward pages (Fortnite, Minecraft, Roblox)
-- Migrate gaming image references from SVG to WebP format in gaming-config.ts
-- Add new APP_IMAGES config for Microsoft Rewards, Swagbucks, Fetch Rewards, InboxDollars
-- Add gaming image download and integration utility scripts
+- Update .gitignore with negation patterns to allow tracking of public/images/gaming/ assets
+- Replace generic placeholder images with official press kit images from IGDB for Roblox, Minecraft, and Fortnite
+- Update gaming-config.ts image references to point to new official assets
+- Add 34 webp images across gaming/roblox, gaming/minecraft, gaming/fortnite, and gaming/apps directories
+
+Co-Authored-By: Oz <oz-agent@warp.dev>

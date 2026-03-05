@@ -21,28 +21,27 @@ export const FORTNITE_THEME = {
   colorDark: "#1D4ED8",
 } as const;
 
-/* ─── Placeholder Hero Images ─── */
-// Replace with real images from /public/images/gaming/IMAGE_SOURCES.md
+/* ─── Official Press Kit Images (sourced from IGDB) ─── */
 
 export const ROBLOX_IMAGES = {
-  hero: "/images/gaming/roblox/hero-robux.webp",
-  coins: "/images/gaming/roblox/robux-coins.webp",
-  avatar: "/images/gaming/roblox/roblox-avatar.webp",
-  promo: "/images/gaming/roblox/roblox-promo.webp",
+  hero: "/images/gaming/roblox/roblox-keyart-hero.webp",
+  coins: "/images/gaming/roblox/roblox-gameplay-01.webp",
+  avatar: "/images/gaming/roblox/roblox-gameplay-02.webp",
+  promo: "/images/gaming/roblox/roblox-keyart-promo.webp",
 } as const;
 
 export const MINECRAFT_IMAGES = {
-  hero: "/images/gaming/minecraft/hero-minecraft.webp",
-  minecoins: "/images/gaming/minecraft/minecoins.webp",
-  loot: "/images/gaming/minecraft/minecraft-loot.webp",
-  skins: "/images/gaming/minecraft/minecraft-skins.webp",
+  hero: "/images/gaming/minecraft/minecraft-artwork-hero.webp",
+  minecoins: "/images/gaming/minecraft/minecraft-gameplay-01.webp",
+  loot: "/images/gaming/minecraft/minecraft-gameplay-04.webp",
+  skins: "/images/gaming/minecraft/minecraft-artwork-alt.webp",
 } as const;
 
 export const FORTNITE_IMAGES = {
-  hero: "/images/gaming/fortnite/hero-fortnite.webp",
-  vbucks: "/images/gaming/fortnite/vbucks.webp",
-  skins: "/images/gaming/fortnite/fortnite-skins.webp",
-  battlePass: "/images/gaming/fortnite/battle-pass.webp",
+  hero: "/images/gaming/fortnite/fortnite-keyart-hero.webp",
+  vbucks: "/images/gaming/fortnite/fortnite-gameplay-01.webp",
+  skins: "/images/gaming/fortnite/fortnite-artwork-01.webp",
+  battlePass: "/images/gaming/fortnite/fortnite-gameplay-02.webp",
 } as const;
 
 export const APP_IMAGES = {

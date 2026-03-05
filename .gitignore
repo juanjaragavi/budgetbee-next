@@ -44,6 +44,11 @@ public/images/**/*.gif
 public/images/**/*.svg
 public/images/**/*.webp
 
+# Allow gaming images (not served from CDN)
+!public/images/gaming/**/*.webp
+!public/images/gaming/**/*.jpg
+!public/images/gaming/**/*.png
+
 # Ignore file for testing the formatting of Strict markdown documents
 lib/documents/document.md
 lib/new-user-journey/*
