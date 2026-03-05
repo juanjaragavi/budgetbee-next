@@ -160,6 +160,17 @@ export default function GamingQuizEntry({
             </div>
           )}
 
+          {/* Inline ad between quiz completion and CTA */}
+          {(phase === "loading" || phase === "cta") && (
+            <div className="flex justify-center my-6">
+              <div
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full"
+              />
+            </div>
+          )}
+
           {/* CTA phase */}
           {phase === "cta" && (
             <div className="bg-white rounded-2xl shadow-lg p-8 text-center">

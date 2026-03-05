@@ -126,27 +126,46 @@ export default function GamingChatEntry({
       {/* Chat area */}
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">
         <div className="space-y-4">
-          {messages.map((msg, i) => (
-            <div
-              key={`msg-${i}`}
-              className={`flex ${msg.type === "user" ? "justify-end" : "justify-start"}`}
-            >
-              <div
-                className={`max-w-[85%] px-4 py-3 rounded-2xl text-base ${
-                  msg.type === "user"
-                    ? "text-white rounded-br-sm"
-                    : "bg-gray-100 text-gray-800 rounded-bl-sm"
-                }`}
-                style={
-                  msg.type === "user"
-                    ? { backgroundColor: themeColor }
-                    : undefined
-                }
-              >
-                {msg.text}
+          {messages.map((msg, i) => {
+            // Count bot messages up to this index to place inline ads
+            const botCount = messages
+              .slice(0, i + 1)
+              .filter((m) => m.type === "bot").length;
+            const showInlineAd =
+              msg.type === "bot" && botCount > 0 && botCount % 2 === 0;
+
+            return (
+              <div key={`msg-${i}`}>
+                <div
+                  className={`flex ${msg.type === "user" ? "justify-end" : "justify-start"}`}
+                >
+                  <div
+                    className={`max-w-[85%] px-4 py-3 rounded-2xl text-base ${
+                      msg.type === "user"
+                        ? "text-white rounded-br-sm"
+                        : "bg-gray-100 text-gray-800 rounded-bl-sm"
+                    }`}
+                    style={
+                      msg.type === "user"
+                        ? { backgroundColor: themeColor }
+                        : undefined
+                    }
+                  >
+                    {msg.text}
+                  </div>
+                </div>
+                {showInlineAd && (
+                  <div className="flex justify-center my-4">
+                    <div
+                      data-topads
+                      data-topads-size="square"
+                      className="items-center justify-center flex w-full"
+                    />
+                  </div>
+                )}
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           {/* Typing indicator */}
           {isTyping && (

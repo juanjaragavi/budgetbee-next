@@ -1,7 +1,6 @@
-refactor: enable ads on gaming pages, remove target=_blank, add ad slots
+feat: enable full ad monetization on gaming quiz and chat pages
 
-- Enable ads on gaming chat and quiz entry pages (remove disableAds prop)
-- Add square ad slot below main content on gaming-chat-entry and gaming-quiz-entry
-- Remove target="_blank" from gaming method card CTA links (same-tab navigation)
-- Remove target="_blank" from footer social media links, keep rel="noopener"
-- Add gaming user journeys URL reference document
+- Remove all gaming paths from TopAds pageSetting.exclude and offerwall.exclude
+- Gaming quizzes and chats now receive interstitial and offerwall ad units
+- Add inline ad slots after every 2nd bot message in gaming-chat-entry
+- Add inline ad slot between quiz completion and CTA in gaming-quiz-entry
