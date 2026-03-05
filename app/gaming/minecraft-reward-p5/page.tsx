@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   MINECRAFT_THEME,
+  MINECRAFT_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -26,6 +27,10 @@ export default function MinecraftRewardP5() {
       badge="VERIFIED METHODS"
       title="Cashback Apps for Minecraft Players"
       subtitle="Tested and verified methods to earn free Minecraft content in 2026."
+      heroImage={{
+        src: MINECRAFT_IMAGES.hero,
+        alt: "Minecraft world and gameplay",
+      }}
       introParagraphs={[
         "Every method below has been verified by our team and is actively used by thousands of Minecraft players. We keep this list updated so you always have access to the best earning opportunities.",
         "These platforms let you earn gift cards redeemable for Minecoins and Minecraft content — no hacks, no mods, no risk to your account.",

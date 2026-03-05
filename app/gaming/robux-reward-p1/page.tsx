@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   ROBLOX_THEME,
+  ROBLOX_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -27,6 +28,10 @@ export default function RobuxRewardP1() {
       badge="VERIFIED METHODS"
       title="Get Robux Without Fake Tricks or Risks"
       subtitle="These are the real, working methods that players use to earn Robux in 2026 — tested and verified."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       introParagraphs={[
         "Looking for ways to get Robux without spending your own money or falling for scams? You're in the right place. We've tested dozens of methods and narrowed them down to the ones that actually deliver results.",
         "Every method listed below is completely free to start, doesn't require sharing your Roblox password, and has been used successfully by thousands of players. These apps and programs let you earn gift cards that you can redeem for Robux through the official Roblox website.",

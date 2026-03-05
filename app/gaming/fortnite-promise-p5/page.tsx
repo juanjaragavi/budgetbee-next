@@ -1,6 +1,7 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
 import {
   FORTNITE_THEME,
+  FORTNITE_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
 } from "@/lib/gaming-config";
 
@@ -22,6 +23,10 @@ export default function FortnitePromiseP5() {
       badge="FORTNITE REWARDS"
       title="Fortnite Battle Pass on a Budget"
       subtitle="Real methods to earn V-Bucks without spending money or risking your Epic Games account."
+      heroImage={{
+        src: FORTNITE_IMAGES.hero,
+        alt: "Fortnite gameplay and V-Bucks",
+      }}
       sections={[
         {
           heading: "The V-Bucks Economy Explained",
@@ -29,6 +34,10 @@ export default function FortnitePromiseP5() {
             "V-Bucks are Fortnite's premium currency, used to purchase Battle Passes, skins, emotes, and other cosmetic items from the Item Shop. With prices ranging from 200 V-Bucks for a simple emote to 2,000+ for legendary skins, the costs add up fast for avid players.",
             "The good news is that Epic Games and third-party platforms offer several legitimate ways to earn V-Bucks or the gift cards to buy them — without spending your own money.",
           ],
+          image: {
+            src: FORTNITE_IMAGES.vbucks,
+            alt: "V-Bucks virtual currency",
+          },
         },
         {
           heading: "Legitimate Ways to Earn V-Bucks",

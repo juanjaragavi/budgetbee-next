@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   ROBLOX_THEME,
+  ROBLOX_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -27,6 +28,10 @@ export default function RobuxRewardP2() {
       badge="GAMER REWARDS"
       title="Swagbucks & InboxDollars: Your Robux Earning Toolkit"
       subtitle="Turn your spare time into Roblox gift cards with these proven reward platforms."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       introParagraphs={[
         "Swagbucks and InboxDollars are two of the most established reward platforms in the world, with a combined user base of over 40 million people. Both platforms let you earn points or cash by completing simple online tasks — and those earnings can be converted directly into Roblox gift cards.",
         "We've put together a complete breakdown of how each platform works, what you can expect to earn, and the best strategies for maximizing your rewards as a gamer.",

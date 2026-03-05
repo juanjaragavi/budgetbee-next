@@ -25,24 +25,31 @@ export const FORTNITE_THEME = {
 // Replace with real images from /public/images/gaming/IMAGE_SOURCES.md
 
 export const ROBLOX_IMAGES = {
-  hero: "/images/gaming/roblox/hero-robux.svg",
-  coins: "/images/gaming/roblox/robux-coins.svg",
-  avatar: "/images/gaming/roblox/roblox-avatar.svg",
-  promo: "/images/gaming/roblox/roblox-promo.svg",
+  hero: "/images/gaming/roblox/hero-robux.webp",
+  coins: "/images/gaming/roblox/robux-coins.webp",
+  avatar: "/images/gaming/roblox/roblox-avatar.webp",
+  promo: "/images/gaming/roblox/roblox-promo.webp",
 } as const;
 
 export const MINECRAFT_IMAGES = {
-  hero: "/images/gaming/minecraft/hero-minecraft.svg",
-  minecoins: "/images/gaming/minecraft/minecoins.svg",
-  loot: "/images/gaming/minecraft/minecraft-loot.svg",
-  skins: "/images/gaming/minecraft/minecraft-skins.svg",
+  hero: "/images/gaming/minecraft/hero-minecraft.webp",
+  minecoins: "/images/gaming/minecraft/minecoins.webp",
+  loot: "/images/gaming/minecraft/minecraft-loot.webp",
+  skins: "/images/gaming/minecraft/minecraft-skins.webp",
 } as const;
 
 export const FORTNITE_IMAGES = {
-  hero: "/images/gaming/fortnite/hero-fortnite.svg",
-  vbucks: "/images/gaming/fortnite/vbucks.svg",
-  skins: "/images/gaming/fortnite/fortnite-skins.svg",
-  battlePass: "/images/gaming/fortnite/battle-pass.svg",
+  hero: "/images/gaming/fortnite/hero-fortnite.webp",
+  vbucks: "/images/gaming/fortnite/vbucks.webp",
+  skins: "/images/gaming/fortnite/fortnite-skins.webp",
+  battlePass: "/images/gaming/fortnite/battle-pass.webp",
+} as const;
+
+export const APP_IMAGES = {
+  microsoftRewards: "/images/gaming/apps/microsoft-rewards.webp",
+  swagbucks: "/images/gaming/apps/swagbucks.webp",
+  fetchRewards: "/images/gaming/apps/fetch-rewards.webp",
+  inboxDollars: "/images/gaming/apps/inboxdollars.webp",
 } as const;
 
 /* ─── Related Financial Articles ─── */

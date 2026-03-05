@@ -1,5 +1,9 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
-import { ROBLOX_THEME, FINANCIAL_RELATED_ARTICLES } from "@/lib/gaming-config";
+import {
+  ROBLOX_THEME,
+  ROBLOX_IMAGES,
+  FINANCIAL_RELATED_ARTICLES,
+} from "@/lib/gaming-config";
 
 export function generateMetadata() {
   return {
@@ -19,6 +23,10 @@ export default function RobuxPromiseP1() {
       badge="ROBLOX REWARDS"
       title="How to Get Free Robux Legitimately in 2026"
       subtitle="Real methods that actually work — no scams, no hacks, no risks to your account."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       sections={[
         {
           heading: "Why Everyone Wants Free Robux",
@@ -26,6 +34,7 @@ export default function RobuxPromiseP1() {
             "Robux is the premium currency in Roblox, one of the most popular gaming platforms in the world with over 70 million daily active users. Whether you want to customize your avatar, purchase game passes, or access exclusive experiences, Robux is the key that unlocks everything.",
             "The problem? Buying Robux can add up fast. A typical player spends $10–$50 per month on Robux, and premium items can cost hundreds. That's why millions of players are searching for legitimate ways to earn Robux without opening their wallets.",
           ],
+          image: { src: ROBLOX_IMAGES.coins, alt: "Robux virtual currency" },
         },
         {
           heading: "The Truth About Free Robux",

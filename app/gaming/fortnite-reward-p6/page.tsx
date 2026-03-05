@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   FORTNITE_THEME,
+  FORTNITE_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -26,6 +27,10 @@ export default function FortniteRewardP6() {
       badge="VERIFIED METHODS"
       title="Complete V-Bucks Earning Guide"
       subtitle="Tested and verified methods to earn V-Bucks and Fortnite gift cards in 2026."
+      heroImage={{
+        src: FORTNITE_IMAGES.hero,
+        alt: "Fortnite gameplay and V-Bucks",
+      }}
       introParagraphs={[
         "Every method below has been verified and is actively used by thousands of Fortnite players. We only recommend platforms with proven track records and millions of satisfied users.",
         "These apps let you earn gift cards for PlayStation Store, Xbox, or the Epic Games Store — all of which can be used to purchase V-Bucks safely through official channels.",

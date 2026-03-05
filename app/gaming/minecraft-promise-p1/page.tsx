@@ -1,6 +1,7 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
 import {
   MINECRAFT_THEME,
+  MINECRAFT_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
 } from "@/lib/gaming-config";
 
@@ -22,6 +23,10 @@ export default function MinecraftPromiseP1() {
       badge="MINECRAFT REWARDS"
       title="How to Get Free Minecoins in 2026"
       subtitle="Legitimate ways to unlock free Minecraft content — skins, Minecoins, texture packs, and more."
+      heroImage={{
+        src: MINECRAFT_IMAGES.hero,
+        alt: "Minecraft world and gameplay",
+      }}
       sections={[
         {
           heading: "Why Minecraft Content Costs Add Up",
@@ -29,6 +34,10 @@ export default function MinecraftPromiseP1() {
             "Minecraft's Marketplace offers thousands of amazing skins, texture packs, and worlds created by talented artists. But with most items costing 300-1,500 Minecoins (.99-.99), regular purchases add up quickly. Smart players are finding ways to earn Minecoins and gift cards without spending their own money.",
             "Whether you play Java Edition, Bedrock, or both, there are legitimate methods to enhance your Minecraft experience for free.",
           ],
+          image: {
+            src: MINECRAFT_IMAGES.minecoins,
+            alt: "Minecoins virtual currency",
+          },
         },
         {
           heading: "Proven Methods to Earn Free Minecraft Content",

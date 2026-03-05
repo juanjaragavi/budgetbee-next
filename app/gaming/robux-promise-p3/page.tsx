@@ -1,5 +1,9 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
-import { ROBLOX_THEME, FINANCIAL_RELATED_ARTICLES } from "@/lib/gaming-config";
+import {
+  ROBLOX_THEME,
+  ROBLOX_IMAGES,
+  FINANCIAL_RELATED_ARTICLES,
+} from "@/lib/gaming-config";
 
 export function generateMetadata() {
   return {
@@ -19,6 +23,10 @@ export default function RobuxPromiseP3() {
       badge="PRO PLAYER TIPS"
       title="Pro Player Tips for Earning Extra Robux"
       subtitle="Insider strategies from experienced Roblox players who never run out of Robux."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       sections={[
         {
           heading: "Think Like a Pro Player",
@@ -26,6 +34,7 @@ export default function RobuxPromiseP3() {
             "Professional Roblox players don't rely on a single method to earn Robux. They build a portfolio of earning strategies that generate a steady stream of currency week after week. The best part? Most of these strategies require more creativity than cash.",
             "Whether you're a builder, developer, or casual player, there's a pro-level approach that matches your skills and available time.",
           ],
+          image: { src: ROBLOX_IMAGES.coins, alt: "Robux virtual currency" },
         },
         {
           heading: "The Developer's Edge",

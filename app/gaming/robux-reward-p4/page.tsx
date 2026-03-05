@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   ROBLOX_THEME,
+  ROBLOX_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -25,6 +26,10 @@ export default function RobuxRewardP4() {
       badge="VERIFIED METHODS"
       title="Best Survey Apps That Pay in Robux Gift Cards"
       subtitle="Turn 15 minutes of daily surveys into Roblox gift cards with these top-rated apps."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       introParagraphs={[
         "Every method listed here has been verified by our team and is actively being used by thousands of Roblox players. We update this list regularly to remove methods that stop working and add new opportunities as they become available.",
         "Remember: the best strategy is to use multiple methods simultaneously. This maximizes your earning potential and ensures you always have ways to earn, even when one platform is having a slow day.",

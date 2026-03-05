@@ -1,8 +1,6 @@
-feat: add gaming pages, external CTAs to benefits pages, remove target=_blank
+feat: add images to gaming pages and migrate config to WebP format
 
-- Add gaming section with quiz, promise, and reward page templates
-- Add external "Apply Now at Official Website" CTA buttons to all 16 benefits pages linking to card issuer websites
-- Remove target="_blank" from all 15 external links across financial-solutions pages (same-tab navigation)
-- Add gaming components, templates, and configuration (gaming-config.ts)
-- Update UI components (badge, button, sheet) and analytics (topads)
-- Update package-lock.json with new dependencies
+- Add hero and section images to all 40 gaming promise and reward pages (Fortnite, Minecraft, Roblox)
+- Migrate gaming image references from SVG to WebP format in gaming-config.ts
+- Add new APP_IMAGES config for Microsoft Rewards, Swagbucks, Fetch Rewards, InboxDollars
+- Add gaming image download and integration utility scripts

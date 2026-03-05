@@ -1,6 +1,7 @@
 import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
 import {
   ROBLOX_THEME,
+  ROBLOX_IMAGES,
   FINANCIAL_RELATED_ARTICLES,
   makeMicrosoftRewardsCard,
   makeSwagbucksCard,
@@ -27,6 +28,10 @@ export default function RobuxRewardP3() {
       badge="RECEIPT REWARDS"
       title="Scan Receipts, Earn Robux: The Fetch Rewards Guide"
       subtitle="Turn your everyday shopping into Roblox gift cards — it takes seconds per receipt."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       introParagraphs={[
         "Fetch Rewards is one of the simplest earning apps available. Every time you shop for groceries, eat out, or buy gas, you can scan the receipt and earn points. Those points convert to gift cards — including Roblox gift cards. No coupon clipping, no special stores, no minimum purchase amounts.",
         "With over 10 million active users, Fetch Rewards has become the go-to app for gamers who want to turn their everyday spending into gaming rewards.",

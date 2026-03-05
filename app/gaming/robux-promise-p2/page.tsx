@@ -1,5 +1,9 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
-import { ROBLOX_THEME, FINANCIAL_RELATED_ARTICLES } from "@/lib/gaming-config";
+import {
+  ROBLOX_THEME,
+  ROBLOX_IMAGES,
+  FINANCIAL_RELATED_ARTICLES,
+} from "@/lib/gaming-config";
 
 export function generateMetadata() {
   return {
@@ -20,6 +24,10 @@ export default function RobuxPromiseP2() {
       badge="ROBUX STRATEGIES"
       title="Robux Earning Strategies for 2026"
       subtitle="We tested every method out there. Here's what's actually worth your time this year."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       sections={[
         {
           heading: "The Robux Economy in 2026",
@@ -27,6 +35,7 @@ export default function RobuxPromiseP2() {
             "Roblox continues to grow at an incredible pace, with the platform now hosting over 40 million experiences and a thriving creator economy worth billions. Robux remains the lifeblood of this ecosystem — the currency that powers everything from avatar customization to game passes and developer payments.",
             "With Robux prices unchanged ($4.99 for 400 Robux), savvy players have found creative ways to maximize their Robux without maxing out their wallets. The strategies that work in 2026 combine official Roblox programs with established third-party reward platforms.",
           ],
+          image: { src: ROBLOX_IMAGES.coins, alt: "Robux virtual currency" },
         },
         {
           heading: "Top Earning Strategies Ranked",

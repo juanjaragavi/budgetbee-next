@@ -1,5 +1,9 @@
 import GamingPromiseTemplate from "@/components/layout/gaming-promise-template";
-import { ROBLOX_THEME, FINANCIAL_RELATED_ARTICLES } from "@/lib/gaming-config";
+import {
+  ROBLOX_THEME,
+  ROBLOX_IMAGES,
+  FINANCIAL_RELATED_ARTICLES,
+} from "@/lib/gaming-config";
 
 export function generateMetadata() {
   return {
@@ -19,6 +23,10 @@ export default function RobuxPromiseP7() {
       badge="ROBLOX REWARDS"
       title="Customize Your Roblox Avatar for Free"
       subtitle="Unlock premium avatar items without spending Robux. Free accessories, clothing, and limited items."
+      heroImage={{
+        src: ROBLOX_IMAGES.hero,
+        alt: "Roblox gameplay and Robux rewards",
+      }}
       sections={[
         {
           heading: "Why This Matters for Roblox Players",
@@ -26,6 +34,7 @@ export default function RobuxPromiseP7() {
             "Roblox is more than just a game — it's a platform where creativity, social interaction, and digital commerce come together. With over 70 million daily active users, the demand for Robux has never been higher. Smart players know that the best way to keep playing is to learn how to earn without paying.",
             "In this guide, we break down the most effective approaches that real players are using right now to get the most out of their Roblox experience.",
           ],
+          image: { src: ROBLOX_IMAGES.coins, alt: "Robux virtual currency" },
         },
         {
           heading: "Methods That Actually Work",
