@@ -238,9 +238,17 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/td-flexpay-credit-card-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://www.td.com/us/en/personal-banking/credit-cards/flex-pay"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/td-flexpay-credit-card-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

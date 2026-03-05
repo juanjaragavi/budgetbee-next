@@ -209,9 +209,17 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/amazon-rewards-visa-credit-card-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/amazon-rewards-visa-credit-card-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

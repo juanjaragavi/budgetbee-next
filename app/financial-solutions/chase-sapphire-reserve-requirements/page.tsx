@@ -781,7 +781,6 @@ export default function ChaseSapphireReserveRequirementsPage() {
                 <div className="text-left my-8">
                   <a
                     href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#002855] hover:bg-[#003d7a] text-white font-medium text-md py-2 px-8 rounded-full w-full">

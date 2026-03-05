@@ -867,7 +867,6 @@ export default function BlueCashPreferredRequirementsPage() {
                 <div className="text-left my-8">
                   <a
                     href="https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#180053] hover:bg-[#2a0080] text-white font-medium text-md py-2 px-8 rounded-full w-full">

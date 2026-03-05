@@ -26,8 +26,8 @@ export default function CitiCustomCashCardPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to Your
-              Spending
+              Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to
+              Your Spending
             </h1>
             <div
               id="square02"
@@ -296,7 +296,6 @@ export default function CitiCustomCashCardPage() {
             <div className="text-left my-8">
               <a
                 href="https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
-                target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button className="bg-[#233A79] hover:bg-[#1a2b5c] text-white font-medium text-md py-2 px-8 rounded-full w-full">

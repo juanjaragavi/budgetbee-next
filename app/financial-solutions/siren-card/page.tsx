@@ -49,7 +49,6 @@ export default function SirenCardPage() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://sirencard.com/go"
-                    target="_blank"
                     rel="noopener noreferrer nofollow"
                     className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-full transition-colors duration-200 hover:opacity-90"
                     style={{ backgroundColor: "#007042" }}
@@ -803,7 +802,6 @@ export default function SirenCardPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="https://sirencard.com/go"
-                target="_blank"
                 rel="noopener noreferrer nofollow"
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-full transition-all duration-200 bg-white hover:bg-gray-100"
                 style={{ color: "#007042" }}

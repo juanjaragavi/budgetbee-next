@@ -1,6 +1,8 @@
-refactor: migrate remaining image URLs to media.topfinanzas.com CDN
+feat: add gaming pages, external CTAs to benefits pages, remove target=_blank
 
-- Migrate image URLs from us.topfinanzas.com/wp-content/uploads to media.topfinanzas.com/images across 20 financial solutions and listing pages
-- Update blog listing (app/blog/page.tsx), financial solutions listing (app/financial-solutions/page.tsx), and homepage (app/page.tsx) with new CDN paths
-- Update individual product benefit and requirement pages with consistent image URLs
-- Sync all allPosts arrays across listing pages with updated image references
+- Add gaming section with quiz, promise, and reward page templates
+- Add external "Apply Now at Official Website" CTA buttons to all 16 benefits pages linking to card issuer websites
+- Remove target="_blank" from all 15 external links across financial-solutions pages (same-tab navigation)
+- Add gaming components, templates, and configuration (gaming-config.ts)
+- Update UI components (badge, button, sheet) and analytics (topads)
+- Update package-lock.json with new dependencies

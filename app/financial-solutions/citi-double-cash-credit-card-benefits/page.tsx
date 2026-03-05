@@ -274,9 +274,17 @@ export default function CitiDoubleCashCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/citi-double-cash-credit-card-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://www.citi.com/credit-cards/citi-double-cash-credit-card"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/citi-double-cash-credit-card-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

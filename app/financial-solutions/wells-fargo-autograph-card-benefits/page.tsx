@@ -245,9 +245,17 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/wells-fargo-autograph-card-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/wells-fargo-autograph-card-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

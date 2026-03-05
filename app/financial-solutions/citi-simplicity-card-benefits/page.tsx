@@ -268,9 +268,17 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/citi-simplicity-card-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://www.citi.com/credit-cards/citi-simplicity-credit-card"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/citi-simplicity-card-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

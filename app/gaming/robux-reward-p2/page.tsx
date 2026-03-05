@@ -1,0 +1,59 @@
+import GamingRewardTemplate from "@/components/layout/gaming-reward-template";
+import {
+  ROBLOX_THEME,
+  FINANCIAL_RELATED_ARTICLES,
+  makeMicrosoftRewardsCard,
+  makeSwagbucksCard,
+  makeFetchRewardsCard,
+  makeInboxDollarsCard,
+} from "@/lib/gaming-config";
+
+export function generateMetadata() {
+  return {
+    title:
+      "Swagbucks & InboxDollars for Gamers — Earn Roblox Gift Cards — BudgetBee",
+    description:
+      "How to use Swagbucks and InboxDollars to earn free Roblox gift cards. Step-by-step guide for gamers who want Robux without paying.",
+    keywords:
+      "swagbucks robux, inboxdollars gaming, free roblox gift cards, earn robux apps",
+  };
+}
+
+export default function RobuxRewardP2() {
+  return (
+    <GamingRewardTemplate
+      themeColor={ROBLOX_THEME.color}
+      themeColorDark={ROBLOX_THEME.colorDark}
+      badge="GAMER REWARDS"
+      title="Swagbucks & InboxDollars: Your Robux Earning Toolkit"
+      subtitle="Turn your spare time into Roblox gift cards with these proven reward platforms."
+      introParagraphs={[
+        "Swagbucks and InboxDollars are two of the most established reward platforms in the world, with a combined user base of over 40 million people. Both platforms let you earn points or cash by completing simple online tasks — and those earnings can be converted directly into Roblox gift cards.",
+        "We've put together a complete breakdown of how each platform works, what you can expect to earn, and the best strategies for maximizing your rewards as a gamer.",
+      ]}
+      trustSignals={[
+        "Swagbucks has paid out over $800 million to members",
+        "InboxDollars has paid over $80 million in cash rewards",
+        "Both platforms have A+ BBB ratings",
+        "Available on iOS and Android",
+        "No Roblox account access required — you earn gift cards",
+      ]}
+      methods={[
+        makeSwagbucksCard(ROBLOX_THEME.color),
+        makeInboxDollarsCard(ROBLOX_THEME.color),
+        makeMicrosoftRewardsCard(ROBLOX_THEME.color, "Roblox"),
+        makeFetchRewardsCard(ROBLOX_THEME.color),
+      ]}
+      closingParagraphs={[
+        "The most successful earners use both Swagbucks and InboxDollars simultaneously. When one platform is low on available surveys, the other usually has options. This way, you always have something to do during your free time.",
+        "Pro tip: Set a daily goal of earning at least 100 SB on Swagbucks and $0.50 on InboxDollars. At that pace, you'll earn a $10 Roblox gift card roughly every 2-3 weeks from each platform.",
+      ]}
+      relatedArticles={FINANCIAL_RELATED_ARTICLES}
+      stickyBanner={{
+        text: "💰 Earn gift cards with Swagbucks — free to join!",
+        ctaLabel: "Join Swagbucks",
+        ctaHref: "https://www.swagbucks.com/",
+      }}
+    />
+  );
+}

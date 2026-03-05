@@ -320,9 +320,17 @@ export default function CitBankHomeLoansBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/cit-bank-home-loans-requirements">
+              <div className="my-8 flex flex-col items-center gap-4">
+                <a
+                  href="https://www.cit.com/cit-bank/platinum-savings/ps2025"
+                  rel="noopener noreferrer"
+                >
                   <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white px-8 py-3">
+                    Apply Now at Official Website
+                  </Button>
+                </a>
+                <Link href="/financial-solutions/cit-bank-home-loans-requirements">
+                  <Button variant="outline" className="px-8 py-3">
                     Learn About Requirements
                   </Button>
                 </Link>

@@ -340,7 +340,8 @@ export default function BlogArchivePage() {
       date: "27 October 2025",
     },
     {
-      title: "Chase Sapphire Reserve®: Premium Travel Rewards Card | BudgetBee",
+      title:
+        "Chase Sapphire Reserve®: Premium Travel Rewards Card | BudgetBee",
       slug: "chase-sapphire-reserve",
       description:
         "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",

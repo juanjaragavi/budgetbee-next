@@ -40,12 +40,12 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The Bank of America® Unlimited Cash Rewards credit card delivers
-                straightforward, unlimited cash back rewards without rotating
-                categories, spending caps, or annual fees. Earn an unlimited
-                1.5% cash back on every purchase you make—whether buying
-                groceries, filling up gas, booking travel, paying bills, or
-                shopping online. New cardholders receive a $200 online cash
+                The Bank of America® Unlimited Cash Rewards credit card
+                delivers straightforward, unlimited cash back rewards without
+                rotating categories, spending caps, or annual fees. Earn an
+                unlimited 1.5% cash back on every purchase you make—whether
+                buying groceries, filling up gas, booking travel, paying bills,
+                or shopping online. New cardholders receive a $200 online cash
                 rewards bonus after making at least $1,000 in purchases within
                 the first 90 days of account opening, plus enjoy a 0%
                 introductory APR on purchases and balance transfers for 18

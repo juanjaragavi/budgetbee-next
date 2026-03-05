@@ -409,11 +409,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
             </section>
 
             <div className="text-left my-8">
-              <a
-                href="https://www.self.inc/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.self.inc/" rel="noopener noreferrer">
                 <Button className="bg-primary hover:bg-primary-dark text-white hover:text-white font-medium text-md py-2 px-8 rounded-full w-full">
                   Apply at Self's Official Website
                 </Button>

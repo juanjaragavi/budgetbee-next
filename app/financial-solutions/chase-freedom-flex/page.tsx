@@ -210,9 +210,9 @@ export default function ChaseFreedomFlexPage() {
                   stays open, you can redeem any amount (no minimum redemption
                   threshold), and redemption options include statement credits,
                   direct deposits, checks, and gift cards. For cardholders who
-                  also hold a Chase Sapphire Preferred® or Reserve®, the points
-                  become even more valuable—you can combine your Freedom Flex
-                  points with Ultimate Rewards points and transfer them to
+                  also hold a Chase Sapphire Preferred® or Reserve®, the
+                  points become even more valuable—you can combine your Freedom
+                  Flex points with Ultimate Rewards points and transfer them to
                   airline and hotel partners at a 1:1 ratio, potentially
                   unlocking values of 1.5 to 2+ cents per point when booking
                   premium travel experiences.
@@ -484,7 +484,6 @@ export default function ChaseFreedomFlexPage() {
               <div className="text-left my-8">
                 <a
                   href="https://creditcards.chase.com/cash-back-credit-cards/freedom/flex"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="bg-[#2d65a7] hover:bg-[#244d85] text-white font-medium text-md py-2 px-8 rounded-full w-full">

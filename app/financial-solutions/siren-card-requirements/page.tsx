@@ -246,7 +246,6 @@ export default function SirenCardRequirementsPage() {
                           Visit{" "}
                           <a
                             href="https://sirencard.com/go"
-                            target="_blank"
                             rel="noopener noreferrer"
                             className="text-primary-dark hover:underline"
                           >
@@ -670,7 +669,6 @@ export default function SirenCardRequirementsPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
                       href="https://sirencard.com/go"
-                      target="_blank"
                       rel="noopener noreferrer nofollow"
                       className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-full transition-all duration-200 bg-white hover:bg-gray-100"
                       style={{ color: "#007042" }}
