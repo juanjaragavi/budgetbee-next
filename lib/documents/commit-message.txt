@@ -1,8 +1,7 @@
-fix(gaming): invert sticky banner color scheme and fix ad-image adjacency
+fix(analytics): replace foreign GTM container with authorized BudgetBee ID
 
-- Invert StickyBottomBanner to theme-colored background with white text,
-  white CTA button with theme-colored label, and white/opacity accents
-- Fix ad-image adjacency violation in gaming-promise-template by moving
-  square01 ad slot before section image so text always separates them
-- Improve sticky bottom banner responsive layout for mobile viewports
-- Delete unused GoogleTagManager.tsx component (replaced by analytics module)
+- Replace hardcoded GTM-MR76NXR3 (uk.topfinanzas.com) with GTM-MP4CPT97
+  (BudgetBee USA) in components/analytics/gtm.tsx
+- Eliminates cross-property data contamination from TopFinanzas UK and
+  uk.topfinanzas.com tags inherited via the foreign GTM container
+- Verified zero remaining references to foreign tag IDs in source files
