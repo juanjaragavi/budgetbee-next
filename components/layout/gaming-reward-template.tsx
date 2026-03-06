@@ -80,22 +80,6 @@ export default function GamingRewardTemplate({
         </div>
       </section>
 
-      {/* Ad Slot 1 — Below hero (with text buffer) */}
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-center text-xs text-gray-400 mt-6 mb-2">
-            Advertising
-          </p>
-          <div
-            id="square01"
-            data-topads
-            data-topads-size="square"
-            className="items-center justify-center flex w-full mb-2"
-          />
-          <p className="text-center text-xs text-gray-400 mb-6">Advertising</p>
-        </div>
-      </div>
-
       {/* Main content */}
       <article className="py-4 md:py-8">
         <div className="container mx-auto px-4">
@@ -124,6 +108,14 @@ export default function GamingRewardTemplate({
               </p>
             ))}
 
+            {/* Ad Slot 1 — After intro text content */}
+            <div
+              id="square01"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            />
+
             {/* Trust signals */}
             {trustSignals && trustSignals.length > 0 && (
               <div
@@ -151,27 +143,10 @@ export default function GamingRewardTemplate({
               </div>
             )}
 
-            {/* MOB Ad Pair — horizontal on mobile (benchmark pattern) */}
-            <div className="mb-8">
-              <p className="text-center text-xs text-gray-400 mb-2">
-                Advertising
-              </p>
-              <div className="grid grid-cols-2 gap-3">
-                <div
-                  data-topads
-                  data-topads-size="mob"
-                  className="items-center justify-center flex w-full"
-                />
-                <div
-                  data-topads
-                  data-topads-size="mob"
-                  className="items-center justify-center flex w-full"
-                />
-              </div>
-              <p className="text-center text-xs text-gray-400 mt-2">
-                Advertising
-              </p>
-            </div>
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Below are the top methods and apps recommended by experienced
+              players for earning rewards.
+            </p>
 
             {/* Method cards — all rendered sequentially, ad placed BETWEEN content sections, never between CTAs */}
             <div className="space-y-6 mb-8">
@@ -179,41 +154,23 @@ export default function GamingRewardTemplate({
                 <div key={`method-wrapper-${i}`}>
                   <GamingMethodCard {...method} />
 
-                  {/* Ad Slot 2 — After first half of methods (between content, NOT between CTAs) */}
+                  {/* Ad Slot 2 — After first half of methods */}
                   {i === Math.ceil(methods.length / 2) - 1 && (
-                    <>
-                      <p className="text-center text-xs text-gray-400 mt-6 mb-2">
-                        Advertising
-                      </p>
-                      <div
-                        id="square02"
-                        data-topads
-                        data-topads-size="square"
-                        className="items-center justify-center flex w-full mb-2"
-                      />
-                      <p className="text-center text-xs text-gray-400 mb-4">
-                        Advertising
-                      </p>
-                    </>
+                    <div
+                      id="square02"
+                      data-topads
+                      data-topads-size="square"
+                      className="items-center justify-center flex w-full my-8"
+                    />
                   )}
                 </div>
               ))}
             </div>
 
-            {/* Third MOB ad unit */}
-            <div className="mb-8">
-              <p className="text-center text-xs text-gray-400 mb-2">
-                Advertising
-              </p>
-              <div
-                data-topads
-                data-topads-size="mob"
-                className="items-center justify-center flex w-full"
-              />
-              <p className="text-center text-xs text-gray-400 mt-2">
-                Advertising
-              </p>
-            </div>
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Keep reading for additional tips on getting the most value from
+              these reward programs.
+            </p>
 
             {/* Closing paragraphs */}
             {closingParagraphs &&
@@ -226,18 +183,17 @@ export default function GamingRewardTemplate({
                 </p>
               ))}
 
-            {/* Ad Slot 3 — Before related content (with text buffer) */}
-            <p className="text-center text-xs text-gray-400 mt-6 mb-2">
-              Advertising
-            </p>
+            {/* Ad Slot 3 — Before related content */}
             <div
               id="square03"
               data-topads
               data-topads-size="square"
-              className="items-center justify-center flex w-full mb-2"
+              className="items-center justify-center flex w-full my-8"
             />
-            <p className="text-center text-xs text-gray-400 mb-6">
-              Advertising
+
+            <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+              Check out these popular guides from our financial experts for more
+              ways to save and earn.
             </p>
 
             {/* Related Financial Articles */}

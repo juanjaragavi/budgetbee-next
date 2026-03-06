@@ -24,14 +24,9 @@ export default function GoogleAds() {
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             
-            // Configure Google Ads with enhanced conversions
+            // Configure Google Ads with enhanced conversions (single config call)
             gtag('config', '${GOOGLE_ADS_ID}', {
               send_page_view: false,
-              allow_enhanced_conversions: true
-            });
-            
-            // Configure conversion tracking
-            gtag('config', '${GOOGLE_ADS_ID}', {
               allow_enhanced_conversions: true,
               enhanced_conversions: true
             });

@@ -167,25 +167,6 @@ export default function GamingQuizEntry({
             </div>
           )}
 
-          {/* Inline ad between quiz completion and CTA */}
-          {!hideAds && (phase === "loading" || phase === "cta") && (
-            <>
-              <p className="text-center text-xs text-gray-400 mt-6 mb-2">
-                Advertising
-              </p>
-              <div className="flex justify-center mb-2">
-                <div
-                  data-topads
-                  data-topads-size="square"
-                  className="items-center justify-center flex w-full"
-                />
-              </div>
-              <p className="text-center text-xs text-gray-400 mb-4">
-                Advertising
-              </p>
-            </>
-          )}
-
           {/* CTA phase */}
           {phase === "cta" && (
             <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
@@ -231,16 +212,18 @@ export default function GamingQuizEntry({
       {/* Ad Slot 1 — Below main content */}
       {!hideAds && (
         <div className="w-full max-w-lg mx-auto px-4">
-          <p className="text-center text-xs text-gray-400 mb-2">Advertising</p>
           <div
             id="square01"
             data-topads
             data-topads-size="square"
-            className="items-center justify-center flex w-full mb-2"
+            className="items-center justify-center flex w-full my-8"
           />
-          <p className="text-center text-xs text-gray-400 mb-4">Advertising</p>
         </div>
       )}
+
+      <p className="text-center text-xs text-gray-500 mb-2">
+        By continuing you agree to our terms of service.
+      </p>
 
       {/* Footer */}
       <div className="text-center py-4 text-xs text-gray-400">

@@ -1,10 +1,12 @@
-feat(gaming): add GA4 step-level analytics IDs and reduce quizzes to 2 questions
+fix(gaming): remove duplicate Advertising labels and unnamed ad slots
 
-- Add journeyId prop to GamingQuizEntry and GamingChatEntry components
-- Inject deterministic id attributes (paso-{step}-{journeyId}) on question
-  option container divs for GA4 event targeting
-- Trim QUESTIONS arrays from 3 to 2 in fortnite-quiz-01, fortnite-quiz-02,
-  robux-quiz-01, and robux-quiz-02 page files
-- Minecraft quiz pages already had 2 questions; no trimming needed
-- Pass journeyId prop from all 12 quiz and chat page.tsx files
-- Quiz progress counter now displays "Question N of 2" automatically
+- Remove all <p>Advertising</p> wrapper labels from gaming ad slots across
+  quiz-entry, chat-entry, promise-template, reward-template, and FAQ accordion
+- Remove unnamed inline data-topads divs (no square0{n} id) from quiz and
+  chat components to eliminate stacked disclosure labels
+- Remove unnamed MOB ad pairs from promise and reward templates
+- Relocate square01 slot from hero section to after first content section
+  in promise and reward templates for better ad placement
+- Deduplicate Google Ads gtag config call (single config with all options)
+- Improve sticky bottom banner responsive layout for mobile viewports
+- Delete unused GoogleTagManager.tsx component (replaced by analytics module)

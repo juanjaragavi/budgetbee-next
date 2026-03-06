@@ -127,13 +127,6 @@ export default function GamingChatEntry({
       <div className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full">
         <div className="space-y-4">
           {messages.map((msg, i) => {
-            // Count bot messages up to this index to place inline ads
-            const botCount = messages
-              .slice(0, i + 1)
-              .filter((m) => m.type === "bot").length;
-            const showInlineAd =
-              msg.type === "bot" && botCount > 0 && botCount % 2 === 0;
-
             return (
               <div key={`msg-${i}`}>
                 <div
@@ -154,15 +147,6 @@ export default function GamingChatEntry({
                     {msg.text}
                   </div>
                 </div>
-                {showInlineAd && (
-                  <div className="flex justify-center my-4">
-                    <div
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full"
-                    />
-                  </div>
-                )}
               </div>
             );
           })}
