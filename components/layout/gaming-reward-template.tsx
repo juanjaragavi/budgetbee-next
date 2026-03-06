@@ -117,7 +117,7 @@ export default function GamingRewardTemplate({
 
             {/* Ad Slot 1 — After intro text content */}
             <div
-              id="square01"
+              id="square02"
               data-topads
               data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
@@ -165,7 +165,7 @@ export default function GamingRewardTemplate({
                   {i === Math.ceil(methods.length / 2) - 1 && (
                     <>
                       <div
-                        id="square02"
+                        id="square03"
                         data-topads
                         data-topads-size="square"
                         className="items-center justify-center flex w-full my-8"
@@ -201,9 +201,9 @@ export default function GamingRewardTemplate({
                 </p>
               ))}
 
-            {/* Ad Slot 3 — Before related content */}
+            {/* Ad Slot 4 — Before related content */}
             <div
-              id="square03"
+              id="square04"
               data-topads
               data-topads-size="square"
               className="items-center justify-center flex w-full my-8"
