@@ -199,15 +199,9 @@ export default function TopAdsSPAHandler() {
 
         if (cameFromEntry) {
           // Nuclear option: re-inject the TopAds script so it starts fresh
-          // on the new non-excluded page, then call spa() after it loads.
+          // on the new non-excluded page. The script will auto-initialize
+          // upon load — no need to call triggerTopAdsSPA() which would interrupt it.
           reinjectTopAdsScript();
-          const followUp = window.setTimeout(() => {
-            browserLogger.info(
-              "[TopAds] Post-reinject SPA trigger for entry→enabled transition",
-            );
-            triggerTopAdsSPA();
-          }, 2000);
-          timers.push(followUp);
         } else {
           triggerTopAdsSPA();
         }
@@ -222,8 +216,6 @@ export default function TopAdsSPAHandler() {
         );
         if (cameFromEntry) {
           reinjectTopAdsScript();
-          const followUp = window.setTimeout(triggerTopAdsSPA, 2000);
-          timers.push(followUp);
         } else {
           triggerTopAdsSPA();
         }

@@ -1,7 +1,4 @@
-fix(ads): fix TopAds SDK URL mismatch & deduplicate square slot IDs
+fix(ads): prevent race condition wiping TopAds iframes on SPA transitions
 
-- Sync SPA handler script URL to ads.gamadx.com (was still topnetworks.co)
-- Broaden script removal selector to catch any topAds.min.js URL variant
-- Rename FAQ adSlotId from square04 to square05 across 20 promise pages
-  to eliminate duplicate DOM IDs with standalone square04 template slot
-- Resolves ad slot destruction on quiz→promise SPA transitions
+- Remove delayed topAds.spa() trigger after reinjectTopAdsScript
+- The re-injected TopAds script auto-initializes upon load, so triggering .spa() was destructively wiping the just-loaded ad creatives and leaving only the 'Advertising' placeholder text.
