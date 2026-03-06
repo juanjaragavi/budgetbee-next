@@ -229,8 +229,8 @@ export default function GamingRewardTemplate({
 
       <CompactFooter />
 
-      {/* Sticky bottom banner */}
-      <StickyBottomBanner
+      {/* Sticky bottom banner - temporarily hidden */}
+      {/* <StickyBottomBanner
         badge={stickyBanner.badge}
         headline={stickyBanner.headline}
         body={stickyBanner.body}
@@ -239,7 +239,7 @@ export default function GamingRewardTemplate({
         disclaimer={stickyBanner.disclaimer}
         themeColor={themeColor}
         themeColorDark={themeColorDark}
-      />
+      /> */}
     </main>
   );
 }

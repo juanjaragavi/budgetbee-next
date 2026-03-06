@@ -1,7 +1,5 @@
-refactor(gaming): shrink sticky banner and redirect CTA to promise pages
+feat(gaming): add quiz exclusions to TopAds, instrument CTA step, and hide StickyBottomBanner
 
-- Reduce StickyBottomBanner height: smaller padding, font sizes, and button
-- Remove target=_blank from CTA link for internal navigation
-- Update all 27 gaming pages to link to internal promise pages instead of
-  external Microsoft Rewards URL
-- Update banner copy: headline, body, CTA label, and disclaimer per game
+- Add /quiz-2, /quiz-results, and all 6 gaming quiz routes to TopAds pageSetting.exclude list
+- Add id="paso-3-{journeyId}" to CTA phase container in gaming-quiz-entry.tsx for complete GA4 funnel instrumentation
+- Temporarily comment out StickyBottomBanner in gaming-reward-template and gaming-promise-template

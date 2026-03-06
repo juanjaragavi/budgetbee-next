@@ -169,7 +169,10 @@ export default function GamingQuizEntry({
 
           {/* CTA phase */}
           {phase === "cta" && (
-            <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+            <div
+              id={`paso-3-${journeyId}`}
+              className="bg-white rounded-2xl shadow-lg p-8 text-center"
+            >
               {gameIcon && (
                 <div className="flex justify-center mb-4">
                   <div

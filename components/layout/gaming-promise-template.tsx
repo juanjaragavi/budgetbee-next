@@ -310,8 +310,8 @@ export default function GamingPromiseTemplate({
 
       <CompactFooter />
 
-      {/* Sticky bottom banner */}
-      {stickyBanner && (
+      {/* Sticky bottom banner - temporarily hidden */}
+      {/* {stickyBanner && (
         <StickyBottomBanner
           badge={stickyBanner.badge}
           headline={stickyBanner.headline}
@@ -322,7 +322,7 @@ export default function GamingPromiseTemplate({
           themeColor={themeColor}
           themeColorDark={themeColorDark}
         />
-      )}
+      )} */}
     </main>
   );
 }
