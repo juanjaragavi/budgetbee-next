@@ -82,6 +82,15 @@ export default function RobuxPromiseP6() {
         label: "See All Verified Methods",
         href: "/gaming/robux-reward-p6",
       }}
+      extraCtas={[
+        { label: "See safe Robux tips", href: "/gaming/robux-reward-p6" },
+        { label: "Learn legal methods", href: "/gaming/robux-reward-p6" },
+      ]}
+      stickyBanner={{
+        text: "🎮 Start earning free Robux today!",
+        ctaLabel: "Get Microsoft Rewards",
+        ctaHref: "https://rewards.microsoft.com/",
+      }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Don't wait — every day without these strategies is Robux you're leaving on the table. Check out the full methods guide and start earning today."
     />

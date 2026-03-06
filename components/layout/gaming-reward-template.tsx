@@ -80,15 +80,19 @@ export default function GamingRewardTemplate({
         </div>
       </section>
 
-      {/* Ad Slot 1 — Below hero */}
+      {/* Ad Slot 1 — Below hero (with text buffer) */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+            Advertising
+          </p>
           <div
             id="square01"
             data-topads
             data-topads-size="square"
-            className="items-center justify-center flex w-full my-8"
+            className="items-center justify-center flex w-full mb-2"
           />
+          <p className="text-center text-xs text-gray-400 mb-6">Advertising</p>
         </div>
       </div>
 
@@ -147,28 +151,68 @@ export default function GamingRewardTemplate({
               </div>
             )}
 
-            {/* Method cards — first half */}
-            <div className="space-y-6 mb-8">
-              {methods
-                .slice(0, Math.ceil(methods.length / 2))
-                .map((method, i) => (
-                  <GamingMethodCard key={`method-${i}`} {...method} />
-                ))}
+            {/* MOB Ad Pair — horizontal on mobile (benchmark pattern) */}
+            <div className="mb-8">
+              <p className="text-center text-xs text-gray-400 mb-2">
+                Advertising
+              </p>
+              <div className="grid grid-cols-2 gap-3">
+                <div
+                  data-topads
+                  data-topads-size="mob"
+                  className="items-center justify-center flex w-full"
+                />
+                <div
+                  data-topads
+                  data-topads-size="mob"
+                  className="items-center justify-center flex w-full"
+                />
+              </div>
+              <p className="text-center text-xs text-gray-400 mt-2">
+                Advertising
+              </p>
             </div>
 
-            {/* Ad Slot 2 — Mid-content */}
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="items-center justify-center flex w-full my-8"
-            />
-
-            {/* Method cards — second half */}
+            {/* Method cards — all rendered sequentially, ad placed BETWEEN content sections, never between CTAs */}
             <div className="space-y-6 mb-8">
-              {methods.slice(Math.ceil(methods.length / 2)).map((method, i) => (
-                <GamingMethodCard key={`method-h2-${i}`} {...method} />
+              {methods.map((method, i) => (
+                <div key={`method-wrapper-${i}`}>
+                  <GamingMethodCard {...method} />
+
+                  {/* Ad Slot 2 — After first half of methods (between content, NOT between CTAs) */}
+                  {i === Math.ceil(methods.length / 2) - 1 && (
+                    <>
+                      <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+                        Advertising
+                      </p>
+                      <div
+                        id="square02"
+                        data-topads
+                        data-topads-size="square"
+                        className="items-center justify-center flex w-full mb-2"
+                      />
+                      <p className="text-center text-xs text-gray-400 mb-4">
+                        Advertising
+                      </p>
+                    </>
+                  )}
+                </div>
               ))}
+            </div>
+
+            {/* Third MOB ad unit */}
+            <div className="mb-8">
+              <p className="text-center text-xs text-gray-400 mb-2">
+                Advertising
+              </p>
+              <div
+                data-topads
+                data-topads-size="mob"
+                className="items-center justify-center flex w-full"
+              />
+              <p className="text-center text-xs text-gray-400 mt-2">
+                Advertising
+              </p>
             </div>
 
             {/* Closing paragraphs */}
@@ -182,13 +226,19 @@ export default function GamingRewardTemplate({
                 </p>
               ))}
 
-            {/* Ad Slot 3 — Before related content */}
+            {/* Ad Slot 3 — Before related content (with text buffer) */}
+            <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+              Advertising
+            </p>
             <div
               id="square03"
               data-topads
               data-topads-size="square"
-              className="items-center justify-center flex w-full my-8"
+              className="items-center justify-center flex w-full mb-2"
             />
+            <p className="text-center text-xs text-gray-400 mb-6">
+              Advertising
+            </p>
 
             {/* Related Financial Articles */}
             {relatedArticles.length > 0 && (

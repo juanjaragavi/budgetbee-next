@@ -1,8 +1,18 @@
-refactor: remove AdZep ad provider, migrate fully to TopAds
+feat(gaming): implement stakeholder corrections for monetization flows
 
-- Delete all AdZep component files (adzep.tsx, adzep-spa-bridge, adzep-trackers, adzep-trigger, adzep-test, adzep-interstitial-blocker, adzep-accessibility-fix)
-- Delete AdZep utility files (lib/ads/activate-adzep.ts, config.ts, overlay.ts)
-- Remove AdZepActivateAds from Window type declaration
-- Remove dead AdController import from gaming-quiz-entry and gaming-chat-entry
-- Clean up stale AdZep CSS rules and uk_topfinanzas selectors from globals.css that could block TopAds interstitials and offerwalls on BudgetBee US
-- All gaming pages now served exclusively by TopAds with proper data-topads containers
+- Remove Q3 from Minecraft quizzes (minecraft-quiz-01, minecraft-quiz-02)
+- Add hideAds prop to quiz component; suppress ads on Minecraft quiz pages
+- Fix preloader re-trigger bug with phase guards in gaming-quiz-entry
+- Update fake-loading-state copy to "Loading Rewards…" variants
+- Add "Advertising" text separators around all ad slots (templates + quiz)
+- Restructure reward template to prevent ad-between-CTAs (single loop)
+- Add MOB horizontal ad pair (grid-cols-2) to both templates
+- Add third MOB ad unit to promise and reward templates
+- Fix TopAds first-paint loading with retry logic in SPA handler
+- Create gaming-vertical-banner-ad and gaming-popup-ad components
+- Update Roblox promise pages (p1-p7) with extraCtas and stickyBanner
+- Enhance method card copy with gaming-contextual descriptions and CTAs
+- Make method card name clickable (Link to CTA href)
+- Remove trust signals green box from minecraft-reward-p1
+- Expand content on key entry-point pages (promise + reward)
+- Remove unused Twitter/Facebook preconnect hints from resource-hints

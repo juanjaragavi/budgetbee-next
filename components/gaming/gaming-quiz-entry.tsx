@@ -31,6 +31,8 @@ export interface GamingQuizEntryProps {
   redirectTo: string;
   /** Optional game icon/image URL */
   gameIcon?: string;
+  /** Hide all ad slots on this quiz page */
+  hideAds?: boolean;
 }
 
 type Phase = "quiz" | "loading" | "cta";
@@ -46,6 +48,7 @@ export default function GamingQuizEntry({
   ctaSecondaryText = "View sponsored recommendation to continue",
   redirectTo,
   gameIcon,
+  hideAds = false,
 }: GamingQuizEntryProps) {
   const router = useRouter();
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -55,14 +58,15 @@ export default function GamingQuizEntry({
     const nextIndex = currentQuestion + 1;
     if (nextIndex < questions.length) {
       setCurrentQuestion(nextIndex);
-    } else {
-      // All questions answered → show loading
+    } else if (phase === "quiz") {
+      // Guard: only transition to loading from quiz phase (prevents re-trigger)
       setPhase("loading");
     }
-  }, [currentQuestion, questions.length]);
+  }, [currentQuestion, questions.length, phase]);
 
   const handleLoadingComplete = useCallback(() => {
-    setPhase("cta");
+    // Guard: only transition to cta from loading phase
+    setPhase((prev) => (prev === "loading" ? "cta" : prev));
   }, []);
 
   const handleCta = useCallback(() => {
@@ -75,7 +79,6 @@ export default function GamingQuizEntry({
 
   return (
     <section className="w-full min-h-screen flex flex-col bg-gray-50">
-
       <div className="flex-1 flex items-center justify-center px-4 py-8">
         <div className="w-full max-w-lg">
           {/* Game icon */}
@@ -159,14 +162,22 @@ export default function GamingQuizEntry({
           )}
 
           {/* Inline ad between quiz completion and CTA */}
-          {(phase === "loading" || phase === "cta") && (
-            <div className="flex justify-center my-6">
-              <div
-                data-topads
-                data-topads-size="square"
-                className="items-center justify-center flex w-full"
-              />
-            </div>
+          {!hideAds && (phase === "loading" || phase === "cta") && (
+            <>
+              <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+                Advertising
+              </p>
+              <div className="flex justify-center mb-2">
+                <div
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full"
+                />
+              </div>
+              <p className="text-center text-xs text-gray-400 mb-4">
+                Advertising
+              </p>
+            </>
           )}
 
           {/* CTA phase */}
@@ -212,14 +223,18 @@ export default function GamingQuizEntry({
       </div>
 
       {/* Ad Slot 1 — Below main content */}
-      <div className="w-full max-w-lg mx-auto px-4">
-        <div
-          id="square01"
-          data-topads
-          data-topads-size="square"
-          className="items-center justify-center flex w-full my-8"
-        />
-      </div>
+      {!hideAds && (
+        <div className="w-full max-w-lg mx-auto px-4">
+          <p className="text-center text-xs text-gray-400 mb-2">Advertising</p>
+          <div
+            id="square01"
+            data-topads
+            data-topads-size="square"
+            className="items-center justify-center flex w-full mb-2"
+          />
+          <p className="text-center text-xs text-gray-400 mb-4">Advertising</p>
+        </div>
+      )}
 
       {/* Footer */}
       <div className="text-center py-4 text-xs text-gray-400">

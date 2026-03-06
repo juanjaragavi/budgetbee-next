@@ -89,16 +89,17 @@ export function makeMicrosoftRewardsCard(
   return {
     name: "Microsoft Rewards",
     icon: "🏆",
-    description: `Earn points by searching with Bing, completing daily challenges, and taking quizzes. Redeem points for ${gameName} gift cards directly from Microsoft.`,
+    description: `The #1 free way to earn ${gameName} gift cards. Earn points by searching with Bing, completing daily challenges, and taking quizzes — then redeem directly for ${gameName} gift cards from Microsoft.`,
     badges: ["Official", "Verified"],
     features: [
       "Completely free to join — just use a Microsoft account",
       `Earn points daily through Bing searches and quizzes`,
       `Redeem for ${gameName} gift cards and Xbox credit`,
       "Available on desktop and mobile (Microsoft Edge)",
+      "Trusted by millions of gamers worldwide",
     ],
     cta: {
-      label: "Start Earning with Microsoft Rewards",
+      label: `Start Earning ${gameName} Rewards Now`,
       href: "https://rewards.microsoft.com/",
     },
     downloadLinks: [
@@ -113,16 +114,17 @@ export function makeSwagbucksCard(themeColor: string): MethodCardProps {
     name: "Swagbucks",
     icon: "💰",
     description:
-      "One of the most popular reward platforms. Earn points (SB) by watching videos, taking surveys, shopping online, and playing games. Redeem for gift cards.",
+      "One of the most popular reward platforms among gamers. Earn points (SB) by watching videos, taking surveys, shopping online, and even playing games. Redeem for gaming gift cards and more.",
     badges: ["Popular", "Trusted"],
     features: [
       "Multiple ways to earn: surveys, videos, shopping, games",
       "Cash out via PayPal or gift cards (Amazon, Visa, etc.)",
       "$10 sign-up bonus for new members",
       "Over 20 million members worldwide",
+      "Redeem for gaming gift cards (Roblox, Xbox, PlayStation)",
     ],
     cta: {
-      label: "Join Swagbucks Free",
+      label: "Join Swagbucks Free — Start Earning",
       href: "https://www.swagbucks.com/",
     },
     downloadLinks: [
@@ -144,16 +146,17 @@ export function makeFetchRewardsCard(themeColor: string): MethodCardProps {
     name: "Fetch Rewards",
     icon: "🧾",
     description:
-      "Snap photos of your grocery receipts and earn points automatically. No coupon clipping required — every receipt counts toward gift cards.",
+      "Turn everyday shopping receipts into gaming gift cards. Snap photos of your grocery receipts and earn points automatically — no coupon clipping required. Every receipt counts toward your next in-game purchase.",
     badges: ["Easy", "Popular"],
     features: [
       "Just scan any receipt — groceries, restaurants, gas stations",
       "Earn bonus points on featured brands",
       "Redeem for gift cards (Amazon, Target, Visa, and more)",
       "No minimum receipt amount required",
+      "Perfect for earning gaming gift cards passively",
     ],
     cta: {
-      label: "Download Fetch Rewards",
+      label: "Download Fetch Rewards — It's Free",
       href: "https://fetchrewards.com/",
     },
     downloadLinks: [
@@ -175,16 +178,17 @@ export function makeInboxDollarsCard(themeColor: string): MethodCardProps {
     name: "InboxDollars",
     icon: "📧",
     description:
-      "Get paid in real cash for reading emails, watching videos, taking surveys, and playing games. Over $80 million paid to members.",
+      "Get paid in real cash for reading emails, watching videos, taking surveys, and playing games. Over $80 million paid to members. Convert your earnings into gaming gift cards.",
     badges: ["Cash Rewards", "Established"],
     features: [
       "Earn real cash — not just points",
       "$5 bonus just for signing up",
       "Multiple earning methods: emails, surveys, videos, games",
       "Cash out via check or gift card",
+      "Great for supplementing other reward apps",
     ],
     cta: {
-      label: "Sign Up for InboxDollars",
+      label: "Sign Up Free — Get $5 Bonus",
       href: "https://www.inboxdollars.com/",
     },
     downloadLinks: [

@@ -5,6 +5,7 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import GamingFaqAccordion, {
   type FaqItem,
 } from "@/components/gaming/gaming-faq-accordion";
+import StickyBottomBanner from "@/components/gaming/sticky-bottom-banner";
 
 export interface ContentSection {
   heading: string;
@@ -41,10 +42,18 @@ export interface GamingPromiseTemplateProps {
   faqItems: FaqItem[];
   /** Primary CTA (link to reward page) */
   cta: { label: string; href: string };
+  /** Optional extra CTAs for 3+1 pattern on promise pages */
+  extraCtas?: { label: string; href: string }[];
   /** Related financial articles */
   relatedArticles: RelatedArticle[];
   /** SEO content closing paragraph */
   closingParagraph?: string;
+  /** Sticky bottom banner config */
+  stickyBanner?: {
+    text: string;
+    ctaLabel: string;
+    ctaHref: string;
+  };
 }
 
 export default function GamingPromiseTemplate({
@@ -57,11 +66,15 @@ export default function GamingPromiseTemplate({
   sections,
   faqItems,
   cta,
+  extraCtas,
   relatedArticles,
   closingParagraph,
+  stickyBanner,
 }: GamingPromiseTemplateProps) {
   return (
-    <main className="flex min-h-screen flex-col bg-white">
+    <main
+      className={`flex min-h-screen flex-col bg-white${stickyBanner ? " pb-16" : ""}`}
+    >
       <Header />
 
       {/* Hero */}
@@ -87,15 +100,19 @@ export default function GamingPromiseTemplate({
         </div>
       </section>
 
-      {/* Ad Slot 1 — Below hero */}
+      {/* Ad Slot 1 — Below hero (with text buffer from hero/CTA) */}
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
+          <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+            Advertising
+          </p>
           <div
             id="square01"
             data-topads
             data-topads-size="square"
-            className="items-center justify-center flex w-full my-8"
+            className="items-center justify-center flex w-full mb-2"
           />
+          <p className="text-center text-xs text-gray-400 mb-6">Advertising</p>
         </div>
       </div>
 
@@ -117,8 +134,8 @@ export default function GamingPromiseTemplate({
               </div>
             )}
 
-            {/* CTA button — top */}
-            <div className="mb-8">
+            {/* CTA buttons — top (3 CTAs for benchmark pattern) */}
+            <div className="mb-8 space-y-3">
               <Link
                 href={cta.href}
                 className="block w-full py-4 px-6 rounded-xl text-white font-bold text-lg text-center transition-all duration-200 hover:opacity-90 shadow-lg"
@@ -126,6 +143,42 @@ export default function GamingPromiseTemplate({
               >
                 {cta.label} →
               </Link>
+              {extraCtas?.map((ec, i) => (
+                <Link
+                  key={`extra-cta-${i}`}
+                  href={ec.href}
+                  className="block w-full py-3 px-6 rounded-xl font-semibold text-center transition-all duration-200 hover:opacity-90 shadow-md border-2"
+                  style={{
+                    color: themeColor,
+                    borderColor: themeColor,
+                    backgroundColor: `${themeColor}08`,
+                  }}
+                >
+                  {ec.label} →
+                </Link>
+              ))}
+            </div>
+
+            {/* MOB Ad Pair — horizontal on mobile (benchmark pattern) */}
+            <div className="mb-8">
+              <p className="text-center text-xs text-gray-400 mb-2">
+                Advertising
+              </p>
+              <div className="grid grid-cols-2 gap-3">
+                <div
+                  data-topads
+                  data-topads-size="mob"
+                  className="items-center justify-center flex w-full"
+                />
+                <div
+                  data-topads
+                  data-topads-size="mob"
+                  className="items-center justify-center flex w-full"
+                />
+              </div>
+              <p className="text-center text-xs text-gray-400 mt-2">
+                Advertising
+              </p>
             </div>
 
             {/* Content sections */}
@@ -186,12 +239,37 @@ export default function GamingPromiseTemplate({
 
                   {/* Insert mid-content ad after the second section */}
                   {i === 1 && (
-                    <div
-                      id="square02"
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full my-8"
-                    />
+                    <>
+                      <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+                        Advertising
+                      </p>
+                      <div
+                        id="square02"
+                        data-topads
+                        data-topads-size="square"
+                        className="items-center justify-center flex w-full mb-2"
+                      />
+                      <p className="text-center text-xs text-gray-400 mb-4">
+                        Advertising
+                      </p>
+                    </>
+                  )}
+
+                  {/* Insert third MOB ad pair after section 3 */}
+                  {i === 2 && (
+                    <div className="my-6">
+                      <p className="text-center text-xs text-gray-400 mb-2">
+                        Advertising
+                      </p>
+                      <div
+                        data-topads
+                        data-topads-size="mob"
+                        className="items-center justify-center flex w-full"
+                      />
+                      <p className="text-center text-xs text-gray-400 mt-2">
+                        Advertising
+                      </p>
+                    </div>
                   )}
                 </section>
               );
@@ -218,24 +296,30 @@ export default function GamingPromiseTemplate({
               </p>
             )}
 
-            {/* CTA button — bottom */}
+            {/* CTA button — bottom (large) */}
             <div className="mb-8">
               <Link
                 href={cta.href}
-                className="block w-full py-4 px-6 rounded-xl text-white font-bold text-lg text-center transition-all duration-200 hover:opacity-90 shadow-lg"
+                className="block w-full py-5 px-6 rounded-xl text-white font-bold text-xl text-center transition-all duration-200 hover:opacity-90 shadow-lg"
                 style={{ backgroundColor: themeColor }}
               >
                 {cta.label} →
               </Link>
             </div>
 
-            {/* Ad Slot 3 — Before related content */}
+            {/* Ad Slot 3 — Before related content (with text buffer) */}
+            <p className="text-center text-xs text-gray-400 mt-6 mb-2">
+              Advertising
+            </p>
             <div
               id="square03"
               data-topads
               data-topads-size="square"
-              className="items-center justify-center flex w-full my-8"
+              className="items-center justify-center flex w-full mb-2"
             />
+            <p className="text-center text-xs text-gray-400 mb-6">
+              Advertising
+            </p>
 
             {/* Related Financial Articles */}
             {relatedArticles.length > 0 && (
@@ -266,6 +350,16 @@ export default function GamingPromiseTemplate({
       </article>
 
       <CompactFooter />
+
+      {/* Sticky bottom banner */}
+      {stickyBanner && (
+        <StickyBottomBanner
+          text={stickyBanner.text}
+          ctaLabel={stickyBanner.ctaLabel}
+          ctaHref={stickyBanner.ctaHref}
+          themeColor={themeColor}
+        />
+      )}
     </main>
   );
 }

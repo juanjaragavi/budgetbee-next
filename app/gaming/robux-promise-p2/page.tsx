@@ -103,6 +103,15 @@ export default function RobuxPromiseP2() {
         label: "See the Best Earning Apps for Robux",
         href: "/gaming/robux-reward-p2",
       }}
+      extraCtas={[
+        { label: "See safe Robux tips", href: "/gaming/robux-reward-p2" },
+        { label: "Learn legal methods", href: "/gaming/robux-reward-p2" },
+      ]}
+      stickyBanner={{
+        text: "🎮 Start earning free Robux today!",
+        ctaLabel: "Get Microsoft Rewards",
+        ctaHref: "https://rewards.microsoft.com/",
+      }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="The smartest Roblox players in 2026 aren't spending more — they're earning smarter. Check out our curated list of the best apps and methods to start building your Robux balance today."
     />

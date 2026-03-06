@@ -44,7 +44,11 @@ export default function GamingMethodCard({
         <div className="flex items-center gap-3">
           {icon && <span className="text-3xl">{icon}</span>}
           <div>
-            <h3 className="text-xl font-bold">{name}</h3>
+            <h3 className="text-xl font-bold">
+              <Link href={cta.href} className="hover:underline text-white">
+                {name}
+              </Link>
+            </h3>
             {badges && badges.length > 0 && (
               <div className="flex gap-2 mt-1">
                 {badges.map((badge) => (

@@ -73,6 +73,27 @@ export default function FortnitePromiseP1() {
             "InboxDollars — get paid cash for emails and surveys",
           ],
         },
+        {
+          heading: "V-Bucks Scams to Avoid",
+          paragraphs: [
+            "For every legitimate method, there are dozens of scams trying to steal your Epic Games account. Protect yourself by knowing the red flags:",
+          ],
+          bullets: [
+            'V-Bucks generators or "free V-Bucks" websites — always fake and designed to phish your login',
+            "YouTube videos linking to external sites that promise instant V-Bucks",
+            'Discord servers requiring personal or account info for "giveaways"',
+            "Apps not listed on official app stores claiming to generate V-Bucks",
+            "Anyone asking for your Epic Games password or two-factor authentication codes",
+          ],
+        },
+        {
+          heading: "How Fortnite Players Maximize Free Earnings",
+          level: "h3",
+          paragraphs: [
+            "The smartest Fortnite players combine in-game earning with external reward apps. A typical routine looks like this: complete your daily Save the World quests for 50-100 V-Bucks, do your Microsoft Rewards daily set while loading into a match, and scan any receipts you have on Fetch Rewards.",
+            "This multi-channel approach adds up fast — players consistently report earning 2,000-4,000 V-Bucks worth of rewards per month, enough for a Battle Pass and several Item Shop purchases.",
+          ],
+        },
       ]}
       faqItems={[
         {

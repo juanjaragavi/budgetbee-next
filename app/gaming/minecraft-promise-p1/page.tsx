@@ -73,6 +73,32 @@ export default function MinecraftPromiseP1() {
             "Microsoft Rewards — daily searches and quizzes",
           ],
         },
+        {
+          heading: "Avoiding Minecoin Scams",
+          paragraphs: [
+            "As with any popular game currency, scammers target Minecraft players with fake offers. Keep yourself safe by following these rules:",
+          ],
+          bullets: [
+            "Never download third-party tools claiming to generate Minecoins",
+            "Don't share your Microsoft or Minecraft account credentials on any external site",
+            'Avoid websites promising "unlimited Minecoins" — they\'re phishing traps',
+            "Only redeem gift cards through the official Minecraft Marketplace or Xbox Store",
+            "Report any suspicious sites or apps to Minecraft support",
+          ],
+        },
+        {
+          heading: "What Can You Unlock with Free Minecoins?",
+          level: "h3",
+          paragraphs: [
+            "The Minecraft Marketplace has over 1,200 items across skins, skin packs, texture packs, worlds, and mash-up packs — created both by Mojang Studios and verified community creators. With consistent earning, you could unlock:",
+          ],
+          bullets: [
+            "Character creator items (100–300 Minecoins) — individual skins, capes, and accessories",
+            "Skin packs (400–800 Minecoins) — themed collections like Superheroes or Holidays",
+            "Texture packs (300–600 Minecoins) — completely transform your world's visual style",
+            "Adventure worlds (800–1,500 Minecoins) — full pre-built experiences and maps",
+          ],
+        },
       ]}
       faqItems={[
         {

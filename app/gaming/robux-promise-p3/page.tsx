@@ -90,6 +90,15 @@ export default function RobuxPromiseP3() {
         label: "Discover the Best Reward Apps",
         href: "/gaming/robux-reward-p3",
       }}
+      extraCtas={[
+        { label: "See safe Robux tips", href: "/gaming/robux-reward-p3" },
+        { label: "Learn legal methods", href: "/gaming/robux-reward-p3" },
+      ]}
+      stickyBanner={{
+        text: "🎮 Start earning free Robux today!",
+        ctaLabel: "Get Microsoft Rewards",
+        ctaHref: "https://rewards.microsoft.com/",
+      }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Ready to level up your Robux earning game? Check out our handpicked selection of reward apps that pro players swear by."
     />

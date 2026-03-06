@@ -14,10 +14,10 @@ interface FakeLoadingStateProps {
 }
 
 const LOADING_STEPS = [
-  "Analyzing your profile…",
-  "Searching for the best rewards…",
-  "Matching opportunities to your preferences…",
-  "Almost ready…",
+  "Loading Rewards…",
+  "Finding the best rewards for you…",
+  "Matching your top earning options…",
+  "Your rewards are almost ready…",
 ];
 
 export default function FakeLoadingState({

@@ -78,6 +78,26 @@ export default function RobuxPromiseP1() {
             "Report scam sites to Roblox through their official support channels",
           ],
         },
+        {
+          heading: "Maximizing Your Earnings: A Weekly Plan",
+          paragraphs: [
+            "The players who earn the most Robux treat it like a routine. Here's a proven weekly schedule that combines multiple methods for maximum results:",
+          ],
+          bullets: [
+            "Monday–Friday: Complete Microsoft Rewards daily set and 30 Bing searches (~5 min/day)",
+            "Saturday: Stack Swagbucks surveys while watching TV or gaming (~20 min)",
+            "After every grocery trip: Scan receipts with Fetch Rewards (~30 sec each)",
+            "Weekly: Check InboxDollars for new high-value email offers and short videos",
+          ],
+        },
+        {
+          heading: "How Long Until You See Results?",
+          level: "h3",
+          paragraphs: [
+            "Most new users earn their first $5 Roblox gift card within 2–3 weeks using just Microsoft Rewards. When you add Swagbucks and Fetch Rewards into the mix, that timeline can drop to 10–14 days.",
+            "The key is consistency. Players who stick with it for 3 months typically report earning $15–$25 in gift cards per month — enough for 2,000–3,400 Robux without spending a penny.",
+          ],
+        },
       ]}
       faqItems={[
         {
@@ -110,6 +130,15 @@ export default function RobuxPromiseP1() {
       cta={{
         label: "See the Best Robux Earning Methods",
         href: "/gaming/robux-reward-p1",
+      }}
+      extraCtas={[
+        { label: "See safe Robux tips", href: "/gaming/robux-reward-p1" },
+        { label: "Learn legal methods", href: "/gaming/robux-reward-p1" },
+      ]}
+      stickyBanner={{
+        text: "🎮 Start earning free Robux today!",
+        ctaLabel: "Get Microsoft Rewards",
+        ctaHref: "https://rewards.microsoft.com/",
       }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Ready to start earning Robux without spending money? Check out our complete guide to the best reward apps and methods that are working right now in 2026. Every method we recommend has been verified and tested by real Roblox players."

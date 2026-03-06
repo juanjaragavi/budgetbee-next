@@ -20,15 +20,6 @@ const QUESTIONS = [
       { label: "Yes, regularly", value: "regular" },
     ],
   },
-  {
-    id: "platform",
-    question: "What device do you play on?",
-    options: [
-      { label: "PC / Mac", value: "pc" },
-      { label: "Console (Xbox/PlayStation/Switch)", value: "console" },
-      { label: "Mobile", value: "mobile" },
-    ],
-  },
 ];
 export default function MinecraftQuiz02Page() {
   return (
@@ -42,6 +33,7 @@ export default function MinecraftQuiz02Page() {
       ctaButtonText="Show Me Free Content!"
       redirectTo="/gaming/minecraft-promise-p2"
       gameIcon="⛏️"
+      hideAds
     />
   );
 }

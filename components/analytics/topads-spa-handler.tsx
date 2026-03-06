@@ -16,6 +16,41 @@ export default function TopAdsSPAHandler() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const isInitialMount = useRef(true);
+  const hasTriggeredInitial = useRef(false);
+
+  // Trigger TopAds on initial page load once the script is available
+  useEffect(() => {
+    if (hasTriggeredInitial.current) return;
+
+    const tryInitialActivation = () => {
+      if (
+        typeof window !== "undefined" &&
+        window.topAds &&
+        typeof window.topAds.spa === "function"
+      ) {
+        browserLogger.info("[TopAds] Initial page load activation");
+        window.topAds.spa();
+        hasTriggeredInitial.current = true;
+        return true;
+      }
+      return false;
+    };
+
+    // Try immediately
+    if (tryInitialActivation()) return;
+
+    // Retry with backoff until script is loaded (up to 5s)
+    let attempt = 0;
+    const maxAttempts = 10;
+    const timer = setInterval(() => {
+      attempt++;
+      if (tryInitialActivation() || attempt >= maxAttempts) {
+        clearInterval(timer);
+      }
+    }, 500);
+
+    return () => clearInterval(timer);
+  }, []);
 
   useEffect(() => {
     if (isInitialMount.current) {

@@ -19,15 +19,6 @@ const QUESTIONS = [
       { label: "Both", value: "both" },
     ],
   },
-  {
-    id: "interest",
-    question: "What are you most interested in?",
-    options: [
-      { label: "Free Minecoins", value: "minecoins" },
-      { label: "Free skins & texture packs", value: "skins" },
-      { label: "All free content", value: "all" },
-    ],
-  },
 ];
 export default function MinecraftQuiz01Page() {
   return (
@@ -42,6 +33,7 @@ export default function MinecraftQuiz01Page() {
       ctaSecondaryText="View sponsored recommendation to continue"
       redirectTo="/gaming/minecraft-promise-p1"
       gameIcon="⛏️"
+      hideAds
     />
   );
 }

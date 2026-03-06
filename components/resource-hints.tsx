@@ -35,21 +35,6 @@ export default function ResourceHints() {
         crossOrigin="anonymous"
       />
       <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-
-      {/* Add preconnect for potential social media embeds - lower priority */}
-      <link
-        rel="preconnect"
-        href="https://platform.twitter.com"
-        crossOrigin="anonymous"
-      />
-      <link rel="dns-prefetch" href="https://platform.twitter.com" />
-
-      <link
-        rel="preconnect"
-        href="https://connect.facebook.net"
-        crossOrigin="anonymous"
-      />
-      <link rel="dns-prefetch" href="https://connect.facebook.net" />
     </>
   );
 }
