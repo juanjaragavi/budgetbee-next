@@ -1,4 +1,4 @@
-fix(ads): prevent race condition wiping TopAds iframes on SPA transitions
+feat: add TopAds rewarded overlay to gaming promise template
 
-- Remove delayed topAds.spa() trigger after reinjectTopAdsScript
-- The re-injected TopAds script auto-initializes upon load, so triggering .spa() was destructively wiping the just-loaded ad creatives and leaving only the 'Advertising' placeholder text.
+- Integated full-screen rewarded overlay ad unit activated via data-topads-rewarded attribute immediately after the <main> tag in gaming-promise-template.tsx
+- Added iteration 14 documentation outlining rewarded overlay ad unit requirements

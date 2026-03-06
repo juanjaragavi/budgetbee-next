@@ -78,6 +78,10 @@ export default function GamingPromiseTemplate({
     <main
       className={`flex min-h-screen flex-col bg-white${stickyBanner ? " pb-16" : ""}`}
     >
+      <div
+        data-topads-rewarded
+        data-topads-texts='{"title":"See how to get Robux","description":"Discover the best ways to get Robux quickly","CTA":"See quick methods","disclaimer":"To continue, it will be necessary to watch an ad."}'
+      />
       <Header />
 
       {/* Hero */}
