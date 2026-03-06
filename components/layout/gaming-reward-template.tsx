@@ -5,6 +5,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import GamingMethodCard, {
   type MethodCardProps,
 } from "@/components/gaming/gaming-method-card";
+import GamingCtaBanner, {
+  type GamingCtaBannerProps,
+} from "@/components/gaming/gaming-cta-banner";
 import StickyBottomBanner from "@/components/gaming/sticky-bottom-banner";
 import type { RelatedArticle } from "@/components/layout/gaming-promise-template";
 
@@ -40,6 +43,8 @@ export interface GamingRewardTemplateProps {
     ctaHref: string;
     disclaimer?: string;
   };
+  /** Inline CTA banner config (image-led card between method groups) */
+  ctaBanner?: GamingCtaBannerProps;
 }
 
 export default function GamingRewardTemplate({
@@ -55,6 +60,7 @@ export default function GamingRewardTemplate({
   closingParagraphs,
   relatedArticles,
   stickyBanner,
+  ctaBanner,
 }: GamingRewardTemplateProps) {
   return (
     <main className="flex min-h-screen flex-col bg-white pb-16">
@@ -159,12 +165,23 @@ export default function GamingRewardTemplate({
 
                   {/* Ad Slot 2 — After first half of methods */}
                   {i === Math.ceil(methods.length / 2) - 1 && (
-                    <div
-                      id="square02"
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full my-8"
-                    />
+                    <>
+                      <div
+                        id="square02"
+                        data-topads
+                        data-topads-size="square"
+                        className="items-center justify-center flex w-full my-8"
+                      />
+
+                      {/* Text separator for ad compliance */}
+                      <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                        Looking for the safest way to earn rewards? Check out
+                        this verified recommendation from our team.
+                      </p>
+
+                      {/* Inline CTA Banner */}
+                      {ctaBanner && <GamingCtaBanner {...ctaBanner} />}
+                    </>
                   )}
                 </div>
               ))}

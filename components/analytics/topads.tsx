@@ -39,12 +39,6 @@ export default function TopAds() {
                 status: "active",
                 exclude: [
                   "/credit-card-recommender-p3",
-                  "/gaming/fortnite-quiz-01",
-                  "/gaming/fortnite-quiz-02",
-                  "/gaming/minecraft-quiz-01",
-                  "/gaming/minecraft-quiz-02",
-                  "/gaming/robux-quiz-01",
-                  "/gaming/robux-quiz-02",
                 ],
               },
               offerwall: {
@@ -55,12 +49,6 @@ export default function TopAds() {
                 exclude: [
                   "/credit-card-recommender-p2",
                   "/credit-card-recommender-p3",
-                  "/gaming/fortnite-quiz-01",
-                  "/gaming/fortnite-quiz-02",
-                  "/gaming/minecraft-quiz-01",
-                  "/gaming/minecraft-quiz-02",
-                  "/gaming/robux-quiz-01",
-                  "/gaming/robux-quiz-02",
                 ],
               },
             },

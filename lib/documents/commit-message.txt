@@ -1,5 +1,8 @@
-feat(gaming): add quiz exclusions to TopAds, instrument CTA step, and hide StickyBottomBanner
+feat(gaming): add inline CTA banner component and integrate across reward pages
 
-- Add /quiz-2, /quiz-results, and all 6 gaming quiz routes to TopAds pageSetting.exclude list
-- Add id="paso-3-{journeyId}" to CTA phase container in gaming-quiz-entry.tsx for complete GA4 funnel instrumentation
-- Temporarily comment out StickyBottomBanner in gaming-reward-template and gaming-promise-template
+- Create GamingCtaBanner component with themed image-led card design
+- Add ctaBanner prop to GamingRewardTemplate with ad-compliance text separator
+- Add CTA banner factory functions for Roblox, Minecraft, and Fortnite in gaming-config
+- Add promo image keys to ROBLOX_IMAGES, MINECRAFT_IMAGES, and FORTNITE_IMAGES
+- Integrate ctaBanner into all 20 gaming reward pages (fortnite, minecraft, robux)
+- Remove obsolete gaming quiz path exclusions from TopAds configuration

@@ -7,6 +7,7 @@ import {
   makeSwagbucksCard,
   makeFetchRewardsCard,
   makeInboxDollarsCard,
+  makeRobloxCtaBanner,
 } from "@/lib/gaming-config";
 
 export function generateMetadata() {
@@ -63,6 +64,7 @@ export default function RobuxRewardP1() {
         disclaimer:
           "No scams, no hacks. Real methods verified by the community.",
       }}
+      ctaBanner={makeRobloxCtaBanner()}
     />
   );
 }

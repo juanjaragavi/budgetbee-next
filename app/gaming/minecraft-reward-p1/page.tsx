@@ -7,6 +7,7 @@ import {
   makeSwagbucksCard,
   makeFetchRewardsCard,
   makeInboxDollarsCard,
+  makeMinecraftCtaBanner,
 } from "@/lib/gaming-config";
 
 export function generateMetadata() {
@@ -60,6 +61,7 @@ export default function MinecraftRewardP1() {
         disclaimer:
           "No scams, no hacks. Real methods verified by the community.",
       }}
+      ctaBanner={makeMinecraftCtaBanner()}
     />
   );
 }
