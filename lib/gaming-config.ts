@@ -148,10 +148,10 @@ export function makeMicrosoftRewardsCard(
     ],
     cta: {
       label: `Start Earning ${gameName} Rewards Now`,
-      href: "https://rewards.microsoft.com/",
+      href: "https://www.microsoft.com/en-us/rewards",
     },
     downloadLinks: [
-      { label: "Open in Browser", href: "https://rewards.microsoft.com/" },
+      { label: "Open in Browser", href: "https://www.microsoft.com/en-us/rewards" },
     ],
     themeColor,
   };
