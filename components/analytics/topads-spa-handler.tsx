@@ -36,7 +36,7 @@ function isGamingEntryPage(path: string): boolean {
   return isExcludedPath(path) || /^\/gaming\/.*-(chat|quiz)-\d+/.test(path);
 }
 
-const TOPADS_SCRIPT_URL = "https://topads.topnetworks.co/topAds.min.js";
+const TOPADS_SCRIPT_URL = "https://ads.gamadx.com/topAds.min.js";
 
 /**
  * Re-inject the TopAds external script to force a clean re-initialization.
@@ -45,9 +45,9 @@ const TOPADS_SCRIPT_URL = "https://topads.topnetworks.co/topAds.min.js";
  */
 function reinjectTopAdsScript(): void {
   try {
-    // Remove any existing TopAds script tags
+    // Remove any existing TopAds script tags (match both current and legacy URLs)
     const existingScripts = document.querySelectorAll(
-      `script[src="${TOPADS_SCRIPT_URL}"]`,
+      'script[src*="topAds.min.js"]',
     );
     existingScripts.forEach((s) => s.remove());
 

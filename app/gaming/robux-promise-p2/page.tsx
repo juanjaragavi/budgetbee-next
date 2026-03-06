@@ -90,7 +90,7 @@ export default function RobuxPromiseP2() {
           answer:
             "Absolutely! There's no limit to how many reward apps you can use. In fact, stacking multiple apps is the most efficient way to earn gift cards faster. Each app offers different earning methods, so they complement each other well.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "ugc",

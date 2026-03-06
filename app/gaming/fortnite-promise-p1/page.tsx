@@ -108,7 +108,7 @@ export default function FortnitePromiseP1() {
           answer:
             "No — every V-Bucks generator is a scam. They're designed to steal your Epic Games account or personal information. Only use methods endorsed by Epic Games or established reward platforms.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "stw-worth",

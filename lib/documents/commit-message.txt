@@ -1,10 +1,7 @@
-fix(ads): update TopAds SDK URL and renumber square ad slot IDs
+fix(ads): fix TopAds SDK URL mismatch & deduplicate square slot IDs
 
-- Update TopAds script source from topads.topnetworks.co to ads.gamadx.com
-- Renumber promise template slots: square01→square02, square02→square03, square03→square04
-- Renumber reward template slots: square01→square02, square02→square03, square03→square04
-- Keeps slot IDs consistent with updated TopAds dashboard configuration
-- Re-inject topAds.min.js script on entry→promise navigation for fresh init
-- Add follow-up topAds.spa() trigger 2s after re-injection
-- Extend polling window to 5s (25×200ms) for entry page transitions
-- Skip initial activation on excluded pages to prevent unnecessary processing
+- Sync SPA handler script URL to ads.gamadx.com (was still topnetworks.co)
+- Broaden script removal selector to catch any topAds.min.js URL variant
+- Rename FAQ adSlotId from square04 to square05 across 20 promise pages
+  to eliminate duplicate DOM IDs with standalone square04 template slot
+- Resolves ad slot destruction on quiz→promise SPA transitions

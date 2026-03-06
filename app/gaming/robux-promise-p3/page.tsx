@@ -77,7 +77,7 @@ export default function RobuxPromiseP3() {
           answer:
             "You earn 5% of all Robux purchases made by users who sign up through your link, for 12 months. If someone spends $100 on Robux through your referral, you earn the equivalent of $5 in Robux. Active promoters can earn thousands of Robux monthly.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "start",

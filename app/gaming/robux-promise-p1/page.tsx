@@ -118,7 +118,7 @@ export default function RobuxPromiseP1() {
           answer:
             "Established platforms like Microsoft Rewards, Swagbucks, and Fetch Rewards are safe and trusted by millions of users. They've been operating for years and have paid out hundreds of millions in rewards. Always stick to well-known platforms and never share your Roblox login credentials.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "age",

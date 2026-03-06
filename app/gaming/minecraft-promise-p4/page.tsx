@@ -87,7 +87,7 @@ export default function MinecraftPromiseP4() {
           answer:
             "Most methods work across all Minecraft editions. Microsoft Rewards gift cards can be used for Bedrock/Marketplace purchases. Java Edition players can still benefit from gift cards for other Minecraft merchandise and content.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "safe",

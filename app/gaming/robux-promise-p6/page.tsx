@@ -69,7 +69,7 @@ export default function RobuxPromiseP6() {
           answer:
             "Absolutely! In fact, that's the recommended approach. Using 3-4 methods simultaneously is the most efficient way to maximize your earnings.",
           showAdOnOpen: true,
-          adSlotId: "square04",
+          adSlotId: "square05",
         },
         {
           id: "safe-q",
