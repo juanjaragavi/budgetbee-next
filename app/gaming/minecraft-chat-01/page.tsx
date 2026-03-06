@@ -32,6 +32,7 @@ const QUESTIONS = [
 export default function MinecraftChat01Page() {
   return (
     <GamingChatEntry
+      journeyId="chat-minecraft-01"
       botName="Steve"
       greeting="I help Minecraft players find free content and rewards! Let me ask you a few things. 🌍"
       questions={QUESTIONS}

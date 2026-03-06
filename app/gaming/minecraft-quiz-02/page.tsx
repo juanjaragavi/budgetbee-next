@@ -24,6 +24,7 @@ const QUESTIONS = [
 export default function MinecraftQuiz02Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-minecraft-02"
       title="⛏️ Unlock Free Minecraft Content"
       questions={QUESTIONS}
       themeColor={MINECRAFT_THEME.color}

@@ -16,6 +16,8 @@ export interface GamingChatEntryProps {
   greeting: string;
   /** Array of 2-4 chat questions */
   questions: ChatQuestion[];
+  /** Journey identifier for GA4 step tracking (e.g. "chat-robux-01") */
+  journeyId: string;
   /** Theme color hex */
   themeColor: string;
   /** Lighter shade for hover */
@@ -39,6 +41,7 @@ export default function GamingChatEntry({
   botName,
   greeting,
   questions,
+  journeyId,
   themeColor,
   themeColorLight,
   successMessage,
@@ -188,7 +191,10 @@ export default function GamingChatEntry({
 
           {/* Options */}
           {showOptions && q && (
-            <div className="space-y-2 pt-2">
+            <div
+              id={`paso-${currentQuestion + 1}-${journeyId}`}
+              className="space-y-2 pt-2"
+            >
               {q.options.map((option) => (
                 <button
                   key={option.value}

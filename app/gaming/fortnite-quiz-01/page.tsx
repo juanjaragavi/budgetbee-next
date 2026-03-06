@@ -20,19 +20,11 @@ const QUESTIONS = [
       { label: "Both!", value: "both" },
     ],
   },
-  {
-    id: "platform",
-    question: "Where do you play Fortnite?",
-    options: [
-      { label: "PC", value: "pc" },
-      { label: "Console", value: "console" },
-      { label: "Mobile", value: "mobile" },
-    ],
-  },
 ];
 export default function FortniteQuiz01Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-fortnite-01"
       title="🎯 Find the Best V-Bucks Rewards"
       questions={QUESTIONS}
       themeColor={FORTNITE_THEME.color}

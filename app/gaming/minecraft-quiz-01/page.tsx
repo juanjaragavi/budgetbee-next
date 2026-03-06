@@ -23,6 +23,7 @@ const QUESTIONS = [
 export default function MinecraftQuiz01Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-minecraft-01"
       title="⛏️ Find the Best Minecraft Rewards"
       questions={QUESTIONS}
       themeColor={MINECRAFT_THEME.color}

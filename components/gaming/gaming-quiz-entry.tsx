@@ -15,6 +15,8 @@ export interface GamingQuizEntryProps {
   title?: string;
   /** Array of 2-4 quiz questions */
   questions: QuizQuestion[];
+  /** Journey identifier for GA4 step tracking (e.g. "quiz-fortnite-01") */
+  journeyId: string;
   /** Theme color hex (e.g. "#7C3AED" for purple) */
   themeColor: string;
   /** Lighter shade for hover states */
@@ -40,6 +42,7 @@ type Phase = "quiz" | "loading" | "cta";
 export default function GamingQuizEntry({
   title,
   questions,
+  journeyId,
   themeColor,
   themeColorLight,
   loadingMessage,
@@ -122,7 +125,10 @@ export default function GamingQuizEntry({
               <h2 className="text-xl font-semibold text-gray-900 text-center mb-8">
                 {q.question}
               </h2>
-              <div className="space-y-3">
+              <div
+                id={`paso-${currentQuestion + 1}-${journeyId}`}
+                className="space-y-3"
+              >
                 {q.options.map((option) => (
                   <button
                     key={option.value}

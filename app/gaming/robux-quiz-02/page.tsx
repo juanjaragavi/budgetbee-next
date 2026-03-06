@@ -22,20 +22,12 @@ const QUESTIONS = [
       { label: "Build worlds", value: "build" },
     ],
   },
-  {
-    id: "spending",
-    question: "How much do you usually spend on Robux?",
-    options: [
-      { label: "I don't spend money", value: "free" },
-      { label: "Under $10/month", value: "low" },
-      { label: "Over $10/month", value: "high" },
-    ],
-  },
 ];
 
 export default function RobuxQuiz02Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-robux-02"
       title="🎮 Discover Your Robux Earning Potential"
       questions={QUESTIONS}
       themeColor={ROBLOX_THEME.color}

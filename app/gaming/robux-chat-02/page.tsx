@@ -36,6 +36,7 @@ const QUESTIONS = [
 export default function RobuxChat02Page() {
   return (
     <GamingChatEntry
+      journeyId="chat-robux-02"
       botName="Mia"
       greeting="I help gamers find legit ways to earn Robux without spending money. Let me ask you a few things! 💜"
       questions={QUESTIONS}

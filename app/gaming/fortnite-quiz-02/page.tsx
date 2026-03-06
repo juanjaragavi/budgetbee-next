@@ -20,19 +20,11 @@ const QUESTIONS = [
       { label: "Over $10/month", value: "high" },
     ],
   },
-  {
-    id: "skill",
-    question: "How would you rate your Fortnite skills?",
-    options: [
-      { label: "Beginner", value: "beginner" },
-      { label: "Intermediate", value: "mid" },
-      { label: "Pro level", value: "pro" },
-    ],
-  },
 ];
 export default function FortniteQuiz02Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-fortnite-02"
       title="🎯 Discover Free V-Bucks Methods"
       questions={QUESTIONS}
       themeColor={FORTNITE_THEME.color}

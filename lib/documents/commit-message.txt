@@ -1,18 +1,10 @@
-feat(gaming): implement stakeholder corrections for monetization flows
+feat(gaming): add GA4 step-level analytics IDs and reduce quizzes to 2 questions
 
-- Remove Q3 from Minecraft quizzes (minecraft-quiz-01, minecraft-quiz-02)
-- Add hideAds prop to quiz component; suppress ads on Minecraft quiz pages
-- Fix preloader re-trigger bug with phase guards in gaming-quiz-entry
-- Update fake-loading-state copy to "Loading Rewards…" variants
-- Add "Advertising" text separators around all ad slots (templates + quiz)
-- Restructure reward template to prevent ad-between-CTAs (single loop)
-- Add MOB horizontal ad pair (grid-cols-2) to both templates
-- Add third MOB ad unit to promise and reward templates
-- Fix TopAds first-paint loading with retry logic in SPA handler
-- Create gaming-vertical-banner-ad and gaming-popup-ad components
-- Update Roblox promise pages (p1-p7) with extraCtas and stickyBanner
-- Enhance method card copy with gaming-contextual descriptions and CTAs
-- Make method card name clickable (Link to CTA href)
-- Remove trust signals green box from minecraft-reward-p1
-- Expand content on key entry-point pages (promise + reward)
-- Remove unused Twitter/Facebook preconnect hints from resource-hints
+- Add journeyId prop to GamingQuizEntry and GamingChatEntry components
+- Inject deterministic id attributes (paso-{step}-{journeyId}) on question
+  option container divs for GA4 event targeting
+- Trim QUESTIONS arrays from 3 to 2 in fortnite-quiz-01, fortnite-quiz-02,
+  robux-quiz-01, and robux-quiz-02 page files
+- Minecraft quiz pages already had 2 questions; no trimming needed
+- Pass journeyId prop from all 12 quiz and chat page.tsx files
+- Quiz progress counter now displays "Question N of 2" automatically

@@ -21,20 +21,12 @@ const QUESTIONS = [
       { label: "Both Skins & Robux", value: "both" },
     ],
   },
-  {
-    id: "frequency",
-    question: "How often do you play Roblox?",
-    options: [
-      { label: "Every day", value: "daily" },
-      { label: "Several times a week", value: "weekly" },
-      { label: "Once in a while", value: "occasional" },
-    ],
-  },
 ];
 
 export default function RobuxQuiz01Page() {
   return (
     <GamingQuizEntry
+      journeyId="quiz-robux-01"
       title="🎮 Find the Best Robux Rewards for You"
       questions={QUESTIONS}
       themeColor={ROBLOX_THEME.color}

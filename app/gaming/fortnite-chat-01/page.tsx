@@ -32,6 +32,7 @@ const QUESTIONS = [
 export default function FortniteChat01Page() {
   return (
     <GamingChatEntry
+      journeyId="chat-fortnite-01"
       botName="Nova"
       greeting="I'm your Fortnite rewards guide! Let me help you find the best ways to earn V-Bucks. 💙"
       questions={QUESTIONS}
