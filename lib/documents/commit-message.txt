@@ -1,6 +1,9 @@
-fix(ads): fix ad units not rendering on gaming Promise/Reward pages after SPA navigation
+fix(ads): comprehensive TopAds SPA handler for gaming entry→promise transitions
 
-- Replace fixed 100ms timeout in TopAdsSPAHandler with DOM polling mechanism
-- Poll for [data-topads] containers every 200ms (up to ~3s) before triggering topAds.spa()
-- Fixes ads not appearing when quiz redirects to Promise/Reward pages via router.push()
-- Root cause: ad containers weren't in DOM yet when topAds.spa() fired after only 100ms
+- Track previous pathname to detect quiz/chat→promise/reward transitions
+- Add isGamingEntryPage() to identify both excluded quiz pages and chat pages
+- Re-apply topAds.config to clear cached exclusion state on entry transitions
+- Re-inject topAds.min.js script on entry→promise navigation for fresh init
+- Add follow-up topAds.spa() trigger 2s after re-injection
+- Extend polling window to 5s (25×200ms) for entry page transitions
+- Skip initial activation on excluded pages to prevent unnecessary processing

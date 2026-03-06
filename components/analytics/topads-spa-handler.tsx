@@ -6,21 +6,95 @@ import browserLogger from "@/lib/browser-logger";
 
 type TopAdsConfig = Record<string, unknown>;
 
+/** Paths where TopAds should NOT run — must mirror topads.tsx pageSetting.exclude */
+const EXCLUDED_PATHS = [
+  "/contact-us",
+  "/privacy-policy",
+  "/terms",
+  "/cookie-policy",
+  "/about-us",
+  "/quiz",
+  "/quiz-2",
+  "/quiz-results",
+  "/gaming/fortnite-quiz-01",
+  "/gaming/fortnite-quiz-02",
+  "/gaming/minecraft-quiz-01",
+  "/gaming/minecraft-quiz-02",
+  "/gaming/robux-quiz-01",
+  "/gaming/robux-quiz-02",
+];
+
+function isExcludedPath(path: string): boolean {
+  return EXCLUDED_PATHS.some(
+    (excluded) => path === excluded || path.startsWith(excluded + "/"),
+  );
+}
+
+/** Chat pages are not excluded in TopAds config but need special handling
+ *  since they transition to promise/reward pages via SPA navigation */
+function isGamingEntryPage(path: string): boolean {
+  return (
+    isExcludedPath(path) ||
+    /^\/gaming\/.*-(chat|quiz)-\d+/.test(path)
+  );
+}
+
+const TOPADS_SCRIPT_URL = "https://topads.topnetworks.co/topAds.min.js";
+
+/**
+ * Re-inject the TopAds external script to force a clean re-initialization.
+ * This mimics what happens on a hard page reload—TopAds starts fresh,
+ * re-reads the config, and processes the current DOM.
+ */
+function reinjectTopAdsScript(): void {
+  try {
+    // Remove any existing TopAds script tags
+    const existingScripts = document.querySelectorAll(
+      `script[src="${TOPADS_SCRIPT_URL}"]`,
+    );
+    existingScripts.forEach((s) => s.remove());
+
+    // Re-inject a fresh script tag
+    const script = document.createElement("script");
+    script.src = TOPADS_SCRIPT_URL;
+    script.type = "text/javascript";
+    script.async = true;
+    script.setAttribute("data-cfasync", "false");
+    (document.head || document.getElementsByTagName("head")[0]).appendChild(
+      script,
+    );
+    browserLogger.info("[TopAds] Re-injected external script for fresh init");
+  } catch (error) {
+    browserLogger.error("[TopAds] Failed to re-inject script:", error);
+  }
+}
+
 /**
  * TopAds SPA Navigation Handler
  *
  * Triggers TopAds SPA function on route changes in Next.js.
- * Mirrors the uk-topfinanzas-com pattern for reliable ad refreshes.
+ * Handles transitions from excluded pages (quizzes/chats) to ad-enabled pages
+ * (promise/reward) by re-applying config and polling for DOM containers.
  */
 export default function TopAdsSPAHandler() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const isInitialMount = useRef(true);
   const hasTriggeredInitial = useRef(false);
+  const previousPathname = useRef<string | null>(null);
 
   // Trigger TopAds on initial page load once the script is available
   useEffect(() => {
     if (hasTriggeredInitial.current) return;
+
+    // If the initial page is excluded, skip activation
+    if (isExcludedPath(pathname)) {
+      browserLogger.info(
+        "[TopAds] Initial page is excluded, skipping activation",
+      );
+      hasTriggeredInitial.current = true;
+      return;
+    }
 
     const tryInitialActivation = () => {
       if (
@@ -50,13 +124,25 @@ export default function TopAdsSPAHandler() {
     }, 500);
 
     return () => clearInterval(timer);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (isInitialMount.current) {
       isInitialMount.current = false;
+      previousPathname.current = pathname;
       return;
     }
+
+    const prevPath = previousPathname.current;
+    previousPathname.current = pathname;
+
+    // If navigating TO an excluded page, do nothing
+    if (isExcludedPath(pathname)) {
+      browserLogger.info("[TopAds] Navigated to excluded path, skipping");
+      return;
+    }
+
+    const cameFromEntry = prevPath ? isGamingEntryPage(prevPath) : false;
 
     const triggerTopAdsSPA = () => {
       try {
@@ -75,14 +161,36 @@ export default function TopAdsSPAHandler() {
       }
     };
 
-    browserLogger.info("[TopAds] Next.js route change detected");
+    browserLogger.info(
+      `[TopAds] Route change: ${prevPath} → ${pathname} (cameFromEntry: ${cameFromEntry})`,
+    );
+
+    // When transitioning from an excluded/entry path (quiz/chat) to an
+    // ad-enabled path (promise/reward), TopAds may have internally skipped
+    // initialization. Re-apply config and re-inject the script to force
+    // a clean start — this mimics what happens on a hard page reload.
+    if (cameFromEntry && typeof window !== "undefined" && window.topAds) {
+      browserLogger.info(
+        "[TopAds] Transitioning from entry page — re-applying config & re-injecting script",
+      );
+      // Refresh config to clear any cached exclusion state
+      if (window.topAds.config) {
+        window.topAds.config = {
+          ...window.topAds.config,
+          pageSetting: {
+            exclude: EXCLUDED_PATHS,
+          },
+        } as TopAdsConfig;
+      }
+    }
 
     // Wait for ad containers to appear in the DOM before triggering.
     // On SPA navigation (e.g. quiz → promise page), the new page's
     // Server Component DOM may not be hydrated for several hundred ms.
     let attempt = 0;
-    const maxAttempts = 15; // up to ~3s total
+    const maxAttempts = cameFromEntry ? 25 : 15; // Longer wait from entry pages
     const pollInterval = 200;
+    const timers: number[] = [];
 
     const pollForContainers = () => {
       attempt++;
@@ -91,23 +199,46 @@ export default function TopAdsSPAHandler() {
         browserLogger.info(
           `[TopAds] Found ${containers.length} ad container(s) after ${attempt * pollInterval}ms`,
         );
-        triggerTopAdsSPA();
+
+        if (cameFromEntry) {
+          // Nuclear option: re-inject the TopAds script so it starts fresh
+          // on the new non-excluded page, then call spa() after it loads.
+          reinjectTopAdsScript();
+          const followUp = window.setTimeout(() => {
+            browserLogger.info(
+              "[TopAds] Post-reinject SPA trigger for entry→enabled transition",
+            );
+            triggerTopAdsSPA();
+          }, 2000);
+          timers.push(followUp);
+        } else {
+          triggerTopAdsSPA();
+        }
         return;
       }
       if (attempt < maxAttempts) {
-        pollTimerId = window.setTimeout(pollForContainers, pollInterval);
+        const id = window.setTimeout(pollForContainers, pollInterval);
+        timers.push(id);
       } else {
-        // No containers found — still trigger in case TopAds manages its own
         browserLogger.warn(
           "[TopAds] No ad containers found after polling, triggering anyway",
         );
-        triggerTopAdsSPA();
+        if (cameFromEntry) {
+          reinjectTopAdsScript();
+          const followUp = window.setTimeout(triggerTopAdsSPA, 2000);
+          timers.push(followUp);
+        } else {
+          triggerTopAdsSPA();
+        }
       }
     };
 
-    let pollTimerId = window.setTimeout(pollForContainers, pollInterval);
+    const initialId = window.setTimeout(pollForContainers, pollInterval);
+    timers.push(initialId);
 
-    return () => window.clearTimeout(pollTimerId);
+    return () => {
+      timers.forEach((id) => window.clearTimeout(id));
+    };
   }, [pathname, searchParams]);
 
   return null;
