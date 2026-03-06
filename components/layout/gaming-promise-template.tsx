@@ -50,9 +50,12 @@ export interface GamingPromiseTemplateProps {
   closingParagraph?: string;
   /** Sticky bottom banner config */
   stickyBanner?: {
-    text: string;
+    badge?: string;
+    headline: string;
+    body: string;
     ctaLabel: string;
     ctaHref: string;
+    disclaimer?: string;
   };
 }
 
@@ -192,16 +195,6 @@ export default function GamingPromiseTemplate({
                     </ul>
                   )}
 
-                  {/* Ad Slot 1 — After first section text content */}
-                  {i === 0 && (
-                    <div
-                      id="square01"
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full my-8"
-                    />
-                  )}
-
                   {section.image && (
                     <div className="my-6 rounded-xl overflow-hidden">
                       <Image
@@ -214,7 +207,17 @@ export default function GamingPromiseTemplate({
                     </div>
                   )}
 
-                  {/* Insert mid-content ad after the second section */}
+                  {/* Ad Slot 1 — After first section (text + image) */}
+                  {i === 0 && (
+                    <div
+                      id="square01"
+                      data-topads
+                      data-topads-size="square"
+                      className="items-center justify-center flex w-full my-8"
+                    />
+                  )}
+
+                  {/* Ad Slot 2 — After second section (text + image) */}
                   {i === 1 && (
                     <div
                       id="square02"
@@ -310,10 +313,14 @@ export default function GamingPromiseTemplate({
       {/* Sticky bottom banner */}
       {stickyBanner && (
         <StickyBottomBanner
-          text={stickyBanner.text}
+          badge={stickyBanner.badge}
+          headline={stickyBanner.headline}
+          body={stickyBanner.body}
           ctaLabel={stickyBanner.ctaLabel}
           ctaHref={stickyBanner.ctaHref}
+          disclaimer={stickyBanner.disclaimer}
           themeColor={themeColor}
+          themeColorDark={themeColorDark}
         />
       )}
     </main>

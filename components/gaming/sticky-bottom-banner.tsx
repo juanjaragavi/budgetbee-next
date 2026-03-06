@@ -1,58 +1,116 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 
-interface StickyBottomBannerProps {
-  /** Banner text */
-  text: string;
+export interface StickyBottomBannerProps {
+  /** Small pill badge above headline */
+  badge?: string;
+  /** Bold headline (2 lines max) */
+  headline: string;
+  /** 2-3 sentence value proposition */
+  body: string;
   /** CTA button label */
   ctaLabel: string;
   /** CTA destination URL */
   ctaHref: string;
-  /** Theme color for the banner background */
+  /** Trust signal line below button */
+  disclaimer?: string;
+  /** Theme color for badge, button, and accents */
   themeColor: string;
-  /** Whether to open in new tab */
-  external?: boolean;
+  /** Darker shade for button hover */
+  themeColorDark?: string;
 }
 
 export default function StickyBottomBanner({
-  text,
+  badge,
+  headline,
+  body,
   ctaLabel,
   ctaHref,
+  disclaimer,
   themeColor,
-  external = true,
+  themeColorDark,
 }: StickyBottomBannerProps) {
   const [dismissed, setDismissed] = useState(false);
+  const [visible, setVisible] = useState(false);
+  const [hovering, setHovering] = useState(false);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => setVisible(true));
+    return () => cancelAnimationFrame(frame);
+  }, []);
+
+  function handleDismiss() {
+    setVisible(false);
+    // Wait for the slide-down animation before unmounting
+    setTimeout(() => setDismissed(true), 300);
+  }
 
   if (dismissed) return null;
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-50 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]"
-      style={{ backgroundColor: themeColor }}
+      className="fixed bottom-0 left-0 right-0 z-50 flex justify-center pointer-events-none"
+      aria-live="polite"
     >
-      <div className="flex items-center justify-between px-3 py-2.5 sm:px-4 sm:py-3 gap-2">
-        <p className="text-white font-semibold text-xs sm:text-sm flex-1 truncate min-w-0">
-          {text}
-        </p>
-        <Link
-          href={ctaHref}
-          target={external ? "_blank" : undefined}
-          rel={external ? "noopener noreferrer" : undefined}
-          className="bg-white text-gray-900 font-bold text-xs sm:text-sm px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg hover:bg-gray-100 transition-colors shadow-sm flex-shrink-0 whitespace-nowrap"
-          style={{ minWidth: "fit-content" }}
-        >
-          {ctaLabel}
-        </Link>
+      <div
+        className="pointer-events-auto relative bg-white rounded-t-2xl shadow-2xl px-5 pt-4 pb-6 w-full max-w-lg transition-transform duration-300 ease-out"
+        style={{
+          transform: visible ? "translateY(0)" : "translateY(100%)",
+        }}
+      >
+        {/* Dismiss button */}
         <button
           type="button"
-          onClick={() => setDismissed(true)}
-          className="text-white/70 hover:text-white p-1 transition-colors flex-shrink-0"
+          onClick={handleDismiss}
+          className="absolute top-3 right-4 text-gray-400 hover:text-gray-600 text-lg leading-none transition-colors"
           aria-label="Dismiss banner"
         >
           ✕
         </button>
+
+        {/* Badge */}
+        {badge && (
+          <span
+            className="inline-flex px-3 py-1 rounded-full text-xs font-semibold"
+            style={{
+              backgroundColor: themeColor + "20",
+              color: themeColor,
+            }}
+          >
+            {badge}
+          </span>
+        )}
+
+        {/* Headline */}
+        <h3 className="text-xl font-bold text-gray-900 mt-2 leading-snug line-clamp-2">
+          {headline}
+        </h3>
+
+        {/* Body */}
+        <p className="text-sm text-gray-500 mt-2 leading-relaxed">{body}</p>
+
+        {/* CTA Button */}
+        <Link
+          href={ctaHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full py-4 rounded-xl text-white font-bold text-base text-center mt-4 transition-colors"
+          style={{
+            backgroundColor:
+              hovering && themeColorDark ? themeColorDark : themeColor,
+          }}
+          onMouseEnter={() => setHovering(true)}
+          onMouseLeave={() => setHovering(false)}
+        >
+          {ctaLabel}
+        </Link>
+
+        {/* Disclaimer */}
+        {disclaimer && (
+          <p className="text-center text-xs text-gray-400 mt-3">{disclaimer}</p>
+        )}
       </div>
     </div>
   );

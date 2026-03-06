@@ -87,9 +87,13 @@ export default function RobuxPromiseP4() {
         { label: "Learn legal methods", href: "/gaming/robux-reward-p4" },
       ]}
       stickyBanner={{
-        text: "🎮 Start earning free Robux today!",
+        badge: "Robux Rewards",
+        headline: "The Best Ways PRO Players Earn Free Robux",
+        body: "Microsoft Rewards is the #1 method verified Roblox players use to earn gift cards without hacks or generators.",
         ctaLabel: "Get Microsoft Rewards",
         ctaHref: "https://rewards.microsoft.com/",
+        disclaimer:
+          "Free to join. No credit card required. Earn points and redeem for Robux gift cards.",
       }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Don't wait — every day without these strategies is Robux you're leaving on the table. Check out the full methods guide and start earning today."

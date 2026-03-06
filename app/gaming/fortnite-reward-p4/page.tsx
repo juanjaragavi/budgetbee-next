@@ -54,9 +54,13 @@ export default function FortniteRewardP4() {
       ]}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       stickyBanner={{
-        text: "🎯 Start earning free V-Bucks today!",
+        badge: "V-Bucks Rewards",
+        headline: "The Best Ways to Earn Free V-Bucks",
+        body: "Microsoft Rewards is the easiest verified method to earn gift cards redeemable for V-Bucks on official stores.",
         ctaLabel: "Get Microsoft Rewards",
         ctaHref: "https://rewards.microsoft.com/",
+        disclaimer:
+          "Free to join. No credit card required. Earn points and redeem for Fortnite gift cards.",
       }}
     />
   );

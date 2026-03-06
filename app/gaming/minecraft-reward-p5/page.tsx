@@ -54,9 +54,13 @@ export default function MinecraftRewardP5() {
       ]}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       stickyBanner={{
-        text: "⛏️ Start earning free Minecoins today!",
+        badge: "Minecraft Rewards",
+        headline: "The Best Ways to Earn Free Minecoins",
+        body: "Microsoft Rewards lets Minecraft players earn gift cards for free content, skins, and texture packs — no mods required.",
         ctaLabel: "Get Microsoft Rewards",
         ctaHref: "https://rewards.microsoft.com/",
+        disclaimer:
+          "Free to join. No credit card required. Earn points and redeem for Minecraft gift cards.",
       }}
     />
   );

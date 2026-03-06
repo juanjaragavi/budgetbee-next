@@ -1,12 +1,12 @@
-fix(gaming): remove duplicate Advertising labels and unnamed ad slots
+feat(gaming): redesign sticky bottom banner as bottom sheet CTA modal
 
-- Remove all <p>Advertising</p> wrapper labels from gaming ad slots across
-  quiz-entry, chat-entry, promise-template, reward-template, and FAQ accordion
-- Remove unnamed inline data-topads divs (no square0{n} id) from quiz and
-  chat components to eliminate stacked disclosure labels
-- Remove unnamed MOB ad pairs from promise and reward templates
-- Relocate square01 slot from hero section to after first content section
-  in promise and reward templates for better ad placement
-- Deduplicate Google Ads gtag config call (single config with all options)
+- Rewrite sticky-bottom-banner.tsx from single-row bar to vertical card
+  with badge pill, headline, body copy, full-width CTA button, and disclaimer
+- Add slide-up/slide-down animation (300ms ease-out) on mount/dismiss
+- Constrain card to max-w-lg centered on desktop, full-width on mobile
+- Update GamingRewardTemplate and GamingPromiseTemplate interfaces to
+  accept new props (badge, headline, body, disclaimer, themeColorDark)
+- Update all 27 gaming page call sites with vertical-specific copy:
+  Robux (14 pages), Minecraft (7 pages), Fortnite (6 pages)
 - Improve sticky bottom banner responsive layout for mobile viewports
 - Delete unused GoogleTagManager.tsx component (replaced by analytics module)

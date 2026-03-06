@@ -33,9 +33,12 @@ export interface GamingRewardTemplateProps {
   relatedArticles: RelatedArticle[];
   /** Sticky bottom banner config */
   stickyBanner: {
-    text: string;
+    badge?: string;
+    headline: string;
+    body: string;
     ctaLabel: string;
     ctaHref: string;
+    disclaimer?: string;
   };
 }
 
@@ -228,10 +231,14 @@ export default function GamingRewardTemplate({
 
       {/* Sticky bottom banner */}
       <StickyBottomBanner
-        text={stickyBanner.text}
+        badge={stickyBanner.badge}
+        headline={stickyBanner.headline}
+        body={stickyBanner.body}
         ctaLabel={stickyBanner.ctaLabel}
         ctaHref={stickyBanner.ctaHref}
+        disclaimer={stickyBanner.disclaimer}
         themeColor={themeColor}
+        themeColorDark={themeColorDark}
       />
     </main>
   );

@@ -34,7 +34,7 @@ export default function RobuxQuiz01Page() {
       loadingMessage="Searching for the best Robux opportunities for your profile…"
       ctaHeading="Want to know how PRO players earn extra Robux?"
       ctaButtonText="Yes! Show Me Now!"
-      ctaSecondaryText="View sponsored recommendation for your Roblox profile"
+      ctaSecondaryText="View sponsored recommendation"
       redirectTo="/gaming/robux-promise-p1"
       gameIcon="🟣"
     />
