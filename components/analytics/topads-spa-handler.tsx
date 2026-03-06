@@ -76,11 +76,38 @@ export default function TopAdsSPAHandler() {
     };
 
     browserLogger.info("[TopAds] Next.js route change detected");
-    const timeoutId = window.setTimeout(() => {
-      triggerTopAdsSPA();
-    }, 100);
 
-    return () => window.clearTimeout(timeoutId);
+    // Wait for ad containers to appear in the DOM before triggering.
+    // On SPA navigation (e.g. quiz → promise page), the new page's
+    // Server Component DOM may not be hydrated for several hundred ms.
+    let attempt = 0;
+    const maxAttempts = 15; // up to ~3s total
+    const pollInterval = 200;
+
+    const pollForContainers = () => {
+      attempt++;
+      const containers = document.querySelectorAll("[data-topads]");
+      if (containers.length > 0) {
+        browserLogger.info(
+          `[TopAds] Found ${containers.length} ad container(s) after ${attempt * pollInterval}ms`,
+        );
+        triggerTopAdsSPA();
+        return;
+      }
+      if (attempt < maxAttempts) {
+        pollTimerId = window.setTimeout(pollForContainers, pollInterval);
+      } else {
+        // No containers found — still trigger in case TopAds manages its own
+        browserLogger.warn(
+          "[TopAds] No ad containers found after polling, triggering anyway",
+        );
+        triggerTopAdsSPA();
+      }
+    };
+
+    let pollTimerId = window.setTimeout(pollForContainers, pollInterval);
+
+    return () => window.clearTimeout(pollTimerId);
   }, [pathname, searchParams]);
 
   return null;

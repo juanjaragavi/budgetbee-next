@@ -1,5 +1,6 @@
-fix(gaming): replace Microsoft Rewards auth-gated URL with public marketing page
+fix(ads): fix ad units not rendering on gaming Promise/Reward pages after SPA navigation
 
-- Update makeMicrosoftRewardsCard() CTA href from rewards.microsoft.com to microsoft.com/en-us/rewards
-- Update "Open in Browser" secondary link href to the same public URL
-- Fixes login.live.com redirect wall blocking cold-traffic conversions on all 21 reward pages
+- Replace fixed 100ms timeout in TopAdsSPAHandler with DOM polling mechanism
+- Poll for [data-topads] containers every 200ms (up to ~3s) before triggering topAds.spa()
+- Fixes ads not appearing when quiz redirects to Promise/Reward pages via router.push()
+- Root cause: ad containers weren't in DOM yet when topAds.spa() fired after only 100ms
