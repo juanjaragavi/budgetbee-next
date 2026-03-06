@@ -34,7 +34,6 @@ export default function StickyBottomBanner({
 }: StickyBottomBannerProps) {
   const [dismissed, setDismissed] = useState(false);
   const [visible, setVisible] = useState(false);
-  const [hovering, setHovering] = useState(false);
 
   useEffect(() => {
     const frame = requestAnimationFrame(() => setVisible(true));
@@ -55,8 +54,9 @@ export default function StickyBottomBanner({
       aria-live="polite"
     >
       <div
-        className="pointer-events-auto relative bg-white rounded-t-2xl shadow-2xl px-5 pt-4 pb-6 w-full max-w-lg transition-transform duration-300 ease-out"
+        className="pointer-events-auto relative rounded-t-2xl shadow-2xl px-5 pt-4 pb-6 w-full max-w-lg transition-transform duration-300 ease-out"
         style={{
+          backgroundColor: themeColor,
           transform: visible ? "translateY(0)" : "translateY(100%)",
         }}
       >
@@ -64,7 +64,7 @@ export default function StickyBottomBanner({
         <button
           type="button"
           onClick={handleDismiss}
-          className="absolute top-3 right-4 text-gray-400 hover:text-gray-600 text-lg leading-none transition-colors"
+          className="absolute top-3 right-4 text-white/60 hover:text-white text-lg leading-none transition-colors"
           aria-label="Dismiss banner"
         >
           ✕
@@ -72,44 +72,33 @@ export default function StickyBottomBanner({
 
         {/* Badge */}
         {badge && (
-          <span
-            className="inline-flex px-3 py-1 rounded-full text-xs font-semibold"
-            style={{
-              backgroundColor: themeColor + "20",
-              color: themeColor,
-            }}
-          >
+          <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-white">
             {badge}
           </span>
         )}
 
         {/* Headline */}
-        <h3 className="text-xl font-bold text-gray-900 mt-2 leading-snug line-clamp-2">
+        <h3 className="text-xl font-bold text-white mt-2 leading-snug line-clamp-2">
           {headline}
         </h3>
 
         {/* Body */}
-        <p className="text-sm text-gray-500 mt-2 leading-relaxed">{body}</p>
+        <p className="text-sm text-white/80 mt-2 leading-relaxed">{body}</p>
 
         {/* CTA Button */}
         <Link
           href={ctaHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full py-4 rounded-xl text-white font-bold text-base text-center mt-4 transition-colors"
-          style={{
-            backgroundColor:
-              hovering && themeColorDark ? themeColorDark : themeColor,
-          }}
-          onMouseEnter={() => setHovering(true)}
-          onMouseLeave={() => setHovering(false)}
+          className="block w-full py-4 rounded-xl font-bold text-base text-center mt-4 transition-opacity bg-white hover:opacity-90"
+          style={{ color: themeColor }}
         >
           {ctaLabel}
         </Link>
 
         {/* Disclaimer */}
         {disclaimer && (
-          <p className="text-center text-xs text-gray-400 mt-3">{disclaimer}</p>
+          <p className="text-center text-xs text-white/60 mt-3">{disclaimer}</p>
         )}
       </div>
     </div>

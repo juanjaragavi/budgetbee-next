@@ -1,12 +1,8 @@
-feat(gaming): redesign sticky bottom banner as bottom sheet CTA modal
+fix(gaming): invert sticky banner color scheme and fix ad-image adjacency
 
-- Rewrite sticky-bottom-banner.tsx from single-row bar to vertical card
-  with badge pill, headline, body copy, full-width CTA button, and disclaimer
-- Add slide-up/slide-down animation (300ms ease-out) on mount/dismiss
-- Constrain card to max-w-lg centered on desktop, full-width on mobile
-- Update GamingRewardTemplate and GamingPromiseTemplate interfaces to
-  accept new props (badge, headline, body, disclaimer, themeColorDark)
-- Update all 27 gaming page call sites with vertical-specific copy:
-  Robux (14 pages), Minecraft (7 pages), Fortnite (6 pages)
+- Invert StickyBottomBanner to theme-colored background with white text,
+  white CTA button with theme-colored label, and white/opacity accents
+- Fix ad-image adjacency violation in gaming-promise-template by moving
+  square01 ad slot before section image so text always separates them
 - Improve sticky bottom banner responsive layout for mobile viewports
 - Delete unused GoogleTagManager.tsx component (replaced by analytics module)

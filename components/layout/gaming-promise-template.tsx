@@ -195,6 +195,16 @@ export default function GamingPromiseTemplate({
                     </ul>
                   )}
 
+                  {/* Ad Slot 1 — After first section text, before image */}
+                  {i === 0 && (
+                    <div
+                      id="square01"
+                      data-topads
+                      data-topads-size="square"
+                      className="items-center justify-center flex w-full my-8"
+                    />
+                  )}
+
                   {section.image && (
                     <div className="my-6 rounded-xl overflow-hidden">
                       <Image
@@ -205,16 +215,6 @@ export default function GamingPromiseTemplate({
                         className="w-full h-auto"
                       />
                     </div>
-                  )}
-
-                  {/* Ad Slot 1 — After first section (text + image) */}
-                  {i === 0 && (
-                    <div
-                      id="square01"
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full my-8"
-                    />
                   )}
 
                   {/* Ad Slot 2 — After second section (text + image) */}
