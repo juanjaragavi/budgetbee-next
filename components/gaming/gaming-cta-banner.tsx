@@ -40,7 +40,10 @@ export default function GamingCtaBanner({
       </div>
 
       {/* Content section */}
-      <div className="px-5 pt-4 pb-6" style={{ backgroundColor: themeColorDark }}>
+      <div
+        className="px-5 pt-4 pb-6"
+        style={{ backgroundColor: themeColorDark }}
+      >
         <span
           className="inline-flex px-3 py-1 rounded-full text-xs font-semibold text-white"
           style={{ backgroundColor: themeColor }}

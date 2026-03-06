@@ -1,8 +1,15 @@
-fix(ads): comprehensive TopAds SPA handler for gaming entry→promise transitions
+fix(ads): relocate square ad slots for AdSense policy compliance & fix lint
 
-- Track previous pathname to detect quiz/chat→promise/reward transitions
-- Add isGamingEntryPage() to identify both excluded quiz pages and chat pages
-- Re-apply topAds.config to clear cached exclusion state on entry transitions
+- Move square01 from before section 0 image to between section 1 paragraphs
+  and bullets (text neighbors on both sides)
+- Move square02 from after section 1 image to between sections 1 and 2 with
+  bridging text paragraph (text neighbors on both sides)
+- Add Fragment import to support between-section ad slot placement
+- Remove unused StickyBottomBanner imports from both gaming templates
+- Remove unused themeColorDark destructuring in sticky-bottom-banner
+- Remove unused stickyBanner destructuring in gaming-reward-template
+- All square0{n} slots now have text elements as adjacent DOM siblings
+- ESLint passes with zero warnings and zero errors
 - Re-inject topAds.min.js script on entry→promise navigation for fresh init
 - Add follow-up topAds.spa() trigger 2s after re-injection
 - Extend polling window to 5s (25×200ms) for entry page transitions

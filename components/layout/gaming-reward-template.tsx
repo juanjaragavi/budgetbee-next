@@ -8,7 +8,6 @@ import GamingMethodCard, {
 import GamingCtaBanner, {
   type GamingCtaBannerProps,
 } from "@/components/gaming/gaming-cta-banner";
-import StickyBottomBanner from "@/components/gaming/sticky-bottom-banner";
 import type { RelatedArticle } from "@/components/layout/gaming-promise-template";
 
 export interface GamingRewardTemplateProps {
@@ -59,7 +58,6 @@ export default function GamingRewardTemplate({
   methods,
   closingParagraphs,
   relatedArticles,
-  stickyBanner,
   ctaBanner,
 }: GamingRewardTemplateProps) {
   return (

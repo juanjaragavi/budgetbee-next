@@ -65,7 +65,8 @@ export function makeRobloxCtaBanner(): GamingCtaBannerProps {
     body: "Use this checklist to confirm any Robux-earning method is legitimate and safe for your account before trying it.",
     ctaLabel: "See the Best Robux Methods",
     ctaHref: "/gaming/robux-reward-p1",
-    disclaimer: "Never enter your Roblox password on unofficial sites, even if they promise free Robux.",
+    disclaimer:
+      "Never enter your Roblox password on unofficial sites, even if they promise free Robux.",
     themeColor: ROBLOX_THEME.color,
     themeColorDark: ROBLOX_THEME.colorDark,
   };
@@ -73,13 +74,17 @@ export function makeRobloxCtaBanner(): GamingCtaBannerProps {
 
 export function makeMinecraftCtaBanner(): GamingCtaBannerProps {
   return {
-    image: { src: MINECRAFT_IMAGES.promo, alt: "Minecraft characters and world" },
+    image: {
+      src: MINECRAFT_IMAGES.promo,
+      alt: "Minecraft characters and world",
+    },
     badge: "Safe Minecoin Methods",
     headline: "How to Get Free Minecoins Without Risking Your Account",
     body: "Follow this quick guide to verify any Minecoin-earning method is safe and legitimate before you try it.",
     ctaLabel: "See the Best Minecraft Methods",
     ctaHref: "/gaming/minecraft-reward-p1",
-    disclaimer: "Only use official Microsoft redemption channels for Minecraft content.",
+    disclaimer:
+      "Only use official Microsoft redemption channels for Minecraft content.",
     themeColor: MINECRAFT_THEME.color,
     themeColorDark: MINECRAFT_THEME.colorDark,
   };
@@ -87,13 +92,17 @@ export function makeMinecraftCtaBanner(): GamingCtaBannerProps {
 
 export function makeFortniteCtaBanner(): GamingCtaBannerProps {
   return {
-    image: { src: FORTNITE_IMAGES.promo, alt: "Fortnite characters and battle scene" },
+    image: {
+      src: FORTNITE_IMAGES.promo,
+      alt: "Fortnite characters and battle scene",
+    },
     badge: "Safe V-Bucks Methods",
     headline: "Your Safety Checklist Before Earning V-Bucks",
     body: "Use this checklist to confirm any V-Bucks method is truly safe and won't put your Epic Games account at risk.",
     ctaLabel: "See the Best V-Bucks Methods",
     ctaHref: "/gaming/fortnite-reward-p1",
-    disclaimer: "Never share your Epic Games credentials with third-party sites promising free V-Bucks.",
+    disclaimer:
+      "Never share your Epic Games credentials with third-party sites promising free V-Bucks.",
     themeColor: FORTNITE_THEME.color,
     themeColorDark: FORTNITE_THEME.colorDark,
   };
@@ -151,7 +160,10 @@ export function makeMicrosoftRewardsCard(
       href: "https://www.microsoft.com/en-us/rewards",
     },
     downloadLinks: [
-      { label: "Open in Browser", href: "https://www.microsoft.com/en-us/rewards" },
+      {
+        label: "Open in Browser",
+        href: "https://www.microsoft.com/en-us/rewards",
+      },
     ],
     themeColor,
   };

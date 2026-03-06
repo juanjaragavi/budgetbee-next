@@ -30,7 +30,6 @@ export default function StickyBottomBanner({
   ctaHref,
   disclaimer,
   themeColor,
-  themeColorDark,
 }: StickyBottomBannerProps) {
   const [dismissed, setDismissed] = useState(false);
   const [visible, setVisible] = useState(false);
@@ -96,7 +95,9 @@ export default function StickyBottomBanner({
 
         {/* Disclaimer */}
         {disclaimer && (
-          <p className="text-center text-[10px] text-white/60 mt-2">{disclaimer}</p>
+          <p className="text-center text-[10px] text-white/60 mt-2">
+            {disclaimer}
+          </p>
         )}
       </div>
     </div>

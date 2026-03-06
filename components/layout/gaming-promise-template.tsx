@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Header } from "@/components/layout/header";
@@ -5,7 +6,6 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import GamingFaqAccordion, {
   type FaqItem,
 } from "@/components/gaming/gaming-faq-accordion";
-import StickyBottomBanner from "@/components/gaming/sticky-bottom-banner";
 
 export interface ContentSection {
   heading: string;
@@ -160,64 +160,72 @@ export default function GamingPromiseTemplate({
                   : "text-2xl font-bold text-gray-800 mb-4";
 
               return (
-                <section key={`section-${i}`} className="mb-8">
-                  <HeadingTag className={headingClass}>
-                    {section.heading}
-                  </HeadingTag>
+                <Fragment key={`section-${i}`}>
+                  <section className="mb-8">
+                    <HeadingTag className={headingClass}>
+                      {section.heading}
+                    </HeadingTag>
 
-                  {section.paragraphs.map((p, j) => (
-                    <p
-                      key={`p-${i}-${j}`}
-                      className="text-gray-700 mb-4 leading-relaxed"
-                    >
-                      {p}
-                    </p>
-                  ))}
+                    {section.paragraphs.map((p, j) => (
+                      <p
+                        key={`p-${i}-${j}`}
+                        className="text-gray-700 mb-4 leading-relaxed"
+                      >
+                        {p}
+                      </p>
+                    ))}
 
-                  {section.bullets && section.bullets.length > 0 && (
-                    <ul className="space-y-2 mb-4">
-                      {section.bullets.map((bullet, k) => (
-                        <li
-                          key={`b-${i}-${k}`}
-                          className="flex items-start gap-2"
-                        >
-                          <span
-                            className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold text-white mt-0.5"
-                            style={{ backgroundColor: themeColor }}
-                          >
-                            ✓
-                          </span>
-                          <span className="text-gray-700 text-sm">
-                            {bullet}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-
-                  {/* Ad Slot 1 — After first section text, before image */}
-                  {i === 0 && (
-                    <div
-                      id="square01"
-                      data-topads
-                      data-topads-size="square"
-                      className="items-center justify-center flex w-full my-8"
-                    />
-                  )}
-
-                  {section.image && (
-                    <div className="my-6 rounded-xl overflow-hidden">
-                      <Image
-                        src={section.image.src}
-                        alt={section.image.alt}
-                        width={600}
-                        height={400}
-                        className="w-full h-auto"
+                    {/* Ad Slot 1 — Between section 1 paragraphs and bullets (text on both sides) */}
+                    {i === 1 && (
+                      <div
+                        id="square01"
+                        data-topads
+                        data-topads-size="square"
+                        className="items-center justify-center flex w-full my-8"
                       />
-                    </div>
-                  )}
+                    )}
 
-                  {/* Ad Slot 2 — After second section (text + image) */}
+                    {section.bullets && section.bullets.length > 0 && (
+                      <ul className="space-y-2 mb-4">
+                        {section.bullets.map((bullet, k) => (
+                          <li
+                            key={`b-${i}-${k}`}
+                            className="flex items-start gap-2"
+                          >
+                            <span
+                              className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full text-xs font-bold text-white mt-0.5"
+                              style={{ backgroundColor: themeColor }}
+                            >
+                              ✓
+                            </span>
+                            <span className="text-gray-700 text-sm">
+                              {bullet}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    {section.image && (
+                      <div className="my-6 rounded-xl overflow-hidden">
+                        <Image
+                          src={section.image.src}
+                          alt={section.image.alt}
+                          width={600}
+                          height={400}
+                          className="w-full h-auto"
+                        />
+                      </div>
+                    )}
+                  </section>
+
+                  {/* Ad Slot 2 — Between sections 1 and 2 (text on both sides) */}
+                  {i === 1 && (
+                    <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+                      Discover more proven strategies and tips from experienced
+                      players below.
+                    </p>
+                  )}
                   {i === 1 && (
                     <div
                       id="square02"
@@ -226,7 +234,7 @@ export default function GamingPromiseTemplate({
                       className="items-center justify-center flex w-full my-8"
                     />
                   )}
-                </section>
+                </Fragment>
               );
             })}
 

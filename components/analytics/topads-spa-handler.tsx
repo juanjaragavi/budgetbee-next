@@ -33,10 +33,7 @@ function isExcludedPath(path: string): boolean {
 /** Chat pages are not excluded in TopAds config but need special handling
  *  since they transition to promise/reward pages via SPA navigation */
 function isGamingEntryPage(path: string): boolean {
-  return (
-    isExcludedPath(path) ||
-    /^\/gaming\/.*-(chat|quiz)-\d+/.test(path)
-  );
+  return isExcludedPath(path) || /^\/gaming\/.*-(chat|quiz)-\d+/.test(path);
 }
 
 const TOPADS_SCRIPT_URL = "https://topads.topnetworks.co/topAds.min.js";
