@@ -55,12 +55,12 @@ export default function FortniteRewardP1() {
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       stickyBanner={{
         badge: "V-Bucks Rewards",
-        headline: "The Best Ways to Earn Free V-Bucks",
-        body: "Microsoft Rewards is the easiest verified method to earn gift cards redeemable for V-Bucks on official stores.",
-        ctaLabel: "Get Microsoft Rewards",
-        ctaHref: "https://rewards.microsoft.com/",
+        headline: "Discover How PRO Players Get Free V-Bucks",
+        body: "Learn the top legitimate methods real players use every day to earn V-Bucks — safely and for free.",
+        ctaLabel: "See How It Works",
+        ctaHref: "/gaming/fortnite-promise-p1",
         disclaimer:
-          "Free to join. No credit card required. Earn points and redeem for Fortnite gift cards.",
+          "No scams, no hacks. Real methods verified by the community.",
       }}
     />
   );

@@ -1,7 +1,7 @@
-fix(analytics): replace foreign GTM container with authorized BudgetBee ID
+refactor(gaming): shrink sticky banner and redirect CTA to promise pages
 
-- Replace hardcoded GTM-MR76NXR3 (uk.topfinanzas.com) with GTM-MP4CPT97
-  (BudgetBee USA) in components/analytics/gtm.tsx
-- Eliminates cross-property data contamination from TopFinanzas UK and
-  uk.topfinanzas.com tags inherited via the foreign GTM container
-- Verified zero remaining references to foreign tag IDs in source files
+- Reduce StickyBottomBanner height: smaller padding, font sizes, and button
+- Remove target=_blank from CTA link for internal navigation
+- Update all 27 gaming pages to link to internal promise pages instead of
+  external Microsoft Rewards URL
+- Update banner copy: headline, body, CTA label, and disclaimer per game

@@ -54,7 +54,7 @@ export default function StickyBottomBanner({
       aria-live="polite"
     >
       <div
-        className="pointer-events-auto relative rounded-t-2xl shadow-2xl px-5 pt-4 pb-6 w-full max-w-lg transition-transform duration-300 ease-out"
+        className="pointer-events-auto relative rounded-t-2xl shadow-2xl px-4 pt-3 pb-4 w-full max-w-lg transition-transform duration-300 ease-out"
         style={{
           backgroundColor: themeColor,
           transform: visible ? "translateY(0)" : "translateY(100%)",
@@ -72,25 +72,23 @@ export default function StickyBottomBanner({
 
         {/* Badge */}
         {badge && (
-          <span className="inline-flex px-3 py-1 rounded-full text-xs font-semibold bg-white/20 text-white">
+          <span className="inline-flex px-2 py-0.5 rounded-full text-[10px] font-semibold bg-white/20 text-white">
             {badge}
           </span>
         )}
 
         {/* Headline */}
-        <h3 className="text-xl font-bold text-white mt-2 leading-snug line-clamp-2">
+        <h3 className="text-base font-bold text-white mt-1 leading-snug line-clamp-2">
           {headline}
         </h3>
 
         {/* Body */}
-        <p className="text-sm text-white/80 mt-2 leading-relaxed">{body}</p>
+        <p className="text-xs text-white/80 mt-1 leading-relaxed">{body}</p>
 
         {/* CTA Button */}
         <Link
           href={ctaHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block w-full py-4 rounded-xl font-bold text-base text-center mt-4 transition-opacity bg-white hover:opacity-90"
+          className="block w-full py-2.5 rounded-xl font-bold text-sm text-center mt-2.5 transition-opacity bg-white hover:opacity-90"
           style={{ color: themeColor }}
         >
           {ctaLabel}
@@ -98,7 +96,7 @@ export default function StickyBottomBanner({
 
         {/* Disclaimer */}
         {disclaimer && (
-          <p className="text-center text-xs text-white/60 mt-3">{disclaimer}</p>
+          <p className="text-center text-[10px] text-white/60 mt-2">{disclaimer}</p>
         )}
       </div>
     </div>

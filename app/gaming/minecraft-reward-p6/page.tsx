@@ -55,12 +55,12 @@ export default function MinecraftRewardP6() {
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       stickyBanner={{
         badge: "Minecraft Rewards",
-        headline: "The Best Ways to Earn Free Minecoins",
-        body: "Microsoft Rewards lets Minecraft players earn gift cards for free content, skins, and texture packs — no mods required.",
-        ctaLabel: "Get Microsoft Rewards",
-        ctaHref: "https://rewards.microsoft.com/",
+        headline: "Discover How PRO Players Get Free Minecoins",
+        body: "Learn the top legitimate methods real players use every day to earn Minecoins — safely and for free.",
+        ctaLabel: "See How It Works",
+        ctaHref: "/gaming/minecraft-promise-p1",
         disclaimer:
-          "Free to join. No credit card required. Earn points and redeem for Minecraft gift cards.",
+          "No scams, no hacks. Real methods verified by the community.",
       }}
     />
   );

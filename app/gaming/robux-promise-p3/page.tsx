@@ -96,12 +96,12 @@ export default function RobuxPromiseP3() {
       ]}
       stickyBanner={{
         badge: "Robux Rewards",
-        headline: "The Best Ways PRO Players Earn Free Robux",
-        body: "Microsoft Rewards is the #1 method verified Roblox players use to earn gift cards without hacks or generators.",
-        ctaLabel: "Get Microsoft Rewards",
-        ctaHref: "https://rewards.microsoft.com/",
+        headline: "Discover How PRO Players Get Free Robux",
+        body: "Learn the top legitimate methods real players use every day to earn Robux — safely and for free.",
+        ctaLabel: "See How It Works",
+        ctaHref: "/gaming/robux-promise-p1",
         disclaimer:
-          "Free to join. No credit card required. Earn points and redeem for Robux gift cards.",
+          "No scams, no hacks. Real methods verified by the community.",
       }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Ready to level up your Robux earning game? Check out our handpicked selection of reward apps that pro players swear by."
