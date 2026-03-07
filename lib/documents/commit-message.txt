@@ -1,4 +1,4 @@
-feat: add TopAds rewarded overlay to gaming promise template
+feat: reposition square02 ad unit in gaming promise template
 
-- Integated full-screen rewarded overlay ad unit activated via data-topads-rewarded attribute immediately after the <main> tag in gaming-promise-template.tsx
-- Added iteration 14 documentation outlining rewarded overlay ad unit requirements
+- Moved the square02 ad unit higher up in the fold, directly below the hero section subtitle to increase visibility
+- Removed previous ad unit placement between sections

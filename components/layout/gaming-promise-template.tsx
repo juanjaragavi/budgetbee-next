@@ -103,6 +103,13 @@ export default function GamingPromiseTemplate({
               {title}
             </h1>
             <p className="text-lg opacity-90">{subtitle}</p>
+            
+            <div
+              id="square02"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full mt-8"
+            />
           </div>
         </div>
       </section>
@@ -178,16 +185,6 @@ export default function GamingPromiseTemplate({
                         {p}
                       </p>
                     ))}
-
-                    {/* Ad Slot 1 — Between section 1 paragraphs and bullets (text on both sides) */}
-                    {i === 1 && (
-                      <div
-                        id="square02"
-                        data-topads
-                        data-topads-size="square"
-                        className="items-center justify-center flex w-full my-8"
-                      />
-                    )}
 
                     {section.bullets && section.bullets.length > 0 && (
                       <ul className="space-y-2 mb-4">
