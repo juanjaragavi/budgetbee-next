@@ -82,7 +82,6 @@ export default function GamingRewardTemplate({
             <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
               {title}
             </h1>
-            <p className="text-lg opacity-90">{subtitle}</p>
           </div>
         </div>
       </section>
@@ -91,6 +90,18 @@ export default function GamingRewardTemplate({
       <article className="py-4 md:py-8">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            {/* Ad Slot 1 — Before hero image */}
+            <div
+              id="square02"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            />
+
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              {subtitle}
+            </p>
+
             {/* Hero image */}
             {heroImage && (
               <div className="mb-8 rounded-xl overflow-hidden">
@@ -114,14 +125,6 @@ export default function GamingRewardTemplate({
                 {p}
               </p>
             ))}
-
-            {/* Ad Slot 1 — After intro text content */}
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="items-center justify-center flex w-full my-8"
-            />
 
             {/* Trust signals */}
             {trustSignals && trustSignals.length > 0 && (

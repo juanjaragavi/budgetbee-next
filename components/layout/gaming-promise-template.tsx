@@ -102,14 +102,6 @@ export default function GamingPromiseTemplate({
             <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
               {title}
             </h1>
-            <p className="text-lg opacity-90">{subtitle}</p>
-            
-            <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
-              className="items-center justify-center flex w-full mt-8"
-            />
           </div>
         </div>
       </section>
@@ -118,6 +110,17 @@ export default function GamingPromiseTemplate({
       <article className="py-4 md:py-8">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
+            <div
+              id="square02"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            />
+
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              {subtitle}
+            </p>
+
             {/* Hero image */}
             {heroImage && (
               <div className="mb-8 rounded-xl overflow-hidden">

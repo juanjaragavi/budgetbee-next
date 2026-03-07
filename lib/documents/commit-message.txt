@@ -1,4 +1,5 @@
-feat: reposition square02 ad unit in gaming promise template
+fix(gaming): restructure hero templates for AdSense compliance
 
-- Moved the square02 ad unit higher up in the fold, directly below the hero section subtitle to increase visibility
-- Removed previous ad unit placement between sections
+- Move subtitle out of the gradient hero section to the article container.
+- Relocate square02 ad slot below the hero section and above the subtitle.
+- Ensure proper text buffering between ad slots and images.
