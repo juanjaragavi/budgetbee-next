@@ -47,6 +47,7 @@ export default function TopAds() {
                 websiteName: "BudgetBee US",
                 cooldown: "12",
                 exclude: [
+                  "/gaming/robux-promise-p2",
                   "/credit-card-recommender-p2",
                   "/credit-card-recommender-p3",
                 ],

@@ -1,4 +1,4 @@
-fix: handle absolute URLs for gaming quiz redirects
+feat(gaming): add option to hide rewarded ad overlay in promise pages
 
-- Updated `GamingQuizEntry` handleCta function to use `window.location.href` for external destinations (URLs starting with 'http').
-- Kept `router.push` as fallback for Next.js internal client-side routes.
+- Added `hideRewardedAd` prop to `GamingPromiseTemplate` component to conditionally render the `data-topads-rewarded` div.
+- Set `hideRewardedAd={true}` in `robux-promise-p1` page to specifically exclude the rewarded overlay on that page.

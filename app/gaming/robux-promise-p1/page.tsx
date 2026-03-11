@@ -146,6 +146,7 @@ export default function RobuxPromiseP1() {
       }}
       relatedArticles={FINANCIAL_RELATED_ARTICLES}
       closingParagraph="Ready to start earning Robux without spending money? Check out our complete guide to the best reward apps and methods that are working right now in 2026. Every method we recommend has been verified and tested by real Roblox players."
+      hideRewardedAd={true}
     />
   );
 }
