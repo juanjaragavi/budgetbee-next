@@ -73,7 +73,11 @@ export default function GamingQuizEntry({
   }, []);
 
   const handleCta = useCallback(() => {
-    router.push(redirectTo);
+    if (redirectTo.startsWith("http")) {
+      window.location.href = redirectTo;
+    } else {
+      router.push(redirectTo);
+    }
   }, [router, redirectTo]);
 
   const q = questions[currentQuestion];

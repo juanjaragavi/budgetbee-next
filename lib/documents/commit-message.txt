@@ -1,5 +1,4 @@
-fix(gaming): restructure hero templates for AdSense compliance
+fix: handle absolute URLs for gaming quiz redirects
 
-- Move subtitle out of the gradient hero section to the article container.
-- Relocate square02 ad slot below the hero section and above the subtitle.
-- Ensure proper text buffering between ad slots and images.
+- Updated `GamingQuizEntry` handleCta function to use `window.location.href` for external destinations (URLs starting with 'http').
+- Kept `router.push` as fallback for Next.js internal client-side routes.

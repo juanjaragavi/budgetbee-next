@@ -35,7 +35,7 @@ export default function RobuxQuiz01Page() {
       ctaHeading="Want to know how PRO players earn extra Robux?"
       ctaButtonText="Yes! Show Me Now!"
       ctaSecondaryText="View sponsored recommendation"
-      redirectTo="/gaming/robux-promise-p1"
+      redirectTo="https://route.topnetworks.co/api/redirect/fdd03aa4-6fc1-467b-ac0f-e0fd23fdd626"
       gameIcon="🟣"
     />
   );
