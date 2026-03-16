@@ -79,7 +79,7 @@ export default function GamingRewardTemplate({
             >
               {badge}
             </div>
-            <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight text-white">
               {title}
             </h1>
           </div>

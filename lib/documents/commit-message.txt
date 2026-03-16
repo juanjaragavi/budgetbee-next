@@ -1,4 +1,5 @@
-feat(gaming): add option to hide rewarded ad overlay in promise pages
+feat(gaming): move quizzes into promise page modals
 
-- Added `hideRewardedAd` prop to `GamingPromiseTemplate` component to conditionally render the `data-topads-rewarded` div.
-- Set `hideRewardedAd={true}` in `robux-promise-p1` page to specifically exclude the rewarded overlay on that page.
+- host Fortnite, Minecraft, and Robux quiz flows inside promise-page modal overlays
+- remove standalone gaming quiz routes and reuse shared quiz configuration
+- delay gaming ad initialization until quiz completion and keep hero titles white

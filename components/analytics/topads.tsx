@@ -2,6 +2,19 @@
 
 import Script from "next/script";
 import browserLogger from "@/lib/browser-logger";
+import { DELAYED_GAMING_AD_PATHS } from "@/lib/gaming-quiz-config";
+
+const TOPADS_EXCLUDED_PATHS = [
+  "/contact-us",
+  "/privacy-policy",
+  "/terms",
+  "/cookie-policy",
+  "/about-us",
+  "/quiz",
+  "/quiz-2",
+  "/quiz-results",
+  ...DELAYED_GAMING_AD_PATHS,
+];
 
 export default function TopAds() {
   return (
@@ -17,22 +30,7 @@ export default function TopAds() {
             networkCode: "23062212598",
             lazyLoad: "soft",
             pageSetting: {
-              exclude: [
-                "/contact-us",
-                "/privacy-policy",
-                "/terms",
-                "/cookie-policy",
-                "/about-us",
-                "/quiz",
-                "/quiz-2",
-                "/quiz-results",
-                "/gaming/fortnite-quiz-01",
-                "/gaming/fortnite-quiz-02",
-                "/gaming/minecraft-quiz-01",
-                "/gaming/minecraft-quiz-02",
-                "/gaming/robux-quiz-01",
-                "/gaming/robux-quiz-02",
-              ],
+              exclude: ${JSON.stringify(TOPADS_EXCLUDED_PATHS)},
             },
             formats: {
               interstitial: {

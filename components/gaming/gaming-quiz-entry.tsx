@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useCallback, useMemo, useState } from "react";
 import FakeLoadingState from "@/components/gaming/fake-loading-state";
 
 export interface QuizQuestion {
@@ -11,49 +10,24 @@ export interface QuizQuestion {
 }
 
 export interface GamingQuizEntryProps {
-  /** Quiz title shown above the question card */
-  title?: string;
-  /** Array of 2-4 quiz questions */
   questions: QuizQuestion[];
-  /** Journey identifier for GA4 step tracking (e.g. "quiz-fortnite-01") */
   journeyId: string;
-  /** Theme color hex (e.g. "#7C3AED" for purple) */
   themeColor: string;
-  /** Lighter shade for hover states */
   themeColorLight: string;
-  /** Loading screen message */
   loadingMessage?: string;
-  /** Final CTA heading */
-  ctaHeading: string;
-  /** Final CTA button text */
-  ctaButtonText: string;
-  /** Secondary link text below the CTA button */
-  ctaSecondaryText?: string;
-  /** Destination URL after the final CTA */
-  redirectTo: string;
-  /** Optional game icon/image URL */
-  gameIcon?: string;
-  /** Hide all ad slots on this quiz page */
-  hideAds?: boolean;
+  onComplete: () => void;
 }
 
-type Phase = "quiz" | "loading" | "cta";
+type Phase = "quiz" | "loading";
 
 export default function GamingQuizEntry({
-  title,
   questions,
   journeyId,
   themeColor,
   themeColorLight,
   loadingMessage,
-  ctaHeading,
-  ctaButtonText,
-  ctaSecondaryText = "View sponsored recommendation to continue",
-  redirectTo,
-  gameIcon,
-  hideAds = false,
+  onComplete,
 }: GamingQuizEntryProps) {
-  const router = useRouter();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [phase, setPhase] = useState<Phase>("quiz");
 
@@ -62,186 +36,100 @@ export default function GamingQuizEntry({
     if (nextIndex < questions.length) {
       setCurrentQuestion(nextIndex);
     } else if (phase === "quiz") {
-      // Guard: only transition to loading from quiz phase (prevents re-trigger)
       setPhase("loading");
     }
   }, [currentQuestion, questions.length, phase]);
 
   const handleLoadingComplete = useCallback(() => {
-    // Guard: only transition to cta from loading phase
-    setPhase((prev) => (prev === "loading" ? "cta" : prev));
-  }, []);
-
-  const handleCta = useCallback(() => {
-    if (redirectTo.startsWith("http")) {
-      window.location.href = redirectTo;
-    } else {
-      router.push(redirectTo);
-    }
-  }, [router, redirectTo]);
+    onComplete();
+  }, [onComplete]);
 
   const q = questions[currentQuestion];
   const progress =
     phase === "quiz" ? ((currentQuestion + 1) / questions.length) * 100 : 100;
+  const questionHeadingId = useMemo(
+    () =>
+      `${journeyId}-question-${Math.min(currentQuestion + 1, questions.length)}`,
+    [currentQuestion, journeyId, questions.length],
+  );
+  const optionContainerId = `paso-${currentQuestion + 1}-${journeyId}`;
+  const lastQuestionText =
+    questions[Math.min(currentQuestion, questions.length - 1)]?.question;
 
   return (
-    <section className="w-full min-h-screen flex flex-col bg-gray-50">
-      <div className="flex-1 flex items-center justify-center px-4 py-8">
-        <div className="w-full max-w-lg">
-          {/* Game icon */}
-          {gameIcon && phase === "quiz" && (
-            <div className="flex justify-center mb-4">
-              <div
-                className="h-16 w-16 rounded-2xl flex items-center justify-center text-3xl"
-                style={{ backgroundColor: `${themeColor}20` }}
-              >
-                {gameIcon}
-              </div>
-            </div>
-          )}
-
-          {/* Title */}
-          {title && phase === "quiz" && (
-            <h1
-              className="text-xl font-bold text-center mb-6"
-              style={{ color: themeColor }}
-            >
-              {title}
-            </h1>
-          )}
-
-          {/* Progress bar (quiz phase only) */}
-          {phase === "quiz" && (
-            <div className="w-full h-2 bg-gray-200 rounded-full mb-8 overflow-hidden">
-              <div
-                className="h-full rounded-full transition-all duration-500 ease-out"
-                style={{
-                  width: `${progress}%`,
-                  backgroundColor: themeColor,
-                }}
-              />
-            </div>
-          )}
-
-          {/* Quiz card */}
-          {phase === "quiz" && q && (
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-xl font-semibold text-gray-900 text-center mb-8">
-                {q.question}
-              </h2>
-              <div
-                id={`paso-${currentQuestion + 1}-${journeyId}`}
-                className="space-y-3"
-              >
-                {q.options.map((option) => (
-                  <button
-                    key={option.value}
-                    type="button"
-                    onClick={handleAnswer}
-                    className="w-full py-4 px-6 rounded-xl text-white font-semibold text-lg transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-md"
-                    style={{
-                      backgroundColor: themeColor,
-                    }}
-                    onMouseEnter={(e) =>
-                      (e.currentTarget.style.backgroundColor = themeColorLight)
-                    }
-                    onMouseLeave={(e) =>
-                      (e.currentTarget.style.backgroundColor = themeColor)
-                    }
-                  >
-                    {option.label}
-                  </button>
-                ))}
-              </div>
-              <p className="text-center text-sm text-gray-400 mt-6">
-                Question {currentQuestion + 1} of {questions.length}
-              </p>
-            </div>
-          )}
-
-          {/* Loading phase */}
-          {phase === "loading" && (
-            <div className="bg-white rounded-2xl shadow-lg">
-              <FakeLoadingState
-                message={loadingMessage}
-                themeColor={themeColor}
-                duration={3500}
-                onComplete={handleLoadingComplete}
-              />
-            </div>
-          )}
-
-          {/* CTA phase */}
-          {phase === "cta" && (
+    <div className="fixed inset-0 z-[90] flex items-center justify-center p-4 sm:p-6">
+      <div className="absolute inset-0 bg-slate-950/25 backdrop-blur-sm" />
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={questionHeadingId}
+        className="relative z-[1] w-full max-w-[380px] rounded-[28px] bg-white shadow-[0_24px_80px_rgba(15,23,42,0.22)]"
+      >
+        <div className="px-5 pt-5 sm:px-6 sm:pt-6">
+          <div className="h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
             <div
-              id={`paso-3-${journeyId}`}
-              className="bg-white rounded-2xl shadow-lg p-8 text-center"
+              className="h-full rounded-full transition-all duration-500 ease-out"
+              style={{
+                width: `${progress}%`,
+                backgroundColor: themeColor,
+              }}
+            />
+          </div>
+        </div>
+
+        {phase === "quiz" && q && (
+          <div className="px-5 pb-5 pt-4 sm:px-6 sm:pb-6">
+            <h2
+              id={questionHeadingId}
+              className="text-center text-[1.35rem] font-semibold leading-tight text-slate-900"
             >
-              {gameIcon && (
-                <div className="flex justify-center mb-4">
-                  <div
-                    className="h-20 w-20 rounded-2xl flex items-center justify-center text-4xl"
-                    style={{ backgroundColor: `${themeColor}20` }}
-                  >
-                    {gameIcon}
-                  </div>
-                </div>
-              )}
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">
-                {ctaHeading}
-              </h2>
-              <button
-                type="button"
-                onClick={handleCta}
-                className="w-full py-4 px-6 rounded-xl text-white font-bold text-lg transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] shadow-lg mb-4"
-                style={{ backgroundColor: themeColor }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.backgroundColor = themeColorLight)
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.backgroundColor = themeColor)
-                }
-              >
-                {ctaButtonText}
-              </button>
-              <button
-                type="button"
-                onClick={handleCta}
-                className="text-sm text-gray-500 underline hover:text-gray-700 transition-colors"
-              >
-                {ctaSecondaryText}
-              </button>
+              {q.question}
+            </h2>
+            <div id={optionContainerId} className="mt-5 space-y-3">
+              {q.options.map((option) => (
+                <button
+                  key={option.value}
+                  type="button"
+                  onClick={handleAnswer}
+                  className="w-full rounded-2xl px-4 py-3.5 text-base font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:translate-y-0"
+                  style={{
+                    backgroundColor: themeColor,
+                    boxShadow: `0 12px 24px ${themeColor}33`,
+                  }}
+                  onMouseEnter={(event) => {
+                    event.currentTarget.style.backgroundColor = themeColorLight;
+                  }}
+                  onMouseLeave={(event) => {
+                    event.currentTarget.style.backgroundColor = themeColor;
+                  }}
+                  onFocus={(event) => {
+                    event.currentTarget.style.backgroundColor = themeColorLight;
+                  }}
+                  onBlur={(event) => {
+                    event.currentTarget.style.backgroundColor = themeColor;
+                  }}
+                >
+                  {option.label}
+                </button>
+              ))}
             </div>
-          )}
-        </div>
+          </div>
+        )}
+
+        {phase === "loading" && (
+          <div className="px-5 pb-5 pt-4 sm:px-6 sm:pb-6">
+            <h2 id={questionHeadingId} className="sr-only">
+              {lastQuestionText}
+            </h2>
+            <FakeLoadingState
+              message={loadingMessage}
+              themeColor={themeColor}
+              duration={3500}
+              onComplete={handleLoadingComplete}
+            />
+          </div>
+        )}
       </div>
-
-      {/* Ad Slot 1 — Below main content */}
-      {!hideAds && (
-        <div className="w-full max-w-lg mx-auto px-4">
-          <div
-            id="square01"
-            data-topads
-            data-topads-size="square"
-            className="items-center justify-center flex w-full my-8"
-          />
-        </div>
-      )}
-
-      <p className="text-center text-xs text-gray-500 mb-2">
-        By continuing you agree to our terms of service.
-      </p>
-
-      {/* Footer */}
-      <div className="text-center py-4 text-xs text-gray-400">
-        <a href="/terms" className="hover:underline">
-          Terms
-        </a>
-        {" | "}
-        <a href="/privacy-policy" className="hover:underline">
-          Privacy
-        </a>
-      </div>
-    </section>
+    </div>
   );
 }
