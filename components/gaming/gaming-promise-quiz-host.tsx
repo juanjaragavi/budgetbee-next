@@ -1,6 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import {
+  Suspense,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import GamingQuizEntry from "@/components/gaming/gaming-quiz-entry";
 import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
@@ -27,6 +34,19 @@ function buildNextUrl(
 }
 
 export default function GamingPromiseQuizHost({
+  quiz,
+  children,
+}: GamingPromiseQuizHostProps) {
+  return (
+    <Suspense fallback={children}>
+      <GamingPromiseQuizHostContent quiz={quiz}>
+        {children}
+      </GamingPromiseQuizHostContent>
+    </Suspense>
+  );
+}
+
+function GamingPromiseQuizHostContent({
   quiz,
   children,
 }: GamingPromiseQuizHostProps) {

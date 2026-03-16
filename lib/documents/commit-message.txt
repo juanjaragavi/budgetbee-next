@@ -1,5 +1,5 @@
-feat(gaming): move quizzes into promise page modals
+fix(gaming): wrap promise quiz host in suspense
 
-- host Fortnite, Minecraft, and Robux quiz flows inside promise-page modal overlays
-- remove standalone gaming quiz routes and reuse shared quiz configuration
-- delay gaming ad initialization until quiz completion and keep hero titles white
+- wrap the promise quiz host content in Suspense for App Router compatibility
+- keep useSearchParams within a suspense-safe client subtree
+- restore clean production build and lint output for gaming promise pages
