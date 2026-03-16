@@ -1,5 +1,5 @@
-fix(gaming): wrap promise quiz host in suspense
+fix(analytics): disable TopAds refresh behavior
 
-- wrap the promise quiz host content in Suspense for App Router compatibility
-- keep useSearchParams within a suspense-safe client subtree
-- restore clean production build and lint output for gaming promise pages
+- add explicit TopAds refresh settings with inactive status
+- prevent standard and anchor refresh cycles from auto-running
+- keep existing lazy loading and path exclusions unchanged
