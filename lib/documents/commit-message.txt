@@ -1,11 +1,5 @@
-fix: prevent false SPA route change on Google interstitial #google_vignette fragment
+feat: add gaming reward page paths to TopAds exclusion list
 
-- Add GOOGLE_AD_FRAGMENTS guard to TopAdsSPAHandler to suppress
-  route change handling when only the URL hash changes and
-  pathname + search remain identical
-- Add MutationObserver to auto-remove invalid aria-hidden="true"
-  from <body> set by external Google interstitial scripts
-- Track previousSearch ref alongside previousPathname to detect
-  hash-only URL mutations that do not represent real navigation
-- Prevents interstitial dismissal, preloader re-entry, and ad
-  container re-scan on gaming promise-to-reward page transitions
+Add fortnite-reward, minecraft-reward, and robux-reward page paths
+(p1-p7) to the TopAds fullscreen interstitial exclusion config to
+prevent ads from displaying on gaming reward funnel pages.
