@@ -28,7 +28,6 @@ export default function TopAds() {
             networkCode: "23062212598",
             lazyLoad: "soft",
             refresh: {
-              time: 999,
               status: 'inactive',
               anchor: 'inactive',
             },
@@ -48,7 +47,7 @@ export default function TopAds() {
                 websiteName: "BudgetBee US",
                 cooldown: "12",
                 exclude: [
-                  "/gaming/robux-promise-p2",
+                  "/gaming/robux-promise-p1",
                   "/credit-card-recommender-p2",
                   "/credit-card-recommender-p3",
                 ],

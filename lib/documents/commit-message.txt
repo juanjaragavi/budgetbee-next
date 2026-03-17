@@ -1,5 +1,10 @@
-fix(analytics): restore native topads gaming offerwall flow
+fix(ads): eliminate double-init and refine TopAds gaming integration
 
-- start TopAds gaming offerwalls on promise page load without custom replacements
-- remove delayed gaming activation from the active runtime path
-- keep TopAds-controlled overlays from being unlocked by stale global CSS guards
+- remove manual initial-load topAds.spa() call from SPA handler; topAds.config autoStart handles first-load activation, preventing double-init
+- remove refresh.time from topAds.config to use publisher defaults
+- update excluded path from robux-promise-p2 to robux-promise-p1 in TopAds config
+- add optional id prop to GamingPopupAd for unique TopAds slot targeting
+- fix CSS selector formatting for overflow:hidden body guard in globals.css
+- refactor gaming-promise-template indentation (cosmetic alignment fix)
+- add newline at end of gaming-offerwall-runtime.tsx
+- add topAdsGuide.md documentation to lib/documents

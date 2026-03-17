@@ -329,9 +329,9 @@ body.ad-loading:not(:has([data-topads-quiz][data-topads-processed])):not(
 body.ad-overlay-active:not(:has([data-topads-quiz][data-topads-processed])):not(
     :has([data-topads-rewarded][data-topads-processed])
   ),
-body[style*="overflow: hidden"]:not(:has([data-topads-quiz][data-topads-processed])):not(
-    :has([data-topads-rewarded][data-topads-processed])
-  ),
+body[style*="overflow: hidden"]:not(
+    :has([data-topads-quiz][data-topads-processed])
+  ):not(:has([data-topads-rewarded][data-topads-processed])),
 html.ad-loading:not(:has(body [data-topads-quiz][data-topads-processed])):not(
     :has(body [data-topads-rewarded][data-topads-processed])
   ),

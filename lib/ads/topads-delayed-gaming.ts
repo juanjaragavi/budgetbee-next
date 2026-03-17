@@ -61,7 +61,10 @@ function reinjectTopAdsScript(onLoad?: () => void): void {
   }
 }
 
-function removePathFromExclusions(path: string, excludedPaths: readonly string[]): void {
+function removePathFromExclusions(
+  path: string,
+  excludedPaths: readonly string[],
+): void {
   if (typeof window === "undefined") {
     return;
   }
@@ -71,10 +74,9 @@ function removePathFromExclusions(path: string, excludedPaths: readonly string[]
   const currentPageSetting = ((
     currentConfig as { pageSetting?: TopAdsPageSetting }
   ).pageSetting ?? {}) as TopAdsPageSetting;
-  const currentFormats = (
-    (currentConfig as { formats?: Record<string, TopAdsFormatConfig> }).formats ??
-    {}
-  ) as Record<string, TopAdsFormatConfig>;
+  const currentFormats = ((
+    currentConfig as { formats?: Record<string, TopAdsFormatConfig> }
+  ).formats ?? {}) as Record<string, TopAdsFormatConfig>;
   const currentOfferwall = currentFormats.offerwall ?? {};
   const currentExclude = Array.isArray(currentPageSetting.exclude)
     ? currentPageSetting.exclude

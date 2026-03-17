@@ -3,6 +3,8 @@
 import { useState, useCallback } from "react";
 
 interface GamingPopupAdProps {
+  /** Unique id for the TopAds slot — required by TopAds; defaults to "popup-square01" */
+  id?: string;
   /** Theme color for the close button accent */
   themeColor?: string;
   /** Optional trigger text — if provided, renders a text link that opens the popup */
@@ -15,6 +17,7 @@ interface GamingPopupAdProps {
  * Matches the MeusBeneficios pattern of click-triggered ad popups.
  */
 export default function GamingPopupAd({
+  id = "popup-square01",
   themeColor = "#6b7280",
   triggerText,
 }: GamingPopupAdProps) {
@@ -60,6 +63,7 @@ export default function GamingPopupAd({
               Sponsored Content
             </p>
             <div
+              id={id}
               data-topads
               data-topads-size="square"
               className="flex items-center justify-center w-full min-h-[250px]"
