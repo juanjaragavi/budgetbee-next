@@ -1,5 +1,5 @@
-fix(analytics): disable TopAds refresh behavior
+fix(gaming): restore mobile offerwall flow
 
-- add explicit TopAds refresh settings with inactive status
-- prevent standard and anchor refresh cycles from auto-running
-- keep existing lazy loading and path exclusions unchanged
+- move gaming promise pages to the shared offerwallQuiz template path
+- allow TopAds offerwall activation on gaming promise routes
+- use a React quiz host fallback on mobile while keeping TopAds quiz flow on desktop

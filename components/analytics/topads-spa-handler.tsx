@@ -3,17 +3,8 @@
 import { useEffect, useRef } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import browserLogger from "@/lib/browser-logger";
-import { DELAYED_GAMING_AD_PATHS } from "@/lib/gaming-quiz-config";
 
 type TopAdsConfig = Record<string, unknown>;
-type TopAdsPageSetting = {
-  exclude?: string[];
-};
-type DelayedAdsEventDetail = {
-  path?: string;
-  journeyId?: string;
-  hideAds?: boolean;
-};
 
 /** Paths where TopAds should NOT run — must mirror topads.tsx pageSetting.exclude */
 const BASE_EXCLUDED_PATHS = [
@@ -27,16 +18,12 @@ const BASE_EXCLUDED_PATHS = [
   "/quiz-results",
 ];
 
-const EXCLUDED_PATHS = [...BASE_EXCLUDED_PATHS, ...DELAYED_GAMING_AD_PATHS];
+const EXCLUDED_PATHS = BASE_EXCLUDED_PATHS;
 
 function isExcludedPath(path: string): boolean {
   return EXCLUDED_PATHS.some(
     (excluded) => path === excluded || path.startsWith(excluded + "/"),
   );
-}
-
-function isDelayedGamingAdPath(path: string): boolean {
-  return DELAYED_GAMING_AD_PATHS.some((delayedPath) => delayedPath === path);
 }
 
 /** Chat pages are not excluded in TopAds config but need special handling
@@ -73,51 +60,6 @@ function reinjectTopAdsScript(): void {
   } catch (error) {
     browserLogger.error("[TopAds] Failed to re-inject script:", error);
   }
-}
-
-function removePathFromExclusions(path: string): void {
-  if (typeof window === "undefined") {
-    return;
-  }
-
-  window.topAds = window.topAds || {};
-  const currentConfig = window.topAds.config ?? {};
-  const currentPageSetting = ((
-    currentConfig as { pageSetting?: TopAdsPageSetting }
-  ).pageSetting ?? {}) as TopAdsPageSetting;
-  const currentExclude = Array.isArray(currentPageSetting.exclude)
-    ? currentPageSetting.exclude
-    : EXCLUDED_PATHS;
-
-  window.topAds.config = {
-    ...currentConfig,
-    pageSetting: {
-      ...currentPageSetting,
-      exclude: currentExclude.filter((excludedPath) => excludedPath !== path),
-    },
-  } as TopAdsConfig;
-}
-
-function activateDelayedGamingAds(path: string): void {
-  removePathFromExclusions(path);
-
-  let attempt = 0;
-  const maxAttempts = 20;
-  const pollInterval = 200;
-  const pollForContainers = () => {
-    attempt += 1;
-    const containers = document.querySelectorAll(
-      "[data-topads], [data-topads-rewarded]",
-    );
-    if (containers.length > 0 || attempt >= maxAttempts) {
-      reinjectTopAdsScript();
-      return;
-    }
-
-    window.setTimeout(pollForContainers, pollInterval);
-  };
-
-  pollForContainers();
 }
 
 /**
@@ -283,38 +225,6 @@ export default function TopAdsSPAHandler() {
       timers.forEach((id) => window.clearTimeout(id));
     };
   }, [pathname, searchParams]);
-
-  useEffect(() => {
-    const handleDelayedGamingActivation = (event: Event) => {
-      const customEvent = event as CustomEvent<DelayedAdsEventDetail>;
-      const requestedPath = customEvent.detail?.path;
-
-      if (!requestedPath || requestedPath !== pathname) {
-        return;
-      }
-
-      if (!isDelayedGamingAdPath(requestedPath)) {
-        return;
-      }
-
-      browserLogger.info(
-        `[TopAds] Activating delayed gaming ads for ${requestedPath}`,
-      );
-      activateDelayedGamingAds(requestedPath);
-    };
-
-    window.addEventListener(
-      "gaming:activate-delayed-ads",
-      handleDelayedGamingActivation as EventListener,
-    );
-
-    return () => {
-      window.removeEventListener(
-        "gaming:activate-delayed-ads",
-        handleDelayedGamingActivation as EventListener,
-      );
-    };
-  }, [pathname]);
 
   return null;
 }

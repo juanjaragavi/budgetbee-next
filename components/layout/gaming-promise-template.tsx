@@ -6,6 +6,8 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import GamingFaqAccordion, {
   type FaqItem,
 } from "@/components/gaming/gaming-faq-accordion";
+import GamingOfferwallRuntime from "@/components/gaming/gaming-offerwall-runtime";
+import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
 
 export interface ContentSection {
   heading: string;
@@ -57,8 +59,8 @@ export interface GamingPromiseTemplateProps {
     ctaHref: string;
     disclaimer?: string;
   };
-  /** Hides the top ads rewarded full-screen overlay component */
-  hideRewardedAd?: boolean;
+  /** When provided, renders the TopAds offerwall quiz unit on page load */
+  offerwallQuiz?: GamingQuizConfig;
 }
 
 export default function GamingPromiseTemplate({
@@ -75,19 +77,14 @@ export default function GamingPromiseTemplate({
   relatedArticles,
   closingParagraph,
   stickyBanner,
-  hideRewardedAd = false,
+  offerwallQuiz,
 }: GamingPromiseTemplateProps) {
   return (
-    <main
-      className={`flex min-h-screen flex-col bg-white${stickyBanner ? " pb-16" : ""}`}
-    >
-      {!hideRewardedAd && (
-        <div
-          data-topads-rewarded
-          data-topads-texts='{"title":"See how to get Robux","description":"Discover the best ways to get Robux quickly","CTA":"See quick methods","disclaimer":"To continue, it will be necessary to watch an ad."}'
-        />
-      )}
-      <Header />
+    <GamingOfferwallRuntime quiz={offerwallQuiz}>
+      <main
+        className={`flex min-h-screen flex-col bg-white${stickyBanner ? " pb-16" : ""}`}
+      >
+        <Header />
 
       {/* Hero */}
       <section
@@ -325,21 +322,22 @@ export default function GamingPromiseTemplate({
         </div>
       </article>
 
-      <CompactFooter />
+        <CompactFooter />
 
-      {/* Sticky bottom banner - temporarily hidden */}
-      {/* {stickyBanner && (
-        <StickyBottomBanner
-          badge={stickyBanner.badge}
-          headline={stickyBanner.headline}
-          body={stickyBanner.body}
-          ctaLabel={stickyBanner.ctaLabel}
-          ctaHref={stickyBanner.ctaHref}
-          disclaimer={stickyBanner.disclaimer}
-          themeColor={themeColor}
-          themeColorDark={themeColorDark}
-        />
-      )} */}
-    </main>
+        {/* Sticky bottom banner - temporarily hidden */}
+        {/* {stickyBanner && (
+          <StickyBottomBanner
+            badge={stickyBanner.badge}
+            headline={stickyBanner.headline}
+            body={stickyBanner.body}
+            ctaLabel={stickyBanner.ctaLabel}
+            ctaHref={stickyBanner.ctaHref}
+            disclaimer={stickyBanner.disclaimer}
+            themeColor={themeColor}
+            themeColorDark={themeColorDark}
+          />
+        )} */}
+      </main>
+    </GamingOfferwallRuntime>
   );
 }
