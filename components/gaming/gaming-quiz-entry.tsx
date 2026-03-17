@@ -15,10 +15,13 @@ export interface GamingQuizEntryProps {
   themeColor: string;
   themeColorLight: string;
   loadingMessage?: string;
+  ctaTitle?: string;
+  ctaButtonLabel?: string;
+  ctaDisclaimer?: string;
   onComplete: () => void;
 }
 
-type Phase = "quiz" | "loading";
+type Phase = "quiz" | "loading" | "cta";
 
 export default function GamingQuizEntry({
   questions,
@@ -26,6 +29,9 @@ export default function GamingQuizEntry({
   themeColor,
   themeColorLight,
   loadingMessage,
+  ctaTitle,
+  ctaButtonLabel,
+  ctaDisclaimer,
   onComplete,
 }: GamingQuizEntryProps) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -41,6 +47,10 @@ export default function GamingQuizEntry({
   }, [currentQuestion, questions.length, phase]);
 
   const handleLoadingComplete = useCallback(() => {
+    setPhase("cta");
+  }, []);
+
+  const handleClaimRewards = useCallback(() => {
     onComplete();
   }, [onComplete]);
 
@@ -127,6 +137,44 @@ export default function GamingQuizEntry({
               duration={3500}
               onComplete={handleLoadingComplete}
             />
+          </div>
+        )}
+
+        {phase === "cta" && (
+          <div className="px-5 pb-5 pt-4 sm:px-6 sm:pb-6">
+            <h2
+              id={questionHeadingId}
+              className="text-center text-[1.35rem] font-semibold leading-tight text-slate-900"
+            >
+              {ctaTitle ?? "Exclusive rewards are waiting for you!"}
+            </h2>
+            <button
+              type="button"
+              onClick={handleClaimRewards}
+              className="mt-5 w-full rounded-2xl px-4 py-3.5 text-base font-semibold text-white shadow-sm transition-all duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:translate-y-0"
+              style={{
+                backgroundColor: themeColor,
+                boxShadow: `0 12px 24px ${themeColor}33`,
+              }}
+              onMouseEnter={(event) => {
+                event.currentTarget.style.backgroundColor = themeColorLight;
+              }}
+              onMouseLeave={(event) => {
+                event.currentTarget.style.backgroundColor = themeColor;
+              }}
+              onFocus={(event) => {
+                event.currentTarget.style.backgroundColor = themeColorLight;
+              }}
+              onBlur={(event) => {
+                event.currentTarget.style.backgroundColor = themeColor;
+              }}
+            >
+              {ctaButtonLabel ?? "Claim my rewards"}
+            </button>
+            <p className="mt-3 text-center text-xs leading-relaxed text-slate-500">
+              {ctaDisclaimer ??
+                "To continue, it will be necessary to watch an ad."}
+            </p>
           </div>
         )}
       </div>

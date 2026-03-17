@@ -319,13 +319,28 @@ body {
   }
 }
 
-/* Prevent body from being locked by ad scripts */
-body.ad-loading,
-body.ad-overlay-active,
-body[style*="overflow: hidden"],
-html.ad-loading,
-html.ad-overlay-active,
-html[style*="overflow: hidden"] {
+/* Prevent stale non-TopAds overlays from locking the page.
+ * TopAds quiz/rewarded flows intentionally control body/html state while active,
+ * so exclude pages where TopAds has processed one of its gating units.
+ */
+body.ad-loading:not(:has([data-topads-quiz][data-topads-processed])):not(
+    :has([data-topads-rewarded][data-topads-processed])
+  ),
+body.ad-overlay-active:not(:has([data-topads-quiz][data-topads-processed])):not(
+    :has([data-topads-rewarded][data-topads-processed])
+  ),
+body[style*="overflow: hidden"]:not(:has([data-topads-quiz][data-topads-processed])):not(
+    :has([data-topads-rewarded][data-topads-processed])
+  ),
+html.ad-loading:not(:has(body [data-topads-quiz][data-topads-processed])):not(
+    :has(body [data-topads-rewarded][data-topads-processed])
+  ),
+html.ad-overlay-active:not(
+    :has(body [data-topads-quiz][data-topads-processed])
+  ):not(:has(body [data-topads-rewarded][data-topads-processed])),
+html[style*="overflow: hidden"]:not(
+    :has(body [data-topads-quiz][data-topads-processed])
+  ):not(:has(body [data-topads-rewarded][data-topads-processed])) {
   overflow: auto !important;
   position: static !important;
   height: auto !important;

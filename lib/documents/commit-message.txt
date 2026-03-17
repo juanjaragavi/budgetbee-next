@@ -1,5 +1,5 @@
-fix(analytics): delay promise page offerwall init
+fix(analytics): restore native topads gaming offerwall flow
 
-- keep gaming promise routes excluded from TopAds until their custom flow is mounted
-- restore delayed activation handling for gaming promise pages
-- prevent the generic configured offerwall from replacing the custom gaming quiz unit
+- start TopAds gaming offerwalls on promise page load without custom replacements
+- remove delayed gaming activation from the active runtime path
+- keep TopAds-controlled overlays from being unlocked by stale global CSS guards

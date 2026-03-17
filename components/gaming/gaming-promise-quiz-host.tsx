@@ -10,7 +10,11 @@ import {
 } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import GamingQuizEntry from "@/components/gaming/gaming-quiz-entry";
-import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
+import { activateDelayedGamingAds } from "@/lib/ads/topads-delayed-gaming";
+import {
+  DELAYED_GAMING_AD_PATHS,
+  type GamingQuizConfig,
+} from "@/lib/gaming-quiz-config";
 
 interface GamingPromiseQuizHostProps {
   quiz: GamingQuizConfig;
@@ -90,15 +94,7 @@ function GamingPromiseQuizHostContent({
     }
 
     adEventSentRef.current = true;
-    window.dispatchEvent(
-      new CustomEvent("gaming:activate-delayed-ads", {
-        detail: {
-          path: pathname,
-          journeyId: quiz.journeyId,
-          hideAds: quiz.hideAds ?? false,
-        },
-      }),
-    );
+    activateDelayedGamingAds(pathname, DELAYED_GAMING_AD_PATHS);
   }, [pathname, phase, quiz.hideAds, quiz.journeyId]);
 
   const blurredWrapperClassName = useMemo(() => {
@@ -138,6 +134,9 @@ function GamingPromiseQuizHostContent({
           themeColor={quiz.themeColor}
           themeColorLight={quiz.themeColorLight}
           loadingMessage={quiz.loadingMessage}
+          ctaTitle="Exclusive rewards are waiting for you!"
+          ctaButtonLabel="Claim my rewards"
+          ctaDisclaimer="To continue, it will be necessary to watch an ad."
           onComplete={handleComplete}
         />
       )}
