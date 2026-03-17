@@ -1,5 +1,5 @@
-fix: allow /api/ for all crawlers and remove AI crawler blocks in robots.txt
+chore: clean up redundant wildcard /api/ allow rule in robots.txt
 
-Change wildcard user-agent /api/ rule from Disallow to Allow and
-remove Disallow directives that were blocking AI crawlers
-(Google-Extended, GPTBot, CCBot, Anthropic-AI).
+Remove duplicate User-agent: * Allow: /api/ block since the global
+Allow: / already covers /api/ for all crawlers. Keep only the
+Mediapartners-Google specific rules.

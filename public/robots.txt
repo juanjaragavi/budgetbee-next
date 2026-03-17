@@ -8,9 +8,5 @@ Allow: /api/
 User-agent: Mediapartners-Google*
 Allow: /api/
 
-# Disallow access to API routes (example)
-User-agent: *
-Allow: /api/
-
 # Sitemap location
 Sitemap: https://budgetbeepro.com/sitemap.xml
