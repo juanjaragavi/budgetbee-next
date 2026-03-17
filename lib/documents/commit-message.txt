@@ -1,7 +1,11 @@
-fix(types): resolve all 21 TypeScript errors across Button, carousel, and financial-solutions pages
+fix: prevent false SPA route change on Google interstitial #google_vignette fragment
 
-- add "outline" variant and optional "size" prop to custom Button component
-- export buttonVariants() helper for use in alert-dialog and other Shadcn-style consumers
-- rewrite CarouselPrevious/CarouselNext to use native <button> elements; resolves disabled-prop union-type errors and removes unused Button import from carousel.tsx
-- all 16 financial-solutions pages using variant="outline" now type-check correctly
-- tsc --noEmit exits 0; next lint reports no warnings or errors
+- Add GOOGLE_AD_FRAGMENTS guard to TopAdsSPAHandler to suppress
+  route change handling when only the URL hash changes and
+  pathname + search remain identical
+- Add MutationObserver to auto-remove invalid aria-hidden="true"
+  from <body> set by external Google interstitial scripts
+- Track previousSearch ref alongside previousPathname to detect
+  hash-only URL mutations that do not represent real navigation
+- Prevents interstitial dismissal, preloader re-entry, and ad
+  container re-scan on gaming promise-to-reward page transitions

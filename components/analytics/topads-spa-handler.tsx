@@ -6,6 +6,16 @@ import browserLogger from "@/lib/browser-logger";
 
 type TopAdsConfig = Record<string, unknown>;
 
+/**
+ * Known Google ad fragment identifiers that should never trigger
+ * SPA re-initialization. Google's interstitial/vignette ads append
+ * these hashes to the current URL without an actual page change.
+ */
+const GOOGLE_AD_FRAGMENTS = new Set([
+  "#google_vignette",
+  "#goog_rewarded",
+]);
+
 /** Paths where TopAds should NOT run — must mirror topads.tsx pageSetting.exclude */
 const BASE_EXCLUDED_PATHS = [
   "/contact-us",
@@ -76,21 +86,74 @@ export default function TopAdsSPAHandler() {
   const searchParams = useSearchParams();
   const isInitialMount = useRef(true);
   const previousPathname = useRef<string | null>(null);
+  const previousSearch = useRef<string>("");
 
   // NOTE: No initial-load activation here. topAds.config sets autoStart: true,
   // so the TopAds script self-initializes when it loads. Calling topAds.spa()
   // here as well would produce a double-initialization on every first page load.
   // This handler only fires on *subsequent* SPA route changes.
 
+  // MutationObserver: remove aria-hidden="true" from <body> if set by
+  // external ad scripts (e.g. Google interstitial). Setting aria-hidden on
+  // <body> is invalid per WAI-ARIA and browsers block it.
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const observer = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "aria-hidden" &&
+          document.body.getAttribute("aria-hidden") === "true"
+        ) {
+          document.body.removeAttribute("aria-hidden");
+          browserLogger.info(
+            "[TopAds] Removed invalid aria-hidden from <body> (set by external ad script)",
+          );
+        }
+      }
+    });
+
+    observer.observe(document.body, {
+      attributes: true,
+      attributeFilter: ["aria-hidden"],
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   useEffect(() => {
     if (isInitialMount.current) {
       isInitialMount.current = false;
       previousPathname.current = pathname;
+      previousSearch.current = searchParams.toString();
       return;
     }
 
     const prevPath = previousPathname.current;
+    const prevSearch = previousSearch.current;
+    const currentSearch = searchParams.toString();
+
     previousPathname.current = pathname;
+    previousSearch.current = currentSearch;
+
+    // Guard: suppress handler when only the URL fragment (hash) changed.
+    // Google interstitial ads append #google_vignette to the current URL,
+    // which can trigger useEffect via a new searchParams reference even
+    // though pathname and search params are actually identical.
+    if (pathname === prevPath && currentSearch === prevSearch) {
+      const hash = typeof window !== "undefined" ? window.location.hash : "";
+      if (GOOGLE_AD_FRAGMENTS.has(hash)) {
+        browserLogger.info(
+          `[TopAds] Suppressed false route change from Google ad fragment (${hash})`,
+        );
+      } else {
+        browserLogger.info(
+          "[TopAds] Suppressed hash-only URL change, no actual route transition",
+        );
+      }
+      return;
+    }
 
     // If navigating TO an excluded page, do nothing
     if (isExcludedPath(pathname)) {
