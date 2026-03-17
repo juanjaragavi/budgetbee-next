@@ -1,5 +1,4 @@
-chore: clean up redundant wildcard /api/ allow rule in robots.txt
+chore: remove comments and trailing newline from robots.txt
 
-Remove duplicate User-agent: * Allow: /api/ block since the global
-Allow: / already covers /api/ for all crawlers. Keep only the
-Mediapartners-Google specific rules.
+Strip inline comments and trailing newline for a cleaner
+robots.txt file.

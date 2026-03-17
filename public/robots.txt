@@ -1,4 +1,3 @@
-# Allow all friendly crawlers full access
 User-agent: *
 Allow: /
 
@@ -8,5 +7,4 @@ Allow: /api/
 User-agent: Mediapartners-Google*
 Allow: /api/
 
-# Sitemap location
 Sitemap: https://budgetbeepro.com/sitemap.xml
