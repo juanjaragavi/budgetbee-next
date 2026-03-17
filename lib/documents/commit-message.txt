@@ -1,10 +1,7 @@
-fix(ads): eliminate double-init and refine TopAds gaming integration
+fix(types): resolve all 21 TypeScript errors across Button, carousel, and financial-solutions pages
 
-- remove manual initial-load topAds.spa() call from SPA handler; topAds.config autoStart handles first-load activation, preventing double-init
-- remove refresh.time from topAds.config to use publisher defaults
-- update excluded path from robux-promise-p2 to robux-promise-p1 in TopAds config
-- add optional id prop to GamingPopupAd for unique TopAds slot targeting
-- fix CSS selector formatting for overflow:hidden body guard in globals.css
-- refactor gaming-promise-template indentation (cosmetic alignment fix)
-- add newline at end of gaming-offerwall-runtime.tsx
-- add topAdsGuide.md documentation to lib/documents
+- add "outline" variant and optional "size" prop to custom Button component
+- export buttonVariants() helper for use in alert-dialog and other Shadcn-style consumers
+- rewrite CarouselPrevious/CarouselNext to use native <button> elements; resolves disabled-prop union-type errors and removes unused Button import from carousel.tsx
+- all 16 financial-solutions pages using variant="outline" now type-check correctly
+- tsc --noEmit exits 0; next lint reports no warnings or errors
