@@ -1,5 +1,5 @@
-fix: allow Mediapartners-Google access to /api/ in robots.txt
+fix: scope /api/ disallow to wildcard user-agent in robots.txt
 
-Add explicit Allow rules for Mediapartners-Google and
-Mediapartners-Google* user agents to access /api/ routes,
-enabling Google AdSense crawlers to reach ad-related endpoints.
+Add explicit User-agent: * directive before the Disallow: /api/
+rule so the disallow applies only to general crawlers, not to the
+Mediapartners-Google agents that were just granted access above.

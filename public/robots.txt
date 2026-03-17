@@ -9,6 +9,7 @@ User-agent: Mediapartners-Google*
 Allow: /api/
 
 # Disallow access to API routes (example)
+User-agent: *
 Disallow: /api/
 
 # Specific directives for AI crawlers (examples)
