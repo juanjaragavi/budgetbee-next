@@ -10,20 +10,7 @@ Allow: /api/
 
 # Disallow access to API routes (example)
 User-agent: *
-Disallow: /api/
-
-# Specific directives for AI crawlers (examples)
-User-agent: Google-Extended
-Disallow: / # Disallow Google's Bard/Vertex AI
-
-User-agent: GPTBot
-Disallow: / # Disallow OpenAI's GPTBot
-
-User-agent: CCBot
-Disallow: / # Disallow Common Crawl
-
-User-agent: Anthropic-AI
-Disallow: / # Disallow Anthropic AI
+Allow: /api/
 
 # Sitemap location
 Sitemap: https://budgetbeepro.com/sitemap.xml
