@@ -1,5 +1,5 @@
-feat: add gaming reward page paths to TopAds exclusion list
+fix: allow Mediapartners-Google access to /api/ in robots.txt
 
-Add fortnite-reward, minecraft-reward, and robux-reward page paths
-(p1-p7) to the TopAds fullscreen interstitial exclusion config to
-prevent ads from displaying on gaming reward funnel pages.
+Add explicit Allow rules for Mediapartners-Google and
+Mediapartners-Google* user agents to access /api/ routes,
+enabling Google AdSense crawlers to reach ad-related endpoints.

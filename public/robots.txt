@@ -2,6 +2,12 @@
 User-agent: *
 Allow: /
 
+User-agent: Mediapartners-Google
+Allow: /api/
+
+User-agent: Mediapartners-Google*
+Allow: /api/
+
 # Disallow access to API routes (example)
 Disallow: /api/
 
