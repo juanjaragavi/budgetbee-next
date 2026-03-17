@@ -1,5 +1,5 @@
-fix(gaming): restore mobile offerwall flow
+fix(analytics): delay promise page offerwall init
 
-- move gaming promise pages to the shared offerwallQuiz template path
-- allow TopAds offerwall activation on gaming promise routes
-- use a React quiz host fallback on mobile while keeping TopAds quiz flow on desktop
+- keep gaming promise routes excluded from TopAds until their custom flow is mounted
+- restore delayed activation handling for gaming promise pages
+- prevent the generic configured offerwall from replacing the custom gaming quiz unit

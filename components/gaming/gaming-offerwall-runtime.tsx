@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, type ReactNode } from "react";
+import { usePathname } from "next/navigation";
 import GamingPromiseQuizHost from "@/components/gaming/gaming-promise-quiz-host";
 import GamingOfferwall from "@/lib/new-offerwall-for-gaming";
 import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
@@ -16,6 +17,7 @@ export default function GamingOfferwallRuntime({
   quiz,
   children,
 }: GamingOfferwallRuntimeProps) {
+  const pathname = usePathname();
   const [mode, setMode] = useState<RuntimeMode>("pending");
 
   useEffect(() => {
@@ -39,6 +41,22 @@ export default function GamingOfferwallRuntime({
       mediaQuery.removeEventListener("change", updateMode);
     };
   }, [quiz]);
+
+  useEffect(() => {
+    if (!quiz || mode !== "desktop") {
+      return;
+    }
+
+    window.dispatchEvent(
+      new CustomEvent("gaming:activate-delayed-ads", {
+        detail: {
+          path: pathname,
+          journeyId: quiz.journeyId,
+          hideAds: quiz.hideAds ?? false,
+        },
+      }),
+    );
+  }, [mode, pathname, quiz]);
 
   if (!quiz || mode === "pending") {
     return <>{children}</>;

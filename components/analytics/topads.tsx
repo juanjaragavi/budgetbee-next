@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import browserLogger from "@/lib/browser-logger";
+import { DELAYED_GAMING_AD_PATHS } from "@/lib/gaming-quiz-config";
 
 const TOPADS_EXCLUDED_PATHS = [
   "/contact-us",
@@ -12,6 +13,7 @@ const TOPADS_EXCLUDED_PATHS = [
   "/quiz",
   "/quiz-2",
   "/quiz-results",
+  ...DELAYED_GAMING_AD_PATHS,
 ];
 
 export default function TopAds() {
