@@ -1,4 +1,10 @@
-chore: remove comments and trailing newline from robots.txt
+feat: add dynamic paso-{n} ID stamper for TopAds gaming quiz
 
-Strip inline comments and trailing newline for a cleaner
-robots.txt file.
+- Create TopAdsQuizIdStamper component that observes the TopAds-rendered
+  quiz DOM and stamps paso-{n}-{journeyId} IDs on the answer container
+  div as each step transitions, mirroring the TopFinanzas Jobs journey
+  pattern (jobs-quiz-modal.tsx)
+- Integrate stamper into GamingOfferwallRuntime so it runs automatically
+  for all gaming offerwall quiz pages
+- Apply code formatting fixes to button.tsx, topads-spa-handler.tsx, and
+  mcp.json from prettier run

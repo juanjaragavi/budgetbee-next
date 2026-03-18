@@ -11,10 +11,7 @@ type TopAdsConfig = Record<string, unknown>;
  * SPA re-initialization. Google's interstitial/vignette ads append
  * these hashes to the current URL without an actual page change.
  */
-const GOOGLE_AD_FRAGMENTS = new Set([
-  "#google_vignette",
-  "#goog_rewarded",
-]);
+const GOOGLE_AD_FRAGMENTS = new Set(["#google_vignette", "#goog_rewarded"]);
 
 /** Paths where TopAds should NOT run — must mirror topads.tsx pageSetting.exclude */
 const BASE_EXCLUDED_PATHS = [

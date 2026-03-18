@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 import GamingOfferwall from "@/lib/new-offerwall-for-gaming";
+import TopAdsQuizIdStamper from "@/components/gaming/topads-quiz-id-stamper";
 import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
 
 interface GamingOfferwallRuntimeProps {
@@ -21,6 +22,7 @@ export default function GamingOfferwallRuntime({
     <>
       {children}
       <GamingOfferwall config={quiz} />
+      <TopAdsQuizIdStamper journeyId={quiz.journeyId} />
     </>
   );
 }

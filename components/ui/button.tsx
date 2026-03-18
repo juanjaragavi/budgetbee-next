@@ -20,12 +20,16 @@ export function buttonVariants(opts?: {
   return cn(
     "inline-flex items-center justify-center font-medium transition-colors duration-200 rounded-full whitespace-nowrap",
     {
-      "px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base": opts?.size !== "icon" && opts?.size !== "sm",
+      "px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base":
+        opts?.size !== "icon" && opts?.size !== "sm",
       "h-10 w-10 p-0": opts?.size === "icon",
       "px-3 py-1 text-sm": opts?.size === "sm",
-      "bg-primary hover:bg-primary-dark text-white hover:text-white": v === "primary",
-      "bg-gray-900 hover:bg-gray-800 text-white border border-gray-900": v === "secondary",
-      "border border-gray-300 bg-white hover:bg-gray-100 text-gray-900": v === "outline",
+      "bg-primary hover:bg-primary-dark text-white hover:text-white":
+        v === "primary",
+      "bg-gray-900 hover:bg-gray-800 text-white border border-gray-900":
+        v === "secondary",
+      "border border-gray-300 bg-white hover:bg-gray-100 text-gray-900":
+        v === "outline",
     },
     opts?.className,
   );
@@ -74,7 +78,8 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const buttonStyles = cn(
       "inline-flex items-center justify-center font-medium transition-colors duration-200 rounded-full whitespace-nowrap flex-nowrap",
       {
-        "px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base w-full md:w-auto": size !== "icon" && size !== "sm",
+        "px-5 md:px-6 py-2 md:py-2.5 text-sm md:text-base w-full md:w-auto":
+          size !== "icon" && size !== "sm",
         "h-10 w-10 p-0": size === "icon",
         "px-3 py-1 text-sm": size === "sm",
         "bg-primary hover:bg-primary-dark text-white hover:text-white":
