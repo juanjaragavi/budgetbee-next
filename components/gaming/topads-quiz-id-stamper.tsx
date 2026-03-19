@@ -8,13 +8,14 @@ interface TopAdsQuizIdStamperProps {
 
 /**
  * Observes the TopAds-rendered quiz DOM and stamps a dynamic
- * `id="paso-{n}-{journeyId}"` on the `div#quiz-answers` container
- * each time the question changes, mirroring the pattern used in
+ * `id="paso-{n}-{journeyId}"` on a wrapper around the stable
+ * `div#quiz-answers` container each time the question changes,
+ * mirroring the pattern used in
  * the TopFinanzas Jobs journey (`jobs-quiz-modal.tsx`).
  *
  * TopAds owns the quiz DOM (`#quiz-overlay > #quiz-container > …`),
  * so we use a MutationObserver to detect step transitions and apply
- * the id attribute at runtime.
+ * the paso id without mutating the container TopAds looks up by id.
  */
 export default function TopAdsQuizIdStamper({
   journeyId,
@@ -22,6 +23,30 @@ export default function TopAdsQuizIdStamper({
   useEffect(() => {
     let step = 0;
     let lastQuestionText = "";
+
+    function ensurePasoWrapper(answersDiv: HTMLElement) {
+      const currentParent = answersDiv.parentElement;
+
+      if (
+        currentParent instanceof HTMLDivElement &&
+        currentParent.dataset.topadsPasoWrapper === "true"
+      ) {
+        return currentParent;
+      }
+
+      const wrapper = document.createElement("div");
+      wrapper.dataset.topadsPasoWrapper = "true";
+
+      const parentNode = answersDiv.parentNode;
+      if (!parentNode) {
+        return null;
+      }
+
+      parentNode.insertBefore(wrapper, answersDiv);
+      wrapper.appendChild(answersDiv);
+
+      return wrapper;
+    }
 
     function stampId() {
       const answersDiv = document.getElementById("quiz-answers");
@@ -36,7 +61,14 @@ export default function TopAdsQuizIdStamper({
       }
 
       if (step > 0) {
-        answersDiv.id = `paso-${step}-${journeyId}`;
+        const wrapper = ensurePasoWrapper(answersDiv);
+        if (!wrapper) {
+          return;
+        }
+
+        const pasoId = `paso-${step}-${journeyId}`;
+        wrapper.id = pasoId;
+        answersDiv.dataset.pasoId = pasoId;
       }
     }
 
@@ -51,6 +83,7 @@ export default function TopAdsQuizIdStamper({
     observer.observe(document.body, {
       childList: true,
       subtree: true,
+      characterData: true,
     });
 
     return () => {

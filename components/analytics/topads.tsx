@@ -42,7 +42,7 @@ export default function TopAds() {
                 ],
               },
               offerwall: {
-                status: "active",
+                status: "inactive",
                 logoUrl: "https://media.topfinanzas.com/images/budgetbee/logo.png",
                 websiteName: "BudgetBee US",
                 cooldown: "12",
