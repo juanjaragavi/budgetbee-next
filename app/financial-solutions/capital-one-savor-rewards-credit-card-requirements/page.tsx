@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Capital One Savor Rewards Credit Card Requirements - BudgetBee",
-    description:
-      "Learn about the Capital One Savor Rewards Credit Card requirements, application process, and eligibility criteria for this dining and entertainment rewards card.",
-    keywords: "credit cards, rewards, cashback, capital one, requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/capital-one-savor-rewards-credit-card-requirements");
 
 export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
   return (

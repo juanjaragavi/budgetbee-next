@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Step Visa Card Requirements: Eligibility, Application & Setup Guide - BudgetBee",
-    description:
-      "Complete eligibility requirements and application process for the Step Visa Card. Learn what you need to qualify, documentation required, and how to start building credit for free starting at age 13.",
-    keywords:
-      "Step Visa Card requirements, Step card eligibility, how to apply Step, teen credit card requirements, credit building requirements, no credit check card, Step sponsor requirements, Step application process",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/step-visa-card-requirements");
 
 export default function StepVisaCardRequirementsPage() {
   return (

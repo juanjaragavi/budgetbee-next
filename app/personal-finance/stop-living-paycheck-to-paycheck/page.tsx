@@ -3,56 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import { Metadata } from "next";
-import { generateArticleMetadata } from "@/lib/utils/seo";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/seo";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = generateArticleMetadata({
-  title: "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today",
-  description:
-    "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
-  slug: "stop-living-paycheck-to-paycheck",
-  category: "personal-finance",
-  keywords:
-    "paycheck to paycheck, cash flow management, personal finance, budgeting tips, financial stability, money management, emergency fund, living expenses, income management",
-  image:
-    "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
-  publishedDate: "2025-11-13T00:00:00Z",
-  modifiedDate: "2025-11-13T00:00:00Z",
-});
+export const metadata = createRouteMetadata("/personal-finance/stop-living-paycheck-to-paycheck");
+
+
 
 export default function StopLivingPaycheckToPaycheckPage() {
   return (
     <main className="bg-white min-h-screen flex flex-col">
-      <ArticleSchema
-        title="Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today"
-        description="Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget."
-        image="https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp"
-        datePublished="2025-11-13T00:00:00Z"
-        dateModified="2025-11-13T00:00:00Z"
-        url="https://budgetbeepro.com/personal-finance/stop-living-paycheck-to-paycheck"
-        category="Personal Finance"
-        keywords={[
-          "paycheck to paycheck",
-          "cash flow management",
-          "personal finance",
-          "budgeting tips",
-          "financial stability",
-        ]}
-      />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "https://budgetbeepro.com" },
-          {
-            name: "Personal Finance",
-            url: "https://budgetbeepro.com/personal-finance",
-          },
-          {
-            name: "Stop Living Paycheck to Paycheck",
-            url: "https://budgetbeepro.com/personal-finance/stop-living-paycheck-to-paycheck",
-          },
-        ]}
-      />
       <Header />
 
       <article

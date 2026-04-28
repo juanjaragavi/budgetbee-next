@@ -3,34 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title:
-    "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026 | BudgetBee",
-  description:
-    "Discover how AI can revolutionize your personal finance routine. Learn to automate budgeting, track spending smartly, and save more with artificial intelligence tools in 2026.",
-  keywords:
-    "personal finance, AI budgeting, automated money management, financial AI tools, artificial intelligence in finance, money management 2026",
-  openGraph: {
-    title:
-      "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026",
-    description:
-      "Discover how AI can revolutionize your personal finance routine. Learn to automate budgeting, track spending smartly, and save more.",
-    url: "https://budgetbeepro.com/personal-finance/ai-and-your-wallet-automate-budget-2026",
-    siteName: "BudgetBee",
-    locale: "en_US",
-    type: "article",
-    images: [
-      {
-        url: "https://media.topfinanzas.com/images/budgetbee/ai-and-your-wallet-automate-budget-2026.webp",
-        width: 1200,
-        height: 630,
-        alt: "Smartphone displaying AI-powered financial analytics and budget charts",
-      },
-    ],
-  },
-};
+export const metadata = createRouteMetadata("/personal-finance/ai-and-your-wallet-automate-budget-2026");
 
 export default function AiAndYourWalletPage() {
   return (

@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "First Digital NextGen Mastercard Requirements - BudgetBee",
-    description:
-      "Learn how to apply for the First Digital NextGen Mastercard. Discover eligibility requirements, application steps, and benefits.",
-    keywords: "credit cards, digital card, no credit check, requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/first-digital-nextgen-mastercard-requirements");
 
 export default function FirstDigitalNextgenMastercardRequirementsPage() {
   return (

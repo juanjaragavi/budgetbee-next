@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Tomo Credit Card Requirements: Your Guide to Eligibility - BudgetBee",
-    description:
-      "Learn the simple requirements for the Tomo Credit Card. No credit history needed, just a U.S. bank account and a valid SSN or ITIN. Apply today!",
-    keywords: "credit cards, no credit check, requirements, application",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/tomo-credit-card-requirements");
 
 export default function TomoCreditCardRequirementsPage() {
   return (

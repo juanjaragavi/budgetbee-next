@@ -1,19 +1,11 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata(): Metadata {
-  return {
-    title: "Stop Guessing: How to Track Your Spending for 30 Days - BudgetBee",
-    description:
-      "Learn how to track your spending for 30 days to uncover financial leaks, build a realistic budget, and take control of your money. A step-by-step guide for beginners.",
-    keywords:
-      "personal finance, track spending, budgeting, money management, expense tracking, financial habits",
-  };
-}
+export const metadata = createRouteMetadata("/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days");
 
 export default function StopGuessingTrackSpendingPage() {
   return (

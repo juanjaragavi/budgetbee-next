@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Mission Lane Visa Credit Card: Build Credit with Fair-to-Good Approval Odds - BudgetBee",
-  description:
-    "Discover the Mission Lane Visa Credit Card designed for building and rebuilding credit. Features 19.99%-33.99% APR, $0-$59 annual fee, credit lines from $300-$3,000, and cash back rewards on select cards. No security deposit required.",
-  keywords:
-    "Mission Lane Visa Credit Card, credit building card, fair credit card, good credit card, Mission Lane credit card, rebuild credit, unsecured credit card, cash back credit card, US credit cards, credit repair",
-};
+export const metadata = createRouteMetadata("/financial-solutions/mission-lane-visa-credit-card");
 
 export default function MissionLaneVisaCreditCardPage() {
   return (

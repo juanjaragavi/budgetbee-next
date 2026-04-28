@@ -4,14 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Avant Credit Card: Build Credit with No Hidden Fees - BudgetBee",
-  description:
-    "Discover the Avant Credit Card designed for credit building. No security deposit, no hidden fees, proactive credit line increases, and mobile app management. 29.99%-35.99% APR with $39-$75 annual membership fee. Issued by WebBank.",
-  keywords:
-    "Avant Credit Card, credit building card, no hidden fees, no security deposit, WebBank credit card, fair credit card, credit line increases, mobile app credit management",
-};
+export const metadata = createRouteMetadata("/financial-solutions/avant-credit-card");
 
 export default function AvantCreditCardPage() {
   return (

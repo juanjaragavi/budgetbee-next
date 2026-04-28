@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Unlock the Benefits of the Amazon Rewards Visa Credit Card - BudgetBee",
-    description:
-      "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
-    keywords:
-      "credit cards, rewards, cashback, Amazon Rewards Visa, Amazon credit card, Whole Foods cashback",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/amazon-rewards-visa-credit-card-benefits");
 
 export default function AmazonRewardsVisaBenefitsPage() {
   return (

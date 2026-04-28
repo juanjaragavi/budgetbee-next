@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "CIT Bank Home Loans Benefits: Build Your Dream Home with Confidence - BudgetBee",
-    description:
-      "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
-    keywords: "home loans, mortgages, CIT Bank, refinancing, home financing",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/cit-bank-home-loans-benefits");
 
 export default function CitBankHomeLoansBenefitsPage() {
   return (

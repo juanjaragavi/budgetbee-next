@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chime Credit Builder Requirements: Application Guide and Eligibility - BudgetBee",
-    description:
-      "Learn about the Chime Credit Builder Visa Secured Card requirements, application process, eligibility criteria, and how to qualify for this fee-free credit building card.",
-    keywords:
-      "Chime Credit Builder requirements, Chime Card application, credit building eligibility, secured credit card requirements, Chime application process, no credit check credit card",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/chime-credit-builder-visa-secured-card-requirements");
 
 export default function ChimeCreditBuilderRequirementsPage() {
   return (

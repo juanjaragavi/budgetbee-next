@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Unlock the Benefits of the Titanium Rewards Visa Signature Credit Card - BudgetBee",
-    description:
-      "Maximize your everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5x points on gas and groceries, enjoy premium benefits, and no annual fee.",
-    keywords: "credit cards, rewards, points, visa signature",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits");
 
 export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
   return (

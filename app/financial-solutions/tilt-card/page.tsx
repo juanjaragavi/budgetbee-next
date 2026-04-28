@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit - BudgetBee",
-  description:
-    "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Compare Tilt Essentials, Motion, and Engage cards.",
-  keywords:
-    "Tilt Card, Tilt credit card, build credit, no security deposit, cash back credit card, credit building, bad credit, no credit history, Tilt Essentials, Tilt Motion, Tilt Engage, credit limit increase",
-};
+export const metadata = createRouteMetadata("/financial-solutions/tilt-card");
 
 export default function TiltCardPage() {
   return (

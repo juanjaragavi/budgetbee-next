@@ -1,17 +1,11 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Tips for Choosing an Online Loan: Complete Guide - BudgetBee",
-  description:
-    "Learn how to choose the right online loan with our comprehensive guide. Compare rates, terms, lender reputation, and fees to find the best personal loan for your needs.",
-  keywords:
-    "online loans, personal loans, loan comparison, best loan rates, how to choose a loan, loan approval, lending platforms, online lenders",
-};
+export const metadata = createRouteMetadata("/personal-finance/tips-for-choosing-an-online-loan");
 
 export default function TipsForChoosingAnOnlineLoanPage() {
   return (

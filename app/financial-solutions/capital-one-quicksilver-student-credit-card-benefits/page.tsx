@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Unlock the Benefits of the Capital One Quicksilver Student Credit Card - BudgetBee",
-    description:
-      "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
-    keywords: "credit cards, student cards, cashback, no annual fee",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/capital-one-quicksilver-student-credit-card-benefits");
 
 export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
   return (

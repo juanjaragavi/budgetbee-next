@@ -3,15 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "The Emotional Side of Debt: How to Stay Motivated | BudgetBee",
-  description:
-    "Debt isn't just about numbers—it's emotional. Learn how to overcome shame, stay motivated, and maintain a positive mindset on your debt payoff journey.",
-  keywords:
-    "emotional side of debt, debt motivation, debt fatigue, financial mindset, paying off debt, debt stress, financial wellness, money psychology",
-};
+export const metadata = createRouteMetadata("/personal-finance/emotional-side-of-debt");
 
 export default function EmotionalSideOfDebtPage() {
   return (

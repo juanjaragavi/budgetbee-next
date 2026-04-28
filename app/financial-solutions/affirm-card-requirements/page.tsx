@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Affirm Card Requirements: How to Apply & Eligibility - BudgetBee",
-    description:
-      "Learn the requirements for the Affirm Card. Must be 18+, have a U.S. address, and link a bank account. No credit impact to check eligibility. Get transparent payment plans from 0%-36% APR with no hidden fees.",
-    keywords:
-      "Affirm Card requirements, Affirm eligibility, how to apply Affirm Card, bank account linking, Evolve Bank, Stride Bank, 0% APR, payment plan eligibility, no credit check apply",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/affirm-card-requirements");
 
 export default function AffirmCardRequirementsPage() {
   return (

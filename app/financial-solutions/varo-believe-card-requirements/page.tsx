@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Varo Believe Card Requirements: Application Guide and Eligibility - BudgetBee",
-    description:
-      "Learn about the Varo Believe secured credit card requirements, application process, eligibility criteria, and how to qualify for this revolutionary no-deposit credit building card.",
-    keywords:
-      "Varo Believe Card requirements, Varo application, credit building eligibility, secured credit card requirements, Varo Bank application, no security deposit credit card",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/varo-believe-card-requirements");
 
 export default function VaroBelieveCardRequirementsPage() {
   return (

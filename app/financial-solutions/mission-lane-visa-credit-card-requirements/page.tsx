@@ -3,17 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Mission Lane Visa Credit Card Requirements: Eligibility and Application Guide - BudgetBee",
-    description:
-      "Learn about Mission Lane Visa Credit Card requirements, eligibility criteria, required documentation, and application process. Discover how to qualify for credit building cards with fair-to-good credit approval odds.",
-    keywords:
-      "Mission Lane requirements, Mission Lane application, credit card eligibility, fair credit requirements, credit building requirements, Mission Lane Visa application, credit card approval",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/mission-lane-visa-credit-card-requirements");
 
 export default function MissionLaneVisaCreditCardRequirementsPage() {
   return (

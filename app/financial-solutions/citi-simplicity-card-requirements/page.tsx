@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Citi Simplicity Card Requirements - BudgetBee",
-    description:
-      "Learn how to apply for the Citi Simplicity Card. Discover the eligibility requirements, application steps, and qualification criteria.",
-    keywords: "credit cards, requirements, application, no fees",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/citi-simplicity-card-requirements");
 
 export default function CitiSimplicityCardRequirementsPage() {
   return (

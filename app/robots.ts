@@ -1,32 +1,43 @@
 import { MetadataRoute } from "next";
+import { SEO_SITE } from "@/lib/seo";
 
+const disallowedRoutes = [
+  "/api/",
+  "/admin/",
+  "/gaming/",
+  "/credit-card-recommender-p1",
+  "/credit-card-recommender-p2",
+  "/credit-card-recommender-p3",
+  "/quiz",
+  "/quiz-2",
+  "/quiz-results",
+  "/invit-credit-card-rec-uk",
+  "/utm-test",
+  "/qz",
+];
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://budgetbeepro.com";
 
   return {
     rules: [
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/admin/"],
+        disallow: disallowedRoutes,
       },
-      {
-        userAgent: "Google-Extended",
-        disallow: "/",
-      },
-      {
-        userAgent: "GPTBot",
-        disallow: "/",
-      },
-      {
-        userAgent: "CCBot",
-        disallow: "/",
-      },
-      {
-        userAgent: "Anthropic-AI",
-        disallow: "/",
-      },
+      { userAgent: "GPTBot", allow: "/" },
+      { userAgent: "ChatGPT-User", allow: "/" },
+      { userAgent: "ClaudeBot", allow: "/" },
+      { userAgent: "Claude-Web", allow: "/" },
+      { userAgent: "anthropic-ai", allow: "/" },
+      { userAgent: "Anthropic-AI", allow: "/" },
+      { userAgent: "PerplexityBot", allow: "/" },
+      { userAgent: "YouBot", allow: "/" },
+      { userAgent: "cohere-ai", allow: "/" },
+      { userAgent: "CCBot", allow: "/" },
+      { userAgent: "Googlebot", allow: "/" },
+      { userAgent: "Google-Extended", allow: "/" },
+      { userAgent: "Bingbot", allow: "/" },
     ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    sitemap: `${SEO_SITE.baseUrl}/sitemap.xml`,
   };
 }

@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "TD FlexPay Credit Card Requirements: Your Eligibility Checklist - BudgetBee",
-    description:
-      "Check if you qualify for the TD FlexPay Credit Card. Review the requirements and application process to unlock financial flexibility and rewards.",
-    keywords: "credit cards, requirements, application, flexible payments",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/td-flexpay-credit-card-requirements");
 
 export default function TdFlexpayCreditCardRequirementsPage() {
   return (

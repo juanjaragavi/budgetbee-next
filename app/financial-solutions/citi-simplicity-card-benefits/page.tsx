@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Discover the Benefits of the Citi Simplicity Card - BudgetBee",
-    description:
-      "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
-    keywords: "credit cards, no fees, balance transfer, simplicity",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/citi-simplicity-card-benefits");
 
 export default function CitiSimplicityCardBenefitsPage() {
   return (

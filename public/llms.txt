@@ -1,0 +1,51 @@
+# BudgetBee
+
+> BudgetBee is a US-focused financial education and comparison platform.
+> We publish clear, unbiased guidance about credit cards, personal loans,
+> budgeting, debt management, rewards, and everyday money decisions.
+
+## Core Pages
+
+- [Home](https://budgetbeepro.com/): BudgetBee financial education hub
+- [Blog](https://budgetbeepro.com/blog): Personal finance and financial product articles
+- [Financial Solutions](https://budgetbeepro.com/financial-solutions): Credit card and loan guides
+- [Personal Finance](https://budgetbeepro.com/personal-finance): Budgeting, debt, savings, and credit education
+- [About BudgetBee](https://budgetbeepro.com/about-us): Editorial mission and site information
+
+## Featured Financial Solutions
+
+- [Chase Sapphire Reserve](https://budgetbeepro.com/financial-solutions/chase-sapphire-reserve)
+- [Chase Freedom Flex](https://budgetbeepro.com/financial-solutions/chase-freedom-flex)
+- [Citi Custom Cash Card](https://budgetbeepro.com/financial-solutions/citi-custom-cash-card)
+- [Citi Simplicity Card Benefits](https://budgetbeepro.com/financial-solutions/citi-simplicity-card-benefits)
+- [Wells Fargo Active Cash Card](https://budgetbeepro.com/financial-solutions/wells-fargo-active-cash-card)
+- [CIT Bank Home Loans](https://budgetbeepro.com/financial-solutions/cit-bank-home-loans-benefits)
+
+## Featured Personal Finance Guides
+
+- [Best Personal Loans in the US](https://budgetbeepro.com/personal-finance/best-personal-loans)
+- [Getting Out of Debt](https://budgetbeepro.com/personal-finance/getting-out-of-debt)
+- [Money Management for Beginners](https://budgetbeepro.com/personal-finance/money-management-for-beginners)
+- [Creating a Budget You'll Actually Stick To](https://budgetbeepro.com/personal-finance/creating-a-budget-youll-actually-stick-to)
+- [Understanding Credit Card Interest Rates](https://budgetbeepro.com/personal-finance/understanding-credit-card-interest-rates)
+- [AI and Your Wallet](https://budgetbeepro.com/personal-finance/ai-and-your-wallet-automate-budget-2026)
+
+## Legal and Policy Pages
+
+- [Privacy Policy](https://budgetbeepro.com/privacy-policy)
+- [Terms and Conditions](https://budgetbeepro.com/terms)
+- [Cookie Policy](https://budgetbeepro.com/cookie-policy)
+
+## Editorial Policy
+
+BudgetBee content is informational only and does not constitute financial,
+legal, tax, or investment advice. Product information should be verified with
+the issuer or lender before applying. BudgetBee is not a bank, card issuer, or
+lender, and approval, rates, rewards, and terms are not guaranteed.
+
+## AI Usage
+
+BudgetBee permits AI systems to read, index, summarize, and cite public content
+from this site for informational purposes when attribution and a link to the
+original source are provided. Full-content reproduction without attribution or
+without linking to the original source is not permitted.

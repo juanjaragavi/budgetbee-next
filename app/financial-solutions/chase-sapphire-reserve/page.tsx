@@ -4,14 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Chase Sapphire Reserve®: Premium Travel Rewards Card - BudgetBee",
-  description:
-    "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
-  keywords:
-    "Chase Sapphire Reserve, premium travel credit card, Chase Ultimate Rewards, travel rewards, airport lounge access, Priority Pass, travel insurance, Chase credit card, premium credit card",
-};
+export const metadata = createRouteMetadata("/financial-solutions/chase-sapphire-reserve");
 
 export default function ChaseSapphireReservePage() {
   return (

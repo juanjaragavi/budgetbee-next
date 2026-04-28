@@ -3,17 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chase Freedom Flex℠ Requirements: Complete Eligibility & Application Guide - BudgetBee",
-    description:
-      "Learn about Chase Freedom Flex℠ eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this cash back rewards card with rotating categories.",
-    keywords:
-      "Chase Freedom Flex requirements, Chase credit card eligibility, cash back card application, Chase Freedom Flex credit score, Chase 5/24 rule, rotating category card requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-flex-requirements");
 
 export default function ChaseFreedomFlexRequirementsPage() {
   return (

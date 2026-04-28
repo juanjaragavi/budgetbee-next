@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Upgrade OneCard Requirements: Application Guide and Eligibility - BudgetBee",
-    description:
-      "Learn about the Upgrade OneCard requirements, application process, eligibility criteria, credit score needs, and income requirements for this flexible pay now or pay later credit card.",
-    keywords:
-      "Upgrade OneCard requirements, Upgrade card application, credit card eligibility, Upgrade approval, credit requirements, Upgrade OneCard qualification",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/upgrade-credit-card-requirements");
 
 export default function UpgradeCreditCardRequirementsPage() {
   return (

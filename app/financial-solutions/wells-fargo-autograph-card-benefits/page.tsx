@@ -3,15 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Discover the Wells Fargo Autograph Card Benefits - BudgetBee",
-    description:
-      "Explore the comprehensive benefits of the Wells Fargo Autograph Card. Earn rewards, enjoy travel perks, and discover why it's perfect for everyday spending.",
-    keywords: "credit cards, rewards, travel, dining",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/wells-fargo-autograph-card-benefits");
 
 export default function WellsFargoAutographCardBenefitsPage() {
   return (

@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees - BudgetBee",
-    description:
-      "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees. Start building your credit journey today.",
-    keywords: "credit cards, no credit check, cashback, credit building",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/tomo-credit-card-benefits");
 
 export default function TomoCreditCardBenefitsPage() {
   return (

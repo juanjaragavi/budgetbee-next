@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "SoFi Credit Card Requirements: Application Guide and Eligibility - BudgetBee",
-    description:
-      "Learn about the SoFi Unlimited 2% Credit Card requirements, application process, eligibility criteria for excellent credit, prequalification steps, and how to maximize your approval chances.",
-    keywords:
-      "SoFi credit card requirements, SoFi application, excellent credit requirements, credit card eligibility, prequalification, soft credit pull, SoFi underwriting, credit card approval",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/sofi-credit-card-requirements");
 
 export default function SoFiCreditCardRequirementsPage() {
   return (

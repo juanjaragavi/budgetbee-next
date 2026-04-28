@@ -3,16 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title:
-    "What is Lifestyle Creep? How to Avoid Increasing Expenses - BudgetBee",
-  description:
-    "Learn about lifestyle creep and how to prevent it from derailing your finances. Strategies to maintain your savings rate as your income grows.",
-  keywords:
-    "lifestyle creep, lifestyle inflation, expense control, save money, budgeting, financial habits, income growth, wealth building",
-};
+export const metadata = createRouteMetadata("/personal-finance/what-is-lifestyle-creep");
 
 export default function WhatIsLifestyleCreepPage() {
   return (

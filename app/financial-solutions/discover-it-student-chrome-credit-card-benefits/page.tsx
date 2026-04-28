@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Discover it Student Chrome Credit Card Benefits: Smart Rewards for Students - BudgetBee",
-    description:
-      "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback on restaurants and gas, no annual fees, and double rewards in your first year. Perfect for students building credit.",
-    keywords: "credit cards, student, cashback, rewards, no annual fee",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/discover-it-student-chrome-credit-card-benefits");
 
 export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
   return (

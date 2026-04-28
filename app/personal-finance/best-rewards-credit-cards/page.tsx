@@ -3,15 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Best Rewards Credit Cards 2025: Top Picks & Comparison - BudgetBee",
-  description:
-    "Find the best rewards credit cards with points, miles, and cashback. Compare top cards from major issuers and learn how to maximize your rewards.",
-  keywords:
-    "rewards credit cards, cash back cards, points credit cards, airline miles, travel rewards, credit card points, best rewards cards, maximize rewards",
-};
+export const metadata = createRouteMetadata("/personal-finance/best-rewards-credit-cards");
 
 export default function BestRewardsCreditCardsPage() {
   return (

@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chase Sapphire Reserve® Requirements: Complete Application Guide - BudgetBee",
-    description:
-      "Learn about Chase Sapphire Reserve® eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this premium travel rewards card.",
-    keywords:
-      "Chase Sapphire Reserve requirements, Chase credit card eligibility, premium credit card application, Chase Sapphire Reserve credit score, Chase 5/24 rule, travel credit card requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/chase-sapphire-reserve-requirements");
 
 export default function ChaseSapphireReserveRequirementsPage() {
   return (

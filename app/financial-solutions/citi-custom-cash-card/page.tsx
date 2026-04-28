@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts - BudgetBee",
-  description:
-    "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
-  keywords:
-    "Citi Custom Cash Card, automatic cash back, 5% cash back, adaptive rewards, no annual fee, balance transfer, Citi credit card, ThankYou Points",
-};
+export const metadata = createRouteMetadata("/financial-solutions/citi-custom-cash-card");
 
 export default function CitiCustomCashCardPage() {
   return (

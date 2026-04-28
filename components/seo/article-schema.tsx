@@ -3,7 +3,7 @@
  * Generates JSON-LD schema for blog articles to improve SEO and rich snippet eligibility
  */
 
-import Script from "next/script";
+import { JsonLd } from "@/components/seo/json-ld";
 
 interface ArticleSchemaProps {
   title: string;
@@ -64,12 +64,5 @@ export function ArticleSchema({
     ...(keywords.length > 0 && { keywords: keywords.join(", ") }),
   };
 
-  return (
-    <Script
-      id="article-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      strategy="afterInteractive"
-    />
-  );
+  return <JsonLd data={schema} />;
 }

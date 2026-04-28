@@ -3,7 +3,7 @@
  * Generates JSON-LD schema for breadcrumb navigation
  */
 
-import Script from "next/script";
+import { JsonLd } from "@/components/seo/json-ld";
 
 interface BreadcrumbItem {
   name: string;
@@ -26,12 +26,5 @@ export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
     })),
   };
 
-  return (
-    <Script
-      id="breadcrumb-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      strategy="afterInteractive"
-    />
-  );
+  return <JsonLd data={schema} />;
 }

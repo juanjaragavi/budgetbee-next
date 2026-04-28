@@ -4,22 +4,17 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Yotta Credit Card Review: Win Cash Back With Every Purchase | BudgetBee",
-  description:
-    "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
-  keywords:
-    "Yotta Credit Card, lucky swipe credit card, sweepstakes credit card, gamified credit card, win cash back, prize-linked spending, Yotta card review, credit card rewards, Synapse Credit, Evolve Bank",
-};
+export const metadata = createRouteMetadata("/financial-solutions/yotta-credit-card");
 
 export default function YottaCreditCardPage() {
   return (
     <>
       <Header />
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-        {/* Hero Section */}
+        <article>
+          {/* Hero Section */}
         <section className="relative bg-gradient-to-r from-purple-600 to-primary-light/700 text-white py-16 md:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -795,6 +790,7 @@ export default function YottaCreditCardPage() {
             <AIContentDisclaimer />
           </div>
         </section>
+        </article>
       </main>
       <CompactFooter />
     </>

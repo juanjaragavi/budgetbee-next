@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Discover it Student Chrome Credit Card Requirements: Your Eligibility Guide - BudgetBee",
-    description:
-      "Learn the application requirements for the Discover it Student Chrome Credit Card. Designed for students, this card offers cashback rewards, no annual fee, and essential credit-building tools.",
-    keywords:
-      "credit cards, student, requirements, application, credit building",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/discover-it-student-chrome-credit-card-requirements");
 
 export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
   return (

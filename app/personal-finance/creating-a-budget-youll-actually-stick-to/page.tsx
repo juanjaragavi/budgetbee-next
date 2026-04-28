@@ -3,16 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title:
-    "Creating a Budget You'll Actually Stick To: Practical Guide - BudgetBee",
-  description:
-    "Learn how to create a realistic budget you can actually follow. Proven strategies for budgeting success and maintaining your financial plan long-term.",
-  keywords:
-    "budgeting, create a budget, budget planning, money management, save money, financial goals, budget tips, expense tracking",
-};
+export const metadata = createRouteMetadata("/personal-finance/creating-a-budget-youll-actually-stick-to");
 
 export default function CreatingABudgetYoullActuallyStickToPage() {
   return (

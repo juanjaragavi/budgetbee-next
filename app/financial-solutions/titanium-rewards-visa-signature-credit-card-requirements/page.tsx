@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Titanium Rewards Visa Signature Credit Card Requirements - BudgetBee",
-    description:
-      "Learn how to apply for the Titanium Rewards Visa Signature Credit Card. Discover the eligibility requirements, application steps, and premium benefits.",
-    keywords: "credit cards, rewards, points, visa signature, requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements");
 
 export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage() {
   return (

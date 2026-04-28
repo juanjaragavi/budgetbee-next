@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits - BudgetBee",
-  description:
-    "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
-  keywords:
-    "Robinhood Gold Card, 3% cash back credit card, Robinhood credit card, no annual fee, virtual cards, family credit card, Visa Signature benefits, travel rewards, cash back rewards, investment credit card",
-};
+export const metadata = createRouteMetadata("/financial-solutions/robinhood-gold-card");
 
 export default function RobinhoodGoldCardPage() {
   return (

@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Self Credit Builder Account + Visa Card Requirements: Eligibility and Application Guide - BudgetBee",
-    description:
-      "Understand the steps to qualify for the Self Credit Builder Account and Self Visa Credit Card. See eligibility, required documents, 15.69% APR examples, and the $0 intro annual fee with a $100 security interest.",
-    keywords:
-      "Self Visa requirements, Self Credit Builder Account eligibility, Self secured card application, $100 security deposit credit card, build credit requirements, credit builder loan documents",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/self-credit-builder-account-visa-card-requirements");
 
 export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
   return (

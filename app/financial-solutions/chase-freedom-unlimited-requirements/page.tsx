@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chase Freedom Unlimited Requirements: Your Eligibility Guide - BudgetBee",
-    description:
-      "Understand the requirements for the Chase Freedom Unlimited Credit Card, including credit score, income, and application steps. Apply to unlock unlimited cashback.",
-    keywords: "credit cards, requirements, application, cashback",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-unlimited-requirements");
 
 export default function ChaseFreedomUnlimitedRequirementsPage() {
   return (

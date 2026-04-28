@@ -2,25 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "SIREN Card Requirements & Eligibility | Application Guide for Starbucks Partners",
-    description:
-      "Learn SIREN Card eligibility requirements for Starbucks partners. USA residents 18+, no FICO score required to apply, mobile device needed. Get details on the application process, cred.ai Guaranty terms, and how to start building credit automatically.",
-    keywords: [
-      "SIREN Card requirements",
-      "SIREN eligibility",
-      "Starbucks partner card",
-      "SIREN application",
-      "cred.ai guaranty",
-      "no fee credit card requirements",
-      "WSFS Bank card",
-      "automatic credit builder",
-    ].join(", "),
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/siren-card-requirements");
 
 export default function SirenCardRequirementsPage() {
   return (

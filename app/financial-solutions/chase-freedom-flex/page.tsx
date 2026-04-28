@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Chase Freedom Flex℠: Cash Back Credit Card with Rotating Categories - BudgetBee",
-  description:
-    "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
-  keywords:
-    "Chase Freedom Flex, cash back credit card, rotating categories, quarterly bonus, Chase Ultimate Rewards, no annual fee, Chase credit card, 0% intro APR, travel rewards",
-};
+export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-flex");
 
 export default function ChaseFreedomFlexPage() {
   return (

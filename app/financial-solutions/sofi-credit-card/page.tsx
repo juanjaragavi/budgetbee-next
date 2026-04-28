@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee - BudgetBee",
-  description:
-    "Discover the SoFi Unlimited 2% Credit Card offering unlimited cash back rewards on all purchases, no annual fees, Mastercard World Elite benefits, and exclusive travel perks. Perfect for building wealth with every purchase.",
-  keywords:
-    "SoFi credit card, unlimited 2% cash back, no annual fee, Mastercard World Elite, travel rewards, cell phone protection, cash back rewards, SoFi banking, US credit cards, excellent credit",
-};
+export const metadata = createRouteMetadata("/financial-solutions/sofi-credit-card");
 
 export default function SoFiCreditCardPage() {
   return (

@@ -3,7 +3,7 @@
  * Generates JSON-LD schema for credit cards and financial products
  */
 
-import Script from "next/script";
+import { JsonLd } from "@/components/seo/json-ld";
 
 interface ProductSchemaProps {
   name: string;
@@ -61,12 +61,5 @@ export function ProductSchema({
     }),
   };
 
-  return (
-    <Script
-      id="product-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      strategy="afterInteractive"
-    />
-  );
+  return <JsonLd data={schema} />;
 }

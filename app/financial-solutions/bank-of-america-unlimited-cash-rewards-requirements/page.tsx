@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Bank of America® Unlimited Cash Rewards Requirements: Complete Application Guide - BudgetBee",
-    description:
-      "Learn about Bank of America® Unlimited Cash Rewards eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for unlimited 1.5% cash back with no annual fee.",
-    keywords:
-      "Bank of America Unlimited Cash Rewards requirements, BofA credit card eligibility, cash back card application, Bank of America credit requirements, Preferred Rewards enrollment, credit card approval",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/bank-of-america-unlimited-cash-rewards-requirements");
 
 export default function BankOfAmericaUnlimitedCashRewardsRequirementsPage() {
   return (

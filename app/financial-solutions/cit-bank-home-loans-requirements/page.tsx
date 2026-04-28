@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "CIT Bank Home Loans Requirements: What You Need to Qualify - BudgetBee",
-    description:
-      "Learn the requirements for CIT Bank Home Loans including credit score, income verification, down payment, and documentation needed to get approved for your mortgage.",
-    keywords: "credit cards, financial solutions",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/cit-bank-home-loans-requirements");
 
 export default function CitBankHomeLoansRequirementsPage() {
   return (

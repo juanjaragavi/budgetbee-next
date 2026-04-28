@@ -3,15 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Visa Signature U.S. Current Build Credit Card Benefits - BudgetBee",
-    description:
-      "Discover the benefits of the Visa Signature U.S. Current Build Credit Card. No annual fees, exclusive rewards, and credit-building tools without hidden charges.",
-    keywords: "credit cards, credit building, rewards, no annual fee",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/visa-signature-us-current-build-credit-card-benefits");
 
 export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
   return (

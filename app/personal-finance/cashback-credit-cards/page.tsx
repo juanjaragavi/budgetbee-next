@@ -3,16 +3,9 @@ import { CompactFooter } from "@/components/layout/compact-footer"; // Add Compa
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image"; // Add Image import
 import Link from "next/link"; // Add Link import
-import type { Metadata } from "next";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title:
-    "Best Cashback Credit Cards 2025: Earn Cash on Every Purchase - BudgetBee",
-  description:
-    "Discover the best cashback credit cards with high rewards rates. Compare cashback cards and learn how to maximize your earnings on everyday purchases.",
-  keywords:
-    "cashback credit cards, cash back rewards, best cashback cards, earn cash back, rewards credit cards, cashback comparison, money back cards",
-};
+export const metadata = createRouteMetadata("/personal-finance/cashback-credit-cards");
 
 export default function CashbackCreditCardsPage() {
   return (

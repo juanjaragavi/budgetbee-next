@@ -3,16 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "US Bank Cash+ Visa Signature Card Benefits: Customizable Cashback - BudgetBee",
-    description:
-      "Discover the benefits of the US Bank Cash+ Visa Signature Card: up to 5% cashback in chosen categories, 2% on groceries and gas, and no annual fee. Customize your rewards and maximize savings.",
-    keywords: "credit cards, cashback, no annual fee, customizable rewards",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits");
 
 export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
   return (

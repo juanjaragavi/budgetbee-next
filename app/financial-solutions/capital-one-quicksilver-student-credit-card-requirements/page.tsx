@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Capital One Quicksilver Student Credit Card Requirements - BudgetBee",
-    description:
-      "Learn how to apply for the Capital One Quicksilver Student Credit Card. Discover the eligibility requirements, application steps, and benefits for students.",
-    keywords: "credit cards, student cards, requirements, application",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/capital-one-quicksilver-student-credit-card-requirements");
 
 export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage() {
   return (

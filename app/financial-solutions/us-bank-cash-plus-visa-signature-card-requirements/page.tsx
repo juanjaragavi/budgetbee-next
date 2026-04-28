@@ -3,16 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "US Bank Cash+ Visa Signature Card Requirements: Your Eligibility Guide - BudgetBee",
-    description:
-      "Discover the requirements and application process for the US Bank Cash+ Visa Signature Card. Learn how to maximize your cashback rewards and meet eligibility criteria to enjoy personalized and flexible benefits.",
-    keywords: "credit cards, requirements, application, cashback",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements");
 
 export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
   return (

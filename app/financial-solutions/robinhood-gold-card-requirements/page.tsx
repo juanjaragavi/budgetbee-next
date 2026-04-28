@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Robinhood Gold Card Requirements: Eligibility, Costs & Application Guide - BudgetBee",
-    description:
-      "Complete eligibility requirements, costs, fees, and application process for the Robinhood Gold Card. Learn what you need to qualify, documentation required, and how to apply for this premium 3% cash back credit card.",
-    keywords:
-      "Robinhood Gold Card requirements, credit card eligibility, Robinhood credit card application, Gold membership requirements, credit score requirements, credit card approval, Robinhood card costs, credit card fees",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/robinhood-gold-card-requirements");
 
 export default function RobinhoodGoldCardRequirementsPage() {
   return (

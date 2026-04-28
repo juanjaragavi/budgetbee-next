@@ -3,15 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Wells Fargo Autograph Card Requirements - BudgetBee",
-    description:
-      "Learn the Wells Fargo Autograph Card requirements, from credit score to income verification. Follow our step-by-step guide to apply and start earning rewards now!",
-    keywords: "credit cards, requirements, application, eligibility",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/wells-fargo-autograph-card-requirements");
 
 export default function WellsFargoAutographCardRequirementsPage() {
   return (

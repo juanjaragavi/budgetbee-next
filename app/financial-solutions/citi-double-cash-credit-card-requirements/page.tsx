@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Citi Double Cash Credit Card Requirements: Your Path to 2% Cashback - BudgetBee",
-    description:
-      "Understand the requirements for the Citi Double Cash Credit Card, including credit score, age, and income. Apply to start earning 2% cashback on every purchase.",
-    keywords: "credit cards, requirements, application, cashback",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/citi-double-cash-credit-card-requirements");
 
 export default function CitiDoubleCashCreditCardRequirementsPage() {
   return (

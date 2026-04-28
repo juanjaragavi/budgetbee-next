@@ -3,17 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Wells Fargo Active Cash® Card Requirements: Complete Application Guide - BudgetBee",
-    description:
-      "Learn about Wells Fargo Active Cash® Card eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this award-winning 2% cash back card.",
-    keywords:
-      "Wells Fargo Active Cash requirements, Wells Fargo credit card eligibility, cash back card application, Wells Fargo Active Cash credit score, flat-rate rewards card requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/wells-fargo-active-cash-card-requirements");
 
 export default function WellsFargoActiveCashCardRequirementsPage() {
   return (

@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Capital One Savor Rewards Credit Card Benefits - BudgetBee",
-    description:
-      "Explore the Capital One Savor Rewards Credit Card Benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
-    keywords: "credit cards, rewards, cashback, capital one",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/capital-one-savor-rewards-credit-card-benefits");
 
 export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
   return (

@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "DoorDash Rewards Mastercard Requirements: How to Qualify - BudgetBee",
-    description:
-      "Learn the eligibility requirements for the DoorDash Rewards Mastercard, including credit score, income, and identification. Apply to unlock exclusive rewards.",
-    keywords: "credit cards, requirements, application, food delivery",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/doordash-rewards-mastercard-requirements");
 
 export default function DoordashRewardsMastercardRequirementsPage() {
   return (

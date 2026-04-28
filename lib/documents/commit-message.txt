@@ -1,10 +1,19 @@
-feat: add dynamic paso-{n} ID stamper for TopAds gaming quiz
+feat: comprehensive SEO overhaul with JSON-LD structured data and layout files
 
-- Create TopAdsQuizIdStamper component that observes the TopAds-rendered
-  quiz DOM and stamps paso-{n}-{journeyId} IDs on the answer container
-  div as each step transitions, mirroring the TopFinanzas Jobs journey
-  pattern (jobs-quiz-modal.tsx)
-- Integrate stamper into GamingOfferwallRuntime so it runs automatically
-  for all gaming offerwall quiz pages
-- Apply code formatting fixes to button.tsx, topads-spa-handler.tsx, and
-  mcp.json from prettier run
+- Add per-page layout.tsx files across all financial-solutions and
+  personal-finance article/product pages for granular SEO metadata control
+- Create lib/seo.ts centralized SEO utility with generateMetadata helpers
+  and canonical URL generation
+- Add lib/seo-route-registry.ts mapping all routes to structured metadata
+- Add components/seo/json-ld.tsx for server-rendered structured data injection
+- Refactor article-schema, breadcrumb-schema, faq-schema, product-schema
+  components to align with new centralized SEO system
+- Extract client-only logic from blog, financial-solutions, personal-finance,
+  and root page.tsx into dedicated page-client.tsx components (RSC split)
+- Reduce app/blog/page.tsx and app/financial-solutions/page.tsx to lean
+  server components after client extraction
+- Update robots.ts and sitemap.ts for improved crawl and indexing signals
+- Add public/llms.txt for LLM/AI crawler discovery
+- Update next.config.mjs with SEO-related configuration adjustments
+- Add docs/REPORT_SEO_AI_BUDGETBEE.md SEO audit report
+- Misc .vscode/settings.json workspace configuration update

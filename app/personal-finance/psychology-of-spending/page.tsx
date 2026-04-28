@@ -3,58 +3,15 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
-import { Metadata } from "next";
-import { generateArticleMetadata } from "@/lib/utils/seo";
-import { ArticleSchema, BreadcrumbSchema } from "@/components/seo";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = generateArticleMetadata({
-  title:
-    "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving",
-  description:
-    "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
-  slug: "psychology-of-spending",
-  category: "personal-finance",
-  keywords:
-    "psychology of spending, impulse buying, mindful spending, financial behavior, personal finance, money mindset, emotional spending, spending triggers, financial well-being",
-  image:
-    "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
-  publishedDate: "2025-11-25T00:00:00Z",
-  modifiedDate: "2025-11-25T00:00:00Z",
-});
+export const metadata = createRouteMetadata("/personal-finance/psychology-of-spending");
+
+
 
 export default function PsychologyOfSpendingPage() {
   return (
     <main className="bg-white min-h-screen flex flex-col">
-      <ArticleSchema
-        title="The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving"
-        description="Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being."
-        image="https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
-        datePublished="2025-11-25T00:00:00Z"
-        dateModified="2025-11-25T00:00:00Z"
-        url="https://budgetbeepro.com/personal-finance/psychology-of-spending"
-        category="Personal Finance"
-        keywords={[
-          "psychology of spending",
-          "impulse buying",
-          "mindful spending",
-          "financial behavior",
-          "personal finance",
-          "money mindset",
-        ]}
-      />
-      <BreadcrumbSchema
-        items={[
-          { name: "Home", url: "https://budgetbeepro.com" },
-          {
-            name: "Personal Finance",
-            url: "https://budgetbeepro.com/personal-finance",
-          },
-          {
-            name: "Psychology of Spending",
-            url: "https://budgetbeepro.com/personal-finance/psychology-of-spending",
-          },
-        ]}
-      />
       <Header />
 
       <article

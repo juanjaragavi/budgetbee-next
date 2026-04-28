@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Benefits of the First Digital NextGen Mastercard - BudgetBee",
-    description:
-      "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and digital management.",
-    keywords: "credit cards, digital card, no credit check",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/first-digital-nextgen-mastercard-benefits");
 
 export default function FirstDigitalNextgenMastercardBenefitsPage() {
   return (

@@ -2,23 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Yotta Credit Card Requirements & Eligibility | Application Guide",
-    description:
-      "Learn Yotta Credit Card eligibility requirements, application process, and state availability. Find out if you qualify for Lucky Swipe rewards and sweepstakes credit in 42 US states.",
-    keywords: [
-      "Yotta Credit Card requirements",
-      "Yotta eligibility",
-      "Yotta application",
-      "credit card approval",
-      "Yotta state availability",
-      "Lucky Swipe requirements",
-      "Synapse Credit approval",
-    ].join(", "),
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/yotta-credit-card-requirements");
 
 export default function YottaCreditCardRequirementsPage() {
   return (

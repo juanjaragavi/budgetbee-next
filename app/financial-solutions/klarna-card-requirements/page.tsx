@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title: "Klarna Card Requirements: How to Apply & Eligibility - BudgetBee",
-    description:
-      "Learn the requirements for the Klarna Card. Must be 18+, U.S. resident with valid SSN. No credit impact to apply, no annual fees. Get instant virtual card with flexible pay later plans and optional membership benefits.",
-    keywords:
-      "Klarna Card requirements, Klarna eligibility, how to apply Klarna Card, Klarna balance account, WebBank card, no credit check, pay later plans, Klarna membership",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/klarna-card-requirements");
 
 export default function KlarnaCardRequirementsPage() {
   return (

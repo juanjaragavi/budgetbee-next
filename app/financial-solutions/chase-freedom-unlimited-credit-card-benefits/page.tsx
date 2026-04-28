@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Chase Freedom Unlimited Credit Card Benefits: Unlimited Cashback & More - BudgetBee",
-    description:
-      "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
-    keywords: "credit cards, cashback, no annual fee, intro APR",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-unlimited-credit-card-benefits");
 
 export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
   return (

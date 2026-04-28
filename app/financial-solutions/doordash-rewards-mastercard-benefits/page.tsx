@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "DoorDash Rewards Mastercard Benefits: Maximize Your Food Savings - BudgetBee",
-    description:
-      "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
-    keywords: "credit cards, rewards, cashback, food delivery",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/doordash-rewards-mastercard-benefits");
 
 export default function DoordashRewardsMastercardBenefitsPage() {
   return (

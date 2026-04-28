@@ -3,17 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Citi Custom Cash® Card Requirements: Complete Eligibility Guide - BudgetBee",
-    description:
-      "Learn about Citi Custom Cash® Card eligibility requirements, credit score needs, income verification, application process, and one-per-person restrictions. Discover if you qualify for this intelligent 5% cash back card.",
-    keywords:
-      "Citi Custom Cash requirements, Citi credit card eligibility, automatic cash back card application, Citi Custom Cash credit score, one card per person rule",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/citi-custom-cash-card-requirements");
 
 export default function CitiCustomCashCardRequirementsPage() {
   return (

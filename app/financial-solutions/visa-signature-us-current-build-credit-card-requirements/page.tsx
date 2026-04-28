@@ -3,16 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Visa Signature U.S. Current Build Credit Card Requirements - BudgetBee",
-    description:
-      "Learn the requirements for the Visa Signature U.S. Current Build Credit Card. Discover eligibility criteria, application steps, and key benefits for building credit.",
-    keywords: "credit cards, credit building, requirements, application",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/visa-signature-us-current-build-credit-card-requirements");
 
 export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() {
   return (

@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "TD FlexPay Credit Card Benefits: Unlock Financial Flexibility - BudgetBee",
-    description:
-      "Discover how the TD FlexPay Credit Card offers financial flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
-    keywords: "credit cards, financial solutions",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/td-flexpay-credit-card-benefits");
 
 export default function TdFlexpayCreditCardBenefitsPage() {
   return (

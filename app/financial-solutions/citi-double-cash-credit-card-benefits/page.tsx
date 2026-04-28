@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Citi Double Cash Credit Card Benefits: Earn 2% Cashback on Every Purchase - BudgetBee",
-    description:
-      "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase (1% when you buy, 1% when you pay) with no annual fee.",
-    keywords: "credit cards, cashback, no annual fee, balance transfer",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/citi-double-cash-credit-card-benefits");
 
 export default function CitiDoubleCashCreditCardBenefitsPage() {
   return (

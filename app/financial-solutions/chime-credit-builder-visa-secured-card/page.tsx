@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Chime Credit Builder Visa Secured Card: Build Credit with No Fees - BudgetBee",
-  description:
-    "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
-  keywords:
-    "Chime Credit Builder, secured credit card, build credit, no annual fee, no interest, credit building, Chime Card, cash back rewards, credit score improvement, US credit cards",
-};
+export const metadata = createRouteMetadata("/financial-solutions/chime-credit-builder-visa-secured-card");
 
 export default function ChimeCreditBuilderPage() {
   return (

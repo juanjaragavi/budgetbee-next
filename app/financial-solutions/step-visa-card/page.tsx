@@ -4,14 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title: "Step Visa Card: Build Credit for Free Starting at Age 13 - BudgetBee",
-  description:
-    "Discover the Step Visa Card—build credit history for free with no credit score required, no fees, and no interest. Perfect for teens 13+ and young adults. Reports to all 3 credit bureaus with an average 57-point score increase.",
-  keywords:
-    "Step Visa Card, build credit for free, teen credit card, no credit score required, secured credit card, credit building for teens, no annual fee, no APR, Evolve Bank, credit history under 18",
-};
+export const metadata = createRouteMetadata("/financial-solutions/step-visa-card");
 
 export default function StepVisaCardPage() {
   return (

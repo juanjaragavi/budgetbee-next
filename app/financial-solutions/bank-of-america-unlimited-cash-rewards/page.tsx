@@ -4,15 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = {
-  title:
-    "Bank of America® Unlimited Cash Rewards: Straightforward Cash Back Card - BudgetBee",
-  description:
-    "Discover the Bank of America® Unlimited Cash Rewards credit card with unlimited 1.5% cash back on all purchases, $200 online cash rewards bonus, 0% intro APR for 18 billing cycles, no annual fee, and Preferred Rewards benefits up to 75% bonus cash back.",
-  keywords:
-    "Bank of America Unlimited Cash Rewards, BofA cash back card, unlimited cash back, no annual fee credit card, Preferred Rewards, 1.5% cash back, intro APR offer, Bank of America credit card",
-};
+export const metadata = createRouteMetadata("/financial-solutions/bank-of-america-unlimited-cash-rewards");
 
 export default function BankOfAmericaUnlimitedCashRewardsPage() {
   return (

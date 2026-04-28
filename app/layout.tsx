@@ -18,6 +18,12 @@ import TopAdsSPAHandler from "@/components/analytics/topads-spa-handler";
 import AnalyticsValidationPanel from "@/components/analytics/validation-panel";
 import ResourceHints from "@/components/resource-hints";
 import NavigationProvider from "@/components/providers/navigation-provider";
+import { JsonLd } from "@/components/seo/json-ld";
+import {
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+  SEO_SITE,
+} from "@/lib/seo";
 {
   /*import PreloaderProvider from "@/components/providers/preloader-provider";*/
 }
@@ -40,8 +46,6 @@ const montserrat = Montserrat({
   ],
 });
 
-// Define base URL for metadata
-const baseUrl = "https://budgetbeepro.com";
 
 // Read critical CSS at build time to inline it
 let criticalCSS = "";
@@ -59,69 +63,64 @@ try {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
   themeColor: "#ffffff",
 };
 
 export const metadata: Metadata = {
-  // Updated Title and Description for US focus
-  title: "BudgetBee - Your Guide to US Credit Cards & Loans",
-  description:
-    "Compare the best US credit cards, loans, and financial solutions with BudgetBee. Expert guides and tools tailored for the US market.",
-  keywords:
-    "credit cards US, personal loans US, compare credit cards, compare loans, financial advice US, BudgetBee", // Updated keywords
-  // Removed generator tag
-
-  // Canonical URL
+  metadataBase: new URL(SEO_SITE.baseUrl),
+  title: {
+    template: SEO_SITE.titleTemplate,
+    default: SEO_SITE.defaultTitle,
+  },
+  description: SEO_SITE.description,
   alternates: {
-    canonical: baseUrl,
+    canonical: SEO_SITE.baseUrl,
     languages: {
-      "en-US": baseUrl,
-      en: baseUrl,
-      "x-default": baseUrl,
+      [SEO_SITE.language]: SEO_SITE.baseUrl,
+      en: SEO_SITE.baseUrl,
+      "x-default": SEO_SITE.baseUrl,
     },
   },
-
-  // Added Open Graph Metadata
+  authors: [{ name: "BudgetBee Editorial Team", url: SEO_SITE.baseUrl }],
+  publisher: SEO_SITE.name,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
-    title: "BudgetBee - Your Guide to US Credit Cards & Loans",
-    description:
-      "Compare the best US credit cards, loans, and financial solutions with BudgetBee.",
-    url: baseUrl,
-    siteName: "BudgetBee",
+    title: SEO_SITE.defaultTitle,
+    description: SEO_SITE.description,
+    url: SEO_SITE.baseUrl,
+    siteName: SEO_SITE.name,
     images: [
       {
-        url: `https://media.topfinanzas.com/budgetbee/images/og-image.png`, // Using the provided image URL
-        width: 900, // Assuming standard OG image width
-        height: 600, // Assuming standard OG image height
-        alt: "BudgetBee - Financial Guides and Solutions", // Updated Alt Text
+        url: SEO_SITE.defaultImage,
+        width: 1200,
+        height: 630,
+        alt: `${SEO_SITE.name} financial guides and solutions`,
       },
     ],
-    locale: "en_US",
+    locale: SEO_SITE.locale,
     type: "website",
   },
-
-  // Added Twitter Card Metadata
   twitter: {
     card: "summary_large_image",
-    title: "BudgetBee - Your Guide to US Credit Cards & Loans",
-    description:
-      "Compare the best US credit cards, loans, and financial solutions with BudgetBee.",
-    // siteId: "[Optional Twitter ID]",
-    // creator: "[Optional Twitter Handle]",
-    // creatorId: "[Optional Twitter ID]",
-    images: [`https://media.topfinanzas.com/budgetbee/images/og-image.png`], // Using the provided image URL
+    title: SEO_SITE.defaultTitle,
+    description: SEO_SITE.description,
+    images: [SEO_SITE.defaultImage],
   },
-
-  // Use simplified favicon configuration
   icons: {
     icon: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
-  manifest: "/site.webmanifest", // Use relative path for local manifest
-
-  // Optional: Define metadataBase for resolving relative image URLs
-  metadataBase: new URL(baseUrl),
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
@@ -144,44 +143,11 @@ export default function RootLayout({
           content="public, max-age=31536000, immutable"
         />
 
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         {/* Preconnect to media domain to establish early connection */}
         <link
           rel="preconnect"
           href="https://media.topfinanzas.com"
           crossOrigin="anonymous"
-        />
-
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(
-              {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                name: "BudgetBee",
-                url: baseUrl,
-                logo: "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: "PANAMA, PANAMA CITY",
-                  addressLocality: "AV. AQUILINO DE LA GUARDIA",
-                  postalCode: "OCEAN BUSINESS PLAZA BUILDING, FLOOR 12",
-                  addressCountry: "PA",
-                },
-                contactPoint: {
-                  "@type": "ContactPoint",
-                  telephone: "+44-20-1234-5678",
-                  contactType: "customer support",
-                  email: "info@budgetbeepro.com",
-                },
-                sameAs: ["https://www.instagram.com/budgetbee/"],
-              },
-              null,
-              2,
-            ),
-          }}
         />
 
         <ClientOnly>
@@ -219,6 +185,7 @@ export default function RootLayout({
         className={`${montserrat.variable} font-sans text-left sm:text-left`}
       >
         <GoogleTagManagerNoScript />
+        <JsonLd data={[generateOrganizationSchema(), generateWebSiteSchema()]} />
         {/*<PreloaderProvider
           defaultConfig={{
             duration: 4000,

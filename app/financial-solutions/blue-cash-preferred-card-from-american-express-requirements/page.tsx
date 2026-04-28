@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Blue Cash Preferred® Card Requirements: Eligibility and Application Guide - BudgetBee",
-    description:
-      "Learn about Blue Cash Preferred® Card from American Express requirements, eligibility criteria, credit score expectations, required documentation, and the complete application process. Discover if you qualify for this premium cash back card.",
-    keywords:
-      "Blue Cash Preferred requirements, Amex eligibility, American Express application, credit card requirements, good credit cards, cash back card eligibility, Amex application process, credit score requirements",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/blue-cash-preferred-card-from-american-express-requirements");
 
 export default function BlueCashPreferredRequirementsPage() {
   return (

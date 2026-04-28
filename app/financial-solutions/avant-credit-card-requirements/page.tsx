@@ -4,17 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { createRouteMetadata } from "@/lib/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Avant Credit Card Requirements: How to Apply & Eligibility - BudgetBee",
-    description:
-      "Learn the requirements for the Avant Credit Card. Designed for credit building with no security deposit. 29.99%-35.99% APR, $39-$75 annual membership fee, $300-$3,000 credit limits. Issued by WebBank. Check eligibility without credit impact.",
-    keywords:
-      "Avant Credit Card requirements, Avant eligibility, how to apply Avant Card, WebBank credit card, credit building requirements, no security deposit card, fair credit card application",
-  };
-}
+export const metadata = createRouteMetadata("/financial-solutions/avant-credit-card-requirements");
 
 export default function AvantCreditCardRequirementsPage() {
   return (
