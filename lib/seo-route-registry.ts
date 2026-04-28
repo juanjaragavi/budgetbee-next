@@ -1,4 +1,7 @@
-export type RouteCategory = "static" | "financial-solutions" | "personal-finance";
+export type RouteCategory =
+  | "static"
+  | "financial-solutions"
+  | "personal-finance";
 export type RouteContentType =
   | "webpage"
   | "collection"
@@ -21,7 +24,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/": {
     pathname: "/",
     title: "BudgetBee | Your Hive for Unbiased Financial Buzz",
-    description: "Make smarter financial decisions with clear, unbiased guidance on US credit cards, budgeting, loans, and personal finance.",
+    description:
+      "Make smarter financial decisions with clear, unbiased guidance on US credit cards, budgeting, loans, and personal finance.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -29,7 +33,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/about-us": {
     pathname: "/about-us",
     title: "About BudgetBee",
-    description: "Learn about BudgetBee, an editorial financial education platform helping US readers compare credit cards, loans, and money strategies.",
+    description:
+      "Learn about BudgetBee, an editorial financial education platform helping US readers compare credit cards, loans, and money strategies.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -37,7 +42,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/blog": {
     pathname: "/blog",
     title: "BudgetBee Blog: Personal Finance & Financial Solutions",
-    description: "Explore BudgetBee articles on credit cards, loans, debt management, savings, budgeting, and personal finance topics for US consumers.",
+    description:
+      "Explore BudgetBee articles on credit cards, loans, debt management, savings, budgeting, and personal finance topics for US consumers.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "collection",
@@ -45,7 +51,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/contact-us": {
     pathname: "/contact-us",
     title: "Contact BudgetBee",
-    description: "Contact the BudgetBee team with questions about financial guides, credit card comparisons, personal loans, and editorial content.",
+    description:
+      "Contact the BudgetBee team with questions about financial guides, credit card comparisons, personal loans, and editorial content.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -53,7 +60,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/cookie-policy": {
     pathname: "/cookie-policy",
     title: "Cookie Policy",
-    description: "Read BudgetBee's cookie policy to understand how cookies and related technologies support analytics, ads, and site functionality.",
+    description:
+      "Read BudgetBee's cookie policy to understand how cookies and related technologies support analytics, ads, and site functionality.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -61,7 +69,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions": {
     pathname: "/financial-solutions",
     title: "US Financial Solutions: Credit Cards & Loans",
-    description: "Compare US credit cards, personal loans, card requirements, product benefits, and financial solution guides from BudgetBee.",
+    description:
+      "Compare US credit cards, personal loans, card requirements, product benefits, and financial solution guides from BudgetBee.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "collection",
@@ -69,7 +78,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance": {
     pathname: "/personal-finance",
     title: "Personal Finance Guides",
-    description: "Read BudgetBee personal finance guides about budgeting, credit cards, debt, savings, spending habits, and smarter money decisions.",
+    description:
+      "Read BudgetBee personal finance guides about budgeting, credit cards, debt, savings, spending habits, and smarter money decisions.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "collection",
@@ -77,7 +87,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/privacy-policy": {
     pathname: "/privacy-policy",
     title: "Privacy Policy",
-    description: "Read BudgetBee's privacy policy, including how information is collected, used, protected, and managed across the website.",
+    description:
+      "Read BudgetBee's privacy policy, including how information is collected, used, protected, and managed across the website.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -85,7 +96,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/terms": {
     pathname: "/terms",
     title: "Terms and Conditions",
-    description: "Review the terms and conditions for using BudgetBee financial education content, comparison guides, and website services.",
+    description:
+      "Review the terms and conditions for using BudgetBee financial education content, comparison guides, and website services.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "static",
     contentType: "webpage",
@@ -93,7 +105,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/affirm-card": {
     pathname: "/financial-solutions/affirm-card",
     title: "Affirm Card: Pay Over Time with Flexible Payment Plans",
-    description: "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
+    description:
+      "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
     image: "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -102,8 +115,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/affirm-card-requirements": {
     pathname: "/financial-solutions/affirm-card-requirements",
     title: "Affirm Card Requirements: How to Apply & Eligibility",
-    description: "Learn the requirements for the Affirm Card. Must be 18+, have a U.S. address, and link a bank account. No credit impact to check eligibility. Get transparent payment plans from 0%-36% APR with no hidden fees.",
-    image: "https://media.topfinanzas.com/images/kardtrust/affirm-card-requirements.webp",
+    description:
+      "Learn the requirements for the Affirm Card. Must be 18+, have a U.S. address, and link a bank account. No credit impact to check eligibility. Get transparent payment plans from 0%-36% APR with no hidden fees.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/affirm-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -111,16 +126,19 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/amazon-rewards-visa-credit-card-benefits": {
     pathname: "/financial-solutions/amazon-rewards-visa-credit-card-benefits",
     title: "Unlock the Benefits of the Amazon Rewards Visa Credit Card",
-    description: "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
+    description:
+      "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
     image: "https://media.topfinanzas.com/images/Amazon1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/amazon-rewards-visa-credit-card-requirements": {
-    pathname: "/financial-solutions/amazon-rewards-visa-credit-card-requirements",
+    pathname:
+      "/financial-solutions/amazon-rewards-visa-credit-card-requirements",
     title: "Amazon Rewards Visa Credit Card Requirements",
-    description: "Learn how to apply for the Amazon Rewards Visa Credit Card. Discover the eligibility requirements, application steps, and benefits.",
+    description:
+      "Learn how to apply for the Amazon Rewards Visa Credit Card. Discover the eligibility requirements, application steps, and benefits.",
     image: "https://media.topfinanzas.com/images/Amazon2.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -129,8 +147,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/avant-credit-card": {
     pathname: "/financial-solutions/avant-credit-card",
     title: "Avant Credit Card: Build Credit with No Hidden Fees",
-    description: "Discover the Avant Credit Card designed for credit building. No security deposit, no hidden fees, proactive credit line increases, and mobile app management. 29.99%-35.99% APR with $39-$75 annual membership fee. Issued by WebBank.",
-    image: "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
+    description:
+      "Discover the Avant Credit Card designed for credit building. No security deposit, no hidden fees, proactive credit line increases, and mobile app management. 29.99%-35.99% APR with $39-$75 annual membership fee. Issued by WebBank.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -138,79 +158,107 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/avant-credit-card-requirements": {
     pathname: "/financial-solutions/avant-credit-card-requirements",
     title: "Avant Credit Card Requirements: How to Apply & Eligibility",
-    description: "Learn the requirements for the Avant Credit Card. Designed for credit building with no security deposit. 29.99%-35.99% APR, $39-$75 annual membership fee, $300-$3,000 credit limits. Issued by WebBank. Check eligibility without credit impact.",
-    image: "https://media.topfinanzas.com/images/kardtrust/avant-credit-card-requirements.webp",
+    description:
+      "Learn the requirements for the Avant Credit Card. Designed for credit building with no security deposit. 29.99%-35.99% APR, $39-$75 annual membership fee, $300-$3,000 credit limits. Issued by WebBank. Check eligibility without credit impact.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/avant-credit-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/bank-of-america-unlimited-cash-rewards": {
     pathname: "/financial-solutions/bank-of-america-unlimited-cash-rewards",
-    title: "Bank of America® Unlimited Cash Rewards: Straightforward Cash Back Card",
-    description: "Discover the Bank of America® Unlimited Cash Rewards credit card with unlimited 1.5% cash back on all purchases, $200 online cash rewards bonus, 0% intro APR for 18 billing cycles, no annual fee, and Preferred Rewards benefits up to 75% bonus cash back.",
-    image: "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards.webp",
+    title:
+      "Bank of America® Unlimited Cash Rewards: Straightforward Cash Back Card",
+    description:
+      "Discover the Bank of America® Unlimited Cash Rewards credit card with unlimited 1.5% cash back on all purchases, $200 online cash rewards bonus, 0% intro APR for 18 billing cycles, no annual fee, and Preferred Rewards benefits up to 75% bonus cash back.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/bank-of-america-unlimited-cash-rewards-requirements": {
-    pathname: "/financial-solutions/bank-of-america-unlimited-cash-rewards-requirements",
-    title: "Bank of America® Unlimited Cash Rewards Requirements: Complete Application Guide",
-    description: "Learn about Bank of America® Unlimited Cash Rewards eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for unlimited 1.5% cash back with no annual fee.",
-    image: "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards-requirements.webp",
+    pathname:
+      "/financial-solutions/bank-of-america-unlimited-cash-rewards-requirements",
+    title:
+      "Bank of America® Unlimited Cash Rewards Requirements: Complete Application Guide",
+    description:
+      "Learn about Bank of America® Unlimited Cash Rewards eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for unlimited 1.5% cash back with no annual fee.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/blue-cash-preferred-card-from-american-express": {
-    pathname: "/financial-solutions/blue-cash-preferred-card-from-american-express",
-    title: "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
-    description: "Discover the Blue Cash Preferred® Card from American Express offering 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Learn about benefits, rewards, and how to apply.",
-    image: "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+    pathname:
+      "/financial-solutions/blue-cash-preferred-card-from-american-express",
+    title:
+      "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
+    description:
+      "Discover the Blue Cash Preferred® Card from American Express offering 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Learn about benefits, rewards, and how to apply.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
-  "/financial-solutions/blue-cash-preferred-card-from-american-express-requirements": {
-    pathname: "/financial-solutions/blue-cash-preferred-card-from-american-express-requirements",
-    title: "Blue Cash Preferred® Card Requirements: Eligibility and Application Guide",
-    description: "Learn about Blue Cash Preferred® Card from American Express requirements, eligibility criteria, credit score expectations, required documentation, and the complete application process. Discover if you qualify for this premium cash back card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express-requirements.webp",
-    category: "financial-solutions",
-    contentType: "credit-card",
-    date: "2025-10-28T00:00:00Z",
-  },
+  "/financial-solutions/blue-cash-preferred-card-from-american-express-requirements":
+    {
+      pathname:
+        "/financial-solutions/blue-cash-preferred-card-from-american-express-requirements",
+      title:
+        "Blue Cash Preferred® Card Requirements: Eligibility and Application Guide",
+      description:
+        "Learn about Blue Cash Preferred® Card from American Express requirements, eligibility criteria, credit score expectations, required documentation, and the complete application process. Discover if you qualify for this premium cash back card.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express-requirements.webp",
+      category: "financial-solutions",
+      contentType: "credit-card",
+      date: "2025-10-28T00:00:00Z",
+    },
   "/financial-solutions/capital-one-quicksilver-student-credit-card-benefits": {
-    pathname: "/financial-solutions/capital-one-quicksilver-student-credit-card-benefits",
-    title: "Unlock the Benefits of the Capital One Quicksilver Student Credit Card",
-    description: "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
+    pathname:
+      "/financial-solutions/capital-one-quicksilver-student-credit-card-benefits",
+    title:
+      "Unlock the Benefits of the Capital One Quicksilver Student Credit Card",
+    description:
+      "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
     image: "https://media.topfinanzas.com/images/Capitalone1-1024x536.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
-  "/financial-solutions/capital-one-quicksilver-student-credit-card-requirements": {
-    pathname: "/financial-solutions/capital-one-quicksilver-student-credit-card-requirements",
-    title: "Capital One Quicksilver Student Credit Card Requirements",
-    description: "Learn how to apply for the Capital One Quicksilver Student Credit Card. Discover the eligibility requirements, application steps, and benefits for students.",
-    image: "https://media.topfinanzas.com/images/Capitalone2.webp",
-    category: "financial-solutions",
-    contentType: "credit-card",
-    date: "2025-10-28T00:00:00Z",
-  },
+  "/financial-solutions/capital-one-quicksilver-student-credit-card-requirements":
+    {
+      pathname:
+        "/financial-solutions/capital-one-quicksilver-student-credit-card-requirements",
+      title: "Capital One Quicksilver Student Credit Card Requirements",
+      description:
+        "Learn how to apply for the Capital One Quicksilver Student Credit Card. Discover the eligibility requirements, application steps, and benefits for students.",
+      image: "https://media.topfinanzas.com/images/Capitalone2.webp",
+      category: "financial-solutions",
+      contentType: "credit-card",
+      date: "2025-10-28T00:00:00Z",
+    },
   "/financial-solutions/capital-one-savor-rewards-credit-card-benefits": {
-    pathname: "/financial-solutions/capital-one-savor-rewards-credit-card-benefits",
+    pathname:
+      "/financial-solutions/capital-one-savor-rewards-credit-card-benefits",
     title: "Capital One Savor Rewards Credit Card Benefits",
-    description: "Explore the Capital One Savor Rewards Credit Card Benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
+    description:
+      "Explore the Capital One Savor Rewards Credit Card Benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
     image: "https://media.topfinanzas.com/images/download-14-1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/capital-one-savor-rewards-credit-card-requirements": {
-    pathname: "/financial-solutions/capital-one-savor-rewards-credit-card-requirements",
+    pathname:
+      "/financial-solutions/capital-one-savor-rewards-credit-card-requirements",
     title: "Capital One Savor Rewards Credit Card Requirements",
-    description: "Learn about the Capital One Savor Rewards Credit Card requirements, application process, and eligibility criteria for this dining and entertainment rewards card.",
+    description:
+      "Learn about the Capital One Savor Rewards Credit Card requirements, application process, and eligibility criteria for this dining and entertainment rewards card.",
     image: "https://media.topfinanzas.com/images/download-13-1-1024x536.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -218,26 +266,35 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/chase-freedom-flex": {
     pathname: "/financial-solutions/chase-freedom-flex",
-    title: "Chase Freedom Flex℠: Cash Back Credit Card with Rotating Categories",
-    description: "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+    title:
+      "Chase Freedom Flex℠: Cash Back Credit Card with Rotating Categories",
+    description:
+      "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/chase-freedom-flex-requirements": {
     pathname: "/financial-solutions/chase-freedom-flex-requirements",
-    title: "Chase Freedom Flex℠ Requirements: Complete Eligibility & Application Guide",
-    description: "Learn about Chase Freedom Flex℠ eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this cash back rewards card with rotating categories.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex-requirements.webp",
+    title:
+      "Chase Freedom Flex℠ Requirements: Complete Eligibility & Application Guide",
+    description:
+      "Learn about Chase Freedom Flex℠ eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this cash back rewards card with rotating categories.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex-requirements.webp",
     category: "financial-solutions",
     contentType: "financial-product",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/chase-freedom-unlimited-credit-card-benefits": {
-    pathname: "/financial-solutions/chase-freedom-unlimited-credit-card-benefits",
-    title: "Chase Freedom Unlimited Credit Card Benefits: Unlimited Cashback & More",
-    description: "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
+    pathname:
+      "/financial-solutions/chase-freedom-unlimited-credit-card-benefits",
+    title:
+      "Chase Freedom Unlimited Credit Card Benefits: Unlimited Cashback & More",
+    description:
+      "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
     image: "https://media.topfinanzas.com/images/download-11.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -246,7 +303,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/chase-freedom-unlimited-requirements": {
     pathname: "/financial-solutions/chase-freedom-unlimited-requirements",
     title: "Chase Freedom Unlimited Requirements: Your Eligibility Guide",
-    description: "Understand the requirements for the Chase Freedom Unlimited Credit Card, including credit score, income, and application steps. Apply to unlock unlimited cashback.",
+    description:
+      "Understand the requirements for the Chase Freedom Unlimited Credit Card, including credit score, income, and application steps. Apply to unlock unlimited cashback.",
     image: "https://media.topfinanzas.com/images/download-10.webp",
     category: "financial-solutions",
     contentType: "financial-product",
@@ -255,8 +313,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/chase-sapphire-reserve": {
     pathname: "/financial-solutions/chase-sapphire-reserve",
     title: "Chase Sapphire Reserve®: Premium Travel Rewards Card",
-    description: "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
+    description:
+      "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -264,8 +324,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/chase-sapphire-reserve-requirements": {
     pathname: "/financial-solutions/chase-sapphire-reserve-requirements",
     title: "Chase Sapphire Reserve® Requirements: Complete Application Guide",
-    description: "Learn about Chase Sapphire Reserve® eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this premium travel rewards card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve-requirements.webp",
+    description:
+      "Learn about Chase Sapphire Reserve® eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this premium travel rewards card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve-requirements.webp",
     category: "financial-solutions",
     contentType: "financial-product",
     date: "2025-10-28T00:00:00Z",
@@ -273,25 +335,33 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/chime-credit-builder-visa-secured-card": {
     pathname: "/financial-solutions/chime-credit-builder-visa-secured-card",
     title: "Chime Credit Builder Visa Secured Card: Build Credit with No Fees",
-    description: "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
+    description:
+      "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/chime-credit-builder-visa-secured-card-requirements": {
-    pathname: "/financial-solutions/chime-credit-builder-visa-secured-card-requirements",
-    title: "Chime Credit Builder Requirements: Application Guide and Eligibility",
-    description: "Learn about the Chime Credit Builder Visa Secured Card requirements, application process, eligibility criteria, and how to qualify for this fee-free credit building card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card-requirements.webp",
+    pathname:
+      "/financial-solutions/chime-credit-builder-visa-secured-card-requirements",
+    title:
+      "Chime Credit Builder Requirements: Application Guide and Eligibility",
+    description:
+      "Learn about the Chime Credit Builder Visa Secured Card requirements, application process, eligibility criteria, and how to qualify for this fee-free credit building card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/cit-bank-home-loans-benefits": {
     pathname: "/financial-solutions/cit-bank-home-loans-benefits",
-    title: "CIT Bank Home Loans Benefits: Build Your Dream Home with Confidence",
-    description: "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
+    title:
+      "CIT Bank Home Loans Benefits: Build Your Dream Home with Confidence",
+    description:
+      "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
     image: "https://media.topfinanzas.com/images/CitiBL1-820x429.png",
     category: "financial-solutions",
     contentType: "loan",
@@ -300,7 +370,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/cit-bank-home-loans-requirements": {
     pathname: "/financial-solutions/cit-bank-home-loans-requirements",
     title: "CIT Bank Home Loans Requirements: What You Need to Qualify",
-    description: "Learn the requirements for CIT Bank Home Loans including credit score, income verification, down payment, and documentation needed to get approved for your mortgage.",
+    description:
+      "Learn the requirements for CIT Bank Home Loans including credit score, income verification, down payment, and documentation needed to get approved for your mortgage.",
     image: "https://media.topfinanzas.com/images/CitiBL1-820x429.png",
     category: "financial-solutions",
     contentType: "loan",
@@ -309,8 +380,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/citi-custom-cash-card": {
     pathname: "/financial-solutions/citi-custom-cash-card",
     title: "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts",
-    description: "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
-    image: "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
+    description:
+      "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -318,16 +391,20 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/citi-custom-cash-card-requirements": {
     pathname: "/financial-solutions/citi-custom-cash-card-requirements",
     title: "Citi Custom Cash® Card Requirements: Complete Eligibility Guide",
-    description: "Learn about Citi Custom Cash® Card eligibility requirements, credit score needs, income verification, application process, and one-per-person restrictions. Discover if you qualify for this intelligent 5% cash back card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card-requirements.webp",
+    description:
+      "Learn about Citi Custom Cash® Card eligibility requirements, credit score needs, income verification, application process, and one-per-person restrictions. Discover if you qualify for this intelligent 5% cash back card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/citi-double-cash-credit-card-benefits": {
     pathname: "/financial-solutions/citi-double-cash-credit-card-benefits",
-    title: "Citi Double Cash Credit Card Benefits: Earn 2% Cashback on Every Purchase",
-    description: "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase (1% when you buy, 1% when you pay) with no annual fee.",
+    title:
+      "Citi Double Cash Credit Card Benefits: Earn 2% Cashback on Every Purchase",
+    description:
+      "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase (1% when you buy, 1% when you pay) with no annual fee.",
     image: "https://media.topfinanzas.com/images/download-2.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -335,8 +412,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/citi-double-cash-credit-card-requirements": {
     pathname: "/financial-solutions/citi-double-cash-credit-card-requirements",
-    title: "Citi Double Cash Credit Card Requirements: Your Path to 2% Cashback",
-    description: "Understand the requirements for the Citi Double Cash Credit Card, including credit score, age, and income. Apply to start earning 2% cashback on every purchase.",
+    title:
+      "Citi Double Cash Credit Card Requirements: Your Path to 2% Cashback",
+    description:
+      "Understand the requirements for the Citi Double Cash Credit Card, including credit score, age, and income. Apply to start earning 2% cashback on every purchase.",
     image: "https://media.topfinanzas.com/images/download-1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -345,7 +424,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/citi-simplicity-card-benefits": {
     pathname: "/financial-solutions/citi-simplicity-card-benefits",
     title: "Discover the Benefits of the Citi Simplicity Card",
-    description: "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
+    description:
+      "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
     image: "https://media.topfinanzas.com/images/download-12-1-1024x536.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -354,25 +434,32 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/citi-simplicity-card-requirements": {
     pathname: "/financial-solutions/citi-simplicity-card-requirements",
     title: "Citi Simplicity Card Requirements",
-    description: "Learn how to apply for the Citi Simplicity Card. Discover the eligibility requirements, application steps, and qualification criteria.",
+    description:
+      "Learn how to apply for the Citi Simplicity Card. Discover the eligibility requirements, application steps, and qualification criteria.",
     image: "https://media.topfinanzas.com/images/download-11-1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/discover-it-student-chrome-credit-card-benefits": {
-    pathname: "/financial-solutions/discover-it-student-chrome-credit-card-benefits",
-    title: "Discover it Student Chrome Credit Card Benefits: Smart Rewards for Students",
-    description: "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback on restaurants and gas, no annual fees, and double rewards in your first year. Perfect for students building credit.",
+    pathname:
+      "/financial-solutions/discover-it-student-chrome-credit-card-benefits",
+    title:
+      "Discover it Student Chrome Credit Card Benefits: Smart Rewards for Students",
+    description:
+      "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback on restaurants and gas, no annual fees, and double rewards in your first year. Perfect for students building credit.",
     image: "https://media.topfinanzas.com/images/Discoverst1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/discover-it-student-chrome-credit-card-requirements": {
-    pathname: "/financial-solutions/discover-it-student-chrome-credit-card-requirements",
-    title: "Discover it Student Chrome Credit Card Requirements: Your Eligibility Guide",
-    description: "Learn the application requirements for the Discover it Student Chrome Credit Card. Designed for students, this card offers cashback rewards, no annual fee, and essential credit-building tools.",
+    pathname:
+      "/financial-solutions/discover-it-student-chrome-credit-card-requirements",
+    title:
+      "Discover it Student Chrome Credit Card Requirements: Your Eligibility Guide",
+    description:
+      "Learn the application requirements for the Discover it Student Chrome Credit Card. Designed for students, this card offers cashback rewards, no annual fee, and essential credit-building tools.",
     image: "https://media.topfinanzas.com/images/download-6.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -381,7 +468,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/doordash-rewards-mastercard-benefits": {
     pathname: "/financial-solutions/doordash-rewards-mastercard-benefits",
     title: "DoorDash Rewards Mastercard Benefits: Maximize Your Food Savings",
-    description: "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
+    description:
+      "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
     image: "https://media.topfinanzas.com/images/download-4.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -390,7 +478,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/doordash-rewards-mastercard-requirements": {
     pathname: "/financial-solutions/doordash-rewards-mastercard-requirements",
     title: "DoorDash Rewards Mastercard Requirements: How to Qualify",
-    description: "Learn the eligibility requirements for the DoorDash Rewards Mastercard, including credit score, income, and identification. Apply to unlock exclusive rewards.",
+    description:
+      "Learn the eligibility requirements for the DoorDash Rewards Mastercard, including credit score, income, and identification. Apply to unlock exclusive rewards.",
     image: "https://media.topfinanzas.com/images/download-3.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -399,16 +488,19 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/first-digital-nextgen-mastercard-benefits": {
     pathname: "/financial-solutions/first-digital-nextgen-mastercard-benefits",
     title: "Benefits of the First Digital NextGen Mastercard",
-    description: "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and digital management.",
+    description:
+      "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and digital management.",
     image: "https://media.topfinanzas.com/images/download-15.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/first-digital-nextgen-mastercard-requirements": {
-    pathname: "/financial-solutions/first-digital-nextgen-mastercard-requirements",
+    pathname:
+      "/financial-solutions/first-digital-nextgen-mastercard-requirements",
     title: "First Digital NextGen Mastercard Requirements",
-    description: "Learn how to apply for the First Digital NextGen Mastercard. Discover eligibility requirements, application steps, and benefits.",
+    description:
+      "Learn how to apply for the First Digital NextGen Mastercard. Discover eligibility requirements, application steps, and benefits.",
     image: "https://media.topfinanzas.com/images/download-13-1024x536.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -417,7 +509,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/klarna-card": {
     pathname: "/financial-solutions/klarna-card",
     title: "Klarna Card: Pay Now or Pay Later Everywhere Visa is Accepted",
-    description: "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
+    description:
+      "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
     image: "https://media.topfinanzas.com/images/kardtrust/klarna-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -426,62 +519,83 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/klarna-card-requirements": {
     pathname: "/financial-solutions/klarna-card-requirements",
     title: "Klarna Card Requirements: How to Apply & Eligibility",
-    description: "Learn the requirements for the Klarna Card. Must be 18+, U.S. resident with valid SSN. No credit impact to apply, no annual fees. Get instant virtual card with flexible pay later plans and optional membership benefits.",
-    image: "https://media.topfinanzas.com/images/kardtrust/klarna-card-requirements.webp",
+    description:
+      "Learn the requirements for the Klarna Card. Must be 18+, U.S. resident with valid SSN. No credit impact to apply, no annual fees. Get instant virtual card with flexible pay later plans and optional membership benefits.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/klarna-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/mission-lane-visa-credit-card": {
     pathname: "/financial-solutions/mission-lane-visa-credit-card",
-    title: "Mission Lane Visa Credit Card: Build Credit with Fair-to-Good Approval Odds",
-    description: "Discover the Mission Lane Visa Credit Card designed for building and rebuilding credit. Features 19.99%-33.99% APR, $0-$59 annual fee, credit lines from $300-$3,000, and cash back rewards on select cards. No security deposit required.",
-    image: "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
+    title:
+      "Mission Lane Visa Credit Card: Build Credit with Fair-to-Good Approval Odds",
+    description:
+      "Discover the Mission Lane Visa Credit Card designed for building and rebuilding credit. Features 19.99%-33.99% APR, $0-$59 annual fee, credit lines from $300-$3,000, and cash back rewards on select cards. No security deposit required.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/mission-lane-visa-credit-card-requirements": {
     pathname: "/financial-solutions/mission-lane-visa-credit-card-requirements",
-    title: "Mission Lane Visa Credit Card Requirements: Eligibility and Application Guide",
-    description: "Learn about Mission Lane Visa Credit Card requirements, eligibility criteria, required documentation, and application process. Discover how to qualify for credit building cards with fair-to-good credit approval odds.",
-    image: "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card-requirements.webp",
+    title:
+      "Mission Lane Visa Credit Card Requirements: Eligibility and Application Guide",
+    description:
+      "Learn about Mission Lane Visa Credit Card requirements, eligibility criteria, required documentation, and application process. Discover how to qualify for credit building cards with fair-to-good credit approval odds.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/robinhood-gold-card": {
     pathname: "/financial-solutions/robinhood-gold-card",
-    title: "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits",
-    description: "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
-    image: "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card.webp",
+    title:
+      "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits",
+    description:
+      "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/robinhood-gold-card-requirements": {
     pathname: "/financial-solutions/robinhood-gold-card-requirements",
-    title: "Robinhood Gold Card Requirements: Eligibility, Costs & Application Guide",
-    description: "Complete eligibility requirements, costs, fees, and application process for the Robinhood Gold Card. Learn what you need to qualify, documentation required, and how to apply for this premium 3% cash back credit card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card-requirements.webp",
+    title:
+      "Robinhood Gold Card Requirements: Eligibility, Costs & Application Guide",
+    description:
+      "Complete eligibility requirements, costs, fees, and application process for the Robinhood Gold Card. Learn what you need to qualify, documentation required, and how to apply for this premium 3% cash back credit card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/self-credit-builder-account-visa-card": {
     pathname: "/financial-solutions/self-credit-builder-account-visa-card",
-    title: "Self Credit Builder Account + Visa Card: Build Credit with Savings and Secured Spending",
-    description: "See how the Self Credit Builder Account and Visa Secured Card pair to report to all three bureaus, offer $35-per-month plans with 15.69% APR, and deliver a $0 intro annual fee with a $100 deposit.",
-    image: "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
+    title:
+      "Self Credit Builder Account + Visa Card: Build Credit with Savings and Secured Spending",
+    description:
+      "See how the Self Credit Builder Account and Visa Secured Card pair to report to all three bureaus, offer $35-per-month plans with 15.69% APR, and deliver a $0 intro annual fee with a $100 deposit.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/self-credit-builder-account-visa-card-requirements": {
-    pathname: "/financial-solutions/self-credit-builder-account-visa-card-requirements",
-    title: "Self Credit Builder Account + Visa Card Requirements: Eligibility and Application Guide",
-    description: "Understand the steps to qualify for the Self Credit Builder Account and Self Visa Credit Card. See eligibility, required documents, 15.69% APR examples, and the $0 intro annual fee with a $100 security interest.",
-    image: "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card-requirements.webp",
+    pathname:
+      "/financial-solutions/self-credit-builder-account-visa-card-requirements",
+    title:
+      "Self Credit Builder Account + Visa Card Requirements: Eligibility and Application Guide",
+    description:
+      "Understand the steps to qualify for the Self Credit Builder Account and Self Visa Credit Card. See eligibility, required documents, 15.69% APR examples, and the $0 intro annual fee with a $100 security interest.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -489,7 +603,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/siren-card": {
     pathname: "/financial-solutions/siren-card",
     title: "SIREN Card: Premium Metal Card with Automatic Credit Building",
-    description: "Discover SIREN Card - the hybrid debit/credit card that builds credit automatically with 0% interest guaranteed. Get paid 2 days early, premium metal card, 55K+ free ATMs, advanced security features, and never pay fees. Exclusive for Starbucks partners.",
+    description:
+      "Discover SIREN Card - the hybrid debit/credit card that builds credit automatically with 0% interest guaranteed. Get paid 2 days early, premium metal card, 55K+ free ATMs, advanced security features, and never pay fees. Exclusive for Starbucks partners.",
     image: "https://media.topfinanzas.com/images/kardtrust/siren-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -497,8 +612,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/siren-card-requirements": {
     pathname: "/financial-solutions/siren-card-requirements",
-    title: "SIREN Card Requirements & Eligibility | Application Guide for Starbucks Partners",
-    description: "Learn SIREN Card eligibility requirements for Starbucks partners. USA residents 18+, no FICO score required to apply, mobile device needed. Get details on the application process, cred.ai Guaranty terms, and how to start building credit automatically.",
+    title:
+      "SIREN Card Requirements & Eligibility | Application Guide for Starbucks Partners",
+    description:
+      "Learn SIREN Card eligibility requirements for Starbucks partners. USA residents 18+, no FICO score required to apply, mobile device needed. Get details on the application process, cred.ai Guaranty terms, and how to start building credit automatically.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -507,8 +624,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/sofi-credit-card": {
     pathname: "/financial-solutions/sofi-credit-card",
     title: "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee",
-    description: "Discover the SoFi Unlimited 2% Credit Card offering unlimited cash back rewards on all purchases, no annual fees, Mastercard World Elite benefits, and exclusive travel perks. Perfect for building wealth with every purchase.",
-    image: "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
+    description:
+      "Discover the SoFi Unlimited 2% Credit Card offering unlimited cash back rewards on all purchases, no annual fees, Mastercard World Elite benefits, and exclusive travel perks. Perfect for building wealth with every purchase.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -516,8 +635,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/sofi-credit-card-requirements": {
     pathname: "/financial-solutions/sofi-credit-card-requirements",
     title: "SoFi Credit Card Requirements: Application Guide and Eligibility",
-    description: "Learn about the SoFi Unlimited 2% Credit Card requirements, application process, eligibility criteria for excellent credit, prequalification steps, and how to maximize your approval chances.",
-    image: "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card-requirements.webp",
+    description:
+      "Learn about the SoFi Unlimited 2% Credit Card requirements, application process, eligibility criteria for excellent credit, prequalification steps, and how to maximize your approval chances.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -525,7 +646,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/step-visa-card": {
     pathname: "/financial-solutions/step-visa-card",
     title: "Step Visa Card: Build Credit for Free Starting at Age 13",
-    description: "Discover the Step Visa Card—build credit history for free with no credit score required, no fees, and no interest. Perfect for teens 13+ and young adults. Reports to all 3 credit bureaus with an average 57-point score increase.",
+    description:
+      "Discover the Step Visa Card—build credit history for free with no credit score required, no fees, and no interest. Perfect for teens 13+ and young adults. Reports to all 3 credit bureaus with an average 57-point score increase.",
     image: "https://media.topfinanzas.com/images/kardtrust/step-visa-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -533,9 +655,12 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/step-visa-card-requirements": {
     pathname: "/financial-solutions/step-visa-card-requirements",
-    title: "Step Visa Card Requirements: Eligibility, Application & Setup Guide",
-    description: "Complete eligibility requirements and application process for the Step Visa Card. Learn what you need to qualify, documentation required, and how to start building credit for free starting at age 13.",
-    image: "https://media.topfinanzas.com/images/kardtrust/step-visa-card-requirements.webp",
+    title:
+      "Step Visa Card Requirements: Eligibility, Application & Setup Guide",
+    description:
+      "Complete eligibility requirements and application process for the Step Visa Card. Learn what you need to qualify, documentation required, and how to start building credit for free starting at age 13.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/step-visa-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -543,7 +668,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/td-flexpay-credit-card-benefits": {
     pathname: "/financial-solutions/td-flexpay-credit-card-benefits",
     title: "TD FlexPay Credit Card Benefits: Unlock Financial Flexibility",
-    description: "Discover how the TD FlexPay Credit Card offers financial flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
+    description:
+      "Discover how the TD FlexPay Credit Card offers financial flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
     image: "https://media.topfinanzas.com/images/Flexpay1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -552,7 +678,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/td-flexpay-credit-card-requirements": {
     pathname: "/financial-solutions/td-flexpay-credit-card-requirements",
     title: "TD FlexPay Credit Card Requirements: Your Eligibility Checklist",
-    description: "Check if you qualify for the TD FlexPay Credit Card. Review the requirements and application process to unlock financial flexibility and rewards.",
+    description:
+      "Check if you qualify for the TD FlexPay Credit Card. Review the requirements and application process to unlock financial flexibility and rewards.",
     image: "https://media.topfinanzas.com/images/Flexpay2.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -560,8 +687,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/tilt-card": {
     pathname: "/financial-solutions/tilt-card",
-    title: "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit",
-    description: "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Compare Tilt Essentials, Motion, and Engage cards.",
+    title:
+      "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit",
+    description:
+      "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Compare Tilt Essentials, Motion, and Engage cards.",
     image: "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -570,34 +699,43 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/tilt-card-requirements": {
     pathname: "/financial-solutions/tilt-card-requirements",
     title: "Tilt Card Requirements: Application Guide and Eligibility",
-    description: "Learn about Tilt credit card requirements, application process, eligibility criteria, and how to qualify for Tilt Essentials, Motion, or Engage cards. No security deposit or credit history required.",
-    image: "https://media.topfinanzas.com/images/kardtrust/tilt-card-requirements.webp",
+    description:
+      "Learn about Tilt credit card requirements, application process, eligibility criteria, and how to qualify for Tilt Essentials, Motion, or Engage cards. No security deposit or credit history required.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/tilt-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits": {
-    pathname: "/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits",
-    title: "Unlock the Benefits of the Titanium Rewards Visa Signature Credit Card",
-    description: "Maximize your everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5x points on gas and groceries, enjoy premium benefits, and no annual fee.",
+    pathname:
+      "/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits",
+    title:
+      "Unlock the Benefits of the Titanium Rewards Visa Signature Credit Card",
+    description:
+      "Maximize your everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5x points on gas and groceries, enjoy premium benefits, and no annual fee.",
     image: "https://media.topfinanzas.com/images/download-1-2.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
-  "/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements": {
-    pathname: "/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements",
-    title: "Titanium Rewards Visa Signature Credit Card Requirements",
-    description: "Learn how to apply for the Titanium Rewards Visa Signature Credit Card. Discover the eligibility requirements, application steps, and premium benefits.",
-    image: "https://media.topfinanzas.com/images/AndrewsB2.jpg",
-    category: "financial-solutions",
-    contentType: "credit-card",
-    date: "2025-10-28T00:00:00Z",
-  },
+  "/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements":
+    {
+      pathname:
+        "/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements",
+      title: "Titanium Rewards Visa Signature Credit Card Requirements",
+      description:
+        "Learn how to apply for the Titanium Rewards Visa Signature Credit Card. Discover the eligibility requirements, application steps, and premium benefits.",
+      image: "https://media.topfinanzas.com/images/AndrewsB2.jpg",
+      category: "financial-solutions",
+      contentType: "credit-card",
+      date: "2025-10-28T00:00:00Z",
+    },
   "/financial-solutions/tomo-credit-card-benefits": {
     pathname: "/financial-solutions/tomo-credit-card-benefits",
     title: "Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees",
-    description: "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees. Start building your credit journey today.",
+    description:
+      "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees. Start building your credit journey today.",
     image: "https://media.topfinanzas.com/images/Tomo1.webp",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -606,17 +744,22 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/tomo-credit-card-requirements": {
     pathname: "/financial-solutions/tomo-credit-card-requirements",
     title: "Tomo Credit Card Requirements: Your Guide to Eligibility",
-    description: "Learn the simple requirements for the Tomo Credit Card. No credit history needed, just a U.S. bank account and a valid SSN or ITIN. Apply today!",
-    image: "https://media.topfinanzas.com/images/kardtrust/tomo-credit-card-requirements.webp",
+    description:
+      "Learn the simple requirements for the Tomo Credit Card. No credit history needed, just a U.S. bank account and a valid SSN or ITIN. Apply today!",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/tomo-credit-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/upgrade-credit-card": {
     pathname: "/financial-solutions/upgrade-credit-card",
-    title: "Upgrade OneCard: Pay Now or Pay Later Credit Card with No Annual Fee",
-    description: "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan. Build credit while managing finances your way.",
-    image: "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
+    title:
+      "Upgrade OneCard: Pay Now or Pay Later Credit Card with No Annual Fee",
+    description:
+      "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan. Build credit while managing finances your way.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -624,25 +767,32 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/upgrade-credit-card-requirements": {
     pathname: "/financial-solutions/upgrade-credit-card-requirements",
     title: "Upgrade OneCard Requirements: Application Guide and Eligibility",
-    description: "Learn about the Upgrade OneCard requirements, application process, eligibility criteria, credit score needs, and income requirements for this flexible pay now or pay later credit card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card-requirements.webp",
+    description:
+      "Learn about the Upgrade OneCard requirements, application process, eligibility criteria, credit score needs, and income requirements for this flexible pay now or pay later credit card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits": {
-    pathname: "/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits",
+    pathname:
+      "/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits",
     title: "US Bank Cash+ Visa Signature Card Benefits: Customizable Cashback",
-    description: "Discover the benefits of the US Bank Cash+ Visa Signature Card: up to 5% cashback in chosen categories, 2% on groceries and gas, and no annual fee. Customize your rewards and maximize savings.",
+    description:
+      "Discover the benefits of the US Bank Cash+ Visa Signature Card: up to 5% cashback in chosen categories, 2% on groceries and gas, and no annual fee. Customize your rewards and maximize savings.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements": {
-    pathname: "/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements",
-    title: "US Bank Cash+ Visa Signature Card Requirements: Your Eligibility Guide",
-    description: "Discover the requirements and application process for the US Bank Cash+ Visa Signature Card. Learn how to maximize your cashback rewards and meet eligibility criteria to enjoy personalized and flexible benefits.",
+    pathname:
+      "/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements",
+    title:
+      "US Bank Cash+ Visa Signature Card Requirements: Your Eligibility Guide",
+    description:
+      "Discover the requirements and application process for the US Bank Cash+ Visa Signature Card. Learn how to maximize your cashback rewards and meet eligibility criteria to enjoy personalized and flexible benefits.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -650,9 +800,12 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   },
   "/financial-solutions/varo-believe-card": {
     pathname: "/financial-solutions/varo-believe-card",
-    title: "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit",
-    description: "Discover the Varo Believe secured credit card offering revolutionary credit building with no security deposit, no annual fees, no interest, and no credit check. Average 40+ point credit score increase in just 3 months.",
-    image: "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
+    title:
+      "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit",
+    description:
+      "Discover the Varo Believe secured credit card offering revolutionary credit building with no security deposit, no annual fees, no interest, and no credit check. Average 40+ point credit score increase in just 3 months.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -660,44 +813,56 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/varo-believe-card-requirements": {
     pathname: "/financial-solutions/varo-believe-card-requirements",
     title: "Varo Believe Card Requirements: Application Guide and Eligibility",
-    description: "Learn about the Varo Believe secured credit card requirements, application process, eligibility criteria, and how to qualify for this revolutionary no-deposit credit building card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-requirements.webp",
+    description:
+      "Learn about the Varo Believe secured credit card requirements, application process, eligibility criteria, and how to qualify for this revolutionary no-deposit credit building card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/visa-signature-us-current-build-credit-card-benefits": {
-    pathname: "/financial-solutions/visa-signature-us-current-build-credit-card-benefits",
+    pathname:
+      "/financial-solutions/visa-signature-us-current-build-credit-card-benefits",
     title: "Visa Signature U.S. Current Build Credit Card Benefits",
-    description: "Discover the benefits of the Visa Signature U.S. Current Build Credit Card. No annual fees, exclusive rewards, and credit-building tools without hidden charges.",
+    description:
+      "Discover the benefits of the Visa Signature U.S. Current Build Credit Card. No annual fees, exclusive rewards, and credit-building tools without hidden charges.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
-  "/financial-solutions/visa-signature-us-current-build-credit-card-requirements": {
-    pathname: "/financial-solutions/visa-signature-us-current-build-credit-card-requirements",
-    title: "Visa Signature U.S. Current Build Credit Card Requirements",
-    description: "Learn the requirements for the Visa Signature U.S. Current Build Credit Card. Discover eligibility criteria, application steps, and key benefits for building credit.",
-    image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
-    category: "financial-solutions",
-    contentType: "credit-card",
-    date: "2025-10-28T00:00:00Z",
-  },
+  "/financial-solutions/visa-signature-us-current-build-credit-card-requirements":
+    {
+      pathname:
+        "/financial-solutions/visa-signature-us-current-build-credit-card-requirements",
+      title: "Visa Signature U.S. Current Build Credit Card Requirements",
+      description:
+        "Learn the requirements for the Visa Signature U.S. Current Build Credit Card. Discover eligibility criteria, application steps, and key benefits for building credit.",
+      image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
+      category: "financial-solutions",
+      contentType: "credit-card",
+      date: "2025-10-28T00:00:00Z",
+    },
   "/financial-solutions/wells-fargo-active-cash-card": {
     pathname: "/financial-solutions/wells-fargo-active-cash-card",
     title: "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back Rewards",
-    description: "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, no annual fee, and Visa Signature benefits. Award-winning flat-rate cash back card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
+    description:
+      "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, no annual fee, and Visa Signature benefits. Award-winning flat-rate cash back card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
   },
   "/financial-solutions/wells-fargo-active-cash-card-requirements": {
     pathname: "/financial-solutions/wells-fargo-active-cash-card-requirements",
-    title: "Wells Fargo Active Cash® Card Requirements: Complete Application Guide",
-    description: "Learn about Wells Fargo Active Cash® Card eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this award-winning 2% cash back card.",
-    image: "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card-requirements.webp",
+    title:
+      "Wells Fargo Active Cash® Card Requirements: Complete Application Guide",
+    description:
+      "Learn about Wells Fargo Active Cash® Card eligibility requirements, credit score needs, income verification, application process, and documentation. Discover if you qualify for this award-winning 2% cash back card.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card-requirements.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -705,7 +870,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/wells-fargo-autograph-card-benefits": {
     pathname: "/financial-solutions/wells-fargo-autograph-card-benefits",
     title: "Discover the Wells Fargo Autograph Card Benefits",
-    description: "Explore the comprehensive benefits of the Wells Fargo Autograph Card. Earn rewards, enjoy travel perks, and discover why it's perfect for everyday spending.",
+    description:
+      "Explore the comprehensive benefits of the Wells Fargo Autograph Card. Earn rewards, enjoy travel perks, and discover why it's perfect for everyday spending.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -714,7 +880,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/wells-fargo-autograph-card-requirements": {
     pathname: "/financial-solutions/wells-fargo-autograph-card-requirements",
     title: "Wells Fargo Autograph Card Requirements",
-    description: "Learn the Wells Fargo Autograph Card requirements, from credit score to income verification. Follow our step-by-step guide to apply and start earning rewards now!",
+    description:
+      "Learn the Wells Fargo Autograph Card requirements, from credit score to income verification. Follow our step-by-step guide to apply and start earning rewards now!",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -723,8 +890,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/yotta-credit-card": {
     pathname: "/financial-solutions/yotta-credit-card",
     title: "Yotta Credit Card Review: Win Cash Back With Every Purchase",
-    description: "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
-    image: "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp",
+    description:
+      "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
+    image:
+      "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp",
     category: "financial-solutions",
     contentType: "credit-card",
     date: "2025-10-28T00:00:00Z",
@@ -732,7 +901,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/financial-solutions/yotta-credit-card-requirements": {
     pathname: "/financial-solutions/yotta-credit-card-requirements",
     title: "Yotta Credit Card Requirements & Eligibility | Application Guide",
-    description: "Learn Yotta Credit Card eligibility requirements, application process, and state availability. Find out if you qualify for Lucky Swipe rewards and sweepstakes credit in 42 US states.",
+    description:
+      "Learn Yotta Credit Card eligibility requirements, application process, and state availability. Find out if you qualify for Lucky Swipe rewards and sweepstakes credit in 42 US states.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "financial-solutions",
     contentType: "credit-card",
@@ -741,17 +911,22 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/5-minute-financial-health-check": {
     pathname: "/personal-finance/5-minute-financial-health-check",
     title: "The 5-Minute Financial Health Check: Where Does Your Money Go?",
-    description: "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
-    image: "https://media.topfinanzas.com/images/budgetbee/5-minute-financial-health-check.webp",
+    description:
+      "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/5-minute-financial-health-check.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/ai-and-your-wallet-automate-budget-2026": {
     pathname: "/personal-finance/ai-and-your-wallet-automate-budget-2026",
-    title: "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026",
-    description: "Discover how AI can revolutionize your personal finance routine. Learn to automate budgeting, track spending smartly, and save more with artificial intelligence tools in 2026.",
-    image: "https://media.topfinanzas.com/images/budgetbee/ai-and-your-wallet-automate-budget-2026.webp",
+    title:
+      "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026",
+    description:
+      "Discover how AI can revolutionize your personal finance routine. Learn to automate budgeting, track spending smartly, and save more with artificial intelligence tools in 2026.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/ai-and-your-wallet-automate-budget-2026.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -759,8 +934,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/best-personal-loans": {
     pathname: "/personal-finance/best-personal-loans",
     title: "Best Personal Loans 2025: Top Lenders & Reviews",
-    description: "Find the best personal loans from top US lenders. Compare rates, terms, APR, and fees to get the right loan for your needs. Expert reviews and application tips.",
-    image: "https://media.topfinanzas.com/images/budgetbee/best-personal-loans.webp",
+    description:
+      "Find the best personal loans from top US lenders. Compare rates, terms, APR, and fees to get the right loan for your needs. Expert reviews and application tips.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/best-personal-loans.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -768,8 +945,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/best-rewards-credit-cards": {
     pathname: "/personal-finance/best-rewards-credit-cards",
     title: "Best Rewards Credit Cards 2025: Top Picks & Comparison",
-    description: "Find the best rewards credit cards with points, miles, and cashback. Compare top cards from major issuers and learn how to maximize your rewards.",
-    image: "https://media.topfinanzas.com/images/budgetbee/Top_Finance_uk_credit_cards.webp",
+    description:
+      "Find the best rewards credit cards with points, miles, and cashback. Compare top cards from major issuers and learn how to maximize your rewards.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/Top_Finance_uk_credit_cards.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -777,7 +956,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/cashback-credit-cards": {
     pathname: "/personal-finance/cashback-credit-cards",
     title: "Best Cashback Credit Cards 2025: Earn Cash on Every Purchase",
-    description: "Discover the best cashback credit cards with high rewards rates. Compare cashback cards and learn how to maximize your earnings on everyday purchases.",
+    description:
+      "Discover the best cashback credit cards with high rewards rates. Compare cashback cards and learn how to maximize your earnings on everyday purchases.",
     image: "https://media.topfinanzas.com/images/budgetbee/download-8-1.webp",
     category: "personal-finance",
     contentType: "article",
@@ -786,7 +966,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/combine-finances-after-marriage-or-moving-in": {
     pathname: "/personal-finance/combine-finances-after-marriage-or-moving-in",
     title: "Combining Finances After Marriage or Moving In",
-    description: "Learn how to combine finances with a partner after marriage or moving in. Strategies for joint accounts, budgeting together, and financial teamwork.",
+    description:
+      "Learn how to combine finances with a partner after marriage or moving in. Strategies for joint accounts, budgeting together, and financial teamwork.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "personal-finance",
     contentType: "article",
@@ -795,8 +976,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/creating-a-budget-youll-actually-stick-to": {
     pathname: "/personal-finance/creating-a-budget-youll-actually-stick-to",
     title: "Creating a Budget You'll Actually Stick To: Practical Guide",
-    description: "Learn how to create a realistic budget you can actually follow. Proven strategies for budgeting success and maintaining your financial plan long-term.",
-    image: "https://media.topfinanzas.com/images/budgetbee/modern-budget-guide.webp",
+    description:
+      "Learn how to create a realistic budget you can actually follow. Proven strategies for budgeting success and maintaining your financial plan long-term.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/modern-budget-guide.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -804,8 +987,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/credit-card-types-benefits": {
     pathname: "/personal-finance/credit-card-types-benefits",
     title: "Types of Credit Cards & Benefits Explained",
-    description: "Learn about different credit card types including rewards, cashback, travel, and 0% APR cards. Understand benefits, fees, and how to choose the right card for your needs.",
-    image: "https://media.topfinanzas.com/images/budgetbee/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
+    description:
+      "Learn about different credit card types including rewards, cashback, travel, and 0% APR cards. Understand benefits, fees, and how to choose the right card for your needs.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -813,8 +998,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/ditching-impulse-buys-mindful-spending": {
     pathname: "/personal-finance/ditching-impulse-buys-mindful-spending",
     title: "Ditching Impulse Buys: Guide to Mindful Spending",
-    description: "Learn mindful spending techniques to stop impulse buying and take control of your finances. Practical strategies to reduce spending and save more money.",
-    image: "https://media.topfinanzas.com/images/budgetbee/ditching-impulse-buys-mindful-spending-guide.webp",
+    description:
+      "Learn mindful spending techniques to stop impulse buying and take control of your finances. Practical strategies to reduce spending and save more money.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/ditching-impulse-buys-mindful-spending-guide.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -822,17 +1009,22 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/emotional-side-of-debt": {
     pathname: "/personal-finance/emotional-side-of-debt",
     title: "The Emotional Side of Debt: How to Stay Motivated",
-    description: "Debt isn't just about numbers—it's emotional. Learn how to overcome shame, stay motivated, and maintain a positive mindset on your debt payoff journey.",
-    image: "https://media.topfinanzas.com/images/budgetbee/emotional-side-of-debt.webp",
+    description:
+      "Debt isn't just about numbers—it's emotional. Learn how to overcome shame, stay motivated, and maintain a positive mindset on your debt payoff journey.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/emotional-side-of-debt.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/financial-uncoupling-breakup-guide": {
     pathname: "/personal-finance/financial-uncoupling-breakup-guide",
-    title: "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup",
-    description: "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
-    image: "https://media.topfinanzas.com/images/budgetbee/financial-uncoupling-breakup-guide.webp",
+    title:
+      "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup",
+    description:
+      "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/financial-uncoupling-breakup-guide.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -840,8 +1032,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/getting-out-of-debt": {
     pathname: "/personal-finance/getting-out-of-debt",
     title: "Getting Out of Debt: Practical Guide & Strategies",
-    description: "Learn effective strategies to get out of debt, build an emergency fund, and take control of your finances. Practical guide with step-by-step methods including snowball and avalanche approaches.",
-    image: "https://media.topfinanzas.com/images/budgetbee/Top_Finance_how_to_get_out_of_debt.webp",
+    description:
+      "Learn effective strategies to get out of debt, build an emergency fund, and take control of your finances. Practical guide with step-by-step methods including snowball and avalanche approaches.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/Top_Finance_how_to_get_out_of_debt.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -849,8 +1043,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/hidden-costs-of-homeownership": {
     pathname: "/personal-finance/hidden-costs-of-homeownership",
     title: "The Hidden Costs of Homeownership That No One Talks About",
-    description: "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
-    image: "https://media.topfinanzas.com/images/budgetbee/hidden-costs-homeownership.webp",
+    description:
+      "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/hidden-costs-homeownership.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -858,8 +1054,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/how-to-ask-for-a-raise": {
     pathname: "/personal-finance/how-to-ask-for-a-raise",
     title: "How to Ask for a Raise: Negotiation Strategy Guide",
-    description: "Learn how to ask for a raise with confidence. Proven strategies and talking points for salary negotiation and earning what you deserve.",
-    image: "https://media.topfinanzas.com/images/budgetbee/how-to-ask-for-a-raise.webp",
+    description:
+      "Learn how to ask for a raise with confidence. Proven strategies and talking points for salary negotiation and earning what you deserve.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/how-to-ask-for-a-raise.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -867,17 +1065,22 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/inflation-proof-your-life": {
     pathname: "/personal-finance/inflation-proof-your-life",
     title: "Inflation-Proof Your Life: 7 Smart Money Moves",
-    description: "Learn 7 practical money moves to protect your purchasing power against inflation. Strategies for budgeting, saving, investing, and managing expenses during high inflation periods.",
-    image: "https://media.topfinanzas.com/images/budgetbee/inflation-proof-your-life-7-smart-money-moves.webp",
+    description:
+      "Learn 7 practical money moves to protect your purchasing power against inflation. Strategies for budgeting, saving, investing, and managing expenses during high inflation periods.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/inflation-proof-your-life-7-smart-money-moves.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/money-management-for-beginners": {
     pathname: "/personal-finance/money-management-for-beginners",
-    title: "Money Management for Beginners: Essential Guide to Personal Finance",
-    description: "Learn money management basics for beginners. Essential tips on budgeting, saving, spending wisely, and building healthy financial habits.",
-    image: "https://media.topfinanzas.com/images/budgetbee/money-management-for-beginners.webp",
+    title:
+      "Money Management for Beginners: Essential Guide to Personal Finance",
+    description:
+      "Learn money management basics for beginners. Essential tips on budgeting, saving, spending wisely, and building healthy financial habits.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/money-management-for-beginners.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -885,8 +1088,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/no-annual-fee-credit-cards": {
     pathname: "/personal-finance/no-annual-fee-credit-cards",
     title: "Best No Annual Fee Credit Cards 2025",
-    description: "Discover the best no annual fee credit cards with rewards, cashback, and benefits. Compare cards from top issuers and find the perfect card without paying an annual fee.",
-    image: "https://media.topfinanzas.com/images/budgetbee/Top_Finance_credit_cards_without_annual_fee.webp",
+    description:
+      "Discover the best no annual fee credit cards with rewards, cashback, and benefits. Compare cards from top issuers and find the perfect card without paying an annual fee.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/Top_Finance_credit_cards_without_annual_fee.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -894,17 +1099,22 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/personal-loans-debt-strategy": {
     pathname: "/personal-finance/personal-loans-debt-strategy",
     title: "Personal Loans for Debt Strategy: Best Options & Comparison",
-    description: "Learn how to use personal loans strategically for debt consolidation and payoff. Compare rates, terms, and find the best loan option to manage your debt effectively.",
-    image: "https://media.topfinanzas.com/images/budgetbee/Top-Finances_personal_loans.webp",
+    description:
+      "Learn how to use personal loans strategically for debt consolidation and payoff. Compare rates, terms, and find the best loan option to manage your debt effectively.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/Top-Finances_personal_loans.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/psychology-of-spending": {
     pathname: "/personal-finance/psychology-of-spending",
-    title: "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving",
-    description: "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
-    image: "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+    title:
+      "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving",
+    description:
+      "Understand the psychological triggers behind impulse buying and learn practical strategies to develop mindful spending habits that support your financial well-being.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -912,8 +1122,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/setting-financial-goals": {
     pathname: "/personal-finance/setting-financial-goals",
     title: "Setting Financial Goals: How to Plan Your Financial Future",
-    description: "Learn how to set realistic financial goals and create an action plan to achieve them. Strategies for saving, investing, and building wealth.",
-    image: "https://media.topfinanzas.com/images/budgetbee/setting-financial-goals.webp",
+    description:
+      "Learn how to set realistic financial goals and create an action plan to achieve them. Strategies for saving, investing, and building wealth.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/setting-financial-goals.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -921,26 +1133,34 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/side-hustle-or-second-job": {
     pathname: "/personal-finance/side-hustle-or-second-job",
     title: "Side Hustle or Second Job? How to Choose the Right Income Booster",
-    description: "With rising living costs across the US, many people are seeking ways to boost their income. Compare side hustles vs second jobs and make the right choice for your financial goals.",
-    image: "https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp",
+    description:
+      "With rising living costs across the US, many people are seeking ways to boost their income. Compare side hustles vs second jobs and make the right choice for your financial goals.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/side-hustle-second-job.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days": {
-    pathname: "/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days",
+    pathname:
+      "/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days",
     title: "Stop Guessing: How to Track Your Spending for 30 Days",
-    description: "Learn how to track your spending for 30 days to uncover financial leaks, build a realistic budget, and take control of your money. A step-by-step guide for beginners.",
-    image: "https://media.topfinanzas.com/images/budgetbee/track-spending-30-days.webp",
+    description:
+      "Learn how to track your spending for 30 days to uncover financial leaks, build a realistic budget, and take control of your money. A step-by-step guide for beginners.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/track-spending-30-days.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
   },
   "/personal-finance/stop-living-paycheck-to-paycheck": {
     pathname: "/personal-finance/stop-living-paycheck-to-paycheck",
-    title: "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today",
-    description: "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
-    image: "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
+    title:
+      "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today",
+    description:
+      "Break free from the paycheck-to-paycheck cycle with three proven shifts that transform your cash flow management. Learn practical strategies to build financial stability and create breathing room in your budget.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/stop-living-paycheck-to-paycheck.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -948,8 +1168,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/tips-for-choosing-an-online-loan": {
     pathname: "/personal-finance/tips-for-choosing-an-online-loan",
     title: "Tips for Choosing an Online Loan: Complete Guide",
-    description: "Learn how to choose the right online loan with our comprehensive guide. Compare rates, terms, lender reputation, and fees to find the best personal loan for your needs.",
-    image: "https://media.topfinanzas.com/images/budgetbee/choosing-online-loan-uk.webp",
+    description:
+      "Learn how to choose the right online loan with our comprehensive guide. Compare rates, terms, lender reputation, and fees to find the best personal loan for your needs.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/choosing-online-loan-uk.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -957,7 +1179,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/top-credit-cards-0-intro-apr": {
     pathname: "/personal-finance/top-credit-cards-0-intro-apr",
     title: "Top Credit Cards with 0% Intro APR to Help You Save",
-    description: "Top Credit Cards with 0% Intro APR to Help You Save from BudgetBee: a clear guide for US financial decision-making.",
+    description:
+      "Top Credit Cards with 0% Intro APR to Help You Save from BudgetBee: a clear guide for US financial decision-making.",
     image: "https://media.topfinanzas.com/images/budgetbee/APR.webp",
     category: "personal-finance",
     contentType: "article",
@@ -966,7 +1189,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/travel-credit-cards": {
     pathname: "/personal-finance/travel-credit-cards",
     title: "Best Travel Credit Cards US: Top Options for 2025",
-    description: "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
+    description:
+      "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
     image: "https://media.topfinanzas.com/budgetbee/images/og-image.png",
     category: "personal-finance",
     contentType: "article",
@@ -975,7 +1199,8 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/understanding-credit-card-interest-rates": {
     pathname: "/personal-finance/understanding-credit-card-interest-rates",
     title: "Understanding Credit Card Interest Rates: APR Explained",
-    description: "Learn how credit card APR and interest rates work. Understand how interest is calculated and strategies to minimize interest charges on your credit cards.",
+    description:
+      "Learn how credit card APR and interest rates work. Understand how interest is calculated and strategies to minimize interest charges on your credit cards.",
     image: "https://media.topfinanzas.com/images/budgetbee/download-5-2.webp",
     category: "personal-finance",
     contentType: "article",
@@ -984,8 +1209,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/what-is-financial-health": {
     pathname: "/personal-finance/what-is-financial-health",
     title: "What is Financial Health? How to Measure & Improve It",
-    description: "Understand what financial health means and how to assess your personal financial wellness. Learn key metrics and strategies to improve your financial situation.",
-    image: "https://media.topfinanzas.com/images/budgetbee/what-is-financial-health.webp",
+    description:
+      "Understand what financial health means and how to assess your personal financial wellness. Learn key metrics and strategies to improve your financial situation.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/what-is-financial-health.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",
@@ -993,8 +1220,10 @@ export const ROUTE_SEO_REGISTRY: Record<string, RouteSeoEntry> = {
   "/personal-finance/what-is-lifestyle-creep": {
     pathname: "/personal-finance/what-is-lifestyle-creep",
     title: "What is Lifestyle Creep? How to Avoid Increasing Expenses",
-    description: "Learn about lifestyle creep and how to prevent it from derailing your finances. Strategies to maintain your savings rate as your income grows.",
-    image: "https://media.topfinanzas.com/images/budgetbee/lifestyle-creep-personal-finance.webp",
+    description:
+      "Learn about lifestyle creep and how to prevent it from derailing your finances. Strategies to maintain your savings rate as your income grows.",
+    image:
+      "https://media.topfinanzas.com/images/budgetbee/lifestyle-creep-personal-finance.webp",
     category: "personal-finance",
     contentType: "article",
     date: "2025-10-28T00:00:00Z",

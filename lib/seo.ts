@@ -45,7 +45,8 @@ function titleFromSlug(pathname: string) {
 }
 
 function inferCategory(pathname: string): RouteSeoEntry["category"] {
-  if (pathname.startsWith("/financial-solutions/")) return "financial-solutions";
+  if (pathname.startsWith("/financial-solutions/"))
+    return "financial-solutions";
   if (pathname.startsWith("/personal-finance/")) return "personal-finance";
   return "static";
 }
@@ -73,7 +74,12 @@ function inferContentType(
 }
 
 export function getRouteSeo(pathname: string): RouteSeoEntry {
-  const normalizedPath = pathname === "" ? "/" : pathname.startsWith("/") ? pathname : `/${pathname}`;
+  const normalizedPath =
+    pathname === ""
+      ? "/"
+      : pathname.startsWith("/")
+        ? pathname
+        : `/${pathname}`;
   const found = ROUTE_SEO_REGISTRY[normalizedPath];
 
   if (found) return found;
@@ -103,7 +109,10 @@ export function createRouteMetadata(pathname: string): Metadata {
 
   return {
     title: {
-      absolute: route.pathname === "/" ? SEO_SITE.defaultTitle : `${title} | ${SEO_SITE.name}`,
+      absolute:
+        route.pathname === "/"
+          ? SEO_SITE.defaultTitle
+          : `${title} | ${SEO_SITE.name}`,
     },
     description: route.description,
     alternates: {
@@ -332,7 +341,9 @@ export function generateArticleSchema(route: RouteSeoEntry): SchemaValue {
   };
 }
 
-export function generateFinancialProductSchema(route: RouteSeoEntry): SchemaValue {
+export function generateFinancialProductSchema(
+  route: RouteSeoEntry,
+): SchemaValue {
   const title = stripBrandSuffix(route.title);
   const canonical = absoluteUrl(route.pathname);
   const image = route.image || SEO_SITE.defaultImage;
@@ -379,7 +390,10 @@ export function createRouteStructuredData(pathname: string): SchemaValue[] {
   const route = getRouteSeo(pathname);
 
   if (route.category === "financial-solutions") {
-    return [generateBreadcrumbSchema(route), generateFinancialProductSchema(route)];
+    return [
+      generateBreadcrumbSchema(route),
+      generateFinancialProductSchema(route),
+    ];
   }
 
   if (route.category === "personal-finance") {

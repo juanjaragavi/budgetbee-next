@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/5-minute-financial-health-check");
+export const metadata = createRouteMetadata(
+  "/personal-finance/5-minute-financial-health-check",
+);
 
 export default function FinancialHealthCheckPage() {
   return (

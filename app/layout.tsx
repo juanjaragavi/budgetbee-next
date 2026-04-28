@@ -46,7 +46,6 @@ const montserrat = Montserrat({
   ],
 });
 
-
 // Read critical CSS at build time to inline it
 let criticalCSS = "";
 try {
@@ -185,7 +184,9 @@ export default function RootLayout({
         className={`${montserrat.variable} font-sans text-left sm:text-left`}
       >
         <GoogleTagManagerNoScript />
-        <JsonLd data={[generateOrganizationSchema(), generateWebSiteSchema()]} />
+        <JsonLd
+          data={[generateOrganizationSchema(), generateWebSiteSchema()]}
+        />
         {/*<PreloaderProvider
           defaultConfig={{
             duration: 4000,

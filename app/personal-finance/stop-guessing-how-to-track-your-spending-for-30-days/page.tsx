@@ -5,7 +5,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days");
+export const metadata = createRouteMetadata(
+  "/personal-finance/stop-guessing-how-to-track-your-spending-for-30-days",
+);
 
 export default function StopGuessingTrackSpendingPage() {
   return (

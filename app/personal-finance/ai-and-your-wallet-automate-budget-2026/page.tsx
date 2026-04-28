@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/ai-and-your-wallet-automate-budget-2026");
+export const metadata = createRouteMetadata(
+  "/personal-finance/ai-and-your-wallet-automate-budget-2026",
+);
 
 export default function AiAndYourWalletPage() {
   return (

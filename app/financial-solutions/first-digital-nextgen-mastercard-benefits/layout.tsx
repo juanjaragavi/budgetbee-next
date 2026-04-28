@@ -2,7 +2,8 @@ import type { ReactNode } from "react";
 import { JsonLd } from "@/components/seo/json-ld";
 import { createRouteStructuredData } from "@/lib/seo";
 
-const routePath = "/financial-solutions/first-digital-nextgen-mastercard-benefits";
+const routePath =
+  "/financial-solutions/first-digital-nextgen-mastercard-benefits";
 
 export default function RouteLayout({ children }: { children: ReactNode }) {
   return (

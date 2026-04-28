@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/step-visa-card");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/step-visa-card",
+);
 
 export default function StepVisaCardPage() {
   return (

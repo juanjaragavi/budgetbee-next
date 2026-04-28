@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits",
+);
 
 export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
   return (

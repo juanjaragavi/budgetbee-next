@@ -5,7 +5,9 @@ import Image from "next/image"; // Keep Image import
 import Link from "next/link"; // Keep Link import
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/understanding-credit-card-interest-rates");
+export const metadata = createRouteMetadata(
+  "/personal-finance/understanding-credit-card-interest-rates",
+);
 
 export default function UnderstandingCreditCardInterestRatesPage() {
   return (

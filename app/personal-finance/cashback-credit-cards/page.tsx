@@ -5,7 +5,9 @@ import Image from "next/image"; // Add Image import
 import Link from "next/link"; // Add Link import
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/cashback-credit-cards");
+export const metadata = createRouteMetadata(
+  "/personal-finance/cashback-credit-cards",
+);
 
 export default function CashbackCreditCardsPage() {
   return (

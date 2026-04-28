@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/cit-bank-home-loans-benefits");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/cit-bank-home-loans-benefits",
+);
 
 export default function CitBankHomeLoansBenefitsPage() {
   return (

@@ -5,7 +5,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-flex-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/chase-freedom-flex-requirements",
+);
 
 export default function ChaseFreedomFlexRequirementsPage() {
   return (

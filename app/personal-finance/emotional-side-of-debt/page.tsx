@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/emotional-side-of-debt");
+export const metadata = createRouteMetadata(
+  "/personal-finance/emotional-side-of-debt",
+);
 
 export default function EmotionalSideOfDebtPage() {
   return (

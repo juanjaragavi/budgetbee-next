@@ -5,7 +5,9 @@ import Image from "next/image"; // Assuming you need Image for the future
 import Link from "next/link"; // Assuming you need Link for the future
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/credit-card-types-benefits");
+export const metadata = createRouteMetadata(
+  "/personal-finance/credit-card-types-benefits",
+);
 // Import Ad
 
 export default function CreditCardTypesBenefitsPage() {

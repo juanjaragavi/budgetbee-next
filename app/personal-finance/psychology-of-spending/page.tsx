@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/psychology-of-spending");
-
-
+export const metadata = createRouteMetadata(
+  "/personal-finance/psychology-of-spending",
+);
 
 export default function PsychologyOfSpendingPage() {
   return (
