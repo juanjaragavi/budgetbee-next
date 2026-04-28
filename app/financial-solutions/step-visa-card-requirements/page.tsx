@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/step-visa-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/step-visa-card-requirements",
+);
 
 export default function StepVisaCardRequirementsPage() {
   return (
@@ -442,7 +444,7 @@ export default function StepVisaCardRequirementsPage() {
                 <ul className="space-y-2 list-disc list-inside text-primary-dark">
                   <li>
                     <Link
-                      href="/personal-finance/improve-credit-score/"
+                      href="/personal-finance/credit-card-types-benefits/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       How to Improve Your Credit Score Quickly
@@ -450,7 +452,7 @@ export default function StepVisaCardRequirementsPage() {
                   </li>
                   <li>
                     <Link
-                      href="/personal-finance/credit-card-approval-tips/"
+                      href="/personal-finance/credit-card-types-benefits/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       Credit Card Approval Tips and Strategies
@@ -458,7 +460,7 @@ export default function StepVisaCardRequirementsPage() {
                   </li>
                   <li>
                     <Link
-                      href="/personal-finance/understanding-credit-scores/"
+                      href="/personal-finance/credit-card-types-benefits/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       Understanding Credit Scores and Reports

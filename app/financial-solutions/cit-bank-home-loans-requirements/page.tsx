@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/cit-bank-home-loans-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/cit-bank-home-loans-requirements",
+);
 
 export default function CitBankHomeLoansRequirementsPage() {
   return (
@@ -152,7 +154,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <Link
-                    href="/personal-finance/money-management-complete-beginners-guide"
+                    href="/personal-finance/money-management-for-beginners"
                     className="text-primary-dark hover:underline"
                   >
                     <strong>Money Management Guide</strong>
@@ -161,7 +163,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                 </li>
                 <li>
                   <Link
-                    href="/personal-finance/how-to-create-a-budget"
+                    href="/personal-finance/creating-a-budget-youll-actually-stick-to"
                     className="text-primary-dark hover:underline"
                   >
                     <strong>How to Create a Budget</strong>

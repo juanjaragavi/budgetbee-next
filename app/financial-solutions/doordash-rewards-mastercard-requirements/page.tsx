@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/doordash-rewards-mastercard-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/doordash-rewards-mastercard-requirements",
+);
 
 export default function DoordashRewardsMastercardRequirementsPage() {
   return (
@@ -115,7 +117,7 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
-                  href="/personal-finance/the-first-step-to-financial-freedom-understanding-your-money-mindset"
+                  href="/personal-finance/what-is-financial-health"
                   className="text-primary-dark hover:underline"
                 >
                   The First Step to Financial Freedom: Understanding Your Money

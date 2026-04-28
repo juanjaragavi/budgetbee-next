@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/robinhood-gold-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/robinhood-gold-card-requirements",
+);
 
 export default function RobinhoodGoldCardRequirementsPage() {
   return (
@@ -465,7 +467,7 @@ export default function RobinhoodGoldCardRequirementsPage() {
                 <ul className="space-y-2 list-disc list-inside text-primary-dark">
                   <li>
                     <Link
-                      href="/personal-finance/improve-credit-score/"
+                      href="/personal-finance/credit-card-types-benefits/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       How to Improve Your Credit Score Quickly
@@ -473,7 +475,7 @@ export default function RobinhoodGoldCardRequirementsPage() {
                   </li>
                   <li>
                     <Link
-                      href="/personal-finance/credit-card-approval-tips/"
+                      href="/personal-finance/credit-card-types-benefits/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       Increase Your Credit Card Approval Odds
@@ -481,7 +483,7 @@ export default function RobinhoodGoldCardRequirementsPage() {
                   </li>
                   <li>
                     <Link
-                      href="/personal-finance/understanding-apr/"
+                      href="/personal-finance/understanding-credit-card-interest-rates/"
                       className="hover:underline hover:text-primary-dark transition-colors"
                     >
                       Understanding APR and Interest Rates

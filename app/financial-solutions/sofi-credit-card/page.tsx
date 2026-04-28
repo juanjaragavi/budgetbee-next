@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/sofi-credit-card");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/sofi-credit-card",
+);
 
 export default function SoFiCreditCardPage() {
   return (
@@ -296,7 +298,7 @@ export default function SoFiCreditCardPage() {
                 </div>
 
                 <div className="my-8 text-left sm:text-left">
-                  <Link href="/personal-finance/credit-card-rewards-strategies/">
+                  <Link href="/personal-finance/best-rewards-credit-cards/">
                     <Image
                       src="https://media.topfinanzas.com/images/budgetbee/budgetbee-credit-cards-banner-ad.webp"
                       alt="Credit Card Rewards Strategies"

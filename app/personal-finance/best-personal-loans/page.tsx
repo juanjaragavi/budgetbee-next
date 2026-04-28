@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/personal-finance/best-personal-loans");
+export const metadata = createRouteMetadata(
+  "/personal-finance/best-personal-loans",
+);
 
 export default function BestPersonalLoansPage() {
   return (
@@ -241,12 +243,12 @@ export default function BestPersonalLoansPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/barclays-personal-loan"
+                      href="/personal-finance/tips-for-choosing-an-online-loan"
                       className="text-primary-dark hover:underline"
                     >
-                      Barclays Personal Loan:
+                      Personal loan comparison guide:
                     </a>{" "}
-                    Learn more about competitive rates and flexible terms.
+                    Learn how to compare rates, fees, and flexible terms.
                   </li>
                   <li className="mb-2">
                     <a

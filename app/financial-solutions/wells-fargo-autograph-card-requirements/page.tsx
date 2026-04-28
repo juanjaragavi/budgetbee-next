@@ -5,7 +5,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/wells-fargo-autograph-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/wells-fargo-autograph-card-requirements",
+);
 
 export default function WellsFargoAutographCardRequirementsPage() {
   return (
@@ -85,7 +87,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
-                  href="/personal-finance/the-basics-of-investing-how-to-get-started-without-being-an-expert"
+                  href="/personal-finance/money-management-for-beginners"
                   className="text-primary-dark hover:underline"
                 >
                   The Basics of Investing: How to Get Started Without Being an

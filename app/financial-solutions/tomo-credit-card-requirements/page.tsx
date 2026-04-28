@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/tomo-credit-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/tomo-credit-card-requirements",
+);
 
 export default function TomoCreditCardRequirementsPage() {
   return (
@@ -123,7 +125,7 @@ export default function TomoCreditCardRequirementsPage() {
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
-                  href="/personal-finance/building-good-money-habits-consistency-is-key"
+                  href="/personal-finance/money-management-for-beginners"
                   className="text-primary-dark hover:underline"
                 >
                   Building Good Money Habits: Consistency is Key

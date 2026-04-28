@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/wells-fargo-active-cash-card");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/wells-fargo-active-cash-card",
+);
 
 export default function WellsFargoActiveCashCardPage() {
   return (
@@ -286,7 +288,7 @@ export default function WellsFargoActiveCashCardPage() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/personal-finance/maximize-credit-card-rewards"
+                      href="/personal-finance/best-rewards-credit-cards"
                       className="text-[#d71e28] hover:text-[#b01820] font-medium text-sm flex items-center group"
                     >
                       <span className="mr-2 text-[#d71e28] group-hover:translate-x-1 transition-transform">

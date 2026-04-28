@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/chase-freedom-flex");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/chase-freedom-flex",
+);
 
 export default function ChaseFreedomFlexPage() {
   return (
@@ -264,7 +266,7 @@ export default function ChaseFreedomFlexPage() {
                 <ul className="space-y-3">
                   <li>
                     <Link
-                      href="/personal-finance/maximize-credit-card-rewards"
+                      href="/personal-finance/best-rewards-credit-cards"
                       className="text-[#2d65a7] hover:text-[#244d85] font-medium text-sm flex items-center group"
                     >
                       <span className="mr-2 text-[#2d65a7] group-hover:translate-x-1 transition-transform">
@@ -276,7 +278,7 @@ export default function ChaseFreedomFlexPage() {
                   </li>
                   <li>
                     <Link
-                      href="/personal-finance/credit-card-rotating-categories-guide"
+                      href="/personal-finance/best-rewards-credit-cards"
                       className="text-[#2d65a7] hover:text-[#244d85] font-medium text-sm flex items-center group"
                     >
                       <span className="mr-2 text-[#2d65a7] group-hover:translate-x-1 transition-transform">

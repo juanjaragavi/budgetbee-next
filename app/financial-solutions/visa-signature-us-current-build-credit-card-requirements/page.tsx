@@ -5,7 +5,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/visa-signature-us-current-build-credit-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/visa-signature-us-current-build-credit-card-requirements",
+);
 
 export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() {
   return (
@@ -116,7 +118,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
-                  href="/personal-finance/simple-ways-to-start-saving-money-today-even-on-a-tight-budget"
+                  href="/personal-finance/stop-living-paycheck-to-paycheck"
                   className="text-primary-dark hover:underline"
                 >
                   Simple Ways to Start Saving Money Today (Even on a Tight

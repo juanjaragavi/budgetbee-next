@@ -55,22 +55,22 @@ export default function InvitCreditCardRecUKPage() {
 
             {/* Centered limit options (green buttons), per US layout */}
             <div className="grid grid-cols-1 gap-3 my-4">
-              <Link href="/financial-solutions/curve-credit-card">
+              <Link href="/financial-solutions/chime-credit-builder-visa-secured-card">
                 <Button className="bg-[#E7B739] hover:bg-[#D4A520] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
-                  £1000 CREDIT CARD
+                  $1,000 CREDIT CARD
                 </Button>
               </Link>
-              <Link href="/financial-solutions/santander-uk-credit-card">
+              <Link href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits">
                 <Button className="bg-[#E7B739] hover:bg-[#D4A520] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
-                  £2500 CREDIT CARD
+                  $2,500 CREDIT CARD
                 </Button>
               </Link>
-              <Link href="/financial-solutions/starling-bank-credit-card">
+              <Link href="/financial-solutions/citi-custom-cash-card">
                 <Button className="bg-[#E7B739] hover:bg-[#D4A520] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
-                  £5000 CREDIT CARD
+                  $5,000 CREDIT CARD
                 </Button>
               </Link>
-              <Link href="/financial-solutions/natwest-credit-card">
+              <Link href="/financial-solutions">
                 <Button className="bg-[#E7B739] hover:bg-[#D4A520] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
                   MORE OPTIONS
                 </Button>
@@ -96,7 +96,7 @@ export default function InvitCreditCardRecUKPage() {
                 </p>
               </div>
               <div className="mt-6">
-                <Link href="/financial-solutions/barclaycard-avios-plus">
+                <Link href="/financial-solutions/chase-sapphire-reserve">
                   <Button className="bg-[#E7B739] hover:bg-[#D4A520] text-white font-semibold py-4 my-1 w-full mx-auto rounded-xl">
                     ACCEPT RECOMMENDATION
                   </Button>
@@ -310,7 +310,7 @@ export default function InvitCreditCardRecUKPage() {
                     The most requested among our readers! Check it out today...
                   </p>
                   <Link
-                    href="/financial-solutions/lloyds-bank-credit-card"
+                    href="/financial-solutions/wells-fargo-active-cash-card"
                     className="w-full"
                   >
                     <Button className="bg-[#E11D48] hover:bg-[#BE123C] text-white font-semibold py-2 w-full rounded-md">

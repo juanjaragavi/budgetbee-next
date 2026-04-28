@@ -6,7 +6,9 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import { createRouteMetadata } from "@/lib/seo";
 
-export const metadata = createRouteMetadata("/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements");
+export const metadata = createRouteMetadata(
+  "/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements",
+);
 
 export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage() {
   return (
@@ -120,7 +122,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
-                  href="/personal-finance/protecting-your-money-an-introduction-to-financial-security"
+                  href="/personal-finance/5-minute-financial-health-check"
                   className="text-primary-dark hover:underline"
                 >
                   Protecting Your Money: An Introduction to Financial Security
