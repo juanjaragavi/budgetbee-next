@@ -24,13 +24,9 @@ export default function SideHustleOrSecondJobPage() {
               Side Hustle or Second Job? How to Choose the Right Income Booster
             </h1>
             <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">

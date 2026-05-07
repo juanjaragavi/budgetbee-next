@@ -28,13 +28,9 @@ export default function YottaCreditCardPage() {
                     Yotta Credit Card: Every Purchase is a Winning Opportunity
                   </h1>
                   <div
-                    id="square02"
-                    data-topads
-                    data-topads-size="square"
+                    id="av_content_1"
                     className="items-center justify-center flex w-full my-8"
-                  >
-                    {/* Empty responsive, centered div */}
-                  </div>
+                  ></div>
 
                   <p className="text-lg md:text-xl text-purple-100 mb-6">
                     Transform ordinary spending into extraordinary wins. With

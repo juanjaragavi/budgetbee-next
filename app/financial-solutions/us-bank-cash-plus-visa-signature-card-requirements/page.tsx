@@ -22,13 +22,9 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               Guide
             </h1>
             <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
@@ -169,13 +165,9 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                 What Happens After You Apply?
               </h2>
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
               <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2 text-left">
                 <li>
                   <strong>Instant Decision or Further Review:</strong> In many

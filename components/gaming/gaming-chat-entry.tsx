@@ -233,11 +233,9 @@ export default function GamingChatEntry({
       {/* Ad Slot 1 — Below chat content */}
       <div className="w-full max-w-2xl mx-auto px-4">
         <div
-          id="square01"
-          data-topads
-          data-topads-size="square"
+          id="av_top"
           className="items-center justify-center flex w-full my-8"
-        />
+        ></div>
       </div>
 
       {/* Footer */}

@@ -64,10 +64,8 @@ export default function GamingPopupAd({
             </p>
             <div
               id={id}
-              data-topads
-              data-topads-size="square"
               className="flex items-center justify-center w-full min-h-[250px]"
-            />
+            ></div>
             <p className="text-center text-xs text-gray-400 mt-3">
               Advertising
             </p>

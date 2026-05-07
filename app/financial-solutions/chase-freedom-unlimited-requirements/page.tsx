@@ -22,13 +22,9 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               Chase Freedom Unlimited Requirements: Your Eligibility Guide
             </h1>
             <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
@@ -168,13 +164,9 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                 Benefits After Approval: Tools for Financial Success
               </h2>
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
               <p className="text-gray-700 mb-8 text-left">
                 Once you’re a cardholder, Chase provides valuable tools to help
                 you manage and build your credit responsibly:

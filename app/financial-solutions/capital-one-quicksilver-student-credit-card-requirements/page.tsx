@@ -22,13 +22,9 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Capital One Quicksilver Student Credit Card Requirements
             </h1>
             <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
@@ -185,13 +181,9 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 Key Benefits of the Capital One Quicksilver Student Credit Card
               </h2>
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
               <p className="text-gray-700 mb-8 text-left">
                 The Capital One Quicksilver Student Credit Card offers
                 exceptional value for students:

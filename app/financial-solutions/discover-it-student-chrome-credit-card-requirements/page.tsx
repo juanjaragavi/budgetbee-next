@@ -23,13 +23,9 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               Eligibility Guide
             </h1>
             <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <hr className="my-8" />
@@ -179,13 +175,9 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 </li>
               </ul>
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">
                 What Happens After You Apply?
               </h2>

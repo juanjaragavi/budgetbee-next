@@ -29,13 +29,9 @@ export default function SirenCardRequirementsPage() {
                 SIREN Card Requirements & Application Process
               </h1>
               <div
-                id="square03"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
 
               <p className="text-lg text-primary-accent">
                 Everything you need to know about qualifying for SIREN Card.
@@ -323,13 +319,9 @@ export default function SirenCardRequirementsPage() {
               </section>
 
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
 
               {/* The cred.ai Guaranty Explained */}
               <section className="mb-12">

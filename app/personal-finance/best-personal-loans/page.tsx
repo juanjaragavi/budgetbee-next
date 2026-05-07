@@ -24,13 +24,9 @@ export default function BestPersonalLoansPage() {
               Best Personal Loans in the US: Your Complete Guide
             </h1>
             <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <hr className="my-8" />
 

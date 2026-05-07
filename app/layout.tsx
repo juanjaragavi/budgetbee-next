@@ -10,11 +10,9 @@ import GoogleTagManager, {
 } from "@/components/analytics/gtm";
 import GoogleAds from "@/components/analytics/google-ads";
 import GoogleAdManager from "@/components/analytics/gam";
-import TopAds from "@/components/analytics/topads";
 import UtmPersister from "@/components/analytics/utm-persister";
 import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 import UtmMonitor from "@/components/analytics/utm-monitor";
-import TopAdsSPAHandler from "@/components/analytics/topads-spa-handler";
 import AnalyticsValidationPanel from "@/components/analytics/validation-panel";
 import ResourceHints from "@/components/resource-hints";
 import NavigationProvider from "@/components/providers/navigation-provider";
@@ -130,6 +128,12 @@ export default function RootLayout({
   return (
     <html lang="en-us">
       <head>
+        <link
+          rel="preload"
+          as="script"
+          href="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
+        />
+        <script async src="https://scr.actview.net/budgetbeepro.js"></script>
         {/* Inline critical CSS for faster rendering */}
         <style
           dangerouslySetInnerHTML={{
@@ -153,7 +157,6 @@ export default function RootLayout({
           <GoogleTagManager />
           <GoogleAds />
           <GoogleAdManager />
-          <TopAds />
         </ClientOnly>
 
         <ResourceHints />
@@ -202,7 +205,7 @@ export default function RootLayout({
           <Suspense fallback={null}>
             <UtmPersister />
             <UtmLinkInjector />
-            <TopAdsSPAHandler />
+
             {process.env.NODE_ENV === "development" && <UtmMonitor />}
             {process.env.NODE_ENV === "development" && (
               <AnalyticsValidationPanel />

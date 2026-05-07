@@ -25,13 +25,9 @@ export default function InflationProofYourLifePage() {
               Are High
             </h1>
             <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">

@@ -144,11 +144,9 @@ export default function CreditCardRecommenderTemplate({
             </h1>
 
             <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
+              id="av_top"
               className="my-6 flex w-full items-center justify-center"
-            />
+            ></div>
 
             <p className={cn(HERO_PARAGRAPH_CLASSES, "mb-6 text-gray-800")}>
               Finding the right card is simple. Maximize rewards, organize your

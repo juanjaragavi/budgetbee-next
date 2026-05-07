@@ -74,11 +74,9 @@ export default function GamingFaqAccordion({
                 </p>
                 {item.showAdOnOpen && item.adSlotId && (
                   <div
-                    id={item.adSlotId}
-                    data-topads
-                    data-topads-size="square"
+                    id="av_top"
                     className="items-center justify-center flex w-full mt-4"
-                  />
+                  ></div>
                 )}
               </div>
             )}

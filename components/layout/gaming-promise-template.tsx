@@ -6,8 +6,6 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import GamingFaqAccordion, {
   type FaqItem,
 } from "@/components/gaming/gaming-faq-accordion";
-import GamingOfferwallRuntime from "@/components/gaming/gaming-offerwall-runtime";
-import type { GamingQuizConfig } from "@/lib/gaming-quiz-config";
 
 export interface ContentSection {
   heading: string;
@@ -60,7 +58,6 @@ export interface GamingPromiseTemplateProps {
     disclaimer?: string;
   };
   /** When provided, renders the TopAds offerwall quiz unit on page load */
-  offerwallQuiz?: GamingQuizConfig;
 }
 
 export default function GamingPromiseTemplate({
@@ -77,10 +74,9 @@ export default function GamingPromiseTemplate({
   relatedArticles,
   closingParagraph,
   stickyBanner,
-  offerwallQuiz,
 }: GamingPromiseTemplateProps) {
   return (
-    <GamingOfferwallRuntime quiz={offerwallQuiz}>
+    <>
       <main
         className={`flex min-h-screen flex-col bg-white${stickyBanner ? " pb-16" : ""}`}
       >
@@ -113,11 +109,9 @@ export default function GamingPromiseTemplate({
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div
-                id="square02"
-                data-topads
-                data-topads-size="square"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
-              />
+              ></div>
 
               <p className="text-gray-700 text-lg mb-6 leading-relaxed">
                 {subtitle}
@@ -234,11 +228,9 @@ export default function GamingPromiseTemplate({
                     )}
                     {i === 1 && (
                       <div
-                        id="square03"
-                        data-topads
-                        data-topads-size="square"
+                        id="av_content_2"
                         className="items-center justify-center flex w-full my-8"
-                      />
+                      ></div>
                     )}
                   </Fragment>
                 );
@@ -283,11 +275,9 @@ export default function GamingPromiseTemplate({
 
               {/* Ad Slot 3 — Before related content */}
               <div
-                id="square04"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              />
+              ></div>
 
               <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                 Check out these popular guides from our financial experts for
@@ -338,6 +328,6 @@ export default function GamingPromiseTemplate({
           />
         )} */}
       </main>
-    </GamingOfferwallRuntime>
+    </>
   );
 }

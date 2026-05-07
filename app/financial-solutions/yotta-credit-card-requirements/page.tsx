@@ -24,13 +24,9 @@ export default function YottaCreditCardRequirementsPage() {
                 Yotta Credit Card Requirements & Application Process
               </h1>
               <div
-                id="square03"
-                data-topads
-                data-topads-size="square"
+                id="av_content_2"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
+              ></div>
 
               <p className="text-lg text-purple-100">
                 Everything you need to know about qualifying for Yotta's
@@ -135,13 +131,9 @@ export default function YottaCreditCardRequirementsPage() {
                   State Availability
                 </h2>
                 <div
-                  id="square04"
-                  data-topads
-                  data-topads-size="square"
+                  id="av_content_2"
                   className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
+                ></div>
                 <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-6">
                   <p className="text-gray-700 mb-4 leading-relaxed">
                     Yotta Credit Card and lending services are currently

@@ -37,13 +37,9 @@ export default function InvitCreditCardRecUKPage() {
             </p>
 
             <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
+              id="av_content_1"
               className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <p className="px-2 text-left text-sm text-gray-900 mb-2">
               Please select the limit option below that aligns with your daily
@@ -261,13 +257,9 @@ export default function InvitCreditCardRecUKPage() {
             </div>
 
             <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
+              id="av_content_1"
               className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             {/* Stay Tuned panel (matching US layout copy, US spelling) */}
             <section className="text-left mb-6">

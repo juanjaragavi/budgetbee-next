@@ -22,13 +22,9 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
               Requirements for the Self Credit Builder Account + Visa Card
             </h1>
             <div
-              id="square03"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <p className="text-lg text-gray-800 mb-8 leading-6 text-left">
               Self Financial pairs its Credit Builder Account with the secured
@@ -195,13 +191,9 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
             </section>
 
             <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <section className="my-8">
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

@@ -92,11 +92,9 @@ export default function GamingRewardTemplate({
           <div className="max-w-4xl mx-auto">
             {/* Ad Slot 1 — Before hero image */}
             <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
+              id="av_content_1"
               className="items-center justify-center flex w-full my-8"
-            />
+            ></div>
 
             <p className="text-gray-700 text-lg mb-6 leading-relaxed">
               {subtitle}
@@ -168,11 +166,9 @@ export default function GamingRewardTemplate({
                   {i === Math.ceil(methods.length / 2) - 1 && (
                     <>
                       <div
-                        id="square03"
-                        data-topads
-                        data-topads-size="square"
+                        id="av_content_2"
                         className="items-center justify-center flex w-full my-8"
-                      />
+                      ></div>
 
                       {/* Text separator for ad compliance */}
                       <p className="text-gray-600 mb-4 text-sm leading-relaxed">
@@ -206,11 +202,9 @@ export default function GamingRewardTemplate({
 
             {/* Ad Slot 4 — Before related content */}
             <div
-              id="square04"
-              data-topads
-              data-topads-size="square"
+              id="av_content_2"
               className="items-center justify-center flex w-full my-8"
-            />
+            ></div>
 
             <p className="text-gray-600 mb-4 text-sm leading-relaxed">
               Check out these popular guides from our financial experts for more

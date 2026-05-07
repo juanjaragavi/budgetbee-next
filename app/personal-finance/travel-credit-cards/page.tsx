@@ -24,13 +24,9 @@ export default function TravelCreditCardsPage() {
               Spending
             </h1>
             <div
-              id="square01"
-              data-topads
-              data-topads-size="square"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-6">

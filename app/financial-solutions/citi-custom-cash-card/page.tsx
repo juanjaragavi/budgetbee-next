@@ -26,13 +26,9 @@ export default function CitiCustomCashCardPage() {
               Your Spending
             </h1>
             <div
-              id="square02"
-              data-topads
-              data-topads-size="square"
+              id="av_content_1"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            ></div>
 
             <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
               The Citi Custom Cash® Card automatically identifies your highest
