@@ -91,7 +91,7 @@ All articles are located at:
 ### 1. Review Content (Recommended)
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Then visit a few sample articles to verify formatting and content.
@@ -108,8 +108,8 @@ Update these files to include new articles:
 ### 3. Deploy
 
 ```bash
-npm run build
-npm run start
+pnpm build
+pnpm start
 ```
 
 ## Support Files

@@ -173,7 +173,7 @@ export default function ProductPage() {
 
 Before deployment:
 
-1. ✅ Run `npm run build` - verify no errors
+1. ✅ Run `pnpm build` - verify no errors
 2. ✅ Test sitemap: `http://localhost:3007/sitemap.xml`
 3. ✅ Validate structured data: Google Rich Results Test
 4. ✅ Run Lighthouse SEO audit: Target 95+ score

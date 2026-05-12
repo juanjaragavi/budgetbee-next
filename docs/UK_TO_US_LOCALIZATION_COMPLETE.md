@@ -222,7 +222,7 @@ grep -r "FCA|Financial Conduct Authority|HMRC|council tax|sort code" --include="
 
 ### 1. npm Package References
 
-- `@img/colour` package name in package-lock.json (npm package naming)
+- `@img/colour` package name in pnpm-lock.yaml (npm package naming)
 - UK domain references in CORS configuration (technical requirement)
 
 ### 2. Historical Documentation

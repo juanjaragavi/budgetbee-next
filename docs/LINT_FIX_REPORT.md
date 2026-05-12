@@ -12,7 +12,7 @@ Address all ESLint warnings/errors in the BudgetBee project after the BudgetBee 
 
 ## 📊 Initial Lint Status
 
-**Command**: `npm run lint`
+**Command**: `pnpm lint`
 
 ### Issues Found: 32 Warnings
 
@@ -58,7 +58,7 @@ From all 32 files.
 
 ## ✅ Final Lint Status
 
-**Command**: `npm run lint`
+**Command**: `pnpm lint`
 
 **Result**:
 
@@ -72,7 +72,7 @@ From all 32 files.
 
 ## 🏗️ Build Verification
 
-**Command**: `npm run build`
+**Command**: `pnpm build`
 
 **Result**: ✅ **SUCCESS**
 

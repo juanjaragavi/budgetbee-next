@@ -269,7 +269,7 @@ For each file:
 
 ```bash
 # Run in development mode
-npm run dev
+pnpm dev
 
 # Check logs are properly formatted
 # Logs should show colored output with timestamps
@@ -279,10 +279,10 @@ npm run dev
 
 ```bash
 # Build for production
-npm run build
+pnpm build
 
 # Run production server
-npm run start
+pnpm start
 
 # Check logs are JSON formatted
 # Verify sensitive data is redacted

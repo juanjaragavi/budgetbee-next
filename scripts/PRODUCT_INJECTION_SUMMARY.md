@@ -141,13 +141,13 @@ The script will show:
 
 ```bash
 # Check syntax
-npm run lint
+pnpm lint
 
 # Build project
-npm run build
+pnpm build
 
 # Test locally
-npm run dev
+pnpm dev
 ```
 
 ### 6. Commit Changes

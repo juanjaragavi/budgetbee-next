@@ -21,11 +21,11 @@ echo "[3/6] Removing previous build directory (.next)..."
 sudo rm -rf .next
 
 echo "[4/6] Building the application..."
-sudo npm run build
+sudo env "PATH=$PATH" pnpm build
 
 echo "[5/6] Restarting PM2 process..."
 # Try to reload the process (zero-downtime restart), or start it if it doesn't exist
-sudo pm2 reload budgetbee-next --update-env || sudo pm2 start npm --name budgetbee-next -- start
+sudo pm2 reload budgetbee-next --update-env || sudo env "PATH=$PATH" pm2 start pnpm --name budgetbee-next -- start
 
 echo
 

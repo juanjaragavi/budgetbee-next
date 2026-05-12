@@ -134,7 +134,7 @@ september: 8, october: 9, november: 10, december: 11
 ### Build Test
 
 ```bash
-npm run build
+pnpm build
 ✓ Compiled successfully in 16.0s
 ✓ Generating static pages (112/112)
 ```
@@ -264,8 +264,8 @@ For questions or issues related to this implementation:
 
 - Check this documentation first
 - Review the code in `/lib/utils/date-utils.ts`
-- Test locally with `npm run dev`
-- Verify build with `npm run build`
+- Test locally with `pnpm dev`
+- Verify build with `pnpm build`
 
 ---
 

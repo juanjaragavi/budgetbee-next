@@ -172,16 +172,16 @@ The following documentation files reference the deleted directories but are **hi
 
 ```bash
 # Run linting
-npm run lint
+pnpm lint
 
 # Run formatting check
-npm run format:check
+pnpm format:check
 
 # Build the project
-npm run build
+pnpm build
 
 # Test the build
-npm run start
+pnpm start
 ```
 
 ---

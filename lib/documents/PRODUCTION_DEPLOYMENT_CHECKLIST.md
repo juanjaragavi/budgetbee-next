@@ -130,10 +130,10 @@ NODE_ENV=production
 
 ```bash
 # Install dependencies
-npm ci --production=false
+pnpm install --frozen-lockfile --production=false
 
 # Build the application
-npm run build
+pnpm build
 
 # Verify build output
 ls -la .next/standalone/

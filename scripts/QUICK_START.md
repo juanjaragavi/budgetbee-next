@@ -34,7 +34,7 @@ Do you know the exact 32 products to inject?
 
 ```bash
 node ./scripts/inject-migrated-products.js
-npm run build && npm run dev
+pnpm build && pnpm dev
 git commit -am "Inject financial products"
 ```
 

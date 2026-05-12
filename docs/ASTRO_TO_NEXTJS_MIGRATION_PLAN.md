@@ -824,13 +824,13 @@ export default function robots() {
 1. **Build Production Bundle**:
 
    ```bash
-   npm run build
+   pnpm build
    ```
 
 2. **Test Production Build Locally**:
 
    ```bash
-   npm run start
+   pnpm start
    ```
 
 3. **Deploy to Staging**:

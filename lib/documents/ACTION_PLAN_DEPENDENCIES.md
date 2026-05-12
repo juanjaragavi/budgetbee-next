@@ -28,10 +28,10 @@ Before pushing to production, test locally:
 bash ./scripts/update-dependencies.sh
 
 # Test build
-npm run build
+pnpm build
 
 # Test dev server
-npm run dev
+pnpm dev
 ```
 
 ### Step 2: Verify Everything Works
@@ -81,7 +81,7 @@ After pushing, check the Vercel build logs. You should see:
 **A:** That's informational, not a warning. You can ignore it or disable with:
 
 ```bash
-npx next telemetry disable
+pnpm exec next telemetry disable
 ```
 
 ## 🔍 Verification Checklist
@@ -89,9 +89,9 @@ npx next telemetry disable
 Before deploying:
 
 - [ ] Run `bash ./scripts/update-dependencies.sh`
-- [ ] Run `npm run build` successfully
-- [ ] Run `npm run dev` and test the app
-- [ ] Check for TypeScript errors: `npm run lint`
+- [ ] Run `pnpm build` successfully
+- [ ] Run `pnpm dev` and test the app
+- [ ] Check for TypeScript errors: `pnpm lint`
 - [ ] Test SendGrid functionality (if applicable)
 - [ ] Commit changes: `bash ./scripts/git-workflow.sh`
 - [ ] Monitor Vercel deployment

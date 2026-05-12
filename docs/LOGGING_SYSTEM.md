@@ -43,13 +43,13 @@ logger.fatal("Critical"); // Always shown
 
 ```bash
 # Development - pretty formatted, verbose
-npm run dev
+pnpm dev
 
 # Production - JSON formatted, redacted
-npm run build && npm start
+pnpm build && npm start
 
 # Override log level
-PINO_LOG_LEVEL=debug npm run dev
+PINO_LOG_LEVEL=debug pnpm dev
 ```
 
 ## Sensitive Data Protection

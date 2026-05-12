@@ -325,7 +325,7 @@ Create a spreadsheet to track progress:
 Before deploying to production:
 
 1. **Test Locally:**
-   - [ ] Run `npm run build`
+   - [ ] Run `pnpm build`
    - [ ] Verify sitemap generates: `http://localhost:3007/sitemap.xml`
    - [ ] Test sample pages for metadata
    - [ ] Validate structured data

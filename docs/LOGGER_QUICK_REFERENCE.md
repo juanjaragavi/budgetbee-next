@@ -171,7 +171,7 @@ Auto-redacted fields:
 
 ```bash
 # Override log level
-PINO_LOG_LEVEL=debug npm run dev
+PINO_LOG_LEVEL=debug pnpm dev
 PINO_LOG_LEVEL=error npm start
 
 # Options: trace, debug, info, warn, error, fatal

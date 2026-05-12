@@ -292,12 +292,12 @@ If issues arise, revert changes by:
 
 ## Next Steps
 
-1. ✅ **Run development server**: `npm run dev`
+1. ✅ **Run development server**: `pnpm dev`
 2. ✅ **Visual QA**: Check all major pages and components
 3. ✅ **Test interactivity**: CTAs, forms, navigation
 4. ✅ **Test responsive**: Mobile, tablet, desktop
 5. ⏭️ **Typography update**: Proceed with font/typography changes (next iteration)
-6. ⏭️ **Production build**: `npm run build`
+6. ⏭️ **Production build**: `pnpm build`
 7. ⏭️ **Deploy**: After successful testing
 
 ---

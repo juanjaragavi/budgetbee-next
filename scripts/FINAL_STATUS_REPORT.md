@@ -114,7 +114,7 @@
 ### Code Quality
 
 ```bash
-npm run lint
+pnpm lint
 ```
 
 **Result:** ✅ No ESLint warnings or errors
@@ -122,7 +122,7 @@ npm run lint
 ### Build Verification
 
 ```bash
-npm run build
+pnpm build
 ```
 
 **Result:** ✅ Production build successful

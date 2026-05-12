@@ -378,19 +378,19 @@ git commit -m "Inject 32 migrated financial products into blog listings"
 1. **Check file syntax**:
 
    ```bash
-   npm run lint
+   pnpm lint
    ```
 
 2. **Build the project**:
 
    ```bash
-   npm run build
+   pnpm build
    ```
 
 3. **Visual verification**:
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
    - Visit `/blog`

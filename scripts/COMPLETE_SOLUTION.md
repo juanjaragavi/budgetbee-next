@@ -168,8 +168,8 @@ The script currently has **20 products hardcoded**. It needs to be updated with:
 node ./scripts/inject-migrated-products.js
 
 # 3. Test
-npm run build
-npm run dev
+pnpm build
+pnpm dev
 
 # 4. Commit
 git add app/

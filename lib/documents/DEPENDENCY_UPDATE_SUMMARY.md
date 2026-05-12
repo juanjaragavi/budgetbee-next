@@ -148,7 +148,7 @@ added 798 packages in 22s  # ← 30 fewer packages, 1 second faster
 ## 📝 Files Modified
 
 1. **package.json** - Updated dependency versions
-2. **package-lock.json** - Regenerated with new versions
+2. **pnpm-lock.yaml** - Regenerated with new versions
 3. **scripts/update-dependencies.sh** - Created utility script
 4. **docs/DEPRECATED_DEPENDENCIES_FIX.md** - Comprehensive documentation
 5. **lib/documents/commit-message.txt** - Detailed commit message

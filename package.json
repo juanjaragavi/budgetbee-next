@@ -1,6 +1,7 @@
 {
   "name": "budgetbee",
   "version": "0.1.0",
+  "packageManager": "pnpm@10.27.0",
   "private": true,
   "description": "BudgetBee - Your Guide to US Credit Cards & Loans",
   "repository": {

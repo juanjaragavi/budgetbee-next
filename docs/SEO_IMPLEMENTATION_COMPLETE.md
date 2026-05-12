@@ -352,7 +352,7 @@ alternates: {
 ### Before Deployment
 
 1. **Local Testing**
-   - Build: `npm run build` ✅ Passing
+   - Build: `pnpm build` ✅ Passing
    - Sitemap: <http://localhost:3007/sitemap.xml>
    - Robots: <http://localhost:3007/robots.txt>
 
@@ -568,7 +568,7 @@ export default function ProductPage() {
 ### Build Status
 
 ```bash
-✅ npm run build - PASSING
+✅ pnpm build - PASSING
 ✅ No TypeScript errors
 ✅ No linting errors (except markdown formatting in docs)
 ✅ All components compile successfully

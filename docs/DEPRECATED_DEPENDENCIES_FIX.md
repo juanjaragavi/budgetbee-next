@@ -58,8 +58,8 @@ To fully resolve the warnings, you need to clean install dependencies:
 bash ./scripts/update-dependencies.sh
 
 # Option 2: Manual steps
-rm -rf node_modules package-lock.json
-npm install
+rm -rf node_modules pnpm-lock.yaml
+pnpm install
 ```
 
 ## Why This Happened
@@ -98,7 +98,7 @@ await sgMail.send(msg);
 
 After applying these fixes and reinstalling dependencies:
 
-✅ **No more deprecation warnings** during `npm install`  
+✅ **No more deprecation warnings** during `pnpm install`  
 ✅ **Cleaner dependency tree** (fewer packages)  
 ✅ **Smaller `node_modules`** size  
 ✅ **Faster builds** on Vercel  
@@ -110,8 +110,8 @@ After applying these fixes and reinstalling dependencies:
 
    ```bash
    bash ./scripts/update-dependencies.sh
-   npm run build
-   npm run dev
+   pnpm build
+   pnpm dev
    ```
 
 2. **Commit Changes:**
@@ -163,7 +163,7 @@ Attention: Next.js now collects completely anonymous telemetry regarding usage.
 This is informational. You can disable it if desired:
 
 ```bash
-npx next telemetry disable
+pnpm exec next telemetry disable
 ```
 
 ## Related Files Modified

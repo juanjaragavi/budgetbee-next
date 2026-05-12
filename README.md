@@ -28,10 +28,10 @@ This is a Next.js 15+ project for BudgetBee, a financial services comparison web
 ### Development
 
 ```bash
-npm run dev      # Start development server on port 3007
-npm run build    # Production build
-npm run start    # Start production server on port 3007
-npm run lint     # Run ESLint
+pnpm dev      # Start development server on port 3007
+pnpm build    # Production build
+pnpm start    # Start production server on port 3007
+pnpm lint     # Run ESLint
 ```
 
 ### Environment Setup

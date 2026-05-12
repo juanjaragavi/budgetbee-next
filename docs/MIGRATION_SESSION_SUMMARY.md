@@ -486,11 +486,11 @@ export function getAdUnitId(unit: ...): string { ... }
 
 ```bash
 # Start dev server
-npm run dev
+pnpm dev
 # Runs on http://localhost:3007
 
 # Build production
-npm run build
+pnpm build
 
 # Git workflow
 bash ./scripts/git-workflow.sh
@@ -519,7 +519,7 @@ New Next.js:
 ### What to Test Next
 
 1. **Visual Validation**:
-   - Run dev server: `npm run dev`
+   - Run dev server: `pnpm dev`
    - Visit http://localhost:3007
    - Verify any existing pages use BudgetBee colors (yellow/green)
    - Check typography is Montserrat

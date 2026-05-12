@@ -186,7 +186,7 @@ Per project instructions, the following locations need updating for new articles
 1. **Development Testing**:
 
    ```bash
-   npm run dev
+   pnpm dev
    ```
 
    - Navigate to `/financial-solutions/[any-migrated-article]`
@@ -196,8 +196,8 @@ Per project instructions, the following locations need updating for new articles
 2. **Production Build Testing**:
 
    ```bash
-   npm run build
-   npm run start
+   pnpm build
+   pnpm start
    ```
 
    - Test production optimizations

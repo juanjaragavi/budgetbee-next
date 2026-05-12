@@ -201,7 +201,7 @@ _After (US):_
 
 1. **grep_search** - Recursive pattern matching across entire codebase
 2. **replace_string_in_file** - Context-aware string replacement
-3. **npm run format** - Automated code formatting and linting
+3. **pnpm format** - Automated code formatting and linting
 4. **get_errors** - Validation of changes
 
 ### Search Patterns Applied
@@ -312,7 +312,7 @@ grep -r "FCA|HMRC|council tax" --include="*.tsx" app/
 ### Deployment Steps
 
 1. Review the two comprehensive documentation files
-2. Run `npm run build` to validate production build
+2. Run `pnpm build` to validate production build
 3. Test key pages in staging environment
 4. Deploy to production
 5. Monitor analytics for US user engagement
@@ -396,7 +396,7 @@ All new content must follow:
 ### Immediate Actions
 
 1. ✅ Review comprehensive documentation
-2. ⏳ Run production build (`npm run build`)
+2. ⏳ Run production build (`pnpm build`)
 3. ⏳ Deploy to staging environment
 4. ⏳ Conduct final QA review
 5. ⏳ Deploy to production

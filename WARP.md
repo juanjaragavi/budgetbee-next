@@ -11,10 +11,10 @@ BudgetBee is a Next.js 15+ financial services comparison website for the United 
 ### Development & Build
 
 ```bash
-npm run dev      # Start development server on port 3007 with Turbo
-npm run build    # Production build
-npm run start    # Start production server on port 3007
-npm run lint     # Run ESLint
+pnpm dev      # Start development server on port 3007 with Turbo
+pnpm build    # Production build
+pnpm start    # Start production server on port 3007
+pnpm lint     # Run ESLint
 ```
 
 ### Git Workflow (CRITICAL)

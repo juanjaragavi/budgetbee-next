@@ -128,13 +128,13 @@ If issues are found, revert by changing URLs back to:
 
 ```bash
 # Start development server
-npm run dev
+pnpm dev
 
 # Build for production
-npm run build
+pnpm build
 
 # Start production server
-npm run start
+pnpm start
 
 # Clear Next.js cache if needed
 rm -rf .next

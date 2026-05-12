@@ -357,7 +357,7 @@ declare global {
 
 ```bash
 cd /Users/macbookpro/GitHub/budgetbee-next
-npm run dev
+pnpm dev
 ```
 
 Server runs on: `http://localhost:3007`
@@ -536,7 +536,7 @@ import Image from "next/image";
 
 1. Check `tailwind.config.js` has BudgetBee colors
 2. Verify CSS classes use correct color names
-3. Rebuild: `npm run build` then `npm run dev`
+3. Rebuild: `pnpm build` then `pnpm dev`
 
 ### Fonts Not Loading
 
@@ -553,7 +553,7 @@ import Image from "next/image";
 
 ### Build Errors
 
-1. Check TypeScript errors: `npm run build`
+1. Check TypeScript errors: `pnpm build`
 2. Fix import paths (use `@/` alias)
 3. Verify all required props passed to components
 
