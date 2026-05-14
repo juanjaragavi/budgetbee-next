@@ -1,6 +1,6 @@
 ---
 name: budgetbee-codebase-ops
-description: "BudgetBee USA codebase operating map for architecture-aware edits, safe content/catalog updates, API/integration changes, and deployment readiness. Use when working in budgetbee-next, especially for blog/product page CRUD, SEO registry updates, analytics/UTM flows, or TopNetworks cross-repo sync decisions."
+description: "BudgetBee USA codebase operating map for safe edits in budgetbee-next. Use for content/catalog updates, API/integration changes, SEO registry updates, analytics/UTM flows, and deployment-readiness checks."
 ---
 
 # BudgetBee Codebase Ops
@@ -30,11 +30,14 @@ Coordination contract:
 1. Use `budgetbee-codebase-ops` first for exact local implementation details and safe edit points.
 2. If the change may need parity across US/UK/MX/BudgetBee (SEO, analytics, shared components, scripts, governance docs), escalate to `topnetworks-sync-orchestrator`.
 3. Keep orchestrator taxonomy when describing scope:
+
 - shared architecture
 - market-localized
 - brand-localized
 - repo-specific
+
 4. Before multi-repo deployment readiness, run the BudgetBee wrapper:
+
 - `node scripts/topnetworks-predeploy.mjs preflight --execute`
 
 ## Relationship to project instruction files
@@ -46,7 +49,7 @@ This skill complements project-level instruction files and does not override the
 - `.github/instructions/BLOG_POST_INTEGRATION.instructions.md`
 - `.github/instructions/PUSH-AND-COMMIT.instructions.md`
 
-If an instruction file and this skill appear to conflict, validate against current code implementation before applying either one blindly.
+If an instruction file and this skill appear to conflict, prioritize live repository implementation and explicit project instruction files; do not rely on stale documentation.
 
 ## System map
 
@@ -125,14 +128,18 @@ From runtime/API usage:
 - `NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED`
 - `NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION`
 
+Handling rule: if a required environment variable is missing or invalid for the target flow, stop the change, surface the missing key(s), and avoid shipping runtime-dependent edits until values are provided.
+
 Observed implementation note: GTM ID is currently hardcoded in `app/layout.tsx` (`GTM-MP4CPT97`) instead of sourced from an environment variable.
 
 ## Invariants and guardrails
 
 1. Keep route SEO registry synchronized with real pages.
+
 - If you add/remove/rename indexable routes, update `lib/seo-route-registry.ts` and verify `app/sitemap.ts` output assumptions.
 
 2. Keep listing/catalog arrays synchronized across all discovery surfaces.
+
 - Content metadata is duplicated across:
 - `app/blog/page-client.tsx`
 - `app/personal-finance/page-client.tsx`
@@ -142,12 +149,15 @@ Observed implementation note: GTM ID is currently hardcoded in `app/layout.tsx` 
 - `lib/navigation/headerNavigation.ts` (menu + featured posts)
 
 3. Preserve noindex behavior for funnel/tool routes.
+
 - `next.config.mjs` explicitly noindexes quiz and recommender flows.
 
 4. Keep UTM field continuity end-to-end.
+
 - Frontend stores/propagates UTM values; API endpoints map both `utm_*` and plain aliases (`source`, `campaign`, etc.).
 
 5. Do not treat stale docs as implementation truth.
+
 - Validate against live files before editing (for example AdZep references).
 
 ## Common change recipes
@@ -156,11 +166,15 @@ Observed implementation note: GTM ID is currently hardcoded in `app/layout.tsx` 
 
 1. Create route directory with `page.tsx` under `app/personal-finance/<slug>/`.
 2. Add route entry in `lib/seo-route-registry.ts` with:
+
 - pathname, title, description, image, category=`personal-finance`, contentType=`article`, date
+
 3. Update listing surfaces:
+
 - `app/blog/page-client.tsx`
 - `app/personal-finance/page-client.tsx`
 - Optional boosts: `app/page-client.tsx`, `components/mdx/blog-layout.tsx`, `lib/navigation/headerNavigation.ts`
+
 4. Verify slug consistency across links and registry.
 
 ### 2) Add a new financial-solution product page
@@ -168,11 +182,13 @@ Observed implementation note: GTM ID is currently hardcoded in `app/layout.tsx` 
 1. Create route directory with `page.tsx` under `app/financial-solutions/<slug>/`.
 2. Add SEO registry entry with category=`financial-solutions` and contentType (`credit-card`, `loan`, or `financial-product`).
 3. Update all relevant listing/menu arrays:
+
 - `app/blog/page-client.tsx`
 - `app/financial-solutions/page-client.tsx`
 - `app/page-client.tsx` if featured
 - `lib/navigation/headerNavigation.ts`
 - `components/mdx/blog-layout.tsx` if recent sidebar exposure is needed
+
 4. Validate internal links and cards use the same slug.
 
 ### 3) Modify analytics/ads behavior safely
@@ -212,7 +228,7 @@ Use only this skill when:
 
 Escalate to orchestrator when:
 
-- same pattern likely required in US/UK/MX siblings
+- same pattern is required based on documented patterns or explicit instructions for US/UK/MX siblings
 - shared SEO/GEO/LLM indexing conventions change
 - shared analytics/ad-tech behavior changes
 - deployment readiness/reporting must be synchronized across repos

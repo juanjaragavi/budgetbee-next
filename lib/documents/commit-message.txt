@@ -1,6 +1,4 @@
-docs: add budgetbee codebase operations skill
+docs: refine budgetbee codebase ops skill diagnostics
 
-Add a new repository-local skill at .agents/skills/budgetbee-codebase-ops/SKILL.md
-that documents architecture entry points, SEO registry guardrails, API/integration
-flows, operational scripts, and explicit coordination with the TopNetworks sync
-orchestrator skill.
+Update .agents/skills/budgetbee-codebase-ops/SKILL.md after diagnostics and formatting
+with clearer conflict precedence, reduced ambiguity, and explicit env-var handling guidance.
