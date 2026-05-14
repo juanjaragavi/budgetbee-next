@@ -1,1 +1,6 @@
-chore: end-to-end sync for production deployment
+docs: add budgetbee codebase operations skill
+
+Add a new repository-local skill at .agents/skills/budgetbee-codebase-ops/SKILL.md
+that documents architecture entry points, SEO registry guardrails, API/integration
+flows, operational scripts, and explicit coordination with the TopNetworks sync
+orchestrator skill.
