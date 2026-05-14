@@ -1,4 +1,3 @@
-docs: refine budgetbee codebase ops skill diagnostics
+chore: add skills-lock.json to track agent skills
 
-Update .agents/skills/budgetbee-codebase-ops/SKILL.md after diagnostics and formatting
-with clearer conflict precedence, reduced ambiguity, and explicit env-var handling guidance.
+Co-Authored-By: Oz <oz-agent@warp.dev>
