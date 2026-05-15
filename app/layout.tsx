@@ -6,7 +6,7 @@ import fs from "fs";
 import path from "path";
 import "./globals.css";
 import GoogleAds from "@/components/analytics/google-ads";
-import GoogleAdManager from "@/components/analytics/gam";
+import ActiveViewSPABridge from "@/components/analytics/activeview-spa-bridge";
 import UtmPersister from "@/components/analytics/utm-persister";
 import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 import UtmMonitor from "@/components/analytics/utm-monitor";
@@ -147,7 +147,8 @@ export default function RootLayout({
           as="script"
           href="https://securepubads.g.doubleclick.net/tag/js/gpt.js"
         />
-        <script async src="https://scr.actview.net/budgetbeepro.js"></script>
+        <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+        <script id="activeview-script" async src="https://scr.actview.net/budgetbeepro.js"></script>
         {/* Inline critical CSS for faster rendering */}
         <style
           dangerouslySetInnerHTML={{
@@ -169,7 +170,7 @@ export default function RootLayout({
 
         <ClientOnly>
           <GoogleAds />
-          <GoogleAdManager />
+          <ActiveViewSPABridge />
         </ClientOnly>
 
         <ResourceHints />

@@ -22,7 +22,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               CIT Bank Home Loans Requirements: What You Need to Qualify
             </h1>
             <div
-              id="av_content_2"
+              id="av_content_1"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

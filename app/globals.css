@@ -333,3 +333,10 @@ body > div[class*="overlay"]:empty {
   display: none !important;
   pointer-events: none !important;
 }
+
+
+/* Ad wrappers CLS preservation */
+#av_top, #av_content_1, #av_content_2 {
+  min-height: 400px;
+}
+
