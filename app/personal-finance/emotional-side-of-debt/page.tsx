@@ -26,11 +26,9 @@ export default function EmotionalSideOfDebtPage() {
             </h1>
 
             <div
-              id="us_budgetbeepro_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
-            >
-              {/* Ad Placeholder 1 */}
-            </div>
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-700 mb-6 leading-relaxed">
@@ -209,11 +207,9 @@ export default function EmotionalSideOfDebtPage() {
               </section>
 
               <div
-                id="us_budgetbeepro_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
-              >
-                {/* Ad Placeholder 2 */}
-              </div>
+              ></div>
 
               <section className="my-8">
                 <h2 className="text-left sm:text-left text-2xl font-bold text-gray-900 mb-4">

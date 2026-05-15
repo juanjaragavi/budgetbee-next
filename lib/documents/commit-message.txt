@@ -1,5 +1,4 @@
-fix: activeview SPA refresh and correct DOM ids
+fix: replace hardcoded ad placeholders with activeview containers
 
-- Fix activeview-spa-bridge.tsx to only call googletag.pubads().refresh() and not re-inject budgetbeepro.js, preventing 'Identifier AV has already been declared' error.
-- Rename av_content_1 to av_top in financial-solutions to ensure the main top ad renders properly under H1.
-- Ensure GPT async script is properly loaded next to preload tag.
+- Replaced 'Advertisement' gray placeholders with valid av_top and av_content_1 slots in AI automation and emotional side of debt articles.
+- Removed us_budgetbeepro_* legacy IDs to fully align with ActiveView configuration.

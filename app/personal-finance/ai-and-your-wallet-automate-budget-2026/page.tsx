@@ -30,13 +30,10 @@ export default function AiAndYourWalletPage() {
               Your Budget in 2026
             </h1>
 
-            {/* Ad Placeholder 1 */}
             <div
-              id="us_budgetbeepro_1"
-              className="items-center justify-center flex w-full my-8 min-h-[250px] bg-gray-50 rounded-lg"
-            >
-              <span className="text-xs text-gray-400">Advertisement</span>
-            </div>
+              id="av_top"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
@@ -170,11 +167,9 @@ export default function AiAndYourWalletPage() {
 
               {/* Ad Placeholder 2 */}
               <div
-                id="us_budgetbeepro_2"
-                className="items-center justify-center flex w-full my-8 min-h-[250px] bg-gray-50 rounded-lg"
-              >
-                <span className="text-xs text-gray-400">Advertisement</span>
-              </div>
+                id="av_content_1"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
 
               <section className="my-8">
                 <h2 className="text-left sm:text-left text-2xl md:text-3xl font-bold text-gray-900 mb-6">
