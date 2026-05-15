@@ -21,7 +21,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               Wells Fargo Autograph Card Requirements
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -127,7 +127,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
                 Tips for Improving Approval Odds
               </h2>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <strong>Check Your Credit Report</strong>

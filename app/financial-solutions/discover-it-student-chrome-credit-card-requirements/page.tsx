@@ -23,7 +23,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               Eligibility Guide
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -175,7 +175,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 </li>
               </ul>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4 text-left">

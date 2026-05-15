@@ -22,7 +22,7 @@ export default function AvantCreditCardPage() {
               Avant Credit Card: Your Path to Healthy Credit Starts Here
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

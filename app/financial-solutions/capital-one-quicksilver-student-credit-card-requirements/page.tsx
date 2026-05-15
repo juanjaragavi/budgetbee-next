@@ -22,7 +22,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Capital One Quicksilver Student Credit Card Requirements
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -181,7 +181,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 Key Benefits of the Capital One Quicksilver Student Credit Card
               </h2>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <p className="text-gray-700 mb-8 text-left">

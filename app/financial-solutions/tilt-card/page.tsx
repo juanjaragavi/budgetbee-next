@@ -20,7 +20,7 @@ export default function TiltCardPage() {
               Tilt Card: Revolutionary Credit Building with Cash Back Rewards
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

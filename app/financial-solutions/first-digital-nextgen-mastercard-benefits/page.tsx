@@ -22,7 +22,7 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
               Benefits of the First Digital NextGen Mastercard
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

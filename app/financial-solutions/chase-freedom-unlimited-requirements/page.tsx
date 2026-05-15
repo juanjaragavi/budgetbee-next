@@ -22,7 +22,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
               Chase Freedom Unlimited Requirements: Your Eligibility Guide
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -164,7 +164,7 @@ export default function ChaseFreedomUnlimitedRequirementsPage() {
                 Benefits After Approval: Tools for Financial Success
               </h2>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <p className="text-gray-700 mb-8 text-left">

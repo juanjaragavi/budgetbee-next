@@ -24,7 +24,7 @@ export default function YottaCreditCardRequirementsPage() {
                 Yotta Credit Card Requirements & Application Process
               </h1>
               <div
-                id="av_content_1"
+                id="av_top"
                 className="items-center justify-center flex w-full my-8"
               ></div>
 
@@ -131,7 +131,7 @@ export default function YottaCreditCardRequirementsPage() {
                   State Availability
                 </h2>
                 <div
-                  id="av_content_2"
+                  id="av_content_1"
                   className="items-center justify-center flex w-full my-8"
                 ></div>
                 <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-6">

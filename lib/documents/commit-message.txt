@@ -1,3 +1,5 @@
-chore: add skills-lock.json to track agent skills
+fix: activeview SPA refresh and correct DOM ids
 
-Co-Authored-By: Oz <oz-agent@warp.dev>
+- Fix activeview-spa-bridge.tsx to only call googletag.pubads().refresh() and not re-inject budgetbeepro.js, preventing 'Identifier AV has already been declared' error.
+- Rename av_content_1 to av_top in financial-solutions to ensure the main top ad renders properly under H1.
+- Ensure GPT async script is properly loaded next to preload tag.

@@ -22,7 +22,7 @@ export default function RobinhoodGoldCardPage() {
               Robinhood Gold Card: Revolutionary 3% Cash Back on Every Purchase
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

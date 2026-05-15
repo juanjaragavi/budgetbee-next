@@ -22,7 +22,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               Titanium Rewards Visa Signature Credit Card Requirements
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -190,7 +190,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 Key Benefits of the Titanium Rewards Visa Signature Credit Card
               </h2>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <p className="text-gray-700 mb-8 text-left">

@@ -22,7 +22,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               First Digital NextGen Mastercard Requirements
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
@@ -174,7 +174,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                 Key Benefits of the First Digital NextGen Mastercard
               </h2>
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
               <p className="text-gray-700 mb-8 text-left">

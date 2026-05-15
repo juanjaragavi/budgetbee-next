@@ -29,7 +29,7 @@ export default function SirenCardRequirementsPage() {
                 SIREN Card Requirements & Application Process
               </h1>
               <div
-                id="av_content_1"
+                id="av_top"
                 className="items-center justify-center flex w-full my-8"
               ></div>
 
@@ -319,7 +319,7 @@ export default function SirenCardRequirementsPage() {
               </section>
 
               <div
-                id="av_content_2"
+                id="av_content_1"
                 className="items-center justify-center flex w-full my-8"
               ></div>
 

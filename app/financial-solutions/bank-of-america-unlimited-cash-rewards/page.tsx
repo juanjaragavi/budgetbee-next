@@ -26,7 +26,7 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
               Back on Every Purchase
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

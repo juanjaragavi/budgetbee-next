@@ -22,7 +22,7 @@ export default function TomoCreditCardBenefitsPage() {
               Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 

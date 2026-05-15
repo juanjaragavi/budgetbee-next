@@ -22,7 +22,7 @@ export default function AmazonRewardsVisaBenefitsPage() {
               Unlock the Benefits of the Amazon Rewards Visa Credit Card
             </h1>
             <div
-              id="av_content_1"
+              id="av_top"
               className="items-center justify-center flex w-full my-8"
             ></div>
 
